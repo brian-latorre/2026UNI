@@ -3,28 +3,28 @@
 # ============================================
 
 # === Datos de instancia Minecraft (por usuario, se regeneran) ===
-logs/
-crash-reports/
-saves/
-screenshots/
-.mixin.out/
-.cache/
-cache/
-fieldguide_cache/
-Distant_Horizons_server_data/
-modernfix/
+/logs/
+/crash-reports/
+/saves/
+/screenshots/
+/.mixin.out/
+/.cache/
+/cache/
+/fieldguide_cache/
+/Distant_Horizons_server_data/
+/modernfix/
 
 # === Datos personales de cada jugador ===
-xaero/
-XaeroWaypoints_BACKUP*/
-map exports/
-schematics/
-voicechat_recordings/
-profileImage/
-usercache.json
-usernamecache.json
-TrashSlotSaveState.json
-fabricloader.log
+/xaero/
+/XaeroWaypoints_BACKUP*/
+/map exports/
+/schematics/
+/voicechat_recordings/
+/profileImage/
+/usercache.json
+/usernamecache.json
+/TrashSlotSaveState.json
+/fabricloader.log
 
 # === Carpetas regenerables / irrelevantes ===
 /.connector/
