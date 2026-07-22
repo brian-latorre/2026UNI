@@ -7661,11 +7661,6 @@ file = "mods/moreculling-1.20.1-0.24.5$mixinsquared-fabric-0.1.1.jar"
 hash = "e37018cf661e8daef4a70b662142254855f4d0436bbed925db16c4b39cd60fe5"
 
 [[files]]
-file = "mods/mossylib.pw.toml"
-hash = "eeeeda8daad8274f38c47d7c59f1ffd616454dd7194610bce32bd5902a9d485e"
-metafile = true
-
-[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "e72f73611904e14d915418f0e3c6cb483cdc600e211375c2eceb393fec5b80f1"
 metafile = true
@@ -7723,11 +7718,6 @@ metafile = true
 [[files]]
 file = "mods/patchouli.pw.toml"
 hash = "b2cb681aaf3e6085148392a06d40899239dc299aaf5ce0adf168fc225d922c97"
-metafile = true
-
-[[files]]
-file = "mods/peaceful-harvest-and-blue-moons.pw.toml"
-hash = "94c8a1c349f17a44d19c1ad79a9f83557ff692623f57bab964137c2080d3d38e"
 metafile = true
 
 [[files]]
@@ -7916,11 +7906,6 @@ hash = "576f8242f3de93161c590067fda3f3e9e922c0aea8fb5fcfac5adcef0d9d4a34"
 metafile = true
 
 [[files]]
-file = "mods/skin-layers-3d.pw.toml"
-hash = "d8c4f47e178ba8551d665b000ab3b489ae7d28fe4ee868d8dfac722f24b19119"
-metafile = true
-
-[[files]]
 file = "mods/skinlayers3d-forge-1.11.1-mc1.20.1.jar"
 hash = "acedcb6d850a669f7f8e17919a36e87ff6d95461da32098cec730bc293e79d10"
 
@@ -7967,11 +7952,6 @@ metafile = true
 [[files]]
 file = "mods/structure-gel-api.pw.toml"
 hash = "5dfd5e42573659ad84a5d870082aae38aaa8469aba2655e5b2cb14de4ca4cbdd"
-metafile = true
-
-[[files]]
-file = "mods/subtle-effects.pw.toml"
-hash = "5ec35e15a5b2b68640d3c0d9dd06b79c9e84b95a0e714375f346dc05a70b2a89"
 metafile = true
 
 [[files]]
