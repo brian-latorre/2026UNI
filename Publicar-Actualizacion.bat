@@ -1,7 +1,6 @@
 @echo off
-chcp 65001 >nul
 color 0B
-title 2026UNI - Publicar ActualizaciÃ³n
+title 2026UNI - Publicar Actualizacion
 
 echo =======================================================
 echo   1-CLICK UPDATE: 2026UNI MODPACK
@@ -33,16 +32,16 @@ echo.
 echo Subiendo cambios a la nube...
 git add .
 git commit -m "%mensaje%"
-git push
+git push -u origin main
 if %errorlevel% neq 0 goto :error
 
 echo.
 color 0A
 echo =======================================================
-echo   Â¡Ã‰XITO! ACTUALIZACIÃ“N PUBLICADA
+echo   EXITO! ACTUALIZACION PUBLICADA
 echo =======================================================
-echo Tus amigos recibirÃ¡n estos cambios automÃ¡ticamente la
-echo prÃ³xima vez que abran el juego.
+echo Tus amigos recibiran estos cambios automaticamente la
+echo proxima vez que abran el juego.
 echo.
 pause
 exit
@@ -51,10 +50,10 @@ exit
 echo.
 color 0C
 echo =======================================================
-echo   ERROR DURANTE LA ACTUALIZACIÃ“N
+echo   ERROR DURANTE LA ACTUALIZACION
 echo =======================================================
-echo Algo fallÃ³ en los pasos anteriores. Revisa el texto de
-echo arriba para ver quÃ© pasÃ³.
+echo Algo fallo en los pasos anteriores. Revisa el texto de
+echo arriba para ver que paso.
 echo.
 pause
 exit

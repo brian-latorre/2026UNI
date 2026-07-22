@@ -10,7 +10,7 @@
 
 [CmdletBinding()]
 param(
-    [string]$PackDir = "$PSScriptRoot\..\pack",
+    [string]$PackDir = ".\pack",
     [switch]$Serve  # Si se pasa, inicia un servidor local para probar
 )
 
@@ -20,7 +20,7 @@ $ErrorActionPreference = "Stop"
 $packwiz = Get-Command packwiz -ErrorAction SilentlyContinue
 if (-not $packwiz) {
     # Buscar en tools/
-    $localPackwiz = Join-Path $PSScriptRoot "..\tools\packwiz.exe"
+    $localPackwiz = Join-Path $PWD "tools\packwiz.exe"
     if (Test-Path $localPackwiz) {
         $packwiz = @{ Source = $localPackwiz }
     }
@@ -35,7 +35,7 @@ $packwizPath = if ($packwiz.Source) { $packwiz.Source } else { $packwiz.Path }
 Write-Host "[INFO] Usando packwiz: $packwizPath" -ForegroundColor Cyan
 
 # === Validar directorio del pack ===
-$PackDir = Resolve-Path $PackDir -ErrorAction SilentlyContinue
+$PackDir = (Resolve-Path (Join-Path $PWD $PackDir) -ErrorAction SilentlyContinue).Path
 if (-not $PackDir -or -not (Test-Path (Join-Path $PackDir "pack.toml"))) {
     Write-Host "[ERROR] No se encontró pack.toml en: $PackDir" -ForegroundColor Red
     exit 1
