@@ -1,4 +1,4 @@
-﻿<#
+<#
 .SYNOPSIS
     Valida y refresca el pack de packwiz.
 .DESCRIPTION
@@ -43,13 +43,20 @@ if (-not $PackDir -or -not (Test-Path (Join-Path $PackDir "pack.toml"))) {
 
 Write-Host ""
 Write-Host "============================================" -ForegroundColor Cyan
-Write-Host "  Build del pack — 2026UNI" -ForegroundColor Cyan
+Write-Host "  Build del pack - 2026UNI" -ForegroundColor Cyan
 Write-Host "============================================" -ForegroundColor Cyan
 Write-Host "  Directorio: $PackDir" -ForegroundColor Gray
 Write-Host ""
 
+# === Resolver mods bloqueados de CurseForge ===
+Write-Host "[1/4] Resolviendo restricciones de CurseForge..." -ForegroundColor Green
+$fixScript = Join-Path $PSScriptRoot "fix-blocked-mods.ps1"
+if (Test-Path $fixScript) {
+    & $fixScript
+}
+
 # === Refresh ===
-Write-Host "[1/3] Refrescando index.toml..." -ForegroundColor Green
+Write-Host "[2/4] Refrescando index.toml..." -ForegroundColor Green
 Push-Location $PackDir
 try {
     & $packwizPath refresh
@@ -65,7 +72,7 @@ finally {
 
 # === Verificar ===
 Write-Host ""
-Write-Host "[2/3] Verificando consistencia..." -ForegroundColor Green
+Write-Host "[3/4] Verificando consistencia..." -ForegroundColor Green
 
 # Contar archivos .pw.toml (mods registrados)
 $modCount = (Get-ChildItem (Join-Path $PackDir "mods") -Filter "*.pw.toml" -ErrorAction SilentlyContinue | Measure-Object).Count
@@ -95,11 +102,11 @@ Write-Host "  Archivos override (configs):  $overrideCount" -ForegroundColor Whi
 
 # === Validar pack.toml ===
 Write-Host ""
-Write-Host "[3/3] Validando pack.toml..." -ForegroundColor Green
+Write-Host "[4/4] Validando pack.toml..." -ForegroundColor Green
 $packToml = Get-Content (Join-Path $PackDir "pack.toml") -Raw
 if ($packToml -match 'minecraft\s*=\s*"1\.20\.1"' -and $packToml -match 'forge\s*=\s*"47\.4\.\d+"') {
-    Write-Host "  Minecraft: 1.20.1 ✓" -ForegroundColor Green
-    Write-Host "  Forge: detectado ✓" -ForegroundColor Green
+    Write-Host "  Minecraft: 1.20.1 [OK]" -ForegroundColor Green
+    Write-Host "  Forge: detectado [OK]" -ForegroundColor Green
 }
 else {
     Write-Host "  [WARN] Versiones de Minecraft/Forge no coinciden con lo esperado" -ForegroundColor Yellow
