@@ -1,4 +1,4 @@
-﻿<#
+<#
 .SYNOPSIS
     Sincroniza las carpetas del pack desde tu instancia real de Minecraft a pack/.
 .DESCRIPTION
@@ -81,9 +81,16 @@ $SyncFiles = @(
 $ExcludePatterns = @(
     ".git",
     ".cache",
+    "cache",
+    "*cache*",
+    "url_texture_cache",
+    "username_cache.json",
     "*.log",
     "*.tmp",
-    "__pycache__"
+    "__pycache__",
+    ".DS_Store",
+    "Thumbs.db",
+    "desktop.ini"
 )
 
 # === Proceso de sincronización ===

@@ -1,0 +1,14 @@
+﻿# Ignorar caches específicos de mods
+emojiful/cache/
+otyacraftengine/url_texture_cache/
+config/voicechat/username_cache.json
+showdown/sim/cobblemon-cache.json
+
+# Ignorar archivos OS genéricos
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignorar otras posibles carpetas de caché
+*/cache/
+.cache/
