@@ -1,0 +1,13 @@
+name = "Miner's Moon"
+filename = "MinersMoon1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "da50c0705e7b53adc166bc564738b90d5c2f560d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7059131
+project-id = 1051270

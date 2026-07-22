@@ -1,0 +1,66 @@
+# ============================================
+# 2026UNI Modpack — .gitignore
+# ============================================
+
+# === Datos de instancia Minecraft (por usuario, se regeneran) ===
+logs/
+crash-reports/
+saves/
+screenshots/
+.mixin.out/
+.cache/
+cache/
+fieldguide_cache/
+Distant_Horizons_server_data/
+modernfix/
+
+# === Datos personales de cada jugador ===
+xaero/
+XaeroWaypoints_BACKUP*/
+map exports/
+schematics/
+voicechat_recordings/
+profileImage/
+usercache.json
+usernamecache.json
+TrashSlotSaveState.json
+fabricloader.log
+
+# === Carpetas regenerables / irrelevantes ===
+.connector/
+.lazyyyyy/
+skills/
+trainers/
+data/
+
+# === Archivos de trabajo (no pertenecen al pack) ===
+diff_output*.txt
+manifest.json
+Manual.pdf
+servers.dat_old
+
+# === Binarios redistribuibles (muy grandes para git) ===
+installer/redist/PrismLauncher/
+installer/redist/jre21/
+installer/redist/vc_redist.x64.exe
+installer/Output/
+
+# === Binarios de instance-template (descarga manual) ===
+instance-template/packwiz-installer-bootstrap.jar
+instance-template/.minecraft/servers.dat
+
+# === Archivos compilados / de salida ===
+*.exe
+
+# === OS / IDE ===
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.suo
+*.user
+*.nupkg

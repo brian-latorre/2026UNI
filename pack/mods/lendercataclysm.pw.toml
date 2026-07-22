@@ -1,0 +1,13 @@
+name = "L_Ender 's Cataclysm"
+filename = "L_Enders_Cataclysm-3.26-enchant-fix.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "50d2dc1ce05a1a1f3fc2533874883d0086228343"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7867528
+project-id = 551586

@@ -1,0 +1,13 @@
+name = "REPO Heads"
+filename = "repo-heads-forge-1.2.1+1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Jaoe8qGe/versions/i0ycqAoU/repo-heads-forge-1.2.1%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "ed91e98e6517c056320b22ea9491489f856aee856fec5e34c1592a8fa566bc8337042b2e08995d5d5a458f71cc48bde73a7438c42d7a8637d886df077cfabfff"
+
+[update]
+[update.modrinth]
+mod-id = "Jaoe8qGe"
+version = "i0ycqAoU"

@@ -1,0 +1,13 @@
+name = "Peaceful Harvest and Blue Moons"
+filename = "Safe-Moons-Replace.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2de086271f97f590569f4162245380e3fd50b620"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7034930
+project-id = 1351732

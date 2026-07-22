@@ -1,0 +1,28 @@
+﻿
+Tipo            Archivo                                                                                   Acción  
+----            -------                                                                                   ------  
+Basura (.input) moreculling-1.20.1-0.24.5$mixinsquared-fabric-0.1.1.jar.input                             Eliminar
+Basura (.input) chatsigninghider-fabric-1.20.1-1.0.5_mapped_srg_1.20.1.jar.input                          Eliminar
+Basura (.input) cicada-lib-0.14.3+1.20.1$snakeyaml-2.2_mapped_srg_1.20.1.jar.input                        Eliminar
+Basura (.input) cicada-lib-0.14.3+1.20.1_mapped_srg_1.20.1.jar.input                                      Eliminar
+Basura (.input) EmoteTweaks-4.0.3.37_mapped_srg_1.20.1.jar.input                                          Eliminar
+Basura (.input) fasterrandom-5.1.0_mapped_srg_1.20.1.jar.input                                            Eliminar
+Basura (.input) inmis-2.7.2-1.20.1$omega-config-base-1.2.3-1.18.1_mapped_srg_1.20.1.jar.input             Eliminar
+Basura (.input) inmis-2.7.2-1.20.1_mapped_srg_1.20.1.jar.input                                            Eliminar
+Basura (.input) inmisaddon-1.0.4_mapped_srg_1.20.1.jar.input                                              Eliminar
+Basura (.input) show-me-your-skin-1.9.0+1.20$cardinal-components-base-5.2.1_mapped_srg_1.20.1.jar.input   Eliminar
+Basura (.input) show-me-your-skin-1.9.0+1.20$cardinal-components-entity-5.2.1_mapped_srg_1.20.1.jar.input Eliminar
+Basura (.input) show-me-your-skin-1.9.0+1.20_mapped_srg_1.20.1.jar.input                                  Eliminar
+Basura (.input) ShowMeWhatYouGot-1.20-1.1.1_mapped_srg_1.20.1.jar.input                                   Eliminar
+Basura (.input) tiled-1.1.0-1.20.1_mapped_srg_1.20.1.jar.input                                            Eliminar
+Basura (.input) VanillaBackport-fabric-1.20.1-1.1.7.6_mapped_srg_1.20.1.jar.input                         Eliminar
+Basura (.input) cicada-lib-0.14.3+1.20.1$snakeyaml-2.2.jar.input                                          Eliminar
+Basura (.input) inmis-2.7.2-1.20.1$omega-config-base-1.2.3-1.18.1.jar.input                               Eliminar
+Basura (.input) moreculling-1.20.1-0.24.5$conditional-mixin-v0.3.2.jar.input                              Eliminar
+Basura (.input) show-me-your-skin-1.9.0+1.20$cardinal-components-base-5.2.1.jar.input                     Eliminar
+Basura (.input) show-me-your-skin-1.9.0+1.20$cardinal-components-entity-5.2.1.jar.input                   Eliminar
+Basura (.input) VanillaBackport-fabric-1.20.1-1.1.7.6$mixinsquared-fabric-0.1.1.jar.input                 Eliminar
+No es .jar      moreculling-1.20.1-0.24.5$mixinsquared-fabric-0.1.1.jar.input                             Revisar 
+
+
+

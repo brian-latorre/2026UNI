@@ -1,0 +1,13 @@
+name = "Chat Signing Hider"
+filename = "chatsigninghider-fabric-1.20.1-1.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "92fdcfd7957db82a37d035c121f96ae8a4139612"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5116951
+project-id = 687621

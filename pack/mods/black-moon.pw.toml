@@ -1,0 +1,13 @@
+name = "Black Moon"
+filename = "BlackMoon-1.20.1-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6d782ffd498fb0c47043ff0a1c05ca8a17f8dbeb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7059157
+project-id = 1062706

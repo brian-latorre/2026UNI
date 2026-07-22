@@ -1,0 +1,13 @@
+name = "Farmer's Delight Compat"
+filename = "Compat_FarmersDelight.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8033b3054b6d4e49e3d49b2277cf6e7c047835f1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6503505
+project-id = 1150298

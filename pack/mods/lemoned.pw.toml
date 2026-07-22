@@ -1,0 +1,13 @@
+name = "Lemoned (Farmer's Delight)"
+filename = "lemoned-1.0.1-1.20.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e2197a6f3bb8b15015109d0126c6567332ea6790"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5567318
+project-id = 970226

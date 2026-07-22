@@ -1,0 +1,93 @@
+# ============================================
+# 2026UNI — Publicar pack a GitHub Pages
+# ============================================
+# Se dispara en cada push a main que toque archivos del pack.
+# Publica el contenido de pack/ como sitio estático en GitHub Pages.
+
+name: Publicar Pack
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'pack/**'
+  
+  # Permitir ejecución manual desde la pestaña Actions
+  workflow_dispatch:
+
+# Permisos necesarios para GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Solo una publicación a la vez
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    name: Validar pack
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Instalar packwiz
+        run: |
+          # Descargar packwiz
+          PACKWIZ_VERSION=$(curl -s https://api.github.com/repos/packwiz/packwiz/releases/latest | grep tag_name | cut -d'"' -f4)
+          echo "Instalando packwiz $PACKWIZ_VERSION..."
+          
+          # Intentar descargar el binario de Linux
+          DOWNLOAD_URL="https://github.com/packwiz/packwiz/releases/download/${PACKWIZ_VERSION}/packwiz_${PACKWIZ_VERSION#v}_linux_amd64.tar.gz"
+          
+          curl -sL "$DOWNLOAD_URL" -o packwiz.tar.gz 2>/dev/null
+          
+          if [ -f packwiz.tar.gz ] && file packwiz.tar.gz | grep -q "gzip"; then
+            tar xzf packwiz.tar.gz
+            chmod +x packwiz
+            sudo mv packwiz /usr/local/bin/
+          else
+            # Fallback: instalar via Go
+            echo "Binario no disponible, instalando via Go..."
+            go install github.com/packwiz/packwiz@latest
+            echo "$(go env GOPATH)/bin" >> $GITHUB_PATH
+          fi
+
+      - name: Validar pack
+        working-directory: pack
+        run: |
+          echo "=== Validando pack.toml ==="
+          cat pack.toml
+          echo ""
+          echo "=== Refrescando index ==="
+          packwiz refresh
+          echo ""
+          echo "=== Verificando que no hay cambios sin commitear ==="
+          git diff --exit-code pack/ || echo "⚠️ index.toml necesita refresh — considera hacer commit del index actualizado"
+
+  deploy:
+    name: Publicar a GitHub Pages
+    needs: validate
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Subir artefacto de Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Publicar solo el contenido de pack/
+          path: 'pack'
+
+      - name: Desplegar a GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,13 @@
+name = "Accents"
+filename = "accents-forge-1.20.1-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4dbbb69d4dc2de5113be8a8038df65ebc4ce815a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7704375
+project-id = 1446887

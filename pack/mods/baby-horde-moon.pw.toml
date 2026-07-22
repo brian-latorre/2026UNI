@@ -1,0 +1,13 @@
+name = "Baby Horde Moon"
+filename = "Baby-Moon-Restored-1.20.1-2.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b12c1c069606f465b7caf386ee4cce83d0ffa0a2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7141900
+project-id = 1185284

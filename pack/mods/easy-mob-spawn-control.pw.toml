@@ -1,0 +1,13 @@
+name = "Easy Mob Spawn Control - spawn rate, mob cap, disable bad mobs"
+filename = "easy_mob_spawn_control-1.1.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4e3ab592871b5cca65c1fd574fb96d089a5d0bd7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8082201
+project-id = 1489509

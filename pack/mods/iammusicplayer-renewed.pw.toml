@@ -1,0 +1,13 @@
+name = "IamMusicPlayer Renewed"
+filename = "IMPR-Forge-3.23.3-1.20.1-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5369e95bf38ef08ea8b690c375df04d832dedae5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7775801
+project-id = 1199214
