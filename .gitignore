@@ -27,11 +27,11 @@ TrashSlotSaveState.json
 fabricloader.log
 
 # === Carpetas regenerables / irrelevantes ===
-.connector/
-.lazyyyyy/
-skills/
-trainers/
-data/
+/.connector/
+/.lazyyyyy/
+/skills/
+/trainers/
+/data/
 
 # === Archivos de trabajo (no pertenecen al pack) ===
 diff_output*.txt
