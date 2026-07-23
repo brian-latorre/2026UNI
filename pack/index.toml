@@ -1029,10 +1029,6 @@ file = "config/ironfurnaces-client.toml"
 hash = "247d43b063cc64be1c0075db509a67f3c185dcf66c0b013fda4453685d295ebe"
 
 [[files]]
-file = "config/ironfurnaces.toml"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "config/ixeris.toml"
 hash = "76b1a69b132e0e4b7c5330757e30ae0830ce02f9daa0ba2a023dc2a766181332"
 
@@ -1059,10 +1055,6 @@ hash = "0f8741d7df341a392305b1e28246b7a3f3641b9e29698331ba191e77ed01e648"
 [[files]]
 file = "config/jeed-client.toml"
 hash = "b444836f74e487bd1a4df35e31d38917a40a7d7afc111f9d348e95bada8ed6bf"
-
-[[files]]
-file = "config/jei/blacklist.cfg"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
@@ -1170,7 +1162,7 @@ hash = "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "c56bf070d8ad995d3782075c0994beead8ae87039f28228a282b917b8dbb0b74"
+hash = "c53862116262ee0100a428be53af0781ec14146658c787430a4e2838edc81006"
 
 [[files]]
 file = "config/mowziesmobs-client.toml"
@@ -1573,10 +1565,6 @@ file = "config/voicechat/translations.properties"
 hash = "693643b1d393cbb3ea7f062afc4474fcd66e4036c4f8d7c056434979cbf512d1"
 
 [[files]]
-file = "config/voicechat/username-cache.json"
-hash = "35d612c19bcb7d97e8f20f8e31a52b0013ec364e3456cd51c139b98ca7c7684e"
-
-[[files]]
 file = "config/voicechat/voicechat-client.properties"
 hash = "f34bec0a231e6ffda396bc269c4d5205ce2f2459c1d07c3fc84ede30eaac44fb"
 
@@ -1587,10 +1575,6 @@ hash = "aa8c8e804426760531e335268fc174782a9e8d4d740b6dd014711ede2e14a1d4"
 [[files]]
 file = "config/waterframes-client.toml"
 hash = "92b857b816295e0556a27fc7571cd135c05699fea099bfefe824b13898f1ea54"
-
-[[files]]
-file = "config/watermedia/custom_vlc_path.txt"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/watut-client.toml"
@@ -1701,16 +1685,16 @@ file = "config/xaerohud.txt"
 hash = "5a57ec4fd855faba1c1e4a3b75c32f453d2a5e1f417e0bd1c2d2dc236780f5ea"
 
 [[files]]
-file = "config/xaeropatreon.txt"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "dummy.txt"
 hash = "00f0ade13191b01ee235834396e1832653811a9182f303d40b8f3dc8ac06f88e"
 
 [[files]]
 file = "dummy_a5b8eb8.txt"
 hash = "bd40046cd346bb37b93f3c3bab5c7b5d12a002e3e7576beb7b3ffde18ed2b7f9"
+
+[[files]]
+file = "dummy_trigger2.txt"
+hash = "e920fd95dc72c1df7101ea2ffc3081735d9226ccf97d3f0d4f978eabbb1fa2f8"
 
 [[files]]
 file = "emotes/Back On 74.emotecraft"
@@ -9217,14 +9201,6 @@ hash = "cd0b813441a75018dd282c31e010df16e13326d8739f62da685f8cf009238b44"
 [[files]]
 file = "showdown/sim/cobbled-debug-server.js.map"
 hash = "a04066a90aad0653c3c5d4b24c05560724a128c2014e581a1f21251b63ebeb91"
-
-[[files]]
-file = "showdown/sim/cobblemon-cache.js"
-hash = "c61ff530ef16d3d2cc9f8c93dd53dfe66cc2f757d42dd2d7c22fc16740040040"
-
-[[files]]
-file = "showdown/sim/cobblemon-cache.js.map"
-hash = "95e8d3693f829e975609314fd22d1a25d22a29f93a2db7c8f0cdc721ef05d601"
 
 [[files]]
 file = "showdown/sim/dex-abilities.js"
