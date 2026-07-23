@@ -90,6 +90,10 @@ if (Test-Path $indexPath) {
     $utf8NoBom = New-Object System.Text.UTF8Encoding $False
     [System.IO.File]::WriteAllText($indexPath, $indexContent, $utf8NoBom)
     Write-Host "  OK (preserve = true aplicado)" -ForegroundColor Green
+    
+    Push-Location $PackDir
+    & $packwizPath refresh | Out-Null
+    Pop-Location
 }
 
 # === Verificar ===

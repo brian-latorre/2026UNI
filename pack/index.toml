@@ -1766,7 +1766,7 @@ file = "emotes/Gojo Walk.emotecraft"
 hash = "07181a5f897c3fe0b17ab0ec6bb6d007a2948f130dc8eb5f14a96a4bdcb5989b"
 
 [[files]]
-file = "emotes/Just Dance (Ð¢Ð°Ð½ÐµÑ†).emotecraft"
+file = "emotes/Just Dance (Танец).emotecraft"
 hash = "2707addc0b97bc0515575cc2e4bcf4173528baa8599df9a98414ad5b276da811"
 
 [[files]]
@@ -4726,7 +4726,7 @@ file = "emotes/Sans.emotecraft"
 hash = "b139451361a5b9a58bcf6e3b4faa5f3939fdd8e8b5056cc18011e9d7536fdc10"
 
 [[files]]
-file = "emotes/Stading here(ÑƒÐ´Ð°Ñ€Ñ‹)2.0.emotecraft"
+file = "emotes/Stading here(удары)2.0.emotecraft"
 hash = "df8a4e23f6eac072542d683b1c91095c4b3fe5bd119a1e56ca8984e1b5500b2e"
 
 [[files]]
@@ -4758,35 +4758,35 @@ file = "emotes/get griddy.emotecraft"
 hash = "c5a5d349ded5c6df81991b65dbed6de33ab706402254299b780fc7089de7bf03"
 
 [[files]]
-file = "emotes/Ð‘ÐµÐ³.emotecraft"
+file = "emotes/Бег.emotecraft"
 hash = "7529e7238d5011433571b041277abde1327bf4591e6977f890959083f6aba09e"
 
 [[files]]
-file = "emotes/Ð—ÐµÐ²Ð½ÑƒÑ‚ÑŒ.emotecraft"
+file = "emotes/Зевнуть.emotecraft"
 hash = "ee0906dd78013aabf8638b339f2ce8455a916989c283c85f254edda49a788bf6"
 
 [[files]]
-file = "emotes/Ð˜ÑÐ¿ÑƒÐ³Ð°Ñ‚ÑŒÑÑ.emotecraft"
+file = "emotes/Испугаться.emotecraft"
 hash = "6b7441fd89b9062da8300cfff1ac8459c1d7379de19f4833abed4c122f125457"
 
 [[files]]
-file = "emotes/ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¸ - Categories.zip"
+file = "emotes/Категории - Categories.zip"
 hash = "d28c34a37d4222530da53a7a5e9697867e13440ff93e6f0e95b4a008654c139a"
 
 [[files]]
-file = "emotes/Ð›ÐµÐ²Ð¸Ñ‚Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð² Ð½ÐµÐ±Ðµ.emotecraft"
+file = "emotes/Левитировать в небе.emotecraft"
 hash = "a949b1058d67b4e0b0a2de76c4daa63a73e3aea525b4856bd0c4b10b25ed9ee7"
 
 [[files]]
-file = "emotes/Ð Ð°ÑÐ¿Ð°ÑÑ‚ÑŒÑÑ Ð½Ð° Ñ‡Ð°ÑÑ‚Ð¸.emotecraft"
+file = "emotes/Распасться на части.emotecraft"
 hash = "f247a6a7f913071d6038bd5a3ecb2e4299d8b78a953fdc54a91ab688266d103c"
 
 [[files]]
-file = "emotes/Ð¢Ð²Ñ‘Ñ€Ðº (Ð¢Ð°Ð½ÐµÑ†).emotecraft"
+file = "emotes/Твёрк (Танец).emotecraft"
 hash = "fcde40c457cd2b57f35a9f85454e619d5fef4e4543ae0a7ce1e7d792213ad36d"
 
 [[files]]
-file = "emotes/å†²å‡».emotecraft"
+file = "emotes/冲击.emotecraft"
 hash = "d98776794fa5a1affa6de0704ebdbe9404da057cd09c83dfc35ec8a1f7d9dd7b"
 
 [[files]]
@@ -6414,12 +6414,11 @@ file = "shaderpacks/04-MakeUp-UltraFast-9.5a.zip"
 hash = "433e1edd5d1193ccf4f59c9202a00896820777e73ac10b109b8ee307847fc775"
 
 [[files]]
-file = "shaderpacks/04-Â§lE-LITE shaders 5.0.1.zip.txt"
+file = "shaderpacks/04-§lE-LITE shaders 5.0.1.zip.txt"
 hash = "2c9d024328f6f215a1b6663c5a39dc0aab0b7d1f40ecda50702d00a96c28df74"
-preserve = true
 
 [[files]]
-file = "shaderpacks/05-Â§lE-LITE shaders 5.0.1.zip"
+file = "shaderpacks/05-§lE-LITE shaders 5.0.1.zip"
 hash = "810bcf3035e4c13a60a29a541140580758737bd739994f0230e80c3df077a6e8"
 
 [[files]]
