@@ -1,4 +1,4 @@
-﻿; ============================================
+; ============================================
 ; 2026UNI Modpack â€” Instalador (Inno Setup)
 ; ============================================
 ; Requiere Inno Setup 6.0+
@@ -229,6 +229,8 @@ begin
     CfgContent := CfgContent + 'MaxMemAlloc=5120' + #13#10;
     CfgContent := CfgContent + #13#10;
     CfgContent := CfgContent + 'OverrideJavaArgs=true' + #13#10;
+    CfgContent := CfgContent + 'GarbageCollectorPreset=None' + #13#10;
+    CfgContent := CfgContent + 'UseOptimizedJvmArgs=false' + #13#10;
     CfgContent := CfgContent + 'JvmArgs=-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true' + #13#10;
 
     SaveStringToFile(InstanceCfgPath, CfgContent, False);
@@ -246,11 +248,10 @@ begin
     PrismContent := PrismContent + 'MaxMemAlloc=5120' + #13#10;
     PrismContent := PrismContent + 'MinMemAlloc=5120' + #13#10;
     PrismContent := PrismContent + 'LastHostname=2026UNI' + #13#10;
+    PrismContent := PrismContent + 'GarbageCollectorPreset=None' + #13#10;
+    PrismContent := PrismContent + 'UseOptimizedJvmArgs=false' + #13#10;
 
-    // Solo escribir si no existe (no sobreescribir configuraciÃ³n del usuario en reinstalaciÃ³n)
-    if not FileExists(PrismCfgPath) then
-    begin
-      SaveStringToFile(PrismCfgPath, PrismContent, False);
-    end;
+    // Siempre sobreescribir para garantizar que no queden configuraciones rotas
+    SaveStringToFile(PrismCfgPath, PrismContent, False);
   end;
 end;

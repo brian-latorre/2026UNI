@@ -1,6 +1,6 @@
 name = "alexs caves Delight ( Farmer's Delight & alexs caves Add-on)"
 filename = "alexs_caves_delight-1.0.0-forge-1.20.1.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/xAxyIEYU/versions/dK6AGAz9/alexs_caves_delight-1.0.0-forge-1.20.1.jar"
