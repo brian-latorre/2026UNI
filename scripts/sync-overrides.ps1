@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Sincroniza las carpetas del pack desde tu instancia real de Minecraft a pack/.
 .DESCRIPTION
