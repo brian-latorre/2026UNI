@@ -599,7 +599,7 @@ hash = "7dd7dc266613f18011a9a5ba624e50c35374ad2b39ea379231c3c44e7b2261b3"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "9d1b1e49079dd7cefccacc75f21d95493d65e155b24e605e2daeeffc8a674519"
+hash = "39d0028c2e72186ef3431754d70e425179b4f2f4be5842522ee8b6bebdc66ad5"
 
 [[files]]
 file = "config/collective.json5"
@@ -791,7 +791,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "dd56cd9d16998a598e99d29aa1ec9df69bb9100bdfef6940cd73fc1b501afdc2"
+hash = "ad04e3866b3e4e5e1419ac73a980ac969ce2f5ba6061c55c494c1b326ba3a76b"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1215,7 +1215,7 @@ hash = "dceda831a1a2585df3fb5f3baae348eb43a7179ced0609a8a47869dfb0243d71"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "fc5a4c856a0e2269977bfa1923645671e7e6a5370e60b6a5d2d9e9aea15ceb52"
+hash = "163de80f7ad1ce0918af560d9b6a1bc1dee79d577e00d950ed442d560498d6ee"
 
 [[files]]
 file = "config/otyacraftengine/client.toml"
@@ -1267,7 +1267,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "49df785ce63047a292d123d635ba58c5abaa3e6bb7aaa7dde14ee1cfa4b59bba"
+hash = "5a6253e9e31bd6767c01da2b924e0bfa2306971ca915abbe72beca8b15ad8a87"
 
 [[files]]
 file = "config/prettyrain.json5"
@@ -5198,7 +5198,7 @@ metafile = true
 
 [[files]]
 file = "mods/default-options.pw.toml"
-hash = "91e64b2bf3b7011473fc138e5e93686233622fb0188bbf1d1113abadac5e42d7"
+hash = "6311134242af3f639923e825caea40821c7e7ee7caadf4105234f5d7fa44ec8b"
 metafile = true
 
 [[files]]
@@ -5708,6 +5708,11 @@ file = "mods/modtoggler-1.0.0.jar"
 hash = "cd846b5690a8f57f5c015788d2879757361034c8425c1bcaa6300fc20eb1d5ee"
 
 [[files]]
+file = "mods/more-curios-slots.pw.toml"
+hash = "0fab86581341c910d0874781a4c72970b3846ae169a73dbc9db2799480be00c8"
+metafile = true
+
+[[files]]
 file = "mods/more-delight-forge.pw.toml"
 hash = "8d8aeaa4488cfd9bd37992e51e78c0bb23f1871c65c63d413e8e36788abee6f5"
 metafile = true
@@ -6063,6 +6068,11 @@ metafile = true
 [[files]]
 file = "mods/travelers-titles.pw.toml"
 hash = "dec5a52502d55acaa36a0b3f21a533a43e392e5bfd7e9053bed347e8dba8b8bc"
+metafile = true
+
+[[files]]
+file = "mods/true-ending.pw.toml"
+hash = "171f4c4e48ec408e9bcc6f60751da7a549d04f8e0df2d9375b48ee84fe3387ef"
 metafile = true
 
 [[files]]

@@ -19,6 +19,11 @@ powershell.exe -ExecutionPolicy Bypass -File ".\scripts\sync-overrides.ps1"
 if %errorlevel% neq 0 goto :error
 
 echo.
+echo [PASO 1.5] Auto-detectando nuevos mods locales...
+python ".\scripts\auto-import-mods.py"
+if %errorlevel% neq 0 goto :error
+
+echo.
 echo [PASO 2] Construyendo y validando el pack...
 powershell.exe -ExecutionPolicy Bypass -File ".\scripts\build-pack.ps1"
 if %errorlevel% neq 0 goto :error
