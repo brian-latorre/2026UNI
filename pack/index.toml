@@ -11,6 +11,7 @@ hash = "d86beab1176c367beeed3b8fb8a2a8dfbd8a1db7293f067c01bc38c73020e398"
 [[files]]
 file = "config/DistantHorizons.toml"
 hash = "e510142a8f46449a154a1002d6f02bd0da17498126b7a1d2ffa660a073c96ecf"
+preserve = true
 
 [[files]]
 file = "config/MouseTweaks.cfg"
@@ -578,7 +579,7 @@ hash = "de5bb1061dcd48c3378f6849658940a465c3e094e5d6c342c5f73ea984da2a8b"
 
 [[files]]
 file = "config/chloride-client.json"
-hash = "1dca3485a3654c0744ed986bc31d46f8e046f333c2c553cd6041ebc39d02c722"
+hash = "71b9faee777b6fe12d0116631ed4f74430a8d70701e0e4dddd144b0e927713e4"
 
 [[files]]
 file = "config/chunkloaders-common.toml"
@@ -598,7 +599,7 @@ hash = "7dd7dc266613f18011a9a5ba624e50c35374ad2b39ea379231c3c44e7b2261b3"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "39d0028c2e72186ef3431754d70e425179b4f2f4be5842522ee8b6bebdc66ad5"
+hash = "9d1b1e49079dd7cefccacc75f21d95493d65e155b24e605e2daeeffc8a674519"
 
 [[files]]
 file = "config/collective.json5"
@@ -682,7 +683,19 @@ hash = "f676f89ded588888f7b45802271683cd0a2dfb7a02d437b0dfb683cef5767ba7"
 
 [[files]]
 file = "config/defaultoptions-common.toml"
-hash = "3c6307abe209aeab5c7ae65e011e1460d59826bde479b284c297f876cbb07355"
+hash = "30f1538c036abc68ea34e53ad0f5bb7df00c723e0c5fb3ad25c644884f1802de"
+
+[[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "4585c29d9fcaad6eaeb15264be84328a462f2fe98303da74591139bbde665ffd"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "26c5b52abcd33aa8fdc6f199d98a13b8b85a02b1451fecd196846c9a6467b682"
+
+[[files]]
+file = "config/defaultoptions/servers.dat"
+hash = "5b27110c287d1ef1c486a86b736b736ddb45623b0329dfda7eae9632c197fedb"
 
 [[files]]
 file = "config/delightful-common.toml"
@@ -730,7 +743,7 @@ hash = "e3bbedc636a78386ea099047dba9f70d2aad423e70b104914f99d3e74f6e0103"
 
 [[files]]
 file = "config/emotecraft.json"
-hash = "3b97e078e9ec7098f8c85394ca788d201e98f6e1b0615dc7b5888c16a1821931"
+hash = "23dcf65e07ac878cf5c4a76a13ba28e4c7e57bbff6d208a238e1818ba774facc"
 
 [[files]]
 file = "config/emotecraft_emote_map.json"
@@ -774,11 +787,11 @@ hash = "1344a5f2292b2805368a6ee5fc53d661febb1f0a13bd27bf9a3d65fafa7f837b"
 
 [[files]]
 file = "config/extrasounds.json"
-hash = "764b1720967b62495fb809a1c7b050e07247cb32af2c15ab9efcb35add1e9f50"
+hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "4c1e95e55caf5d0ab08aa31f01ec78e87c9bb47b0a5a791e7363255a1e2d0681"
+hash = "e0ef5c778778fc4c2bba6fecc9d35f0e55d013a01f72822219e8d1292897f53a"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -845,6 +858,14 @@ file = "config/fancymenu/assets/transparentbackground.png"
 hash = "f051442a483c4b14b80ba3e807fc16d66fbd2662e5e06b897a2e41c46ab358ba"
 
 [[files]]
+file = "config/fancymenu/assets/uni-logo.png"
+hash = "cd293778669f3e0c6db26e1fe6818aa2471d0911e01b5f742a890a917770ccf2"
+
+[[files]]
+file = "config/fancymenu/assets/uni.png"
+hash = "cfb355e98d2450e97e4d01fef92651fd72ab70dcf42f88cb648dcaa4ac199ce6"
+
+[[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
 hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
@@ -853,8 +874,12 @@ file = "config/fancymenu/customizablemenus.txt"
 hash = "a474ea7af5a5f1e5b18ebf6838cf75db9fbad4227460e4572f2bfd9838d276d9"
 
 [[files]]
+file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
+hash = "cd46936491070457669dedb302ccae1f23fd2ec85d157bed12aa8904cca21ad6"
+
+[[files]]
 file = "config/fancymenu/customization/mainmenu.txt"
-hash = "8a426e5f92fa2176e72ba761c676c2ff77e2fc92e71938220c5590a9c478a2ca"
+hash = "26b1196f7359408352718dc3f96b4ff47e3b17bd443238c086d3a22308eb34bd"
 
 [[files]]
 file = "config/fancymenu/fonts/Cinzel-VariableFont_wght.ttf"
@@ -870,7 +895,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "87ad8658a6b5ee62088ac2be8ad339fd5332da99787cc034af21927217bd4463"
+hash = "ffc2a7f955f4f23d74ba330637271498d5ce8ca48b7e9d71fc729605b7c0af5d"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -1061,8 +1086,12 @@ file = "config/jeed-client.toml"
 hash = "b444836f74e487bd1a4df35e31d38917a40a7d7afc111f9d348e95bada8ed6bf"
 
 [[files]]
+file = "config/jei/blacklist.cfg"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "4f843f1c4ac58fa30e22f10e8a5945f51d9c7bfb300692c8eb7f655bd1a23c57"
+hash = "6a66f1005f88c549fc7cb9f1247752dc5b88978ca71eab49ad63a9faaa17bd12"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1186,7 +1215,7 @@ hash = "dceda831a1a2585df3fb5f3baae348eb43a7179ced0609a8a47869dfb0243d71"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "b9e0939c9625e63eb7362969994cc2499c7da82262376578b9e7787481b2bd2e"
+hash = "421a59d8897a41e16de35bfea6bcbc5f65f4593f436ef018d2b73bf47a71ed4a"
 
 [[files]]
 file = "config/otyacraftengine/client.toml"
@@ -1238,7 +1267,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "84736c56c9bd3d07273279b128bd9eb11a825b7ec1a7ea1e2f1b64d607e030d3"
+hash = "d0841745b1c206f25128bcd7271d363a39958201d90edc4528203df8244e0c71"
 
 [[files]]
 file = "config/prettyrain.json5"
@@ -1330,7 +1359,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "df865330c768f9f8536d064886dba384b6442a6ebab36e807db0df48a4f0fab8"
+hash = "9cf6ba4c69698d2917c59d296b16fe334723ce0d41584599029bef7426ad7967"
 
 [[files]]
 file = "config/simplehats.json"
@@ -1737,7 +1766,7 @@ file = "emotes/Gojo Walk.emotecraft"
 hash = "07181a5f897c3fe0b17ab0ec6bb6d007a2948f130dc8eb5f14a96a4bdcb5989b"
 
 [[files]]
-file = "emotes/Just Dance (Танец).emotecraft"
+file = "emotes/Just Dance (Ð¢Ð°Ð½ÐµÑ†).emotecraft"
 hash = "2707addc0b97bc0515575cc2e4bcf4173528baa8599df9a98414ad5b276da811"
 
 [[files]]
@@ -4697,7 +4726,7 @@ file = "emotes/Sans.emotecraft"
 hash = "b139451361a5b9a58bcf6e3b4faa5f3939fdd8e8b5056cc18011e9d7536fdc10"
 
 [[files]]
-file = "emotes/Stading here(удары)2.0.emotecraft"
+file = "emotes/Stading here(ÑƒÐ´Ð°Ñ€Ñ‹)2.0.emotecraft"
 hash = "df8a4e23f6eac072542d683b1c91095c4b3fe5bd119a1e56ca8984e1b5500b2e"
 
 [[files]]
@@ -4729,35 +4758,35 @@ file = "emotes/get griddy.emotecraft"
 hash = "c5a5d349ded5c6df81991b65dbed6de33ab706402254299b780fc7089de7bf03"
 
 [[files]]
-file = "emotes/Бег.emotecraft"
+file = "emotes/Ð‘ÐµÐ³.emotecraft"
 hash = "7529e7238d5011433571b041277abde1327bf4591e6977f890959083f6aba09e"
 
 [[files]]
-file = "emotes/Зевнуть.emotecraft"
+file = "emotes/Ð—ÐµÐ²Ð½ÑƒÑ‚ÑŒ.emotecraft"
 hash = "ee0906dd78013aabf8638b339f2ce8455a916989c283c85f254edda49a788bf6"
 
 [[files]]
-file = "emotes/Испугаться.emotecraft"
+file = "emotes/Ð˜ÑÐ¿ÑƒÐ³Ð°Ñ‚ÑŒÑÑ.emotecraft"
 hash = "6b7441fd89b9062da8300cfff1ac8459c1d7379de19f4833abed4c122f125457"
 
 [[files]]
-file = "emotes/Категории - Categories.zip"
+file = "emotes/ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¸ - Categories.zip"
 hash = "d28c34a37d4222530da53a7a5e9697867e13440ff93e6f0e95b4a008654c139a"
 
 [[files]]
-file = "emotes/Левитировать в небе.emotecraft"
+file = "emotes/Ð›ÐµÐ²Ð¸Ñ‚Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð² Ð½ÐµÐ±Ðµ.emotecraft"
 hash = "a949b1058d67b4e0b0a2de76c4daa63a73e3aea525b4856bd0c4b10b25ed9ee7"
 
 [[files]]
-file = "emotes/Распасться на части.emotecraft"
+file = "emotes/Ð Ð°ÑÐ¿Ð°ÑÑ‚ÑŒÑÑ Ð½Ð° Ñ‡Ð°ÑÑ‚Ð¸.emotecraft"
 hash = "f247a6a7f913071d6038bd5a3ecb2e4299d8b78a953fdc54a91ab688266d103c"
 
 [[files]]
-file = "emotes/Твёрк (Танец).emotecraft"
+file = "emotes/Ð¢Ð²Ñ‘Ñ€Ðº (Ð¢Ð°Ð½ÐµÑ†).emotecraft"
 hash = "fcde40c457cd2b57f35a9f85454e619d5fef4e4543ae0a7ce1e7d792213ad36d"
 
 [[files]]
-file = "emotes/冲击.emotecraft"
+file = "emotes/å†²å‡».emotecraft"
 hash = "d98776794fa5a1affa6de0704ebdbe9404da057cd09c83dfc35ec8a1f7d9dd7b"
 
 [[files]]
@@ -4777,6 +4806,10 @@ file = "fancymenu_data/buddy/buddy_leveling_MmY5MmFmMzAtY2NlYy00NzZmLWFiYzYtNDk3
 hash = "c79892b2e4d4e3d88bf708dd43000ede9759728a1f612d58acc26b7d984f8b50"
 
 [[files]]
+file = "fancymenu_data/buddy/buddy_leveling_YTM5MjIzZTAtM2QyOC00ZmIyLTllYTAtYmY2ZWZhODM3ZTAzLTE3ODQ4MzE2MzY0ODQ.json"
+hash = "c79892b2e4d4e3d88bf708dd43000ede9759728a1f612d58acc26b7d984f8b50"
+
+[[files]]
 file = "fancymenu_data/buddy/buddy_leveling_ZGUyNGY3MDEtMDQ2Zi00OGMyLThiNjEtMWI4M2E5YzBmNTg3LTE3Nzk5MTA4OTI5Nzc.json"
 hash = "84e5d4020b78e6eed24aa7d79d872eeefccccdef3ac9dbe4e585e6ef165efb6a"
 
@@ -4785,12 +4818,16 @@ file = "fancymenu_data/buddy/buddy_save_MmY5MmFmMzAtY2NlYy00NzZmLWFiYzYtNDk3NmFk
 hash = "2adb3a142cadeb3221650a226daffcb5ea125281c02ec5d389f4c052b56ed202"
 
 [[files]]
+file = "fancymenu_data/buddy/buddy_save_YTM5MjIzZTAtM2QyOC00ZmIyLTllYTAtYmY2ZWZhODM3ZTAzLTE3ODQ4MzE2MzY0ODQ.json"
+hash = "2adb3a142cadeb3221650a226daffcb5ea125281c02ec5d389f4c052b56ed202"
+
+[[files]]
 file = "fancymenu_data/buddy/buddy_save_ZGUyNGY3MDEtMDQ2Zi00OGMyLThiNjEtMWI4M2E5YzBmNTg3LTE3Nzk5MTA4OTI5Nzc.json"
 hash = "6db2897ba1a15afb51ae14050bdde39e91f2236b178c1162f2fdd657ec38960b"
 
 [[files]]
 file = "fancymenu_data/last_world.fmdata"
-hash = "d7e920b58dfe8f2b220df80ef0e6ed8724c6882973ed581be36e054ac676e367"
+hash = "80f420829c2b9450c03767f22bc65ccebd0e0409c507130a996faac96ec31083"
 
 [[files]]
 file = "mods/.gitkeep"
@@ -6099,10 +6136,6 @@ hash = "72e1a205fcb059200604689d3a5765a2e314df5216d25b3e5cc48fe407df6356"
 metafile = true
 
 [[files]]
-file = "options.txt"
-hash = "f550d1f4d67bd9305d742d07fe8d57f0662c019e8b5b00995dac297015efe1f7"
-
-[[files]]
 file = "otyacraftengine/url_textures_index.json"
 hash = "e14ed094767c534e974a5fd66ef9231b4b08002e99ced32b83c9af89e4744180"
 
@@ -6361,6 +6394,7 @@ hash = "24a20634a7832d422d3cd5023be16829f26840e25c69404dd418306ea79f63f0"
 [[files]]
 file = "shaderpacks/01-ComplementaryReimagined_r5.7.1.zip.txt"
 hash = "0e7244e95aacf57583ff22724ba8bd4bb172f263cb741000d63043c46d2e2ddf"
+preserve = true
 
 [[files]]
 file = "shaderpacks/02-Aurora Fantasy.5.2.zip"
@@ -6369,6 +6403,7 @@ hash = "0d537b5d877957674354c5e5737b48394999f0a338d80b3dff01f80da0b151a3"
 [[files]]
 file = "shaderpacks/02-Aurora Fantasy.5.2.zip.txt"
 hash = "d80d11a67783f5c19eac273996ff9df83ebc1256072780275e41d83bfc43ecce"
+preserve = true
 
 [[files]]
 file = "shaderpacks/03-superDuperVanilla.zip"
@@ -6379,11 +6414,12 @@ file = "shaderpacks/04-MakeUp-UltraFast-9.5a.zip"
 hash = "433e1edd5d1193ccf4f59c9202a00896820777e73ac10b109b8ee307847fc775"
 
 [[files]]
-file = "shaderpacks/04-§lE-LITE shaders 5.0.1.zip.txt"
+file = "shaderpacks/04-Â§lE-LITE shaders 5.0.1.zip.txt"
 hash = "2c9d024328f6f215a1b6663c5a39dc0aab0b7d1f40ecda50702d00a96c28df74"
+preserve = true
 
 [[files]]
-file = "shaderpacks/05-§lE-LITE shaders 5.0.1.zip"
+file = "shaderpacks/05-Â§lE-LITE shaders 5.0.1.zip"
 hash = "810bcf3035e4c13a60a29a541140580758737bd739994f0230e80c3df077a6e8"
 
 [[files]]
@@ -6401,6 +6437,7 @@ hash = "65a522ad2fc1606d28f6e221ba316ede38abd6ddf2af5f8e9eb4437cebf11676"
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.6.1.txt"
 hash = "1bc2beb5207f1dedc403cb6029aff19ebb956bd71ba600120fc96babe9e777fa"
+preserve = true
 
 [[files]]
 file = "showdown/config/config-example.js"
@@ -9769,6 +9806,10 @@ hash = "e509d753efb6e5ff94c0386a0fbdc8101bf8b5ba26c4c103fc54ea7a61fc145d"
 [[files]]
 file = "showdown/translations/turkish/main.js.map"
 hash = "753ecca6317b1ba43260b7300c7dc8d9a1b034a31b2ec9856ca19846ddb88c8b"
+
+[[files]]
+file = "test_preserve.txt"
+hash = "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08"
 
 [[files]]
 file = "trigger.txt"

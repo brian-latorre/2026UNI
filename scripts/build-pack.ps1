@@ -70,6 +70,28 @@ finally {
     Pop-Location
 }
 
+# === Aplicar preserve a configs del jugador ===
+Write-Host "[2.5/4] Protegiendo configs del jugador..." -ForegroundColor Green
+$indexPath = Join-Path $PackDir "index.toml"
+if (Test-Path $indexPath) {
+    $indexContent = Get-Content $indexPath -Raw
+    
+    $preservePatterns = @(
+        'file = "options\.txt"',
+        'file = "config/DistantHorizons\.toml"',
+        'file = "shaderpacks/.*?\.txt"'
+    )
+    
+    foreach ($pattern in $preservePatterns) {
+        $regex = "(?m)($pattern\r?\n\s*hash = `".*?`")(\r?\n\s*preserve = true)*"
+        $indexContent = $indexContent -replace $regex, "`$1`r`npreserve = true"
+    }
+    
+    $utf8NoBom = New-Object System.Text.UTF8Encoding $False
+    [System.IO.File]::WriteAllText($indexPath, $indexContent, $utf8NoBom)
+    Write-Host "  OK (preserve = true aplicado)" -ForegroundColor Green
+}
+
 # === Verificar ===
 Write-Host ""
 Write-Host "[3/4] Verificando consistencia..." -ForegroundColor Green

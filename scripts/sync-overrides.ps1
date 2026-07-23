@@ -73,7 +73,6 @@ $SyncFolders = @(
 
 # === Archivos individuales a sincronizar ===
 $SyncFiles = @(
-    "options.txt",
     "patchouli_data.json"
 )
 
