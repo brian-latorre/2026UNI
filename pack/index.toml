@@ -791,7 +791,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "e0ef5c778778fc4c2bba6fecc9d35f0e55d013a01f72822219e8d1292897f53a"
+hash = "dd56cd9d16998a598e99d29aa1ec9df69bb9100bdfef6940cd73fc1b501afdc2"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -875,11 +875,11 @@ hash = "a474ea7af5a5f1e5b18ebf6838cf75db9fbad4227460e4572f2bfd9838d276d9"
 
 [[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
-hash = "cd46936491070457669dedb302ccae1f23fd2ec85d157bed12aa8904cca21ad6"
+hash = "5f99b46eb853e161fe0d0a5db02e91f9f9624ecc1548e51fb065a8dbccb06f12"
 
 [[files]]
 file = "config/fancymenu/customization/mainmenu.txt"
-hash = "26b1196f7359408352718dc3f96b4ff47e3b17bd443238c086d3a22308eb34bd"
+hash = "35606b78d76f3bbb12ea79edd9d7a9a3fa87019d96f2019839c226cf1a37f2e9"
 
 [[files]]
 file = "config/fancymenu/fonts/Cinzel-VariableFont_wght.ttf"
@@ -1215,7 +1215,7 @@ hash = "dceda831a1a2585df3fb5f3baae348eb43a7179ced0609a8a47869dfb0243d71"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "421a59d8897a41e16de35bfea6bcbc5f65f4593f436ef018d2b73bf47a71ed4a"
+hash = "fc5a4c856a0e2269977bfa1923645671e7e6a5370e60b6a5d2d9e9aea15ceb52"
 
 [[files]]
 file = "config/otyacraftengine/client.toml"
@@ -1267,7 +1267,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "d0841745b1c206f25128bcd7271d363a39958201d90edc4528203df8244e0c71"
+hash = "49df785ce63047a292d123d635ba58c5abaa3e6bb7aaa7dde14ee1cfa4b59bba"
 
 [[files]]
 file = "config/prettyrain.json5"
@@ -1359,7 +1359,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "9cf6ba4c69698d2917c59d296b16fe334723ce0d41584599029bef7426ad7967"
+hash = "422d5b1db9634644d79e5a55025b03e80719515b0b30b2e54a1efae7c6a4213f"
 
 [[files]]
 file = "config/simplehats.json"
@@ -4819,11 +4819,11 @@ hash = "2adb3a142cadeb3221650a226daffcb5ea125281c02ec5d389f4c052b56ed202"
 
 [[files]]
 file = "fancymenu_data/buddy/buddy_save_YTM5MjIzZTAtM2QyOC00ZmIyLTllYTAtYmY2ZWZhODM3ZTAzLTE3ODQ4MzE2MzY0ODQ.json"
-hash = "2adb3a142cadeb3221650a226daffcb5ea125281c02ec5d389f4c052b56ed202"
+hash = "358d0bfeaa7416a29c0b1d9d80471d9c1f2b55ffcc5d521ee8db10e1595c417e"
 
 [[files]]
 file = "fancymenu_data/buddy/buddy_save_ZGUyNGY3MDEtMDQ2Zi00OGMyLThiNjEtMWI4M2E5YzBmNTg3LTE3Nzk5MTA4OTI5Nzc.json"
-hash = "6db2897ba1a15afb51ae14050bdde39e91f2236b178c1162f2fdd657ec38960b"
+hash = "8b61dbf8ec831c65184dd645829ca6d62478c8bbbf61a6e689d08290a2945a75"
 
 [[files]]
 file = "fancymenu_data/last_world.fmdata"
