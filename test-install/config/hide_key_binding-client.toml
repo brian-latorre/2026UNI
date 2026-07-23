@@ -1,4 +1,0 @@
-#Key bindings listed here will be hidden from the key bindings menu.
-#Use this to hide key bindings that are not used by the player.
-hide_key_bindings = ["key.voice_chat_toggle_recording", "key.emotecraft.stop", "key.easy_mob_spawn_control.openmobcrontrolscreen", "key.showmeyourskin.global_toggle", "accessories.key.open_accessories_screen", "key.curios.open.desc", "key.voice_chat_adjust_volumes"]
-

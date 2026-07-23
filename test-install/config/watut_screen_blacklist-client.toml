@@ -1,5 +1,0 @@
-#List of screen names or packages to blacklist, example: ["com.modid.ScreenName", "com.modid.screens"]
-screensBlacklist = ["io.github.kosmx.emotes.arch.gui.screen.ingame.FastChosseScreen", "net.minecraftforge.client.gui.ModListScrean"]
-#If true, prints opened screen name to identify it.
-printScreenName = false
-
