@@ -1,0 +1,39 @@
+
+Requires Entity Model Features and Entity Texture Features
+
+Improved:
+- custom idle animation
+- custom head yaw and pitch animations
+- custom running animations (default speed)
+- custom sprinting animations
+- custom swimming animation
+- custom sneaking animations
+- custom prone animations
+- custom sitting/riding state
+- custom elytra gliding animations
+- custom attack/interact animation
+- smooth transitions between animations when items are equipped or used
+
+Added:
+- walking animations (slower speeds)
+- crawling state and animations
+- climbing state and animations
+- wading animation (walking in shallow water & lava)
+- jumping, falling and landing animations
+- treading water animations (default state in water)
+- swim upwards animation
+- sleeping animation
+- first person hand animations
+- cape animations
+- elytra animations
+- locking rotation when climbing ladders
+- backwards walking, running, sneaking, crawling, water treading
+- strafing animations for walking, running, sneaking
+- tilting/leaning
+
+Early Access, Experimental:
+- custom shield blocking animations
+- item equip and hotbar slot switch animations
+- armour equipped states
+- eating/drinking animation
+- primitive turning animations
