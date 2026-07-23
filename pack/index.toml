@@ -1705,6 +1705,14 @@ file = "config/xaeropatreon.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "dummy.txt"
+hash = "00f0ade13191b01ee235834396e1832653811a9182f303d40b8f3dc8ac06f88e"
+
+[[files]]
+file = "dummy_a5b8eb8.txt"
+hash = "bd40046cd346bb37b93f3c3bab5c7b5d12a002e3e7576beb7b3ffde18ed2b7f9"
+
+[[files]]
 file = "emotes/Back On 74.emotecraft"
 hash = "6f84325034eedc9729fc8debca879c78d6c208f0a997c6f7454bb09c7352f295"
 
@@ -4834,11 +4842,6 @@ metafile = true
 [[files]]
 file = "mods/advancement-plaques.pw.toml"
 hash = "f131905d113ba9dd127abf3c9f897aaf4ecf59657c415752533893d44cb584df"
-metafile = true
-
-[[files]]
-file = "mods/alexs-caves-delight-(-farmers-delight-alexs-caves-add-on).pw.toml"
-hash = "dff3f00dc060bdec026b6021aeddc4ef186d0bd6e9cf50720b4ab6fbfc8c3400"
 metafile = true
 
 [[files]]
