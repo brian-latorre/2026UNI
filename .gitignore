@@ -64,3 +64,9 @@ desktop.ini
 *.suo
 *.user
 *.nupkg
+ 
+# === Caches específicos ===
+pack/emojiful/cache/
+pack/otyacraftengine/url_texture_cache/
+*cache*/
+

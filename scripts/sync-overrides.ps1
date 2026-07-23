@@ -78,16 +78,20 @@ $SyncFiles = @(
 )
 
 # === Carpetas a EXCLUIR siempre (dentro de las carpetas sincronizadas) ===
-$ExcludePatterns = @(
+$ExcludeDirs = @(
     ".git",
     ".cache",
     "cache",
     "*cache*",
     "url_texture_cache",
+    "__pycache__"
+)
+
+# === Archivos a EXCLUIR siempre ===
+$ExcludeFiles = @(
     "username_cache.json",
     "*.log",
     "*.tmp",
-    "__pycache__",
     ".DS_Store",
     "Thumbs.db",
     "desktop.ini"
@@ -137,10 +141,10 @@ foreach ($folder in $SyncFolders) {
         )
         
         # Agregar exclusiones
-        foreach ($pattern in $ExcludePatterns) {
-            $robocopyArgs += "/XF"
-            $robocopyArgs += $pattern
-        }
+        $robocopyArgs += "/XD"
+        $robocopyArgs += $ExcludeDirs
+        $robocopyArgs += "/XF"
+        $robocopyArgs += $ExcludeFiles
         
         & robocopy @robocopyArgs | Out-Null
         

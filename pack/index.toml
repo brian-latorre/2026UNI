@@ -598,7 +598,7 @@ hash = "7dd7dc266613f18011a9a5ba624e50c35374ad2b39ea379231c3c44e7b2261b3"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "39d0028c2e72186ef3431754d70e425179b4f2f4be5842522ee8b6bebdc66ad5"
+hash = "9d1b1e49079dd7cefccacc75f21d95493d65e155b24e605e2daeeffc8a674519"
 
 [[files]]
 file = "config/collective.json5"
@@ -778,7 +778,7 @@ hash = "764b1720967b62495fb809a1c7b050e07247cb32af2c15ab9efcb35add1e9f50"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "5e25530b8755a8e2d24c444e2c59e7cf361904b329b1e1ae426dc735cdda82a0"
+hash = "60d75a65e7c6237862c746ba6a165cb002c8226f6591ccb36bf13362cdd50aeb"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1029,6 +1029,10 @@ file = "config/ironfurnaces-client.toml"
 hash = "247d43b063cc64be1c0075db509a67f3c185dcf66c0b013fda4453685d295ebe"
 
 [[files]]
+file = "config/ironfurnaces.toml"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "config/ixeris.toml"
 hash = "76b1a69b132e0e4b7c5330757e30ae0830ce02f9daa0ba2a023dc2a766181332"
 
@@ -1162,7 +1166,7 @@ hash = "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "c53862116262ee0100a428be53af0781ec14146658c787430a4e2838edc81006"
+hash = "3553628f1b539f859fbe7c06e482cfec74ab66b1214bb0f713902f317b6f8fb7"
 
 [[files]]
 file = "config/mowziesmobs-client.toml"
@@ -1182,7 +1186,7 @@ hash = "dceda831a1a2585df3fb5f3baae348eb43a7179ced0609a8a47869dfb0243d71"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "85d13aea7a8654a45065548c89b19470f59fad00209b6712e472d4983811c3fd"
+hash = "e968f87423edb7aab9717e6534c4795225c05e3706a1b8245498e03f500993f0"
 
 [[files]]
 file = "config/otyacraftengine/client.toml"
@@ -1234,7 +1238,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "49df785ce63047a292d123d635ba58c5abaa3e6bb7aaa7dde14ee1cfa4b59bba"
+hash = "d0841745b1c206f25128bcd7271d363a39958201d90edc4528203df8244e0c71"
 
 [[files]]
 file = "config/prettyrain.json5"
@@ -1326,7 +1330,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "ba88a89446c432b330642fb46e0a8d8d365da2c82353098e200c357a4c7a6ce4"
+hash = "c8c76d7f9ef15dac4a8d8dbd77648f09dfe75cd965229dd10c92b0b31ef2e686"
 
 [[files]]
 file = "config/simplehats.json"
@@ -1565,6 +1569,10 @@ file = "config/voicechat/translations.properties"
 hash = "693643b1d393cbb3ea7f062afc4474fcd66e4036c4f8d7c056434979cbf512d1"
 
 [[files]]
+file = "config/voicechat/username-cache.json"
+hash = "35d612c19bcb7d97e8f20f8e31a52b0013ec364e3456cd51c139b98ca7c7684e"
+
+[[files]]
 file = "config/voicechat/voicechat-client.properties"
 hash = "f34bec0a231e6ffda396bc269c4d5205ce2f2459c1d07c3fc84ede30eaac44fb"
 
@@ -1575,6 +1583,10 @@ hash = "aa8c8e804426760531e335268fc174782a9e8d4d740b6dd014711ede2e14a1d4"
 [[files]]
 file = "config/waterframes-client.toml"
 hash = "92b857b816295e0556a27fc7571cd135c05699fea099bfefe824b13898f1ea54"
+
+[[files]]
+file = "config/watermedia/custom_vlc_path.txt"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/watut-client.toml"
@@ -1683,6 +1695,10 @@ hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
 [[files]]
 file = "config/xaerohud.txt"
 hash = "5a57ec4fd855faba1c1e4a3b75c32f453d2a5e1f417e0bd1c2d2dc236780f5ea"
+
+[[files]]
+file = "config/xaeropatreon.txt"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "dummy.txt"
@@ -9201,6 +9217,14 @@ hash = "cd0b813441a75018dd282c31e010df16e13326d8739f62da685f8cf009238b44"
 [[files]]
 file = "showdown/sim/cobbled-debug-server.js.map"
 hash = "a04066a90aad0653c3c5d4b24c05560724a128c2014e581a1f21251b63ebeb91"
+
+[[files]]
+file = "showdown/sim/cobblemon-cache.js"
+hash = "c61ff530ef16d3d2cc9f8c93dd53dfe66cc2f757d42dd2d7c22fc16740040040"
+
+[[files]]
+file = "showdown/sim/cobblemon-cache.js.map"
+hash = "95e8d3693f829e975609314fd22d1a25d22a29f93a2db7c8f0cdc721ef05d601"
 
 [[files]]
 file = "showdown/sim/dex-abilities.js"
