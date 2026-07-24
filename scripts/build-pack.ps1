@@ -72,6 +72,7 @@ if (Test-Path $indexPath) {
     $preservePatterns = @(
         'file = "options\.txt"',
         'file = "config/DistantHorizons\.toml"',
+        'file = "config/oculus\.properties"',
         'file = "shaderpacks/.*?\.txt"'
     )
     
@@ -113,15 +114,42 @@ foreach ($file in $looseFiles) {
 Write-Value "Mods registrados (.pw.toml)" $modCount
 Write-Value "Archivos override (configs)" $overrideCount
 
-# === Validar pack.toml ===
-Write-Info "Validando pack.toml..."
+# === Sincronizar versiones del launcher ===
+Write-Info "Verificando versiones de Minecraft y Forge..."
 $packToml = Get-Content (Join-Path $PackDir "pack.toml") -Raw
-if ($packToml -match 'minecraft\s*=\s*"1\.20\.1"' -and $packToml -match 'forge\s*=\s*"47\.4\.\d+"') {
-    Write-Success "Minecraft: 1.20.1"
-    Write-Success "Forge detectado"
+
+if ($packToml -match 'minecraft\s*=\s*"([^"]+)"') { $mcVer = $matches[1] }
+if ($packToml -match 'forge\s*=\s*"([^"]+)"') { $forgeVer = $matches[1] }
+
+if ($mcVer -and $forgeVer) {
+    Write-Success "Detectado MC: $mcVer, Forge: $forgeVer"
+    
+    $mmcPath = Join-Path $repoRoot "instance-template\mmc-pack.json"
+    if (Test-Path $mmcPath) {
+        $mmcJson = Get-Content $mmcPath -Raw | ConvertFrom-Json
+        $updated = $false
+        
+        foreach ($comp in $mmcJson.components) {
+            if ($comp.uid -eq "net.minecraft" -and $comp.version -ne $mcVer) {
+                $comp.version = $mcVer
+                $comp.cachedVersion = $mcVer
+                $updated = $true
+            }
+            if ($comp.uid -eq "net.minecraftforge" -and $comp.version -ne $forgeVer) {
+                $comp.version = $forgeVer
+                $comp.cachedVersion = $forgeVer
+                $updated = $true
+            }
+        }
+        
+        if ($updated) {
+            $mmcJson | ConvertTo-Json -Depth 10 | Out-File $mmcPath -Encoding UTF8
+            Write-Success "Plantilla del launcher actualizada a estas versiones automáticamente."
+        }
+    }
 }
 else {
-    Write-Warn "Versiones de Minecraft/Forge no coinciden con lo esperado"
+    Write-Warn "No se pudieron detectar las versiones de Minecraft/Forge en pack.toml"
 }
 
 Write-Host ""

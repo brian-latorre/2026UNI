@@ -118,7 +118,9 @@ function Write-Summary {
         [string]$GitShortStat,
         [string]$GitHash,
         [string]$Url,
-        [string]$TotalTime
+        [string]$TotalTime,
+        [string[]]$AddedMods = @(),
+        [string[]]$RemovedMods = @()
     )
     Write-Host ""
     Write-Host "=======================================================" -ForegroundColor Cyan
@@ -127,6 +129,21 @@ function Write-Summary {
     
     Write-Value "Version publicada" $Version
     Write-Value "Cambios (Mods)" $GitShortStat
+    
+    if ($AddedMods.Count -gt 0) {
+        Write-Value "Mods agregados" ($AddedMods.Count)
+        foreach ($mod in $AddedMods) {
+            Write-Host "    + $mod" -ForegroundColor Green
+        }
+    }
+    
+    if ($RemovedMods.Count -gt 0) {
+        Write-Value "Mods eliminados" ($RemovedMods.Count)
+        foreach ($mod in $RemovedMods) {
+            Write-Host "    - $mod" -ForegroundColor Red
+        }
+    }
+    
     Write-Value "Commit Hash" $GitHash
     Write-Value "URL de destino" $Url
     Write-Value "Tiempo total" $TotalTime

@@ -73,6 +73,34 @@ def main():
     logger.info("  Auto-Importación Inteligente — 2026UNI")
     logger.info("============================================")
     
+    # 0. Sincronizar eliminaciones (Si se borró un mod localmente, se borra de packwiz)
+    logger.info("[0/4] Sincronizando mods eliminados...")
+    deleted_count = 0
+    # Listar todos los archivos en pack/mods (.pw.toml y .jar)
+    pack_files = glob.glob(os.path.join(pack_mods_dir, "*.pw.toml")) + glob.glob(os.path.join(pack_mods_dir, "*.jar"))
+    
+    for pack_file in pack_files:
+        filename = os.path.basename(pack_file)
+        
+        # Obtener el nombre del mod original (quitando .pw.toml o la extensión local)
+        if filename.endswith(".pw.toml"):
+            expected_jar = filename[:-8] + ".jar"
+        else:
+            expected_jar = filename
+            
+        local_jar_path = os.path.join(source_mods_dir, expected_jar)
+        
+        # Si el mod ya no existe en el juego del creador, borrarlo del pack
+        if not os.path.exists(local_jar_path):
+            os.remove(pack_file)
+            deleted_count += 1
+            logger.info(f"Mod eliminado detectado y borrado del instalador: {filename}")
+            
+    if deleted_count > 0:
+        logger.info(f"Se eliminaron {deleted_count} mods del instalador.")
+    else:
+        logger.info("No se detectaron mods eliminados.")
+    
     # 1. Copiar todos los jars no registrados a pack/mods/
     logger.info("[1/4] Analizando e importando mods locales...")
     

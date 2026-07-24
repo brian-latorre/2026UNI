@@ -72,12 +72,26 @@ try {
     # Ignorar errores de git porque suele retornar stderr aunque sea exitoso
     
     $startTime.Stop()
-    $totalTimeStr = "{0:N1}s" -f $startTime.Elapsed.TotalSeconds
+    $totalMinutes = $startTime.Elapsed.TotalMinutes
+    $totalTimeStr = "{0:N1} min" -f $totalMinutes
     
     $gitShortStat = (git diff HEAD~1 --shortstat) -join ""
     $gitHash = (git rev-parse --short HEAD) -join ""
     
-    Write-Summary -Version $packVersion -GitShortStat $gitShortStat -GitHash $gitHash -Url "https://github.com/brian-latorre/2026UNI" -TotalTime $totalTimeStr
+    # Extraer mods añadidos y eliminados
+    $gitStatus = git diff HEAD~1 HEAD --name-status
+    $addedMods = @()
+    $removedMods = @()
+    foreach ($line in $gitStatus) {
+        if ($line -match "^A\s+(?:pack/)?mods/(.+)(?:\.pw\.toml|\.jar)$") {
+            $addedMods += $matches[1]
+        }
+        elseif ($line -match "^D\s+(?:pack/)?mods/(.+)(?:\.pw\.toml|\.jar)$") {
+            $removedMods += $matches[1]
+        }
+    }
+    
+    Write-Summary -Version $packVersion -GitShortStat $gitShortStat -GitHash $gitHash -Url "https://github.com/brian-latorre/2026UNI" -TotalTime $totalTimeStr -AddedMods $addedMods -RemovedMods $removedMods
     
 } catch {
     Write-Host ""
