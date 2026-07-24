@@ -25,7 +25,7 @@ _version = 4
 				# This indicates how quickly LODs decrease in quality the further away they are. 
 				# Higher settings will render higher quality fake chunks farther away, 
 				# but will increase memory and GPU usage.
-				horizontalQuality = "LOW"
+				horizontalQuality = "LOWEST"
 				#
 				# What is the maximum detail LODs should be drawn at? 
 				# Higher settings will increase memory and GPU usage. 
@@ -38,7 +38,7 @@ _version = 4
 				# 
 				# Lowest Quality: CHUNK
 				# Highest Quality: BLOCK
-				maxHorizontalResolution = "BLOCK"
+				maxHorizontalResolution = "TWO_BLOCKS"
 				#
 				# This indicates how well LODs will represent 
 				# overhangs, caves, floating islands, etc. 
@@ -46,7 +46,7 @@ _version = 4
 				# 
 				# Lowest Quality: HEIGHT_MAP
 				# Highest Quality: EXTREME
-				verticalQuality = "LOW"
+				verticalQuality = "HEIGHT_MAP"
 				#
 				# How should LOD transparency be handled. 
 				# 
@@ -85,14 +85,14 @@ _version = 4
 				# If true LODs will fade away as you get closer to them. 
 				# If false LODs will cut off abruptly at a set distance from the camera. 
 				# This setting is affected by the vanilla overdraw prevention config.
-				ditherDhFade = true
+				ditherDhFade = false
 				#
 				# How should vanilla Minecraft fade into Distant Horizons LODs? 
 				# 
 				# NONE: Fastest, there will be a pronounced border between DH and MC rendering. 
 				# SINGLE_PASS: Fades after MC's transparent pass, opaque blocks underwater won't be faded. 
 				# DOUBLE_PASS: Slowest, fades after both MC's opaque and transparent passes, provides the smoothest transition.
-				vanillaFadeMode = "SINGLE_PASS"
+				vanillaFadeMode = "NONE"
 				#
 				# Should DH fade out before reaching the far clip plane? 
 				# This is helpful to prevent DH clouds from cutting off in the distance.
@@ -118,7 +118,7 @@ _version = 4
 				#     '0' equals to Vanilla Biome Blending of '1x1' or 'OFF', 
 				#     '1' equals to Vanilla Biome Blending of '3x3', 
 				#     '2' equals to Vanilla Biome Blending of '5x5'...
-				lodBiomeBlending = 1
+				lodBiomeBlending = 0
 
 			[client.advanced.graphics.genericRendering]
 				#

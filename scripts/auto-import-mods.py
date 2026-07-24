@@ -7,7 +7,7 @@ import urllib.request
 import urllib.error
 import json
 import subprocess
-import time
+import logging
 
 def hash_sha1(filepath):
     h = hashlib.sha1()
@@ -16,7 +16,7 @@ def hash_sha1(filepath):
             h.update(chunk)
     return h.hexdigest()
 
-def check_modrinth(sha1_hash):
+def check_modrinth(sha1_hash, logger):
     url = f"https://api.modrinth.com/v2/version_file/{sha1_hash}?algorithm=sha1"
     req = urllib.request.Request(url, headers={'User-Agent': '2026UNI-Setup (brian-latorre)'})
     try:
@@ -27,10 +27,30 @@ def check_modrinth(sha1_hash):
     except urllib.error.HTTPError as e:
         if e.code == 404:
             return None, None
-        print(f"    [!] Error consultando Modrinth API: {e.code}")
+        logger.error(f"Error consultando Modrinth API: {e.code}")
     except Exception as e:
-        print(f"    [!] Error: {e}")
+        logger.error(f"Error: {e}")
     return None, None
+
+def setup_logger(pack_dir):
+    log_file = os.path.join(pack_dir, "auto-import.log")
+    logger = logging.getLogger("AutoImport")
+    logger.setLevel(logging.INFO)
+    
+    formatter = logging.Formatter('%(asctime)s | %(levelname)s | %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+    
+    fh = logging.FileHandler(log_file, encoding='utf-8')
+    fh.setFormatter(formatter)
+    
+    ch = logging.StreamHandler(sys.stdout)
+    ch.setFormatter(formatter)
+    
+    # Prevenir que añada múltiples handlers si se ejecuta varias veces en el mismo entorno
+    if not logger.handlers:
+        logger.addHandler(fh)
+        logger.addHandler(ch)
+    
+    return logger
 
 def main():
     appdata = os.environ.get('APPDATA')
@@ -40,19 +60,21 @@ def main():
     pack_dir = os.path.abspath(os.path.join(script_dir, "..", "pack"))
     pack_mods_dir = os.path.join(pack_dir, "mods")
     
+    os.makedirs(pack_mods_dir, exist_ok=True)
+    logger = setup_logger(pack_dir)
+    
     packwiz_exe = os.path.abspath(os.path.join(script_dir, "..", "tools", "packwiz.exe"))
     
     if not os.path.exists(source_mods_dir):
-        print(f"Error: No se encontró la carpeta mods origen: {source_mods_dir}")
+        logger.error(f"No se encontró la carpeta mods origen: {source_mods_dir}")
         sys.exit(1)
         
-    print(f"============================================")
-    print(f"  Auto-Importación Inteligente — 2026UNI")
-    print(f"============================================")
+    logger.info("============================================")
+    logger.info("  Auto-Importación Inteligente — 2026UNI")
+    logger.info("============================================")
     
     # 1. Copiar todos los jars no registrados a pack/mods/
-    print("\n[1/4] Copiando mods nuevos al pack...")
-    os.makedirs(pack_mods_dir, exist_ok=True)
+    logger.info("[1/4] Analizando e importando mods locales...")
     
     source_jars = glob.glob(os.path.join(source_mods_dir, "*.jar"))
     copied_count = 0
@@ -62,79 +84,84 @@ def main():
         jar_name = os.path.basename(jar)
         dest_jar = os.path.join(pack_mods_dir, jar_name)
         
-        # Verificar si ya existe un .pw.toml para este mod
-        # (Aproximación simple: ver si ya hay metadatos)
-        # Para ser seguros, solo copiamos si no hay un .pw.toml con nombre similar
-        # Pero es más fácil copiar todo y que packwiz lo resuelva/ignore.
         if not os.path.exists(dest_jar):
             shutil.copy2(jar, dest_jar)
             copied_count += 1
+            logger.info(f"Nuevo mod detectado y copiado: {jar_name}")
             
-    print(f"  Se copiaron {copied_count} .jar(s) para ser evaluados.")
+    logger.info(f"Se copiaron {copied_count} .jar(s) nuevos para ser evaluados por Packwiz.")
     
     # 2. Detectar con CurseForge
-    print("\n[2/4] Detectando mods con CurseForge...")
+    logger.info("[2/4] Detectando mods con CurseForge...")
     try:
-        subprocess.run([packwiz_exe, "curseforge", "detect", "-y"], cwd=pack_dir, check=True)
-        print("  Detección de CurseForge finalizada.")
+        result = subprocess.run([packwiz_exe, "curseforge", "detect", "-y"], cwd=pack_dir, capture_output=True, text=True)
+        if result.stdout:
+            for line in result.stdout.splitlines():
+                if line.strip(): logger.info(f"CurseForge: {line.strip()}")
+        if result.stderr:
+            for line in result.stderr.splitlines():
+                if line.strip(): logger.warning(f"CurseForge: {line.strip()}")
+                
+        logger.info("Detección de CurseForge finalizada.")
     except Exception as e:
-        print(f"  [!] Error en curseforge detect: {e}")
+        logger.error(f"Error en curseforge detect: {e}")
         
     # 3. Lo que CurseForge no detectó (quedan como .jar), buscarlo en Modrinth
-    print("\n[3/4] Detectando mods restantes con Modrinth...")
+    logger.info("[3/4] Detectando mods restantes con Modrinth...")
     remaining_jars = glob.glob(os.path.join(pack_mods_dir, "*.jar"))
     
     if not remaining_jars:
-        print("  No quedaron .jar sin registrar.")
+        logger.info("No quedaron .jar sin registrar.")
     else:
-        print(f"  {len(remaining_jars)} mods restantes por identificar...")
+        logger.info(f"{len(remaining_jars)} mods restantes por identificar en Modrinth...")
         
         modrinth_found = 0
         for jar in remaining_jars:
             jar_name = os.path.basename(jar)
-            print(f"  Analizando: {jar_name}...", end="", flush=True)
+            logger.info(f"Buscando en Modrinth: {jar_name}...")
             
             sha1 = hash_sha1(jar)
-            project_id, version_id = check_modrinth(sha1)
+            project_id, version_id = check_modrinth(sha1, logger)
             
             if project_id:
-                print(f" OK (Modrinth: {project_id})")
-                # Registrar con packwiz
+                logger.info(f"-> Mod encontrado en Modrinth (Project ID: {project_id})")
                 try:
-                    subprocess.run(
+                    result = subprocess.run(
                         [packwiz_exe, "modrinth", "add", "--project-id", project_id, "--version-id", version_id, "-y"],
-                        cwd=pack_dir, stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT
+                        cwd=pack_dir, capture_output=True, text=True
                     )
-                    # Si funcionó, borramos el .jar (ahora hay un .pw.toml)
-                    os.remove(jar)
-                    modrinth_found += 1
+                    if result.returncode == 0:
+                        os.remove(jar)
+                        modrinth_found += 1
+                        logger.info(f"-> Registrado exitosamente en packwiz: {jar_name}")
+                    else:
+                        logger.error(f"-> Falló al agregar a packwiz: {result.stderr or result.stdout}")
                 except Exception as e:
-                    print(f"\n    [!] Falló al agregar a packwiz: {e}")
+                    logger.error(f"-> Excepción al agregar a packwiz: {e}")
             else:
-                print(f" NO ENCONTRADO")
+                logger.info(f"-> No encontrado en Modrinth. Se mantendrá como mod local: {jar_name}")
                 
-        print(f"  Modrinth identificó y registró {modrinth_found} mods.")
+        logger.info(f"Modrinth identificó y registró {modrinth_found} mods.")
         
     # 4. Limpieza final y reporte
-    print("\n[4/4] Limpiando y refrescando...")
-    subprocess.run([packwiz_exe, "refresh"], cwd=pack_dir)
+    logger.info("[4/4] Limpiando y refrescando índice de Packwiz...")
+    subprocess.run([packwiz_exe, "refresh"], cwd=pack_dir, capture_output=True)
     
     final_jars = glob.glob(os.path.join(pack_mods_dir, "*.jar"))
     pw_tomls = glob.glob(os.path.join(pack_mods_dir, "*.pw.toml"))
     
-    print("\n============================================")
-    print("  Resumen Final")
-    print("============================================")
-    print(f"  Mods registrados (auto-actualizables): {len(pw_tomls)}")
-    print(f"  Mods locales (sin auto-actualización): {len(final_jars)}")
+    logger.info("============================================")
+    logger.info("  Resumen Final")
+    logger.info("============================================")
+    logger.info(f"Mods registrados (auto-actualizables): {len(pw_tomls)}")
+    logger.info(f"Mods locales (sin auto-actualización): {len(final_jars)}")
     
     if final_jars:
-        print("\n  Nota: Los mods locales se incluirán en el pack y llegarán a tus amigos,")
-        print("  pero no se actualizarán automáticamente porque no están en CF/Modrinth.")
+        logger.info("Nota: Los siguientes mods locales se incluirán pero NO se actualizarán automáticamente:")
         for jar in final_jars:
-            print(f"    - {os.path.basename(jar)}")
+            logger.info(f" - {os.path.basename(jar)}")
             
-    print("\n¡Todo listo! El pack está completamente automatizado y sincronizado.")
+    logger.info("¡Todo listo! El pack está completamente automatizado y sincronizado.")
 
 if __name__ == "__main__":
     main()

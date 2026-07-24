@@ -35,6 +35,7 @@
   "firstPersonModelHideEnabled": true,
   "firstPersonModelHidePitch": 60.0,
   "itemBlacklist": [
+    "relics:spatial_sign",
     "iammusicplayer:boombox",
     "iammusicplayer:cassette_deck",
     "iammusicplayer:cassette_tape",
@@ -51,6 +52,7 @@
     "ae2:crafting_terminal"
   ],
   "blacklistApplyDualHanded": {
+    "relics:spatial_sign": false,
     "iammusicplayer:boombox": false,
     "iammusicplayer:cassette_deck": false,
     "iammusicplayer:cassette_tape": false,
