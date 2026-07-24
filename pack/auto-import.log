@@ -6531,3 +6531,636 @@
 2026-07-24 15:42:20 | INFO |  - modtoggler-1.0.0.jar
 2026-07-24 15:42:20 | INFO |  - moreculling-1.20.1-0.24.5$mixinsquared-fabric-0.1.1.jar
 2026-07-24 15:42:20 | INFO | ¡Todo listo! El pack está completamente automatizado y sincronizado.
+2026-07-24 15:46:45 | INFO | ============================================
+2026-07-24 15:46:45 | INFO |   Auto-Importación Inteligente — 2026UNI
+2026-07-24 15:46:45 | INFO | ============================================
+2026-07-24 15:46:45 | INFO | [1/4] Analizando e importando mods locales...
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: accents-forge-1.20.1-1.1.0.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: accessories-neoforge-1.0.0-beta.48+1.20.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: AdvancementPlaques-1.20.1-forge-1.6.9.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: ad_astra-forge-1.20.1-1.15.20.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: alexscaves-2.0.2.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: alexsmobs-1.22.9.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: alltheleaks-1.1.1+1.20.1-forge.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: appleskin-forge-mc1.20.1-2.5.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: appliedenergistics2-forge-15.4.10.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: aquamirae-forge-1.20.1-6.2.0.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: architectury-9.2.14-forge.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: artifacts-forge-9.5.18.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: asynclogger-2.1.2+1.20.1-forge.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: AttributeFix-Forge-1.20.1-21.0.5.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: BadOptimizations-2.4.0-1.20.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: balm-forge-1.20.1-7.3.38-all.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: beautify-2.0.2.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: bendy-lib-forge-4.0.0.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: BetterF3-7.0.2-Forge-1.20.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: BlackMoon-1.20.1-1.0.2.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: blue_skies-1.20.1-1.3.31.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: bocchium-1.20.1-0.0.3.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: Bookshelf-Forge-1.20.1-20.2.15.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: Botania-1.20.1-451-FORGE.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: BotanyPots-Forge-1.20.1-13.0.43.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: BotanyPotsTiers-Forge-1.20.1-6.0.2.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: botarium-forge-1.20.1-2.3.4.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: BrewinAndChewin-1.20.1-3.2.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: carryon-forge-1.20.1-2.1.2.7.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: castle_in_the_sky-1.20.1-0.6.0.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: chained_friends-1.20.1-forge-1.0.0.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: chatanimation-forge-1.20.1-1.1.3.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: chatsigninghider-fabric-1.20.1-1.0.5.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: chloride-FORGE-mc1.20.1-v1.7.7.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: chunkloaders-1.2.9-forge-mc1.20.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: cicada-lib-0.14.3+1.20.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: citadel-2.6.3-1.20.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: citresewn-1.20.1-5.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: clientcrafting-1.20.1-1.8.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: cloth-config-11.1.136-forge.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: Clumps-forge-1.20.1-12.0.0.4.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: cluttered-[Forge]-3.0.3-1.20.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: Cobblemon-forge-1.5.2+1.20.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: cobblemon-spawn-notification-1.5-forge-1.2.0.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: cobblemonrider-1.2.4.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: comforts-forge-6.4.0+1.20.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: configured-forge-1.20.1-2.2.3.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: connectivity-1.20.1-7.6.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: Connector-1.0.0-beta.48+1.20.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: ConnectorExtras-1.11.2+1.20.1-rea.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: copycats-3.0.7+mc.1.20.1-forge.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: Corgilib-Forge-1.20.1-4.0.3.4.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: corn_delight-1.1.9-1.20.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: coroutil-forge-1.20.1-1.3.7.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: crashexploitfixer-forge-1.1.0+1.20.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: create-1.20.1-6.0.8.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: create-structures-0.1.1-1.20.1-FORGE.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: createdeco-2.0.3-1.20.1-forge.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: CreativeCore_FORGE_v2.12.35_mc1.20.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: creeperoverhaul-3.0.2-forge.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: crittersandcompanions-forge-1.20.1-2.3.5.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: CullLessLeaves-Reforged-1.20.1-1.0.5.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: culturaldelights-0.16.5.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: cupboard-1.20.1-3.0.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: curios-forge-5.14.1+1.20.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: curiouslanterns-1.20.1-1.3.7.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: Data_Anchor-forge-1.20.1-1.0.0.20.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: defaultoptions-forge-1.20.1-18.0.4.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: defaultoptions-forge-1.20.1-18.0.5.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: Delightful-1.20.1-3.7.8.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: delightfulcreators-1.2.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: deuf-1.20.1-1.3.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: DistantHorizons-3.0.3-b-1.20.1-fabric-forge.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: do_a_barrel_roll-forge-3.5.6+1.20.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: drippyloadingscreen_forge_3.1.2_MC_1.20.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: dtcobblemon-1.20.1-1.1.1-slim.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: dynamic-fps-3.11.4+minecraft-1.20.0-forge.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: DynamicTrees-1.20.1-1.4.10.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: DynamicTreesAlexsMobs-1.20.1-1.0.0.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: DynamicTreesRU-1.20.1-1.0.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: DynamicTreesTinkersConstruct-1.20.1-1.5.0.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: easy_mob_spawn_control-1.1.6.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: elevatorid-1.20.1-1.9.1-forge.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: embeddium-0.3.31+mc1.20.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: Emojiful-Forge-1.20.1-4.2.0.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: EmoteTweaks-4.0.3.37.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: EnchantmentDescriptions-Forge-1.20.1-17.1.21.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: EnderMoon-1.20.1-1.0.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: ends_delight-2.5.1+forge.1.20.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: Enhanced-Celestials-forge-1.20.1-5.0.3.2.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: entity_model_features_1.20.1-forge-3.0.17.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: entity_texture_features_1.20.1-forge-7.0.13.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: explosiveenhancement-forge-1.20.1-1.1.0-client.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: exposure-forge-1.20.1-1.9.20.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: extrasounds-1.5.4+1.20.1-forge.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: Extreme-Horde-Moon-Restored-1.20.1-2.0.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: fabric-api-0.92.6+1.11.14+1.20.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: fancy-entity-renderer-forge-1.20.1-0.4.6.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: fancymenu_forge_3.9.3_MC_1.20.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: FarmersDelight-1.20.1-1.2.11.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: farmersrespite-1.20.1-2.1.2.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: fast-ip-ping-v1.0.8-mc1.20.4-forge.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: FastEvent-1.20.1-1.1.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: FastItemFrames-v20.1.5-1.20.1-Forge.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: Fastquit-3.0.1+1.20.1forge.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: ferritecore-6.0.1-forge.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: fieldguide-forge-1.20.1-1.6.9.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: flerovium-forge-1.20.1-1.2.18-all.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: Forgematica-0.1.13-mc1.20.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: fragmentum-forge-1.20.1-1.1.4.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: fusion-1.2.12-forge-mc1.20.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: fwa+1.20.1-forge-1.2.20.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: fzzy_config-0.7.6+1.20.1+forge.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: geckolib-forge-1.20.1-4.8.3.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: ghosts-forge-1.20.1-1.3.2.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: gnetum-2.4.6.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: golemoverhaul-forge-1.20.1-1.1.0.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: gpumemleakfix-1.20.1-1.8.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: grand-teleport-forge-1.20.1-forge-build300.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: guideme-20.1.14.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: HuntersMoon-Forge-Fabric-1.20-1.0.3.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: Iceberg-1.20.1-forge-1.1.25.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: ImmediatelyFast-Forge-1.5.4+1.20.4.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: IMPR-Forge-3.23.3-1.20.1-1.20.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: inmis-2.7.2-1.20.1.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: ironfurnaces-1.20.1-4.1.8.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: Ixeris-4.5.2+1.20.1-forge.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: Jade-1.20.1-Forge-11.13.2.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: JadeAddons-1.20.1-Forge-5.5.0.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: jeed-1.20-2.2.5.jar
+2026-07-24 15:46:45 | INFO | Nuevo mod detectado y copiado: jei-1.20.1-forge-15.20.0.129.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: justenoughbreeding-forge-1.20-1.20.1-2.5.0.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: JustEnoughResources-1.20.1-1.4.0.247.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: KaboomMoon-1.20.1-1.0.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: Kerria-1.3.2+1.20.1-forge.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: konkrete_forge_1.8.0_MC_1.20-1.20.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: kotlinforforge-4.12.0-all.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: Krypton FNP-forge-1.20.1-0.2.28.2-1.20.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: Ksyxis-1.3.4.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: leaky-1.20.1-2.3.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: lemoned-1.0.1-1.20.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: letsdo-bakery-forge-2.0.6.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: letsdo-beachparty-forge-2.0.3.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: letsdo-brewery-forge-2.0.6.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: letsdo-candlelight-forge-2.0.5.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: letsdo-farm_and_charm-forge-1.0.14.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: letsdo-furniture-forge-1.0.4.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: letsdo-herbalbrews-forge-1.0.12.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: letsdo-vinery-forge-1.4.41.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: letsdo-wildernature-forge-1.0.6.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: lionfishapi-2.4.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: lithostitched-forge-1.20.1-1.4.11.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: L_Enders_Cataclysm-3.26-enchant-fix.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: MaFgLib-0.1.14-mc1.20.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: Mantle-1.20.1-1.11.104.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: MaxHealthFix-Forge-1.20.1-12.0.4.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: MEED-1.20.1-5.7.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: melody_forge_1.0.3_MC_1.20.1-1.20.4.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: memoryleakfix-forge-1.17+-1.1.5.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: MinersMoon1.20.1-1.0.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: miners_delight-1.20.1-1.2.3.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: mobplayeranimator-forge-1.20.1-1.3.3-all.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: modernfix-forge-5.26.2+mc1.20.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: moredelight-25.07.28-1.20-forge.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: more_curios_slots-1.3.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: MouseTweaks-forge-mc1.20.1-2.25.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: mowziesmobs-1.8.2.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: mysterious_mountain_lib-1.6.34-1.20.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: nethersdelight-1.20.1-4.0.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: obscure_api-18.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: oceansdelight-1.0.2-1.20.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: OctoLib-FORGE-0.5.0.1+1.20.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: oculus-mc1.20.1-1.8.0.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: otyacraftengine-forge-mc1.20.1-3.7.1-1.20.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: panoramica_forge_1.2.1_MC_1.19-1.19.2.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: Patchouli-1.20.1-85-FORGE.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: PeacefulMoon-1.20.1-1.0.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: peruviansdelight-1.20.1-1.4.0.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: PickUpNotifier-v8.0.0-1.20.1-Forge.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: Ping-Wheel-1.12.1-forge-1.20.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: player-animation-lib-forge-1.0.2-rc1+1.20.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: playtime-1.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: polyeng-forge-0.1.1-1.20.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: polymorph-forge-0.49.10+1.20.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: polytone-1.20-3.5.26.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: Powah-5.0.11.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: Pretty Rain-1.20.1-Forge-1.1.3.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: primal-1.1.6+1.20.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: Prism-1.20.1-forge-1.0.5.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: punchy-2.5.4-forge-1.20.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: PuzzlesLib-v8.1.33-1.20.1-Forge.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: radiantgear-forge-2.2.0+1.20.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: radium-mc1.20.1-0.12.4+git.26c9d8e.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: reap-forge-1.20.1-1.1.2.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: RegionsUnexploredForge-0.5.6+1.20.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: relics-1.20.1-0.8.0.13.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: RenderScale-forge-1.20.1-1.0.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: repo-heads-forge-1.2.1+1.20.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: resourcefulconfig-forge-1.20.1-2.1.3.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: resourcefullib-forge-1.20.1-2.1.29.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: Resourcify (1.20.1-forge)-1.8.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: Ribbits-1.20.1-Forge-3.0.5.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: saturn-mc1.20.1-0.1.3.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: scarecrowsterritory-1.1.11d-forge-mc1.20.4.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: seamlesssleep-forge-1.20.1-2.5.2.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: show-me-your-skin-1.9.0+1.20.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: ShowMeWhatYouGot-1.20-1.1.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: simplehats-forge-1.20.1-0.4.0a.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: sliceanddice-forge-3.6.0.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: smoothboot(reloaded)-mc1.20.1-0.0.4.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: smoothgui-forge-1.20.1-1.1.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: sodiumdynamiclights-forge-1.0.10-1.20.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: sophisticatedbackpacks-1.20.1-3.24.31.1628.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: sophisticatedcore-1.20.1-1.3.16.1631.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: spark-1.10.53-forge.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: SpiderMoon-1.20.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: Steam_Rails-1.7.2+forge-mc1.20.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: StorageDrawers-forge-1.20.1-12.14.3.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: structure_gel-1.20.1-2.16.2.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: supermartijn642configlib-1.1.8-forge-mc1.20.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: supermartijn642corelib-1.1.21-forge-mc1.20.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: tameablebeasts-1.20.1-7.1.3.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: TConstruct-1.20.1-3.11.2.166.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: tempad-forge-1.20.1-2.3.4.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: tempadwithshaders-1.20.1-1.0.0.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: TerraBlender-forge-1.20.1-3.0.1.10.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: tiled-1.1.0-1.20.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: tombstone-1.20.1-9.0.9.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: torchmaster-20.1.9.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: trashslot-forge-1.20.1-15.1.3.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: TravelersTitles-1.20-Forge-4.0.2.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: tru.e-ending-v1.1.0c.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: VeggiesDelight-1.20.1-1.9.2.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: VisualWorkbench-v8.0.1-1.20.1-Forge.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: visual_keybinder-1.20.1 - 0.1.12.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: voicechat-forge-1.20.1-2.6.15.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: waterframes-FORGE-mc1.20.1-v2.1.22.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: watermedia-2.1.37.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: watermedia_youtube_plugin-2.1.2.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: watervision-FG-mc1.20.1-v0.1.0-alpha.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: watut-forge-1.20.1-1.2.3.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: watut_screen_blacklist-1.0.0.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: waystones-forge-1.20.1-14.1.20.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: xaerominimap-forge-1.20.1-25.3.10.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: xaeroworldmap-forge-1.20.1-1.40.11.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: YungsApi-1.20-Forge-4.0.6.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: YungsCaveBiomes-1.20.1-Forge-2.0.5.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: ZombieMoon-1.20.1-1.0.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: zume-1.2.1.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: [forge]ctov-3.4.14.jar
+2026-07-24 15:46:46 | INFO | Nuevo mod detectado y copiado: [MC-1.20] Hide Key Binding v1.0.0.7 - 2025-3-31.jar
+2026-07-24 15:46:46 | INFO | Se copiaron 253 .jar(s) nuevos para ser evaluados por Packwiz.
+2026-07-24 15:46:46 | INFO | [2/4] Detectando mods con CurseForge...
+2026-07-24 15:46:58 | INFO | CurseForge: Loading modpack...
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\AdvancementPlaques-1.20.1-forge-1.6.9.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\AttributeFix-Forge-1.20.1-21.0.5.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Baby-Moon-Restored-1.20.1-2.0.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\BadOptimizations-2.4.0-1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\BeeFix-1.20-1.0.7.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\BetterF3-7.0.2-Forge-1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\BlackMoon-1.20.1-1.0.2.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Bookshelf-Forge-1.20.1-20.2.15.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Botania-1.20.1-451-FORGE.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\BotanyPots-Forge-1.20.1-13.0.43.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\BotanyPotsTiers-Forge-1.20.1-6.0.2.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\BrewinAndChewin-1.20.1-3.2.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Butchersdelight beta 1.20.1 2.1.0.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Clumps-forge-1.20.1-12.0.0.4.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Cobblemon-forge-1.5.2+1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Compat_FarmersDelight.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Connector-1.0.0-beta.48+1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\ConnectorExtras-1.11.2+1.20.1-rea.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Corgilib-Forge-1.20.1-4.0.3.4.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\CreativeCore_FORGE_v2.12.35_mc1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\CullLessLeaves-Reforged-1.20.1-1.0.5.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Data_Anchor-forge-1.20.1-1.0.0.20.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Delightful-1.20.1-3.7.8.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\DistantHorizons-3.0.3-b-1.20.1-fabric-forge.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\DynamicTrees-1.20.1-1.4.10.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\DynamicTreesAlexsMobs-1.20.1-1.0.0.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\DynamicTreesRU-1.20.1-1.0.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\DynamicTreesTinkersConstruct-1.20.1-1.5.0.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Emojiful-Forge-1.20.1-4.2.0.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\EmoteTweaks-4.0.3.37.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\EnchantmentDescriptions-Forge-1.20.1-17.1.21.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\EnderMoon-1.20.1-1.0.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Enhanced-Celestials-forge-1.20.1-5.0.3.2.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Extreme-Horde-Moon-Restored-1.20.1-2.0.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\FarmersDelight-1.20.1-1.2.11.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\FastEvent-1.20.1-1.1.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\FastItemFrames-v20.1.5-1.20.1-Forge.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Fastquit-3.0.1+1.20.1forge.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Forgematica-0.1.13-mc1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\HuntersMoon-Forge-Fabric-1.20-1.0.3.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\IMPR-Forge-3.23.3-1.20.1-1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Iceberg-1.20.1-forge-1.1.25.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\ImmediatelyFast-Forge-1.5.4+1.20.4.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Ixeris-4.5.2+1.20.1-forge.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Jade-1.20.1-Forge-11.13.2.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\JadeAddons-1.20.1-Forge-5.5.0.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\JustEnoughResources-1.20.1-1.4.0.247.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\KaboomMoon-1.20.1-1.0.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Kerria-1.3.2+1.20.1-forge.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Krypton FNP-forge-1.20.1-0.2.28.2-1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Ksyxis-1.3.4.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\L_Enders_Cataclysm-3.26-enchant-fix.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\MEED-1.20.1-5.7.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\MaFgLib-0.1.14-mc1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Mantle-1.20.1-1.11.104.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\MaxHealthFix-Forge-1.20.1-12.0.4.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\MinersMoon1.20.1-1.0.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\MossyLib-1.3.0+1.20.1+forge.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\MouseTweaks-forge-mc1.20.1-2.25.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\OctoLib-FORGE-0.5.0.1+1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Patchouli-1.20.1-85-FORGE.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\PeacefulMoon-1.20.1-1.0.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\PickUpNotifier-v8.0.0-1.20.1-Forge.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Ping-Wheel-1.12.1-forge-1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Powah-5.0.11.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Pretty Rain-1.20.1-Forge-1.1.3.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Prism-1.20.1-forge-1.0.5.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\PuzzlesLib-v8.1.33-1.20.1-Forge.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\RegionsUnexploredForge-0.5.6+1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\RenderScale-forge-1.20.1-1.0.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Resourcify (1.20.1-forge)-1.8.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Ribbits-1.20.1-Forge-3.0.5.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Safe-Moons-Replace.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\ShowMeWhatYouGot-1.20-1.1.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\SpiderMoon-1.20.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\Steam_Rails-1.7.2+forge-mc1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\StorageDrawers-forge-1.20.1-12.14.3.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\SubtleEffects-forge-1.20.1-1.14.3.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\TConstruct-1.20.1-3.11.2.166.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\TerraBlender-forge-1.20.1-3.0.1.10.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\TravelersTitles-1.20-Forge-4.0.2.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\VeggiesDelight-1.20.1-1.9.2.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\VisualWorkbench-v8.0.1-1.20.1-Forge.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\YungsApi-1.20-Forge-4.0.6.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\YungsCaveBiomes-1.20.1-Forge-2.0.5.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\ZombieMoon-1.20.1-1.0.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\[MC-1.20] Hide Key Binding v1.0.0.7 - 2025-3-31.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\[forge]ctov-3.4.14.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\accents-forge-1.20.1-1.1.0.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\accessories-neoforge-1.0.0-beta.48+1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\ad_astra-forge-1.20.1-1.15.20.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\alexscaves-2.0.2.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\alexsmobs-1.22.9.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\alltheleaks-1.1.1+1.20.1-forge.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\appleskin-forge-mc1.20.1-2.5.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\appliedenergistics2-forge-15.4.10.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\aquamirae-forge-1.20.1-6.2.0.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\architectury-9.2.14-forge.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\artifacts-forge-9.5.18.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\asynclogger-2.1.2+1.20.1-forge.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\balm-forge-1.20.1-7.3.38-all.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\beautify-2.0.2.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\bendy-lib-forge-4.0.0.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\blue_skies-1.20.1-1.3.31.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\bocchium-1.20.1-0.0.3.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\botarium-forge-1.20.1-2.3.4.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\carryon-forge-1.20.1-2.1.2.7.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\castle_in_the_sky-1.20.1-0.6.0.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\chained_friends-1.20.1-forge-1.0.0.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\chatanimation-forge-1.20.1-1.1.3.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\chatsigninghider-fabric-1.20.1-1.0.5.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\chloride-FORGE-mc1.20.1-v1.7.7.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\chunkloaders-1.2.9-forge-mc1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\cicada-lib-0.14.3+1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\citadel-2.6.3-1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\citresewn-1.20.1-5.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\clientcrafting-1.20.1-1.8.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\cloth-config-11.1.136-forge.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\cluttered-[Forge]-3.0.3-1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\cobblemon-spawn-notification-1.5-forge-1.2.0.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\cobblemonrider-1.2.4.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\comforts-forge-6.4.0+1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\configured-forge-1.20.1-2.2.3.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\connectivity-1.20.1-7.6.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\copycats-3.0.7+mc.1.20.1-forge.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\corn_delight-1.1.9-1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\coroutil-forge-1.20.1-1.3.7.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\crashexploitfixer-forge-1.1.0+1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\create-1.20.1-6.0.8.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\create-structures-0.1.1-1.20.1-FORGE.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\createdeco-2.0.3-1.20.1-forge.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\creeperoverhaul-3.0.2-forge.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\crittersandcompanions-forge-1.20.1-2.3.5.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\culturaldelights-0.16.5.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\cupboard-1.20.1-3.0.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\curios-forge-5.14.1+1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\curiouslanterns-1.20.1-1.3.7.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\defaultoptions-forge-1.20.1-18.0.4.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\defaultoptions-forge-1.20.1-18.0.5.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\delightfulcreators-1.2.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\deuf-1.20.1-1.3.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\do_a_barrel_roll-forge-3.5.6+1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\drippyloadingscreen_forge_3.1.2_MC_1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\dtcobblemon-1.20.1-1.1.1-slim.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\dynamic-fps-3.11.4+minecraft-1.20.0-forge.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\easy_mob_spawn_control-1.1.6.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\elevatorid-1.20.1-1.9.1-forge.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\embeddium-0.3.31+mc1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\ends_delight-2.5.1+forge.1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\entity_model_features_1.20.1-forge-3.0.17.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\entity_texture_features_1.20.1-forge-7.0.13.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\entityculling-forge-1.9.5-mc1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\explosiveenhancement-forge-1.20.1-1.1.0-client.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\exposure-forge-1.20.1-1.9.20.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\extrasounds-1.5.4+1.20.1-forge.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\fabric-api-0.92.6+1.11.14+1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\fancy-entity-renderer-forge-1.20.1-0.4.6.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\fancymenu_forge_3.9.3_MC_1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\farmersrespite-1.20.1-2.1.2.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\fast-ip-ping-v1.0.8-mc1.20.4-forge.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\ferritecore-6.0.1-forge.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\fieldguide-forge-1.20.1-1.6.9.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\flerovium-forge-1.20.1-1.2.18-all.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\fragmentum-forge-1.20.1-1.1.4.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\fusion-1.2.12-forge-mc1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\fwa+1.20.1-forge-1.2.20.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\fzzy_config-0.7.6+1.20.1+forge.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\geckolib-forge-1.20.1-4.8.3.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\ghosts-forge-1.20.1-1.3.2.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\gnetum-2.4.6.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\golemoverhaul-forge-1.20.1-1.1.0.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\gpumemleakfix-1.20.1-1.8.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\grand-teleport-forge-1.20.1-forge-build300.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\guideme-20.1.14.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\inmis-2.7.2-1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\inmisaddon-1.0.4.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\ironfurnaces-1.20.1-4.1.8.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\jeed-1.20-2.2.5.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\jei-1.20.1-forge-15.20.0.129.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\jumpoverfences-forge-1.20.1-1.3.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\justenoughbreeding-forge-1.20-1.20.1-2.5.0.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\konkrete_forge_1.8.0_MC_1.20-1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\kotlinforforge-4.12.0-all.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\leaky-1.20.1-2.3.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\lemoned-1.0.1-1.20.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\letsdo-bakery-forge-2.0.6.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\letsdo-beachparty-forge-2.0.3.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\letsdo-brewery-forge-2.0.6.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\letsdo-candlelight-forge-2.0.5.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\letsdo-farm_and_charm-forge-1.0.14.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\letsdo-furniture-forge-1.0.4.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\letsdo-herbalbrews-forge-1.0.12.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\letsdo-vinery-forge-1.4.41.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\letsdo-wildernature-forge-1.0.6.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\lionfishapi-2.4.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\lithostitched-forge-1.20.1-1.4.11.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\melody_forge_1.0.3_MC_1.20.1-1.20.4.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\memoryleakfix-forge-1.17+-1.1.5.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\miners_delight-1.20.1-1.2.3.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\mobplayeranimator-forge-1.20.1-1.3.3-all.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\modernfix-forge-5.26.2+mc1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\modtoggler-1.0.0.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\more_curios_slots-1.3.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\moreculling-1.20.1-0.24.5$mixinsquared-fabric-0.1.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\moredelight-25.07.28-1.20-forge.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\mowziesmobs-1.8.2.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\mysterious_mountain_lib-1.6.34-1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\nethersdelight-1.20.1-4.0.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\obscure_api-18.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\oceansdelight-1.0.2-1.20.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\oculus-mc1.20.1-1.8.0.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\otyacraftengine-forge-mc1.20.1-3.7.1-1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\panoramica_forge_1.2.1_MC_1.19-1.19.2.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\peruviansdelight-1.20.1-1.4.0.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\player-animation-lib-forge-1.0.2-rc1+1.20.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\playtime-1.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\polyeng-forge-0.1.1-1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\polymorph-forge-0.49.10+1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\polytone-1.20-3.5.26.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\primal-1.1.6+1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\punchy-2.5.4-forge-1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\radiantgear-forge-2.2.0+1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\radium-mc1.20.1-0.12.4+git.26c9d8e.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\reap-forge-1.20.1-1.1.2.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\relics-1.20.1-0.8.0.13.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\repo-heads-forge-1.2.1+1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\resourcefulconfig-forge-1.20.1-2.1.3.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\resourcefullib-forge-1.20.1-2.1.29.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\saturn-mc1.20.1-0.1.3.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\scarecrowsterritory-1.1.11d-forge-mc1.20.4.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\seamlesssleep-forge-1.20.1-2.5.2.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\show-me-your-skin-1.9.0+1.20.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\simplehats-forge-1.20.1-0.4.0a.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\skinlayers3d-forge-1.11.1-mc1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\sliceanddice-forge-3.6.0.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\smoothboot(reloaded)-mc1.20.1-0.0.4.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\smoothgui-forge-1.20.1-1.1.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\sodiumdynamiclights-forge-1.0.10-1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\sophisticatedbackpacks-1.20.1-3.24.31.1628.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\sophisticatedcore-1.20.1-1.3.16.1631.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\spark-1.10.53-forge.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\structure_gel-1.20.1-2.16.2.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\supermartijn642configlib-1.1.8-forge-mc1.20.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\supermartijn642corelib-1.1.21-forge-mc1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\tameablebeasts-1.20.1-7.1.3.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\tempad-forge-1.20.1-2.3.4.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\tempadwithshaders-1.20.1-1.0.0.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\tiled-1.1.0-1.20.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\tombstone-1.20.1-9.0.9.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\torchmaster-20.1.9.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\trashslot-forge-1.20.1-15.1.3.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\tru.e-ending-v1.1.0c.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\visual_keybinder-1.20.1 - 0.1.12.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\voicechat-forge-1.20.1-2.6.15.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\waterframes-FORGE-mc1.20.1-v2.1.22.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\watermedia-2.1.37.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\watermedia_youtube_plugin-2.1.2.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\watervision-FG-mc1.20.1-v0.1.0-alpha.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\watut-forge-1.20.1-1.2.3.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\watut_screen_blacklist-1.0.0.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\waystones-forge-1.20.1-14.1.20.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\xaerominimap-forge-1.20.1-25.3.10.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\xaeroworldmap-forge-1.20.1-1.40.11.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Hashing mods\zume-1.2.1.jar
+2026-07-24 15:46:58 | INFO | CurseForge: Found 266 files, submitting...
+2026-07-24 15:46:58 | INFO | CurseForge: Successfully matched 250 files
+2026-07-24 15:46:58 | INFO | CurseForge: Retrieving metadata...
+2026-07-24 15:46:58 | INFO | CurseForge: Creating metadata files...
+2026-07-24 15:46:58 | INFO | CurseForge: Detection complete!
+2026-07-24 15:46:58 | INFO | CurseForge: Refreshing index... 2 % [>--------------------------------------------------] 6s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 4 % [=>-------------------------------------------------] 5s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 6 % [==>------------------------------------------------] 5s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 8 % [===>-----------------------------------------------] 5s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 9 % [====>----------------------------------------------] 8s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 12 % [=====>--------------------------------------------] 2s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 14 % [======>-------------------------------------------] 4s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 16 % [=======>------------------------------------------] 4s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 19 % [=========>----------------------------------------] 4s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 20 % [=========>----------------------------------------] 6s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 21 % [==========>---------------------------------------] 8s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 22 % [==========>---------------------------------------] 9s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 23 % [===========>--------------------------------------] 8s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 24 % [===========>--------------------------------------] 8s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 26 % [============>-------------------------------------] 7s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 27 % [============>-------------------------------------] 7s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 28 % [=============>------------------------------------] 7s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 29 % [==============>-----------------------------------] 6s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 30 % [==============>-----------------------------------] 6s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 32 % [===============>----------------------------------] 5s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 33 % [================>---------------------------------] 6s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 34 % [================>---------------------------------] 6s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 36 % [=================>--------------------------------] 5s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 37 % [=================>--------------------------------] 5s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 38 % [==================>-------------------------------] 6s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 39 % [===================>------------------------------] 5s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 41 % [===================>------------------------------] 4s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 43 % [====================>-----------------------------] 4s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 44 % [=====================>----------------------------] 5s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 45 % [======================>---------------------------] 4s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 46 % [======================>---------------------------] 5s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 48 % [=======================>--------------------------] 4s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 60 % [=============================>--------------------] 0s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 62 % [==============================>-------------------] 2s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 64 % [===============================>------------------] 2s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 65 % [================================>-----------------] 3s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 65 % [================================>-----------------] 5s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 66 % [================================>-----------------] 7s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 78 % [======================================>-----------] 0s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 94 % [==============================================>---] 0s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 100 % [=================================================] 0s
+2026-07-24 15:46:58 | INFO | CurseForge: [1A[JRefreshing index... 100 % [===============================================] done
+2026-07-24 15:46:58 | INFO | Detección de CurseForge finalizada.
+2026-07-24 15:46:58 | INFO | [3/4] Detectando mods restantes con Modrinth...
+2026-07-24 15:46:58 | INFO | 16 mods restantes por identificar en Modrinth...
+2026-07-24 15:46:58 | INFO | Buscando en Modrinth: defaultoptions-forge-1.20.1-18.0.5.jar...
+2026-07-24 15:46:58 | INFO | -> Mod encontrado en Modrinth (Project ID: WEg59z5b)
+2026-07-24 15:46:59 | INFO | -> Registrado exitosamente en packwiz: defaultoptions-forge-1.20.1-18.0.5.jar
+2026-07-24 15:46:59 | INFO | Buscando en Modrinth: DynamicTrees-1.20.1-1.4.10.jar...
+2026-07-24 15:46:59 | INFO | -> Mod encontrado en Modrinth (Project ID: vdjF5PL5)
+2026-07-24 15:47:00 | INFO | -> Registrado exitosamente en packwiz: DynamicTrees-1.20.1-1.4.10.jar
+2026-07-24 15:47:00 | INFO | Buscando en Modrinth: geckolib-forge-1.20.1-4.8.3.jar...
+2026-07-24 15:47:00 | INFO | -> Mod encontrado en Modrinth (Project ID: 8BmcQJ2H)
+2026-07-24 15:47:01 | INFO | -> Registrado exitosamente en packwiz: geckolib-forge-1.20.1-4.8.3.jar
+2026-07-24 15:47:01 | INFO | Buscando en Modrinth: JustEnoughResources-1.20.1-1.4.0.247.jar...
+2026-07-24 15:47:01 | INFO | -> Mod encontrado en Modrinth (Project ID: uEfK2CXF)
+2026-07-24 15:47:02 | INFO | -> Registrado exitosamente en packwiz: JustEnoughResources-1.20.1-1.4.0.247.jar
+2026-07-24 15:47:02 | INFO | Buscando en Modrinth: modtoggler-1.0.0.jar...
+2026-07-24 15:47:02 | INFO | -> No encontrado en Modrinth. Se mantendrá como mod local: modtoggler-1.0.0.jar
+2026-07-24 15:47:02 | INFO | Buscando en Modrinth: moreculling-1.20.1-0.24.5$mixinsquared-fabric-0.1.1.jar...
+2026-07-24 15:47:03 | INFO | -> No encontrado en Modrinth. Se mantendrá como mod local: moreculling-1.20.1-0.24.5$mixinsquared-fabric-0.1.1.jar
+2026-07-24 15:47:03 | INFO | Buscando en Modrinth: otyacraftengine-forge-mc1.20.1-3.7.1-1.20.1.jar...
+2026-07-24 15:47:03 | INFO | -> Mod encontrado en Modrinth (Project ID: uWLRcWS4)
+2026-07-24 15:47:04 | INFO | -> Registrado exitosamente en packwiz: otyacraftengine-forge-mc1.20.1-3.7.1-1.20.1.jar
+2026-07-24 15:47:04 | INFO | Buscando en Modrinth: reap-forge-1.20.1-1.1.2.jar...
+2026-07-24 15:47:05 | INFO | -> Mod encontrado en Modrinth (Project ID: NYHbcKK1)
+2026-07-24 15:47:05 | INFO | -> Registrado exitosamente en packwiz: reap-forge-1.20.1-1.1.2.jar
+2026-07-24 15:47:05 | INFO | Buscando en Modrinth: repo-heads-forge-1.2.1+1.20.1.jar...
+2026-07-24 15:47:05 | INFO | -> Mod encontrado en Modrinth (Project ID: Jaoe8qGe)
+2026-07-24 15:47:06 | INFO | -> Registrado exitosamente en packwiz: repo-heads-forge-1.2.1+1.20.1.jar
+2026-07-24 15:47:06 | INFO | Buscando en Modrinth: seamlesssleep-forge-1.20.1-2.5.2.jar...
+2026-07-24 15:47:07 | INFO | -> Mod encontrado en Modrinth (Project ID: IyHq05yB)
+2026-07-24 15:47:07 | INFO | -> Registrado exitosamente en packwiz: seamlesssleep-forge-1.20.1-2.5.2.jar
+2026-07-24 15:47:07 | INFO | Buscando en Modrinth: sophisticatedbackpacks-1.20.1-3.24.31.1628.jar...
+2026-07-24 15:47:08 | INFO | -> Mod encontrado en Modrinth (Project ID: TyCTlI4b)
+2026-07-24 15:47:08 | INFO | -> Registrado exitosamente en packwiz: sophisticatedbackpacks-1.20.1-3.24.31.1628.jar
+2026-07-24 15:47:08 | INFO | Buscando en Modrinth: sophisticatedcore-1.20.1-1.3.16.1631.jar...
+2026-07-24 15:47:08 | INFO | -> Mod encontrado en Modrinth (Project ID: nmoqTijg)
+2026-07-24 15:47:09 | INFO | -> Registrado exitosamente en packwiz: sophisticatedcore-1.20.1-1.3.16.1631.jar
+2026-07-24 15:47:09 | INFO | Buscando en Modrinth: StorageDrawers-forge-1.20.1-12.14.3.jar...
+2026-07-24 15:47:09 | INFO | -> Mod encontrado en Modrinth (Project ID: guitPqEi)
+2026-07-24 15:47:10 | INFO | -> Registrado exitosamente en packwiz: StorageDrawers-forge-1.20.1-12.14.3.jar
+2026-07-24 15:47:10 | INFO | Buscando en Modrinth: TerraBlender-forge-1.20.1-3.0.1.10.jar...
+2026-07-24 15:47:10 | INFO | -> Mod encontrado en Modrinth (Project ID: kkmrDlKT)
+2026-07-24 15:47:11 | INFO | -> Registrado exitosamente en packwiz: TerraBlender-forge-1.20.1-3.0.1.10.jar
+2026-07-24 15:47:11 | INFO | Buscando en Modrinth: voicechat-forge-1.20.1-2.6.15.jar...
+2026-07-24 15:47:11 | INFO | -> Mod encontrado en Modrinth (Project ID: 9eGKb6K1)
+2026-07-24 15:47:12 | INFO | -> Registrado exitosamente en packwiz: voicechat-forge-1.20.1-2.6.15.jar
+2026-07-24 15:47:12 | INFO | Buscando en Modrinth: waystones-forge-1.20.1-14.1.20.jar...
+2026-07-24 15:47:12 | INFO | -> Mod encontrado en Modrinth (Project ID: LOpKHB2A)
+2026-07-24 15:47:13 | INFO | -> Registrado exitosamente en packwiz: waystones-forge-1.20.1-14.1.20.jar
+2026-07-24 15:47:13 | INFO | Modrinth identificó y registró 14 mods.
+2026-07-24 15:47:13 | INFO | [4/4] Limpiando y refrescando índice de Packwiz...
+2026-07-24 15:47:13 | INFO | ============================================
+2026-07-24 15:47:13 | INFO |   Resumen Final
+2026-07-24 15:47:13 | INFO | ============================================
+2026-07-24 15:47:13 | INFO | Mods registrados (auto-actualizables): 264
+2026-07-24 15:47:13 | INFO | Mods locales (sin auto-actualización): 2
+2026-07-24 15:47:13 | INFO | Nota: Los siguientes mods locales se incluirán pero NO se actualizarán automáticamente:
+2026-07-24 15:47:13 | INFO |  - modtoggler-1.0.0.jar
+2026-07-24 15:47:13 | INFO |  - moreculling-1.20.1-0.24.5$mixinsquared-fabric-0.1.1.jar
+2026-07-24 15:47:13 | INFO | ¡Todo listo! El pack está completamente automatizado y sincronizado.

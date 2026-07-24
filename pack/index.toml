@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "auto-import.log"
-hash = "8fa71e1cc25b3ad293ea6152d6c4cf65a57ff8e856d02e231bc5b0c6590c2eb2"
+hash = "d3f0cef5e740f298cb49b445756424e3ba859bb007aab73a5985939bf65cf876"
 
 [[files]]
 file = "config/ButchersDelight.json"

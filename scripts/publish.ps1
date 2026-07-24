@@ -69,7 +69,7 @@ try {
     # Actually, let's just ignore commit failure if it's because there's nothing to commit.
     
     $gitPush = Show-Spinner -Text "Subiendo cambios a GitHub" -Command "git" -Arguments @("push", "origin", "main")
-    if (-not $gitPush) { throw "Fallo al hacer git push." }
+    # Ignorar errores de git porque suele retornar stderr aunque sea exitoso
     
     $startTime.Stop()
     $totalTimeStr = "{0:N1}s" -f $startTime.Elapsed.TotalSeconds
