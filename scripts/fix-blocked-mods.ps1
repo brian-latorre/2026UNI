@@ -1,4 +1,4 @@
-param(
+﻿param(
     [string]$PackModsDir = "$PSScriptRoot\..\pack\mods",
     [string]$SourceModsDir = "$env:APPDATA\.minecraft\2026UNI\mods"
 )

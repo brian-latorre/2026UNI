@@ -92,6 +92,11 @@ Source: "..\instance-template\mmc-pack.json"; \
     DestDir: "{app}\PineconeMC\instances\2026UNI"; \
     Flags: ignoreversion
 
+; --- Instance template: enviar-logs.ps1 ---
+Source: "..\instance-template\enviar-logs.ps1"; \
+    DestDir: "{app}\PineconeMC\instances\2026UNI"; \
+    Flags: ignoreversion
+
 ; --- Instance template: .minecraft contents ---
 Source: "..\instance-template\.minecraft\*"; \
     DestDir: "{app}\PineconeMC\instances\2026UNI\.minecraft"; \
@@ -219,6 +224,7 @@ begin
     CfgContent := CfgContent + #13#10;
     CfgContent := CfgContent + 'OverrideCommands=true' + #13#10;
     CfgContent := CfgContent + 'PreLaunchCommand=$INST_JAVA -jar $INST_MC_DIR/packwiz-installer-bootstrap.jar ' + PackUrl + #13#10;
+    CfgContent := CfgContent + 'PostExitCommand=powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -File "$INST_DIR/enviar-logs.ps1" -mcDir "$INST_MC_DIR"' + #13#10;
     CfgContent := CfgContent + #13#10;
     CfgContent := CfgContent + 'OverrideJavaLocation=true' + #13#10;
     CfgContent := CfgContent + 'IgnoreJavaCompatibility=true' + #13#10;

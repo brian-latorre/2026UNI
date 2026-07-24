@@ -26,10 +26,14 @@ param(
 
 $ErrorActionPreference = "Stop"
 
+# Cargar Helpers
+$helpersPath = Join-Path $PSScriptRoot "console-helpers.ps1"
+if (Test-Path $helpersPath) { . $helpersPath }
+
 # === Validaciones ===
 if (-not (Test-Path $SourceInstance)) {
-    Write-Host "[ERROR] No se encontró la instancia en: $SourceInstance" -ForegroundColor Red
-    Write-Host "Usa -SourceInstance para especificar la ruta correcta." -ForegroundColor Yellow
+    Write-ErrorMsg "No se encontró la instancia en: $SourceInstance"
+    Write-Warn "Usa -SourceInstance para especificar la ruta correcta."
     exit 1
 }
 
@@ -42,15 +46,13 @@ if (-not $PackDir) {
     $PackDir = Resolve-Path $PackDir
 }
 
-Write-Host "============================================" -ForegroundColor Cyan
-Write-Host "  Sincronización de overrides — 2026UNI" -ForegroundColor Cyan
-Write-Host "============================================" -ForegroundColor Cyan
+Write-Info "Origen:  $SourceInstance"
+Write-Info "Destino: $PackDir"
+if ($DryRun) { Write-Warn "MODO: DRY RUN (no se copia nada)" }
 Write-Host ""
-Write-Host "Origen:  $SourceInstance" -ForegroundColor Gray
-Write-Host "Destino: $PackDir" -ForegroundColor Gray
-if ($DryRun) {
-    Write-Host "MODO:    DRY RUN (no se copia nada)" -ForegroundColor Yellow
-}
+Write-Info "Explicación: Este script copia las carpetas de configuración (como 'config', 'resourcepacks',"
+Write-Info "'shaderpacks', etc.) desde tu instalación real de Minecraft hacia la carpeta 'pack'."
+Write-Info "Esto asegura que al actualizar, los jugadores reciban los mismos menús y ajustes que tú."
 Write-Host ""
 
 # === Carpetas a sincronizar ===
@@ -106,7 +108,7 @@ foreach ($folder in $SyncFolders) {
     $destPath = Join-Path $PackDir $folder
     
     if (-not (Test-Path $sourcePath)) {
-        Write-Host "  [SKIP] $folder/ — no existe en la instancia" -ForegroundColor DarkGray
+        Write-Info "[SKIP] $folder/ - no existe en la instancia"
         $skippedItems++
         continue
     }
@@ -114,40 +116,28 @@ foreach ($folder in $SyncFolders) {
     $itemCount = (Get-ChildItem $sourcePath -Recurse -File -ErrorAction SilentlyContinue | Measure-Object).Count
     
     if ($DryRun) {
-        Write-Host "  [DRY]  $folder/ — $itemCount archivos" -ForegroundColor Yellow
+        Write-Warn "[DRY]  $folder/ — $itemCount archivos"
     }
     else {
-        Write-Host "  [SYNC] $folder/ — $itemCount archivos..." -ForegroundColor Green -NoNewline
+        $robocopyArgs = @(
+            $sourcePath,
+            $destPath,
+            "/E", "/NFL", "/NDL", "/NJH", "/NJS", "/NC", "/NS", "/NP",
+            "/XD"
+        ) + $ExcludeDirs + "/XF" + $ExcludeFiles
         
+        Write-Info "Copiando $folder/ ($itemCount archivos)..."
         # Eliminar destino si existe para hacer copia limpia
         if (Test-Path $destPath) {
             Remove-Item $destPath -Recurse -Force
         }
         
-        # Copiar con exclusiones
-        # Usamos robocopy para copia eficiente con exclusiones
-        $robocopyArgs = @(
-            $sourcePath,
-            $destPath,
-            "/E",           # Incluir subdirectorios vacíos
-            "/NFL",         # No listar archivos
-            "/NDL",         # No listar directorios
-            "/NJH",         # No job header
-            "/NJS",         # No job summary
-            "/NC",          # No class
-            "/NS",          # No size
-            "/NP"           # No progress
-        )
-        
-        # Agregar exclusiones
-        $robocopyArgs += "/XD"
-        $robocopyArgs += $ExcludeDirs
-        $robocopyArgs += "/XF"
-        $robocopyArgs += $ExcludeFiles
-        
         & robocopy @robocopyArgs | Out-Null
-        
-        Write-Host " OK" -ForegroundColor Green
+        if ($LASTEXITCODE -lt 8) {
+            Write-Success "Copiado $folder/"
+        } else {
+            Write-ErrorMsg "Error al copiar $folder/ (Código $LASTEXITCODE)"
+        }
     }
     
     $totalItems++
@@ -159,18 +149,17 @@ foreach ($file in $SyncFiles) {
     $destPath = Join-Path $PackDir $file
     
     if (-not (Test-Path $sourcePath)) {
-        Write-Host "  [SKIP] $file — no existe en la instancia" -ForegroundColor DarkGray
+        Write-Info "[SKIP] $file - no existe en la instancia"
         $skippedItems++
         continue
     }
     
     if ($DryRun) {
-        Write-Host "  [DRY]  $file" -ForegroundColor Yellow
+        Write-Warn "[DRY]  $file"
     }
     else {
-        Write-Host "  [SYNC] $file..." -ForegroundColor Green -NoNewline
         Copy-Item $sourcePath $destPath -Force
-        Write-Host " OK" -ForegroundColor Green
+        Write-Success "Copiado $file"
     }
     
     $totalItems++
@@ -178,19 +167,8 @@ foreach ($file in $SyncFiles) {
 
 # === Reporte ===
 Write-Host ""
-Write-Host "============================================" -ForegroundColor Cyan
-Write-Host "  Resumen" -ForegroundColor Cyan
-Write-Host "============================================" -ForegroundColor Cyan
-Write-Host "  Sincronizados: $totalItems" -ForegroundColor Green
-Write-Host "  Saltados:      $skippedItems" -ForegroundColor DarkGray
-Write-Host ""
-
-if (-not $DryRun) {
-    Write-Host "[SIGUIENTE PASO] Ahora corre 'packwiz refresh' desde la carpeta pack/:" -ForegroundColor Yellow
-    Write-Host "  cd $PackDir" -ForegroundColor Yellow
-    Write-Host "  packwiz refresh" -ForegroundColor Yellow
-    Write-Host ""
-}
+Write-Success "Sincronizados: $totalItems"
+Write-Info "Saltados:      $skippedItems"
 
 # === Advertencias ===
 # Verificar carpetas opcionales que podrían existir
@@ -198,7 +176,6 @@ $optionalFolders = @("iammusicplayerrenewed", "visual_keybinder")
 foreach ($folder in $optionalFolders) {
     $sourcePath = Join-Path $SourceInstance $folder
     if (Test-Path $sourcePath) {
-        Write-Host "[INFO] Carpeta opcional encontrada: $folder/" -ForegroundColor DarkYellow
-        Write-Host "       Si quieres incluirla, agregala al array `$SyncFolders en este script." -ForegroundColor DarkYellow
+        Write-Warn "Carpeta opcional encontrada: $folder/. Agregala al array `$SyncFolders si la necesitas."
     }
 }

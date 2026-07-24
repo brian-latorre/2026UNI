@@ -1,77 +1,70 @@
 <#
 .SYNOPSIS
     Valida y refresca el pack de packwiz.
-.DESCRIPTION
-    Ejecuta 'packwiz refresh' en el directorio pack/ para regenerar index.toml,
-    luego valida que el pack sea consistente.
-.NOTES
-    Requiere packwiz instalado (correr scripts/setup-packwiz.ps1 primero).
 #>
 
 [CmdletBinding()]
 param(
     [string]$PackDir = ".\pack",
-    [switch]$Serve  # Si se pasa, inicia un servidor local para probar
+    [switch]$Serve
 )
 
 $ErrorActionPreference = "Stop"
+
+$PSScriptRoot = Split-Path -Parent -Path $MyInvocation.MyCommand.Definition
+$repoRoot = Split-Path $PSScriptRoot -Parent
+
+# Cargar Helpers
+$helpersPath = Join-Path $PSScriptRoot "console-helpers.ps1"
+if (Test-Path $helpersPath) { . $helpersPath }
 
 # === Buscar packwiz ===
 $packwiz = Get-Command packwiz -ErrorAction SilentlyContinue
 if (-not $packwiz) {
     # Buscar en tools/
-    $localPackwiz = Join-Path $PWD "tools\packwiz.exe"
+    $localPackwiz = Join-Path $repoRoot "tools\packwiz.exe"
     if (Test-Path $localPackwiz) {
         $packwiz = @{ Source = $localPackwiz }
     }
     else {
-        Write-Host "[ERROR] packwiz no está instalado." -ForegroundColor Red
-        Write-Host "Corre primero: .\scripts\setup-packwiz.ps1" -ForegroundColor Yellow
+        Write-ErrorMsg "packwiz no esta instalado."
+        Write-Warn "Corre primero: .\scripts\setup-packwiz.ps1"
         exit 1
     }
 }
 
 $packwizPath = if ($packwiz.Source) { $packwiz.Source } else { $packwiz.Path }
-Write-Host "[INFO] Usando packwiz: $packwizPath" -ForegroundColor Cyan
+Write-Info "Usando packwiz: $packwizPath"
 
 # === Validar directorio del pack ===
-$PackDir = (Resolve-Path (Join-Path $PWD $PackDir) -ErrorAction SilentlyContinue).Path
+if ($PackDir -eq ".\pack") {
+    $PackDir = Join-Path $repoRoot "pack"
+}
+$PackDir = (Resolve-Path $PackDir -ErrorAction SilentlyContinue).Path
 if (-not $PackDir -or -not (Test-Path (Join-Path $PackDir "pack.toml"))) {
-    Write-Host "[ERROR] No se encontró pack.toml en: $PackDir" -ForegroundColor Red
+    Write-ErrorMsg "No se encontro pack.toml en: $PackDir"
     exit 1
 }
 
-Write-Host ""
-Write-Host "============================================" -ForegroundColor Cyan
-Write-Host "  Build del pack - 2026UNI" -ForegroundColor Cyan
-Write-Host "============================================" -ForegroundColor Cyan
-Write-Host "  Directorio: $PackDir" -ForegroundColor Gray
+Write-Info "Directorio del pack: $PackDir"
 Write-Host ""
 
 # === Resolver mods bloqueados de CurseForge ===
-Write-Host "[1/4] Resolviendo restricciones de CurseForge..." -ForegroundColor Green
+Write-Info "Resolviendo restricciones de CurseForge..."
 $fixScript = Join-Path $PSScriptRoot "fix-blocked-mods.ps1"
 if (Test-Path $fixScript) {
-    & $fixScript
+    & powershell.exe -ExecutionPolicy Bypass -File $fixScript
 }
 
 # === Refresh ===
-Write-Host "[2/4] Refrescando index.toml..." -ForegroundColor Green
-Push-Location $PackDir
-try {
-    & $packwizPath refresh
-    if ($LASTEXITCODE -ne 0) {
-        Write-Host "[ERROR] packwiz refresh falló con código $LASTEXITCODE" -ForegroundColor Red
-        exit 1
-    }
-    Write-Host "  OK" -ForegroundColor Green
-}
-finally {
-    Pop-Location
+$success = Show-Spinner -Text "Refrescando index.toml" -Command $packwizPath -Arguments @("refresh") -WorkingDir $PackDir
+if (-not $success) {
+    Write-ErrorMsg "packwiz refresh fallo."
+    exit 1
 }
 
 # === Aplicar preserve a configs del jugador ===
-Write-Host "[2.5/4] Protegiendo configs del jugador..." -ForegroundColor Green
+Write-Info "Protegiendo configs del jugador..."
 $indexPath = Join-Path $PackDir "index.toml"
 if (Test-Path $indexPath) {
     $indexContent = Get-Content $indexPath -Raw
@@ -89,21 +82,16 @@ if (Test-Path $indexPath) {
     
     $utf8NoBom = New-Object System.Text.UTF8Encoding $False
     [System.IO.File]::WriteAllText($indexPath, $indexContent, $utf8NoBom)
-    Write-Host "  OK (preserve = true aplicado)" -ForegroundColor Green
+    Write-Success "preserve = true aplicado"
     
-    Push-Location $PackDir
-    & $packwizPath refresh | Out-Null
-    Pop-Location
+    Show-Spinner -Text "Refrescando de nuevo" -Command $packwizPath -Arguments @("refresh") -WorkingDir $PackDir | Out-Null
 }
 
 # === Verificar ===
-Write-Host ""
-Write-Host "[3/4] Verificando consistencia..." -ForegroundColor Green
+Write-Info "Verificando consistencia..."
 
-# Contar archivos .pw.toml (mods registrados)
 $modCount = (Get-ChildItem (Join-Path $PackDir "mods") -Filter "*.pw.toml" -ErrorAction SilentlyContinue | Measure-Object).Count
 
-# Contar archivos en overrides (configs, etc.)
 $overrideCount = 0
 $overrideFolders = @("config", "defaultconfigs", "resourcepacks", "shaderpacks", "showdown", 
                       "emojiful", "emotes", "moonlight-global-datapacks", "fancymenu_data",
@@ -115,7 +103,6 @@ foreach ($folder in $overrideFolders) {
     }
 }
 
-# Archivos sueltos
 $looseFiles = @("options.txt", "patchouli_data.json")
 foreach ($file in $looseFiles) {
     if (Test-Path (Join-Path $PackDir $file)) {
@@ -123,32 +110,26 @@ foreach ($file in $looseFiles) {
     }
 }
 
-Write-Host "  Mods registrados (.pw.toml):  $modCount" -ForegroundColor White
-Write-Host "  Archivos override (configs):  $overrideCount" -ForegroundColor White
+Write-Value "Mods registrados (.pw.toml)" $modCount
+Write-Value "Archivos override (configs)" $overrideCount
 
 # === Validar pack.toml ===
-Write-Host ""
-Write-Host "[4/4] Validando pack.toml..." -ForegroundColor Green
+Write-Info "Validando pack.toml..."
 $packToml = Get-Content (Join-Path $PackDir "pack.toml") -Raw
 if ($packToml -match 'minecraft\s*=\s*"1\.20\.1"' -and $packToml -match 'forge\s*=\s*"47\.4\.\d+"') {
-    Write-Host "  Minecraft: 1.20.1 [OK]" -ForegroundColor Green
-    Write-Host "  Forge: detectado [OK]" -ForegroundColor Green
+    Write-Success "Minecraft: 1.20.1"
+    Write-Success "Forge detectado"
 }
 else {
-    Write-Host "  [WARN] Versiones de Minecraft/Forge no coinciden con lo esperado" -ForegroundColor Yellow
+    Write-Warn "Versiones de Minecraft/Forge no coinciden con lo esperado"
 }
 
 Write-Host ""
-Write-Host "============================================" -ForegroundColor Cyan
-Write-Host "  Build completo" -ForegroundColor Cyan
-Write-Host "============================================" -ForegroundColor Cyan
-Write-Host ""
 
-# === Servir localmente (opcional) ===
 if ($Serve) {
-    Write-Host "[INFO] Iniciando servidor local de packwiz..." -ForegroundColor Cyan
-    Write-Host "  URL: http://localhost:8080/pack.toml" -ForegroundColor Yellow
-    Write-Host "  Presiona Ctrl+C para detener" -ForegroundColor Yellow
+    Write-Info "Iniciando servidor local de packwiz..."
+    Write-Value "URL" "http://localhost:8080/pack.toml"
+    Write-Warn "Presiona Ctrl+C para detener"
     Write-Host ""
     Push-Location $PackDir
     try {
@@ -157,9 +138,4 @@ if ($Serve) {
     finally {
         Pop-Location
     }
-}
-else {
-    Write-Host "Tip: Para probar localmente, corre:" -ForegroundColor DarkGray
-    Write-Host "  .\scripts\build-pack.ps1 -Serve" -ForegroundColor DarkGray
-    Write-Host ""
 }
