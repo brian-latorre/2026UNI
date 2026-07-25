@@ -831,7 +831,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "ea64bd81f9fe39369eaa9295886a836970400875df7c3eedc8f1fc6039881a6b"
+hash = "d86bae4f22acdb5ef9c46cdf5e88d15e10bb75cdca91781e6aaa30e306193e69"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -911,7 +911,7 @@ hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "3b5f14ab0f3494e143ec0844899b19481b64413bacd1f63a3ee89241dd333d69"
+hash = "b0eacf45e738ec46776e9221ff526ebb84d3fd388a3d78e71e4159a1de0ba4c6"
 
 [[files]]
 file = "config/fancymenu/customization/com.legacy.blue_skies.client.gui.screen.arcsscreen_layout.txt"
@@ -951,7 +951,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "87ad8658a6b5ee62088ac2be8ad339fd5332da99787cc034af21927217bd4463"
+hash = "ffc2a7f955f4f23d74ba330637271498d5ce8ca48b7e9d71fc729605b7c0af5d"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -1111,7 +1111,7 @@ hash = "7c4ba324bf4778cd520d4b5ac36a1d475b45265e27f17ff70f8a1d7f53bbebcd"
 
 [[files]]
 file = "config/hide_key_binding-client.toml"
-hash = "bce9e3fbd46cb3aa7ded6327fe8518e5fbf0dacf54465041d179fb6e1d8e5816"
+hash = "357b1cf23b1d9d7e4ff5953644bb5b97f60d2e35415161c00681e808d1e7e4e1"
 
 [[files]]
 file = "config/iammusicplayer.toml"
@@ -1128,6 +1128,10 @@ hash = "c7a8af9f69054d8600d43a05e26e93b90b0f8b7116eac3e656f1aad00edd0648"
 [[files]]
 file = "config/inmis.json"
 hash = "e411d391f3091075769080ebfa29e357d85a43882099112d2a4327c517cd4d03"
+
+[[files]]
+file = "config/inspectability-client.toml"
+hash = "c6f77192953eb02b203bc0ec7c3d3ecccf68988ba68713931c26b3563c3e0ae9"
 
 [[files]]
 file = "config/ironfurnaces-client.toml"
@@ -1275,7 +1279,7 @@ hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
 [[files]]
 file = "config/mcreator_mem_fix.json"
-hash = "0dd6e65a0f0ff450daf0dcc8000d9f3b58722c6e6cafcb3eba3264a7003f7e23"
+hash = "be72e619632c0b3b2cfaad8e5365ce3723ba5e700b71afeecba7f062afd11b10"
 
 [[files]]
 file = "config/mobplayeranimator/client.json5"
@@ -1327,7 +1331,7 @@ hash = "2cf603cb5a49de1bf3b45f5bd0704c88eaacb8733b9315dd0b0f18e595425828"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "da1a5881163072869d6f248b79582b209e55dc401251dd1d5a7b6ea61de9e068"
+hash = "170858b2598e2d18ae69a3865706f866e9b435c604030841758bfd5a8747d925"
 preserve = true
 
 [[files]]
@@ -1380,7 +1384,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "2d999dafab38bb35cf629ad2a9f3d80cd8f4f69c1b057a746314bf516e155887"
+hash = "49df785ce63047a292d123d635ba58c5abaa3e6bb7aaa7dde14ee1cfa4b59bba"
 
 [[files]]
 file = "config/prettyrain.json5"
@@ -1480,7 +1484,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "ec197ac34ec9b659b98b6bac6d1269b37eb0339b6cca9be809724c3dd477ef06"
+hash = "903084e07f46a80e3c66f1a1b246aa2be414ddfdb89a9cb2e5171be8775bf4df"
 
 [[files]]
 file = "config/simplehats.json"
@@ -1736,7 +1740,7 @@ hash = "aa8c8e804426760531e335268fc174782a9e8d4d740b6dd014711ede2e14a1d4"
 
 [[files]]
 file = "config/waterframes-client.toml"
-hash = "92b857b816295e0556a27fc7571cd135c05699fea099bfefe824b13898f1ea54"
+hash = "81ee2a4c2ee0c846f14e9c4132c31388c8347e21d410c677a246b090ebf110ed"
 
 [[files]]
 file = "config/watermedia/custom_vlc_path.txt"
@@ -5697,6 +5701,11 @@ metafile = true
 [[files]]
 file = "mods/inmisaddon-1.0.4.jar"
 hash = "79556ac878ebc154ae4ffd314d8661ed4885065eb3182996bf8f58662c0f2f39"
+
+[[files]]
+file = "mods/inspectability-reforged.pw.toml"
+hash = "1e56f395bc1039ab20addbe484b92e46ae4e09709729f35d86e9ccae551aabd1"
+metafile = true
 
 [[files]]
 file = "mods/integratedplaytime.pw.toml"

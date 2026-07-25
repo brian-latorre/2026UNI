@@ -12,3 +12,6 @@ net.minecraft.client.gui.screens.inventory.InventoryScreen {
 com.legacy.blue_skies.client.gui.screen.ArcsScreen {
 }
 
+net.minecraft.client.gui.screens.TitleScreen {
+}
+
