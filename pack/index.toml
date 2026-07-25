@@ -639,7 +639,7 @@ hash = "7dd7dc266613f18011a9a5ba624e50c35374ad2b39ea379231c3c44e7b2261b3"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "9d1b1e49079dd7cefccacc75f21d95493d65e155b24e605e2daeeffc8a674519"
+hash = "39d0028c2e72186ef3431754d70e425179b4f2f4be5842522ee8b6bebdc66ad5"
 
 [[files]]
 file = "config/collective.json5"
@@ -727,7 +727,7 @@ hash = "168f7d8618394727f142e14da7206fce25833311e3e467ee25657d58da265102"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "3f493222e2cff8ba4ae03f185c92472fbb43b911d7b8b72cb0c0b276788d4726"
+hash = "6f576c1cdc4277eebf4f82fccc0436b84debe3a768d6ef281f7af749c27eadc1"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -831,7 +831,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "ef59e584c9589036f68e39b0920a8dde432fd473206a49227a3aeeeb3cbf5c50"
+hash = "5059a9756c1f3d37a2fdfbd5ed43318bda57802297f852ba53a25ff444b52cb9"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1070,10 +1070,6 @@ file = "config/forgematica/forgematica_wriggly-jm.gl.joinmc.link_dim_minecraft_t
 hash = "5be534bd47918d628d825a62a5ad071e0ac06d2c1abf33672aa46855be71ce97"
 
 [[files]]
-file = "config/forgeskyboxes-config.json"
-hash = "582b93ab2b24e82e6d904f7030d95269d7b0326495d19017b63d58ebea2ac15b"
-
-[[files]]
 file = "config/fwa.json"
 hash = "c2d9c02f6f7355766a5c28b3b035710123968ef3d6ab932b789ba8de7cc96b86"
 
@@ -1275,7 +1271,7 @@ hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
 [[files]]
 file = "config/mcreator_mem_fix.json"
-hash = "e8025a483df2d89abc60e699118f9113646bd5b5c4433c5c540b8712dab7d0ca"
+hash = "7e3f5fcc31f8e7582629a2153cd8cf99c4d7e6516775cef57173fdc6467fbc9e"
 
 [[files]]
 file = "config/mobplayeranimator/client.json5"
@@ -1287,7 +1283,7 @@ hash = "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "3553628f1b539f859fbe7c06e482cfec74ab66b1214bb0f713902f317b6f8fb7"
+hash = "3720deebb7e923b97f1c60b910d3590f41fdc80792b18f20b75ba0cd90ec6ebd"
 
 [[files]]
 file = "config/moonlight-client.toml"
@@ -1327,7 +1323,7 @@ hash = "2cf603cb5a49de1bf3b45f5bd0704c88eaacb8733b9315dd0b0f18e595425828"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "bf10ccfc5b13268178c7a826735bad9f1bdf3167ba464ce19644d09faa85dce8"
+hash = "1a03c3d134cabe611eb98f44bf21a231c2f7dc1e9c49072ce667b8df4b9285f4"
 preserve = true
 
 [[files]]
@@ -1480,7 +1476,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "883918563975e03a76c9fa91ab1e48bec34eb1c27a735ca63c55c4762bd5ea95"
+hash = "dfae9f201445179ec901172ee9616ec6f8646d254dc04fe71e9e42703f962c00"
 
 [[files]]
 file = "config/simplehats.json"
