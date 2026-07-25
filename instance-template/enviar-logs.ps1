@@ -3,79 +3,137 @@ param (
     [string]$mcDir
 )
 
-# Webhook ofuscado en Base64 para evitar que GitGuardian lo detecte y Discord lo elimine.
+# Webhook ofuscado
 $encWebhook = "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTUzMDMxNzg3MjAyOTYzNDU5MS8zZFpqcEo0QlFHamN3bFhlQ1E3TU4zZHhwblB3YjFhblI3UzVQMzdvWnY1cGNHeXZOWHRUWnA2QktodXNxMVpXSF9Caw=="
 $webhookUrl = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($encWebhook))
 
-# Rutas
 $crashDir = Join-Path -Path $mcDir -ChildPath "crash-reports"
+$logsDir = Join-Path -Path $mcDir -ChildPath "logs"
+$latestLog = Join-Path -Path $logsDir -ChildPath "latest.log"
 $trackingFile = Join-Path -Path $mcDir -ChildPath ".last_sent_crash.txt"
 
-# Si no hay carpeta de crashes, no hay nada que hacer
-if (-not (Test-Path -Path $crashDir)) {
-    exit 0
-}
-
-# Obtener el crash report más reciente
-$latestCrash = Get-ChildItem -Path $crashDir -Filter "crash-*.txt" | Sort-Object LastWriteTime -Descending | Select-Object -First 1
-
-if ($null -eq $latestCrash) {
-    exit 0
-}
-
-# Verificar si ya lo enviamos
-$lastSent = ""
-if (Test-Path -Path $trackingFile) {
-    $lastSent = (Get-Content -Path $trackingFile -Raw).Trim()
-}
-
-if ($latestCrash.Name -eq $lastSent) {
-    # Ya se envió este crash report
-    exit 0
-}
-
-# Intentar enviarlo directamente como archivo adjunto a Discord usando curl.exe (nativo en Windows 10+)
-$curlPath = "C:\Windows\System32\curl.exe"
-
-if (Test-Path -Path $curlPath) {
-    # Copiar archivo a TEMP para evitar problemas de curl con caracteres especiales en la ruta (ej. acentos)
-    $tempCrash = Join-Path $env:TEMP $latestCrash.Name
-    Copy-Item -Path $latestCrash.FullName -Destination $tempCrash -Force
-
-    # JSON payload en un archivo temporal para evitar problemas de escape de comillas en la consola
-    $json = "{ `"content`": `"🚨 **¡Nuevo Crash Report Detectado!** <@351472135606108175>`n**Archivo:** $($latestCrash.Name)`" }"
-    $tempJson = Join-Path $env:TEMP "discord_payload.json"
-    [System.IO.File]::WriteAllText($tempJson, $json, [System.Text.Encoding]::UTF8)
-    
-    # Ejecutar curl
-    # Pasamos los argumentos como un solo string
-    $argString = "-F `"payload_json=<$tempJson`" -F `"file1=@$tempCrash`" `"$webhookUrl`""
-    $process = Start-Process -FilePath $curlPath -ArgumentList $argString -NoNewWindow -Wait -PassThru
-    
-    if (Test-Path $tempCrash) { Remove-Item $tempCrash -Force }
-    if (Test-Path $tempJson) { Remove-Item $tempJson -Force }
-    
-    if ($process.ExitCode -eq 0) {
-        # Registrar que ya se envió exitosamente
-        $latestCrash.Name | Out-File -FilePath $trackingFile -Encoding UTF8
-        exit 0
+# 1. Obtener usuario (Fijo el bug de -Top 1 en PS 5.1)
+$username = "Desconocido"
+if (Test-Path $latestLog) {
+    $userMatch = Select-String -Path $latestLog -Pattern "Setting user: ([\w_]+)" | Select-Object -First 1
+    if ($userMatch) {
+        $username = $userMatch.Matches[0].Groups[1].Value
     }
 }
 
-# Fallback: Si curl falla o no existe, enviamos las primeras líneas directamente a Discord en texto
-$logContent = Get-Content -Path $latestCrash.FullName -Raw
-$truncatedLog = $logContent
-if ($logContent.Length -gt 1500) {
-    $truncatedLog = $logContent.Substring(0, 1500) + "... [TRUNCADO]"
+# 2. Crash Reports
+$latestCrash = $null
+if (Test-Path -Path $crashDir) {
+    $latestCrash = Get-ChildItem -Path $crashDir -Filter "crash-*.txt" | Sort-Object LastWriteTime -Descending | Select-Object -First 1
 }
 
-$discordPayload = @{
-    content = "🚨 **¡Nuevo Crash Report Detectado!** <@351472135606108175> (Enviado como texto)`n**Archivo:** $($latestCrash.Name)`n" + '```text' + "`n$truncatedLog`n" + '```'
-} | ConvertTo-Json -Depth 3
+$sendCrash = $false
+if ($latestCrash) {
+    $lastSent = ""
+    if (Test-Path -Path $trackingFile) {
+        $lastSent = (Get-Content -Path $trackingFile -Raw).Trim()
+    }
+    if ($latestCrash.Name -ne $lastSent) {
+        $sendCrash = $true
+    }
+}
 
-try {
-    Invoke-RestMethod -Uri $webhookUrl -Method Post -ContentType "application/json" -Body $discordPayload
-    $latestCrash.Name | Out-File -FilePath $trackingFile -Encoding UTF8
-} catch {
-    # Si esto falla, no podemos hacer más nada
+$curlPath = "C:\Windows\System32\curl.exe"
+if (-not (Test-Path $curlPath)) {
+    exit 0
+}
+
+# 3. Extraer Metadatos Extra
+$playtimeStr = "Desconocida"
+if (Test-Path $latestLog) {
+    $logItem = Get-Item $latestLog
+    $playtimeSpan = $logItem.LastWriteTime - $logItem.CreationTime
+    if ($playtimeSpan.TotalMinutes -lt 60) {
+        $playtimeStr = "$([math]::Round($playtimeSpan.TotalMinutes, 1)) minutos"
+    } else {
+        $playtimeStr = "$([math]::Round($playtimeSpan.TotalHours, 1)) horas"
+    }
+}
+
+$crashReason = "No se pudo extraer automaticamente"
+$suspectMods = "Ninguno detectado por Forge/Fabric"
+if ($sendCrash -and ($latestCrash -ne $null)) {
+    try {
+        $crashContent = Get-Content -Path $latestCrash.FullName -Raw -ErrorAction SilentlyContinue
+        if ($crashContent -match "Description: (.+)") {
+            $crashReason = $matches[1].Trim()
+        }
+        if ($crashContent -match "Suspected Mods:\s*(.+)") {
+            $suspectMods = $matches[1].Trim()
+        }
+    } catch {}
+}
+
+# 4. Enviar todo
+if (Test-Path $latestLog) {
+    $tempLog = Join-Path $env:TEMP "latest_$username.log"
+    Copy-Item -Path $latestLog -Destination $tempLog -Force
+
+    $timestamp = [datetime]::UtcNow.ToString('yyyy-MM-ddTHH:mm:ssZ')
+    $payloadObj = @{}
+
+    if ($sendCrash) {
+        $embed = @{
+            title = "[CRASH] Reporte de Crash de Minecraft"
+            description = "Se ha detectado un cierre inesperado del juego."
+            color = 16711680
+            fields = @(
+                @{ name = "Usuario"; value = "**$username**"; inline = $true },
+                @{ name = "Tiempo Jugado"; value = "$playtimeStr"; inline = $true },
+                @{ name = "Archivo Crash"; value = "**$($latestCrash.Name)**"; inline = $false },
+                @{ name = "Motivo (aprox)"; value = "$crashReason"; inline = $false },
+                @{ name = "Mods Sospechosos"; value = "$suspectMods"; inline = $false }
+            )
+            footer = @{ text = "Modpack 2026UNI - PineconeMC Launcher" }
+            timestamp = $timestamp
+        }
+        $payloadObj.content = "<@351472135606108175> **CRASH DETECTADO**"
+        $payloadObj.embeds = @($embed)
+    } else {
+        $embed = @{
+            title = "[LOG] Sesion de Juego Finalizada"
+            description = "El jugador ha cerrado el juego con normalidad."
+            color = 65280
+            fields = @(
+                @{ name = "Usuario"; value = "**$username**"; inline = $true },
+                @{ name = "Tiempo Jugado"; value = "$playtimeStr"; inline = $true }
+            )
+            footer = @{ text = "Modpack 2026UNI - PineconeMC Launcher" }
+            timestamp = $timestamp
+        }
+        $payloadObj.embeds = @($embed)
+    }
+    
+    $tempJson = Join-Path $env:TEMP "discord_payload.json"
+    $jsonString = $payloadObj | ConvertTo-Json -Depth 5
+    [System.IO.File]::WriteAllText($tempJson, $jsonString, [System.Text.Encoding]::UTF8)
+    
+    $argsList = @("-F", "payload_json=<$tempJson")
+    
+    if ($sendCrash) {
+        $tempCrash = Join-Path $env:TEMP $latestCrash.Name
+        Copy-Item -Path $latestCrash.FullName -Destination $tempCrash -Force
+        $argsList += "-F", "file1=@$tempCrash", "-F", "file2=@$tempLog"
+    } else {
+        $argsList += "-F", "file1=@$tempLog"
+    }
+    
+    $argsList += $webhookUrl
+    
+    $process = Start-Process -FilePath $curlPath -ArgumentList $argsList -NoNewWindow -Wait -PassThru
+    
+    if (Test-Path $tempLog) { Remove-Item $tempLog -Force }
+    if (Test-Path $tempJson) { Remove-Item $tempJson -Force }
+    
+    if ($sendCrash -and (Test-Path $tempCrash)) {
+        Remove-Item $tempCrash -Force
+        if ($process.ExitCode -eq 0) {
+            $latestCrash.Name | Out-File -FilePath $trackingFile -Encoding UTF8
+        }
+    }
 }

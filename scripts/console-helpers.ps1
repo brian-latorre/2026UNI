@@ -120,7 +120,8 @@ function Write-Summary {
         [string]$Url,
         [string]$TotalTime,
         [string[]]$AddedMods = @(),
-        [string[]]$RemovedMods = @()
+        [string[]]$RemovedMods = @(),
+        [string]$LogPath = ""
     )
     Write-Host ""
     Write-Host "=======================================================" -ForegroundColor Cyan
@@ -149,6 +150,9 @@ function Write-Summary {
     Write-Value "Tiempo total" $TotalTime
     Write-Host ""
     Write-Host "  Actualizacion publicada con exito!" -ForegroundColor Green
+    if ($LogPath) {
+        Write-Host "  Log guardado en: $LogPath" -ForegroundColor DarkGray
+    }
     Write-Host "=======================================================" -ForegroundColor Cyan
     Write-Host ""
 }

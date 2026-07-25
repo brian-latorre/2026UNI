@@ -2,6 +2,15 @@
   "bookGuiScale": 4,
   "clickedVisualize": false,
   "bookData": {
+    "adorablehamsterpets:hamster_tips_guide_book": {
+      "viewedEntries": [
+        "adorablehamsterpets:the_hamster_life/basic_care",
+        "adorablehamsterpets:the_hamster_life/regional_rodents",
+        "adorablehamsterpets:the_hamster_life/taming"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
     "botania:lexicon": {
       "viewedEntries": [
         "botania:basics/welcome",

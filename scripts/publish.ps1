@@ -91,7 +91,8 @@ try {
         }
     }
     
-    Write-Summary -Version $packVersion -GitShortStat $gitShortStat -GitHash $gitHash -Url "https://github.com/brian-latorre/2026UNI" -TotalTime $totalTimeStr -AddedMods $addedMods -RemovedMods $removedMods
+    $logPath = Join-Path (Split-Path $PSScriptRoot -Parent) "logs\latest.log"
+    Write-Summary -Version $packVersion -GitShortStat $gitShortStat -GitHash $gitHash -Url "https://github.com/brian-latorre/2026UNI" -TotalTime $totalTimeStr -AddedMods $addedMods -RemovedMods $removedMods -LogPath $logPath
     
 } catch {
     Write-Host ""

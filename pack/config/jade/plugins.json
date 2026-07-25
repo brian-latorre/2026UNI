@@ -5,8 +5,8 @@
     "harvest_tool.show_unbreakable": false,
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
-    "item_storage.normal_amount": 9,
     "item_storage": true,
+    "item_storage.normal_amount": 9,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
@@ -51,9 +51,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -64,18 +61,9 @@
     "goggles.detailed": false,
     "placard": true
   },
-  "exposure": {
-    "lightroom": true,
-    "photograph_frame": true
-  },
   "tombstone": {
     "decorative_graves": true,
     "player_graves": true
-  },
-  "delightful": {
-    "crop_progress": true,
-    "pie_icons": true,
-    "mushroom_colony": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -85,15 +73,11 @@
     "registry_name": "OFF",
     "mod_name": true
   },
-  "dynamictrees": {
-    "rooty_water": true,
-    "pod": true,
-    "fruit": true,
-    "rooty": true,
-    "branch": true
-  },
-  "waystones": {
-    "waystone": true
+  "adorablehamsterpets": {
+    "hamster_debug_info": true,
+    "hamster_bed_info": true,
+    "wild_bush_tooltips": true,
+    "hamster_genetics": true
   },
   "balm": {
     "jade": true
@@ -109,6 +93,28 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
+  },
+  "delightful": {
+    "crop_progress": true,
+    "pie_icons": true,
+    "mushroom_colony": true
+  },
+  "dynamictrees": {
+    "rooty_water": true,
+    "pod": true,
+    "fruit": true,
+    "rooty": true,
+    "branch": true
+  },
+  "waystones": {
+    "waystone": true
   },
   "storagedrawers": {
     "display.stacklimit": true,

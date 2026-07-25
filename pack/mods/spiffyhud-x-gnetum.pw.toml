@@ -1,0 +1,13 @@
+name = "SpiffyHUD x Gnetum"
+filename = "spiffyxgnetum-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0797ead94d51bdd65ca4f2d2a793091726271bea"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6993849
+project-id = 1346506

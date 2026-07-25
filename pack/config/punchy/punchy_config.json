@@ -1,6 +1,6 @@
 {
   "renderArmorArmsFP": true,
-  "interactiveStuffCompat": false,
+  "interactiveStuffCompat": true,
   "bettercombatCompat": false,
   "swordBlockingCompat": false,
   "animationSpeed": 5.5,

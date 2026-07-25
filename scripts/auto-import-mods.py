@@ -8,6 +8,7 @@ import urllib.error
 import json
 import subprocess
 import logging
+import datetime
 
 def hash_sha1(filepath):
     h = hashlib.sha1()
@@ -32,14 +33,37 @@ def check_modrinth(sha1_hash, logger):
         logger.error(f"Error: {e}")
     return None, None
 
-def setup_logger(pack_dir):
-    log_file = os.path.join(pack_dir, "auto-import.log")
+def setup_logger(project_root):
+    logs_dir = os.path.join(project_root, "logs")
+    os.makedirs(logs_dir, exist_ok=True)
+    
+    latest_log = os.path.join(logs_dir, "latest.log")
+    if os.path.exists(latest_log):
+        try:
+            mtime = os.path.getmtime(latest_log)
+            dt = datetime.datetime.fromtimestamp(mtime)
+            old_name = dt.strftime("%Y-%m-%d-%H-%M-%S.log")
+            old_path = os.path.join(logs_dir, old_name)
+            counter = 1
+            while os.path.exists(old_path):
+                old_name = dt.strftime("%Y-%m-%d-%H-%M-%S") + f"-{counter}.log"
+                old_path = os.path.join(logs_dir, old_name)
+                counter += 1
+            os.rename(latest_log, old_path)
+        except Exception:
+            pass
+
+    old_log = os.path.join(project_root, "pack", "auto-import.log")
+    if os.path.exists(old_log):
+        try: os.remove(old_log)
+        except: pass
+
     logger = logging.getLogger("AutoImport")
     logger.setLevel(logging.INFO)
     
     formatter = logging.Formatter('%(asctime)s | %(levelname)s | %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
     
-    fh = logging.FileHandler(log_file, encoding='utf-8')
+    fh = logging.FileHandler(latest_log, encoding='utf-8')
     fh.setFormatter(formatter)
     
     ch = logging.StreamHandler(sys.stdout)
@@ -57,11 +81,12 @@ def main():
     source_mods_dir = os.path.join(appdata, ".minecraft", "2026UNI", "mods")
     
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    pack_dir = os.path.abspath(os.path.join(script_dir, "..", "pack"))
+    project_root = os.path.abspath(os.path.join(script_dir, ".."))
+    pack_dir = os.path.join(project_root, "pack")
     pack_mods_dir = os.path.join(pack_dir, "mods")
     
     os.makedirs(pack_mods_dir, exist_ok=True)
-    logger = setup_logger(pack_dir)
+    logger = setup_logger(project_root)
     
     packwiz_exe = os.path.abspath(os.path.join(script_dir, "..", "tools", "packwiz.exe"))
     

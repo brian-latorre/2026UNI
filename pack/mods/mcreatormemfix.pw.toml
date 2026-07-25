@@ -1,0 +1,13 @@
+name = "MCreatorMemFix"
+filename = "MCreatorMemFix-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3a60262ac52bd49ea607ad8a9fd49d80d8267e4c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7150962
+project-id = 1310491
