@@ -141,7 +141,14 @@ Name: "{userdesktop}\2026UNI"; \
     Filename: "{app}\PineconeMC\elyprismlauncher.exe"; \
     Parameters: "-l ""2026UNI"""; \
     WorkingDir: "{app}\PineconeMC"; \
-    Comment: "Jugar 2026UNI â€” Minecraft 1.20.1"; \
+    Comment: "Jugar 2026UNI 🚀 Minecraft 1.20.1"; \
+    Tasks: desktopicon
+
+; Herramienta de reparacion en escritorio
+Name: "{userdesktop}\Reparar 2026UNI"; \
+    Filename: "{app}\Reparar Juego.bat"; \
+    WorkingDir: "{app}"; \
+    Comment: "Herramienta para solucionar crasheos de 2026UNI"; \
     Tasks: desktopicon
 
 ; Acceso directo en menÃº inicio

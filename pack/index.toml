@@ -639,7 +639,7 @@ hash = "7dd7dc266613f18011a9a5ba624e50c35374ad2b39ea379231c3c44e7b2261b3"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "39d0028c2e72186ef3431754d70e425179b4f2f4be5842522ee8b6bebdc66ad5"
+hash = "9d1b1e49079dd7cefccacc75f21d95493d65e155b24e605e2daeeffc8a674519"
 
 [[files]]
 file = "config/collective.json5"
@@ -831,7 +831,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "d86bae4f22acdb5ef9c46cdf5e88d15e10bb75cdca91781e6aaa30e306193e69"
+hash = "9dfea48e0d5f6e5134e984ed9fa14291b17fc34812ecb9ed1affed2ce09a1d7e"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -850,6 +850,22 @@ file = "config/fancymenu/assets/configuracion_resaltado.png"
 hash = "4feff2bf512e29330f943ff59512216e7f0f014baeb0281e1c390e2910863a0d"
 
 [[files]]
+file = "config/fancymenu/assets/drive.jpg"
+hash = "9c45900e43a600315a61702cd8ecbf6e0c919e989754c1593fc00ed2bf1230bf"
+
+[[files]]
+file = "config/fancymenu/assets/halfheart.png"
+hash = "f73785fff4f0250f890509f871de6ab92f804f4f68ebe6d9583d25189f839da2"
+
+[[files]]
+file = "config/fancymenu/assets/heart.png"
+hash = "f61dedd2747c51d2907283feaa5f3782e0331555f2c0db6d332e03392febd798"
+
+[[files]]
+file = "config/fancymenu/assets/icono.png"
+hash = "8f535da7d3e89b9aa8007ad2b8f5b7e7796f4d3601cf282eaa59df8ed7ff4d8f"
+
+[[files]]
 file = "config/fancymenu/assets/items_layout.png"
 hash = "db199c46211d67425286bd6aa6968c56e06cf4bddfa0e585cb60694bdf625d5d"
 
@@ -864,6 +880,18 @@ hash = "6509ddc72e5fe655e90bffe0e4b9177bcaf9041cda470289a1b68fbe0c59efcf"
 [[files]]
 file = "config/fancymenu/assets/mods_resaltado.png"
 hash = "255f87e5c2170297948539fa5e825e15dfe66343d43faa527e5a770556fa2431"
+
+[[files]]
+file = "config/fancymenu/assets/offline.png"
+hash = "3c3ebc08db6c0a630b19428065dc8147b67e039de5e7db8b58fab7445c86527e"
+
+[[files]]
+file = "config/fancymenu/assets/offline_resaltado.png"
+hash = "dc5d1d5a2f50e84b1438158e9036b81ced3ddb755f3a860ba31c5fe3a1f1205a"
+
+[[files]]
+file = "config/fancymenu/assets/plantillaLetras.png"
+hash = "310a000c79270081a025db785d8a1c0d654709f08ea43421792e1f1f2af3d0c1"
 
 [[files]]
 file = "config/fancymenu/assets/player_layout.png"
@@ -931,7 +959,7 @@ hash = "e1f7ac719661bd2da00232afeb33c78ec424a2cb3c1fce6439d538568139dc46"
 
 [[files]]
 file = "config/fancymenu/customization/mainmenu.txt"
-hash = "7134d11e3a66f6a053d7409975cfd29c3f2400fe5014e83adaf7ead06c7520e4"
+hash = "890b226fa970815a94d6ad7a1122fc2ad4ab1217ce89142218e46721a93ecbbe"
 
 [[files]]
 file = "config/fancymenu/customization/menucarga.txt"
@@ -942,8 +970,48 @@ file = "config/fancymenu/fonts/Cinzel-VariableFont_wght.ttf"
 hash = "3192c4e40421bf2824f40f5b0eba1047eacfa7b08d6e8ba6941b803e701a29bf"
 
 [[files]]
+file = "config/fancymenu/fonts/Cinzel.zip"
+hash = "e5bb2ebf3b9e426af59b12e6a894deb7fe52d32da18f0862da6031df0d269b20"
+
+[[files]]
+file = "config/fancymenu/fonts/Cinzel/Cinzel-VariableFont_wght.ttf"
+hash = "3192c4e40421bf2824f40f5b0eba1047eacfa7b08d6e8ba6941b803e701a29bf"
+
+[[files]]
+file = "config/fancymenu/fonts/Cinzel/OFL.txt"
+hash = "f06e9999b32649379c4a9259e6e639de7714353c539592d22ea7dfadad1ea68d"
+
+[[files]]
+file = "config/fancymenu/fonts/Cinzel/README.txt"
+hash = "0bab9cc03567cc73a7d67c1874e7260f09985c19866d65bfdfa7ec081abed038"
+
+[[files]]
+file = "config/fancymenu/fonts/Cinzel/static/Cinzel-Black.ttf"
+hash = "f6b4612fe22c4d76cff90d6fffc98dd8185a6474eb5808bc36ee09867eab7e4e"
+
+[[files]]
+file = "config/fancymenu/fonts/Cinzel/static/Cinzel-Bold.ttf"
+hash = "f606ab3a8a0a75863022676ea496478bb0f4d520ae8c40b6050df3d6dbffad20"
+
+[[files]]
+file = "config/fancymenu/fonts/Cinzel/static/Cinzel-ExtraBold.ttf"
+hash = "fdaa2195f1d0492b0716bbe5f15a7581fe294df27a37f8113019817db70072c9"
+
+[[files]]
+file = "config/fancymenu/fonts/Cinzel/static/Cinzel-Medium.ttf"
+hash = "cbce26401ca64f13bdc2f524e43b8e58cc122ba20839b4e67cc6b477e2d3185b"
+
+[[files]]
+file = "config/fancymenu/fonts/Cinzel/static/Cinzel-Regular.ttf"
+hash = "6e67a440d19a22e7a14631e7fb8efb71cdf43fde8adf040b7935ac2b38519ab0"
+
+[[files]]
+file = "config/fancymenu/fonts/Cinzel/static/Cinzel-SemiBold.ttf"
+hash = "a215fd5c61da3cbb0d06c33b5d4d8cf7b343fab2805b3b53ef2a6be43cd092be"
+
+[[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "d917ddd448d0fc5a8c14e207605a81a345b65f8b644603ae96fd3365096dbe68"
+hash = "b283e76982ee668bf135fe2e1aaf0de80e196919d09ee244375893c146a38fe5"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
@@ -1279,7 +1347,7 @@ hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
 [[files]]
 file = "config/mcreator_mem_fix.json"
-hash = "be72e619632c0b3b2cfaad8e5365ce3723ba5e700b71afeecba7f062afd11b10"
+hash = "b384598d915ea00ccee52005d04860e60e156a062d308009020d79146b31b8e3"
 
 [[files]]
 file = "config/mobplayeranimator/client.json5"
@@ -1331,7 +1399,7 @@ hash = "2cf603cb5a49de1bf3b45f5bd0704c88eaacb8733b9315dd0b0f18e595425828"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "170858b2598e2d18ae69a3865706f866e9b435c604030841758bfd5a8747d925"
+hash = "72836d27225fdcff10be9a13efac6f57f4885c0268b0f483f9838a15adc38252"
 preserve = true
 
 [[files]]
@@ -1384,7 +1452,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "49df785ce63047a292d123d635ba58c5abaa3e6bb7aaa7dde14ee1cfa4b59bba"
+hash = "5a6253e9e31bd6767c01da2b924e0bfa2306971ca915abbe72beca8b15ad8a87"
 
 [[files]]
 file = "config/prettyrain.json5"
@@ -1404,7 +1472,7 @@ hash = "85363ca6d1d610980e47bda8cfd461cab64da31e01ba33ee78ea13c74e68dd01"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "fedbbde3fe40c39afe3628c07d6ca35c40c8626a715d47a6048c34748b44f606"
+hash = "5e549a8372d3655425cf7bb3f076467275764b18e998c7225bbcc1598bf0de14"
 
 [[files]]
 file = "config/railways-client.toml"
@@ -1484,7 +1552,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "903084e07f46a80e3c66f1a1b246aa2be414ddfdb89a9cb2e5171be8775bf4df"
+hash = "f31ce9aa3c1387d15750226cd9cfa917d00db07047fe87b8a0820d60fc3cb998"
 
 [[files]]
 file = "config/simplehats.json"
@@ -5207,7 +5275,7 @@ metafile = true
 
 [[files]]
 file = "mods/chloride.pw.toml"
-hash = "6a3ac074c1c80e2768fbf70ce4e825ef6043555a5df24715582e723f000b065f"
+hash = "30f6f3f33ca9a7c7e0d5c932089111bf5a8666e6efaf10fea9f50340a844ce2a"
 metafile = true
 
 [[files]]
@@ -5600,10 +5668,6 @@ hash = "91e8719a2b1c6a9b4ee6b3b9658ef5357cc2be66a6dddc6407e4529181902aff"
 metafile = true
 
 [[files]]
-file = "mods/forgeskyboxes-0.0.2-1.20.2-new.jar"
-hash = "eeedef16980df681b3e18d822c08e2216a5afd80cff9b0ffdd5dfe784ea90a17"
-
-[[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "62ef7e92478035b77e996189984e4749b2d876ed0a389977a2670a28f105bfd2"
 metafile = true
@@ -5703,11 +5767,6 @@ file = "mods/inmisaddon-1.0.4.jar"
 hash = "79556ac878ebc154ae4ffd314d8661ed4885065eb3182996bf8f58662c0f2f39"
 
 [[files]]
-file = "mods/inspectability-reforged.pw.toml"
-hash = "1e56f395bc1039ab20addbe484b92e46ae4e09709729f35d86e9ccae551aabd1"
-metafile = true
-
-[[files]]
 file = "mods/integratedplaytime.pw.toml"
 hash = "3426cf60a8e2d7d9d4f9b09949d188c6ce213cf7b2a87c709669f5c3871ab7ac"
 metafile = true
@@ -5734,7 +5793,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "67ca16035fd07ac787223e2e7fa5a3342cde02c7c09af28a09a5c23bd496d528"
+hash = "aca42804848d0aacb88fb03d02e309a1e9fab4f7dc99970173bdd8413cd4b10e"
 metafile = true
 
 [[files]]
@@ -6071,7 +6130,7 @@ metafile = true
 
 [[files]]
 file = "mods/punchy.pw.toml"
-hash = "59ddf2660b322a646592eb2649faa8a2e20c85ac48998ca90358df3f0ef53212"
+hash = "d0a5a831b273720388754ff1f8b534c4ac470c6299d6f6b79f7eac0adde4fafa"
 metafile = true
 
 [[files]]
@@ -6546,10 +6605,6 @@ file = "resourcepacks/Botania Spanish Translation.zip"
 hash = "e88fe5a0d7bdca3c7dd851e197f4dc9daefa79a71b414bbb04ffc6a074106087"
 
 [[files]]
-file = "resourcepacks/Chase the Skies.zip"
-hash = "851a23535a972a857849d80d245c502ee39ae14b358f52d1ac11a07d6f57cf28"
-
-[[files]]
 file = "resourcepacks/E19 Cobblemon Minimap Icons.zip"
 hash = "9154068f4af83690fbed7f4b2fb26f1b96b25d210d9d4eee25b77f5ca88900e4"
 
@@ -6750,10 +6805,6 @@ file = "resourcepacks/FA+Player-v1.0.zip"
 hash = "b1f0c3cbcb77cdf2ad0c59e0f405f7da84f9c07f4ecd90cbb94a40bef70ca70b"
 
 [[files]]
-file = "resourcepacks/FA+Player_HMIFix3.zip"
-hash = "bd6fc5f5961cb411c1868b6b34fd2d8ac498583ba4e259ab8df9ea42a20cfd2f"
-
-[[files]]
 file = "resourcepacks/FreshAnimations_v1.10.4.zip"
 hash = "8e44b29560d2e7d952c0a4f77f0451e6dcb048f827189bffc712b446be8de7f2"
 
@@ -6774,12 +6825,8 @@ file = "resourcepacks/Quark Programmer Art.zip"
 hash = "41cb720cf256a12ea247b2f38068b363aa5b1675470c4b5aa66850701a78bc4d"
 
 [[files]]
-file = "resourcepacks/Refined Buckets 2.4.1.zip"
-hash = "198748b54fb15bc01883da58aa87da44bd8c15d41fef862613f1adb03bd33637"
-
-[[files]]
-file = "resourcepacks/UD x NH 1.20-1.21.6.zip"
-hash = "faf502af16fd9eec5f207fd4213a29c940f78cd7d05fc1a55fc338224aa12f35"
+file = "resourcepacks/UD - Hotbar add-on 1.16-1.20.1.zip"
+hash = "e033ecb5d98d2567fb89a95375da4e6f8803275321b8c12dc2f7ed14f15985f9"
 
 [[files]]
 file = "resourcepacks/Xaero's Extended Mob Icons v1.6.zip"

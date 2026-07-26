@@ -31,6 +31,9 @@ if exist "%MC_DIR%\options.txt" del /f /q "%MC_DIR%\options.txt"
 echo Eliminando configuraciones de mods (config)...
 if exist "%MC_DIR%\config" rmdir /s /q "%MC_DIR%\config"
 
+echo Eliminando mods (para evitar infiltrados y conflictos)...
+if exist "%MC_DIR%\mods" rmdir /s /q "%MC_DIR%\mods"
+
 echo Eliminando cache de memoria e indice...
 if exist "%MC_DIR%\.mixin.out" rmdir /s /q "%MC_DIR%\.mixin.out"
 if exist "%MC_DIR%\packwiz.json" del /f /q "%MC_DIR%\packwiz.json"

@@ -2,7 +2,7 @@
 [general]
 	"Enable 'q' Button" = true
 	"'q' Button on the Right" = false
-	"Disable Q Menu Effects" = false
+	"Disable Q Menu Effects" = true
 	#How many advancements deep you can see in the advancement screen. Vanilla is 2.
 	#Allowed values: (0,)
 	"Advancement Visibility Depth" = 2
@@ -92,7 +92,7 @@
 		"Love Chance" = 0.333333333
 		Range = 10.0
 		#Chance that an animal decides to look for a through. Closer it is to 1 the more performance it will take. Decreasing will make animals take longer to find one
-		"Look Chance" = 0.015
+		"Look Chance" = 0.005
 
 	[automation.iron_rod]
 		"Use Pre End Recipe" = false
@@ -1852,7 +1852,7 @@
 		#When true magnets will never push something that pistons cant push. Disable to have further control. This allows iron rods to break obsidian for example
 		"Use Piston Logic" = true
 		#Allows magnets to push and pull entities in the 'affected_by_magnets' tag (edit it with datapack). Turning off can reduce lag
-		"Affect Entities" = true
+		"Affect Entities" = false
 		#Allows magnets to push and pull entities having magnetic armor. Requires 'magnetic_entities' config ON
 		"Affects Armor" = true
 		#Determines how fast entities are pulled by magnets. Still follows the inverse square law
