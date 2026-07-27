@@ -5087,10 +5087,6 @@ file = "mods/.gitkeep"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
-file = "mods/Baby-Moon-Restored-1.20.1-2.0.1.jar"
-hash = "ea8935b7e3b3e6581842894c2cc4057010434a91f174aff7f08733ce703c5bec"
-
-[[files]]
 file = "mods/BeeFix-1.20-1.0.7.jar"
 hash = "5fa50cfbd0ee3d0472ba8e9162d40e9556ea930a6bbcf93de2ab751365b58566"
 
@@ -5207,11 +5203,6 @@ metafile = true
 [[files]]
 file = "mods/betterf3.pw.toml"
 hash = "8341be7376192fe2cbffa3af36060ab8684adb2862efe478d697810cdd979e95"
-metafile = true
-
-[[files]]
-file = "mods/black-moon.pw.toml"
-hash = "928706be758f621f74d52b48a255692706c7f1b7b854b94424636aaaf374c6d5"
 metafile = true
 
 [[files]]
@@ -5565,11 +5556,6 @@ hash = "e4c69a3551a4343fc76fb135266aecac0042863693f04d2c58a26c71b6e988d9"
 metafile = true
 
 [[files]]
-file = "mods/ender-moon.pw.toml"
-hash = "4a49807a7154a08c1999c1da0c0850a22c8b7116b5fa59cb51cd2917d6a26251"
-metafile = true
-
-[[files]]
 file = "mods/ends-delight.pw.toml"
 hash = "63a9fdacf232df08a520fb1f25d2d1e878551fef4d18722c075e04d6291f5ed1"
 metafile = true
@@ -5606,11 +5592,6 @@ metafile = true
 [[files]]
 file = "mods/extrasounds-forge.pw.toml"
 hash = "c44114c750fdd838f9968a178456f3fc56befc0d07ab7aa9f04e16ef4e6bebe9"
-metafile = true
-
-[[files]]
-file = "mods/extreme-horde-moon.pw.toml"
-hash = "91c76a338860029076d94e7da40e1cefecc2630e321fb386cbe3b678068ff935"
 metafile = true
 
 [[files]]
@@ -5741,16 +5722,6 @@ metafile = true
 [[files]]
 file = "mods/hide-key-binding.pw.toml"
 hash = "fee02da4acdbd973b73c5645c26188a8b3550ce6f177c55de1886c6a29c0cb26"
-metafile = true
-
-[[files]]
-file = "mods/horde-moon.pw.toml"
-hash = "3cda3e8510ac71f6aee45b6acb04b229487c9176273bea90c2568197934d263e"
-metafile = true
-
-[[files]]
-file = "mods/hunters-moon.pw.toml"
-hash = "09c5843a5aba483c184078d6993e1f3f0b71bb253792e28d54d72fb54db3e318"
 metafile = true
 
 [[files]]
@@ -5977,11 +5948,6 @@ hash = "8a459a2534f09d18581fa154a84f428b1eaf1721fc8493ebe1e80df490e7502c"
 metafile = true
 
 [[files]]
-file = "mods/miners-moon.pw.toml"
-hash = "3a7356246d5c9277e39873c228f6f1ebf0e555df745c5788d7115a5ebb5a9c80"
-metafile = true
-
-[[files]]
 file = "mods/mob-player-animator.pw.toml"
 hash = "6c3571b3d62c673d575e654edab9ab17f70049811e168b4d070e12e5d9fb7b5f"
 metafile = true
@@ -6082,11 +6048,6 @@ metafile = true
 [[files]]
 file = "mods/patchouli.pw.toml"
 hash = "b2cb681aaf3e6085148392a06d40899239dc299aaf5ce0adf168fc225d922c97"
-metafile = true
-
-[[files]]
-file = "mods/peaceful-moon.pw.toml"
-hash = "c458268a0828958a9a53c718292a95cc066d2b480ad60f56888d1211e437f638"
 metafile = true
 
 [[files]]
@@ -6316,11 +6277,6 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "d0e1a79dbcda8499e0f12f4adaa5503f9bbc84a6274ce07b3a3839476622e8e5"
-metafile = true
-
-[[files]]
-file = "mods/spider-moon.pw.toml"
-hash = "468123698637936434c5ce6a20ad1c6288ad9b261d79c6f4bd28c533c7c5a44f"
 metafile = true
 
 [[files]]

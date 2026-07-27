@@ -257,6 +257,7 @@ begin
     CfgContent := CfgContent + 'OverrideMemory=true' + #13#10;
     CfgContent := CfgContent + 'MinMemAlloc=5120' + #13#10;
     CfgContent := CfgContent + 'MaxMemAlloc=5120' + #13#10;
+    CfgContent := CfgContent + 'LowMemWarning=false' + #13#10;
     CfgContent := CfgContent + #13#10;
     CfgContent := CfgContent + 'OverrideJavaArgs=true' + #13#10;
     CfgContent := CfgContent + 'GarbageCollectorPreset=None' + #13#10;
@@ -280,6 +281,7 @@ begin
     PrismContent := PrismContent + 'LastHostname=2026UNI' + #13#10;
     PrismContent := PrismContent + 'GarbageCollectorPreset=None' + #13#10;
     PrismContent := PrismContent + 'UseOptimizedJvmArgs=false' + #13#10;
+    PrismContent := PrismContent + 'LowMemWarning=false' + #13#10;
 
     // Siempre sobreescribir para garantizar que no queden configuraciones rotas
     SaveStringToFile(PrismCfgPath, PrismContent, False);
