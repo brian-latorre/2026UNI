@@ -535,7 +535,7 @@ hash = "dee286337f4d870b63bb0a4c8d9add6385b363f1edd04209e6a74ff9fd7d9d6e"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "a5f57d321b1618bb7526f84a1d92d168350e7a5e9b039d56532c5890a7065a36"
+hash = "fac1fc8bf0cb829993ede8c9adf2a9c7da8c116d52d2ad6741b1a395752bc896"
 
 [[files]]
 file = "config/badoptimizations.txt"
@@ -723,15 +723,15 @@ hash = "f676f89ded588888f7b45802271683cd0a2dfb7a02d437b0dfb683cef5767ba7"
 
 [[files]]
 file = "config/defaultoptions-common.toml"
-hash = "168f7d8618394727f142e14da7206fce25833311e3e467ee25657d58da265102"
+hash = "9a8896bcb2c4599dfe69dbb3e80a0e986e639b9287fdc70e7866dcc9fb7bb5ec"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "6f576c1cdc4277eebf4f82fccc0436b84debe3a768d6ef281f7af749c27eadc1"
+hash = "95e8ab00e721a955de2924e5e07463ea3e45ed828f21e472098eadd501c5d86f"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "9e0add39a63975e1fbf02f199bf9c2f9323450bde3ae8302612bf0efc6964067"
+hash = "8523f8f63f6437284cda8c9f9962b5e06762a19af17a31755e84acbdde8f3b6e"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
@@ -831,7 +831,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "04e449188a7b25d3a8a00b8586cd019e431c9fcb79f218b3acc5add2c98f29fa"
+hash = "62e1b65c27b9e5fd4fc1bcd70d81d5407bb1baafb81e0600fd6774adad694812"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1279,7 +1279,7 @@ hash = "b4bcdd97a688d2060541f3f2718b98fa82fe67ceb665b11676a799ece7686937"
 
 [[files]]
 file = "config/jei/world/local/Mundo_nuevo/lookupHistory.ini"
-hash = "011c21c391c3ad1edd88eaa7904a34561e18bf63ad1b60561a29b7787ac0c898"
+hash = "89d61e0bfbbba164eb3e029cfa0ad2c93503d97d3304b0dcb79aaf05a9157f56"
 
 [[files]]
 file = "config/jei/world/server/UNI_2026_75a56078/bookmarks.ini"
@@ -1355,7 +1355,7 @@ hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
 [[files]]
 file = "config/mcreator_mem_fix.json"
-hash = "b384598d915ea00ccee52005d04860e60e156a062d308009020d79146b31b8e3"
+hash = "2c5414cd3d5dd09f57fdd396ec842ef36364bd65b5b3101e4d779ba98de99c0f"
 
 [[files]]
 file = "config/mobplayeranimator/client.json5"
@@ -1407,7 +1407,7 @@ hash = "2cf603cb5a49de1bf3b45f5bd0704c88eaacb8733b9315dd0b0f18e595425828"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "f3555249d2321aeebaefacfbb1ab0f58dabde541c87492f758219abcce1c79a8"
+hash = "2e5f7707fe4a44c34daa6f256090b1b1ef47bfad8cb435bdc483e6f57385f36a"
 preserve = true
 
 [[files]]
@@ -1460,7 +1460,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "49df785ce63047a292d123d635ba58c5abaa3e6bb7aaa7dde14ee1cfa4b59bba"
+hash = "84736c56c9bd3d07273279b128bd9eb11a825b7ec1a7ea1e2f1b64d607e030d3"
 
 [[files]]
 file = "config/prettyrain.json5"
@@ -1476,7 +1476,7 @@ hash = "77d9559a19f69d73f952177d2047760a9e55be219fee015658effaaa8783eb46"
 
 [[files]]
 file = "config/punchy/punchy_config.json"
-hash = "85363ca6d1d610980e47bda8cfd461cab64da31e01ba33ee78ea13c74e68dd01"
+hash = "3d8f139d5203d7c85577ae48b15d7f53c2c809a796db1eb92625f2c0ee0fbdd7"
 
 [[files]]
 file = "config/quark-common.toml"
@@ -1560,7 +1560,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "398b5708f6993dc1c6917cd8ef524a6f85a753ca769988ad47fb57d17a19231b"
+hash = "910bb826d57de33b78ac6c63900acef7f3a7f7ba1566be423e95452725e73d5d"
 
 [[files]]
 file = "config/simplehats.json"

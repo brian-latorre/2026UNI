@@ -35,6 +35,9 @@
   "firstPersonModelHideEnabled": true,
   "firstPersonModelHidePitch": 60.0,
   "itemBlacklist": [
+    "tempad:he_who_remains_tempad",
+    "tempad:location_card",
+    "tempad:tempad",
     "relics:spatial_sign",
     "iammusicplayer:boombox",
     "iammusicplayer:cassette_deck",
@@ -52,6 +55,9 @@
     "ae2:crafting_terminal"
   ],
   "blacklistApplyDualHanded": {
+    "tempad:he_who_remains_tempad": false,
+    "tempad:location_card": false,
+    "tempad:tempad": false,
     "relics:spatial_sign": false,
     "iammusicplayer:boombox": false,
     "iammusicplayer:cassette_deck": false,
