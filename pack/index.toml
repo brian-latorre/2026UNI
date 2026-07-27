@@ -5561,11 +5561,6 @@ hash = "63a9fdacf232df08a520fb1f25d2d1e878551fef4d18722c075e04d6291f5ed1"
 metafile = true
 
 [[files]]
-file = "mods/enhanced-celestials.pw.toml"
-hash = "a5306e8b8818ae6ade2941a0a3caed2b56756aeb812997cdb6210dc8ecb1b372"
-metafile = true
-
-[[files]]
 file = "mods/entity-model-features.pw.toml"
 hash = "9638ff768bb45f6aece95d08049e30385369efecc8f240f5bce012f5ee8f321a"
 metafile = true
