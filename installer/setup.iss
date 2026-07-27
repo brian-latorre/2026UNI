@@ -102,6 +102,11 @@ Source: "..\instance-template\enviar-logs.bat"; \
     DestDir: "{app}\PineconeMC\instances\2026UNI"; \
     Flags: ignoreversion
 
+; --- Instance template: pre-launch.bat ---
+Source: "..\instance-template\pre-launch.bat"; \
+    DestDir: "{app}\PineconeMC\instances\2026UNI"; \
+    Flags: ignoreversion
+
 ; --- Instance template: .minecraft contents ---
 Source: "..\instance-template\.minecraft\*"; \
     DestDir: "{app}\PineconeMC\instances\2026UNI\.minecraft"; \
@@ -109,6 +114,9 @@ Source: "..\instance-template\.minecraft\*"; \
 
 ; --- Repair script ---
 Source: "..\Reparar Juego.bat"; DestDir: "{app}"; Flags: ignoreversion
+
+; --- App Icon ---
+Source: "..\icon.ico"; DestDir: "{app}"; Flags: ignoreversion
 
 ; ============================================
 ; EJECUCIÃƒâ€œN POST-INSTALACIÃƒâ€œN
@@ -147,6 +155,7 @@ Name: "{userdesktop}\2026UNI"; \
 ; Herramienta de reparacion en escritorio
 Name: "{userdesktop}\Reparar 2026UNI"; \
     Filename: "{app}\Reparar Juego.bat"; \
+    IconFilename: "{app}\icon.ico"; \
     WorkingDir: "{app}"; \
     Comment: "Herramienta para solucionar crasheos de 2026UNI"; \
     Tasks: desktopicon
@@ -238,7 +247,7 @@ begin
     CfgContent := CfgContent + 'notes=Modpack privado del servidor 2026UNI.\nMinecraft 1.20.1 + Forge 47.4.16\n\nLas actualizaciones se descargan autom\u00e1ticamente al darle Play.' + #13#10;
     CfgContent := CfgContent + #13#10;
     CfgContent := CfgContent + 'OverrideCommands=true' + #13#10;
-    CfgContent := CfgContent + 'PreLaunchCommand=$INST_JAVA -jar $INST_MC_DIR/packwiz-installer-bootstrap.jar ' + PackUrl + #13#10;
+    CfgContent := CfgContent + 'PreLaunchCommand=cmd.exe /c "$INST_DIR/pre-launch.bat"' + #13#10;
     CfgContent := CfgContent + 'PostExitCommand=cmd.exe /c "$INST_DIR/enviar-logs.bat"' + #13#10;
     CfgContent := CfgContent + #13#10;
     CfgContent := CfgContent + 'OverrideJavaLocation=true' + #13#10;

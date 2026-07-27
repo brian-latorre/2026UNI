@@ -10,7 +10,7 @@ hash = "d86beab1176c367beeed3b8fb8a2a8dfbd8a1db7293f067c01bc38c73020e398"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "f1744c25ac2ecfc9fdd19cd46b91c37cdabe6390eddfdec28e7e6dfa6855794a"
+hash = "071b19cad39f278d752a2ea8f6ca33e9665a5bb42f781e854aaa728e34c024f0"
 preserve = true
 
 [[files]]
@@ -639,7 +639,7 @@ hash = "7dd7dc266613f18011a9a5ba624e50c35374ad2b39ea379231c3c44e7b2261b3"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "9d1b1e49079dd7cefccacc75f21d95493d65e155b24e605e2daeeffc8a674519"
+hash = "39d0028c2e72186ef3431754d70e425179b4f2f4be5842522ee8b6bebdc66ad5"
 
 [[files]]
 file = "config/collective.json5"
@@ -831,7 +831,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "9dfea48e0d5f6e5134e984ed9fa14291b17fc34812ecb9ed1affed2ce09a1d7e"
+hash = "04e449188a7b25d3a8a00b8586cd019e431c9fcb79f218b3acc5add2c98f29fa"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -840,6 +840,10 @@ hash = "fb7ece24701a3426f52b5714e489885b4cb1e485b2e41121bba20c9cabe85f5c"
 [[files]]
 file = "config/fancymenu/assets/background.png"
 hash = "f1bebb2b772746371859f23b4aff52dedc595287ce53f14650143e3822ab0f80"
+
+[[files]]
+file = "config/fancymenu/assets/background2.0.png"
+hash = "6be06059b3d659f5988b68271c0ddad7a98bcc090d357f03e3e35907b2381675"
 
 [[files]]
 file = "config/fancymenu/assets/configuracion.png"
@@ -939,7 +943,7 @@ hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "b0eacf45e738ec46776e9221ff526ebb84d3fd388a3d78e71e4159a1de0ba4c6"
+hash = "b74d75fc3099e7bf3b851767c375f1fb786a7888c644b244685c1da7a2921fab"
 
 [[files]]
 file = "config/fancymenu/customization/com.legacy.blue_skies.client.gui.screen.arcsscreen_layout.txt"
@@ -959,11 +963,15 @@ hash = "e1f7ac719661bd2da00232afeb33c78ec424a2cb3c1fce6439d538568139dc46"
 
 [[files]]
 file = "config/fancymenu/customization/mainmenu.txt"
-hash = "890b226fa970815a94d6ad7a1122fc2ad4ab1217ce89142218e46721a93ecbbe"
+hash = "23c258f413cf319d9b605eb66b53f0f5170973b797759ca9ec1f52c5203a95fb"
 
 [[files]]
 file = "config/fancymenu/customization/menucarga.txt"
 hash = "45fa986673239aed094ceab1d7a157bf03d480320cf296d2c76a5ac822b4e7a7"
+
+[[files]]
+file = "config/fancymenu/customization/pause_screen_layout.txt"
+hash = "3b1e857b8789f5b4607c0dbaccf6c64378eea73004ee95952d5dd0d667db0e84"
 
 [[files]]
 file = "config/fancymenu/fonts/Cinzel-VariableFont_wght.ttf"
@@ -1011,7 +1019,7 @@ hash = "a215fd5c61da3cbb0d06c33b5d4d8cf7b343fab2805b3b53ef2a6be43cd092be"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "b283e76982ee668bf135fe2e1aaf0de80e196919d09ee244375893c146a38fe5"
+hash = "ef3d41a9f20bdfabd5cd46b91a160fb1a65beacd9ba581d1c138d45578ec01c4"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
@@ -1399,7 +1407,7 @@ hash = "2cf603cb5a49de1bf3b45f5bd0704c88eaacb8733b9315dd0b0f18e595425828"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "72836d27225fdcff10be9a13efac6f57f4885c0268b0f483f9838a15adc38252"
+hash = "f3555249d2321aeebaefacfbb1ab0f58dabde541c87492f758219abcce1c79a8"
 preserve = true
 
 [[files]]
@@ -1452,7 +1460,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "5a6253e9e31bd6767c01da2b924e0bfa2306971ca915abbe72beca8b15ad8a87"
+hash = "49df785ce63047a292d123d635ba58c5abaa3e6bb7aaa7dde14ee1cfa4b59bba"
 
 [[files]]
 file = "config/prettyrain.json5"
@@ -1528,7 +1536,7 @@ hash = "47019e25dcb00d2d1da22d725095dc39bcbbf10cdfb8429d8d5a97b231a272b3"
 
 [[files]]
 file = "config/scalinghealth-client.toml"
-hash = "e07ae946104bbcec51f7d4f51470f6bcb70286c96320216401c51ab3d10b58b7"
+hash = "8fa83e5a0fb6ec930d2ea605e3b823cf0ece4dc149f2065f7f7bb9c386259fa3"
 
 [[files]]
 file = "config/scarecrowsterritory-common.toml"
@@ -1552,7 +1560,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "f31ce9aa3c1387d15750226cd9cfa917d00db07047fe87b8a0820d60fc3cb998"
+hash = "398b5708f6993dc1c6917cd8ef524a6f85a753ca769988ad47fb57d17a19231b"
 
 [[files]]
 file = "config/simplehats.json"
@@ -1876,7 +1884,7 @@ hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "config/xaero/minimap/profiles/changes.cfg"
-hash = "8a3f387cb4bbf932e381b92c1e4e3d4c24557556bf599585c60db55dca3f8e5e"
+hash = "93d3069c813566428b149bc1ef41e8084f4be5ac2058c614d5b0378f9deaa9d8"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
@@ -5023,6 +5031,10 @@ file = "fancymenu_data/buddy/buddy_leveling_NmIzYzY1MDctMjExNi00ODg2LWFiNGMtMzlh
 hash = "c79892b2e4d4e3d88bf708dd43000ede9759728a1f612d58acc26b7d984f8b50"
 
 [[files]]
+file = "fancymenu_data/buddy/buddy_leveling_OGFlODQxZjktMGYzOC00NTAxLWE1YTAtMWUxOGY4ZDg0NTFjLTE3ODUxMTQwNjMwODg.json"
+hash = "c79892b2e4d4e3d88bf708dd43000ede9759728a1f612d58acc26b7d984f8b50"
+
+[[files]]
 file = "fancymenu_data/buddy/buddy_leveling_OTc4YjU2NDItZmE3NC00ZWU3LWEzMWEtNjkyMGY5OWJiZGI0LTE3ODUwMDUzODkxOTA.json"
 hash = "c79892b2e4d4e3d88bf708dd43000ede9759728a1f612d58acc26b7d984f8b50"
 
@@ -5048,6 +5060,10 @@ hash = "2adb3a142cadeb3221650a226daffcb5ea125281c02ec5d389f4c052b56ed202"
 
 [[files]]
 file = "fancymenu_data/buddy/buddy_save_NmIzYzY1MDctMjExNi00ODg2LWFiNGMtMzlhMjM3NmY0MDVhLTE3ODUwMDI0NjUwOTY.json"
+hash = "2adb3a142cadeb3221650a226daffcb5ea125281c02ec5d389f4c052b56ed202"
+
+[[files]]
+file = "fancymenu_data/buddy/buddy_save_OGFlODQxZjktMGYzOC00NTAxLWE1YTAtMWUxOGY4ZDg0NTFjLTE3ODUxMTQwNjMwODg.json"
 hash = "2adb3a142cadeb3221650a226daffcb5ea125281c02ec5d389f4c052b56ed202"
 
 [[files]]
