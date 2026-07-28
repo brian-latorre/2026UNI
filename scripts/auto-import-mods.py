@@ -9,6 +9,7 @@ import json
 import subprocess
 import logging
 import datetime
+import re
 
 def hash_sha1(filepath):
     h = hashlib.sha1()
@@ -76,6 +77,20 @@ def setup_logger(project_root):
     
     return logger
 
+def get_expected_jar_name(pw_toml_path):
+    """Extrae el nombre del archivo .jar esperado leyendo el contenido del .pw.toml"""
+    try:
+        with open(pw_toml_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+            match = re.search(r'filename\s*=\s*"([^"]+)"', content)
+            if match:
+                return match.group(1)
+    except Exception:
+        pass
+    # Fallback al comportamiento antiguo si no puede leer el archivo o no encuentra la linea
+    filename = os.path.basename(pw_toml_path)
+    return filename[:-8] + ".jar" if filename.endswith(".pw.toml") else filename
+
 def main():
     appdata = os.environ.get('APPDATA')
     source_mods_dir = os.path.join(appdata, ".minecraft", "2026UNI", "mods")
@@ -107,9 +122,9 @@ def main():
     for pack_file in pack_files:
         filename = os.path.basename(pack_file)
         
-        # Obtener el nombre del mod original (quitando .pw.toml o la extensión local)
+        # Lógica mejorada: extraer el nombre real del .jar que Packwiz está esperando
         if filename.endswith(".pw.toml"):
-            expected_jar = filename[:-8] + ".jar"
+            expected_jar = get_expected_jar_name(pack_file)
         else:
             expected_jar = filename
             
@@ -119,7 +134,7 @@ def main():
         if not os.path.exists(local_jar_path):
             os.remove(pack_file)
             deleted_count += 1
-            logger.info(f"Mod eliminado detectado y borrado del instalador: {filename}")
+            logger.info(f"Mod eliminado detectado y borrado del instalador: {filename} (esperaba {expected_jar})")
             
     if deleted_count > 0:
         logger.info(f"Se eliminaron {deleted_count} mods del instalador.")

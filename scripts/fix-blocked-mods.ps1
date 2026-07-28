@@ -5,7 +5,7 @@
 
 $ErrorActionPreference = "Continue"
 Write-Host "============================================" -ForegroundColor Cyan
-Write-Host "  Resolviendo mods bloqueados de CurseForge" -ForegroundColor Cyan
+Write-Host "  Resolviendo mods bloqueados (Modo Estricto Local)" -ForegroundColor Cyan
 Write-Host "============================================" -ForegroundColor Cyan
 
 if (-not (Test-Path $SourceModsDir)) {
@@ -24,33 +24,55 @@ foreach ($file in $tomlFiles) {
             try {
                 $response = Invoke-RestMethod -Uri "https://api.curse.tools/v1/cf/mods/$projectId" -ErrorAction Stop
                 if ($response.data.allowModDistribution -eq $false) {
-                    # Mod is blocked!
-                    if ($content -match 'filename\s*=\s*"([^"]+)"') {
-                        $filename = $matches[1]
-                        $sourceJar = Join-Path $SourceModsDir $filename
-                        $destJar = Join-Path $PackModsDir $filename
+                    # ¡Mod bloqueado!
+                    $filename = ""
+                    $modName = ""
+                    
+                    if ($content -match 'filename\s*=\s*"([^"]+)"') { $filename = $matches[1] }
+                    if ($content -match 'name\s*=\s*"([^"]+)"') { $modName = $matches[1] }
+                    
+                    $destJar = Join-Path $PackModsDir $filename
+                    Write-Host "[INFO] Mod bloqueado detectado: $filename" -ForegroundColor Yellow
+                    
+                    # 1. Búsqueda exacta (como funcionaba antes)
+                    $sourceJar = Join-Path $SourceModsDir $filename
+                    
+                    # 2. BÚSQUEDA INTELIGENTE (LA RUTA MANDA)
+                    # Si el nombre de CurseForge no coincide con tu .jar local, lo buscamos a la fuerza
+                    if (-not (Test-Path $sourceJar)) {
+                        # Convertimos "Dye Depot" en un buscador salvaje "*Dye*Depot*.jar"
+                        $searchPattern = "*" + ($modName -replace '[^a-zA-Z0-9]', '*') + "*.jar"
+                        $possibleJars = Get-ChildItem -Path $SourceModsDir -Filter $searchPattern
                         
-                        Write-Host "[INFO] Mod bloqueado detectado: $filename" -ForegroundColor Yellow
-                        if (Test-Path $sourceJar) {
-                            Copy-Item $sourceJar $destJar -Force
-                            Remove-Item $file.FullName -Force
-                            Write-Host "  -> Reemplazado por el .jar local exitosamente." -ForegroundColor Green
-                            $fixedCount++
-                        } else {
-                            Write-Host "  -> [ERROR] No se encontró el .jar local en $sourceJar" -ForegroundColor Red
+                        if ($possibleJars.Count -eq 1) {
+                            $sourceJar = $possibleJars[0].FullName
+                            # Sobreescribimos el destino para usar el nombre de TU archivo real
+                            $destJar = Join-Path $PackModsDir $possibleJars[0].Name
+                            Write-Host "  -> Búsqueda inteligente encontró tu .jar real: $($possibleJars[0].Name)" -ForegroundColor Cyan
+                        } elseif ($possibleJars.Count -gt 1) {
+                            Write-Host "  -> [ERROR] Hay varios archivos parecidos a $modName. Elimina los duplicados." -ForegroundColor Red
                         }
+                    }
+
+                    # Ejecución implacable
+                    if (Test-Path $sourceJar) {
+                        Copy-Item $sourceJar $destJar -Force
+                        Remove-Item $file.FullName -Force
+                        Write-Host "  -> Reemplazado por tu .jar local exitosamente." -ForegroundColor Green
+                        $fixedCount++
+                    } else {
+                        Write-Host "  -> [ERROR] No se encontró ningún .jar equivalente en tu carpeta local." -ForegroundColor Red
                     }
                 }
             } catch {
-                # Ignore API errors to not block the build
-                # Write-Host "  -> [WARN] Error verificando API para $projectId" -ForegroundColor DarkGray
+                # Ignorar errores de la API para no frenar la compilación
             }
         }
     }
 }
 
 if ($fixedCount -gt 0) {
-    Write-Host "Se resolvieron $fixedCount mods bloqueados." -ForegroundColor Green
+    Write-Host "Se forzaron y resolvieron $fixedCount mods." -ForegroundColor Green
 } else {
     Write-Host "Todos los mods están correctos." -ForegroundColor Green
 }
