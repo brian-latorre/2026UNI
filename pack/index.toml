@@ -535,7 +535,7 @@ hash = "dee286337f4d870b63bb0a4c8d9add6385b363f1edd04209e6a74ff9fd7d9d6e"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "fac1fc8bf0cb829993ede8c9adf2a9c7da8c116d52d2ad6741b1a395752bc896"
+hash = "a5f57d321b1618bb7526f84a1d92d168350e7a5e9b039d56532c5890a7065a36"
 
 [[files]]
 file = "config/badoptimizations.txt"
@@ -564,6 +564,14 @@ hash = "071d402fc522364f0bbbe1cce75c96800c5f4bf0236dcf6766a948180d7ed595"
 [[files]]
 file = "config/blue_skies-common.toml"
 hash = "2f7939a0f248dac38bc613b05992d9dfa73fd6e8e2150d328d2bd10d3706394c"
+
+[[files]]
+file = "config/blueprint-client.toml"
+hash = "8fbb7db508c2d5b5d7031e2143f5a4ec2f1656cabdee5b8165e3571160584fea"
+
+[[files]]
+file = "config/blueprint-common.toml"
+hash = "468c5e98de57915c1fbc04f24934723184bfaff4d08f666ed8a8b4bdce894a25"
 
 [[files]]
 file = "config/bocchium-client.toml"
@@ -639,7 +647,7 @@ hash = "7dd7dc266613f18011a9a5ba624e50c35374ad2b39ea379231c3c44e7b2261b3"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "39d0028c2e72186ef3431754d70e425179b4f2f4be5842522ee8b6bebdc66ad5"
+hash = "9d1b1e49079dd7cefccacc75f21d95493d65e155b24e605e2daeeffc8a674519"
 
 [[files]]
 file = "config/collective.json5"
@@ -727,7 +735,7 @@ hash = "9a8896bcb2c4599dfe69dbb3e80a0e986e639b9287fdc70e7866dcc9fb7bb5ec"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "95e8ab00e721a955de2924e5e07463ea3e45ed828f21e472098eadd501c5d86f"
+hash = "eccb1fdd8931595087efd6bf6b0d2d8412cf4ad4aaa3d8afc77b924391a9949c"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -831,7 +839,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "62e1b65c27b9e5fd4fc1bcd70d81d5407bb1baafb81e0600fd6774adad694812"
+hash = "44bd178809477f239fc853491010eea8e09c28c04bcf892972025fa82a2b50cc"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1150,6 +1158,10 @@ file = "config/forgeskyboxes-config.json"
 hash = "582b93ab2b24e82e6d904f7030d95269d7b0326495d19017b63d58ebea2ac15b"
 
 [[files]]
+file = "config/freecam.toml"
+hash = "a8981ae19ab91c477661d787bf70649896b5837d687f6e790cd2a475f8e29741"
+
+[[files]]
 file = "config/fwa.json"
 hash = "c2d9c02f6f7355766a5c28b3b035710123968ef3d6ab932b789ba8de7cc96b86"
 
@@ -1164,6 +1176,14 @@ hash = "103317c4c1c5ae1421946c921428cbfbd9b2a17ee37115d9778d0b22e3b64e19"
 [[files]]
 file = "config/galena_hats.json"
 hash = "c427871edf0f085393425997b7ffcd0c2e54278376dc9f7390619a21bc3264d7"
+
+[[files]]
+file = "config/gallery-client.toml"
+hash = "eeab80e57d3f768fd91bf953a41003ad123d98cd7be0686ea8d3b109b925fa6c"
+
+[[files]]
+file = "config/gallery-common.toml"
+hash = "099fdfcfb5fe8c4fe0faabe9fef0e35deef90a8a2a3d84c8cca630348ef3a604"
 
 [[files]]
 file = "config/ghosts.toml"
@@ -1251,7 +1271,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "f8c33fecf91c48569a724b758f560459b0bb56157dc04c1d5fbaeae42fe21f66"
+hash = "1ad01ba9735369a3bd74ab5ccb79f5cba6da58c50a64f45cd03eff15a5cac62e"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1278,8 +1298,12 @@ file = "config/jei/recipe-category-sort-order.ini"
 hash = "b4bcdd97a688d2060541f3f2718b98fa82fe67ceb665b11676a799ece7686937"
 
 [[files]]
+file = "config/jei/world/local/Mundo_nuevo/bookmarks.ini"
+hash = "dbd4052a84ee64625ae7160709531fb7e64f32b0a50c89f352a3693928d1818b"
+
+[[files]]
 file = "config/jei/world/local/Mundo_nuevo/lookupHistory.ini"
-hash = "89d61e0bfbbba164eb3e029cfa0ad2c93503d97d3304b0dcb79aaf05a9157f56"
+hash = "ef5f333bcdf3162099eae2f78a5113a79de204046fc423dea3059ca73f88c990"
 
 [[files]]
 file = "config/jei/world/server/UNI_2026_75a56078/bookmarks.ini"
@@ -1355,11 +1379,15 @@ hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
 [[files]]
 file = "config/mcreator_mem_fix.json"
-hash = "2c5414cd3d5dd09f57fdd396ec842ef36364bd65b5b3101e4d779ba98de99c0f"
+hash = "b59a30008434329977681f6d9110227fce1028ca46698306bfaf3ae7e7e093e0"
 
 [[files]]
 file = "config/mobplayeranimator/client.json5"
 hash = "2717e96df4a5d1829f34ba414c46d9c1be1b066fd8f14d24ae99889a5deb2e57"
+
+[[files]]
+file = "config/modelfix-client.toml"
+hash = "fa745470318f2031347f2b34c369ca01b81eece56b4a9eb58e2edf47a8cea230"
 
 [[files]]
 file = "config/modernfix-common.toml"
@@ -1407,7 +1435,7 @@ hash = "2cf603cb5a49de1bf3b45f5bd0704c88eaacb8733b9315dd0b0f18e595425828"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "2e5f7707fe4a44c34daa6f256090b1b1ef47bfad8cb435bdc483e6f57385f36a"
+hash = "7783a8b0a018cd0ff384b768cb11f135afdcb41573a237dbde6b3d2b570aa434"
 preserve = true
 
 [[files]]
@@ -1460,7 +1488,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "84736c56c9bd3d07273279b128bd9eb11a825b7ec1a7ea1e2f1b64d607e030d3"
+hash = "d0841745b1c206f25128bcd7271d363a39958201d90edc4528203df8244e0c71"
 
 [[files]]
 file = "config/prettyrain.json5"
@@ -1543,6 +1571,10 @@ file = "config/scarecrowsterritory-common.toml"
 hash = "ea02e5be3dbffc0be0d575d3abfb2e3b344914f2eccfa73a4dd9d5c206731da9"
 
 [[files]]
+file = "config/screenshotgallery.json"
+hash = "8fbc93b680ced64de18babe7847ada3e23aa9f5cc1d6caf04058d00685d7caa0"
+
+[[files]]
 file = "config/seamless_loading_screen.json"
 hash = "11709f830f3d33ed6407a05fbffc3161713b194005e1c97b2cddab457689aac8"
 
@@ -1560,7 +1592,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "910bb826d57de33b78ac6c63900acef7f3a7f7ba1566be423e95452725e73d5d"
+hash = "d8f99f76973e24c530b92767f638f8b8615319903d0716cfc151f95d460372ea"
 
 [[files]]
 file = "config/simplehats.json"
@@ -5187,7 +5219,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "ed4ccdb13c738b7f70df056df84a1b977fb256a53c2921610c565069c15912c7"
+hash = "fe46309d954710019e07813bcdc6db2c775b07795f3628cb559610adcb129a9a"
 metafile = true
 
 [[files]]
@@ -5452,7 +5484,7 @@ metafile = true
 
 [[files]]
 file = "mods/default-options.pw.toml"
-hash = "6311134242af3f639923e825caea40821c7e7ee7caadf4105234f5d7fa44ec8b"
+hash = "91e64b2bf3b7011473fc138e5e93686233622fb0188bbf1d1113abadac5e42d7"
 metafile = true
 
 [[files]]
@@ -5679,6 +5711,11 @@ hash = "3955c2da35b0b763e7589b1a8b3736c7aa08789c4478cb74c51c78d4f48b4c47"
 metafile = true
 
 [[files]]
+file = "mods/free-cam.pw.toml"
+hash = "0719d519c397abbee2665db941229e0488416650322f9e7d5c388db97b8cf7b1"
+metafile = true
+
+[[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 hash = "13306fd8dc27c0f5afb60874e6a12fc1b2252ac02e8a89ccc2f046f4898627ff"
 metafile = true
@@ -5789,7 +5826,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "1ec4ec29a24a783f66fa71ff38f89a7119978c5f1d464b76fd77aa39ddb80d56"
+hash = "29b62d42548542296d9932bcbb8a93ffba0b75b7cc859a67e596aeb1e048ace2"
 metafile = true
 
 [[files]]
@@ -6217,6 +6254,16 @@ metafile = true
 [[files]]
 file = "mods/scarecrows-territory.pw.toml"
 hash = "dc9c9bd58132872097d7de3f3e8458c2c51ab4d6701f004df193862b75a80f45"
+metafile = true
+
+[[files]]
+file = "mods/screenshot-gallery.pw.toml"
+hash = "ea22c0fca5fe71deb33a475c0af66d1cd40aebb153694abee23277c37b369184"
+metafile = true
+
+[[files]]
+file = "mods/screenshot-to-clipboard.pw.toml"
+hash = "c3ba8fe9fd50386a489a3982d690f91637aceddbc07954ba37c3726460c098f7"
 metafile = true
 
 [[files]]

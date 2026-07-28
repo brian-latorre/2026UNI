@@ -70,7 +70,6 @@ def setup_logger(project_root):
     ch = logging.StreamHandler(sys.stdout)
     ch.setFormatter(formatter)
     
-    # Prevenir que añada múltiples handlers si se ejecuta varias veces en el mismo entorno
     if not logger.handlers:
         logger.addHandler(fh)
         logger.addHandler(ch)
@@ -78,7 +77,6 @@ def setup_logger(project_root):
     return logger
 
 def get_expected_jar_name(pw_toml_path):
-    """Extrae el nombre del archivo .jar esperado leyendo el contenido del .pw.toml"""
     try:
         with open(pw_toml_path, 'r', encoding='utf-8') as f:
             content = f.read()
@@ -87,7 +85,6 @@ def get_expected_jar_name(pw_toml_path):
                 return match.group(1)
     except Exception:
         pass
-    # Fallback al comportamiento antiguo si no puede leer el archivo o no encuentra la linea
     filename = os.path.basename(pw_toml_path)
     return filename[:-8] + ".jar" if filename.endswith(".pw.toml") else filename
 
@@ -113,16 +110,14 @@ def main():
     logger.info("  Auto-Importación Inteligente — 2026UNI")
     logger.info("============================================")
     
-    # 0. Sincronizar eliminaciones (Si se borró un mod localmente, se borra de packwiz)
+    # 0. Sincronizar eliminaciones
     logger.info("[0/4] Sincronizando mods eliminados...")
     deleted_count = 0
-    # Listar todos los archivos en pack/mods (.pw.toml y .jar)
-    pack_files = glob.glob(os.path.join(pack_mods_dir, "*.pw.toml")) + glob.glob(os.path.join(pack_mods_dir, "*.jar"))
+    pack_files_initial = glob.glob(os.path.join(pack_mods_dir, "*.pw.toml")) + glob.glob(os.path.join(pack_mods_dir, "*.jar"))
     
-    for pack_file in pack_files:
+    for pack_file in pack_files_initial:
         filename = os.path.basename(pack_file)
         
-        # Lógica mejorada: extraer el nombre real del .jar que Packwiz está esperando
         if filename.endswith(".pw.toml"):
             expected_jar = get_expected_jar_name(pack_file)
         else:
@@ -130,7 +125,6 @@ def main():
             
         local_jar_path = os.path.join(source_mods_dir, expected_jar)
         
-        # Si el mod ya no existe en el juego del creador, borrarlo del pack
         if not os.path.exists(local_jar_path):
             os.remove(pack_file)
             deleted_count += 1
@@ -141,8 +135,18 @@ def main():
     else:
         logger.info("No se detectaron mods eliminados.")
     
-    # 1. Copiar todos los jars no registrados a pack/mods/
+    # 1. Copiar JARS nuevos
     logger.info("[1/4] Analizando e importando mods locales...")
+    
+    # Escaneo en tiempo real después de las eliminaciones del Paso 0
+    current_pack_files = glob.glob(os.path.join(pack_mods_dir, "*.pw.toml")) + glob.glob(os.path.join(pack_mods_dir, "*.jar"))
+    
+    tracked_jars = set()
+    for pack_file in current_pack_files:
+        if pack_file.endswith(".pw.toml"):
+            tracked_jars.add(get_expected_jar_name(pack_file))
+        else:
+            tracked_jars.add(os.path.basename(pack_file))
     
     source_jars = glob.glob(os.path.join(source_mods_dir, "*.jar"))
     copied_count = 0
@@ -150,8 +154,11 @@ def main():
         if jar.endswith(".input") or jar.endswith("-disabled"): continue
         
         jar_name = os.path.basename(jar)
-        dest_jar = os.path.join(pack_mods_dir, jar_name)
         
+        if jar_name in tracked_jars:
+            continue
+            
+        dest_jar = os.path.join(pack_mods_dir, jar_name)
         if not os.path.exists(dest_jar):
             shutil.copy2(jar, dest_jar)
             copied_count += 1
@@ -161,20 +168,20 @@ def main():
     
     # 2. Detectar con CurseForge
     logger.info("[2/4] Detectando mods con CurseForge...")
-    try:
-        result = subprocess.run([packwiz_exe, "curseforge", "detect", "-y"], cwd=pack_dir, capture_output=True, text=True)
-        if result.stdout:
-            for line in result.stdout.splitlines():
-                if line.strip(): logger.info(f"CurseForge: {line.strip()}")
-        if result.stderr:
-            for line in result.stderr.splitlines():
-                if line.strip(): logger.warning(f"CurseForge: {line.strip()}")
-                
-        logger.info("Detección de CurseForge finalizada.")
-    except Exception as e:
-        logger.error(f"Error en curseforge detect: {e}")
+    if copied_count > 0:
+        try:
+            result = subprocess.run([packwiz_exe, "curseforge", "detect", "-y"], cwd=pack_dir, capture_output=True, text=True)
+            if result.stdout:
+                for line in result.stdout.splitlines():
+                    if line.strip(): logger.info(f"CurseForge: {line.strip()}")
+            if result.stderr:
+                for line in result.stderr.splitlines():
+                    if line.strip(): logger.warning(f"CurseForge: {line.strip()}")
+        except Exception as e:
+            logger.error(f"Error en curseforge detect: {e}")
+    logger.info("Detección de CurseForge finalizada.")
         
-    # 3. Lo que CurseForge no detectó (quedan como .jar), buscarlo en Modrinth
+    # 3. Detectar con Modrinth
     logger.info("[3/4] Detectando mods restantes con Modrinth...")
     remaining_jars = glob.glob(os.path.join(pack_mods_dir, "*.jar"))
     
@@ -186,6 +193,11 @@ def main():
         modrinth_found = 0
         for jar in remaining_jars:
             jar_name = os.path.basename(jar)
+            
+            # Solo procesar Jars que no estuvieran ya trackeados previamente como mods locales puros
+            if jar_name in tracked_jars:
+                continue
+                
             logger.info(f"Buscando en Modrinth: {jar_name}...")
             
             sha1 = hash_sha1(jar)
@@ -224,11 +236,6 @@ def main():
     logger.info(f"Mods registrados (auto-actualizables): {len(pw_tomls)}")
     logger.info(f"Mods locales (sin auto-actualización): {len(final_jars)}")
     
-    if final_jars:
-        logger.info("Nota: Los siguientes mods locales se incluirán pero NO se actualizarán automáticamente:")
-        for jar in final_jars:
-            logger.info(f" - {os.path.basename(jar)}")
-            
     logger.info("¡Todo listo! El pack está completamente automatizado y sincronizado.")
 
 if __name__ == "__main__":
