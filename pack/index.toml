@@ -5211,6 +5211,11 @@ hash = "6836b52a7002d343072a72dcb1f3370ff8ecdda43ea6499cb0f1b1892b5fe7a3"
 metafile = true
 
 [[files]]
+file = "mods/blueprint.pw.toml"
+hash = "81926d253de0a8ff9520fb51a5b34394a020cd56c2a063e71ce4187d9b33e891"
+metafile = true
+
+[[files]]
 file = "mods/bocchium.pw.toml"
 hash = "7ec99baf6e863d37c9c5cf5960ca4adeaa9e6b4e83b956e5985807b460877cf7"
 metafile = true
@@ -5481,6 +5486,11 @@ hash = "29dd8f0915f788e7a48c04e9d0b3bf00839d5cb06649fe3148115d9b84fb4beb"
 metafile = true
 
 [[files]]
+file = "mods/dye-depot.pw.toml"
+hash = "5161655042ee29a959a3212349ae0957ca157802514f13fb351b646293bb3425"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "acb2f4b1300c24188642c03692c6cfaf35f3edbfbffc53a32506bbc4fa930d0c"
 metafile = true
@@ -5685,6 +5695,11 @@ hash = "82c1bd758e0562f94f461b297930876b64c2e99feea47b3815efb3da02e0a059"
 metafile = true
 
 [[files]]
+file = "mods/gallery.pw.toml"
+hash = "449409f70ee3126132611aee96ebff4016a0873026012f085b88be47c79043e6"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "30fe947e95d8da536ea4ad3c959f07cc504dd739ea530f7f4187ac08f4afcbc0"
 metafile = true
@@ -5775,7 +5790,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "aca42804848d0aacb88fb03d02e309a1e9fab4f7dc99970173bdd8413cd4b10e"
+hash = "1ec4ec29a24a783f66fa71ff38f89a7119978c5f1d464b76fd77aa39ddb80d56"
 metafile = true
 
 [[files]]
@@ -5953,6 +5968,11 @@ hash = "9024dd2ddbf81b02d50ac21a8a5c6c5378f6ab473c35e66c0774878cfadf2280"
 metafile = true
 
 [[files]]
+file = "mods/model-gap-fix.pw.toml"
+hash = "cd3140db1982e4e1b17c60b71e436fc92c22b1a6ce189e6b8197d1275487679c"
+metafile = true
+
+[[files]]
 file = "mods/moderately-enough-effect-descriptions-meed.pw.toml"
 hash = "1cdfc9e83896c8f5e8eaf99846dfd7a0e621ef6a8856f745ec731d79e5337468"
 metafile = true
@@ -6078,6 +6098,11 @@ metafile = true
 [[files]]
 file = "mods/polytone.pw.toml"
 hash = "1e4e004829ef42aadc2ed92e411a0b261d75df43a07bb1bf6ca5859c1c6488ea"
+metafile = true
+
+[[files]]
+file = "mods/portfolio.pw.toml"
+hash = "8b453be980c1886d2a3c2fd8121c5c6f5b56f133c8a08053adfc4574592265cf"
 metafile = true
 
 [[files]]
