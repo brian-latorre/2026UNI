@@ -71,12 +71,12 @@ additionalBiomes = [  ]
 
 [humanoids.player]
 enableBreathingEffectsInCreative = true
-stomachGrowlingThreshold = 6
+stomachGrowlingThreshold = 8
 stomachGrowlingVolume = 1.0
-stomachGrowlingWaitTime = 15
-heartBeatingThreshold = 6
+stomachGrowlingWaitTime = 10
+heartBeatingThreshold = 8
 heartbeatVolume = 1.0
-heartBeatingWaitTime = 3
+heartBeatingWaitTime = 2
 
 [dustClouds]
 scale = 2.0
