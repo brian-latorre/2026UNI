@@ -59,22 +59,5 @@
     "gui.xaero_show_full_amount": "Cantidad total de obj.",
     "gui.xaero_show_entity_model": "Mostrar modelo de ent.",
     "gui.xaero_entity_info_armour_numbers": "Armadura en num",
-    "gui.xaero_entity_info_armour": "Valor de armadura",
-    "gui.xaero_armour_status": "Estado de la armadura",
-    "gui.xaero_potion_status": "Estado de la poción",
-    "gui.xaero_sprint": "Mejor sprint",
-    "gui.xaero_entity_info_potion_effects": "Efectos de poción (solo SP)",
-    "gui.xaero_entity_info_potion_effects_scale": "Escala de efecto de poción",
-    "gui.xaero_item_tooltip": "Información sobre herramientas del artículo",
-    "gui.xaero_entity_tooltip_settings": "Configuración de información sobre herramientas de elementos",
-    "gui.xaero_item_tooltip_min_lines": "Líneas mínimas",
-    "gui.xaero_item_tooltip_time": "Mostrar para",
-    "gui.xaero_potion_effects_blink": "Parpadea cuando se acaba",
-    "gui.xaero_armour_main_hand": "Objeto de mano principal",
-    "gui.xaero_armour_off_hand": "Artículo de segunda mano",
-    "gui.xaero_no_durability": "Ninguno",
-    "gui.xaero_held_centered_position": "Elementos retenidos cuando están centrados",
-    "gui.xaero_held_centered_position_screen_edges": "Bordes",
-    "gui.xaero_held_centered_position_hotbar": "barra caliente",
-    "gui.xaero_better_pvp_server_profiles": "Mejores configuraciones del servidor PVP"
+    "gui.xaero_entity_info_armour": "Valor de armadura"
 }

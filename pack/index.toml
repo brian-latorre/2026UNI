@@ -643,7 +643,7 @@ hash = "de5bb1061dcd48c3378f6849658940a465c3e094e5d6c342c5f73ea984da2a8b"
 
 [[files]]
 file = "config/chloride-client.json"
-hash = "71b9faee777b6fe12d0116631ed4f74430a8d70701e0e4dddd144b0e927713e4"
+hash = "0a87252e6067990bdeb1eaab0f2bb156433eee86fdb9ee25297e28c6304c65e3"
 
 [[files]]
 file = "config/chunkloaders-common.toml"
@@ -751,7 +751,7 @@ hash = "9a8896bcb2c4599dfe69dbb3e80a0e986e639b9287fdc70e7866dcc9fb7bb5ec"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "338b50f7112f407802fc5687ddd29baefdf0dcfd3b9c07cbb99f7eb1efe03bd6"
+hash = "9cdee766c115a4b891995dc229379e71e43d19f9903ee00233b138f2c439a075"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -807,7 +807,7 @@ hash = "e3bbedc636a78386ea099047dba9f70d2aad423e70b104914f99d3e74f6e0103"
 
 [[files]]
 file = "config/emotecraft.json"
-hash = "8f71e846ffbea31ba7045c4fb51fdca9a5cd23b38293e6ddf5979eea794bb04d"
+hash = "3ad0ae4a6b0e55c34b068e33442e9382c2bbfe079bc4e049f55780851f50018f"
 
 [[files]]
 file = "config/emotecraft_emote_map.json"
@@ -823,7 +823,7 @@ hash = "f4fc0c0f40bac8b5243141374a6df6eabc993ecd989559ffe8b9fd908bf46982"
 
 [[files]]
 file = "config/entity_model_features.json"
-hash = "5ba15e6be08f7af62d0776ce1a570033d53e1be14fb5d573f22a6f7c76c8a52f"
+hash = "d6ff2922e9d2752d80821be3c02abf3bba0ba5e4efd57399553dfd87b9f9561f"
 
 [[files]]
 file = "config/entity_texture_features.json"
@@ -855,7 +855,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "d507a79a104feb2fb542a0732c7d1491679ec47cdef935a8702b6ef4e58dccb3"
+hash = "fe7fb8ea25e733015f7b4bfbc06e5e5be01d9028b4a620c1079ac012da318b34"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1238,6 +1238,14 @@ file = "config/immersive-hotbar.json5"
 hash = "c7a8af9f69054d8600d43a05e26e93b90b0f8b7116eac3e656f1aad00edd0648"
 
 [[files]]
+file = "config/immersivedamageindicators-client.toml"
+hash = "70eb91662195bf2c1e0d33a878908a2ada0174fac41c5607b4c16d3d90131d84"
+
+[[files]]
+file = "config/immersivemessages-client.toml"
+hash = "5aeddb9e9ddb66b263e353eeaef3e14fb759e31d33b389937e5778010f4ac2be"
+
+[[files]]
 file = "config/incontrol/areas.json"
 hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
@@ -1367,7 +1375,7 @@ hash = "dbd4052a84ee64625ae7160709531fb7e64f32b0a50c89f352a3693928d1818b"
 
 [[files]]
 file = "config/jei/world/local/Mundo_nuevo/lookupHistory.ini"
-hash = "7490431ab0c9651784ac3e3035bcd21c7d8c846eddb386da1fecf370bf943524"
+hash = "1d3d2aa76a41b7b571fbcd7696655987c39b0fa58042b6b2c7efd0d6a94cd3b9"
 
 [[files]]
 file = "config/jei/world/server/UNI_2026_75a56078/bookmarks.ini"
@@ -1395,7 +1403,7 @@ hash = "ada077dea7fa7bc15b84a0111cf5a742ed3d5dc08df78bada634337b12f12847"
 
 [[files]]
 file = "config/justenoughbreeding-offsets.json"
-hash = "a1d6c7261526c48721e40fa1b9380f4a7da1be0e7e149ce2672705509e3203b6"
+hash = "97a0e91f52455b09f207992b3ba0b057e555d55d609f2af8bc0ed08335d51e36"
 
 [[files]]
 file = "config/kerria.json"
@@ -1447,7 +1455,7 @@ hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
 [[files]]
 file = "config/mcreator_mem_fix.json"
-hash = "9562135d5f1361116c882c555a184b49e732d59346b76ac8831fd8e6f944f2e8"
+hash = "082ed2dc456bdf92663257e1640387c3b84dff52b26c7e3f15d1be03804a3687"
 
 [[files]]
 file = "config/mobplayeranimator/client.json5"
@@ -1503,7 +1511,7 @@ hash = "2cf603cb5a49de1bf3b45f5bd0704c88eaacb8733b9315dd0b0f18e595425828"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "27f5bda76bc39b7112876163aa90a3c7b9d7708c74b78df38060534fa8cb2cd1"
+hash = "0fa04bfa90451960532de58c98baa60355003092ecdf67e77e9aee5f06392457"
 preserve = true
 
 [[files]]
@@ -1517,6 +1525,10 @@ hash = "8f050b5467f258f0b89aac2ccb8149607d9d194ecc0836e701ee1be796084541"
 [[files]]
 file = "config/panoramica/config.txt"
 hash = "dedd104524906b879e3a741999b7a955bfcb93fba47d7da723dc1fc9cef00736"
+
+[[files]]
+file = "config/paperdoll.json"
+hash = "96e6540e0ba51475d0b06ed58ef9451a091ee5cc3ad62776e7ad9f14a04f1887"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -1556,7 +1568,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "7ba135f66cb7ed1d7decfa7478be82e0f6b3f0498a25909ed3dd50f7462d71e3"
+hash = "49df785ce63047a292d123d635ba58c5abaa3e6bb7aaa7dde14ee1cfa4b59bba"
 
 [[files]]
 file = "config/prettyrain.json5"
@@ -1632,7 +1644,7 @@ hash = "47019e25dcb00d2d1da22d725095dc39bcbbf10cdfb8429d8d5a97b231a272b3"
 
 [[files]]
 file = "config/scalinghealth-client.toml"
-hash = "8fa83e5a0fb6ec930d2ea605e3b823cf0ece4dc149f2065f7f7bb9c386259fa3"
+hash = "c6a00a03c2d7584f78dbf700a2fd30a463c94ad816e7ee3db33bf758b4453a4f"
 
 [[files]]
 file = "config/scarecrowsterritory-common.toml"
@@ -1660,7 +1672,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "6c16fc50961f47b4b2c3529138de71ac62c9604b5f78915e336d32c2bba83520"
+hash = "c85b5da0987e9e482fab112dc81643e4622091cc7064abf811a1bb15d2f5def1"
 
 [[files]]
 file = "config/simplehats.json"
@@ -1777,6 +1789,10 @@ hash = "103249151fef996292834f3c4628d929305097d6f4f9da348870a17c167bcd6b"
 [[files]]
 file = "config/terrablender.toml"
 hash = "59d79e8bc4a42e678196a7164e5841a9803f8684f1b52b9944ce554c9f353691"
+
+[[files]]
+file = "config/toastcontrol-common.toml"
+hash = "afeb20117494e63330e7d3b06d3d1d29971f55ba8d1b24c6dd3f3ef20f7e3850"
 
 [[files]]
 file = "config/tombstone-client.toml"
@@ -1984,7 +2000,7 @@ hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "config/xaero/minimap/profiles/changes.cfg"
-hash = "93d3069c813566428b149bc1ef41e8084f4be5ac2058c614d5b0378f9deaa9d8"
+hash = "c2e8f9a62d12713215fd695af9a2afe5f3e57fd25fbf5bf761bb9e449c2b0429"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
@@ -1992,7 +2008,7 @@ hash = "e614d9367c183f482bafc627bbd9f99e791568d137f026961a105a68c1bacc1e"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/changes.cfg.json"
-hash = "89bf05e8cb9c07f60321d23d8bde85c478266c8926fc6c2d0e3009efbe06e00e"
+hash = "3cf96c4d33ebaabf09e376cb905141933f0419244274ff624b7d8e124efe0501"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
@@ -5287,7 +5303,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "ed4ccdb13c738b7f70df056df84a1b977fb256a53c2921610c565069c15912c7"
+hash = "fe46309d954710019e07813bcdc6db2c775b07795f3628cb559610adcb129a9a"
 metafile = true
 
 [[files]]
@@ -5562,7 +5578,7 @@ metafile = true
 
 [[files]]
 file = "mods/default-options.pw.toml"
-hash = "6311134242af3f639923e825caea40821c7e7ee7caadf4105234f5d7fa44ec8b"
+hash = "91e64b2bf3b7011473fc138e5e93686233622fb0188bbf1d1113abadac5e42d7"
 metafile = true
 
 [[files]]
@@ -5681,12 +5697,12 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "9638ff768bb45f6aece95d08049e30385369efecc8f240f5bce012f5ee8f321a"
+hash = "5a8b971146de3aa8dc7e4b862a12c69e787189ca8252db119253efdcc99220fe"
 metafile = true
 
 [[files]]
 file = "mods/entity-texture-features-fabric.pw.toml"
-hash = "f20ab11fec09413c774196d34f4fe06bd35584ff46902e432dad1180b20a7667"
+hash = "48d621f055c242082a47a9df3770b38000889b9e2b0e0d14c014ad1ae35968c4"
 metafile = true
 
 [[files]]
@@ -5864,8 +5880,18 @@ hash = "2621dfb5b3ad17a3adf927cc92a3bc6b0dd982c32f0265f920b29a61b34d182e"
 metafile = true
 
 [[files]]
+file = "mods/immersive-damage-indicators.pw.toml"
+hash = "3b73b6f893ef033cfc5126b0ed41c6d7410cdb634c272bc100286d8bc6f646f9"
+metafile = true
+
+[[files]]
 file = "mods/immersive-hotbar.pw.toml"
 hash = "4a9fff44467da6b277f566a8e070c8b776d3b49c3dd9f825e15df46458b44507"
+metafile = true
+
+[[files]]
+file = "mods/immersive-messages-api.pw.toml"
+hash = "3a86d8e0df14494e70d9bcc6389498f6b76faf65cd24ae3a81dc5edcaf964390"
 metafile = true
 
 [[files]]
@@ -5928,7 +5954,7 @@ metafile = true
 
 [[files]]
 file = "mods/justenoughbreeding.pw.toml"
-hash = "cb3d6db892aa76a7bf547272006588e5cf42bfb37acaf7e060aa199463766af5"
+hash = "a6c4e08af9acf20008531eb2f003327fe26c1e5a6afa1a7322408fd2275c8429"
 metafile = true
 
 [[files]]
@@ -6102,8 +6128,8 @@ hash = "17523abe76f282db11e95a033e504c1da3f82ac23a42e169d6b1e4d59b6a18d6"
 metafile = true
 
 [[files]]
-file = "mods/modtoggler-1.0.0.jar"
-hash = "cd846b5690a8f57f5c015788d2879757361034c8425c1bcaa6300fc20eb1d5ee"
+file = "mods/modtoggler.jar"
+hash = "dbf9b74fef3f5a126db93c54b2fe331dba3cdaf0de7f3c0b2262f7d4cfef29c5"
 
 [[files]]
 file = "mods/more-curios-slots.pw.toml"
@@ -6180,6 +6206,10 @@ hash = "4c677fdd54d8f812a4dd553e4252d9a04a0bc2fe9da4039c6998ec81b54397e0"
 metafile = true
 
 [[files]]
+file = "mods/paperdoll-forge-1.4.0-mc1.20.1.jar"
+hash = "6865a5fed1718c270c055e637559a4c978f85befd9f565f74e51211b24f27c84"
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "b2cb681aaf3e6085148392a06d40899239dc299aaf5ce0adf168fc225d922c97"
 metafile = true
@@ -6197,6 +6227,11 @@ metafile = true
 [[files]]
 file = "mods/ping-wheel.pw.toml"
 hash = "6d01bc9f8f0b705c9d8a8020849393145648602dd2bfb2dbc28b36d965a16a5a"
+metafile = true
+
+[[files]]
+file = "mods/placebo.pw.toml"
+hash = "045d582e2c534c5bb96d7336b4ae2cd12692c6de29b19ae5f1dbfd8759c03b03"
 metafile = true
 
 [[files]]
@@ -6484,6 +6519,11 @@ hash = "74a64acbd2275c16e47fb17e74bcd431779674cefa1f54f67f15b4d9b955aec7"
 metafile = true
 
 [[files]]
+file = "mods/toast-control.pw.toml"
+hash = "1195cdfa90ac4ef4d5ebed8dbca1df990cf58b0a0fe3b9b965ccefa0cfd5a2e3"
+metafile = true
+
+[[files]]
 file = "mods/torchmaster.pw.toml"
 hash = "51e82d9320effbd610ccfe4571c048c7d0f9c98362b9884faabfaa6f63aa9737"
 metafile = true
@@ -6506,6 +6546,11 @@ metafile = true
 [[files]]
 file = "mods/turtlebois-core-library.pw.toml"
 hash = "44af1bf24ab37044e18cd45d1b322e492c7f23f6f4235ecabd29074db2c0193b"
+metafile = true
+
+[[files]]
+file = "mods/txnilib.pw.toml"
+hash = "7149b1beafef2ce275da37dd5ca2e12f5527ad979420630ecdef5bcabd4fef32"
 metafile = true
 
 [[files]]
@@ -6601,108 +6646,40 @@ file = "resourcepacks/2026UNI Translations.zip"
 hash = "bd1b3cccedae0c9621ac9033ec362e617a0dffd835a9477a84b755aa54720ec7"
 
 [[files]]
+file = "resourcepacks/2026UNI Translations/README.md"
+hash = "5d0c961695a59bb9b82785214763c88b98089aca774167384d86bb66b57123a1"
+
+[[files]]
 file = "resourcepacks/2026UNI Translations/assets/cobblemon/lang/es_es.json"
-hash = "fd86d4717f8b43cd7bdeec3799cd9db2a936a3c8c26abe86f0737a6dffc989ec"
+hash = "9919f16888f8d59a740c3e4af0d8a2d05eaed24aae9e317f202eb2ddf4f685e2"
+
+[[files]]
+file = "resourcepacks/2026UNI Translations/assets/comforts/lang/es_es.json"
+hash = "e2aab4104a89d68fa28fe25d216055b50690744cca4bb72439b9ed3189971039"
+
+[[files]]
+file = "resourcepacks/2026UNI Translations/assets/jei/lang/es_es.json"
+hash = "e19470c5c83fff3f4e40cd1eeda2547f9d1c5ef2aa5e31421c16d2795fbca90d"
 
 [[files]]
 file = "resourcepacks/2026UNI Translations/assets/relics/lang/es_es.json"
 hash = "2b520b598dc736fb3190a62c31047125ce749b834b9e68fa63ea3a02ef84358d"
 
 [[files]]
-file = "resourcepacks/2026UNI Translations/assets/xaerobetterpvp/lang/es_ar.json"
-hash = "ce97ce1248a0d743bdfd7228dcacb4a0830d29f551f256e795638b36a1527383"
-
-[[files]]
-file = "resourcepacks/2026UNI Translations/assets/xaerobetterpvp/lang/es_cl.json"
-hash = "ce97ce1248a0d743bdfd7228dcacb4a0830d29f551f256e795638b36a1527383"
-
-[[files]]
-file = "resourcepacks/2026UNI Translations/assets/xaerobetterpvp/lang/es_co.json"
-hash = "ce97ce1248a0d743bdfd7228dcacb4a0830d29f551f256e795638b36a1527383"
-
-[[files]]
-file = "resourcepacks/2026UNI Translations/assets/xaerobetterpvp/lang/es_ec.json"
-hash = "ce97ce1248a0d743bdfd7228dcacb4a0830d29f551f256e795638b36a1527383"
+file = "resourcepacks/2026UNI Translations/assets/waystones/lang/es_es.json"
+hash = "eb915befa436397701630f06a90920db879b11a5302e63b0b553d9425a82de15"
 
 [[files]]
 file = "resourcepacks/2026UNI Translations/assets/xaerobetterpvp/lang/es_es.json"
-hash = "ce97ce1248a0d743bdfd7228dcacb4a0830d29f551f256e795638b36a1527383"
-
-[[files]]
-file = "resourcepacks/2026UNI Translations/assets/xaerobetterpvp/lang/es_mx.json"
-hash = "ce97ce1248a0d743bdfd7228dcacb4a0830d29f551f256e795638b36a1527383"
-
-[[files]]
-file = "resourcepacks/2026UNI Translations/assets/xaerobetterpvp/lang/es_uy.json"
-hash = "ce97ce1248a0d743bdfd7228dcacb4a0830d29f551f256e795638b36a1527383"
-
-[[files]]
-file = "resourcepacks/2026UNI Translations/assets/xaerobetterpvp/lang/es_ve.json"
-hash = "ce97ce1248a0d743bdfd7228dcacb4a0830d29f551f256e795638b36a1527383"
-
-[[files]]
-file = "resourcepacks/2026UNI Translations/assets/xaerominimap/lang/es_ar.json"
-hash = "071c790b26d435632c338c9b93cc4734064683932b01ca73e57fe059b450b5e3"
-
-[[files]]
-file = "resourcepacks/2026UNI Translations/assets/xaerominimap/lang/es_cl.json"
-hash = "071c790b26d435632c338c9b93cc4734064683932b01ca73e57fe059b450b5e3"
-
-[[files]]
-file = "resourcepacks/2026UNI Translations/assets/xaerominimap/lang/es_co.json"
-hash = "071c790b26d435632c338c9b93cc4734064683932b01ca73e57fe059b450b5e3"
-
-[[files]]
-file = "resourcepacks/2026UNI Translations/assets/xaerominimap/lang/es_ec.json"
-hash = "071c790b26d435632c338c9b93cc4734064683932b01ca73e57fe059b450b5e3"
+hash = "a190003887da827092ee13a0484984e8f9200e8025225f33bf3fdb0af9becb1e"
 
 [[files]]
 file = "resourcepacks/2026UNI Translations/assets/xaerominimap/lang/es_es.json"
-hash = "071c790b26d435632c338c9b93cc4734064683932b01ca73e57fe059b450b5e3"
-
-[[files]]
-file = "resourcepacks/2026UNI Translations/assets/xaerominimap/lang/es_mx.json"
-hash = "071c790b26d435632c338c9b93cc4734064683932b01ca73e57fe059b450b5e3"
-
-[[files]]
-file = "resourcepacks/2026UNI Translations/assets/xaerominimap/lang/es_uy.json"
-hash = "071c790b26d435632c338c9b93cc4734064683932b01ca73e57fe059b450b5e3"
-
-[[files]]
-file = "resourcepacks/2026UNI Translations/assets/xaerominimap/lang/es_ve.json"
-hash = "071c790b26d435632c338c9b93cc4734064683932b01ca73e57fe059b450b5e3"
-
-[[files]]
-file = "resourcepacks/2026UNI Translations/assets/xaeroworldmap/lang/es_ar.json"
-hash = "d8475bf9bb39d16ea3906c60556f979104c4dc92b90bfd4b0204393dae26930b"
-
-[[files]]
-file = "resourcepacks/2026UNI Translations/assets/xaeroworldmap/lang/es_cl.json"
-hash = "d8475bf9bb39d16ea3906c60556f979104c4dc92b90bfd4b0204393dae26930b"
-
-[[files]]
-file = "resourcepacks/2026UNI Translations/assets/xaeroworldmap/lang/es_co.json"
-hash = "d8475bf9bb39d16ea3906c60556f979104c4dc92b90bfd4b0204393dae26930b"
-
-[[files]]
-file = "resourcepacks/2026UNI Translations/assets/xaeroworldmap/lang/es_ec.json"
-hash = "d8475bf9bb39d16ea3906c60556f979104c4dc92b90bfd4b0204393dae26930b"
+hash = "b6553ebc186adc1d3292e4d178963a606cb69cfd15e2848f6ee30cc22ead8813"
 
 [[files]]
 file = "resourcepacks/2026UNI Translations/assets/xaeroworldmap/lang/es_es.json"
-hash = "d8475bf9bb39d16ea3906c60556f979104c4dc92b90bfd4b0204393dae26930b"
-
-[[files]]
-file = "resourcepacks/2026UNI Translations/assets/xaeroworldmap/lang/es_mx.json"
-hash = "d8475bf9bb39d16ea3906c60556f979104c4dc92b90bfd4b0204393dae26930b"
-
-[[files]]
-file = "resourcepacks/2026UNI Translations/assets/xaeroworldmap/lang/es_uy.json"
-hash = "d8475bf9bb39d16ea3906c60556f979104c4dc92b90bfd4b0204393dae26930b"
-
-[[files]]
-file = "resourcepacks/2026UNI Translations/assets/xaeroworldmap/lang/es_ve.json"
-hash = "d8475bf9bb39d16ea3906c60556f979104c4dc92b90bfd4b0204393dae26930b"
+hash = "fd7a1cbdd108235074813f65f58ffd12b7e175c7aac4d9970a49953a6afbca45"
 
 [[files]]
 file = "resourcepacks/2026UNI Translations/pack.mcmeta"
@@ -6943,6 +6920,10 @@ hash = "41cb720cf256a12ea247b2f38068b363aa5b1675470c4b5aa66850701a78bc4d"
 [[files]]
 file = "resourcepacks/UD - Hotbar add-on 1.16-1.20.1.zip"
 hash = "e033ecb5d98d2567fb89a95375da4e6f8803275321b8c12dc2f7ed14f15985f9"
+
+[[files]]
+file = "resourcepacks/Unique Dark - Lite - 1.20.1.zip"
+hash = "e2340c2f39baf415824bf032fa4f633e0464c15d0a1368a65c478d174a7fbf38"
 
 [[files]]
 file = "resourcepacks/Xaero's Extended Mob Icons v1.6.zip"
