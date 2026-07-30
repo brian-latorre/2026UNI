@@ -18,7 +18,7 @@ Alpha = 255
 "Show Exclamation Point" = true
 #.
 #If true, hits will change size based on how strong they are.
-"Do Size Effects" = false
+"Do Size Effects" = true
 #.
 #If true, hits will turn red based on how strong they are.
 "Do Color Effects" = true
