@@ -7,11 +7,19 @@ echo Este script creara un nuevo commit que contiene exactamente
 echo el estado del proyecto en el commit especificado, 
 echo manteniendo todo el historial intacto.
 echo.
-set /p COMMIT_HASH="Ingresa el Hash del commit a restaurar (ej. 1a2b3c4): "
+set /p COMMIT_HASH="1. Ingresa el Hash o Version a restaurar (ej. 1a2b3c4 o 1.0.1): "
 if "%COMMIT_HASH%"=="" (
-    echo Operacion cancelada.
+    echo Operacion cancelada. No se especifico la version/hash.
     pause
     exit /b
+)
+
+set /p COMMIT_MSG="2. Ingresa el comentario del commit (opcional, presiona Enter para omitir): "
+
+if "%COMMIT_MSG%"=="" (
+    set "FINAL_MSG=Restaurar a version: %COMMIT_HASH%"
+) else (
+    set "FINAL_MSG=[%COMMIT_HASH%]: %COMMIT_MSG%"
 )
 
 :: Extraer el commit actual
@@ -38,7 +46,7 @@ echo 4. Preparando el nuevo commit de restauracion...
 git add -A
 
 echo 5. Haciendo el commit...
-git commit -m "Restaurar a version: %COMMIT_HASH%"
+git commit -m "%FINAL_MSG%"
 
 echo 6. Subiendo la restauracion a GitHub...
 git push
