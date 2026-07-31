@@ -9,8 +9,6 @@ name: Publicar Pack
 on:
   push:
     branches: [main]
-    paths:
-      - 'pack/**'
   
   # Permitir ejecución manual desde la pestaña Actions
   workflow_dispatch:
