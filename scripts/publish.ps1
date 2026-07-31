@@ -12,6 +12,59 @@ try {
     Write-Info "Iniciando proceso de publicacion..."
     Write-Host ""
 
+    # Leer y gestionar version de pack.toml
+    $packVersion = "1.0"
+    $packTomlPath = Join-Path (Split-Path $PSScriptRoot -Parent) "pack\pack.toml"
+    $currentVersion = "1.0"
+    
+    if (Test-Path $packTomlPath) {
+        $packTomlContent = Get-Content $packTomlPath -Raw
+        if ($packTomlContent -match '(?m)^version\s*=\s*"([^"]+)"') {
+            $currentVersion = $matches[1]
+        }
+    }
+    
+    # Calcular versión sugerida (incremental)
+    $parts = $currentVersion.Split('.')
+    $lastIdx = $parts.Length - 1
+    if ($parts[$lastIdx] -match '^\d+$') {
+        $lastVal = [int]$parts[$lastIdx]
+        $parts[$lastIdx] = ($lastVal + 1).ToString()
+        $suggestedVersion = $parts -join '.'
+    } else {
+        $suggestedVersion = $currentVersion + ".1"
+    }
+
+    # Preguntar al usuario por la versión (con sugerencia automática)
+    Write-Host "Configuración de Versión:" -ForegroundColor Yellow
+    Write-Host "  Versión actual registrada: $currentVersion" -ForegroundColor Gray
+    $inputVersion = Read-Host "  Ingrese la versión para esta actualización (presione Enter para usar '$suggestedVersion')"
+    
+    if ([string]::IsNullOrWhiteSpace($inputVersion)) {
+        $packVersion = $suggestedVersion
+    } else {
+        $packVersion = $inputVersion.Trim()
+    }
+    
+    # Actualizar pack.toml con la nueva versión
+    if (Test-Path $packTomlPath) {
+        $packTomlContent = Get-Content $packTomlPath -Raw
+        if ($packTomlContent -match '(?m)^version\s*=\s*"[^"]+"') {
+            $packTomlContent = $packTomlContent -replace '(?m)^version\s*=\s*"[^"]+"', "version = `"$packVersion`""
+        } else {
+            # Si no existe, agregarla después de name
+            if ($packTomlContent -match '(?m)^name\s*=\s*.*') {
+                $packTomlContent = $packTomlContent -replace '(?m)(^name\s*=\s*.*)', "`$1`r`nversion = `"$packVersion`""
+            } else {
+                $packTomlContent = "version = `"$packVersion`"`r`n" + $packTomlContent
+            }
+        }
+        $utf8NoBom = New-Object System.Text.UTF8Encoding $False
+        [System.IO.File]::WriteAllText($packTomlPath, $packTomlContent, $utf8NoBom)
+        Write-Success "Archivo pack.toml actualizado con la versión: $packVersion"
+        Write-Host ""
+    }
+
     $startTime = [System.Diagnostics.Stopwatch]::StartNew()
     
     # PASO 1: Sincronizar overrides
@@ -44,60 +97,6 @@ try {
     Write-Step 4 4 "Preparando subida a la nube..."
     Write-Info "Explicacion: Esto empaqueta tus cambios y los envia a GitHub (origin/main)."
     Write-Info "Tus jugadores recibiran los cambios automaticamente al abrir su launcher."
-    
-    # Leer y gestionar version de pack.toml
-    $packVersion = "1.0"
-    $packTomlPath = Join-Path (Split-Path $PSScriptRoot -Parent) "pack\pack.toml"
-    $currentVersion = "1.0"
-    
-    if (Test-Path $packTomlPath) {
-        $packTomlContent = Get-Content $packTomlPath -Raw
-        if ($packTomlContent -match '(?m)^version\s*=\s*"([^"]+)"') {
-            $currentVersion = $matches[1]
-        }
-    }
-    
-    # Calcular versión sugerida (incremental)
-    $parts = $currentVersion.Split('.')
-    $lastIdx = $parts.Length - 1
-    if ($parts[$lastIdx] -match '^\d+$') {
-        $lastVal = [int]$parts[$lastIdx]
-        $parts[$lastIdx] = ($lastVal + 1).ToString()
-        $suggestedVersion = $parts -join '.'
-    } else {
-        $suggestedVersion = $currentVersion + ".1"
-    }
-
-    # Preguntar al usuario por la versión (con sugerencia automática)
-    Write-Host ""
-    Write-Host "Configuración de Versión:" -ForegroundColor Yellow
-    Write-Host "  Versión actual registrada: $currentVersion" -ForegroundColor Gray
-    $inputVersion = Read-Host "  Ingrese la versión para esta actualización (presione Enter para usar '$suggestedVersion')"
-    
-    if ([string]::IsNullOrWhiteSpace($inputVersion)) {
-        $packVersion = $suggestedVersion
-    } else {
-        $packVersion = $inputVersion.Trim()
-    }
-    
-    # Actualizar pack.toml con la nueva versión
-    if (Test-Path $packTomlPath) {
-        $packTomlContent = Get-Content $packTomlPath -Raw
-        if ($packTomlContent -match '(?m)^version\s*=\s*"[^"]+"') {
-            $packTomlContent = $packTomlContent -replace '(?m)^version\s*=\s*"[^"]+"', "version = `"$packVersion`""
-        } else {
-            # Si no existe, agregarla después de name
-            if ($packTomlContent -match '(?m)^name\s*=\s*.*') {
-                $packTomlContent = $packTomlContent -replace '(?m)(^name\s*=\s*.*)', "`$1`r`nversion = `"$packVersion`""
-            } else {
-                $packTomlContent = "version = `"$packVersion`"`r`n" + $packTomlContent
-            }
-        }
-        $utf8NoBom = New-Object System.Text.UTF8Encoding $False
-        [System.IO.File]::WriteAllText($packTomlPath, $packTomlContent, $utf8NoBom)
-        Write-Success "Archivo pack.toml actualizado con la versión: $packVersion"
-        Write-Host ""
-    }
     
     # Hacer commit
     $repoRoot = Split-Path $PSScriptRoot -Parent
