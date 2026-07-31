@@ -635,7 +635,7 @@ hash = "14b8862c18864c8fcea792ffef162ce64aa27b4275b3bfc5fae27c393e1dd9b9"
 
 [[files]]
 file = "config/chat_heads.json5"
-hash = "e198750061411cf7fca624e38b894ca104ca2cf2c2940da0409ce4240dcc2503"
+hash = "a018081eb24a8afb6d46251dc1d6838a0dfb54ecec546860d06cbe183ed1db14"
 
 [[files]]
 file = "config/chatanimation.json"
@@ -744,6 +744,14 @@ hash = "68d5887d80d303dfbd2f594e103f14563f507382bf883af69b98706743b40dc2"
 [[files]]
 file = "config/curious-lanterns-common.toml"
 hash = "f676f89ded588888f7b45802271683cd0a2dfb7a02d437b0dfb683cef5767ba7"
+
+[[files]]
+file = "config/cutthrough-client.toml"
+hash = "2dfca01b0ad9942ed5c6cede6fd043ca4adf912f5edee1857a39216f461b4a3b"
+
+[[files]]
+file = "config/default_key_setup-client.toml"
+hash = "5969ee464c830ef7aa1c2089dc32211f2bcddbaf9d7096476bba374ab1bd6437"
 
 [[files]]
 file = "config/defaultoptions-common.toml"
@@ -855,7 +863,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "fe7fb8ea25e733015f7b4bfbc06e5e5be01d9028b4a620c1079ac012da318b34"
+hash = "1501a49e0d2bf618e336d533cb92f3b6f1b4788a06f622dc6c2e04d0a8bb95b6"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1343,7 +1351,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "79131ea41212b29c07f8ba3b5d981030245eda45355a37350db1a87f8ff37da8"
+hash = "ae95277737015ecc29b9148b7793fc469147024bc39fcdee06b0df3673495152"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1455,7 +1463,7 @@ hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
 [[files]]
 file = "config/mcreator_mem_fix.json"
-hash = "082ed2dc456bdf92663257e1640387c3b84dff52b26c7e3f15d1be03804a3687"
+hash = "53255e70ea770a4b14eb97e7c66b8bf254d92572a203e9bfb9ac718070b34114"
 
 [[files]]
 file = "config/mobplayeranimator/client.json5"
@@ -1511,7 +1519,7 @@ hash = "2cf603cb5a49de1bf3b45f5bd0704c88eaacb8733b9315dd0b0f18e595425828"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "0fa04bfa90451960532de58c98baa60355003092ecdf67e77e9aee5f06392457"
+hash = "ce7404c85d640546705a6429b13b6352b51e583283ce385b22872be6e8c3d3d8"
 preserve = true
 
 [[files]]
@@ -1528,7 +1536,7 @@ hash = "dedd104524906b879e3a741999b7a955bfcb93fba47d7da723dc1fc9cef00736"
 
 [[files]]
 file = "config/paperdoll.json"
-hash = "96e6540e0ba51475d0b06ed58ef9451a091ee5cc3ad62776e7ad9f14a04f1887"
+hash = "d3e313d9caed6ce75724aa79e4c03f31235355020c4abc01f9d87456f97ddd17"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -1568,7 +1576,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "49df785ce63047a292d123d635ba58c5abaa3e6bb7aaa7dde14ee1cfa4b59bba"
+hash = "84736c56c9bd3d07273279b128bd9eb11a825b7ec1a7ea1e2f1b64d607e030d3"
 
 [[files]]
 file = "config/prettyrain.json5"
@@ -1672,7 +1680,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "c85b5da0987e9e482fab112dc81643e4622091cc7064abf811a1bb15d2f5def1"
+hash = "de31e21621e10d59a6ef0e38ecd52d704f0badee7767c3e78fb324bf931f70a3"
 
 [[files]]
 file = "config/simplehats.json"
@@ -5302,8 +5310,9 @@ hash = "b295f82ef9223dddee5e7027cba00bc93c14a41a8479d6b9bb72fd0bba5f275e"
 metafile = true
 
 [[files]]
-file = "mods/balm-forge-1.20.1-7.3.38-all.jar"
-hash = "cbe8008218f0f574bc1f78b532cac5f978c33bf36ae2e14805340eab445fdb08"
+file = "mods/balm.pw.toml"
+hash = "fe46309d954710019e07813bcdc6db2c775b07795f3628cb559610adcb129a9a"
+metafile = true
 
 [[files]]
 file = "mods/beautify-decorate.pw.toml"
@@ -5576,13 +5585,9 @@ hash = "acb7ebe72eeb476a26e5777cbbbad0a270db8ff85de0aa417be8e1228d26e2f4"
 metafile = true
 
 [[files]]
-file = "mods/default-options.pw.toml"
-hash = "6311134242af3f639923e825caea40821c7e7ee7caadf4105234f5d7fa44ec8b"
+file = "mods/default-key-setup.pw.toml"
+hash = "1aa51b927c0bb47ff79b1cb1b0cfd066884f85b6a1072559873f158071fb5a8e"
 metafile = true
-
-[[files]]
-file = "mods/defaultoptions-forge-1.20.1-18.0.4.jar"
-hash = "88b89d7734a4f5d99e9464fc368428a72e5052c3570865a954cf74ef98a2581b"
 
 [[files]]
 file = "mods/delightful-creators-forge.pw.toml"
@@ -5951,12 +5956,8 @@ hash = "02977d28acd2089c39dbe5b65fd08e78094fb650b4afc810f757cb5cea1fbda8"
 metafile = true
 
 [[files]]
-file = "mods/justenoughbreeding-forge-1.20-1.20.1-2.5.0.jar"
-hash = "684a3d8b79d5c13d8ab662e1e9c2e905dfe88db790e8bfd28d47bb6310ec9784"
-
-[[files]]
 file = "mods/justenoughbreeding.pw.toml"
-hash = "cb3d6db892aa76a7bf547272006588e5cf42bfb37acaf7e060aa199463766af5"
+hash = "a6c4e08af9acf20008531eb2f003327fe26c1e5a6afa1a7322408fd2275c8429"
 metafile = true
 
 [[files]]
