@@ -5302,9 +5302,8 @@ hash = "b295f82ef9223dddee5e7027cba00bc93c14a41a8479d6b9bb72fd0bba5f275e"
 metafile = true
 
 [[files]]
-file = "mods/balm.pw.toml"
-hash = "ed4ccdb13c738b7f70df056df84a1b977fb256a53c2921610c565069c15912c7"
-metafile = true
+file = "mods/balm-forge-1.20.1-7.3.38-all.jar"
+hash = "cbe8008218f0f574bc1f78b532cac5f978c33bf36ae2e14805340eab445fdb08"
 
 [[files]]
 file = "mods/beautify-decorate.pw.toml"
@@ -5369,11 +5368,6 @@ metafile = true
 [[files]]
 file = "mods/brewin-and-chewin.pw.toml"
 hash = "dc45e2a3431d818f9bb2b7217a62e62ec8f455ca37b9f4f35947d2c442bad42b"
-metafile = true
-
-[[files]]
-file = "mods/bytebuddies.pw.toml"
-hash = "4422657b3eff4fb9077c3eb3a296eee67184d0775cb99dd586373df24a012b43"
 metafile = true
 
 [[files]]
@@ -5585,6 +5579,10 @@ metafile = true
 file = "mods/default-options.pw.toml"
 hash = "6311134242af3f639923e825caea40821c7e7ee7caadf4105234f5d7fa44ec8b"
 metafile = true
+
+[[files]]
+file = "mods/defaultoptions-forge-1.20.1-18.0.4.jar"
+hash = "88b89d7734a4f5d99e9464fc368428a72e5052c3570865a954cf74ef98a2581b"
 
 [[files]]
 file = "mods/delightful-creators-forge.pw.toml"
@@ -5951,6 +5949,10 @@ metafile = true
 file = "mods/just-enough-resources-jer.pw.toml"
 hash = "02977d28acd2089c39dbe5b65fd08e78094fb650b4afc810f757cb5cea1fbda8"
 metafile = true
+
+[[files]]
+file = "mods/justenoughbreeding-forge-1.20-1.20.1-2.5.0.jar"
+hash = "684a3d8b79d5c13d8ab662e1e9c2e905dfe88db790e8bfd28d47bb6310ec9784"
 
 [[files]]
 file = "mods/justenoughbreeding.pw.toml"
@@ -6541,11 +6543,6 @@ metafile = true
 [[files]]
 file = "mods/true-ending.pw.toml"
 hash = "171f4c4e48ec408e9bcc6f60751da7a549d04f8e0df2d9375b48ee84fe3387ef"
-metafile = true
-
-[[files]]
-file = "mods/turtlebois-core-library.pw.toml"
-hash = "44af1bf24ab37044e18cd45d1b322e492c7f23f6f4235ecabd29074db2c0193b"
 metafile = true
 
 [[files]]
