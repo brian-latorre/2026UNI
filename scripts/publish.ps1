@@ -1,5 +1,6 @@
 param (
-    [string]$CommitMessage
+    [string]$CommitMessage,
+    [string]$Version
 )
 
 $PSScriptRoot = Split-Path -Parent -Path $MyInvocation.MyCommand.Definition
@@ -68,16 +69,20 @@ try {
         $suggestedVersion = $currentVersion + ".1"
     }
 
-    # Preguntar al usuario por la versión (con sugerencia automática)
-    Write-Host ""
-    Write-Host "Configuración de Versión:" -ForegroundColor Yellow
-    Write-Host "  Versión actual registrada: $currentVersion" -ForegroundColor Gray
-    $inputVersion = Read-Host "  Ingrese la versión para esta actualización (presione Enter para usar '$suggestedVersion')"
-    
-    if ([string]::IsNullOrWhiteSpace($inputVersion)) {
-        $packVersion = $suggestedVersion
+    # Preguntar al usuario por la versión (si no fue pasada como parámetro)
+    if ([string]::IsNullOrWhiteSpace($Version)) {
+        Write-Host ""
+        Write-Host "Configuración de Versión:" -ForegroundColor Yellow
+        Write-Host "  Versión actual registrada: $currentVersion" -ForegroundColor Gray
+        $inputVersion = Read-Host "  Ingrese la versión para esta actualización (presione Enter para usar '$suggestedVersion')"
+        
+        if ([string]::IsNullOrWhiteSpace($inputVersion)) {
+            $packVersion = $suggestedVersion
+        } else {
+            $packVersion = $inputVersion.Trim()
+        }
     } else {
-        $packVersion = $inputVersion.Trim()
+        $packVersion = $Version.Trim()
     }
     
     # Actualizar pack.toml con la nueva versión
