@@ -12,6 +12,54 @@ try {
     Write-Banner "1-CLICK UPDATE: 2026UNI MODPACK"
     Write-Info "Iniciando proceso de publicacion..."
     Write-Host ""
+    
+    # Leer version actual de pack.toml
+    $packTomlPath = Join-Path (Split-Path $PSScriptRoot -Parent) "pack\pack.toml"
+    $currentVersion = "1.0"
+    
+    if (Test-Path $packTomlPath) {
+        $packTomlContent = Get-Content $packTomlPath -Raw
+        if ($packTomlContent -match '(?m)^version\s*=\s*"([^"]+)"') {
+            $currentVersion = $matches[1]
+        }
+    }
+    
+    # Calcular versión sugerida (incremental)
+    $parts = $currentVersion.Split('.')
+    $lastIdx = $parts.Length - 1
+    if ($parts[$lastIdx] -match '^\d+$') {
+        $lastVal = [int]$parts[$lastIdx]
+        $parts[$lastIdx] = ($lastVal + 1).ToString()
+        $suggestedVersion = $parts -join '.'
+    } else {
+        $suggestedVersion = $currentVersion + ".1"
+    }
+
+    # Preguntar al usuario por la versión (si no fue pasada como parámetro)
+    if ([string]::IsNullOrWhiteSpace($Version)) {
+        Write-Host "Configuracion de Version:" -ForegroundColor Yellow
+        Write-Host "  Ultima version registrada: $currentVersion" -ForegroundColor Gray
+        $inputVersion = Read-Host "1. Ingrese la version para esta actualizacion [Enter para usar '$suggestedVersion']"
+        
+        if ([string]::IsNullOrWhiteSpace($inputVersion)) {
+            $packVersion = $suggestedVersion
+        } else {
+            $packVersion = $inputVersion.Trim()
+        }
+    } else {
+        $packVersion = $Version.Trim()
+    }
+    
+    # Preguntar por el mensaje si no se pasó
+    if ([string]::IsNullOrWhiteSpace($CommitMessage)) {
+        $inputMessage = Read-Host "2. Escribe un comentario corto de lo que cambiaste (ej: Nuevas imagenes) [Enter por defecto]"
+        if ([string]::IsNullOrWhiteSpace($inputMessage)) {
+            $CommitMessage = "Actualizacion del modpack"
+        } else {
+            $CommitMessage = $inputMessage.Trim()
+        }
+    }
+    Write-Host ""
 
     $startTime = [System.Diagnostics.Stopwatch]::StartNew()
     
@@ -47,45 +95,7 @@ try {
     Write-Info "Tus jugadores recibiran los cambios automaticamente al abrir su launcher."
     
     # Leer y gestionar version de pack.toml
-    $packVersion = "1.0"
-    $packTomlPath = Join-Path (Split-Path $PSScriptRoot -Parent) "pack\pack.toml"
-    $currentVersion = "1.0"
-    
-    if (Test-Path $packTomlPath) {
-        $packTomlContent = Get-Content $packTomlPath -Raw
-        if ($packTomlContent -match '(?m)^version\s*=\s*"([^"]+)"') {
-            $currentVersion = $matches[1]
-        }
-    }
-    
-    # Calcular versión sugerida (incremental)
-    $parts = $currentVersion.Split('.')
-    $lastIdx = $parts.Length - 1
-    if ($parts[$lastIdx] -match '^\d+$') {
-        $lastVal = [int]$parts[$lastIdx]
-        $parts[$lastIdx] = ($lastVal + 1).ToString()
-        $suggestedVersion = $parts -join '.'
-    } else {
-        $suggestedVersion = $currentVersion + ".1"
-    }
-
-    # Preguntar al usuario por la versión (si no fue pasada como parámetro)
-    if ([string]::IsNullOrWhiteSpace($Version)) {
-        Write-Host ""
-        Write-Host "Configuración de Versión:" -ForegroundColor Yellow
-        Write-Host "  Versión actual registrada: $currentVersion" -ForegroundColor Gray
-        $inputVersion = Read-Host "  Ingrese la versión para esta actualización (presione Enter para usar '$suggestedVersion')"
-        
-        if ([string]::IsNullOrWhiteSpace($inputVersion)) {
-            $packVersion = $suggestedVersion
-        } else {
-            $packVersion = $inputVersion.Trim()
-        }
-    } else {
-        $packVersion = $Version.Trim()
-    }
-    
-    # Actualizar pack.toml con la nueva versión
+    $packTomlContent = ""
     if (Test-Path $packTomlPath) {
         $packTomlContent = Get-Content $packTomlPath -Raw
         if ($packTomlContent -match '(?m)^version\s*=\s*"[^"]+"') {
