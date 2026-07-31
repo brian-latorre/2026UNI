@@ -5204,11 +5204,11 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "mods/BeeFix-1.20-1.0.7.jar"
-hash = "02f3d7ae8c6804666dbc3f917e90e11791594dda27889353842e3b207d72fff1"
+hash = "5fa50cfbd0ee3d0472ba8e9162d40e9556ea930a6bbcf93de2ab751365b58566"
 
 [[files]]
 file = "mods/Butchersdelight beta 1.20.1 2.1.0.jar"
-hash = "d25c027292fef578d4ed84d70e10c75a33422e8123238d78e534e31432ccbfe3"
+hash = "7086e03c670252c65e0a36d0127c4a9569fec0c1d3d2191ad5c1184d62cc0b6d"
 
 [[files]]
 file = "mods/Compat_FarmersDelight.jar"
@@ -5239,7 +5239,7 @@ metafile = true
 
 [[files]]
 file = "mods/adorablehamsterpets-3.6.1-1.20.1+forge.jar"
-hash = "6e0929d82b54aa2ab7a5bf4196dfa52308b9946456d7985d3a1874f796a871ed"
+hash = "96e057684ba78bab2bccfe904cb997f5342ffb9f1475e581b4003949079291b2"
 
 [[files]]
 file = "mods/advancement-plaques.pw.toml"
@@ -5303,7 +5303,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "fe46309d954710019e07813bcdc6db2c775b07795f3628cb559610adcb129a9a"
+hash = "ed4ccdb13c738b7f70df056df84a1b977fb256a53c2921610c565069c15912c7"
 metafile = true
 
 [[files]]
@@ -5369,6 +5369,11 @@ metafile = true
 [[files]]
 file = "mods/brewin-and-chewin.pw.toml"
 hash = "dc45e2a3431d818f9bb2b7217a62e62ec8f455ca37b9f4f35947d2c442bad42b"
+metafile = true
+
+[[files]]
+file = "mods/bytebuddies.pw.toml"
+hash = "4422657b3eff4fb9077c3eb3a296eee67184d0775cb99dd586373df24a012b43"
 metafile = true
 
 [[files]]
@@ -5578,12 +5583,8 @@ metafile = true
 
 [[files]]
 file = "mods/default-options.pw.toml"
-hash = "91e64b2bf3b7011473fc138e5e93686233622fb0188bbf1d1113abadac5e42d7"
+hash = "6311134242af3f639923e825caea40821c7e7ee7caadf4105234f5d7fa44ec8b"
 metafile = true
-
-[[files]]
-file = "mods/defaultoptions-forge-1.20.1-18.0.5.jar"
-hash = "12fe19e2bbacda90240dc71773590e055b27977dd1ba217806c06bbb4e3a9975"
 
 [[files]]
 file = "mods/delightful-creators-forge.pw.toml"
@@ -5952,12 +5953,8 @@ hash = "02977d28acd2089c39dbe5b65fd08e78094fb650b4afc810f757cb5cea1fbda8"
 metafile = true
 
 [[files]]
-file = "mods/justenoughbreeding-forge-1.20.1-3.0.1.jar"
-hash = "6d443123a7b2159b2e64545bb50109b359c72103b8c511390e7dde58e3b7c518"
-
-[[files]]
 file = "mods/justenoughbreeding.pw.toml"
-hash = "a6c4e08af9acf20008531eb2f003327fe26c1e5a6afa1a7322408fd2275c8429"
+hash = "cb3d6db892aa76a7bf547272006588e5cf42bfb37acaf7e060aa199463766af5"
 metafile = true
 
 [[files]]
@@ -6544,6 +6541,11 @@ metafile = true
 [[files]]
 file = "mods/true-ending.pw.toml"
 hash = "171f4c4e48ec408e9bcc6f60751da7a549d04f8e0df2d9375b48ee84fe3387ef"
+metafile = true
+
+[[files]]
+file = "mods/turtlebois-core-library.pw.toml"
+hash = "44af1bf24ab37044e18cd45d1b322e492c7f23f6f4235ecabd29074db2c0193b"
 metafile = true
 
 [[files]]
