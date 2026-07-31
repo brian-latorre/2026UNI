@@ -24,21 +24,32 @@ try {
         }
     }
     
-    # Calcular versión sugerida (incremental)
+    # Calcular versión sugerida (inteligente)
     $parts = $currentVersion.Split('.')
-    $lastIdx = $parts.Length - 1
-    if ($parts[$lastIdx] -match '^\d+$') {
-        $lastVal = [int]$parts[$lastIdx]
-        $parts[$lastIdx] = ($lastVal + 1).ToString()
-        $suggestedVersion = $parts -join '.'
+    if ($parts.Length -eq 3) {
+        if ($parts[2] -eq '0') {
+            # Si termina en 0 (ej: 1.1.0), sugerir 1.2.0
+            $suggestedVersion = "{0}.{1}.0" -f $parts[0], ([int]$parts[1] + 1)
+        } else {
+            # Si termina en otro numero (ej: 1.1.1), sugerir 1.1.2
+            $suggestedVersion = "{0}.{1}.{2}" -f $parts[0], $parts[1], ([int]$parts[2] + 1)
+        }
     } else {
-        $suggestedVersion = $currentVersion + ".1"
+        $lastIdx = $parts.Length - 1
+        if ($parts[$lastIdx] -match '^\d+$') {
+            $parts[$lastIdx] = ([int]$parts[$lastIdx] + 1).ToString()
+            $suggestedVersion = $parts -join '.'
+        } else {
+            $suggestedVersion = $currentVersion + ".1"
+        }
     }
 
     # Preguntar al usuario por la versión (si no fue pasada como parámetro)
     if ([string]::IsNullOrWhiteSpace($Version)) {
-        Write-Host "Configuracion de Version:" -ForegroundColor Yellow
-        Write-Host "  Ultima version registrada: $currentVersion" -ForegroundColor Gray
+        Write-Host "=========================================" -ForegroundColor Cyan
+        Write-Host " LA ULTIMA VERSION PUBLICADA FUE: $currentVersion" -ForegroundColor Yellow
+        Write-Host "=========================================" -ForegroundColor Cyan
+        Write-Host ""
         $inputVersion = Read-Host "1. Ingrese la version para esta actualizacion [Enter para usar '$suggestedVersion']"
         
         if ([string]::IsNullOrWhiteSpace($inputVersion)) {
