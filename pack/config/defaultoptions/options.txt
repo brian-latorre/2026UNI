@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["mod/punchy:punchy","vanilla","mod_resources","fabric","generated/fragmentum_layer","file/Enchantment Outlines 1.19-1.20.zip","primal_modern_spawn_eggs","file/FreshAnimations_v1.10.4.zip","file/FA+Player-EmoteCraft-JustExpressions","file/Fusion Connected Glass v1.0.1 for Minecraft 1.20-1.21.8.zip","vinery:bushy_leaves","file/Better+Lanterns+v1.2(mc-1.20.1).zip","file/3D Sugar Cane.zip","file/crops-3d(2).zip","file/Icon Xaero\u0027s 1.22.zip","file/Xaero\u0027s Extended Mob Icons v1.6.zip","file/E19 Cobblemon Minimap Icons.zip","file/Icon - Xaero X FA - v2.4 (1.20.x).zip","file/Botania Spanish Translation.zip","file/2026UNI Translations","Moonlight Mods Dynamic Assets","file/UD - Hotbar add-on 1.16-1.20.1.zip"]
+resourcePacks:["builtin/dye_depot","mod/punchy:punchy","vanilla","mod_resources","fabric","generated/fragmentum_layer","file/Enchantment Outlines 1.19-1.20.zip","primal_modern_spawn_eggs","file/Fusion Connected Glass v1.0.1 for Minecraft 1.20-1.21.8.zip","vinery:bushy_leaves","file/FreshAnimations_v1.10.4.zip","file/FA+Player-EmoteCraft-JustExpressions","file/Better+Lanterns+v1.2(mc-1.20.1).zip","file/3D Sugar Cane.zip","file/crops-3d(2).zip","file/Icon Xaero\u0027s 1.22.zip","file/Xaero\u0027s Extended Mob Icons v1.6.zip","file/E19 Cobblemon Minimap Icons.zip","file/Icon - Xaero X FA - v2.4 (1.20.x).zip","file/UD - Hotbar add-on 1.16-1.20.1.zip","file/Botania Spanish Translation.zip","Moonlight Mods Dynamic Assets","file/2026UNI Translations"]
 incompatibleResourcePacks:["file/Enchantment Outlines 1.19-1.20.zip","file/3D Sugar Cane.zip","file/crops-3d(2).zip","file/Icon Xaero\u0027s 1.22.zip","file/Xaero\u0027s Extended Mob Icons v1.6.zip"]
 lastServer:
 lang:es_es
@@ -85,7 +85,7 @@ panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
 soundCategory_master:0.5066225165562914
-soundCategory_music:0.25586854460093905
+soundCategory_music:0.2007042253521127
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

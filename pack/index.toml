@@ -663,7 +663,7 @@ hash = "7dd7dc266613f18011a9a5ba624e50c35374ad2b39ea379231c3c44e7b2261b3"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "9d1b1e49079dd7cefccacc75f21d95493d65e155b24e605e2daeeffc8a674519"
+hash = "39d0028c2e72186ef3431754d70e425179b4f2f4be5842522ee8b6bebdc66ad5"
 
 [[files]]
 file = "config/collective.json5"
@@ -751,19 +751,19 @@ hash = "2dfca01b0ad9942ed5c6cede6fd043ca4adf912f5edee1857a39216f461b4a3b"
 
 [[files]]
 file = "config/default_key_setup-client.toml"
-hash = "5be40184846bd5f5746d05c62da27f466cbd45067b20d2b6319d631c7549bd26"
+hash = "fd2b32dfaab44482b43e89965833cb00ec98a3b8dc3461146353cfd367e6002f"
 
 [[files]]
 file = "config/defaultoptions-common.toml"
-hash = "9a8896bcb2c4599dfe69dbb3e80a0e986e639b9287fdc70e7866dcc9fb7bb5ec"
+hash = "53abba965111b4a29834a9a81166d0904f460210dcc6bad5a00146c1d6447826"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "9cdee766c115a4b891995dc229379e71e43d19f9903ee00233b138f2c439a075"
+hash = "04324061967e62d078483c6d372990580ad870c8bf717420f885de83d811489c"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "8523f8f63f6437284cda8c9f9962b5e06762a19af17a31755e84acbdde8f3b6e"
+hash = "ff68d40732e441e0176e0646fe99f0a6c421c93a667a269c920c1f21bfdfd6e1"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
@@ -863,7 +863,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "1501a49e0d2bf618e336d533cb92f3b6f1b4788a06f622dc6c2e04d0a8bb95b6"
+hash = "e6ca05d73c010d9ec1e4369fb3f29a0d32a9458377d81311b58a43b8f5df2c76"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1463,7 +1463,7 @@ hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
 [[files]]
 file = "config/mcreator_mem_fix.json"
-hash = "53255e70ea770a4b14eb97e7c66b8bf254d92572a203e9bfb9ac718070b34114"
+hash = "32a1a09341e96655bcadfbd4de945acf1680facf4bd7e76d844577294037c8f4"
 
 [[files]]
 file = "config/mobplayeranimator/client.json5"
@@ -1519,7 +1519,7 @@ hash = "2cf603cb5a49de1bf3b45f5bd0704c88eaacb8733b9315dd0b0f18e595425828"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "ce7404c85d640546705a6429b13b6352b51e583283ce385b22872be6e8c3d3d8"
+hash = "8ee7ff336fdc5eea1c1d0bd3af5155c262e6fcaac13c79b04cba1bfb83cf59f8"
 preserve = true
 
 [[files]]
@@ -1544,7 +1544,7 @@ hash = "d289f4c7540e3e24bcf6bbf3f5a2aaaf87ccf58027d2213e40497fc627422068"
 
 [[files]]
 file = "config/pickupnotifier/pickupnotifier-client.toml"
-hash = "242a0f58407ecc71ff5e2c6cd2910001c089ee4e6130454c377115e8a8f3c83a"
+hash = "ea1756906dfe5237e691ea2cebfde385d37824bec0b5ab3f76d9b5679b1c0b5b"
 
 [[files]]
 file = "config/pickupnotifier/pickupnotifier-server.toml"
@@ -1576,7 +1576,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "84736c56c9bd3d07273279b128bd9eb11a825b7ec1a7ea1e2f1b64d607e030d3"
+hash = "7ba135f66cb7ed1d7decfa7478be82e0f6b3f0498a25909ed3dd50f7462d71e3"
 
 [[files]]
 file = "config/prettyrain.json5"
@@ -1680,7 +1680,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "de31e21621e10d59a6ef0e38ecd52d704f0badee7767c3e78fb324bf931f70a3"
+hash = "957fb81756fe38422085e503a88a6b4e58e829cf3901e11a12efb6a3a8a5703b"
 
 [[files]]
 file = "config/simplehats.json"
@@ -5487,6 +5487,11 @@ metafile = true
 [[files]]
 file = "mods/connectivity.pw.toml"
 hash = "5b0eaf19630d6145093ae6ff9a21cf2dbdd0da53d9289673ad5ccb099afa18b7"
+metafile = true
+
+[[files]]
+file = "mods/continuity.pw.toml"
+hash = "8459128658c0148ba1b89d87b4c86bd62f236c73cff860090eba0b08e49ae9ce"
 metafile = true
 
 [[files]]
