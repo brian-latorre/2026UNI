@@ -1247,7 +1247,7 @@ hash = "c7a8af9f69054d8600d43a05e26e93b90b0f8b7116eac3e656f1aad00edd0648"
 
 [[files]]
 file = "config/immersivedamageindicators-client.toml"
-hash = "f93a13688a6e9c5e342533c93ef24cfbe3910fdddd46d80a621c9c50c5222b01"
+hash = "21d98671d2cc41d2c1384b542d088642e23e2ec7f4f408b36ad6fb98bd246d53"
 
 [[files]]
 file = "config/immersivemessages-client.toml"
@@ -6573,7 +6573,12 @@ metafile = true
 
 [[files]]
 file = "mods/waterframes.pw.toml"
-hash = "f23d71ce94d45ce3c219c66196680081cd445ed28048f9a9a8217c52669644b2"
+hash = "67d3ea0f6c097f6c25d9c677671a806056d0f4af930d230b9f959495a06ac432"
+metafile = true
+
+[[files]]
+file = "mods/watermedia-binaries.pw.toml"
+hash = "cae7e8292ef90ab14e32cf5970e8467116a6e01df5a79c8a33968d45556eede8"
 metafile = true
 
 [[files]]
@@ -6583,7 +6588,7 @@ metafile = true
 
 [[files]]
 file = "mods/watermedia.pw.toml"
-hash = "0528731743be7df4ba5a8952264861920f90475ed333f914fddea75473cd6012"
+hash = "b77a560d6c4a3f4558ee0b977463de1283b6b1c39fd565883f9b35df2453cd3d"
 metafile = true
 
 [[files]]

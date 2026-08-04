@@ -1,6 +1,6 @@
 #.
 #Custom Immersive Messages font to use, or blank if null.
-"Custom Font" = "minecraft:default"
+"Custom Font" = "anton"
 #.
 #ARGB, Default color for indicators - https://argb-int-calculator.netlify.app/
 #Range: > -2147483648
