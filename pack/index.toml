@@ -6592,11 +6592,6 @@ hash = "b77a560d6c4a3f4558ee0b977463de1283b6b1c39fd565883f9b35df2453cd3d"
 metafile = true
 
 [[files]]
-file = "mods/watervision.pw.toml"
-hash = "1e9bcc140af33caf45c8c2e42eb1917e9884b0f26bc99179b6102c5071b1aa87"
-metafile = true
-
-[[files]]
 file = "mods/watut-screen-blacklist.pw.toml"
 hash = "bbd882c5ca7399325190025ded004a76b104822716bef6f4796f0771a5641b41"
 metafile = true
