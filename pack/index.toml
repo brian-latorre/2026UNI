@@ -10,7 +10,7 @@ hash = "d86beab1176c367beeed3b8fb8a2a8dfbd8a1db7293f067c01bc38c73020e398"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "071b19cad39f278d752a2ea8f6ca33e9665a5bb42f781e854aaa728e34c024f0"
+hash = "9aa70cabd15e7e1f736c7d2cb1793c29e579c08e18d6b00b2bc4058e851a41ab"
 preserve = true
 
 [[files]]
@@ -663,7 +663,7 @@ hash = "7dd7dc266613f18011a9a5ba624e50c35374ad2b39ea379231c3c44e7b2261b3"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "39d0028c2e72186ef3431754d70e425179b4f2f4be5842522ee8b6bebdc66ad5"
+hash = "9d1b1e49079dd7cefccacc75f21d95493d65e155b24e605e2daeeffc8a674519"
 
 [[files]]
 file = "config/collective.json5"
@@ -688,6 +688,10 @@ hash = "060e296a5fddce603e50034e3cdb6059c3a0e122d0aae3d85a0523341c82ea22"
 [[files]]
 file = "config/connectorextras_energy_bridge-common.toml"
 hash = "4075f057d848f2a33f0bff9f44cce49f8d8340001d7b2afe3431ba1d999c4400"
+
+[[files]]
+file = "config/continuity.json"
+hash = "00267a602028cbb037dcb0b5f803db31bed284235ca9c1ea189ad4179311a2f4"
 
 [[files]]
 file = "config/copycats-client.toml"
@@ -863,7 +867,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "e6ca05d73c010d9ec1e4369fb3f29a0d32a9458377d81311b58a43b8f5df2c76"
+hash = "e2868fe63f6d93a27571325ab4dccc3261cef46ba7159a13c8fea3ccaf631802"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1379,7 +1383,7 @@ hash = "b4bcdd97a688d2060541f3f2718b98fa82fe67ceb665b11676a799ece7686937"
 
 [[files]]
 file = "config/jei/world/local/Mundo_nuevo/bookmarks.ini"
-hash = "dbd4052a84ee64625ae7160709531fb7e64f32b0a50c89f352a3693928d1818b"
+hash = "d3b4f36aa3958261d2668fa6d89b75273ef681f6751f2c91e29a80a231dcc132"
 
 [[files]]
 file = "config/jei/world/local/Mundo_nuevo/lookupHistory.ini"
@@ -1463,7 +1467,7 @@ hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
 [[files]]
 file = "config/mcreator_mem_fix.json"
-hash = "32a1a09341e96655bcadfbd4de945acf1680facf4bd7e76d844577294037c8f4"
+hash = "432bf931e72e2d3c6bdc1ead04b723d17db7cf8f5bb8606ffac197f8df7f2561"
 
 [[files]]
 file = "config/mobplayeranimator/client.json5"
@@ -1519,7 +1523,7 @@ hash = "2cf603cb5a49de1bf3b45f5bd0704c88eaacb8733b9315dd0b0f18e595425828"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "8ee7ff336fdc5eea1c1d0bd3af5155c262e6fcaac13c79b04cba1bfb83cf59f8"
+hash = "b498710bce4dbcec7786261df1acb75d0a2e4b36832e9e2b8c3f12cca8677cb9"
 preserve = true
 
 [[files]]
@@ -1576,7 +1580,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "7ba135f66cb7ed1d7decfa7478be82e0f6b3f0498a25909ed3dd50f7462d71e3"
+hash = "49df785ce63047a292d123d635ba58c5abaa3e6bb7aaa7dde14ee1cfa4b59bba"
 
 [[files]]
 file = "config/prettyrain.json5"
@@ -1592,7 +1596,7 @@ hash = "77d9559a19f69d73f952177d2047760a9e55be219fee015658effaaa8783eb46"
 
 [[files]]
 file = "config/punchy/punchy_config.json"
-hash = "3d8f139d5203d7c85577ae48b15d7f53c2c809a796db1eb92625f2c0ee0fbdd7"
+hash = "d6bc98423c88e8a4f9b98c795f3f8f69951daa85d1d091060ddd9df947d7bdae"
 
 [[files]]
 file = "config/quark-common.toml"
@@ -1680,7 +1684,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "957fb81756fe38422085e503a88a6b4e58e829cf3901e11a12efb6a3a8a5703b"
+hash = "2d5fbb8dbb8e0ebe14bf74f7fb1e3bd6c6b466c7d564b5279f0cc31d1a1f8bfc"
 
 [[files]]
 file = "config/simplehats.json"
@@ -1940,7 +1944,11 @@ hash = "aa8c8e804426760531e335268fc174782a9e8d4d740b6dd014711ede2e14a1d4"
 
 [[files]]
 file = "config/waterframes-client.toml"
-hash = "81ee2a4c2ee0c846f14e9c4132c31388c8347e21d410c677a246b090ebf110ed"
+hash = "cc8b82e58f84088c6a2be86f8ef0195a9bf1ed2b403e9474d7d428efad055b29"
+
+[[files]]
+file = "config/watermedia.toml"
+hash = "915387fd5c4ab44524fff586ea45a4fe746411c8f04ac8ca9b818e54f24ded4e"
 
 [[files]]
 file = "config/watermedia/custom_vlc_path.txt"
@@ -5204,7 +5212,7 @@ hash = "6db2897ba1a15afb51ae14050bdde39e91f2236b178c1162f2fdd657ec38960b"
 
 [[files]]
 file = "fancymenu_data/last_world.fmdata"
-hash = "80f420829c2b9450c03767f22bc65ccebd0e0409c507130a996faac96ec31083"
+hash = "d7e920b58dfe8f2b220df80ef0e6ed8724c6882973ed581be36e054ac676e367"
 
 [[files]]
 file = "mods/.gitkeep"
@@ -5616,7 +5624,7 @@ metafile = true
 
 [[files]]
 file = "mods/distant-horizons.pw.toml"
-hash = "1476a7221c5bdfaafd8864b02823b7045243dcb4f44692b047b6c2dae139cf50"
+hash = "14369a7bd08e135eeae52c3ed53dcd43d2ceb0ec7d803813a67a561f6abd15b7"
 metafile = true
 
 [[files]]
@@ -6578,7 +6586,7 @@ metafile = true
 
 [[files]]
 file = "mods/watermedia-binaries.pw.toml"
-hash = "cae7e8292ef90ab14e32cf5970e8467116a6e01df5a79c8a33968d45556eede8"
+hash = "882ef4ba5d6eec1ee88bb075c9fcd3caaeee30521fdb355f819c359f2d2037d9"
 metafile = true
 
 [[files]]
@@ -6643,7 +6651,7 @@ metafile = true
 
 [[files]]
 file = "otyacraftengine/url_textures_index.json"
-hash = "e14ed094767c534e974a5fd66ef9231b4b08002e99ced32b83c9af89e4744180"
+hash = "a1798745b19afc1bd05913c0a25438d5c5e9dc8e2ff39e3c1ac73a5850b5cf5b"
 
 [[files]]
 file = "patchouli_data.json"

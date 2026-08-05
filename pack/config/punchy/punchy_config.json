@@ -35,6 +35,12 @@
   "firstPersonModelHideEnabled": true,
   "firstPersonModelHidePitch": 60.0,
   "itemBlacklist": [
+    "waterframes:big_tv",
+    "waterframes:tv_box",
+    "waterframes:frame",
+    "waterframes:projector",
+    "waterframes:remote",
+    "waterframes:tv",
     "tempad:he_who_remains_tempad",
     "tempad:location_card",
     "tempad:tempad",
@@ -55,6 +61,12 @@
     "ae2:crafting_terminal"
   ],
   "blacklistApplyDualHanded": {
+    "waterframes:big_tv": false,
+    "waterframes:tv_box": false,
+    "waterframes:frame": false,
+    "waterframes:projector": false,
+    "waterframes:remote": false,
+    "waterframes:tv": false,
     "tempad:he_who_remains_tempad": false,
     "tempad:location_card": false,
     "tempad:tempad": false,

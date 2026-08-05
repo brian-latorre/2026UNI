@@ -7,7 +7,7 @@
 		enable = false
 		#Overrides 'waterframes.watermedia.enable' option
 		#Enables VLC/FFMPEG usage for multimedia processing (support added by WATERMeDIA)
-		useMultimedia = false
+		useMultimedia = true
 		#overrides 'waterframes.rendering.keepRendering'
 		#Enables media processing and rendering, disabling it will not render nothing, you can still hear videos
 		keepRendering = false
