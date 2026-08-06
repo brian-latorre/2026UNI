@@ -6482,7 +6482,7 @@ metafile = true
 
 [[files]]
 file = "mods/smartkeysync-1.0.0.jar"
-hash = "800a4b325d305f9fe43e7a50eb5395467c4e328cd0dd945b04f86aea7e82c399"
+hash = "6c890ce5884c85a08dc56f5e1959936c3a409d8a9c57658069e90c12d1f2a11a"
 
 [[files]]
 file = "mods/smooth-gui.pw.toml"
