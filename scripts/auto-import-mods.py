@@ -138,33 +138,41 @@ def main():
     # 1. Copiar JARS nuevos
     logger.info("[1/4] Analizando e importando mods locales...")
     
-    # Escaneo en tiempo real después de las eliminaciones del Paso 0
     current_pack_files = glob.glob(os.path.join(pack_mods_dir, "*.pw.toml")) + glob.glob(os.path.join(pack_mods_dir, "*.jar"))
     
-    tracked_jars = set()
+    tracked_via_toml = set()
+    tracked_via_jar = set()
     for pack_file in current_pack_files:
         if pack_file.endswith(".pw.toml"):
-            tracked_jars.add(get_expected_jar_name(pack_file))
+            tracked_via_toml.add(get_expected_jar_name(pack_file))
         else:
-            tracked_jars.add(os.path.basename(pack_file))
+            tracked_via_jar.add(os.path.basename(pack_file))
     
     source_jars = glob.glob(os.path.join(source_mods_dir, "*.jar"))
     copied_count = 0
+    updated_count = 0
     for jar in source_jars:
         if jar.endswith(".input") or jar.endswith("-disabled"): continue
         
         jar_name = os.path.basename(jar)
+        dest_jar = os.path.join(pack_mods_dir, jar_name)
         
-        if jar_name in tracked_jars:
+        if jar_name in tracked_via_toml:
             continue
             
-        dest_jar = os.path.join(pack_mods_dir, jar_name)
-        if not os.path.exists(dest_jar):
+        if jar_name not in tracked_via_jar:
             shutil.copy2(jar, dest_jar)
             copied_count += 1
             logger.info(f"Nuevo mod detectado y copiado: {jar_name}")
+        else:
+            # Es un jar local crudo, verificamos si ha sido modificado (recompilado)
+            if os.path.exists(dest_jar):
+                if hash_sha1(jar) != hash_sha1(dest_jar):
+                    shutil.copy2(jar, dest_jar)
+                    updated_count += 1
+                    logger.info(f"Mod local modificado (hash diferente), actualizando: {jar_name}")
             
-    logger.info(f"Se copiaron {copied_count} .jar(s) nuevos para ser evaluados por Packwiz.")
+    logger.info(f"Se copiaron {copied_count} .jar(s) nuevos y se actualizaron {updated_count} .jar(s) locales.")
     
     # 2. Detectar con CurseForge
     logger.info("[2/4] Detectando mods con CurseForge...")
@@ -195,7 +203,7 @@ def main():
             jar_name = os.path.basename(jar)
             
             # Solo procesar Jars que no estuvieran ya trackeados previamente como mods locales puros
-            if jar_name in tracked_jars:
+            if jar_name in tracked_via_jar:
                 continue
                 
             logger.info(f"Buscando en Modrinth: {jar_name}...")
