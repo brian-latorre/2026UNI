@@ -867,7 +867,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "dc65429ca9ddda9e341c6829c4af5ec1e90c3e58ca9ee92adbc5bb01fd6fb5db"
+hash = "2b745d351d356092ffd2a26e162301849b0dcafd2638b7924f6619b0a4194e1a"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1527,7 +1527,7 @@ hash = "2cf603cb5a49de1bf3b45f5bd0704c88eaacb8733b9315dd0b0f18e595425828"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "49b2a947e467b7002048ee433d9f3f5ce7872be088f4356da50e42daba6353d4"
+hash = "a6fd4a9ea035daf79e21c7f16880cb7cba8ea9682ca30c1fe7f024e75091349b"
 preserve = true
 
 [[files]]
@@ -1584,7 +1584,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "49df785ce63047a292d123d635ba58c5abaa3e6bb7aaa7dde14ee1cfa4b59bba"
+hash = "d0841745b1c206f25128bcd7271d363a39958201d90edc4528203df8244e0c71"
 
 [[files]]
 file = "config/prettyrain.json5"
@@ -1688,7 +1688,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "566f08bc31f48088f7d59ccabf88f5be066b465c9e57fea1053c5a4333ee03c7"
+hash = "8240fa78abaae04a6fe1a10a7f0122014f6f2c70f902e9cbffed49f8873dac99"
 
 [[files]]
 file = "config/simplehats.json"
@@ -1716,7 +1716,7 @@ hash = "ac1a4e660c8a567b4c945962d063eeced1a0040615214ea4aebb947ff6af7d33"
 
 [[files]]
 file = "config/smartkeysync/client.json"
-hash = "09258a60d6ae840be6bb446f41d4d4173e3e12eb67b914d213f680c92d29f0c1"
+hash = "0b30992f9daa5afa3a02ec483d26f35f7ac87fb984bf8896b96030d0ae784c8a"
 
 [[files]]
 file = "config/smartkeysync/master.json"
