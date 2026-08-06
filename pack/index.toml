@@ -755,7 +755,7 @@ hash = "2dfca01b0ad9942ed5c6cede6fd043ca4adf912f5edee1857a39216f461b4a3b"
 
 [[files]]
 file = "config/default_key_setup-client.toml"
-hash = "fd2b32dfaab44482b43e89965833cb00ec98a3b8dc3461146353cfd367e6002f"
+hash = "e1f92c0d7424ff255dc7a2c58b0195e4b832cdf1f90d2f8ea2ccf4a691e9ae05"
 
 [[files]]
 file = "config/defaultoptions-common.toml"
@@ -763,11 +763,11 @@ hash = "53abba965111b4a29834a9a81166d0904f460210dcc6bad5a00146c1d6447826"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "04324061967e62d078483c6d372990580ad870c8bf717420f885de83d811489c"
+hash = "c74cad33f1906a1e80f3c3f4fe65fca0702e8aa1045326679dd995a2ddc5164e"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "ff68d40732e441e0176e0646fe99f0a6c421c93a667a269c920c1f21bfdfd6e1"
+hash = "8234a0f48a23fc8a71f6012380fc4dcd6d17fd64d8a9aeb011c044821047c71b"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
@@ -867,7 +867,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "e2868fe63f6d93a27571325ab4dccc3261cef46ba7159a13c8fea3ccaf631802"
+hash = "dc65429ca9ddda9e341c6829c4af5ec1e90c3e58ca9ee92adbc5bb01fd6fb5db"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1223,7 +1223,7 @@ hash = "c1936d6bdb9c5bf80775f48c6a17348ad8a915189738b85c5526d0a75a7ba5c8"
 
 [[files]]
 file = "config/grand_teleport.properties"
-hash = "d296e1e4be9bb84c3aa062c0801a1eed4703658bac375b200d667bb48290eb45"
+hash = "406996c255c667cb416a6033d1b4acd3b86095a50aeb45e6eef17a47802b0d93"
 
 [[files]]
 file = "config/guideme.toml"
@@ -1235,7 +1235,7 @@ hash = "7c4ba324bf4778cd520d4b5ac36a1d475b45265e27f17ff70f8a1d7f53bbebcd"
 
 [[files]]
 file = "config/hide_key_binding-client.toml"
-hash = "357b1cf23b1d9d7e4ff5953644bb5b97f60d2e35415161c00681e808d1e7e4e1"
+hash = "563cd3c796e3ff405d8ac57fd0cd09340f51c6e7d9b3b37ee81709fda6488364"
 
 [[files]]
 file = "config/iammusicplayer.toml"
@@ -1363,7 +1363,7 @@ hash = "08a28c18a24eced00d5ea31438e7d2a595657cc5cd66e3dba53a1daf3a498021"
 
 [[files]]
 file = "config/jei/jei-client.ini"
-hash = "30503916553a0a302f433abd1c99a54303312cf426b7a6b49d0dff0461c82aba"
+hash = "42c5f84126d0cfc47ea6f99e7f912fe131e1cc7d5af8690408ac8704bbb2bb21"
 
 [[files]]
 file = "config/jei/jei-colors.ini"
@@ -1395,7 +1395,7 @@ hash = "2d7ca5c4ebfcc2f770b6e3b0baa73a12c41e24ff13c478090443f8d8c47155f3"
 
 [[files]]
 file = "config/jei/world/server/UNI_2026_75a56078/lookupHistory.ini"
-hash = "c89c54f5c7af157d83807a25b95598bb59c49e68c4830cfefbb945846f455e48"
+hash = "c0807b7706dd92d235e4de2624ba75f4e6321e5ebcfeb08ea4b9201ba8df10d8"
 
 [[files]]
 file = "config/jeresources-common.toml"
@@ -1420,6 +1420,10 @@ hash = "97a0e91f52455b09f207992b3ba0b057e555d55d609f2af8bc0ed08335d51e36"
 [[files]]
 file = "config/kerria.json"
 hash = "8c678ba77a5ab38d8414c5fc8040b05b8fbfa8068a294ffa2e1c586d933a7691"
+
+[[files]]
+file = "config/keybindatlas-client.toml"
+hash = "7d8dc29d18e043c2ea6b71159820dc2c6c88bd86d407c41df259b88f53a5c44f"
 
 [[files]]
 file = "config/konkrete/locals/de_de.local"
@@ -1467,7 +1471,7 @@ hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
 [[files]]
 file = "config/mcreator_mem_fix.json"
-hash = "432bf931e72e2d3c6bdc1ead04b723d17db7cf8f5bb8606ffac197f8df7f2561"
+hash = "f44ed965aaebee69eb3dc4c3cce68a71e9436cb25a3d9e8f9cc2c872e23cf6f3"
 
 [[files]]
 file = "config/mobplayeranimator/client.json5"
@@ -1523,7 +1527,7 @@ hash = "2cf603cb5a49de1bf3b45f5bd0704c88eaacb8733b9315dd0b0f18e595425828"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "b498710bce4dbcec7786261df1acb75d0a2e4b36832e9e2b8c3f12cca8677cb9"
+hash = "49b2a947e467b7002048ee433d9f3f5ce7872be088f4356da50e42daba6353d4"
 preserve = true
 
 [[files]]
@@ -1684,7 +1688,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "2d5fbb8dbb8e0ebe14bf74f7fb1e3bd6c6b466c7d564b5279f0cc31d1a1f8bfc"
+hash = "566f08bc31f48088f7d59ccabf88f5be066b465c9e57fea1053c5a4333ee03c7"
 
 [[files]]
 file = "config/simplehats.json"
@@ -1709,6 +1713,14 @@ hash = "257fbdd7a536a41ce332c3416da84946c6825c88cb81a28ae96956f79f36e6e2"
 [[files]]
 file = "config/sliceanddice-common.toml"
 hash = "ac1a4e660c8a567b4c945962d063eeced1a0040615214ea4aebb947ff6af7d33"
+
+[[files]]
+file = "config/smartkeysync/client.json"
+hash = "09258a60d6ae840be6bb446f41d4d4173e3e12eb67b914d213f680c92d29f0c1"
+
+[[files]]
+file = "config/smartkeysync/master.json"
+hash = "6733be3703d94d66e281d2400dda75025505bbcaae91738146f887846e836d92"
 
 [[files]]
 file = "config/smoothboot.json"
@@ -1956,7 +1968,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/watut-client.toml"
-hash = "f30aba6a74c4656d7284081651de0fbc5281e1da8daf7535dae43543959f7fdf"
+hash = "2501dba3f907c687387234a243de9a6f2a944bd838dafa3ee94cb462d39d56bb"
 
 [[files]]
 file = "config/watut-common.toml"
@@ -1968,7 +1980,7 @@ hash = "543e09f71cda1d97d238ac4150e43e50868cf781027c88d68fc714f261d88982"
 
 [[files]]
 file = "config/watut-server.toml"
-hash = "690202e25181bb7ab70d0cd61cf05fa84d45117764dc3bf3498457dc13309c65"
+hash = "94eaac9ec8eaf7dcbf72ff976588d682d257712e9d4306ec8f35ae0c967b3624"
 
 [[files]]
 file = "config/watut_screen_blacklist-client.toml"
@@ -2016,7 +2028,7 @@ hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "config/xaero/minimap/profiles/changes.cfg"
-hash = "c2e8f9a62d12713215fd695af9a2afe5f3e57fd25fbf5bf761bb9e449c2b0429"
+hash = "10056c0ac25fa3ee666b563bd15fd3c815b3f52de522736fe92a4b60d6bfd843"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
@@ -2024,7 +2036,7 @@ hash = "e614d9367c183f482bafc627bbd9f99e791568d137f026961a105a68c1bacc1e"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/changes.cfg.json"
-hash = "3cf96c4d33ebaabf09e376cb905141933f0419244274ff624b7d8e124efe0501"
+hash = "d34b991ccea8178fd102420aced9cb38266a66d8ed8437b3d72d804c7590749b"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
@@ -5231,6 +5243,10 @@ file = "mods/Compat_FarmersDelight.jar"
 hash = "0a4cb953e7da508f2031d03c40c20eacd8ef2c9227e8eaba67610fef50245443"
 
 [[files]]
+file = "mods/KeybindAtlas-v1.4.0-mc1.20.1-forge.jar"
+hash = "a102f472b75dedb38e570708b3484b795bba0a6d6bc5983a27304f71b41cef41"
+
+[[files]]
 file = "mods/MossyLib-1.3.0+1.20.1+forge.jar"
 hash = "524f6c554eafac1dc8284759d8d5b845d3d6284078d1a070ef87c59ed1bad9d1"
 
@@ -5503,13 +5519,13 @@ hash = "8459128658c0148ba1b89d87b4c86bd62f236c73cff860090eba0b08e49ae9ce"
 metafile = true
 
 [[files]]
-file = "mods/copycats.pw.toml"
-hash = "4101243ecfad34970b81cf6c99f458b67fe848d11870112bc9bab3b16af985eb"
+file = "mods/controlling.pw.toml"
+hash = "4063abe583282834b2f78e3b3e6b9ee4d231a680f74c020e405a4ef196f21ee4"
 metafile = true
 
 [[files]]
-file = "mods/corail-tombstone.pw.toml"
-hash = "136205914a8e3370ac4ab6d4f1a14d755921c176964867fef8d4ca945e32515f"
+file = "mods/copycats.pw.toml"
+hash = "4101243ecfad34970b81cf6c99f458b67fe848d11870112bc9bab3b16af985eb"
 metafile = true
 
 [[files]]
@@ -5595,11 +5611,6 @@ metafile = true
 [[files]]
 file = "mods/data-anchor.pw.toml"
 hash = "acb7ebe72eeb476a26e5777cbbbad0a270db8ff85de0aa417be8e1228d26e2f4"
-metafile = true
-
-[[files]]
-file = "mods/default-key-setup.pw.toml"
-hash = "1aa51b927c0bb47ff79b1cb1b0cfd066884f85b6a1072559873f158071fb5a8e"
 metafile = true
 
 [[files]]
@@ -6149,6 +6160,11 @@ hash = "17523abe76f282db11e95a033e504c1da3f82ac23a42e169d6b1e4d59b6a18d6"
 metafile = true
 
 [[files]]
+file = "mods/modifier-key-fix.pw.toml"
+hash = "995fa8c8d5d4942bad966c4ad7c29cfe1fdf93b3e71de8d64d4eccfc8de2db42"
+metafile = true
+
+[[files]]
 file = "mods/modtoggler.jar"
 hash = "dbf9b74fef3f5a126db93c54b2fe331dba3cdaf0de7f3c0b2262f7d4cfef29c5"
 
@@ -6411,6 +6427,11 @@ hash = "05224d00e2ac35dadb33153ff65fda1965e17744623454b04619e4e84b239d2b"
 metafile = true
 
 [[files]]
+file = "mods/searchables.pw.toml"
+hash = "b8c7497acbf4890b4609b6b20de7affdd3482fc99af975d9ff6b29c075e1d8a7"
+metafile = true
+
+[[files]]
 file = "mods/selene.pw.toml"
 hash = "2720aee58db6299559f89ea9dc8b1d573b8324f2b4af1e594c5239607585487b"
 metafile = true
@@ -6458,6 +6479,10 @@ hash = "acedcb6d850a669f7f8e17919a36e87ff6d95461da32098cec730bc293e79d10"
 file = "mods/slice-and-dice.pw.toml"
 hash = "9b59e9b08c1281a521777e9924dab6c258e42c5d1c06852b9ebe9304021aec42"
 metafile = true
+
+[[files]]
+file = "mods/smartkeysync-1.0.0.jar"
+hash = "c4bd75e973f4c777039b40a81080d11ea355b12e044e8796ca0c540d014a544e"
 
 [[files]]
 file = "mods/smooth-gui.pw.toml"
@@ -6543,6 +6568,10 @@ metafile = true
 file = "mods/toast-control.pw.toml"
 hash = "1195cdfa90ac4ef4d5ebed8dbca1df990cf58b0a0fe3b9b965ccefa0cfd5a2e3"
 metafile = true
+
+[[files]]
+file = "mods/tombstone-1.20.1-9.0.9.jar"
+hash = "a335131063ae7231c21d902d77f1e43c018807b6a02c733daa4b9a479a32906e"
 
 [[files]]
 file = "mods/torchmaster.pw.toml"

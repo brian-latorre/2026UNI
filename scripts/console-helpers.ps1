@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Funciones de ayuda para estandarizar la salida de consola con colores.
 #>
@@ -121,27 +121,73 @@ function Write-Summary {
         [string]$TotalTime,
         [string[]]$AddedMods = @(),
         [string[]]$RemovedMods = @(),
+        [string[]]$UpdatedMods = @(),
+        [string[]]$RawJars = @(),
+        [string[]]$HeavyUploadedMods = @(),
         [string]$LogPath = ""
     )
+    
+    # Preparamos el contenido para el log (sin colores)
+    $logLines = @()
+    $logLines += "======================================================="
+    $logLines += "  RESUMEN FINAL DE ACTUALIZACION: v$Version"
+    $logLines += "======================================================="
+    $logLines += "Tiempo total: $TotalTime"
+    $logLines += "Commit Hash: $GitHash"
+    $logLines += "URL de destino: $Url"
+    $logLines += "Cambios detectados (Git): $GitShortStat"
+    $logLines += "-------------------------------------------------------"
+
     Write-Host ""
     Write-Host "=======================================================" -ForegroundColor Cyan
     Write-Host "  RESUMEN FINAL" -ForegroundColor Cyan
     Write-Host "=======================================================" -ForegroundColor Cyan
     
     Write-Value "Version publicada" $Version
-    Write-Value "Cambios (Mods)" $GitShortStat
+    Write-Value "Cambios (Git)" $GitShortStat
     
     if ($AddedMods.Count -gt 0) {
-        Write-Value "Mods agregados" ($AddedMods.Count)
+        Write-Value "Nuevos Mods Integrados" ($AddedMods.Count)
+        $logLines += "NUEVOS MODS INTEGRADOS ($($AddedMods.Count)):"
         foreach ($mod in $AddedMods) {
             Write-Host "    + $mod" -ForegroundColor Green
+            $logLines += "  + $mod"
         }
     }
     
     if ($RemovedMods.Count -gt 0) {
-        Write-Value "Mods eliminados" ($RemovedMods.Count)
+        Write-Value "Mods Eliminados" ($RemovedMods.Count)
+        $logLines += "MODS ELIMINADOS ($($RemovedMods.Count)):"
         foreach ($mod in $RemovedMods) {
             Write-Host "    - $mod" -ForegroundColor Red
+            $logLines += "  - $mod"
+        }
+    }
+    
+    if ($UpdatedMods.Count -gt 0) {
+        Write-Value "Mods Actualizados" ($UpdatedMods.Count)
+        $logLines += "MODS ACTUALIZADOS ($($UpdatedMods.Count)):"
+        foreach ($mod in $UpdatedMods) {
+            Write-Host "    ~ $mod" -ForegroundColor Cyan
+            $logLines += "  ~ $mod"
+        }
+    }
+    
+    if ($RawJars.Count -gt 0) {
+        Write-Value "Mods Crudos (.jar sin auto-update)" ($RawJars.Count)
+        $logLines += "MODS CRUDOS (.jar locales) ($($RawJars.Count)):"
+        foreach ($mod in $RawJars) {
+            Write-Host "    ! $mod" -ForegroundColor Yellow
+            $logLines += "  ! $mod (Advertencia: Sin auto-actualización)"
+        }
+    }
+    
+    if ($HeavyUploadedMods.Count -gt 0) {
+        Write-Value "Mods Pesados Subidos (>95MB)" ($HeavyUploadedMods.Count)
+        $logLines += "MODS PESADOS (>95MB) SUBIDOS AUTOMATICAMENTE ($($HeavyUploadedMods.Count)):"
+        foreach ($mod in $HeavyUploadedMods) {
+            Write-Host "    ^ $mod" -ForegroundColor Magenta
+            $logLines += "  ^ $mod (Subido a GitHub Releases y vinculado)"
         }
     }
     
@@ -150,8 +196,15 @@ function Write-Summary {
     Write-Value "Tiempo total" $TotalTime
     Write-Host ""
     Write-Host "  Actualizacion publicada con exito!" -ForegroundColor Green
+    
+    $logLines += "======================================================="
+    $logLines += "  Actualizacion publicada con exito."
+    $logLines += ""
+    
     if ($LogPath) {
-        Write-Host "  Log guardado en: $LogPath" -ForegroundColor DarkGray
+        # Escribimos los logs recolectados usando UTF8 (añadiendo al final del log de auto-import)
+        $logLines | Out-File -FilePath $LogPath -Encoding UTF8 -Append
+        Write-Host "  Log completo guardado en: $LogPath" -ForegroundColor DarkGray
     }
     Write-Host "=======================================================" -ForegroundColor Cyan
     Write-Host ""

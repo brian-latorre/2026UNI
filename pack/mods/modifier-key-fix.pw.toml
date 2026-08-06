@@ -1,0 +1,13 @@
+name = "Modifier Key Fix"
+filename = "ModifierKeyFix-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ae640cb8da1156af8e3b670b924b184af4baa252"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5093809
+project-id = 413256

@@ -1,4 +1,4 @@
-param (
+﻿param (
     [string]$CommitMessage,
     [string]$Version
 )
@@ -7,6 +7,18 @@ $PSScriptRoot = Split-Path -Parent -Path $MyInvocation.MyCommand.Definition
 
 # Importar helpers
 . (Join-Path $PSScriptRoot "console-helpers.ps1")
+
+# Leer credenciales para GitHub Releases
+$githubToken = ""
+$githubRepo = ""
+$envPath = Join-Path (Split-Path $PSScriptRoot -Parent) ".env"
+if (Test-Path $envPath) {
+    $envLines = Get-Content $envPath
+    foreach ($line in $envLines) {
+        if ($line -match "^GITHUB_TOKEN=(.+)") { $githubToken = $matches[1].Trim() }
+        if ($line -match "^GITHUB_REPO=(.+)") { $githubRepo = $matches[1].Trim() }
+    }
+}
 
 try {
     Write-Banner "1-CLICK UPDATE: 2026UNI MODPACK"
@@ -129,6 +141,92 @@ try {
     $repoRoot = Split-Path $PSScriptRoot -Parent
     Set-Location $repoRoot
     
+    # -----------------------------------------------------------------
+    # CONTROL DE ARCHIVOS PESADOS (>95MB) ANTES DE GIT ADD
+    # -----------------------------------------------------------------
+    $heavyUploadedMods = @()
+    $modsPath = Join-Path $repoRoot "pack\mods"
+    if (Test-Path $modsPath) {
+        $largeJars = Get-ChildItem -Path $modsPath -Filter "*.jar" | Where-Object { $_.Length -gt 95MB }
+        
+        foreach ($jar in $largeJars) {
+            Write-Warn "Mod muy pesado detectado: $($jar.Name) ($([math]::Round($jar.Length / 1MB, 2)) MB)"
+            if ($githubToken -and $githubRepo) {
+                Write-Step 4 5 "Subiendo $($jar.Name) a GitHub Releases..."
+                $releaseTag = "mods-pesados"
+                $releaseUrl = "https://api.github.com/repos/$githubRepo/releases/tags/$releaseTag"
+                $headers = @{
+                    "Authorization" = "token $githubToken"
+                    "Accept" = "application/vnd.github.v3+json"
+                }
+                
+                # Check if release exists
+                $release = $null
+                try {
+                    $release = Invoke-RestMethod -Uri $releaseUrl -Headers $headers -ErrorAction Stop
+                } catch {
+                    # Create release if not found
+                    $createUrl = "https://api.github.com/repos/$githubRepo/releases"
+                    $body = @{
+                        tag_name = $releaseTag
+                        name = "Heavy Mods Storage"
+                        body = "Almacenamiento automático de mods >95MB."
+                    } | ConvertTo-Json
+                    try {
+                        $release = Invoke-RestMethod -Uri $createUrl -Method Post -Headers $headers -Body $body -ContentType "application/json" -ErrorAction Stop
+                    } catch {
+                        throw "Error creando el release en GitHub: $_"
+                    }
+                }
+                
+                $uploadUrl = $release.upload_url -replace '\{.*\}$', ''
+                $uploadUrl = "$uploadUrl?name=$($jar.Name)"
+                
+                Write-Info "Subiendo archivo (puede demorar dependiendo de tu conexión)..."
+                $uploadHeaders = @{
+                    "Authorization" = "token $githubToken"
+                    "Accept" = "application/vnd.github.v3+json"
+                    "Content-Type" = "application/java-archive"
+                }
+                
+                try {
+                    Invoke-RestMethod -Uri $uploadUrl -Method Post -Headers $uploadHeaders -InFile $jar.FullName -TimeoutSec 1200 -ErrorAction Stop | Out-Null
+                } catch {
+                    if ($_.Exception.Message -match "already_exists") {
+                        Write-Info "El archivo ya existe en GitHub Releases, enlazando directamente..."
+                    } else {
+                        throw "Error subiendo el asset: $_"
+                    }
+                }
+                
+                $assetUrl = "https://github.com/$githubRepo/releases/download/$releaseTag/$($jar.Name)"
+                Write-Success "Subida exitosa."
+                
+                Write-Info "Vinculando URL con Packwiz..."
+                $packwizExe = Join-Path $repoRoot "tools\packwiz.exe"
+                $modName = $jar.Name -replace '\.jar$', ''
+                
+                Set-Location (Join-Path $repoRoot "pack")
+                $pwArgs = @("url", "add", $modName, $assetUrl)
+                $pwResult = & $packwizExe $pwArgs
+                if ($LASTEXITCODE -ne 0) { throw "Error al vincular el mod pesado con packwiz" }
+                
+                Remove-Item $jar.FullName -Force
+                $heavyUploadedMods += $jar.Name
+                Set-Location $repoRoot
+            } else {
+                throw "Falta GITHUB_TOKEN o GITHUB_REPO en .env. El mod $($jar.Name) es de >95MB y rompera Git si no se elimina."
+            }
+        }
+        
+        if ($largeJars.Count -gt 0) {
+            Set-Location (Join-Path $repoRoot "pack")
+            & (Join-Path $repoRoot "tools\packwiz.exe") refresh | Out-Null
+            Set-Location $repoRoot
+        }
+    }
+    # -----------------------------------------------------------------
+
     $gitAdd = Show-Spinner -Text "Agregando archivos al commit" -Command "git" -Arguments @("add", ".")
     # Ignorar errores de git add (warnings de LF/CRLF)
     
@@ -147,21 +245,47 @@ try {
     $gitShortStat = (git diff HEAD~1 --shortstat) -join ""
     $gitHash = (git rev-parse --short HEAD) -join ""
     
-    # Extraer mods añadidos y eliminados
+    # Extraer mods añadidos, eliminados, actualizados y crudos
     $gitStatus = git diff HEAD~1 HEAD --name-status
     $addedMods = @()
     $removedMods = @()
+    $updatedMods = @()
+    $rawJars = @()
+    
     foreach ($line in $gitStatus) {
-        if ($line -match "^A\s+(?:pack/)?mods/(.+)(?:\.pw\.toml|\.jar)$") {
+        if ($line -match "^A\s+(?:pack/)?mods/(.+)\.pw\.toml$") {
             $addedMods += $matches[1]
+        }
+        elseif ($line -match "^A\s+(?:pack/)?mods/(.+)\.jar$") {
+            $rawJars += $matches[1] + ".jar"
         }
         elseif ($line -match "^D\s+(?:pack/)?mods/(.+)(?:\.pw\.toml|\.jar)$") {
             $removedMods += $matches[1]
         }
+        elseif ($line -match "^M\s+((?:pack/)?mods/(.+)\.pw\.toml)$") {
+            $fullPath = $matches[1]
+            $modBaseName = $matches[2]
+            
+            $oldVer = ""
+            $newVer = ""
+            
+            # Use ErrorAction to silently ignore if git show fails (e.g., file didn't exist in HEAD~1 somehow)
+            $oldContent = git show "HEAD~1:$fullPath" 2>$null
+            if ($oldContent -match '(?m)^version\s*=\s*"([^"]+)"') { $oldVer = $matches[1] }
+            
+            $newContent = git show "HEAD:$fullPath" 2>$null
+            if ($newContent -match '(?m)^version\s*=\s*"([^"]+)"') { $newVer = $matches[1] }
+            
+            if ($oldVer -and $newVer -and $oldVer -ne $newVer) {
+                $updatedMods += "$modBaseName ($oldVer -> $newVer)"
+            } else {
+                $updatedMods += "$modBaseName (Cambios internos)"
+            }
+        }
     }
     
     $logPath = Join-Path (Split-Path $PSScriptRoot -Parent) "logs\latest.log"
-    Write-Summary -Version $packVersion -GitShortStat $gitShortStat -GitHash $gitHash -Url "https://github.com/brian-latorre/2026UNI" -TotalTime $totalTimeStr -AddedMods $addedMods -RemovedMods $removedMods -LogPath $logPath
+    Write-Summary -Version $packVersion -GitShortStat $gitShortStat -GitHash $gitHash -Url "https://github.com/$githubRepo" -TotalTime $totalTimeStr -AddedMods $addedMods -RemovedMods $removedMods -UpdatedMods $updatedMods -RawJars $rawJars -HeavyUploadedMods $heavyUploadedMods -LogPath $logPath
     
 } catch {
     Write-Host ""

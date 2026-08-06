@@ -95,7 +95,8 @@ $ExcludeFiles = @(
     "*.tmp",
     ".DS_Store",
     "Thumbs.db",
-    "desktop.ini"
+    "desktop.ini",
+    "smartkeysync-client.json"
 )
 
 # === Proceso de sincronización ===
