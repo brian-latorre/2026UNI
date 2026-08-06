@@ -639,7 +639,7 @@ hash = "14b8862c18864c8fcea792ffef162ce64aa27b4275b3bfc5fae27c393e1dd9b9"
 
 [[files]]
 file = "config/chat_heads.json5"
-hash = "a018081eb24a8afb6d46251dc1d6838a0dfb54ecec546860d06cbe183ed1db14"
+hash = "588e5f6080429df6f28af5801bc8acf25c8b0526e36c0168771bd6abd4414d8b"
 
 [[files]]
 file = "config/chatanimation.json"
@@ -667,7 +667,7 @@ hash = "7dd7dc266613f18011a9a5ba624e50c35374ad2b39ea379231c3c44e7b2261b3"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "39d0028c2e72186ef3431754d70e425179b4f2f4be5842522ee8b6bebdc66ad5"
+hash = "9d1b1e49079dd7cefccacc75f21d95493d65e155b24e605e2daeeffc8a674519"
 
 [[files]]
 file = "config/collective.json5"
@@ -871,7 +871,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "4cda77951324090f253ec9e3d9d4feadc18de40feb908fe773c7fb2a907e2c64"
+hash = "fb5a86a51f4b22cc912498b6697f549ef34122b09ede7e8a37efe7a442a6a978"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1531,7 +1531,7 @@ hash = "2cf603cb5a49de1bf3b45f5bd0704c88eaacb8733b9315dd0b0f18e595425828"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "bf9210b0bb85079d43d1364727b22ff2ef53fba676e6fdcf429b54bc49a88cc8"
+hash = "0d4fc96eab44a6512c1a0f092d3f2c680f056190992475f12e37ac52b301a373"
 preserve = true
 
 [[files]]
@@ -1576,7 +1576,7 @@ hash = "4cec8095cbc993dd5e59bae841200aa8fcceb27b76f218d571b0a109db902808"
 
 [[files]]
 file = "config/playtime.toml"
-hash = "d03e31fe6b84c95a4501e042563263b18731fe0a8c6a3052abdc73f999dfb2fe"
+hash = "b45ae741e5dd098b69e2d2f16214da7ff6fd7f7c7a9af4fb3fec3083ffdea7d3"
 
 [[files]]
 file = "config/polymorph-integrations.toml"
@@ -1588,7 +1588,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "49df785ce63047a292d123d635ba58c5abaa3e6bb7aaa7dde14ee1cfa4b59bba"
+hash = "7ba135f66cb7ed1d7decfa7478be82e0f6b3f0498a25909ed3dd50f7462d71e3"
 
 [[files]]
 file = "config/presencefootsteps/updater.json"
@@ -1668,7 +1668,7 @@ hash = "671ee75b5333f98d3a9b92fcfcc79c7df7a6b4c0e5cda025a7b449ab79562b2b"
 
 [[files]]
 file = "config/rsls.properties"
-hash = "0b253ed15368a1c1a39ec4f6e43c53dabaf28f2aa55c83951c697d78bbf3557f"
+hash = "a468004a1e2fa3933092e82192f3b968168ddbbe42ef253e41684cb42dfddf88"
 
 [[files]]
 file = "config/saturn-optimizations.toml"
@@ -1704,7 +1704,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "2e3e644e9eb3f6e8b4fa2ada034ca359c2ed2218d0fb133871156c8be4214587"
+hash = "60d4fba0da6a7f1de5e207202e14c8bce0eea0d6aacbdd4b63b8a644cbb8d3af"
 
 [[files]]
 file = "config/simplehats.json"
@@ -1736,7 +1736,7 @@ hash = "3b278068c4170414ebcd82d9752b8685fd0e4db4b13eab78227b75eaf7035f9e"
 
 [[files]]
 file = "config/smartkeysync/master.json"
-hash = "104dc649cf9f6494e52e762ba96c47f5c830fafceab708655d266f4e0435ae97"
+hash = "9f82cd8070d798313ab26238edaace7dca686fa43c1f3a5323ffed3fab35686b"
 
 [[files]]
 file = "config/smoothboot.json"
@@ -1764,7 +1764,7 @@ hash = "7570dc79e1017248b88986dc8fa8cb7cb801543063f8f169bac79d66b686f88d"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
-hash = "f2137325232decf1d34d75549a2bbb866ae375bdc7cc930b1b389aea8f8a79ed"
+hash = "ebbac45fbb3ca01487b85ffee9601b213b71896e6606fb297bcb0f3ac9c30ffb"
 
 [[files]]
 file = "config/sound_physics_remastered/reflectivity.properties"

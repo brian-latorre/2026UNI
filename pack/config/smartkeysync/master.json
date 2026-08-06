@@ -1,6 +1,6 @@
 {
   "base_version": 1,
-  "latest_version": 2,
+  "latest_version": 3,
   "base_keys": {
     "key.attack": {
       "key": "key.mouse.left",
@@ -1354,6 +1354,27 @@
       "description": "V2: Toast Control - k - quitado 05082026",
       "changes": {
         "key.toastcontrol.clear": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        }
+      }
+    },
+    {
+      "version": 3,
+      "description": "V3: Evitar Ctrl + C.",
+      "changes": {
+        "key.botania_corporea_request": {
+          "key": "key.keyboard.i",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.presencefootsteps.settings": {
+          "key": "key.keyboard.f10",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.presencefootsteps.toggle": {
           "key": "key.keyboard.unknown",
           "modifier": "NONE",
           "forced": false

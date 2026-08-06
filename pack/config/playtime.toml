@@ -176,15 +176,15 @@
 	#Chat message format used by the integrated rank handler when LuckPerms is disabled.
 	#Placeholders: {rank-display} = formatted rank+name, {msg} = the chat message.
 	#Default: "<{rank-display}> {msg}"
-	chatMessageFormat = "<{rank-display}> {msg}"
+	chatMessageFormat = "{msg}"
 	#Chat message format for players whose rank is BELOW the displayRankMinimum.
 	#Placeholders: {username} = the player's name, {msg} = the chat message.
 	#Only used when displayRankMinimum is set. Default: "<{username}> {msg}"
-	chatMessageFormatNoRank = "<{username}> {msg}"
+	chatMessageFormatNoRank = "{msg}"
 	#How the rank display is formatted within the chat message.
 	#Placeholders: {rank} = the coloured rank name, {username} = the player's name.
 	#Default: "{rank} {username}"
-	rankDisplayFormat = "{rank} {username}"
+	rankDisplayFormat = "{username}"
 	#Enable hex colour (&#RRGGBB) and gradient parsing in integrated chat.
 	#Applies to rank colours in the chat message when using the integrated handler.
 	#Default: true
