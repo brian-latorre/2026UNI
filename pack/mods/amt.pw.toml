@@ -1,0 +1,13 @@
+name = "Alex's Mobs: Tweaks [Performance Optimization]"
+filename = "alexs-mobs-tweaks-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b400449d6440965615ad471629e2f754c03beea1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8439281
+project-id = 1611566

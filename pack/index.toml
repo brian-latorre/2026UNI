@@ -46,6 +46,10 @@ file = "config/Obscuria/obscure-api-client.toml"
 hash = "90b60c01677fe0899e1b1fbf0deb8aba975f3540a0abb979a1c9aa7760930fe2"
 
 [[files]]
+file = "config/QuantifiedAPI/quantified_config.json"
+hash = "a55f0cbd89551094691fb72c4f0a8e7bb39a3764dd7d36d2f5ed4c65123375f1"
+
+[[files]]
 file = "config/YungsCaveBiomes-forge-1_20_1.toml"
 hash = "955214f2a4d0b3ac1f77b6e4cd141a4eedc746888cd92c5d0f38a16bc58490a5"
 
@@ -663,7 +667,7 @@ hash = "7dd7dc266613f18011a9a5ba624e50c35374ad2b39ea379231c3c44e7b2261b3"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "9d1b1e49079dd7cefccacc75f21d95493d65e155b24e605e2daeeffc8a674519"
+hash = "39d0028c2e72186ef3431754d70e425179b4f2f4be5842522ee8b6bebdc66ad5"
 
 [[files]]
 file = "config/collective.json5"
@@ -867,7 +871,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "0a9f49e7af20cbeccc2c926deca683367a23bee68cd4b677559dfab9166e1670"
+hash = "4cda77951324090f253ec9e3d9d4feadc18de40feb908fe773c7fb2a907e2c64"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1471,7 +1475,7 @@ hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
 [[files]]
 file = "config/mcreator_mem_fix.json"
-hash = "f44ed965aaebee69eb3dc4c3cce68a71e9436cb25a3d9e8f9cc2c872e23cf6f3"
+hash = "0a02466ba159040f617c69aa1c06a59d5e10306c84353d382cf98ae1c39f5b4a"
 
 [[files]]
 file = "config/mobplayeranimator/client.json5"
@@ -1527,7 +1531,7 @@ hash = "2cf603cb5a49de1bf3b45f5bd0704c88eaacb8733b9315dd0b0f18e595425828"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "23ce20027c108bcd1f9fb30c30eef1b1bb11885f61cd1d7f7590b205862ef625"
+hash = "bf9210b0bb85079d43d1364727b22ff2ef53fba676e6fdcf429b54bc49a88cc8"
 preserve = true
 
 [[files]]
@@ -1584,7 +1588,15 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "84736c56c9bd3d07273279b128bd9eb11a825b7ec1a7ea1e2f1b64d607e030d3"
+hash = "49df785ce63047a292d123d635ba58c5abaa3e6bb7aaa7dde14ee1cfa4b59bba"
+
+[[files]]
+file = "config/presencefootsteps/updater.json"
+hash = "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e"
+
+[[files]]
+file = "config/presencefootsteps/userconfig.json"
+hash = "421a83405fbbe161bdba6e3adcafea7704417da4d8aac7c5cacabad742ad06bb"
 
 [[files]]
 file = "config/prettyrain.json5"
@@ -1655,6 +1667,10 @@ file = "config/ribbits-options.json"
 hash = "671ee75b5333f98d3a9b92fcfcc79c7df7a6b4c0e5cda025a7b449ab79562b2b"
 
 [[files]]
+file = "config/rsls.properties"
+hash = "0b253ed15368a1c1a39ec4f6e43c53dabaf28f2aa55c83951c697d78bbf3557f"
+
+[[files]]
 file = "config/saturn-optimizations.toml"
 hash = "47019e25dcb00d2d1da22d725095dc39bcbbf10cdfb8429d8d5a97b231a272b3"
 
@@ -1688,7 +1704,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "06248c8f969d84b5e657a9a68cfa0231fba69804c55ab5103e49561019363a48"
+hash = "2e3e644e9eb3f6e8b4fa2ada034ca359c2ed2218d0fb133871156c8be4214587"
 
 [[files]]
 file = "config/simplehats.json"
@@ -1716,7 +1732,7 @@ hash = "ac1a4e660c8a567b4c945962d063eeced1a0040615214ea4aebb947ff6af7d33"
 
 [[files]]
 file = "config/smartkeysync/client.json"
-hash = "0b30992f9daa5afa3a02ec483d26f35f7ac87fb984bf8896b96030d0ae784c8a"
+hash = "3b278068c4170414ebcd82d9752b8685fd0e4db4b13eab78227b75eaf7035f9e"
 
 [[files]]
 file = "config/smartkeysync/master.json"
@@ -1747,8 +1763,32 @@ file = "config/sophisticatedcore-common.toml"
 hash = "7570dc79e1017248b88986dc8fa8cb7cb801543063f8f169bac79d66b686f88d"
 
 [[files]]
+file = "config/sound_physics_remastered/occlusion.properties"
+hash = "f2137325232decf1d34d75549a2bbb866ae375bdc7cc930b1b389aea8f8a79ed"
+
+[[files]]
+file = "config/sound_physics_remastered/reflectivity.properties"
+hash = "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a"
+
+[[files]]
+file = "config/sound_physics_remastered/sound_rates.properties"
+hash = "6004a9b770d2a5fda438e5d825c07def5d702640be355e72fab596dfc7639e3f"
+
+[[files]]
+file = "config/sound_physics_remastered/soundphysics.properties"
+hash = "ab2f766cdb8a66855172ec817974f9bea91bcc6f7ec7b1a869f965f5e99e2b6d"
+
+[[files]]
+file = "config/spark/activity.json"
+hash = "8dd11c2c8c4eaeaf9726e3bf76f3c15a02da51297fd4fd01fc4a4294ae8a6f56"
+
+[[files]]
 file = "config/spark/config.json"
 hash = "992ba9f3a4a7ce3de112eb95575328956fdc3ce6781c455ebce7b23db7e7da42"
+
+[[files]]
+file = "config/spark/profile-2026-08-06_11.02.31.sparkprofile"
+hash = "1ac34176d749c5282512700d22ebfa36acd2b6cda218c9cbfc6715751a6691b1"
 
 [[files]]
 file = "config/spawn_notification.json"
@@ -5224,7 +5264,7 @@ hash = "6db2897ba1a15afb51ae14050bdde39e91f2236b178c1162f2fdd657ec38960b"
 
 [[files]]
 file = "fancymenu_data/last_world.fmdata"
-hash = "d7e920b58dfe8f2b220df80ef0e6ed8724c6882973ed581be36e054ac676e367"
+hash = "80f420829c2b9450c03767f22bc65ccebd0e0409c507130a996faac96ec31083"
 
 [[files]]
 file = "mods/.gitkeep"
@@ -5291,6 +5331,11 @@ metafile = true
 [[files]]
 file = "mods/alltheleaks.pw.toml"
 hash = "40bab1828ae2b4d755db64f1c887a2fe06171fad6ab54d4a1863ca5c30ff9b55"
+metafile = true
+
+[[files]]
+file = "mods/amt.pw.toml"
+hash = "030704abd7bdef7c0a6aba9633ecfbd58932e0fda5f1f06a4627f5a112edc86d"
 metafile = true
 
 [[files]]
@@ -6302,6 +6347,11 @@ hash = "562fd159f33564daf4f81a313e3df5272678bf0824192513cac6e67656abf681"
 metafile = true
 
 [[files]]
+file = "mods/presence-footsteps.pw.toml"
+hash = "22517018388c911b457143b3934634cc6d0b4bfbf26a39fee2a50785892955af"
+metafile = true
+
+[[files]]
 file = "mods/prism-lib.pw.toml"
 hash = "2b0772879a1d43e6fc0d892dca4a85d360e813d5cd3907fc2ab42f345b146362"
 metafile = true
@@ -6324,6 +6374,11 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "5ca42f4c23aee558ed76923d4fb92ecee736ebacb53790445c09d46bd9ccb27e"
+metafile = true
+
+[[files]]
+file = "mods/quantified-api.pw.toml"
+hash = "f54d0b172762f3a55919f44325aa5cb32fb3425c24400731114e837079d61ac3"
 metafile = true
 
 [[files]]
@@ -6394,6 +6449,11 @@ metafile = true
 [[files]]
 file = "mods/ribbits.pw.toml"
 hash = "70acbe76903121faa88da57c77a8a1eada9c0e4b58143abb8ccd57b766b14148"
+metafile = true
+
+[[files]]
+file = "mods/rsls.pw.toml"
+hash = "480babb5aff495b874ca10295767fbcc9076e270b877cf591210cbb0796dba0f"
 metafile = true
 
 [[files]]
@@ -6497,6 +6557,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
 hash = "9fc21eea66e1415471551e646f92877eb9795169847c9bd21d6ca70bedb5a086"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "416bb6449da951ec1a04156348c502b9e47a947212becc173d277faaddaaaccd"
 metafile = true
 
 [[files]]

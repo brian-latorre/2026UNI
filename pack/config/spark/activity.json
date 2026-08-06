@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Briii_",
+      "uniqueId": "e22352be-30cf-3abf-bf26-0abec80643c8"
+    },
+    "time": 1786032151276,
+    "type": "Profiler",
+    "data": {
+      "type": "file",
+      "value": "C:\\Users\\brian\\AppData\\Roaming\\.minecraft\\2026UNI\\config\\spark\\profile-2026-08-06_11.02.31.sparkprofile"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Briii_",
+      "uniqueId": "e22352be-30cf-3abf-bf26-0abec80643c8"
+    },
+    "time": 1786031517526,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Z2mxRTgm9Y"
+    }
+  }
+]
