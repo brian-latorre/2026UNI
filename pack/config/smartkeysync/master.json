@@ -1,6 +1,6 @@
 {
   "base_version": 1,
-  "latest_version": 1,
+  "latest_version": 2,
   "base_keys": {
     "key.attack": {
       "key": "key.mouse.left",
@@ -1348,5 +1348,17 @@
       "forced": false
     }
   },
-  "deltas": []
+  "deltas": [
+    {
+      "version": 2,
+      "description": "V2: Toast Control - k - quitado 05082026",
+      "changes": {
+        "key.toastcontrol.clear": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        }
+      }
+    }
+  ]
 }

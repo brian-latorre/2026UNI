@@ -663,7 +663,7 @@ hash = "7dd7dc266613f18011a9a5ba624e50c35374ad2b39ea379231c3c44e7b2261b3"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "39d0028c2e72186ef3431754d70e425179b4f2f4be5842522ee8b6bebdc66ad5"
+hash = "9d1b1e49079dd7cefccacc75f21d95493d65e155b24e605e2daeeffc8a674519"
 
 [[files]]
 file = "config/collective.json5"
@@ -867,7 +867,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "58ca0f10de9401c59d42a5610cdd85ca3f35d716e74ab5e1ca53e33f4ee8f418"
+hash = "0a9f49e7af20cbeccc2c926deca683367a23bee68cd4b677559dfab9166e1670"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1527,7 +1527,7 @@ hash = "2cf603cb5a49de1bf3b45f5bd0704c88eaacb8733b9315dd0b0f18e595425828"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "442752c8fcbe4baa945aab597fdf9e13e2d716d9ffa68d63ab78562f6fcf7987"
+hash = "23ce20027c108bcd1f9fb30c30eef1b1bb11885f61cd1d7f7590b205862ef625"
 preserve = true
 
 [[files]]
@@ -1544,7 +1544,7 @@ hash = "dedd104524906b879e3a741999b7a955bfcb93fba47d7da723dc1fc9cef00736"
 
 [[files]]
 file = "config/paperdoll.json"
-hash = "d3e313d9caed6ce75724aa79e4c03f31235355020c4abc01f9d87456f97ddd17"
+hash = "96e6540e0ba51475d0b06ed58ef9451a091ee5cc3ad62776e7ad9f14a04f1887"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -1584,7 +1584,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "d0841745b1c206f25128bcd7271d363a39958201d90edc4528203df8244e0c71"
+hash = "84736c56c9bd3d07273279b128bd9eb11a825b7ec1a7ea1e2f1b64d607e030d3"
 
 [[files]]
 file = "config/prettyrain.json5"
@@ -1688,7 +1688,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "e9cc7be669f8f602cefe34470c794bb73d63aca680e6c0e3aecdd1ec6cfd5a66"
+hash = "06248c8f969d84b5e657a9a68cfa0231fba69804c55ab5103e49561019363a48"
 
 [[files]]
 file = "config/simplehats.json"
@@ -1720,7 +1720,7 @@ hash = "0b30992f9daa5afa3a02ec483d26f35f7ac87fb984bf8896b96030d0ae784c8a"
 
 [[files]]
 file = "config/smartkeysync/master.json"
-hash = "6733be3703d94d66e281d2400dda75025505bbcaae91738146f887846e836d92"
+hash = "104dc649cf9f6494e52e762ba96c47f5c830fafceab708655d266f4e0435ae97"
 
 [[files]]
 file = "config/smoothboot.json"

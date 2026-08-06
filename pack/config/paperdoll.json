@@ -12,5 +12,5 @@
   "autoHide": false,
   "autoHideBlacklist": [],
   "hideInF5": true,
-  "hideVehicle": true
+  "hideVehicle": false
 }
