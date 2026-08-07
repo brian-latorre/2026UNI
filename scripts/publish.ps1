@@ -1,4 +1,4 @@
-﻿param (
+param (
     [string]$CommitMessage,
     [string]$Version
 )
@@ -87,14 +87,14 @@ try {
     $startTime = [System.Diagnostics.Stopwatch]::StartNew()
     
     # PASO 1: Sincronizar overrides
-    Write-Step 1 4 "Sincronizando overrides locales..."
+    Write-Step 1 5 "Sincronizando overrides locales..."
     $syncScript = Join-Path $PSScriptRoot "sync-overrides.ps1"
     & powershell.exe -ExecutionPolicy Bypass -File $syncScript
     if ($LASTEXITCODE -ne 0) { throw "Fallo al sincronizar overrides." }
     Write-Host ""
     
     # PASO 2: Auto-import de mods (Python)
-    Write-Step 2 4 "Auto-detectando nuevos mods..."
+    Write-Step 2 5 "Auto-detectando nuevos mods..."
     Write-Info "Explicacion: Esto compara los .jar locales que tengas en la carpeta 'mods'"
     Write-Info "contra CurseForge y Modrinth para agregarlos a la lista de auto-actualizacion."
     $pyScript = Join-Path $PSScriptRoot "auto-import-mods.py"
@@ -104,7 +104,7 @@ try {
     Write-Host ""
     
     # PASO 3: Build & Validacion del pack
-    Write-Step 3 4 "Construyendo y validando el pack..."
+    Write-Step 3 5 "Construyendo y validando el pack..."
     Write-Info "Explicacion: Esto regenera el indice (index.toml) para que el launcher sepa exactamente"
     Write-Info "que archivos descargar. Luego valida que las versiones de Minecraft coincidan."
     $buildScript = Join-Path $PSScriptRoot "build-pack.ps1"
@@ -113,7 +113,7 @@ try {
     Write-Host ""
     
     # PASO 4: Git Push
-    Write-Step 4 4 "Preparando subida a la nube..."
+    Write-Step 4 5 "Preparando subida a la nube..."
     Write-Info "Explicacion: Esto empaqueta tus cambios y los envia a GitHub (origin/main)."
     Write-Info "Tus jugadores recibiran los cambios automaticamente al abrir su launcher."
     
@@ -237,6 +237,70 @@ try {
     
     $gitPush = Show-Spinner -Text "Subiendo cambios a GitHub" -Command "git" -Arguments @("push", "origin", "main")
     # Ignorar errores de git porque suele retornar stderr aunque sea exitoso
+    
+    # PASO 5: Verificando despliegue remoto en GitHub Actions
+    if ($githubToken -and $githubRepo) {
+        Write-Step 5 5 "Verificando despliegue en GitHub Actions..."
+        $fullGitHash = (git rev-parse HEAD) -join ""
+        
+        Write-Info "Esperando a que GitHub Actions registre la ejecucion..."
+        Start-Sleep -Seconds 5
+        
+        $runsUrl = "https://api.github.com/repos/$githubRepo/actions/runs?head_sha=$fullGitHash"
+        $headers = @{
+            "Authorization" = "token $githubToken"
+            "Accept" = "application/vnd.github.v3+json"
+        }
+        
+        $maxRetries = 60 # 60 * 5s = 5 minutos de timeout
+        $retryCount = 0
+        $workflowCompleted = $false
+        $workflowSuccess = $false
+        $workflowConclusion = ""
+        
+        Write-Host "    Monitoreando " -NoNewline -ForegroundColor Cyan
+        while (-not $workflowCompleted -and $retryCount -lt $maxRetries) {
+            try {
+                $response = Invoke-RestMethod -Uri $runsUrl -Headers $headers -ErrorAction Stop
+                if ($response.total_count -gt 0) {
+                    $run = $response.workflow_runs[0]
+                    $status = $run.status
+                    $workflowConclusion = $run.conclusion
+                    
+                    if ($status -eq "completed") {
+                        $workflowCompleted = $true
+                        if ($workflowConclusion -eq "success") {
+                            $workflowSuccess = $true
+                        }
+                    } else {
+                        Write-Host "." -NoNewline -ForegroundColor Cyan
+                        Start-Sleep -Seconds 5
+                    }
+                } else {
+                    Write-Host "." -NoNewline -ForegroundColor Cyan
+                    Start-Sleep -Seconds 5
+                }
+            } catch {
+                Write-Host "!" -NoNewline -ForegroundColor Yellow
+                Start-Sleep -Seconds 5
+            }
+            $retryCount++
+        }
+        Write-Host ""
+        
+        if ($workflowCompleted) {
+            if ($workflowSuccess) {
+                Write-Success "GitHub Actions completo la publicacion con exito."
+            } else {
+                throw "GitHub Actions reporto un error ($workflowConclusion). Revisa el panel de Actions en GitHub."
+            }
+        } else {
+            throw "Tiempo de espera agotado esperando a GitHub Actions."
+        }
+        Write-Host ""
+    } else {
+        Write-Warn "Saltando verificacion remota: Falta GITHUB_TOKEN o GITHUB_REPO en .env."
+    }
     
     $startTime.Stop()
     $totalMinutes = $startTime.Elapsed.TotalMinutes
