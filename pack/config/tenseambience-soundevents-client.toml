@@ -1,0 +1,30 @@
+
+["Config for Tense Ambience Mod (This Config is for the Sound Events NOT AMBIENCE!)"]
+	#The Numbers are chances which get rolled every second. So a number of 60(seconds) would play a sound on average every minute.
+	#Should this feature be enabled
+	"Enable random creepy sounds?" = true
+	#Chance to play a random sound in deep caves (below y0)
+	#Range: 10 ~ 345600
+	"Deep Cave Probability" = 10800
+	#Chance to play a random sound in caves (above y0 and below y40)
+	#Range: 10 ~ 345600
+	"Cave Probability" = 14400
+	#Chance to play a random sound in forests
+	#Range: 10 ~ 345600
+	"Forest Probability" = 21600
+	#Chance to play a random sound in dark forests
+	#Range: 10 ~ 345600
+	"Dark Forest Probability" = 21600
+	#Chance to play a random sound in snowy biomes
+	#Range: 10 ~ 345600
+	"Snowy Biome Probability" = 18000
+	#Chance to play a random sound in the nether
+	#Range: 10 ~ 345600
+	"Nether Probability" = 28800
+	#Chance to play a random sound in the end
+	#Range: 10 ~ 345600
+	"End Probability" = 21600
+	#Chance to play a random sound in an unknown biome
+	#Range: 10 ~ 345600
+	"Unknown Biome Probability" = 43200
+

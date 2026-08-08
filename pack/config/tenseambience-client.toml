@@ -1,0 +1,12 @@
+
+["Config for Tense Ambience Mod"]
+	#Should enable shader support? (For changing the ambience volume when holding a torch)
+	"Shader Support" = false
+	#Play the ambience also during the day?
+	"Ambience at Day" = false
+	#How long should the transition fade between biomes take (in seconds)?
+	#Range: 0.1 ~ 60.0
+	"Transition Fade Duration" = 13.0
+	#Completely disable all ambient sounds and updates (performance stabilization)
+	"Disable Ambience" = false
+

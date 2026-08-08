@@ -1,0 +1,28 @@
+
+["Biome Options"]
+	#List of biomes to ignore. When entering these biomes, the sound will NOT change (continuing the previous biome's sound).
+	IgnoredBiomes = ["minecraft:river", "minecraft:frozen_river", "minecraft:beach", "minecraft:snowy_beach", "minecraft:stony_shore", "minecraft:mushroom_fields", "minecraft:ice_spikes"]
+	#Enable keyword-based biome detection. When enabled, biomes with keywords like 'forest', 'snowy', 'ocean', etc. in their names will automatically be categorized.
+	#Disable this if you only want explicitly listed biomes to be detected.
+	EnableKeywordDetection = true
+	#Enable sounds in standard caves
+	EnableCaves = true
+	#Enable sounds in dripstone caves
+	EnableDripstoneCaves = true
+	#Enable sounds in oceans
+	EnableOcean = true
+	#Enable sounds in forests
+	EnableForest = true
+	#Enable sounds in dark forests and swamps
+	EnableDarkForest = true
+	#Enable sounds in snowy biomes
+	EnableSnowy = true
+	#Enable sounds in desert and badlands biomes
+	EnableDesert = true
+	#Enable sounds in the Nether
+	EnableNether = true
+	#Enable sounds in the End
+	EnableEnd = true
+	#Enable default fallback sounds
+	EnableDefault = true
+

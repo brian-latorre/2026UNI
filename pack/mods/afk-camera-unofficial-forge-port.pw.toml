@@ -1,0 +1,13 @@
+name = "AFK Camera Forge"
+filename = "AFKcamera-forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/YZoSCzEn/versions/el6U9gvH/AFKcamera-forge.jar"
+hash-format = "sha512"
+hash = "5c125d85bd07092766ae23042398676d1c54d08fbfd5216cf90b149b47cbd958d19ec722d66dfcc7d3af0854df7a57507e568a76f32d7bdd5301eefd71d1af32"
+
+[update]
+[update.modrinth]
+mod-id = "YZoSCzEn"
+version = "el6U9gvH"

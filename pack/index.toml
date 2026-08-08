@@ -118,6 +118,10 @@ file = "config/ae2/common.json"
 hash = "f390a5328244fa4f300041b581369bd17fbb6194824574a7cae47523ed01b046"
 
 [[files]]
+file = "config/afkcam.json5"
+hash = "c89512fe2439a0a2bcd0964401534349e2c42369e97a95f7c05e49f572aaa20a"
+
+[[files]]
 file = "config/alexscaves-client.toml"
 hash = "db5c9fddb7816fae75ecdb86e604c97408eca8626d785b9380a0b39d68b8bd58"
 
@@ -871,7 +875,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "fb5a86a51f4b22cc912498b6697f549ef34122b09ede7e8a37efe7a442a6a978"
+hash = "2fa0ee59ccfe3a58c4dcd646750dc9bb0738a29d43a32de5bcfce20e880a9f23"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1475,7 +1479,7 @@ hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
 [[files]]
 file = "config/mcreator_mem_fix.json"
-hash = "0a02466ba159040f617c69aa1c06a59d5e10306c84353d382cf98ae1c39f5b4a"
+hash = "2a8c42716c4d8513ec1f749986c4c3ca54f634119886b365fa4de790ba17c229"
 
 [[files]]
 file = "config/mobplayeranimator/client.json5"
@@ -1531,7 +1535,7 @@ hash = "2cf603cb5a49de1bf3b45f5bd0704c88eaacb8733b9315dd0b0f18e595425828"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "0d4fc96eab44a6512c1a0f092d3f2c680f056190992475f12e37ac52b301a373"
+hash = "e7f8f0677185282e4b693663313f924c90ba975c019e31cb7b369910624c85ea"
 preserve = true
 
 [[files]]
@@ -1588,7 +1592,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "7ba135f66cb7ed1d7decfa7478be82e0f6b3f0498a25909ed3dd50f7462d71e3"
+hash = "49df785ce63047a292d123d635ba58c5abaa3e6bb7aaa7dde14ee1cfa4b59bba"
 
 [[files]]
 file = "config/presencefootsteps/updater.json"
@@ -1668,7 +1672,7 @@ hash = "671ee75b5333f98d3a9b92fcfcc79c7df7a6b4c0e5cda025a7b449ab79562b2b"
 
 [[files]]
 file = "config/rsls.properties"
-hash = "a468004a1e2fa3933092e82192f3b968168ddbbe42ef253e41684cb42dfddf88"
+hash = "fb669826a699e6527f359fd7462b85174617233c87911461926ef48f7653e8c0"
 
 [[files]]
 file = "config/saturn-optimizations.toml"
@@ -1704,7 +1708,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "60d4fba0da6a7f1de5e207202e14c8bce0eea0d6aacbdd4b63b8a644cbb8d3af"
+hash = "540da73a9d2987bd9b31369e10e9f06be2a33b13bcf28775d621407facce6fd8"
 
 [[files]]
 file = "config/simplehats.json"
@@ -1732,7 +1736,7 @@ hash = "ac1a4e660c8a567b4c945962d063eeced1a0040615214ea4aebb947ff6af7d33"
 
 [[files]]
 file = "config/smartkeysync/client.json"
-hash = "3b278068c4170414ebcd82d9752b8685fd0e4db4b13eab78227b75eaf7035f9e"
+hash = "42716572e4229e3d5bc3479ad249453a0388fc6c75a5cd4cfe1d242e6c57af41"
 
 [[files]]
 file = "config/smartkeysync/master.json"
@@ -1849,6 +1853,18 @@ hash = "d56d8431a85eeabaa8007550f4557112b813922a9036414cb6eea11fefd753ae"
 [[files]]
 file = "config/tempad.jsonc"
 hash = "103249151fef996292834f3c4628d929305097d6f4f9da348870a17c167bcd6b"
+
+[[files]]
+file = "config/tenseambience-biomes.toml"
+hash = "0f8fd0f57a6ac94c293a3c2ae6b0ea063f3bcced730b9c83e292848eb327ae60"
+
+[[files]]
+file = "config/tenseambience-client.toml"
+hash = "d331b9bf4437c7540bd473c98522636a9ad6d0f23c451fce3d7d87f110b75902"
+
+[[files]]
+file = "config/tenseambience-soundevents-client.toml"
+hash = "1b455a5c3541fe8cd6a8be1f7f09c460d1c836130f690863d6cdb1e6324562ef"
 
 [[files]]
 file = "config/terrablender.toml"
@@ -2068,7 +2084,7 @@ hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "config/xaero/minimap/profiles/changes.cfg"
-hash = "10056c0ac25fa3ee666b563bd15fd3c815b3f52de522736fe92a4b60d6bfd843"
+hash = "c2e8f9a62d12713215fd695af9a2afe5f3e57fd25fbf5bf761bb9e449c2b0429"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
@@ -2076,7 +2092,7 @@ hash = "e614d9367c183f482bafc627bbd9f99e791568d137f026961a105a68c1bacc1e"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/changes.cfg.json"
-hash = "d34b991ccea8178fd102420aced9cb38266a66d8ed8437b3d72d804c7590749b"
+hash = "89bf05e8cb9c07f60321d23d8bde85c478266c8926fc6c2d0e3009efbe06e00e"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
@@ -5319,6 +5335,11 @@ hash = "f131905d113ba9dd127abf3c9f897aaf4ecf59657c415752533893d44cb584df"
 metafile = true
 
 [[files]]
+file = "mods/afk-camera-unofficial-forge-port.pw.toml"
+hash = "d14e23f288c76b916a0372582e6224a88bf997ccf10b327cb04a013598a58184"
+metafile = true
+
+[[files]]
 file = "mods/alexs-caves.pw.toml"
 hash = "6f864eef65f9a38f57eb0cc6fc71469b36ea70444a10c3e27502d617c5eaf917"
 metafile = true
@@ -6612,6 +6633,11 @@ metafile = true
 [[files]]
 file = "mods/tempad.pw.toml"
 hash = "0296af235a0b02fcfd97237181f1e3723596f3ed15a22b017cc905cea3fd0975"
+metafile = true
+
+[[files]]
+file = "mods/tense-ambience.pw.toml"
+hash = "f02b115143936dadcf852ee62a874dcb817c0882fda1f4cea286c7717bb4fe20"
 metafile = true
 
 [[files]]

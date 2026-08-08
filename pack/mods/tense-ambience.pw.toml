@@ -1,0 +1,13 @@
+name = "Tense Ambience"
+filename = "tenseambience-1.20.1-1.20.4-FORGE-2.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/9qIVVBj8/versions/lRzQUAYp/tenseambience-1.20.1-1.20.4-FORGE-2.0.0.jar"
+hash-format = "sha512"
+hash = "718aa22a4799ff9c3956a34027fbc2a359f578ce8ae8f017f5aa59b97f92298322758bd26c0dd0abffc7d7dc5b825b670cdec400dc1b0c12927d4efa489434d1"
+
+[update]
+[update.modrinth]
+mod-id = "9qIVVBj8"
+version = "lRzQUAYp"
