@@ -6259,10 +6259,6 @@ hash = "995fa8c8d5d4942bad966c4ad7c29cfe1fdf93b3e71de8d64d4eccfc8de2db42"
 metafile = true
 
 [[files]]
-file = "mods/modtoggler.jar"
-hash = "dbf9b74fef3f5a126db93c54b2fe331dba3cdaf0de7f3c0b2262f7d4cfef29c5"
-
-[[files]]
 file = "mods/more-curios-slots.pw.toml"
 hash = "0fab86581341c910d0874781a4c72970b3846ae169a73dbc9db2799480be00c8"
 metafile = true
@@ -6482,11 +6478,6 @@ hash = "e722ddd554bd42c93ebe41484ad856e9c01404ca6b730c52a85ece22670988e0"
 metafile = true
 
 [[files]]
-file = "mods/repo-heads.pw.toml"
-hash = "b74d80888e41899dc2f5f372939d2436998bafe18b0969a9cd7e8c2ea2967a50"
-metafile = true
-
-[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "e242387207a2538b5ccb55697174c65e549e1eb2fef9da37e1ad3734e0372b65"
 metafile = true
@@ -6682,11 +6673,6 @@ metafile = true
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "14117b94c456598c9acece143c7a0da3cf56d13182d035a74a2da8a52dd19cbd"
-metafile = true
-
-[[files]]
-file = "mods/tiled.pw.toml"
-hash = "faf2e5b0ced16736f0d8c42f7473109494a9c3255636ff830e7ce95d820a5426"
 metafile = true
 
 [[files]]
