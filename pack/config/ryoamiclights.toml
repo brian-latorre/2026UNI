@@ -1,0 +1,70 @@
+
+[light_sources]
+	entities = true
+	self = true
+	block_entities = true
+	water_sensitive_check = true
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				player = true
+				skeleton = true
+				item = true
+				phantom = true
+				pig = true
+				creeper = true
+				zombie = true
+				sheep = true
+				cow = true
+				axolotl = true
+				bat = true
+				glow_squid = true
+				spider = true
+				squid = true
+
+			[light_sources.settings.entities.born_in_chaos_v1]
+				baby_spider = true
+				decaying_zombie = true
+				skeleton_demoman = true
+				door_knight = true
+				zombie_clown = true
+				bonescaller = true
+				bone_imp = true
+				phantom_creeper = true
+				barrel_zombie = true
+				spirit_guide = true
+				baby_skeleton = true
+				corpse_fish = true
+				decaying_zombie_not_despawn = true
+				door_knight_not_despawn = true
+				zombie_fisherman = true
+				maggot = true
+				decrepit_skeleton = true
+
+			[light_sources.settings.entities.ad_astra]
+				sulfur_creeper = true
+
+			[light_sources.settings.entities.creeperoverhaul]
+				mushroom_creeper = true
+
+			[light_sources.settings.entities.artifacts]
+				mimic = true
+
+			[light_sources.settings.entities.cobblemon]
+				pokemon = true
+
+			[light_sources.settings.entities.alexsmobs]
+				crow = true
+				fly = true
+				cockroach = true
+
+			[light_sources.settings.entities.wildernature]
+				hedgehog = true
+				pelican = true
+
+			[light_sources.settings.entities.golemoverhaul]
+				coal_golem = true
+

@@ -5,6 +5,84 @@
       "name": "Briii_",
       "uniqueId": "e22352be-30cf-3abf-bf26-0abec80643c8"
     },
+    "time": 1786297681035,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/fvFPwRmS5q"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Briii_",
+      "uniqueId": "e22352be-30cf-3abf-bf26-0abec80643c8"
+    },
+    "time": 1786297484866,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/NS3plp5QGi"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Briii_",
+      "uniqueId": "e22352be-30cf-3abf-bf26-0abec80643c8"
+    },
+    "time": 1786297003714,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/eF0dczPaGx"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Briii_",
+      "uniqueId": "e22352be-30cf-3abf-bf26-0abec80643c8"
+    },
+    "time": 1786296866884,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/SIl0RWH8Ea"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Briii_",
+      "uniqueId": "e22352be-30cf-3abf-bf26-0abec80643c8"
+    },
+    "time": 1786296604263,
+    "type": "Profiler",
+    "data": {
+      "type": "file",
+      "value": "C:\\Users\\brian\\AppData\\Roaming\\.minecraft\\2026UNI\\config\\spark\\profile-2026-08-09_12.30.04.sparkprofile"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Briii_",
+      "uniqueId": "e22352be-30cf-3abf-bf26-0abec80643c8"
+    },
+    "time": 1786296540407,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/4nyRqnXMVI"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Briii_",
+      "uniqueId": "e22352be-30cf-3abf-bf26-0abec80643c8"
+    },
     "time": 1786032151276,
     "type": "Profiler",
     "data": {

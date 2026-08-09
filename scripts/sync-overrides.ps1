@@ -1,4 +1,4 @@
-﻿<#
+<#
 .SYNOPSIS
     Sincroniza las carpetas del pack desde tu instancia real de Minecraft a pack/.
 .DESCRIPTION
@@ -50,9 +50,9 @@ Write-Info "Origen:  $SourceInstance"
 Write-Info "Destino: $PackDir"
 if ($DryRun) { Write-Warn "MODO: DRY RUN (no se copia nada)" }
 Write-Host ""
-Write-Info "Explicación: Este script copia las carpetas de configuración (como 'config', 'resourcepacks',"
-Write-Info "'shaderpacks', etc.) desde tu instalación real de Minecraft hacia la carpeta 'pack'."
-Write-Info "Esto asegura que al actualizar, los jugadores reciban los mismos menús y ajustes que tú."
+Write-Info "Explicacion: Este script copia las carpetas de configuracion (como 'config', 'resourcepacks',"
+Write-Info "'shaderpacks', etc.) desde tu instalacion real de Minecraft hacia la carpeta 'pack'."
+Write-Info "Esto asegura que al actualizar, los jugadores reciban los mismos menus y ajustes que tu."
 Write-Host ""
 
 # === Carpetas a sincronizar ===
@@ -117,7 +117,7 @@ foreach ($folder in $SyncFolders) {
     $itemCount = (Get-ChildItem $sourcePath -Recurse -File -ErrorAction SilentlyContinue | Measure-Object).Count
     
     if ($DryRun) {
-        Write-Warn "[DRY]  $folder/ — $itemCount archivos"
+        Write-Warn "[DRY]  $folder/ - $itemCount archivos"
     }
     else {
         $robocopyArgs = @(
@@ -137,7 +137,7 @@ foreach ($folder in $SyncFolders) {
         if ($LASTEXITCODE -lt 8) {
             Write-Success "Copiado $folder/"
         } else {
-            Write-ErrorMsg "Error al copiar $folder/ (Código $LASTEXITCODE)"
+            Write-ErrorMsg "Error al copiar $folder/ (Codigo $LASTEXITCODE)"
         }
     }
     

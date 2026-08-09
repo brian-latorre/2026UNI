@@ -1,13 +1,13 @@
 name = "Tiled"
-filename = "tiled-1.1.0-1.20.1.jar"
+filename = "tiled-1.2.4-1.20.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "be34a5d64dfcc99fddd539052c6ddd3182fc10fa"
+hash = "5f21bd714d5274729420ace1f21b2ef08d1ee88d"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8035626
+file-id = 8396530
 project-id = 1443381
