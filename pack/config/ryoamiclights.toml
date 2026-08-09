@@ -24,6 +24,11 @@
 				glow_squid = true
 				spider = true
 				squid = true
+				tropical_fish = true
+				salmon = true
+				chest_minecart = true
+				enderman = true
+				horse = true
 
 			[light_sources.settings.entities.born_in_chaos_v1]
 				baby_spider = true
@@ -43,12 +48,23 @@
 				zombie_fisherman = true
 				maggot = true
 				decrepit_skeleton = true
+				dread_hound = true
+				dire_hound_leader = true
+				corpse_fly = true
+				siamese_skeletons = true
+				skeleton_thrasher = true
+				swarmer = true
+				zombie_bruiser = true
+				restless_spirit = true
+				spiritof_chaos = true
 
 			[light_sources.settings.entities.ad_astra]
 				sulfur_creeper = true
 
 			[light_sources.settings.entities.creeperoverhaul]
 				mushroom_creeper = true
+				dripstone_creeper = true
+				cave_creeper = true
 
 			[light_sources.settings.entities.artifacts]
 				mimic = true
@@ -60,6 +76,10 @@
 				crow = true
 				fly = true
 				cockroach = true
+				bison = true
+				terrapin = true
+				catfish = true
+				underminer = true
 
 			[light_sources.settings.entities.wildernature]
 				hedgehog = true
@@ -67,4 +87,16 @@
 
 			[light_sources.settings.entities.golemoverhaul]
 				coal_golem = true
+
+			[light_sources.settings.entities.mowziesmobs]
+				ferrous_wroughtnaut = true
+
+			[light_sources.settings.entities.dynamictrees]
+				falling_tree = true
+
+			[light_sources.settings.entities.blue_skies]
+				gatekeeper = true
+
+			[light_sources.settings.entities.quark]
+				stoneling = true
 
