@@ -29,6 +29,12 @@
 				chest_minecart = true
 				enderman = true
 				horse = true
+				chicken = true
+				fox = true
+				drowned = true
+				witch = true
+				arrow = true
+				cod = true
 
 			[light_sources.settings.entities.born_in_chaos_v1]
 				baby_spider = true
@@ -57,6 +63,10 @@
 				zombie_bruiser = true
 				restless_spirit = true
 				spiritof_chaos = true
+				dark_vortex = true
+				bloody_gadfly = true
+				zombie_lumberjack = true
+				mother_spider = true
 
 			[light_sources.settings.entities.ad_astra]
 				sulfur_creeper = true
@@ -65,6 +75,7 @@
 				mushroom_creeper = true
 				dripstone_creeper = true
 				cave_creeper = true
+				spruce_creeper = true
 
 			[light_sources.settings.entities.artifacts]
 				mimic = true
@@ -80,10 +91,21 @@
 				terrapin = true
 				catfish = true
 				underminer = true
+				crocodile = true
+				flutter = true
+				blue_jay = true
+				platypus = true
+				lobster = true
+				centipede_head = true
+				centipede_body = true
+				centipede_tail = true
+				raccoon = true
+				cachalot_whale = true
 
 			[light_sources.settings.entities.wildernature]
 				hedgehog = true
 				pelican = true
+				turkey = true
 
 			[light_sources.settings.entities.golemoverhaul]
 				coal_golem = true
@@ -99,4 +121,17 @@
 
 			[light_sources.settings.entities.quark]
 				stoneling = true
+				toretoise = true
+
+			[light_sources.settings.entities.crittersandcompanions]
+				leaf_insect = true
+
+			[light_sources.settings.entities.tconstruct]
+				terracube = true
+
+			[light_sources.settings.entities.adorablehamsterpets]
+				hamster = true
+
+			[light_sources.settings.entities.primal]
+				shark = true
 

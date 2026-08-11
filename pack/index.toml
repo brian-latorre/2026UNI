@@ -875,7 +875,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "5ebef08649d72924b18b7003c226acfccb0ef76c6370a682e04a20de259a41ef"
+hash = "dec99715ef681d432d4bc1c31550e2db06d16e2683f7d255cc052f800b525bb2"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1263,7 +1263,7 @@ hash = "563cd3c796e3ff405d8ac57fd0cd09340f51c6e7d9b3b37ee81709fda6488364"
 
 [[files]]
 file = "config/iammusicplayer.toml"
-hash = "3b61a43bcb5bb4e8701aa6bed84f483f4a6eadad57296b21a444559322973c15"
+hash = "424bd6845ff6a43ad11f577fabfc8c92d3f26828ea6e2b6058b37411fe30f7a1"
 
 [[files]]
 file = "config/immediatelyfast.json"
@@ -1346,6 +1346,10 @@ file = "config/ironfurnaces.toml"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "config/ironfurnaces.toml.bak"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "config/ixeris.toml"
 hash = "76b1a69b132e0e4b7c5330757e30ae0830ce02f9daa0ba2a023dc2a766181332"
 
@@ -1379,7 +1383,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "f04f615646545ce2ca523acbcbb44e8b6b3f12762719de69c22ca484da9ddce4"
+hash = "aae8c6d1ac2f0b8de2b96d2218d64c3a20a4888a37edbd5776fa0f72e94bb926"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1495,7 +1499,7 @@ hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
 [[files]]
 file = "config/mcreator_mem_fix.json"
-hash = "01eb952f0aeb5227917c8b9fda2efb5af9f8d088abd5d3ec5ec6becaff92b4aa"
+hash = "ae185ecb4d19c17f5f70d13210243825a29c46e6fdf6f944355b33f12c7aa97c"
 
 [[files]]
 file = "config/mobplayeranimator/client.json5"
@@ -1555,7 +1559,7 @@ hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "8b00f1ec5ba3d8f6ad8b58c2cc54c42668007ec2ed9cd4e27e59c74bf595854b"
+hash = "3273b0028319b740968be42f383adeb5c15de30024725906d521211cfa7445ce"
 preserve = true
 
 [[files]]
@@ -1604,6 +1608,10 @@ hash = "b45ae741e5dd098b69e2d2f16214da7ff6fd7f7c7a9af4fb3fec3083ffdea7d3"
 
 [[files]]
 file = "config/polymorph-integrations.toml"
+hash = "f09398fbdb8880a2e2a0f234aa6578dd49ada68fecbe899608841f39c430034a"
+
+[[files]]
+file = "config/polymorph-integrations.toml.bak"
 hash = "00a185412d1c84de6d4435346a8c98467c290dae87d908328ff0c0fb45fe5458"
 
 [[files]]
@@ -1612,7 +1620,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "2d999dafab38bb35cf629ad2a9f3d80cd8f4f69c1b057a746314bf516e155887"
+hash = "7ba135f66cb7ed1d7decfa7478be82e0f6b3f0498a25909ed3dd50f7462d71e3"
 
 [[files]]
 file = "config/presencefootsteps/updater.json"
@@ -1672,7 +1680,7 @@ hash = "adcd5ed15cb62dd8eb4f524d1ee88d7d11671b065ba9e5da319a341384b57e9e"
 
 [[files]]
 file = "config/repo-heads.client.json"
-hash = "4ae2ea4e63a0c71029f3136b74dfdf7e5370b5c0986f64ed4d66498c9dc92bef"
+hash = "8a3542091a65cd76df821e463d99a1528933d07c1203eed61e08223529bf39ff"
 
 [[files]]
 file = "config/resourceful-config-web.json"
@@ -1692,11 +1700,11 @@ hash = "671ee75b5333f98d3a9b92fcfcc79c7df7a6b4c0e5cda025a7b449ab79562b2b"
 
 [[files]]
 file = "config/rsls.properties"
-hash = "344033972426aa9ac3f8dd10332af7e70ad246a3726a5e6d3da166f6f3edf7e4"
+hash = "a857cfcb56acb3511198c7ed9dba727611ec5c89b7608481754e1b8a74ac9b7c"
 
 [[files]]
 file = "config/ryoamiclights.toml"
-hash = "316c0346ba57b83fd857c1ee7345d5cd0cebb759d9938f305717c17a1cd7656c"
+hash = "0554d877771cd65f324f841eb2b1947583a2c6516679b3568e2b9ab91274f30f"
 
 [[files]]
 file = "config/saturn-optimizations.toml"
@@ -1732,7 +1740,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "02562c50ea3d6e721861cb4b0b3d8ac6c9c6b89005353ef38c26fd2579bb2c44"
+hash = "e9053fb663311d9706f88f14e34d86b3f17179222c14f610b520c8672f10f895"
 
 [[files]]
 file = "config/simplehats.json"
@@ -1760,7 +1768,7 @@ hash = "ac1a4e660c8a567b4c945962d063eeced1a0040615214ea4aebb947ff6af7d33"
 
 [[files]]
 file = "config/smartkeysync/client.json"
-hash = "42716572e4229e3d5bc3479ad249453a0388fc6c75a5cd4cfe1d242e6c57af41"
+hash = "bb1f815430bb4ecdd27556dfd2de4b8341cfe08e89e648a5141ff2a8d33ec124"
 
 [[files]]
 file = "config/smartkeysync/master.json"
@@ -2096,7 +2104,7 @@ hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
 
 [[files]]
 file = "config/xaero/minimap/client.cfg"
-hash = "194b39c13281199c240e0ec29ff68384b3f9e0e980ee17baa7b36ff20ad4f73a"
+hash = "41ed00290c52679e6b8b1a278da4f17824d147aff157df0e681193987a82960b"
 
 [[files]]
 file = "config/xaero/minimap/common.cfg"
@@ -2140,7 +2148,7 @@ hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
 
 [[files]]
 file = "config/xaero/world-map/client.cfg"
-hash = "97e1c2299bd8ffc4c03520bf34dc5eacd002e4807ba3f12e8e89ca0b585573db"
+hash = "44f7e98163680991f71a4f5f0380f9974b530fd5cc7fe47a97d836a3a544cd75"
 
 [[files]]
 file = "config/xaero/world-map/common.cfg"
@@ -5363,8 +5371,8 @@ hash = "f131905d113ba9dd127abf3c9f897aaf4ecf59657c415752533893d44cb584df"
 metafile = true
 
 [[files]]
-file = "mods/afk-camera-unofficial-forge-port.pw.toml"
-hash = "d14e23f288c76b916a0372582e6224a88bf997ccf10b327cb04a013598a58184"
+file = "mods/afk-camera.pw.toml"
+hash = "98f51de838dbafaa551be0624a11c2254ae6cdf5aac2040eec4fcd880aa1918a"
 metafile = true
 
 [[files]]
@@ -6373,6 +6381,10 @@ hash = "b52622122c19a3894e62fc5506d7c3332d202504fd406d6718be646f979feb40"
 metafile = true
 
 [[files]]
+file = "mods/playtimefixer-1.0.0.jar"
+hash = "80367a1fe701f854bb14e32715e27e009712f54a8ddfcf1035e36a07d17ba4ca"
+
+[[files]]
 file = "mods/polymorph.pw.toml"
 hash = "8c65958007f81cdf1a57dac999ec7ffdde17cce6154c9a2f75bbb389fd11efbf"
 metafile = true
@@ -6593,7 +6605,7 @@ metafile = true
 
 [[files]]
 file = "mods/smartkeysync-1.0.0.jar"
-hash = "6c890ce5884c85a08dc56f5e1959936c3a409d8a9c57658069e90c12d1f2a11a"
+hash = "ade0650d398e6e8b1ef93741f81de323b6bcf2602fa0e399cc89fd6921e253a8"
 
 [[files]]
 file = "mods/smooth-gui.pw.toml"
@@ -7057,6 +7069,10 @@ hash = "c6ac56fc92b861dcb8e69f955896879fc00965e7b992f302438a6f53172102eb"
 [[files]]
 file = "resourcepacks/FA+Player-v1.0.zip"
 hash = "b1f0c3cbcb77cdf2ad0c59e0f405f7da84f9c07f4ecd90cbb94a40bef70ca70b"
+
+[[files]]
+file = "resourcepacks/FA_Player_v1.1_Compatibility_Pack.zip"
+hash = "eb7b5f37d98108c728e1e9b5d8bc13840773c458bd2c0d13b30587af326c1fcc"
 
 [[files]]
 file = "resourcepacks/FreshAnimations_v1.10.4.zip"
