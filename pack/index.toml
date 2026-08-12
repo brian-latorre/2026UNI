@@ -6410,11 +6410,6 @@ hash = "562fd159f33564daf4f81a313e3df5272678bf0824192513cac6e67656abf681"
 metafile = true
 
 [[files]]
-file = "mods/presence-footsteps.pw.toml"
-hash = "22517018388c911b457143b3934634cc6d0b4bfbf26a39fee2a50785892955af"
-metafile = true
-
-[[files]]
 file = "mods/prism-lib.pw.toml"
 hash = "2b0772879a1d43e6fc0d892dca4a85d360e813d5cd3907fc2ab42f345b146362"
 metafile = true
@@ -6507,11 +6502,6 @@ metafile = true
 [[files]]
 file = "mods/ribbits.pw.toml"
 hash = "70acbe76903121faa88da57c77a8a1eada9c0e4b58143abb8ccd57b766b14148"
-metafile = true
-
-[[files]]
-file = "mods/rsls.pw.toml"
-hash = "480babb5aff495b874ca10295767fbcc9076e270b877cf591210cbb0796dba0f"
 metafile = true
 
 [[files]]
@@ -6620,11 +6610,6 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
 hash = "9fc21eea66e1415471551e646f92877eb9795169847c9bd21d6ca70bedb5a086"
-metafile = true
-
-[[files]]
-file = "mods/sound-physics-remastered.pw.toml"
-hash = "416bb6449da951ec1a04156348c502b9e47a947212becc173d277faaddaaaccd"
 metafile = true
 
 [[files]]
