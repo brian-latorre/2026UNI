@@ -819,7 +819,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "60cae9051342c08c4f70f8ebb896255378cf66a829bdffd2d2c26207206b56ec"
+hash = "22143330318b63f8bbc8fb12e7c0c67ce4a13e100166cc15dfbf52b4e08747d4"
 
 [[files]]
 file = "config/emojiful-client.toml"
@@ -875,7 +875,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "dec99715ef681d432d4bc1c31550e2db06d16e2683f7d255cc052f800b525bb2"
+hash = "cf05e5d1fe25d5793954b83a1ec181ca1c0c980430fd7f615e53c5480fb4041f"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1499,7 +1499,7 @@ hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
 [[files]]
 file = "config/mcreator_mem_fix.json"
-hash = "ae185ecb4d19c17f5f70d13210243825a29c46e6fdf6f944355b33f12c7aa97c"
+hash = "3351f0267615dca0157136bdc4a2ca0349285571def4452047634a6b04a71a0a"
 
 [[files]]
 file = "config/mobplayeranimator/client.json5"
@@ -1515,7 +1515,7 @@ hash = "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "347fdc2d2703cb23ab815d803c792603aca06905255acabba0fb228d89c2b1dd"
+hash = "63aacd79848b5b892b5c26385658f17568def513a12cba79a52180de2dd965c6"
 
 [[files]]
 file = "config/moonlight-client.toml"
@@ -1559,7 +1559,7 @@ hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "3273b0028319b740968be42f383adeb5c15de30024725906d521211cfa7445ce"
+hash = "08178b728c4e8cb806a3f2078c9e698f2a054a27fc40e6270622f07ef37eb7a3"
 preserve = true
 
 [[files]]
@@ -1620,7 +1620,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "7ba135f66cb7ed1d7decfa7478be82e0f6b3f0498a25909ed3dd50f7462d71e3"
+hash = "2d999dafab38bb35cf629ad2a9f3d80cd8f4f69c1b057a746314bf516e155887"
 
 [[files]]
 file = "config/presencefootsteps/updater.json"
@@ -1700,11 +1700,11 @@ hash = "671ee75b5333f98d3a9b92fcfcc79c7df7a6b4c0e5cda025a7b449ab79562b2b"
 
 [[files]]
 file = "config/rsls.properties"
-hash = "a857cfcb56acb3511198c7ed9dba727611ec5c89b7608481754e1b8a74ac9b7c"
+hash = "6d329122279318bc4d91c27038ed6a7c712f55f32760cdb516c23c7744228b41"
 
 [[files]]
 file = "config/ryoamiclights.toml"
-hash = "0554d877771cd65f324f841eb2b1947583a2c6516679b3568e2b9ab91274f30f"
+hash = "400b9c4f0103d89cd08acc6f46e1e9a5dca1be3281aa3ca46511306141024dcf"
 
 [[files]]
 file = "config/saturn-optimizations.toml"
@@ -1740,7 +1740,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "e9053fb663311d9706f88f14e34d86b3f17179222c14f610b520c8672f10f895"
+hash = "48d5e261a18937d169ecec66f224e1c6a4bf4ea3a0eb390f5644f3fe53ae1a34"
 
 [[files]]
 file = "config/simplehats.json"
@@ -1768,7 +1768,7 @@ hash = "ac1a4e660c8a567b4c945962d063eeced1a0040615214ea4aebb947ff6af7d33"
 
 [[files]]
 file = "config/smartkeysync/client.json"
-hash = "bb1f815430bb4ecdd27556dfd2de4b8341cfe08e89e648a5141ff2a8d33ec124"
+hash = "11054997eabbc7eeca56b047b96743c2911ce01133e42159743d31fd7f3af60f"
 
 [[files]]
 file = "config/smartkeysync/master.json"
@@ -2128,7 +2128,7 @@ hash = "e614d9367c183f482bafc627bbd9f99e791568d137f026961a105a68c1bacc1e"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/changes.cfg.json"
-hash = "205d3830278b838cedaffb9c19c4d60031a7ce82a472be362b3b69da0ff1adda"
+hash = "89bf05e8cb9c07f60321d23d8bde85c478266c8926fc6c2d0e3009efbe06e00e"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"

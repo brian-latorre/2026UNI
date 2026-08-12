@@ -35,6 +35,10 @@
 				witch = true
 				arrow = true
 				cod = true
+				wandering_trader = true
+				trader_llama = true
+				wolf = true
+				dolphin = true
 
 			[light_sources.settings.entities.born_in_chaos_v1]
 				baby_spider = true
@@ -67,6 +71,7 @@
 				bloody_gadfly = true
 				zombie_lumberjack = true
 				mother_spider = true
+				phantom_creeper_copy = true
 
 			[light_sources.settings.entities.ad_astra]
 				sulfur_creeper = true
@@ -101,6 +106,7 @@
 				centipede_tail = true
 				raccoon = true
 				cachalot_whale = true
+				grizzly_bear = true
 
 			[light_sources.settings.entities.wildernature]
 				hedgehog = true
