@@ -5839,11 +5839,6 @@ file = "mods/entityculling-forge-1.9.5-mc1.20.1.jar"
 hash = "8f80f3953fc988d8c6b4a88035441cad631fea87a413267526b64543890c02b0"
 
 [[files]]
-file = "mods/explosive-enhancement-reforged.pw.toml"
-hash = "0eb5e492165f1fd50f9c15ce91d10dd1b0a813c57f879a24bab5f07175fdda3d"
-metafile = true
-
-[[files]]
 file = "mods/exposure.pw.toml"
 hash = "2b7e34feead35203c6637b7c8afb49cb823ff6ddade568b131ca07c35ad02845"
 metafile = true
