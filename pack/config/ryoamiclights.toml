@@ -39,6 +39,7 @@
 				trader_llama = true
 				wolf = true
 				dolphin = true
+				llama_spit = true
 
 			[light_sources.settings.entities.born_in_chaos_v1]
 				baby_spider = true
@@ -72,6 +73,10 @@
 				zombie_lumberjack = true
 				mother_spider = true
 				phantom_creeper_copy = true
+				fallen_chaos_knight = true
+				lords_felsteed = true
+				riding_felsteed = true
+				lord_pumpkinhead = true
 
 			[light_sources.settings.entities.ad_astra]
 				sulfur_creeper = true
@@ -128,6 +133,7 @@
 			[light_sources.settings.entities.quark]
 				stoneling = true
 				toretoise = true
+				forgotten = true
 
 			[light_sources.settings.entities.crittersandcompanions]
 				leaf_insect = true

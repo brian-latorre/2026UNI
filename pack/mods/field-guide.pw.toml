@@ -1,13 +1,13 @@
 name = "Field Guide"
-filename = "fieldguide-forge-1.20.1-1.6.9.jar"
+filename = "fieldguide-forge-1.20.1-1.8.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "dc590a341e9efdc49050763f24567088d492ae65"
+hash = "16c6c580e834807f03cc698fbbe0ce644c3bf6cd"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7901863
+file-id = 8553733
 project-id = 1470590
