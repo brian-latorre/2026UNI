@@ -40,6 +40,15 @@
 				wolf = true
 				dolphin = true
 				llama_spit = true
+				zombie_villager = true
+				pufferfish = true
+				villager = true
+				armor_stand = true
+				iron_golem = true
+				cat = true
+				rabbit = true
+				husk = true
+				goat = true
 
 			[light_sources.settings.entities.born_in_chaos_v1]
 				baby_spider = true
@@ -77,6 +86,12 @@
 				lords_felsteed = true
 				riding_felsteed = true
 				lord_pumpkinhead = true
+				seared_spirit = true
+				spirit_guide_assistant = true
+				siamese_skeletonsright = true
+				siamese_skeletonsleft = true
+				thornshell_crab = true
+				supreme_bonescaller = true
 
 			[light_sources.settings.entities.ad_astra]
 				sulfur_creeper = true
@@ -86,6 +101,10 @@
 				dripstone_creeper = true
 				cave_creeper = true
 				spruce_creeper = true
+				savannah_creeper = true
+				ocean_creeper = true
+				beach_creeper = true
+				desert_creeper = true
 
 			[light_sources.settings.entities.artifacts]
 				mimic = true
@@ -112,14 +131,31 @@
 				raccoon = true
 				cachalot_whale = true
 				grizzly_bear = true
+				murmur = true
+				murmur_head = true
+				elephant = true
+				flying_fish = true
+				emu = true
+				gazelle = true
+				roadrunner = true
+				triops = true
+				tarantula_hawk = true
+				jerboa = true
+				sunbird = true
+				skunk = true
 
 			[light_sources.settings.entities.wildernature]
 				hedgehog = true
 				pelican = true
 				turkey = true
+				boar = true
+				bison = true
+				cassowary = true
 
 			[light_sources.settings.entities.golemoverhaul]
 				coal_golem = true
+				barrel_golem = true
+				hay_golem = true
 
 			[light_sources.settings.entities.mowziesmobs]
 				ferrous_wroughtnaut = true
@@ -134,9 +170,13 @@
 				stoneling = true
 				toretoise = true
 				forgotten = true
+				shiba = true
 
 			[light_sources.settings.entities.crittersandcompanions]
 				leaf_insect = true
+				koi_fish = true
+				sea_bunny = true
+				dumbo_octopus = true
 
 			[light_sources.settings.entities.tconstruct]
 				terracube = true
@@ -146,4 +186,18 @@
 
 			[light_sources.settings.entities.primal]
 				shark = true
+				snake = true
+
+			[light_sources.settings.entities.peruviansdelight]
+				atun = true
+
+			[light_sources.settings.entities.tameablebeasts]
+				tameable_beetle = true
+				ground_beetle = true
+
+			[light_sources.settings.entities.cataclysm]
+				koboleton = true
+
+			[light_sources.settings.entities.yungscavebiomes]
+				sand_snapper = true
 

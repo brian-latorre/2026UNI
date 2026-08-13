@@ -578,6 +578,18 @@ file = "config/betterthirdperson-common.toml"
 hash = "3843f47cb52faddf9bc4d8dd08a4d7e30061e671128d99412ca6a6c27bd1485b"
 
 [[files]]
+file = "config/biomeswevegone/mob_spawn.json"
+hash = "b84dc298e495d19eb4b4c19482fac644aee55414b7e6e4bb1ea238de989e7970"
+
+[[files]]
+file = "config/biomeswevegone/trades.json"
+hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
+
+[[files]]
+file = "config/biomeswevegone/world_generation.json"
+hash = "5ab08dae537d43aef3f217e3a7a17608d39f1be082960fe4abd545d0697a72dc"
+
+[[files]]
 file = "config/blue_skies-client.toml"
 hash = "071d402fc522364f0bbbe1cce75c96800c5f4bf0236dcf6766a948180d7ed595"
 
@@ -671,7 +683,7 @@ hash = "7dd7dc266613f18011a9a5ba624e50c35374ad2b39ea379231c3c44e7b2261b3"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "39d0028c2e72186ef3431754d70e425179b4f2f4be5842522ee8b6bebdc66ad5"
+hash = "9d1b1e49079dd7cefccacc75f21d95493d65e155b24e605e2daeeffc8a674519"
 
 [[files]]
 file = "config/collective.json5"
@@ -875,7 +887,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "cb5a32425923468df68a4ba05b7c32a44a215ef2e460eeb2d1a49bd3aaf796b5"
+hash = "417d4c2e97ead2b030a79c3822a467a46d5d63ba4aea0d1f62dc9c9def10ee86"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1387,7 +1399,7 @@ hash = "3ca754fefc49ea02e5203353bc3390e520e6717dd8b148aa07042f0b48a78621"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "088afcaa9ee5205fd9df187cac328b86217cfcb964786bf9856bf5a47a7e57e4"
+hash = "f52b04bfbfa63c4ebd5215862f9802f3b2b2f2fb472610b660f6323b73110d33"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1503,7 +1515,7 @@ hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
 [[files]]
 file = "config/mcreator_mem_fix.json"
-hash = "5edc874890a8df5a9797ad07a67f1f3925380fdd3af2e6c5cf38c870d4b8fc7a"
+hash = "a8bd765210b4443e40d4903c859c2ea6ca1b8ba950edd55278934b3f8d3224dd"
 
 [[files]]
 file = "config/mobplayeranimator/client.json5"
@@ -1563,7 +1575,7 @@ hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "fd6105a90e0b3713f1a44d9b6ea1a147814dd2425bbccc10f38759d853d8b8ad"
+hash = "09805f436f4ea8479247a2178246188fb356591c6dca35507717593a720266d1"
 preserve = true
 
 [[files]]
@@ -1708,7 +1720,7 @@ hash = "6d329122279318bc4d91c27038ed6a7c712f55f32760cdb516c23c7744228b41"
 
 [[files]]
 file = "config/ryoamiclights.toml"
-hash = "16c4676baad09871479b6613c238c44c0dc12bb5f6c7c0586b834931a89a741e"
+hash = "b611566fd0ec35f56c6a94054c6f523697293cdd4ba603207a24c62d08a4c5a7"
 
 [[files]]
 file = "config/saturn-optimizations.toml"
@@ -1744,7 +1756,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "ff86a4f792bfcd5163dabfdb1d4d9331726153249c1ba46b5b74a2fa8af095ab"
+hash = "801c1fbc5ca1eb38dfd69887be02a0386014e6c576c6124823eca6c307041abe"
 
 [[files]]
 file = "config/simplehats.json"
@@ -1772,7 +1784,7 @@ hash = "ac1a4e660c8a567b4c945962d063eeced1a0040615214ea4aebb947ff6af7d33"
 
 [[files]]
 file = "config/smartkeysync/client.json"
-hash = "80040dec62f33fbf4dd882cffcfc0ba03e608e19fa287e4ecf74ad948ad8ae37"
+hash = "f17c11de19cdb5c05f9d3498adcbfdd9c9d63c86b0e6c8dce6d7f01d3bd18ff4"
 
 [[files]]
 file = "config/smartkeysync/master.json"
@@ -2124,7 +2136,7 @@ hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "config/xaero/minimap/profiles/changes.cfg"
-hash = "c2e8f9a62d12713215fd695af9a2afe5f3e57fd25fbf5bf761bb9e449c2b0429"
+hash = "f156f729a312e065ff6ce2a6d5e72887eac467150ab53d384e5b2d594afebcd3"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
@@ -2132,7 +2144,7 @@ hash = "e614d9367c183f482bafc627bbd9f99e791568d137f026961a105a68c1bacc1e"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/changes.cfg.json"
-hash = "89bf05e8cb9c07f60321d23d8bde85c478266c8926fc6c2d0e3009efbe06e00e"
+hash = "cae66852b69ae137bfdd8bc45ddd8703d7dde5163f76e72850c0f821c6279284"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
@@ -5764,6 +5776,11 @@ hash = "4a831ac28ef58cbaa173fdbcd002364b2b08dfb57b9dec5ca0289c5745608647"
 metafile = true
 
 [[files]]
+file = "mods/dynamic-trees-bwg.pw.toml"
+hash = "407f8fd11806f69441dee528b5a5f52fe84f064fe3667ee954c10ec5bd6dc233"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-trees-cobblemon.pw.toml"
 hash = "e389fdbe7b2f9c1084d8823b96d776c7f4f9112f7fb40a65731d6ad57039779e"
 metafile = true
@@ -6323,6 +6340,16 @@ metafile = true
 [[files]]
 file = "mods/oculus.pw.toml"
 hash = "5ef885f9912ff6aa73db254b63a3cd22520f06261bc3c38e7c92f449806a9044"
+metafile = true
+
+[[files]]
+file = "mods/oh-the-biomes-weve-gone.pw.toml"
+hash = "a85df37d5c0afc3b2fdae7e43b7bf145d0ef06de6a55fd223901f09fbc514ccc"
+metafile = true
+
+[[files]]
+file = "mods/oh-the-trees-youll-grow.pw.toml"
+hash = "01905832e0cbe05983fb45fd2f353dbf8fbf9b4a27a867e8bc731c0f52090260"
 metafile = true
 
 [[files]]
