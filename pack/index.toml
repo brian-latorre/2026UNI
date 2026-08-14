@@ -5986,7 +5986,7 @@ metafile = true
 
 [[files]]
 file = "mods/ghost.pw.toml"
-hash = "2c74ccadb1fc076c3ecc3257fd71833b475091c976b6628ed7531923e111ce55"
+hash = "f2ad38911b75cda96c8d09b40572342f35dade8a96509ab58804f1f508146ea4"
 metafile = true
 
 [[files]]
