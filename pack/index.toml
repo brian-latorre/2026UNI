@@ -5387,11 +5387,6 @@ hash = "f131905d113ba9dd127abf3c9f897aaf4ecf59657c415752533893d44cb584df"
 metafile = true
 
 [[files]]
-file = "mods/afk-camera.pw.toml"
-hash = "98f51de838dbafaa551be0624a11c2254ae6cdf5aac2040eec4fcd880aa1918a"
-metafile = true
-
-[[files]]
 file = "mods/alexs-caves.pw.toml"
 hash = "6f864eef65f9a38f57eb0cc6fc71469b36ea70444a10c3e27502d617c5eaf917"
 metafile = true
@@ -6659,6 +6654,11 @@ hash = "ff765c8249ef581bc6eef2ab9304f519aeec2552dc7a57760b7cd88eadd2685d"
 metafile = true
 
 [[files]]
+file = "mods/streams-reflowing.pw.toml"
+hash = "e77a34d939f67e93925ef58e10422b5bd66578b045ce48622d238599b651f6f0"
+metafile = true
+
+[[files]]
 file = "mods/structure-gel-api.pw.toml"
 hash = "5dfd5e42573659ad84a5d870082aae38aaa8469aba2655e5b2cb14de4ca4cbdd"
 metafile = true
@@ -6686,11 +6686,6 @@ metafile = true
 [[files]]
 file = "mods/tempad.pw.toml"
 hash = "0296af235a0b02fcfd97237181f1e3723596f3ed15a22b017cc905cea3fd0975"
-metafile = true
-
-[[files]]
-file = "mods/tense-ambience.pw.toml"
-hash = "f02b115143936dadcf852ee62a874dcb817c0882fda1f4cea286c7717bb4fe20"
 metafile = true
 
 [[files]]
