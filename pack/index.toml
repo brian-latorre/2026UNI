@@ -2414,6 +2414,10 @@ file = "emojiful/cache/100-1"
 hash = "5a8b64377c798517fee6caeca092092999e209d128e641c80389bd684888fdf1"
 
 [[files]]
+file = "emojiful/cache/GIGACHAD-1"
+hash = "f9b78c8582a598278e25b63e050fa7340c965808bed737bfa47946bfea1c59f1"
+
+[[files]]
 file = "emojiful/cache/Nerd-1"
 hash = "97365c238a212ed1de6856c529ce67338af896aad7add38c63ca6f5c7a6173df"
 
@@ -3318,10 +3322,6 @@ file = "emojiful/cache/gift_heart-1"
 hash = "2e1f2331d3c63ac5c542a1faf2ed1f4c729de84cab20ee43ea7488422beeec93"
 
 [[files]]
-file = "emojiful/cache/gigachad-1"
-hash = "f9b78c8582a598278e25b63e050fa7340c965808bed737bfa47946bfea1c59f1"
-
-[[files]]
 file = "emojiful/cache/globe_with_meridians-1"
 hash = "171aaddfd22f833db8e15bb9fc073ba9c608a21a66bdb2da3f8595c14331bbbe"
 
@@ -3810,6 +3810,10 @@ file = "emojiful/cache/peepoDJ-1"
 hash = "f17be51b2254b3a88108c0b9266f12bed5648fa1f6d903e528d2ccfdbf81c018"
 
 [[files]]
+file = "emojiful/cache/peepoHey-1"
+hash = "c3d1c0e5eaf4ce5d9a85f32dcd3d1a320b499db0d4594a8fbd70980c01452d8a"
+
+[[files]]
 file = "emojiful/cache/peepoaff-1"
 hash = "be4f2d6b4c491690fd4567ae6362f7ac8aae25202757547672d8d9a151288016"
 
@@ -3836,10 +3840,6 @@ hash = "4e6b4019166e787db893b67bb0439d4a64c47eedb60ae739b2562d19a1b23aaa"
 [[files]]
 file = "emojiful/cache/peepohappy-1"
 hash = "f7a26cb6b078c448ace072dec8b7673f5ea8768e57f787a30200d52e541ac07d"
-
-[[files]]
-file = "emojiful/cache/peepohey-1"
-hash = "c3d1c0e5eaf4ce5d9a85f32dcd3d1a320b499db0d4594a8fbd70980c01452d8a"
 
 [[files]]
 file = "emojiful/cache/peepojuice-1"
