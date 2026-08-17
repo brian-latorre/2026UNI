@@ -15,3 +15,6 @@ desktop.ini
 
 # Ignorar config personal del jugador para SmartKeySync
 config/smartkeysync-client.json
+
+# Ignorar configuracion de renderscale
+config/renderscale.json5

@@ -49,6 +49,14 @@
 				rabbit = true
 				husk = true
 				goat = true
+				bee = true
+				skeleton_horse = true
+				painting = true
+				zombified_piglin = true
+				boat = true
+				experience_orb = true
+				tnt_minecart = true
+				slime = true
 
 			[light_sources.settings.entities.born_in_chaos_v1]
 				baby_spider = true
@@ -92,6 +100,9 @@
 				siamese_skeletonsleft = true
 				thornshell_crab = true
 				supreme_bonescaller = true
+				baby_skeleton_minion = true
+				staffof_magic_arrows_2_projectile = true
+				nightmare_stalker = true
 
 			[light_sources.settings.entities.ad_astra]
 				sulfur_creeper = true
@@ -143,6 +154,12 @@
 				jerboa = true
 				sunbird = true
 				skunk = true
+				enderiophage = true
+				seal = true
+				banana_slug = true
+				tasmanian_devil = true
+				rhinoceros = true
+				leafcutter_ant = true
 
 			[light_sources.settings.entities.wildernature]
 				hedgehog = true
@@ -151,6 +168,7 @@
 				boar = true
 				bison = true
 				cassowary = true
+				raccoon = true
 
 			[light_sources.settings.entities.golemoverhaul]
 				coal_golem = true
@@ -177,6 +195,16 @@
 				koi_fish = true
 				sea_bunny = true
 				dumbo_octopus = true
+				dragonfly = true
+				snail = true
+				stick_bug = true
+				ladybug = true
+				otter = true
+				ferret = true
+				roly_poly = true
+				weevil = true
+				stag_beetle = true
+				jumping_spider = true
 
 			[light_sources.settings.entities.tconstruct]
 				terracube = true
@@ -187,6 +215,7 @@
 			[light_sources.settings.entities.primal]
 				shark = true
 				snake = true
+				bear = true
 
 			[light_sources.settings.entities.peruviansdelight]
 				atun = true
@@ -194,10 +223,34 @@
 			[light_sources.settings.entities.tameablebeasts]
 				tameable_beetle = true
 				ground_beetle = true
+				giant_grasshopper = true
 
 			[light_sources.settings.entities.cataclysm]
 				koboleton = true
+				modern_remnant = true
+				cursed_sandstorm = true
 
 			[light_sources.settings.entities.yungscavebiomes]
 				sand_snapper = true
+
+			[light_sources.settings.entities.botania]
+				mana_burst = true
+
+			[light_sources.settings.entities.create]
+				stationary_contraption = true
+				carriage_contraption = true
+
+			[light_sources.settings.entities.ghosts]
+				kodama = true
+				small_ghost = true
+
+			[light_sources.settings.entities.exposure]
+				photograph_frame = true
+
+			[light_sources.settings.entities.vinery]
+				wandering_winemaker = true
+				mule = true
+
+			[light_sources.settings.entities.tombstone]
+				spectral_wolf = true
 

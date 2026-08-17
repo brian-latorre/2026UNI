@@ -417,16 +417,6 @@
       "modifier": "NONE",
       "forced": false
     },
-    "key.sophisticatedbackpacks.toggle_upgrade_5": {
-      "key": "key.keyboard.unknown",
-      "modifier": "NONE",
-      "forced": false
-    },
-    "key.sophisticatedbackpacks.toggle_upgrade_4": {
-      "key": "key.keyboard.unknown",
-      "modifier": "NONE",
-      "forced": false
-    },
     "key.sophisticatedbackpacks.toggle_upgrade_3": {
       "key": "key.keyboard.unknown",
       "modifier": "NONE",
@@ -438,6 +428,16 @@
       "forced": false
     },
     "key.sophisticatedbackpacks.toggle_upgrade_1": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE",
+      "forced": false
+    },
+    "key.sophisticatedbackpacks.toggle_upgrade_5": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE",
+      "forced": false
+    },
+    "key.sophisticatedbackpacks.toggle_upgrade_4": {
       "key": "key.keyboard.unknown",
       "modifier": "NONE",
       "forced": false
@@ -657,8 +657,18 @@
       "modifier": "NONE",
       "forced": false
     },
-    "key.jei.showUses2": {
+    "key.jei.clearSearchBar": {
       "key": "key.mouse.right",
+      "modifier": "NONE",
+      "forced": false
+    },
+    "key.jei.closeRecipeGui": {
+      "key": "key.keyboard.escape",
+      "modifier": "NONE",
+      "forced": false
+    },
+    "key.jei.previousPage": {
+      "key": "key.keyboard.unknown",
       "modifier": "NONE",
       "forced": false
     },
@@ -667,24 +677,9 @@
       "modifier": "NONE",
       "forced": false
     },
-    "key.jei.toggleOverlay": {
-      "key": "key.keyboard.unknown",
-      "modifier": "NONE",
-      "forced": false
-    },
-    "key.jei.nextPage": {
-      "key": "key.keyboard.unknown",
-      "modifier": "NONE",
-      "forced": false
-    },
-    "key.jei.recipeBack": {
-      "key": "key.keyboard.backspace",
-      "modifier": "NONE",
-      "forced": false
-    },
-    "key.jei.toggleEditMode": {
-      "key": "key.keyboard.unknown",
-      "modifier": "NONE",
+    "key.jei.nextCategory": {
+      "key": "key.keyboard.page.down",
+      "modifier": "SHIFT",
       "forced": false
     },
     "key.jei.toggleHideIngredient": {
@@ -697,39 +692,14 @@
       "modifier": "CONTROL",
       "forced": false
     },
-    "key.jei.shareToChat": {
-      "key": "key.keyboard.unknown",
+    "key.jei.nextRecipePage": {
+      "key": "key.keyboard.page.down",
       "modifier": "NONE",
       "forced": false
     },
-    "key.jei.showRecipe": {
-      "key": "key.keyboard.r",
-      "modifier": "NONE",
-      "forced": false
-    },
-    "key.jei.showBookmarkTooltipFeatures": {
-      "key": "key.keyboard.left.control",
-      "modifier": "NONE",
-      "forced": false
-    },
-    "key.jei.clearSearchBar": {
-      "key": "key.mouse.right",
-      "modifier": "NONE",
-      "forced": false
-    },
-    "key.jei.previousSearch": {
-      "key": "key.keyboard.up",
-      "modifier": "NONE",
-      "forced": false
-    },
-    "key.jei.closeRecipeGui": {
-      "key": "key.keyboard.escape",
-      "modifier": "NONE",
-      "forced": false
-    },
-    "key.jei.cheatOneItem": {
+    "key.jei.toggleCheatModeConfigButton": {
       "key": "key.mouse.left",
-      "modifier": "NONE",
+      "modifier": "CONTROL",
       "forced": false
     },
     "key.jei.toggleCheatMode": {
@@ -737,34 +707,14 @@
       "modifier": "NONE",
       "forced": false
     },
-    "key.jei.cheatOneItem2": {
-      "key": "key.mouse.right",
+    "key.jei.showRecipe2": {
+      "key": "key.mouse.left",
       "modifier": "NONE",
       "forced": false
     },
-    "key.jei.previousCategory": {
-      "key": "key.keyboard.page.up",
+    "key.jei.quickMove": {
+      "key": "key.mouse.left",
       "modifier": "SHIFT",
-      "forced": false
-    },
-    "key.jei.nextCategory": {
-      "key": "key.keyboard.page.down",
-      "modifier": "SHIFT",
-      "forced": false
-    },
-    "key.jei.focusSearch": {
-      "key": "key.keyboard.f",
-      "modifier": "CONTROL",
-      "forced": false
-    },
-    "key.jei.cheatItemStack2": {
-      "key": "key.keyboard.unknown",
-      "modifier": "NONE",
-      "forced": false
-    },
-    "key.jei.toggleBookmarkOverlay": {
-      "key": "key.keyboard.unknown",
-      "modifier": "NONE",
       "forced": false
     },
     "key.jei.showUses": {
@@ -777,8 +727,8 @@
       "modifier": "SHIFT",
       "forced": false
     },
-    "key.jei.nextSearch": {
-      "key": "key.keyboard.down",
+    "key.jei.showRecipe": {
+      "key": "key.keyboard.r",
       "modifier": "NONE",
       "forced": false
     },
@@ -787,13 +737,68 @@
       "modifier": "NONE",
       "forced": false
     },
-    "key.jei.quickMove": {
+    "key.jei.maxTransferRecipeBookmark": {
       "key": "key.mouse.left",
-      "modifier": "SHIFT",
+      "modifier": "CONTROL",
+      "forced": false
+    },
+    "key.jei.toggleOverlay": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE",
+      "forced": false
+    },
+    "key.jei.toggleEditMode": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE",
       "forced": false
     },
     "key.jei.copy.recipe.id": {
       "key": "key.keyboard.unknown",
+      "modifier": "NONE",
+      "forced": false
+    },
+    "key.jei.showUses2": {
+      "key": "key.mouse.right",
+      "modifier": "NONE",
+      "forced": false
+    },
+    "key.jei.toggleBookmarkOverlay": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE",
+      "forced": false
+    },
+    "key.jei.cheatItemStack2": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE",
+      "forced": false
+    },
+    "key.jei.recipeBack": {
+      "key": "key.keyboard.backspace",
+      "modifier": "NONE",
+      "forced": false
+    },
+    "key.jei.nextPage": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE",
+      "forced": false
+    },
+    "key.jei.shareToChat": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE",
+      "forced": false
+    },
+    "key.jei.transferRecipeBookmark": {
+      "key": "key.mouse.left",
+      "modifier": "SHIFT",
+      "forced": false
+    },
+    "key.jei.focusSearch": {
+      "key": "key.keyboard.f",
+      "modifier": "CONTROL",
+      "forced": false
+    },
+    "key.jei.nextSearch": {
+      "key": "key.keyboard.down",
       "modifier": "NONE",
       "forced": false
     },
@@ -802,34 +807,29 @@
       "modifier": "NONE",
       "forced": false
     },
-    "key.jei.previousPage": {
-      "key": "key.keyboard.unknown",
+    "key.jei.showBookmarkTooltipFeatures": {
+      "key": "key.keyboard.left.control",
       "modifier": "NONE",
       "forced": false
     },
-    "key.jei.nextRecipePage": {
-      "key": "key.keyboard.page.down",
+    "key.jei.cheatOneItem2": {
+      "key": "key.mouse.right",
       "modifier": "NONE",
       "forced": false
     },
-    "key.jei.showRecipe2": {
-      "key": "key.mouse.left",
+    "key.jei.previousSearch": {
+      "key": "key.keyboard.up",
       "modifier": "NONE",
       "forced": false
     },
-    "key.jei.toggleCheatModeConfigButton": {
-      "key": "key.mouse.left",
-      "modifier": "CONTROL",
-      "forced": false
-    },
-    "key.jei.transferRecipeBookmark": {
-      "key": "key.mouse.left",
+    "key.jei.previousCategory": {
+      "key": "key.keyboard.page.up",
       "modifier": "SHIFT",
       "forced": false
     },
-    "key.jei.maxTransferRecipeBookmark": {
+    "key.jei.cheatOneItem": {
       "key": "key.mouse.left",
-      "modifier": "CONTROL",
+      "modifier": "NONE",
       "forced": false
     },
     "gui.xaero_minimap_settings": {
@@ -1380,7 +1380,7 @@
   },
   "backups": [
     {
-      "timestamp": 1786493345642,
+      "timestamp": 1786828766771,
       "reason": "Sincronización a v3",
       "keybinds": {
         "key.attack": {
@@ -1798,17 +1798,17 @@
           "modifier": "NONE",
           "forced": false
         },
-        "key.sophisticatedbackpacks.toggle_upgrade_2": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
         "key.sophisticatedbackpacks.toggle_upgrade_3": {
           "key": "key.keyboard.unknown",
           "modifier": "NONE",
           "forced": false
         },
-        "key.sophisticatedbackpacks.toggle_upgrade_4": {
+        "key.sophisticatedbackpacks.toggle_upgrade_2": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sophisticatedbackpacks.toggle_upgrade_1": {
           "key": "key.keyboard.unknown",
           "modifier": "NONE",
           "forced": false
@@ -1818,7 +1818,7 @@
           "modifier": "NONE",
           "forced": false
         },
-        "key.sophisticatedbackpacks.toggle_upgrade_1": {
+        "key.sophisticatedbackpacks.toggle_upgrade_4": {
           "key": "key.keyboard.unknown",
           "modifier": "NONE",
           "forced": false
@@ -1869,16 +1869,6 @@
           "forced": false
         },
         "key.inmis.open_backpack": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.presencefootsteps.settings": {
-          "key": "key.keyboard.f10",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.presencefootsteps.toggle": {
           "key": "key.keyboard.unknown",
           "modifier": "NONE",
           "forced": false
@@ -2048,39 +2038,29 @@
           "modifier": "NONE",
           "forced": false
         },
-        "key.jei.showRecipe": {
-          "key": "key.keyboard.r",
-          "modifier": "NONE",
-          "forced": false
-        },
         "key.jei.showUses2": {
           "key": "key.mouse.right",
           "modifier": "NONE",
           "forced": false
         },
-        "key.jei.cheatItemStack": {
+        "key.jei.shareToChat": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.copy.recipe.id": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.maxTransferRecipeBookmark": {
           "key": "key.mouse.left",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.jei.toggleEditMode": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.toggleOverlay": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
+          "modifier": "CONTROL",
           "forced": false
         },
         "key.jei.showUses": {
           "key": "key.keyboard.u",
           "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.toggleHideIngredient": {
-          "key": "key.mouse.left",
-          "modifier": "CONTROL",
           "forced": false
         },
         "key.jei.previousSearch": {
@@ -2093,23 +2073,8 @@
           "modifier": "SHIFT",
           "forced": false
         },
-        "key.jei.transferRecipeBookmark": {
+        "key.jei.showRecipe2": {
           "key": "key.mouse.left",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.jei.maxTransferRecipeBookmark": {
-          "key": "key.mouse.left",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.jei.toggleCheatMode": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.cheatOneItem2": {
-          "key": "key.mouse.right",
           "modifier": "NONE",
           "forced": false
         },
@@ -2118,28 +2083,8 @@
           "modifier": "NONE",
           "forced": false
         },
-        "key.jei.nextCategory": {
+        "key.jei.nextRecipePage": {
           "key": "key.keyboard.page.down",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.jei.previousRecipePage": {
-          "key": "key.keyboard.page.up",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.nextPage": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.showRecipe2": {
-          "key": "key.mouse.left",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.nextSearch": {
-          "key": "key.keyboard.down",
           "modifier": "NONE",
           "forced": false
         },
@@ -2148,24 +2093,9 @@
           "modifier": "NONE",
           "forced": false
         },
-        "key.jei.closeRecipeGui": {
-          "key": "key.keyboard.escape",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.focusSearch": {
-          "key": "key.keyboard.f",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.jei.bookmark": {
-          "key": "key.keyboard.a",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.nextRecipePage": {
+        "key.jei.nextCategory": {
           "key": "key.keyboard.page.down",
-          "modifier": "NONE",
+          "modifier": "SHIFT",
           "forced": false
         },
         "key.jei.cheatItemStack2": {
@@ -2173,19 +2103,14 @@
           "modifier": "NONE",
           "forced": false
         },
-        "key.jei.toggleWildcardHideIngredient": {
-          "key": "key.mouse.right",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.jei.previousPage": {
+        "key.jei.toggleEditMode": {
           "key": "key.keyboard.unknown",
           "modifier": "NONE",
           "forced": false
         },
-        "key.jei.toggleCheatModeConfigButton": {
-          "key": "key.mouse.left",
-          "modifier": "CONTROL",
+        "key.jei.bookmark": {
+          "key": "key.keyboard.a",
+          "modifier": "NONE",
           "forced": false
         },
         "key.jei.recipeBack": {
@@ -2198,7 +2123,92 @@
           "modifier": "NONE",
           "forced": false
         },
-        "key.jei.copy.recipe.id": {
+        "key.jei.toggleHideIngredient": {
+          "key": "key.mouse.left",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.jei.nextSearch": {
+          "key": "key.keyboard.down",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.showRecipe": {
+          "key": "key.keyboard.r",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.toggleWildcardHideIngredient": {
+          "key": "key.mouse.right",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.jei.toggleOverlay": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.cheatItemStack": {
+          "key": "key.mouse.left",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.jei.toggleCheatMode": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.transferRecipeBookmark": {
+          "key": "key.mouse.left",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.jei.quickMove": {
+          "key": "key.mouse.left",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.jei.showBookmarkTooltipFeatures": {
+          "key": "key.keyboard.left.control",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.toggleCheatModeConfigButton": {
+          "key": "key.mouse.left",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.jei.closeRecipeGui": {
+          "key": "key.keyboard.escape",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.focusSearch": {
+          "key": "key.keyboard.f",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.jei.previousRecipePage": {
+          "key": "key.keyboard.page.up",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.pauseRecipeCycling": {
+          "key": "key.keyboard.left.shift",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.cheatOneItem2": {
+          "key": "key.mouse.right",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.previousPage": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.nextPage": {
           "key": "key.keyboard.unknown",
           "modifier": "NONE",
           "forced": false
@@ -2752,7 +2762,7 @@
       "shielded": []
     },
     {
-      "timestamp": 1786587831398,
+      "timestamp": 1786829379738,
       "reason": "Sincronización a v3",
       "keybinds": {
         "key.attack": {
@@ -3170,17 +3180,7 @@
           "modifier": "NONE",
           "forced": false
         },
-        "key.sophisticatedbackpacks.toggle_upgrade_5": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sophisticatedbackpacks.toggle_upgrade_4": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sophisticatedbackpacks.toggle_upgrade_3": {
+        "key.sophisticatedbackpacks.toggle_upgrade_1": {
           "key": "key.keyboard.unknown",
           "modifier": "NONE",
           "forced": false
@@ -3190,7 +3190,17 @@
           "modifier": "NONE",
           "forced": false
         },
-        "key.sophisticatedbackpacks.toggle_upgrade_1": {
+        "key.sophisticatedbackpacks.toggle_upgrade_3": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sophisticatedbackpacks.toggle_upgrade_4": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sophisticatedbackpacks.toggle_upgrade_5": {
           "key": "key.keyboard.unknown",
           "modifier": "NONE",
           "forced": false
@@ -3410,103 +3420,8 @@
           "modifier": "NONE",
           "forced": false
         },
-        "key.jei.recipeBack": {
-          "key": "key.keyboard.backspace",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.clearSearchBar": {
-          "key": "key.mouse.right",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.focusSearch": {
-          "key": "key.keyboard.f",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.jei.nextSearch": {
-          "key": "key.keyboard.down",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.toggleEditMode": {
+        "key.jei.toggleCheatMode": {
           "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.cheatOneItem2": {
-          "key": "key.mouse.right",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.cheatItemStack2": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.nextRecipePage": {
-          "key": "key.keyboard.page.down",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.shareToChat": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.previousCategory": {
-          "key": "key.keyboard.page.up",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.jei.previousRecipePage": {
-          "key": "key.keyboard.page.up",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.showRecipe2": {
-          "key": "key.mouse.left",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.quickMove": {
-          "key": "key.mouse.left",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.jei.nextCategory": {
-          "key": "key.keyboard.page.down",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.jei.toggleOverlay": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.bookmark": {
-          "key": "key.keyboard.a",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.copy.recipe.id": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.showRecipe": {
-          "key": "key.keyboard.r",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.showUses": {
-          "key": "key.keyboard.u",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.closeRecipeGui": {
-          "key": "key.keyboard.escape",
           "modifier": "NONE",
           "forced": false
         },
@@ -3515,14 +3430,49 @@
           "modifier": "NONE",
           "forced": false
         },
-        "key.jei.maxTransferRecipeBookmark": {
-          "key": "key.mouse.left",
+        "key.jei.toggleOverlay": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.closeRecipeGui": {
+          "key": "key.keyboard.escape",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.nextPage": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.showBookmarkTooltipFeatures": {
+          "key": "key.keyboard.left.control",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.shareToChat": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.toggleWildcardHideIngredient": {
+          "key": "key.mouse.right",
           "modifier": "CONTROL",
           "forced": false
         },
-        "key.jei.pauseRecipeCycling": {
-          "key": "key.keyboard.left.shift",
+        "key.jei.nextSearch": {
+          "key": "key.keyboard.down",
           "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.cheatOneItem": {
+          "key": "key.mouse.left",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.cheatItemStack": {
+          "key": "key.mouse.left",
+          "modifier": "SHIFT",
           "forced": false
         },
         "key.jei.toggleCheatModeConfigButton": {
@@ -3535,24 +3485,9 @@
           "modifier": "NONE",
           "forced": false
         },
-        "key.jei.toggleHideIngredient": {
-          "key": "key.mouse.left",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.jei.toggleWildcardHideIngredient": {
-          "key": "key.mouse.right",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.jei.transferRecipeBookmark": {
-          "key": "key.mouse.left",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.jei.cheatItemStack": {
-          "key": "key.mouse.left",
-          "modifier": "SHIFT",
+        "key.jei.nextRecipePage": {
+          "key": "key.keyboard.page.down",
+          "modifier": "NONE",
           "forced": false
         },
         "key.jei.toggleBookmarkOverlay": {
@@ -3560,28 +3495,103 @@
           "modifier": "NONE",
           "forced": false
         },
-        "key.jei.showBookmarkTooltipFeatures": {
-          "key": "key.keyboard.left.control",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.nextPage": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.toggleCheatMode": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.cheatOneItem": {
+        "key.jei.quickMove": {
           "key": "key.mouse.left",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.jei.copy.recipe.id": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.focusSearch": {
+          "key": "key.keyboard.f",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.jei.clearSearchBar": {
+          "key": "key.mouse.right",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.nextCategory": {
+          "key": "key.keyboard.page.down",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.jei.showRecipe2": {
+          "key": "key.mouse.left",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.toggleHideIngredient": {
+          "key": "key.mouse.left",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.jei.previousRecipePage": {
+          "key": "key.keyboard.page.up",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.previousCategory": {
+          "key": "key.keyboard.page.up",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.jei.cheatOneItem2": {
+          "key": "key.mouse.right",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.recipeBack": {
+          "key": "key.keyboard.backspace",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.maxTransferRecipeBookmark": {
+          "key": "key.mouse.left",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.jei.cheatItemStack2": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.showUses": {
+          "key": "key.keyboard.u",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.showRecipe": {
+          "key": "key.keyboard.r",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.toggleEditMode": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.transferRecipeBookmark": {
+          "key": "key.mouse.left",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.jei.pauseRecipeCycling": {
+          "key": "key.keyboard.left.shift",
           "modifier": "NONE",
           "forced": false
         },
         "key.jei.previousPage": {
           "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.bookmark": {
+          "key": "key.keyboard.a",
           "modifier": "NONE",
           "forced": false
         },
@@ -4134,7 +4144,7 @@
       "shielded": []
     },
     {
-      "timestamp": 1786588810547,
+      "timestamp": 1786829723548,
       "reason": "Sincronización a v3",
       "keybinds": {
         "key.attack": {
@@ -4552,16 +4562,6 @@
           "modifier": "NONE",
           "forced": false
         },
-        "key.sophisticatedbackpacks.toggle_upgrade_5": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sophisticatedbackpacks.toggle_upgrade_4": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
         "key.sophisticatedbackpacks.toggle_upgrade_3": {
           "key": "key.keyboard.unknown",
           "modifier": "NONE",
@@ -4573,6 +4573,16 @@
           "forced": false
         },
         "key.sophisticatedbackpacks.toggle_upgrade_1": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sophisticatedbackpacks.toggle_upgrade_5": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sophisticatedbackpacks.toggle_upgrade_4": {
           "key": "key.keyboard.unknown",
           "modifier": "NONE",
           "forced": false
@@ -4792,8 +4802,18 @@
           "modifier": "NONE",
           "forced": false
         },
-        "key.jei.showUses2": {
+        "key.jei.clearSearchBar": {
           "key": "key.mouse.right",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.closeRecipeGui": {
+          "key": "key.keyboard.escape",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.previousPage": {
+          "key": "key.keyboard.unknown",
           "modifier": "NONE",
           "forced": false
         },
@@ -4802,24 +4822,9 @@
           "modifier": "NONE",
           "forced": false
         },
-        "key.jei.toggleOverlay": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.nextPage": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.recipeBack": {
-          "key": "key.keyboard.backspace",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.toggleEditMode": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
+        "key.jei.nextCategory": {
+          "key": "key.keyboard.page.down",
+          "modifier": "SHIFT",
           "forced": false
         },
         "key.jei.toggleHideIngredient": {
@@ -4832,39 +4837,14 @@
           "modifier": "CONTROL",
           "forced": false
         },
-        "key.jei.shareToChat": {
-          "key": "key.keyboard.unknown",
+        "key.jei.nextRecipePage": {
+          "key": "key.keyboard.page.down",
           "modifier": "NONE",
           "forced": false
         },
-        "key.jei.showRecipe": {
-          "key": "key.keyboard.r",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.showBookmarkTooltipFeatures": {
-          "key": "key.keyboard.left.control",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.clearSearchBar": {
-          "key": "key.mouse.right",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.previousSearch": {
-          "key": "key.keyboard.up",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.closeRecipeGui": {
-          "key": "key.keyboard.escape",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.cheatOneItem": {
+        "key.jei.toggleCheatModeConfigButton": {
           "key": "key.mouse.left",
-          "modifier": "NONE",
+          "modifier": "CONTROL",
           "forced": false
         },
         "key.jei.toggleCheatMode": {
@@ -4872,34 +4852,14 @@
           "modifier": "NONE",
           "forced": false
         },
-        "key.jei.cheatOneItem2": {
-          "key": "key.mouse.right",
+        "key.jei.showRecipe2": {
+          "key": "key.mouse.left",
           "modifier": "NONE",
           "forced": false
         },
-        "key.jei.previousCategory": {
-          "key": "key.keyboard.page.up",
+        "key.jei.quickMove": {
+          "key": "key.mouse.left",
           "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.jei.nextCategory": {
-          "key": "key.keyboard.page.down",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.jei.focusSearch": {
-          "key": "key.keyboard.f",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.jei.cheatItemStack2": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.toggleBookmarkOverlay": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
           "forced": false
         },
         "key.jei.showUses": {
@@ -4912,8 +4872,8 @@
           "modifier": "SHIFT",
           "forced": false
         },
-        "key.jei.nextSearch": {
-          "key": "key.keyboard.down",
+        "key.jei.showRecipe": {
+          "key": "key.keyboard.r",
           "modifier": "NONE",
           "forced": false
         },
@@ -4922,13 +4882,68 @@
           "modifier": "NONE",
           "forced": false
         },
-        "key.jei.quickMove": {
+        "key.jei.maxTransferRecipeBookmark": {
           "key": "key.mouse.left",
-          "modifier": "SHIFT",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.jei.toggleOverlay": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.toggleEditMode": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
           "forced": false
         },
         "key.jei.copy.recipe.id": {
           "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.showUses2": {
+          "key": "key.mouse.right",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.toggleBookmarkOverlay": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.cheatItemStack2": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.recipeBack": {
+          "key": "key.keyboard.backspace",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.nextPage": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.shareToChat": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.transferRecipeBookmark": {
+          "key": "key.mouse.left",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.jei.focusSearch": {
+          "key": "key.keyboard.f",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.jei.nextSearch": {
+          "key": "key.keyboard.down",
           "modifier": "NONE",
           "forced": false
         },
@@ -4937,34 +4952,29 @@
           "modifier": "NONE",
           "forced": false
         },
-        "key.jei.previousPage": {
-          "key": "key.keyboard.unknown",
+        "key.jei.showBookmarkTooltipFeatures": {
+          "key": "key.keyboard.left.control",
           "modifier": "NONE",
           "forced": false
         },
-        "key.jei.nextRecipePage": {
-          "key": "key.keyboard.page.down",
+        "key.jei.cheatOneItem2": {
+          "key": "key.mouse.right",
           "modifier": "NONE",
           "forced": false
         },
-        "key.jei.showRecipe2": {
-          "key": "key.mouse.left",
+        "key.jei.previousSearch": {
+          "key": "key.keyboard.up",
           "modifier": "NONE",
           "forced": false
         },
-        "key.jei.toggleCheatModeConfigButton": {
-          "key": "key.mouse.left",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.jei.transferRecipeBookmark": {
-          "key": "key.mouse.left",
+        "key.jei.previousCategory": {
+          "key": "key.keyboard.page.up",
           "modifier": "SHIFT",
           "forced": false
         },
-        "key.jei.maxTransferRecipeBookmark": {
+        "key.jei.cheatOneItem": {
           "key": "key.mouse.left",
-          "modifier": "CONTROL",
+          "modifier": "NONE",
           "forced": false
         },
         "gui.xaero_minimap_settings": {

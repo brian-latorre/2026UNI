@@ -10,7 +10,7 @@ hash = "d86beab1176c367beeed3b8fb8a2a8dfbd8a1db7293f067c01bc38c73020e398"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "f44b452d6e96bf7aaec47f22c653ce7c7585f7093ba3cab6c79e3a9814cb4d79"
+hash = "45826f88f64190937edb5a21917f0f424cb19a20af6b9c76235f3b550e2884cf"
 preserve = true
 
 [[files]]
@@ -587,7 +587,7 @@ hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
 
 [[files]]
 file = "config/biomeswevegone/world_generation.json"
-hash = "5ab08dae537d43aef3f217e3a7a17608d39f1be082960fe4abd545d0697a72dc"
+hash = "50b760ffbc0d9d309063b8a59249498455584732d46e4e8b45bf45bdfa148678"
 
 [[files]]
 file = "config/blue_skies-client.toml"
@@ -742,7 +742,11 @@ file = "config/creeperoverhaul.jsonc"
 hash = "9d870b28f9a1479f952f258f7f01aebceb17fdc78c23014469c8ac055fad9bbb"
 
 [[files]]
-file = "config/crittersandcompanions-common.toml"
+file = "config/crittersandcompanions-common.json5"
+hash = "693ec9ac2dbf9e4446897f06ddb183c1db3c8020654e9807245a2400edb960a7"
+
+[[files]]
+file = "config/crittersandcompanions-common.toml.old"
 hash = "f5de51f8729c971f1b41872bab965d7a6a45b29111d8d9e1340fbca1e4ef0e4f"
 
 [[files]]
@@ -818,20 +822,27 @@ file = "config/dynamictrees-common.toml"
 hash = "e3640664cf92444f5c8e99bece26f4bd4c2b32408df286f94ae76cdef9082a2f"
 
 [[files]]
+file = "config/dynamictreesplus-common.toml"
+hash = "ea9a844c165122bbf0503251fc7caa8f369fc3125a7c41891e3f5116a8b6291d"
+
+[[files]]
 file = "config/easy_mob_spawn_control-common.toml"
 hash = "85f58a7390cc79c6652492f957278689ccc6ce03b251290432ec89295e759b08"
 
 [[files]]
 file = "config/embeddium-fingerprint.json"
 hash = "29f8daa64a4bdcb1e27a49951a54e1094c288dbf7438d1ceb93cb7eb863b8b15"
+preserve = true
 
 [[files]]
 file = "config/embeddium-mixins.properties"
 hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
+preserve = true
 
 [[files]]
 file = "config/embeddium-options.json"
 hash = "22143330318b63f8bbc8fb12e7c0c67ce4a13e100166cc15dfbf52b4e08747d4"
+preserve = true
 
 [[files]]
 file = "config/emojiful-client.toml"
@@ -887,7 +898,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "417d4c2e97ead2b030a79c3822a467a46d5d63ba4aea0d1f62dc9c9def10ee86"
+hash = "a7ac4377834f3bf9d844a5110c8d986d5b2295df05b30e58542af37cbb03d063"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1399,7 +1410,7 @@ hash = "3ca754fefc49ea02e5203353bc3390e520e6717dd8b148aa07042f0b48a78621"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "f52b04bfbfa63c4ebd5215862f9802f3b2b2f2fb472610b660f6323b73110d33"
+hash = "993e7f0a13af129c8eb74611d734193705d98eb6bdc6e1940b72f16c2729228b"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1407,7 +1418,7 @@ hash = "08a28c18a24eced00d5ea31438e7d2a595657cc5cd66e3dba53a1daf3a498021"
 
 [[files]]
 file = "config/jei/jei-client.ini"
-hash = "81a4c0cc00af53c56f8c5d321a85edf21ebcead9d02982a942f6617e5ad0741c"
+hash = "87a76dc4ca765111589e1bea6972fae76fb483431b5b24c3ede1651a2b4caa33"
 
 [[files]]
 file = "config/jei/jei-colors.ini"
@@ -1515,7 +1526,7 @@ hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
 [[files]]
 file = "config/mcreator_mem_fix.json"
-hash = "a8bd765210b4443e40d4903c859c2ea6ca1b8ba950edd55278934b3f8d3224dd"
+hash = "8f492cef24021a039ecf7a7b6ec2106868abacb0961cf3b2151b28ed2dfe21c2"
 
 [[files]]
 file = "config/mobplayeranimator/client.json5"
@@ -1575,7 +1586,7 @@ hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "09805f436f4ea8479247a2178246188fb356591c6dca35507717593a720266d1"
+hash = "d316f472b6ccfd1680f7f64b98499a82faab284f24b9975d32cd9d29106f3513"
 preserve = true
 
 [[files]]
@@ -1691,10 +1702,6 @@ file = "config/relics.yaml"
 hash = "4411078ac8d2107482e0f717576b1d9e1fa6c0938d11135a2541f4d8c2518278"
 
 [[files]]
-file = "config/renderscale.json5"
-hash = "adcd5ed15cb62dd8eb4f524d1ee88d7d11671b065ba9e5da319a341384b57e9e"
-
-[[files]]
 file = "config/repo-heads.client.json"
 hash = "8a3542091a65cd76df821e463d99a1528933d07c1203eed61e08223529bf39ff"
 
@@ -1720,7 +1727,7 @@ hash = "6d329122279318bc4d91c27038ed6a7c712f55f32760cdb516c23c7744228b41"
 
 [[files]]
 file = "config/ryoamiclights.toml"
-hash = "b611566fd0ec35f56c6a94054c6f523697293cdd4ba603207a24c62d08a4c5a7"
+hash = "10f44b44a344bfb689352bc1d315608b98b6e0edc34a3331ebaf11fe8cbbb1fb"
 
 [[files]]
 file = "config/saturn-optimizations.toml"
@@ -1756,7 +1763,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "801c1fbc5ca1eb38dfd69887be02a0386014e6c576c6124823eca6c307041abe"
+hash = "4ced613b674ff89e8c306151a12ea2b67c3cbdd7e282ec2ef6dab3fdfb11a141"
 
 [[files]]
 file = "config/simplehats.json"
@@ -1784,7 +1791,7 @@ hash = "ac1a4e660c8a567b4c945962d063eeced1a0040615214ea4aebb947ff6af7d33"
 
 [[files]]
 file = "config/smartkeysync/client.json"
-hash = "f17c11de19cdb5c05f9d3498adcbfdd9c9d63c86b0e6c8dce6d7f01d3bd18ff4"
+hash = "d3c3a91eb8f8aa13cbecc8f1c68d4977b0eced137c142946d3001c84d04a317e"
 
 [[files]]
 file = "config/smartkeysync/master.json"
@@ -1859,6 +1866,178 @@ file = "config/storagedrawers-common.v2.toml"
 hash = "e42ed583bb9541c6b7241248b238b71c25db5ba691d5e62ce40e1675932a674a"
 
 [[files]]
+file = "config/streamsreflowing-client.toml"
+hash = "87b133a212682f78274b464ccfefa6234cfd39de1b1d4737a10ef30ea9d66843"
+
+[[files]]
+file = "config/streamsreflowing-common.toml"
+hash = "5f8ca4b6cfaadef4e6ee4b2d65145e9bec54373ddad281a6d2c66515295d178c"
+
+[[files]]
+file = "config/streamsreflowing/bank_features/GUIDE.md"
+hash = "75d0b406ce8df997c7206366bae47ea6056ab09fb67a648cdd76abeec6fea25c"
+
+[[files]]
+file = "config/streamsreflowing/bank_features/README.md"
+hash = "8981be62ff4117e2a6d44382f4841dbdb28d1eac6c217750a2fce2fba6539d03"
+
+[[files]]
+file = "config/streamsreflowing/bank_features/examples/example.json"
+hash = "e9afd621ecc1dd51c5c233446a605bbfa37b69661d3524f0032c3c039d5f19e2"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/GUIDE.md"
+hash = "75d0b406ce8df997c7206366bae47ea6056ab09fb67a648cdd76abeec6fea25c"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/README.md"
+hash = "531d73a174eeb6b1a5815cfcefccbc590a11f919e5927836ac3fec46c0f0b3ef"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/badlands.json"
+hash = "6ac836cd5a471dc79b05c719eafd0019cfc8b320701a0c10bc7006e30a529d2d"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/beach.json"
+hash = "e1182420a8e49004772eca4120f8fbf539275abe137cf4f83acd4e81477201bb"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/cherry_grove.json"
+hash = "ddbc33f2eb27eef29743c9ea31758448f19e634c53b97ba8a745e312bbde8d0f"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/climate_dry.json"
+hash = "95cf6f8dd88bc47c73b153b8a7c3f280964f917d3ca2e02ebedaf86422843b23"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/climate_sandy.json"
+hash = "a13974797acdb27b491dd4b3e1710045128985585dda06648e28688596d50b15"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/climate_snowy.json"
+hash = "33d1bce434257a3b4cf024b35d5d751114cd4f818bb0d386d0737bd50d7c1586"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/climate_wet.json"
+hash = "ba6a4731732ff5b2ee2c6fa47aef61fec80725606fc391ccf4930680be33fffd"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/dark_forest.json"
+hash = "e1955a523e2d7cffee29d714634c7b011be968e44e6b9209f27ef0b10f3137fc"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/deciduous.json"
+hash = "c67b508fcbe77bc8081b26a464352fdaa559256a029bb6b1f7623179aec0bfe4"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/default.json"
+hash = "d62d9c9d34c45ef21c537904e604640087ef23e36fa3e630db3a4a4569a796ed"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/desert.json"
+hash = "ec3e0c1cfd383d3e5c251b13850c46c0c768e1fe70b1bf49f5743cb1a43377d0"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/forest.json"
+hash = "c85aca53943218ba6f3f4a471c53149e3593de81684be2fbc24abc4e09f1926d"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/frozen_river.json"
+hash = "2a3e80cf0eb45f490f6880cbc9b32275f1f7b29ddef7590954a92de9b508e96d"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/jungle.json"
+hash = "1180134e5798fc2d93dbe3cefbfe6cbe8b32f5498d24617475644be880c2fafa"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/mangrove_swamp.json"
+hash = "891036c4e9aa869a89d9bea3dccf9984091ff9691474b157c1b137e925847b91"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/meadow.json"
+hash = "7dc92461606fb48015728a36c046ec9590fc2446153942f9aca919d5dc3e5702"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/mushroom_fields.json"
+hash = "9f738679d885496620caa9e048c98d25a12c5e7c5bf1d9cde306efe37c6049a4"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/ocean.json"
+hash = "9a0147f3abe2fb3811119d569c1984b50b561ce42f001c08cfcb22e8d029d088"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/ocean_c.json"
+hash = "17487c3c806ec4af27636b9acdd9b2692b28f931d8596422ad9289e795fb07ca"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/ocean_cold.json"
+hash = "23f3abd9013ac79d7394427939fbf32f1a52232fa4c8618d8ac904f1241dabcf"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/ocean_deep.json"
+hash = "9f0474df28e7d2fe8e18aeefdd8faa38f1635c4aaa5e50b9bbf6cfaa9fa783c2"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/ocean_frozen.json"
+hash = "4d587276744201c1eff86bbee8c3cbcd73332510e51acd7c9610150b0ae56cfa"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/ocean_warm.json"
+hash = "29e40aaf9e485ae0388828029adff8d16d76a2c03fff68e74158c3a522ea82d2"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/plains.json"
+hash = "12032898ae88a532d9df8c54e8531ddfe42924f533981452a1a6cc4cc7fc8100"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/plains_c.json"
+hash = "14b6458df7fb60680df07a6b28d963556b5033af81bd58513aecf6bee87158c4"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/river.json"
+hash = "88e5cb0cde595bd8c7c378f7b750c9916703d9227f0dd48fd0b339ebc46a133a"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/river_c.json"
+hash = "a1e12a2eabde663ae97405a275b34027e42c5eed55a8dc1d01929edcf5a83172"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/savanna.json"
+hash = "7eb8a43b645070498af12920d9ba9d13b6b00bfc8d4ef7e8ef8bf4ae0b22caca"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/snowy.json"
+hash = "2a27e4b271abc47f381b7cd791d76413ed61ddc8131212036f5d596ada72038a"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/snowy_beach.json"
+hash = "85cbe5013850f1365924d21abfc88879af4703ab3dba481f3e8af6c25f12b103"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/stony_peaks.json"
+hash = "7f6fd1cf5ba950720f3989c2b413b56fb08553371f869b3ecc95334f5fd23e3c"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/stony_shore.json"
+hash = "a949350f4d67f3775b10039cacda045cfead2a420a9f6156f526c2b46f6bc6a5"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/swamp.json"
+hash = "c6efb0c50eb097e62b46c8cf9393cbb06c52c9101930b1d4d686e0890bac074b"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/taiga.json"
+hash = "d584568b977860c13d006aafa4030cb35d0bb8e1664ce51eb1c4e011be0182c8"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/taiga_c.json"
+hash = "55efcbd407bff0f4e89be7932fc80cc5d918527465666943aa736d9d981acd09"
+
+[[files]]
+file = "config/streamsreflowing/bank_styles/examples/windswept.json"
+hash = "224cc281433f1433f5442993aca672caabb4adbadb395363a3df9e3639d66e03"
+
+[[files]]
 file = "config/structure_gel-client.toml"
 hash = "8058ecb1b7e59f183db54b31fe49e2040bc222294a46ba5c7c82a172a7277354"
 
@@ -1876,7 +2055,7 @@ hash = "f1de61720b395692d013c134a8d3b197c80861c073393740cea10a1b2c07c0ac"
 
 [[files]]
 file = "config/subtle_effects/environment.toml"
-hash = "fe134788853fe6187f16c6ae5fea10574520317bfe685f0db7a699133f4ff364"
+hash = "34905acdc7147b4a00c53b06161b4d45d5b2bdf1ab88bd41a66729d2647c0039"
 
 [[files]]
 file = "config/subtle_effects/general.toml"
@@ -2144,7 +2323,7 @@ hash = "e614d9367c183f482bafc627bbd9f99e791568d137f026961a105a68c1bacc1e"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/changes.cfg.json"
-hash = "cae66852b69ae137bfdd8bc45ddd8703d7dde5163f76e72850c0f821c6279284"
+hash = "a177ec1ae7d4f18a8ce07f8ef02435db37841ee1e07a00d13bd9e26c1e758f84"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
@@ -5332,7 +5511,7 @@ hash = "6db2897ba1a15afb51ae14050bdde39e91f2236b178c1162f2fdd657ec38960b"
 
 [[files]]
 file = "fancymenu_data/last_world.fmdata"
-hash = "80f420829c2b9450c03767f22bc65ccebd0e0409c507130a996faac96ec31083"
+hash = "6455b307b2f298476f87dd03340c8d707a56def2eec972f6076b32aad052e11e"
 
 [[files]]
 file = "mods/.gitkeep"
@@ -7175,6 +7354,10 @@ hash = "5f8ac68392c87a85fbbc102ca4f01b23064272823eb46c73dd2254fa88a77c9a"
 file = "shaderpacks/ComplementaryReimagined_r5.6.1.txt"
 hash = "1bc2beb5207f1dedc403cb6029aff19ebb956bd71ba600120fc96babe9e777fa"
 preserve = true
+
+[[files]]
+file = "shaderpacks/LegendaryAtmosphere_v2.5.zip"
+hash = "27c2c0637f6b2a7315b70e2cb522563f13f6478fa3511db7193bebc98f270e9c"
 
 [[files]]
 file = "showdown/config/config-example.js"
