@@ -160,6 +160,7 @@
 				tasmanian_devil = true
 				rhinoceros = true
 				leafcutter_ant = true
+				orca = true
 
 			[light_sources.settings.entities.wildernature]
 				hedgehog = true

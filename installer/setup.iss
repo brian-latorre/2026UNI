@@ -117,6 +117,7 @@ Source: "..\Reparar Juego.bat"; DestDir: "{app}"; Flags: ignoreversion
 
 ; --- App Icon ---
 Source: "..\icon.ico"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\server-icon.ico"; DestDir: "{app}"; Flags: ignoreversion
 
 ; ============================================
 ; EJECUCIÃƒâ€œN POST-INSTALACIÃƒâ€œN
@@ -148,6 +149,7 @@ Filename: "{app}\PineconeMC\elyprismlauncher.exe"; \
 Name: "{userdesktop}\2026UNI"; \
     Filename: "{app}\PineconeMC\elyprismlauncher.exe"; \
     Parameters: "-l ""2026UNI"""; \
+    IconFilename: "{app}\server-icon.ico"; \
     WorkingDir: "{app}\PineconeMC"; \
     Comment: "Jugar 2026UNI 🚀 Minecraft 1.20.1"; \
     Tasks: desktopicon
@@ -164,6 +166,7 @@ Name: "{userdesktop}\Reparar 2026UNI"; \
 Name: "{group}\2026UNI"; \
     Filename: "{app}\PineconeMC\elyprismlauncher.exe"; \
     Parameters: "-l ""2026UNI"""; \
+    IconFilename: "{app}\server-icon.ico"; \
     WorkingDir: "{app}\PineconeMC"; \
     Comment: "Jugar 2026UNI â€” Minecraft 1.20.1"
 
@@ -255,7 +258,7 @@ begin
     CfgContent := CfgContent + 'JavaPath=' + JavaPath + #13#10;
     CfgContent := CfgContent + #13#10;
     CfgContent := CfgContent + 'OverrideMemory=true' + #13#10;
-    CfgContent := CfgContent + 'MinMemAlloc=5120' + #13#10;
+    CfgContent := CfgContent + 'MinMemAlloc=3072' + #13#10;
     CfgContent := CfgContent + 'MaxMemAlloc=5120' + #13#10;
     CfgContent := CfgContent + 'LowMemWarning=false' + #13#10;
     CfgContent := CfgContent + #13#10;
@@ -277,7 +280,7 @@ begin
     PrismContent := PrismContent + 'JavaPath=' + JavaPath + #13#10;
     PrismContent := PrismContent + 'Language=es_ES' + #13#10;
     PrismContent := PrismContent + 'MaxMemAlloc=5120' + #13#10;
-    PrismContent := PrismContent + 'MinMemAlloc=5120' + #13#10;
+    PrismContent := PrismContent + 'MinMemAlloc=3072' + #13#10;
     PrismContent := PrismContent + 'LastHostname=2026UNI' + #13#10;
     PrismContent := PrismContent + 'GarbageCollectorPreset=None' + #13#10;
     PrismContent := PrismContent + 'UseOptimizedJvmArgs=false' + #13#10;

@@ -10,12 +10,32 @@ hash = "d86beab1176c367beeed3b8fb8a2a8dfbd8a1db7293f067c01bc38c73020e398"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "45826f88f64190937edb5a21917f0f424cb19a20af6b9c76235f3b550e2884cf"
+hash = "72a8ed7195fb666f0a2126a395f8d3f2f6c8dfd89b3c1dd62983af43f1db3072"
 preserve = true
 
 [[files]]
 file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
+
+[[files]]
+file = "config/NoChatReports/NCR-Client.json"
+hash = "edfe78d985fe67dce28104f3d87673e94c89134144451c291ecedcd2e2c3b480"
+
+[[files]]
+file = "config/NoChatReports/NCR-Common.json"
+hash = "0eaad2630bd70ade719f7810e805810ada25379269ea194e43d3eea30c51dec0"
+
+[[files]]
+file = "config/NoChatReports/NCR-Encryption.json"
+hash = "0f61ac30bfc78653a30d715f793e30a6a43d6715106706487efd0aea5d43a84c"
+
+[[files]]
+file = "config/NoChatReports/NCR-ServerPreferences.json"
+hash = "df32843b853e0a493ef3a9b1e39276818294353fbb0d833f7f61e77da0f5bca1"
+
+[[files]]
+file = "config/NoChatReports/README.md"
+hash = "c52b76ccad2bd1063a22c7f6bb9e7c5db6b00fb53a6fd605585972ee0e5fc01f"
 
 [[files]]
 file = "config/Obscuria/Data/aquamirae_cover.png"
@@ -850,7 +870,7 @@ hash = "e3bbedc636a78386ea099047dba9f70d2aad423e70b104914f99d3e74f6e0103"
 
 [[files]]
 file = "config/emotecraft.json"
-hash = "3ad0ae4a6b0e55c34b068e33442e9382c2bbfe079bc4e049f55780851f50018f"
+hash = "b4261238c583d053e70eb63c4b23f5b38399f57e0da049256a3cda16cf063de1"
 
 [[files]]
 file = "config/emotecraft_emote_map.json"
@@ -898,7 +918,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "a7ac4377834f3bf9d844a5110c8d986d5b2295df05b30e58542af37cbb03d063"
+hash = "3cbb439076c77b6f8c075a1e84742440b8080c5888ddf9daf66e715ca0de1790"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1286,7 +1306,7 @@ hash = "563cd3c796e3ff405d8ac57fd0cd09340f51c6e7d9b3b37ee81709fda6488364"
 
 [[files]]
 file = "config/iammusicplayer.toml"
-hash = "424bd6845ff6a43ad11f577fabfc8c92d3f26828ea6e2b6058b37411fe30f7a1"
+hash = "3b1be325f6464e0488624c0d068b3a8c7828677173fad037049f5a75c7b98e46"
 
 [[files]]
 file = "config/immediatelyfast.json"
@@ -1526,7 +1546,7 @@ hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
 [[files]]
 file = "config/mcreator_mem_fix.json"
-hash = "8f492cef24021a039ecf7a7b6ec2106868abacb0961cf3b2151b28ed2dfe21c2"
+hash = "835b03a57fd094d2aa5e5e4db4178c0a12785f2114853f6519d597ab8f6d2fd3"
 
 [[files]]
 file = "config/mobplayeranimator/client.json5"
@@ -1586,7 +1606,7 @@ hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "d316f472b6ccfd1680f7f64b98499a82faab284f24b9975d32cd9d29106f3513"
+hash = "4da2f9d71d6bcdd9c22c0b874ed12aa6f6b39ef3d937340f8c63312dca913b9d"
 preserve = true
 
 [[files]]
@@ -1647,7 +1667,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "7ba135f66cb7ed1d7decfa7478be82e0f6b3f0498a25909ed3dd50f7462d71e3"
+hash = "d0841745b1c206f25128bcd7271d363a39958201d90edc4528203df8244e0c71"
 
 [[files]]
 file = "config/presencefootsteps/updater.json"
@@ -1727,7 +1747,7 @@ hash = "6d329122279318bc4d91c27038ed6a7c712f55f32760cdb516c23c7744228b41"
 
 [[files]]
 file = "config/ryoamiclights.toml"
-hash = "10f44b44a344bfb689352bc1d315608b98b6e0edc34a3331ebaf11fe8cbbb1fb"
+hash = "25260c0ef2b58ed3ac6e8786696dcab518bf8a9e157a364172cd9d9dbb37f35b"
 
 [[files]]
 file = "config/saturn-optimizations.toml"
@@ -1763,7 +1783,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "4ced613b674ff89e8c306151a12ea2b67c3cbdd7e282ec2ef6dab3fdfb11a141"
+hash = "84e499e87ad49542e7454ecf94820bf4ec4701cffba2e3fdd5469d13167e7676"
 
 [[files]]
 file = "config/simplehats.json"
@@ -1791,7 +1811,7 @@ hash = "ac1a4e660c8a567b4c945962d063eeced1a0040615214ea4aebb947ff6af7d33"
 
 [[files]]
 file = "config/smartkeysync/client.json"
-hash = "d3c3a91eb8f8aa13cbecc8f1c68d4977b0eced137c142946d3001c84d04a317e"
+hash = "4b3ab844c1475d8d7619829dfa2495260212875565cd45bdf33956b77462b307"
 
 [[files]]
 file = "config/smartkeysync/master.json"
@@ -2315,7 +2335,7 @@ hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "config/xaero/minimap/profiles/changes.cfg"
-hash = "f156f729a312e065ff6ce2a6d5e72887eac467150ab53d384e5b2d594afebcd3"
+hash = "c2e8f9a62d12713215fd695af9a2afe5f3e57fd25fbf5bf761bb9e449c2b0429"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
@@ -2323,7 +2343,7 @@ hash = "e614d9367c183f482bafc627bbd9f99e791568d137f026961a105a68c1bacc1e"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/changes.cfg.json"
-hash = "a177ec1ae7d4f18a8ce07f8ef02435db37841ee1e07a00d13bd9e26c1e758f84"
+hash = "ce21cdce19f642bb97e4cc2d5353011be991ecceca207cc130ec50d4d7949d42"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
@@ -5511,7 +5531,7 @@ hash = "6db2897ba1a15afb51ae14050bdde39e91f2236b178c1162f2fdd657ec38960b"
 
 [[files]]
 file = "fancymenu_data/last_world.fmdata"
-hash = "6455b307b2f298476f87dd03340c8d707a56def2eec972f6076b32aad052e11e"
+hash = "80f420829c2b9450c03767f22bc65ccebd0e0409c507130a996faac96ec31083"
 
 [[files]]
 file = "mods/.gitkeep"
@@ -7281,68 +7301,73 @@ file = "resourcepacks/crops-3d(2).zip"
 hash = "d63df002bd227c00ee11b8b5f64b751b152b3e0f883a135c2496564703bf67c5"
 
 [[files]]
-file = "shaderpacks/01-ComplementaryReimagined_r5.7.1.zip"
+file = "shaderpacks/01 - LegendaryAtmosphere_v2.5.zip"
+hash = "27c2c0637f6b2a7315b70e2cb522563f13f6478fa3511db7193bebc98f270e9c"
+
+[[files]]
+file = "shaderpacks/01 - LegendaryAtmosphere_v2.5.zip.txt"
+hash = "77b2f99a6296b37132deea7582c286802206fce39c4e42623130fd81401d2cab"
+preserve = true
+
+[[files]]
+file = "shaderpacks/02 - ComplementaryReimagined_r5.7.1.zip"
 hash = "24a20634a7832d422d3cd5023be16829f26840e25c69404dd418306ea79f63f0"
 
 [[files]]
-file = "shaderpacks/01-ComplementaryReimagined_r5.7.1.zip.txt"
+file = "shaderpacks/02 - ComplementaryReimagined_r5.7.1.zip.txt"
 hash = "f3d75f81d1abb4b2993a0791307992256290bc232d558fbf22472fa85095b3fe"
 preserve = true
 
 [[files]]
-file = "shaderpacks/02-Aurora Fantasy.5.2.zip"
+file = "shaderpacks/03 - Aurora Fantasy.5.2.zip"
 hash = "0d537b5d877957674354c5e5737b48394999f0a338d80b3dff01f80da0b151a3"
 
 [[files]]
-file = "shaderpacks/02-Aurora Fantasy.5.2.zip.txt"
+file = "shaderpacks/03 - Aurora Fantasy.5.2.zip.txt"
 hash = "40d6add1e1a642310c8d7f654d6ece603734b06a9f0afa256ad4329be3f111a7"
 preserve = true
 
 [[files]]
-file = "shaderpacks/03-superDuperVanilla.zip"
+file = "shaderpacks/04 - superDuperVanilla.zip"
 hash = "c1cd481ac7ec81b6cb82f162b235509568f6f1ab9e416ccfedaee15e79e1a795"
 
 [[files]]
-file = "shaderpacks/04-MakeUp-UltraFast-9.5a.zip"
+file = "shaderpacks/05 - MakeUp-UltraFast-9.5a.zip"
 hash = "433e1edd5d1193ccf4f59c9202a00896820777e73ac10b109b8ee307847fc775"
 
 [[files]]
-file = "shaderpacks/04-§lE-LITE shaders 5.0.1.zip.txt"
-hash = "2c9d024328f6f215a1b6663c5a39dc0aab0b7d1f40ecda50702d00a96c28df74"
-
-[[files]]
-file = "shaderpacks/05-§lE-LITE shaders 5.0.1.zip"
+file = "shaderpacks/06 - §lE-LITE shaders 5.0.1.zip"
 hash = "810bcf3035e4c13a60a29a541140580758737bd739994f0230e80c3df077a6e8"
 
 [[files]]
-file = "shaderpacks/06-Skygleam Shaders V3.1.zip"
+file = "shaderpacks/06 - §lE-LITE shaders 5.0.1.zip.txt"
+hash = "2c9d024328f6f215a1b6663c5a39dc0aab0b7d1f40ecda50702d00a96c28df74"
+
+[[files]]
+file = "shaderpacks/07 - Skygleam Shaders V3.1.zip"
 hash = "8cde9f45071193eab7e346f20ec695754a40d3398fcf153f47dd8a397e5166ef"
 
 [[files]]
-file = "shaderpacks/07-miniature-shader-2.18.11.zip"
+file = "shaderpacks/08 - miniature-shader-2.18.11.zip"
 hash = "ac9cfc68d4d255b12bc98dc73d1fd93e2857758363a5317ac6e6ae9134c600b8"
 
 [[files]]
-file = "shaderpacks/08-Mellow Shader v3.1.1.zip"
+file = "shaderpacks/09 - Mellow Shader v3.1.1.zip"
 hash = "65a522ad2fc1606d28f6e221ba316ede38abd6ddf2af5f8e9eb4437cebf11676"
 
 [[files]]
-file = "shaderpacks/08-Mellow Shader v3.1.1.zip.txt"
-hash = "d901db99bd24a6eea87996b33f54780c9b0162167162d201dafd6ed067dad963"
+file = "shaderpacks/09 - Mellow Shader v3.1.1.zip.txt"
+hash = "7acd58816ef9f13ebd7b3f23302fce34ee283716364be6643d2c141aedca0061"
 preserve = true
 
 [[files]]
-file = "shaderpacks/09 - TrueLightFX Lite v5.6.2.zip"
+file = "shaderpacks/10 - TrueLightFX Lite v5.6.2.zip"
 hash = "5f8ac68392c87a85fbbc102ca4f01b23064272823eb46c73dd2254fa88a77c9a"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.6.1.txt"
 hash = "1bc2beb5207f1dedc403cb6029aff19ebb956bd71ba600120fc96babe9e777fa"
 preserve = true
-
-[[files]]
-file = "shaderpacks/LegendaryAtmosphere_v2.5.zip"
-hash = "27c2c0637f6b2a7315b70e2cb522563f13f6478fa3511db7193bebc98f270e9c"
 
 [[files]]
 file = "showdown/config/config-example.js"

@@ -161,12 +161,10 @@ if (Test-Path $lockFile) {
 # Fallback para nombre de usuario si no estaba en .session_lock
 if ($username -eq "Desconocido" -and (Test-Path $latestLog)) {
     try {
-        $firstLines = Get-Content -Path $latestLog -Head 200 -ErrorAction SilentlyContinue
-        foreach ($line in $firstLines) {
-            if ($line -match "Setting user: ([\w_]+)") {
-                $username = $matches[1]
-                break
-            }
+        # Select-String con -List se detiene tras la primera coincidencia, procesando el archivo de forma eficiente sin cargarlo completo a la memoria.
+        $matchInfo = Select-String -Path $latestLog -Pattern "Setting user:\s+([^\r\n]+)" -List -ErrorAction SilentlyContinue
+        if ($matchInfo -and $matchInfo.Line -match "Setting user:\s+([^\r\n]+)") {
+            $username = $matches[1].Trim()
         }
     } catch {}
 }
@@ -301,12 +299,12 @@ if ($isCrash) {
         description = "Se ha detectado una interrupcion o fallo en el juego."
         color = 16711680 # Rojo
         fields = @(
-            @{ name = "Usuario"; value = "**$username**"; inline = $true },
-            @{ name = "Tiempo de Sesion"; value = "$sessionPlaytimeStr"; inline = $true },
-            @{ name = "Tiempo Total"; value = "$totalHoursStr"; inline = $true },
-            @{ name = "Fecha y Hora (Local)"; value = "$timeLocalStr"; inline = $false },
-            @{ name = "Motivo (aprox)"; value = "$crashReason"; inline = $false },
-            @{ name = "Mods Sospechosos"; value = "$suspectMods"; inline = $false }
+            @{ name = "👤 Usuario"; value = "**$username**"; inline = $false },
+            @{ name = "⏱️ Tiempo de Sesion"; value = "$sessionPlaytimeStr"; inline = $true },
+            @{ name = "🎮 Tiempo Total"; value = "$totalHoursStr"; inline = $true },
+            @{ name = "📅 Fecha y Hora (Local)"; value = "$timeLocalStr"; inline = $false },
+            @{ name = "⚠️ Motivo (aprox)"; value = "$crashReason"; inline = $false },
+            @{ name = "🧩 Mods Sospechosos"; value = "$suspectMods"; inline = $false }
         )
         footer = @{ text = "Modpack 2026UNI - PineconeMC Launcher" }
         timestamp = $timestampIso
@@ -319,10 +317,10 @@ if ($isCrash) {
         description = "El jugador ha cerrado el juego con normalidad."
         color = 65280 # Verde
         fields = @(
-            @{ name = "Usuario"; value = "**$username**"; inline = $true },
-            @{ name = "Tiempo de Sesion"; value = "$sessionPlaytimeStr"; inline = $true },
-            @{ name = "Tiempo Total"; value = "$totalHoursStr"; inline = $true },
-            @{ name = "Fecha y Hora (Local)"; value = "$timeLocalStr"; inline = $false }
+            @{ name = "👤 Usuario"; value = "**$username**"; inline = $false },
+            @{ name = "⏱️ Tiempo de Sesion"; value = "$sessionPlaytimeStr"; inline = $true },
+            @{ name = "🎮 Tiempo Total"; value = "$totalHoursStr"; inline = $true },
+            @{ name = "📅 Fecha y Hora (Local)"; value = "$timeLocalStr"; inline = $false }
         )
         footer = @{ text = "Modpack 2026UNI - PineconeMC Launcher" }
         timestamp = $timestampIso
