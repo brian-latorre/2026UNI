@@ -65,8 +65,9 @@ desktop.ini
 *.user
 *.nupkg
  
-# === Caches espec�ficos ===
-pack/emojiful/cache/
+# === Caches específicos ===
+# Permitimos pack/emojiful/cache/ porque Packwiz necesita que las imágenes estén en GitHub Pages
+!pack/emojiful/cache/
 pack/otyacraftengine/url_texture_cache/
 *cache*/
 
