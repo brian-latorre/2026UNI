@@ -82,8 +82,6 @@ $SyncFiles = @(
 $ExcludeDirs = @(
     ".git",
     ".cache",
-    "cache",
-    "*cache*",
     "url_texture_cache",
     "__pycache__"
 )

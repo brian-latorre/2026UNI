@@ -116,8 +116,8 @@ Source: "..\instance-template\.minecraft\*"; \
 Source: "..\Reparar Juego.bat"; DestDir: "{app}"; Flags: ignoreversion
 
 ; --- App Icon ---
-Source: "..\icon.ico"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\server-icon.ico"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\icon-round.ico"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\server-icon-round.ico"; DestDir: "{app}"; Flags: ignoreversion
 
 ; ============================================
 ; EJECUCIÃƒâ€œN POST-INSTALACIÃƒâ€œN
@@ -149,7 +149,7 @@ Filename: "{app}\PineconeMC\elyprismlauncher.exe"; \
 Name: "{userdesktop}\2026UNI"; \
     Filename: "{app}\PineconeMC\elyprismlauncher.exe"; \
     Parameters: "-l ""2026UNI"""; \
-    IconFilename: "{app}\server-icon.ico"; \
+    IconFilename: "{app}\server-icon-round.ico"; \
     WorkingDir: "{app}\PineconeMC"; \
     Comment: "Jugar 2026UNI 🚀 Minecraft 1.20.1"; \
     Tasks: desktopicon
@@ -157,7 +157,7 @@ Name: "{userdesktop}\2026UNI"; \
 ; Herramienta de reparacion en escritorio
 Name: "{userdesktop}\Reparar 2026UNI"; \
     Filename: "{app}\Reparar Juego.bat"; \
-    IconFilename: "{app}\icon.ico"; \
+    IconFilename: "{app}\icon-round.ico"; \
     WorkingDir: "{app}"; \
     Comment: "Herramienta para solucionar crasheos de 2026UNI"; \
     Tasks: desktopicon
@@ -166,7 +166,7 @@ Name: "{userdesktop}\Reparar 2026UNI"; \
 Name: "{group}\2026UNI"; \
     Filename: "{app}\PineconeMC\elyprismlauncher.exe"; \
     Parameters: "-l ""2026UNI"""; \
-    IconFilename: "{app}\server-icon.ico"; \
+    IconFilename: "{app}\server-icon-round.ico"; \
     WorkingDir: "{app}\PineconeMC"; \
     Comment: "Jugar 2026UNI â€” Minecraft 1.20.1"
 

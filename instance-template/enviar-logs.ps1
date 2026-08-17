@@ -162,8 +162,8 @@ if (Test-Path $lockFile) {
 if ($username -eq "Desconocido" -and (Test-Path $latestLog)) {
     try {
         # Select-String con -List se detiene tras la primera coincidencia, procesando el archivo de forma eficiente sin cargarlo completo a la memoria.
-        $matchInfo = Select-String -Path $latestLog -Pattern "Setting user:\s+([^\r\n]+)" -List -ErrorAction SilentlyContinue
-        if ($matchInfo -and $matchInfo.Line -match "Setting user:\s+([^\r\n]+)") {
+        $matchInfo = Select-String -Path $latestLog -Pattern "Setting user:\s+([a-zA-Z0-9_]+)" -List -ErrorAction SilentlyContinue
+        if ($matchInfo -and $matchInfo.Line -match "Setting user:\s+([a-zA-Z0-9_]+)") {
             $username = $matches[1].Trim()
         }
     } catch {}
@@ -282,7 +282,7 @@ if (-not $isCrash -and (Test-Path $latestLog)) {
 # --- 6. CONSTRUCCIÓN DEL PAYLOAD DE DISCORD ---
 $timestampIso = [datetime]::UtcNow.ToString('yyyy-MM-ddTHH:mm:ssZ')
 $timeLocalStr = $now.ToString('dd/MM/yyyy HH:mm:ss')
-
+$startTimeStr = $sessionStartTime.ToString('dd/MM/yyyy HH:mm:ss')
 $payloadObj = @{}
 
 $crashReason = Sanitize-Text $crashReason
@@ -302,7 +302,8 @@ if ($isCrash) {
             @{ name = "👤 Usuario"; value = "**$username**"; inline = $false },
             @{ name = "⏱️ Tiempo de Sesion"; value = "$sessionPlaytimeStr"; inline = $true },
             @{ name = "🎮 Tiempo Total"; value = "$totalHoursStr"; inline = $true },
-            @{ name = "📅 Fecha y Hora (Local)"; value = "$timeLocalStr"; inline = $false },
+            @{ name = "🕒 Inicio"; value = "$startTimeStr"; inline = $true },
+            @{ name = "🏁 Fin"; value = "$timeLocalStr"; inline = $true },
             @{ name = "⚠️ Motivo (aprox)"; value = "$crashReason"; inline = $false },
             @{ name = "🧩 Mods Sospechosos"; value = "$suspectMods"; inline = $false }
         )
@@ -320,7 +321,8 @@ if ($isCrash) {
             @{ name = "👤 Usuario"; value = "**$username**"; inline = $false },
             @{ name = "⏱️ Tiempo de Sesion"; value = "$sessionPlaytimeStr"; inline = $true },
             @{ name = "🎮 Tiempo Total"; value = "$totalHoursStr"; inline = $true },
-            @{ name = "📅 Fecha y Hora (Local)"; value = "$timeLocalStr"; inline = $false }
+            @{ name = "🕒 Inicio"; value = "$startTimeStr"; inline = $true },
+            @{ name = "🏁 Fin"; value = "$timeLocalStr"; inline = $true }
         )
         footer = @{ text = "Modpack 2026UNI - PineconeMC Launcher" }
         timestamp = $timestampIso

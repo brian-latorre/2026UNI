@@ -1,5 +1,4 @@
 # Ignorar caches específicos de mods
-emojiful/cache/
 otyacraftengine/url_texture_cache/
 config/voicechat/username_cache.json
 showdown/sim/cobblemon-cache.json
@@ -10,7 +9,6 @@ Thumbs.db
 desktop.ini
 
 # Ignorar otras posibles carpetas de caché
-*/cache/
 .cache/
 
 # Ignorar config personal del jugador para SmartKeySync
