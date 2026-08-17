@@ -16,3 +16,5 @@ config/smartkeysync-client.json
 
 # Ignorar configuracion de renderscale
 config/renderscale.json5
+
+config/QuantifiedAPI/cache/
