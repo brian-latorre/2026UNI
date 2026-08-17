@@ -2406,14 +2406,6 @@ file = "dummy_trigger2.txt"
 hash = "e920fd95dc72c1df7101ea2ffc3081735d9226ccf97d3f0d4f978eabbb1fa2f8"
 
 [[files]]
-file = "emojiful/cache/+1-1"
-hash = "27f44e845ff80f9c36cebcf23f7ec9fc1a083e41c33046068aa7a64dfbfe0d2b"
-
-[[files]]
-file = "emojiful/cache/100-1"
-hash = "5a8b64377c798517fee6caeca092092999e209d128e641c80389bd684888fdf1"
-
-[[files]]
 file = "emojiful/cache/GIGACHAD-1"
 hash = "f9b78c8582a598278e25b63e050fa7340c965808bed737bfa47946bfea1c59f1"
 
@@ -2450,432 +2442,16 @@ file = "emojiful/cache/agan-1"
 hash = "8420a4f88de975e9b1de1e6c4bc90ac0028d6e918d7dee65834389d1d8a4179f"
 
 [[files]]
-file = "emojiful/cache/alien-1"
-hash = "aafe7033207be88bd7168ce7728a0d99ea1c9c594d21219e09488d3c72212a1d"
-
-[[files]]
-file = "emojiful/cache/anger-1"
-hash = "04b6c135ab0793e4bb38f39013506f5ccabdf2e39e3b3df4da19ffeeef2780e8"
-
-[[files]]
-file = "emojiful/cache/angry-1"
-hash = "4a5c7464ab52e1fa4137bdf98876ae6f79035184bfa5ca8b8df4b78752ded6e1"
-
-[[files]]
 file = "emojiful/cache/angryhepme-1"
 hash = "103b9fa32c1731c2e5e09e0e81e5fde4c83442afc7a040529ccd10d41823b88a"
-
-[[files]]
-file = "emojiful/cache/anguished-1"
-hash = "c9a3c8fa5a6dee8cff37073a2b3c585d618335280ceaaa3105e662a8d964cdb4"
 
 [[files]]
 file = "emojiful/cache/applecatrun-1"
 hash = "8211bceac1d55a30b7d3e6ba5edd1eac0e8e775a5672a78bad578e274aecc6a3"
 
 [[files]]
-file = "emojiful/cache/astonished-1"
-hash = "e3e14a92b91d55834540310ed696d5bcb9bd2c8a1e11fc24deadcb5c81ac9f89"
-
-[[files]]
-file = "emojiful/cache/atm-1"
-hash = "6986d8ba4d67cc34fb0472d809c9a02391b8557b5ca2ffe873652789d863c0f9"
-
-[[files]]
-file = "emojiful/cache/balance-1"
-hash = "78be0a32432ba37c1d4d20e539684ab30c27845e5925aee910bfe8c70da4d047"
-
-[[files]]
-file = "emojiful/cache/barber-1"
-hash = "fa7981d6da8f3bf5d7aaab9c9ca3977e7bb079395329dbbf2180e1ee56257f68"
-
-[[files]]
-file = "emojiful/cache/barely_sunny-1"
-hash = "f1278a2080582abb077a700b40c55d893646111483c9a275211ca88dfc294f41"
-
-[[files]]
-file = "emojiful/cache/beach_with_umbrella-1"
-hash = "3f90a9e85003bcaa1d7fdae701afe90dcc27597243c878f683e37ade647d6768"
-
-[[files]]
-file = "emojiful/cache/beans-1"
-hash = "e5803da4a8b91dff953dc134b65cf3a4b0c7e362ea783c94b3e4fd45bf7d410d"
-
-[[files]]
-file = "emojiful/cache/bear-1"
-hash = "a6784fe40cdd2aa3ea37cbbc8127b38575674a4a6f949f61297213cb0d9f600d"
-
-[[files]]
-file = "emojiful/cache/bearded_person-1"
-hash = "554de4243ae56c4fe0898820e0e387696087f4cecccaec0d5e50acf37184c587"
-
-[[files]]
-file = "emojiful/cache/beaver-1"
-hash = "f6fc2aab86cad722f8b533158069bf479e7b0a81e457aec96a51e8df3820736c"
-
-[[files]]
-file = "emojiful/cache/bed-1"
-hash = "8a987f9b6a7a89db5d32f8c6a3aaa51f684e515dfaac1c6c264db60420c6b912"
-
-[[files]]
 file = "emojiful/cache/bedge-1"
 hash = "869ec2483b19859a1f7ac4849d2c7864d07bcd8184acc6de5c1d50be827d7ef6"
-
-[[files]]
-file = "emojiful/cache/bee-1"
-hash = "8269a969f9d61132e598f89cb8b70cd9628063dc5debab7229d2e036b3589d15"
-
-[[files]]
-file = "emojiful/cache/beer-1"
-hash = "ed5cf68437bab87e50a86235845a8646d012b76000c7ef1d50a2bd0a81eae73c"
-
-[[files]]
-file = "emojiful/cache/beers-1"
-hash = "f37c515dbe51f369e42a539d33410e3b6c55b8a43f232d6618e3f88023efed1f"
-
-[[files]]
-file = "emojiful/cache/beetle-1"
-hash = "930d511613c6f2ad4271bb8007f8ae3143f72ee32be0470860a75c6250a41e54"
-
-[[files]]
-file = "emojiful/cache/beginner-1"
-hash = "bc4dbcb90488da9bff0c0bc469ee4786c1cb07a2686c55eaceb72a48b6261e27"
-
-[[files]]
-file = "emojiful/cache/bell-1"
-hash = "b6ce50772a60c51312e43368bf51acebe19b201897416eb8e752afcc5231c7c9"
-
-[[files]]
-file = "emojiful/cache/bell_pepper-1"
-hash = "9cc5af32a275d423ef8b48d92d077576a9d6fc3a24e3832dd079d2940223fed4"
-
-[[files]]
-file = "emojiful/cache/bellhop_bell-1"
-hash = "64e8ea3959e28ed5312d2ff8c3be02c6e463fa177626b60b557122d09a244933"
-
-[[files]]
-file = "emojiful/cache/bento-1"
-hash = "24f09ad772032fbd7147a9abd9a8fe11bd160ae8c8e9e8a1564a2291f6da1c24"
-
-[[files]]
-file = "emojiful/cache/beverage_box-1"
-hash = "2852ef02f64fd2b8fb43c31e88f3ef212ea6d898a655af62f490328fa709171d"
-
-[[files]]
-file = "emojiful/cache/bigmlem-1"
-hash = "c565fc327df54ed3d71dd3d39ab2b17fb465cbfba3684212f50d91083b958f82"
-
-[[files]]
-file = "emojiful/cache/black_heart-1"
-hash = "70fc62b7e11d64f2b1c0a0f55989a999d8e8b8add686df9889676e70f0d34346"
-
-[[files]]
-file = "emojiful/cache/blob-1"
-hash = "80bbac0ec6caf05b06eb404294c49d87414aa21d79c05b38217855b1d489dcef"
-
-[[files]]
-file = "emojiful/cache/blobban-1"
-hash = "d8eee78447039d2e5614d37ab64778aed992d3b4773a54b3227c41263021b458"
-
-[[files]]
-file = "emojiful/cache/blobbanjo-1"
-hash = "f3d5bf54129cda67a01b0fd651aa9c65d8557a2c0b956cdb8ba3fb84c4c26834"
-
-[[files]]
-file = "emojiful/cache/blobblank-1"
-hash = "cc03aef2e3c88dbb1edbbad2ad37044d0a5437f502978810cf120f541bde0921"
-
-[[files]]
-file = "emojiful/cache/blobblush-1"
-hash = "e171135bd56ef6b01755b2c13746ed2af66ddfbbccfe93fe581fc9046ffc3af9"
-
-[[files]]
-file = "emojiful/cache/blobcat-1"
-hash = "51ec913a822d9816ac5ee4b38bd1acb58087ab24fcd2efdd250c94dc3d12867e"
-
-[[files]]
-file = "emojiful/cache/blobcatangel-1"
-hash = "8d921e9917f3d88130ee055c626c65cb25458e232f2ae55cf1d6027dff42954a"
-
-[[files]]
-file = "emojiful/cache/blobcatangry-1"
-hash = "cd9574a78abe1e8dc3a72c39502b9429886f1841f95536937fc4d52b8d17b6ec"
-
-[[files]]
-file = "emojiful/cache/blobcataww-1"
-hash = "b7326ccb1e7ba08e0bf430263dc5d5469a5bf3c0b036d8754fd3a00a98dde282"
-
-[[files]]
-file = "emojiful/cache/blobcatb1nzy-1"
-hash = "3c82d63c1b881e710d04d48bc79ee0b44006bd87bf76d58534ee254aba739c57"
-
-[[files]]
-file = "emojiful/cache/blobcatban-1"
-hash = "45264ae4603d64a7b9ee2f85c9adf5ad76595e680e7b5fd6daa3b5ef183e1fac"
-
-[[files]]
-file = "emojiful/cache/blobcatblep-1"
-hash = "7fc2d1b6e932a5a16a235355d5a833cbb0ccab43621d627a5515264b303e298d"
-
-[[files]]
-file = "emojiful/cache/blobcatbolb-1"
-hash = "292eef8fb36298fd4e765c5b738f4611687021ca094bc543591353765c645bcc"
-
-[[files]]
-file = "emojiful/cache/blobcatcaged-1"
-hash = "3c07c082aadecbba2d7608902975e2a9ff20bd6bbaebb726bb2984d13bd2ed60"
-
-[[files]]
-file = "emojiful/cache/blobcatcoffee-1"
-hash = "ff45b34308d159382f268988fdfc9bac76a49c6d7e7bed4e82c892c09cceb17a"
-
-[[files]]
-file = "emojiful/cache/blobcatdead-1"
-hash = "9bb531633f1c628df880b128e5d1b6bce503970e697db022051f48258c617e7b"
-
-[[files]]
-file = "emojiful/cache/blobcatdevil-1"
-hash = "0b9acd7795117d6a9e4b01bf4cc97fc8b16af78dc21d5b62b10e972cb0768c92"
-
-[[files]]
-file = "emojiful/cache/blobcatdizzy-1"
-hash = "6426d1d78ef271302cef64a053f50081443465d3bb3146900ec4c26115d419b0"
-
-[[files]]
-file = "emojiful/cache/blobcatevil-1"
-hash = "5e103d91e25bc636cfda1819d103a8d4d9d2a78abad761854c8f475eee00edbc"
-
-[[files]]
-file = "emojiful/cache/blobcatfrowning-1"
-hash = "9ec84bb8df2d729a7be85caf9c1871e76ad84028b4a6feed0080f54ef7f1c12c"
-
-[[files]]
-file = "emojiful/cache/blobcatfunny-1"
-hash = "910c9504f55c85f0113f428156a79f4ff2a9a3b4b1a718a8ff86439ecf5b947c"
-
-[[files]]
-file = "emojiful/cache/blobcatglare-1"
-hash = "12fd1038755554e9e5a4ff082ef53af6b6d9d3f888ebd31db81c271af318a1d7"
-
-[[files]]
-file = "emojiful/cache/blobcatgoogly-1"
-hash = "dba7c1f1d9c1932e48a69b6112440faf8d88e4de8361d471d5d540aa2c5c2f8e"
-
-[[files]]
-file = "emojiful/cache/blobcatgun-1"
-hash = "833fb676ebd5d009b9603770337fa162b16812101535d1ae791d9155c6de0a46"
-
-[[files]]
-file = "emojiful/cache/blobcathappy-1"
-hash = "a30bd6ef4fac85b4e61b95bcae5e67def2c682ca13d0601b28baf9a4dee48c77"
-
-[[files]]
-file = "emojiful/cache/blobcathearteyes-1"
-hash = "1eb8793d394822b86cf3959aafcd2b5a1c1da253abaff6bdb51b64d57150a0af"
-
-[[files]]
-file = "emojiful/cache/blobcathug-1"
-hash = "7f5619d8c649a188f629c2c4b809b2b09dc7025b8409aca6223997c79859254b"
-
-[[files]]
-file = "emojiful/cache/blobcatjoy-1"
-hash = "bfa02af2a4d7e269cce5769b90ccba2733bc2ab8000cd257f7a552757ab4a683"
-
-[[files]]
-file = "emojiful/cache/blobcatmelt-1"
-hash = "5e7eac5ea9ec7bfc8538c68ee883a87a881ac6d62f4b13e3ffa88ca20eaf53cf"
-
-[[files]]
-file = "emojiful/cache/blobcatmlem-1"
-hash = "b7a9da4b201f4566628caabdc23752d255d17283af5a9d7d14a56d192a080c86"
-
-[[files]]
-file = "emojiful/cache/blobcatmorning-1"
-hash = "f7cac1232ac9f23a71a168d978f2963eb6af9ed2a52ff8835a046a9bbcf98ac1"
-
-[[files]]
-file = "emojiful/cache/blobcatnauseated-1"
-hash = "f4ffdea198a56905ea8af1a9e6ab0a34b074eec4895c41aad3da11b25c45f265"
-
-[[files]]
-file = "emojiful/cache/blobcatnerd-1"
-hash = "deef265a1fc0a239bc1719e0616cf1f36f4cacdc1ca2f14c303e40e859b3111b"
-
-[[files]]
-file = "emojiful/cache/blobcatneutral-1"
-hash = "94debceacfc31207e00b73fdbbd89251b36b8713a24055bf832f15940daadd8a"
-
-[[files]]
-file = "emojiful/cache/blobcatnight-1"
-hash = "12834d64a2805268555555a5aac308643bbebedf26d38d0c3c004fd419d48dd3"
-
-[[files]]
-file = "emojiful/cache/blobcatninja-1"
-hash = "5fe17793334cd1df402cb6eadc49f575f139052b794af54587dde00eb7bbfe1f"
-
-[[files]]
-file = "emojiful/cache/blobcatnomcookie-1"
-hash = "ad1afaaffeef94921458a093d867aad760370edd9307f16f46cf52846b8d4058"
-
-[[files]]
-file = "emojiful/cache/blobcatnomfish-1"
-hash = "f8a9f3f95033376420258599351d9fb67577a19c68333561a37973bae2b7570e"
-
-[[files]]
-file = "emojiful/cache/blobcatnomouth-1"
-hash = "d635afc2fb5684a54c0a3e7accceed4e6f491c54d30ffb89e884ea1d90e731b8"
-
-[[files]]
-file = "emojiful/cache/blobcatnotlike-1"
-hash = "082a760a95db59ff5d47e646664263efcda0b041e6a36478974f78e9ae7caea4"
-
-[[files]]
-file = "emojiful/cache/blobcatpats-1"
-hash = "54ddce61293fd8761d981006628766de0d7efaa4fd5c5851d76673b6512ead1f"
-
-[[files]]
-file = "emojiful/cache/blobcatpinged-1"
-hash = "3f9b72b0b79818c512b321cca3ac5b4937b3d4f15e7c3db86095011b4510f044"
-
-[[files]]
-file = "emojiful/cache/blobcatpopsicle-1"
-hash = "71b8c22ecb3797e1877c41bcbc6dc23132e9b07134e7043ffaaaa6212eac9733"
-
-[[files]]
-file = "emojiful/cache/blobcatreach-1"
-hash = "59a76e86dc868d5c31ff9ca18a913403ef812c08c5e471e1558c49c6390b5def"
-
-[[files]]
-file = "emojiful/cache/blobcatreeeeeee-1"
-hash = "da6eee892b56ba6fc2cec28dce5964e413c9fe1a90459f13db283359532ae635"
-
-[[files]]
-file = "emojiful/cache/blobcatsad-1"
-hash = "c0e1a684179a8ae37c35297958816b1604973a4ef04fdc022f6b4429fefb7082"
-
-[[files]]
-file = "emojiful/cache/blobcatscream-1"
-hash = "52661179262a9f19643f949108276441e48714f094711095c2db30f8189a561d"
-
-[[files]]
-file = "emojiful/cache/blobcatsick-1"
-hash = "d8acbbbee053e4db07be05c692228dce59c399b4db069da329aa3ea4d7b8eddb"
-
-[[files]]
-file = "emojiful/cache/blobcatthinkOwO-1"
-hash = "5caaa8146131af929166dadacb9458e2367d7dfa3dcc140dedd5fcf9bb120831"
-
-[[files]]
-file = "emojiful/cache/blobcatthinkingeyes-1"
-hash = "61133e7e8a8ca3472da0fb840f816208f1aab30bf72da6c4a21eb07d5dc76b1b"
-
-[[files]]
-file = "emojiful/cache/blobcatthinkingsmirk-1"
-hash = "3c4afc38a2371bcb2de670386c27374bd4b70cf97aad64044366ffd6e3fcce54"
-
-[[files]]
-file = "emojiful/cache/blobcatuwu-1"
-hash = "2ad30d88193e4e3a2fb7c82bc8599c401ee05d77110ccad9c021de8693b0183d"
-
-[[files]]
-file = "emojiful/cache/blobcatwhatsthis-1"
-hash = "14c6211b12048d27825dc9c8b4ac264b018116e95a077b77ad494d052c6fb02f"
-
-[[files]]
-file = "emojiful/cache/blobcatwhistle-1"
-hash = "3e85e726a3aaa4d8bac2c770050c28c468968e1a6c6c9016d39ac1a0e667953d"
-
-[[files]]
-file = "emojiful/cache/blobcatwink-1"
-hash = "ad808bde98c0a3e908bf5cac50b776ae51ac92119d9ec922f40be24afa2fafc7"
-
-[[files]]
-file = "emojiful/cache/blobcatwinktongue-1"
-hash = "048a29dfe91fc4f764600c0f17720973e3091ae36ad18b0a466a03838f9e1220"
-
-[[files]]
-file = "emojiful/cache/blobcatwolfiri-1"
-hash = "4142a71e692bea5833916e44bd780f32986777697e145fc8c9c82ee0a356fbbd"
-
-[[files]]
-file = "emojiful/cache/blobcoolcat-1"
-hash = "7cc61a76526951504ac74ba7826c760733f65d8a08be554fe5659922316ff88a"
-
-[[files]]
-file = "emojiful/cache/blobderp-1"
-hash = "1e6ebfa79c936b3a889cd68d27a11aa9a0140d1eebda08a0e47dcefceb40d194"
-
-[[files]]
-file = "emojiful/cache/blobderpy-1"
-hash = "8d5ef44e812f05bf7885b11e995b673683638c012c29b1401cff7b7826625bee"
-
-[[files]]
-file = "emojiful/cache/blobdoubt-1"
-hash = "023d84a173086bac3afa2ec972720bee8d6982a315cbebffe1f0d3bc053589f9"
-
-[[files]]
-file = "emojiful/cache/bloblob-1"
-hash = "4b51489583744a4c016612b6aed8711bca4c84610afbb0e30262eb545d888396"
-
-[[files]]
-file = "emojiful/cache/blobmas-1"
-hash = "879ab3e29a9712ee42ba49a50908b43eb18a6f2f3593878b46a4668e2c317264"
-
-[[files]]
-file = "emojiful/cache/blobno-1"
-hash = "d75c316c8bba94c89081dc8cadfb478fc05369f79e70c6c0bacfea489eb01a7a"
-
-[[files]]
-file = "emojiful/cache/blobpeek-1"
-hash = "817a2e31b8b562a5614472277b7c0eeb4fb453a6eea847c7107157d7eef84288"
-
-[[files]]
-file = "emojiful/cache/blobpobcorn-1"
-hash = "d80f22b28067e7b0821bcf618e2c6d33a817a85d4e0876de1390b3538002d8a1"
-
-[[files]]
-file = "emojiful/cache/blobreach-1"
-hash = "33b1511ea3f05f44da30b12809243075542c9f37ef273bda4ca1cf0cc3bd73f2"
-
-[[files]]
-file = "emojiful/cache/blobstab-1"
-hash = "8b5e29548223082e5026499dab65d4980c64b532372bcf4e8e358221221ba88f"
-
-[[files]]
-file = "emojiful/cache/blobstabby-1"
-hash = "9e0dd90040dfb4b45e0a5d02717fad5139755879e471b42b47902892d9107b85"
-
-[[files]]
-file = "emojiful/cache/blobthinking-1"
-hash = "a5039bc3d4a8bd094f96549817ff0bdbf873e5dea69a55bee3bc3a4c3630bca2"
-
-[[files]]
-file = "emojiful/cache/blobtilt-1"
-hash = "41864310bd789c7397a7b99e261c9761103ed7a5c528e0b78a6eebb1a1d5a412"
-
-[[files]]
-file = "emojiful/cache/blobways-1"
-hash = "c1d4a7bbe9009ba510e2c5bc125a4b6501a1d13e51005f20ab4fe2f8c4390b5c"
-
-[[files]]
-file = "emojiful/cache/blobwhoa-1"
-hash = "e9077425bfa7eac46b7ad8756130294e80b8a0132d2408ab3e54345968f217b8"
-
-[[files]]
-file = "emojiful/cache/blobyes-1"
-hash = "775218baeb740065bf8ea0002b8b0a007e981735eddd102663064b9ee4ae1da9"
-
-[[files]]
-file = "emojiful/cache/blue_heart-1"
-hash = "308d773d1b9a15e476c84f44a7bcffbb6df4b0f8414763c54c557d55a4c72375"
-
-[[files]]
-file = "emojiful/cache/blueberries-1"
-hash = "9880a91d33a9a641a45c20d5dff2dfa57d022811fc588ab462319450eb7e32d0"
-
-[[files]]
-file = "emojiful/cache/blush-1"
-hash = "741e7d09deac5fccba7551ecb40b05d7a3f8a2fca16ba3070509a6ab9df7de55"
 
 [[files]]
 file = "emojiful/cache/blushup-1"
@@ -2884,22 +2460,6 @@ hash = "57f92b340153c22e5514a55094b8f01578823a921ed4a7b9f67528f301577e5d"
 [[files]]
 file = "emojiful/cache/bongoboom-1"
 hash = "9082e404cd681a4f1758aa0c09a6799d68dcf33678df3a856de129c23a867100"
-
-[[files]]
-file = "emojiful/cache/bongocat-1"
-hash = "f6b0b4256a3b03b134976566ea5d4b6bf5ac474fa6ca77a6dd3f41a401609939"
-
-[[files]]
-file = "emojiful/cache/boom-1"
-hash = "b77add0551be73f0488671a6055a344a3d24cf576ae541dbb5f418822d1491fe"
-
-[[files]]
-file = "emojiful/cache/broken_heart-1"
-hash = "4b620062b1a4fcbda02b5c90238dbb836de45b19575c671786c4d88e5d631dc0"
-
-[[files]]
-file = "emojiful/cache/brown_heart-1"
-hash = "5bf056b13d4eeb9f6f640121db87f554f0258c0f233b693fc743f2ed5a19d03c"
 
 [[files]]
 file = "emojiful/cache/bye-1"
@@ -2978,10 +2538,6 @@ file = "emojiful/cache/catwtf-1"
 hash = "14ebf6b7b5ac760955ad5caf493316c88bc9b0f467912ea4dad3e40b7c4affe6"
 
 [[files]]
-file = "emojiful/cache/checkered_flag-1"
-hash = "6fed93bf779fabf2f74bfff37ffe9cee0793ee0e231983dcd23b89169d7d23c6"
-
-[[files]]
 file = "emojiful/cache/cheerg2-1"
 hash = "815e61dfd077935164b6d542afe5fbe5467f7a3a7937a88a4630750603a8aa94"
 
@@ -2998,80 +2554,12 @@ file = "emojiful/cache/classic-1"
 hash = "2143f22eac325996c922771629e08654822139a8073717c521b09890c3284bfc"
 
 [[files]]
-file = "emojiful/cache/clown_face-1"
-hash = "f7c12e188b17b9e8179668e2fcc1a79f44dbdb14d7ff086019a19c95e674fe5e"
-
-[[files]]
-file = "emojiful/cache/coat-1"
-hash = "231bb56a788df08de24f4cbc2be95af8a22504754793fd58b2f53ba3c1af28a0"
-
-[[files]]
-file = "emojiful/cache/cockroach-1"
-hash = "54bbcdb9b1889d58ac921138ea7e20c76dd28606b5f7dcdda933a97a0139622a"
-
-[[files]]
-file = "emojiful/cache/cocktail-1"
-hash = "f6b4d191ea6248df8fa652f2ae0b1f44451a8ff2b99a14e44de84020bcd3087e"
-
-[[files]]
-file = "emojiful/cache/coconut-1"
-hash = "a40fa6ce9400071c0f4ae0f27e55a130a935b85a99d33b7140c365137f4c99d9"
-
-[[files]]
-file = "emojiful/cache/coffee-1"
-hash = "753fc5b5dfaac3c7ccf0200a54383bdb50a060b4de560f7586bd1144575b7f4d"
-
-[[files]]
-file = "emojiful/cache/coffin-1"
-hash = "546f0861ee6f06d835dd7406ed243b005025960afe415d17fd8dc2e048cd3a1e"
-
-[[files]]
-file = "emojiful/cache/coin-1"
-hash = "c47e3b9d42d2ff09ab8af52f9582e6bccacddc7dc6b7bd3f4d0200ce2a98c08f"
-
-[[files]]
-file = "emojiful/cache/cold_face-1"
-hash = "c0110e12719ff35894e4aaa1ddd6eb39cb51a2e5669b8396b75ee7bc4cf189da"
-
-[[files]]
-file = "emojiful/cache/cold_sweat-1"
-hash = "62a8f0a555152fcd5662dc798fff38b475a5839b0ace439c252782826e4a682d"
-
-[[files]]
-file = "emojiful/cache/comet-1"
-hash = "ee1880780216eaca819ea56abef8b76bd60e1ab609c817c3390889beb24e11d6"
-
-[[files]]
-file = "emojiful/cache/comfy-1"
-hash = "c93326d9da87a1ee0082e3f9ef8b51075b408a9c9f3418e19caba8797327edec"
-
-[[files]]
 file = "emojiful/cache/comfycat-1"
 hash = "8aded7d244df4bbc866f5a58bfd4c434469def32eb77712c224e8d7bd7ce46c8"
 
 [[files]]
 file = "emojiful/cache/comoo-1"
 hash = "6bf53ad016e4289c0bb537703dbfa1fcde4d31567baa6068e578a5da50ed03be"
-
-[[files]]
-file = "emojiful/cache/compass-1"
-hash = "1d022d40e3317782e91155e375aaac97dbc984d874b167ef530682c9eaf30907"
-
-[[files]]
-file = "emojiful/cache/compression-1"
-hash = "3d9d8eedc51c33f5fed37c7b96abc74cd86e312738d872e27f81579b3f226a0e"
-
-[[files]]
-file = "emojiful/cache/computer-1"
-hash = "8fab23f56dea8e47b32b1ee18948bee68c47998f7168d75b4e6377032f20bb92"
-
-[[files]]
-file = "emojiful/cache/confounded-1"
-hash = "d07e9a3d0af45cae7cfab7f714493c91c1be0c0144ce71c26641213bec1da3da"
-
-[[files]]
-file = "emojiful/cache/confused-1"
-hash = "215d64a3b2218ed0faae67ca08ade5917c59bd3b2e0006d5b928d2b58c0fc283"
 
 [[files]]
 file = "emojiful/cache/crine-1"
@@ -3082,40 +2570,16 @@ file = "emojiful/cache/cronchycat-1"
 hash = "a26f5b1620521bdc2e55d0a8364748fe1e7e0e6b6d5a017d8a552359923cd4b0"
 
 [[files]]
-file = "emojiful/cache/cry-1"
-hash = "5b204b53a70663b9d5748f1418e35d60f3128758f91421b707ae988a1d04af60"
-
-[[files]]
 file = "emojiful/cache/cry_cat-1"
 hash = "f05cefc8e5676a85743aeb8eb783a7a862ba15510671ea4dec9846d7d2d16950"
-
-[[files]]
-file = "emojiful/cache/crying_cat_face-1"
-hash = "b46520660f711234cea38f974f6d7651dbca8e57362d17e0ecd25dae5afc3b60"
-
-[[files]]
-file = "emojiful/cache/cucumber-1"
-hash = "66b58378e2f262851e087d1e1deb9e6baea472280e27d06f063b56def0624e19"
-
-[[files]]
-file = "emojiful/cache/cupid-1"
-hash = "abffc7740aaf5b0495456cf59361f8d5082b5b2942f69630fef5739c370adb2a"
 
 [[files]]
 file = "emojiful/cache/cutecat-1"
 hash = "b964f481cae0ec71b7b73213c45e0dcb3ca03438acf02f0a03e846fa00b14d3b"
 
 [[files]]
-file = "emojiful/cache/dab-1"
-hash = "fd0982128d141f4b2755cdef5a9522fcd89943f551181c373d246f48a1b492cc"
-
-[[files]]
 file = "emojiful/cache/dancedoge3d-1"
 hash = "5d468f940ba9c35b6b16c9b20ab615ffc8d09853059df841771fbdc0bed66078"
-
-[[files]]
-file = "emojiful/cache/dash-1"
-hash = "361b25c1018068877b3e4d5b41a706f20e4e02e2ac1db668f0ea978b18ab2b3e"
 
 [[files]]
 file = "emojiful/cache/deel-1"
@@ -3126,26 +2590,6 @@ file = "emojiful/cache/derbycat-1"
 hash = "2c2d90fde7b3fcff45d5663139ac9ea531b75ac03efb20bbe950bcd3991eb194"
 
 [[files]]
-file = "emojiful/cache/disappointed-1"
-hash = "fec847d746c5dda047f30f98ae20e20036795eea72b9bca5e6542cafebfbd435"
-
-[[files]]
-file = "emojiful/cache/disappointed_relieved-1"
-hash = "7fc4826d48627dc46f53044a7cb43d12d6087f3297f43bb6530187e447617ab6"
-
-[[files]]
-file = "emojiful/cache/disguised_face-1"
-hash = "e721098e45a95f614895c45bd4a251915c7de5169680bde8835b9e58e131a24b"
-
-[[files]]
-file = "emojiful/cache/dizzy-1"
-hash = "b6d5ecdf56c0f7f253e5e1a86939ff392c08fb17ad4f61dc6f5a5570bab3d5f7"
-
-[[files]]
-file = "emojiful/cache/dizzy_face-1"
-hash = "e8b6fde0e97ac58fc39d53ac6a9a69717ee73ce9151ad28d7eed8291603dc021"
-
-[[files]]
 file = "emojiful/cache/dograve-1"
 hash = "6348ae49981758b53ea7abbcdfb64d7e538c0a24be1685e88f064f38ff655357"
 
@@ -3154,20 +2598,8 @@ file = "emojiful/cache/donowall-1"
 hash = "962225940bfdc37f7363028d621d57312587bc6876690b14f33ecffe096a27b0"
 
 [[files]]
-file = "emojiful/cache/dotted_line_face-1"
-hash = "1f5f53dbf97352c331a09138cbc2acb024b3f907a76ea618b6f7980555ac57cd"
-
-[[files]]
-file = "emojiful/cache/drooling_face-1"
-hash = "e001a176d684e0eb5ee7c6cfaff5f29ce0a0f7fe2d8be1735d6f678a2cefc4ed"
-
-[[files]]
 file = "emojiful/cache/duckdance-1"
 hash = "7dce0d850edee42017448e8b0c30e01cb4dd646944822e977155baa895c69808"
-
-[[files]]
-file = "emojiful/cache/dunno-1"
-hash = "632c7133bef1b600483b1cfa62c4ccdaab1b8866caf9f91a41138e4ccd243528"
 
 [[files]]
 file = "emojiful/cache/dying-1"
@@ -3178,120 +2610,16 @@ file = "emojiful/cache/earlpet-1"
 hash = "78af962f923c0f36df8e8b771b1af11156b4cca2deb0e1d9468e8b8f3ddddd1d"
 
 [[files]]
-file = "emojiful/cache/earth_africa-1"
-hash = "dec0b8d2343bca15e494f9a244d0b2eaf9f84235461efd10dba4e6fa2048e564"
-
-[[files]]
 file = "emojiful/cache/eatcat-1"
 hash = "39795d3ba10d4b46da99a5e4710cbcc34aee091a2f80f22cd033c77ebd5dcde8"
-
-[[files]]
-file = "emojiful/cache/exploding_head-1"
-hash = "2a97fd874daefe93f43d1f192425c72368675e374b55f91283c0f2503872c992"
-
-[[files]]
-file = "emojiful/cache/expressionless-1"
-hash = "6698a5264dce61955286fd1158a80c6abc0916bf88f83832c8887f20e0587a77"
-
-[[files]]
-file = "emojiful/cache/eye-in-speech-bubble-1"
-hash = "0431ae219a43ad0dafddc1d48794711bcbbef3fe28bcd4a188ee6e8e625fa4e3"
-
-[[files]]
-file = "emojiful/cache/eyeglasses-1"
-hash = "7ebc690ca33b6077b06100bcf4224eac24cc750090b27e2781b16ede27e2c36b"
-
-[[files]]
-file = "emojiful/cache/eyy-1"
-hash = "d0b218428283513ad8c443389bf2e9c4af65feaea9c6adb5f31d0cf1a8806657"
 
 [[files]]
 file = "emojiful/cache/ez-1"
 hash = "2d496ac4011a86ac2084c96e72b641b4588c37c1a21f5be98dc33a4276c48eec"
 
 [[files]]
-file = "emojiful/cache/face_exhaling-1"
-hash = "425913bc2ade7e2e31c86e234bb7e3cd0523ecbed69ecd437dce40ec728680dd"
-
-[[files]]
-file = "emojiful/cache/face_holding_back_tears-1"
-hash = "497865b07b3d6d2ec0ce82947c494d59443198c6aba41e0cb5000467eb8c5e88"
-
-[[files]]
-file = "emojiful/cache/face_in_clouds-1"
-hash = "e2217523762dd069274bffe0cb117a6c6fc4d1ca10101cae85bf348b5930cd9b"
-
-[[files]]
-file = "emojiful/cache/face_vomiting-1"
-hash = "aa67db4847415715a3200a7c0c68be6a4ff1221ca02a8c678d2d4a1159d29dce"
-
-[[files]]
-file = "emojiful/cache/face_with_bags_under_eyes-1"
-hash = "a3bb4242aa1ff10024a0ebeb83150ca3a50957dd506dbda807a4051e65b4fef1"
-
-[[files]]
-file = "emojiful/cache/face_with_cowboy_hat-1"
-hash = "73a943c3c52a4217c01410ccd78778c294ae1ef67e4fba270062dc3fd06e7441"
-
-[[files]]
-file = "emojiful/cache/face_with_diagonal_mouth-1"
-hash = "07591c2c221a516d370a771d447bfeb6de74f0f3c5e8cd572d174f592cf41ddc"
-
-[[files]]
-file = "emojiful/cache/face_with_hand_over_mouth-1"
-hash = "1567608bf5abd1d2c77b3a36710045cbe67d7ff6ca7b65746ad9292891c2e825"
-
-[[files]]
-file = "emojiful/cache/face_with_head_bandage-1"
-hash = "7dc59a460271e92cd57d190258becb12dde76b4b5f91542a93a5ccdf06596ce8"
-
-[[files]]
-file = "emojiful/cache/face_with_monocle-1"
-hash = "8cd1a760d98d3b05dee65dbe34744350455325aea976f0fc82d3ef2f8e4bf15d"
-
-[[files]]
-file = "emojiful/cache/face_with_open_eyes_and_hand_over_mouth-1"
-hash = "8e74adfcc122cc3901fd1489d49e2fda807b20624336ac6d29d27609400dda36"
-
-[[files]]
-file = "emojiful/cache/face_with_peeking_eye-1"
-hash = "8d83262f0e6115d1dac402493c25555751ab4f2c04d9a8e5db614fb7ec6784a3"
-
-[[files]]
-file = "emojiful/cache/face_with_raised_eyebrow-1"
-hash = "52b173618ae858b13633eb0b4e0146a47ed827d86fc79e91c611b8c1a8efb97c"
-
-[[files]]
-file = "emojiful/cache/face_with_rolling_eyes-1"
-hash = "fba52bdf2ece51f5d3e8c56c70a4998da2bac69aa2ab5fe69e82b25a840ea311"
-
-[[files]]
-file = "emojiful/cache/face_with_spiral_eyes-1"
-hash = "8630e26447d9f45784a0bfd2b1f06fcd0cfc77e17f6ed202a3ce5ec70ecab6d2"
-
-[[files]]
-file = "emojiful/cache/face_with_symbols_on_mouth-1"
-hash = "11066928f061a2b5789d887f563bce80bba0d206fe0839c5d63e071bad6fd862"
-
-[[files]]
-file = "emojiful/cache/face_with_thermometer-1"
-hash = "3517bcb079c5c06fc425a38f2e6ab753fbad70dc4d1af6b4d24ad0032e2de449"
-
-[[files]]
-file = "emojiful/cache/fearful-1"
-hash = "59892e66e8878930ab79ce885a4c55a949f7e13c8de9bd4c6ac74926a81cbb54"
-
-[[files]]
-file = "emojiful/cache/feelsbadman-1"
-hash = "79f4a2087860fb9d803c57e729f6701242fb1f654907fa0e877e0e30bc53ea2f"
-
-[[files]]
 file = "emojiful/cache/feelswowman-1"
 hash = "ab8dbaf51170b9b2c83d156f94d1d149a44541de215fbdc271674dd1266b6745"
-
-[[files]]
-file = "emojiful/cache/flag-be-1"
-hash = "fb49a83dcf383ed4d94c266ad7b51459b31ad983b715c39b63d7ffece7b3d29b"
 
 [[files]]
 file = "emojiful/cache/flathorror-1"
@@ -3302,64 +2630,16 @@ file = "emojiful/cache/flirt-1"
 hash = "407bb165e4d304baf8bf242c510f4116d85f04a96646e4f3cec5449497890be2"
 
 [[files]]
-file = "emojiful/cache/flushed-1"
-hash = "b4e528a04369eca3c32cae78c9ccd2e040f1d13b6d1d82b1250cd3bdaa1b557a"
-
-[[files]]
-file = "emojiful/cache/frowning-1"
-hash = "acf470b04b2caad7d9444fa8048b2cfdc35ed172ef4fee626916864711e21738"
-
-[[files]]
 file = "emojiful/cache/gatoeminem-1"
 hash = "f00b7f35ee590910d86056ab415208e9a5655900ba5e6eb0e7a196c9a23d0047"
-
-[[files]]
-file = "emojiful/cache/ghost-1"
-hash = "bbcd4b8744088de011d168463eaff6d7ab807e1ec02e99a76f1ecf0bcb7697ff"
-
-[[files]]
-file = "emojiful/cache/gift_heart-1"
-hash = "2e1f2331d3c63ac5c542a1faf2ed1f4c729de84cab20ee43ea7488422beeec93"
-
-[[files]]
-file = "emojiful/cache/globe_with_meridians-1"
-hash = "171aaddfd22f833db8e15bb9fc073ba9c608a21a66bdb2da3f8595c14331bbbe"
 
 [[files]]
 file = "emojiful/cache/gofuckyourself-1"
 hash = "65f835a20a4e188f15fb4f3986c5bef85bcb9691cc6491d84933e34442625328"
 
 [[files]]
-file = "emojiful/cache/grapes-1"
-hash = "b20cb1685a5ee5bd719fbcaad0fca89ca493036f68839877882861bb73acf9fb"
-
-[[files]]
-file = "emojiful/cache/green_heart-1"
-hash = "02b1bc6ba9ad4adca0af1533e3b6930d68ac8961cd02e3eb1c0ea9c978e84941"
-
-[[files]]
-file = "emojiful/cache/grey_heart-1"
-hash = "95557cdc5af65326d06143a3d899f15850bf824768ec59e5afda4c30e991a9a8"
-
-[[files]]
-file = "emojiful/cache/grimacing-1"
-hash = "3116ee7e4fe27b932af368445a742192b3c6dfb5bc04c9c3c6d6cfce5a3799bc"
-
-[[files]]
-file = "emojiful/cache/grin-1"
-hash = "36503c6e0b35090615e7937d06c692a05f1bd5e5783ba5e0315a038cb128bbec"
-
-[[files]]
-file = "emojiful/cache/grinning-1"
-hash = "50e4ca63df31b9a0427ee28602501a992c594120f6ed8914c32e51b0c32ce1ce"
-
-[[files]]
 file = "emojiful/cache/guuh-1"
 hash = "e749b85148bb1d64023a3a297eeeb8eb66c80076a5bc4f3bb31ba9bf04fc92c9"
-
-[[files]]
-file = "emojiful/cache/hankey-1"
-hash = "a3dd3e9c2de7cb6726c6a7b22ef49fb8bb071c2487d61f27eef8dce9ed824f11"
 
 [[files]]
 file = "emojiful/cache/happeeb-1"
@@ -3370,50 +2650,6 @@ file = "emojiful/cache/happi-1"
 hash = "5e4c9c72c404265e0f6210995db0a9a31bc3faecc601f426a61213af76701c73"
 
 [[files]]
-file = "emojiful/cache/head_shaking_horizontally-1"
-hash = "381fc94a0ec4f560d94b3267218b6491e687eeada9aa79556a290bcfb14f497b"
-
-[[files]]
-file = "emojiful/cache/head_shaking_vertically-1"
-hash = "b4a22b43a19980232db534fb3d722c9d1f103f6b1e4c7355af221a9472115f35"
-
-[[files]]
-file = "emojiful/cache/hear_no_evil-1"
-hash = "35dfae684deda2bf7004223712825553ab7bff114eba8cd2c018f3d2da4e72b4"
-
-[[files]]
-file = "emojiful/cache/heart-1"
-hash = "6388103fe0aea41e3e5ee35a30f9912449e28d355e180ff94673acb686af1a68"
-
-[[files]]
-file = "emojiful/cache/heart_decoration-1"
-hash = "e3c5134e67ae42f89f79eed2e90dd82d0efd69b6755f35f3a1f95d1cee3e2ae1"
-
-[[files]]
-file = "emojiful/cache/heart_eyes-1"
-hash = "e8f25a5eeab990c909be1b0be1437d61e7e0bacbddeb3baeb8f3119585919e3e"
-
-[[files]]
-file = "emojiful/cache/heart_eyes_cat-1"
-hash = "8997b8e5993a8a93a0b967e9e830e3e08843016990ae2f17b1f62654c39d33d9"
-
-[[files]]
-file = "emojiful/cache/heart_on_fire-1"
-hash = "1d103391db0bdc00a78acd689c16e0c354d73ee1011e7fb343af2e8f5b05de57"
-
-[[files]]
-file = "emojiful/cache/heartbeat-1"
-hash = "9f39ad10b34fbf19c02c4dcd4928316446600bb51096eb6fa26b71dbdbda3247"
-
-[[files]]
-file = "emojiful/cache/heartpulse-1"
-hash = "dc83f1b0acacff54e8e0d9371deff150ffb33cb9c1d18be42cf0cfb23a6e45f3"
-
-[[files]]
-file = "emojiful/cache/heavy_heart_exclamation_mark_ornament-1"
-hash = "710543f7bf54ce3275d0f35a748fa4c9799fb3dd7e78019f149038f8afd0d472"
-
-[[files]]
 file = "emojiful/cache/hmm-1"
 hash = "4f7b5c8a3e2dc75d52a96782864d7bda04948858b766984dde9088a984c20d2e"
 
@@ -3422,136 +2658,44 @@ file = "emojiful/cache/hmmm-1"
 hash = "60476531c31088f37d698cea583a28e81778b67d5c8c1fad4d759657f36294c2"
 
 [[files]]
-file = "emojiful/cache/hole-1"
-hash = "8490e6c75f6b3379f5ea426343242181f8e5b95fa845ebf0adb753e5305e6282"
-
-[[files]]
-file = "emojiful/cache/hot_face-1"
-hash = "28041ae7e19604ed78b6f126a87e62689cbd1b376fb5460d54473a62bc880618"
-
-[[files]]
 file = "emojiful/cache/hugg-1"
 hash = "6f4819e5a6a32e857d9bcb428673a15f002bd7b25a9e436b03a83beea102dbbe"
-
-[[files]]
-file = "emojiful/cache/hugging_face-1"
-hash = "04ec048228da1fca8ca417773fb80f3692adda0c41c465f1755f33ed27c5385e"
 
 [[files]]
 file = "emojiful/cache/huh-1"
 hash = "855b898059f5a0dc54acaeef1cea06fac1ca1e6c2b94fcd367388fab3c9f1bd3"
 
 [[files]]
-file = "emojiful/cache/hushed-1"
-hash = "4e84806b42bb29ec0d03a67c5e735f81f1867887901af9561d9938420cb51a8d"
-
-[[files]]
-file = "emojiful/cache/hut-1"
-hash = "72897cf531580214f42ae5d56f713992256d5bb1ce2742c76c95ec7f4f795056"
-
-[[files]]
 file = "emojiful/cache/hypers-1"
 hash = "d82b2b182ada6e0aad3270098d38a5865d44fb1799efdc6d1ede5f8b6d8b7209"
-
-[[files]]
-file = "emojiful/cache/ice_cube-1"
-hash = "4cefe09c734551131b434b50fe9f2bada200b93d084212cfa6fe0cb8ed4790ef"
-
-[[files]]
-file = "emojiful/cache/imp-1"
-hash = "f21936492b6f0ff047696e7d1d41d4615c2e6d9d10ada467ff47b02695376181"
-
-[[files]]
-file = "emojiful/cache/innocent-1"
-hash = "64668b0621274de854f18dbacdeffc50b277941cb6b55f152324099623281589"
 
 [[files]]
 file = "emojiful/cache/innocentyellow-1"
 hash = "154ba596d6d98d919fa09c5507a24510a1ab78c86df2bf0b110df3e7098098e7"
 
 [[files]]
-file = "emojiful/cache/jack_o_lantern-1"
-hash = "f52253eeec86b4ae1837f7a4f111637e354fbd7d8400bdbd1f74dc26e97459f4"
-
-[[files]]
 file = "emojiful/cache/jammies-1"
 hash = "ed5262a6c62fe96e7a7ec8ba131c38e3d751f8634a5bf8acca89f6bdd50c8d31"
-
-[[files]]
-file = "emojiful/cache/japanese_goblin-1"
-hash = "e75c2134aab5821a3feb7c0f9010d6091549c3821e54aa8ccd7bdfa11bb6e8dd"
-
-[[files]]
-file = "emojiful/cache/japanese_ogre-1"
-hash = "4d612388b1a38756f7920846bc68915f3f5db113f091977781938373ceea8296"
 
 [[files]]
 file = "emojiful/cache/joe_waiting-1"
 hash = "16cc9cf883a8a4860d9e52addc77a3b0f5c56399ece0dfd9b04e426b0ed24181"
 
 [[files]]
-file = "emojiful/cache/joy-1"
-hash = "c8246aad6123b803d61646eb191228ad21e854aedf143577d1a09e612605fb22"
-
-[[files]]
-file = "emojiful/cache/joy_cat-1"
-hash = "03ee756a3cc5910e3b91ef9b4bbef54ce11958e0bbaae39cc703e9388e25eca3"
-
-[[files]]
 file = "emojiful/cache/joycat-1"
 hash = "76f4070708f527bd0fbd8020045aa88dce2d6b33ca05b0a20911b3897964e9c7"
-
-[[files]]
-file = "emojiful/cache/kappa-1"
-hash = "d1c91e5de3a90a38dc414dccbc30509c6d150548481698656c06abd3c71c6638"
 
 [[files]]
 file = "emojiful/cache/kekw-1"
 hash = "0cd41b27a3c0c3c6996a56904425ed14810d4b7d12456b48476775e4b099e030"
 
 [[files]]
-file = "emojiful/cache/key-1"
-hash = "128a09c5f1649c226b6c44cf52107283b0ff95009eda2cbc2c534e4c68813acc"
-
-[[files]]
-file = "emojiful/cache/keyboard-1"
-hash = "42953d0205f0077eda662b3b8efeea500891ef7568bfe2fcacf016cdb69ecf33"
-
-[[files]]
-file = "emojiful/cache/keycap_star-1"
-hash = "7dbbfd129b9469c79bb71cf0059d7c55c60110ae2fdb7bb5e37a57b06aabd910"
-
-[[files]]
-file = "emojiful/cache/keycap_ten-1"
-hash = "ece5c9ac7ba2a984412e845531f06ea639e10b5f75fa502886fef469c6c44cb9"
-
-[[files]]
-file = "emojiful/cache/kiss-1"
-hash = "023ba4e37ab9435f030c6d52390cf94ba56cd6918d08bc71ca13e194e2c0c18c"
+file = "emojiful/cache/kirbyñom-1"
+hash = "fc6c0fd3f7f17f079819fefd12829e16a43954c122db2926c1a9df305b447ba2"
 
 [[files]]
 file = "emojiful/cache/kiss3-1"
 hash = "8d2402c97ea83e022ae00caa34d31761d940588cba16ade4060d36e5609a5593"
-
-[[files]]
-file = "emojiful/cache/kissing-1"
-hash = "e69079d04a2a2438263cc123fa98c542b27059213d120b255708772d58f2d2b7"
-
-[[files]]
-file = "emojiful/cache/kissing_cat-1"
-hash = "ad2b290751d8906da907020731c083237e54b695a83f11ba8019bbac54e69f0d"
-
-[[files]]
-file = "emojiful/cache/kissing_closed_eyes-1"
-hash = "f8fc07b562e105db80900d367150a790a662eb37e1cef9a579773d7fae6c0e25"
-
-[[files]]
-file = "emojiful/cache/kissing_heart-1"
-hash = "7090be5d140e67a800d35e11a860cf9ffac49ca77a17aeeb88e6e65d024f9183"
-
-[[files]]
-file = "emojiful/cache/kissing_smiling_eyes-1"
-hash = "3c0ddac15085e52c3acacc3f6fdb78e2ac052c985e413ed24b0e4312af8384b0"
 
 [[files]]
 file = "emojiful/cache/kit_waver-1"
@@ -3570,28 +2714,12 @@ file = "emojiful/cache/kittyvibe-1"
 hash = "702892a940703d3681c3e08e60a9358a8e98673e8c8473529950441cb7237264"
 
 [[files]]
-file = "emojiful/cache/label-1"
-hash = "1354ed58c11989cab41a0a29aa448a30bddcdfd03f73384727c9f0c686ae8e4f"
-
-[[files]]
-file = "emojiful/cache/ladybug-1"
-hash = "274987404acfcfab2cc02c4404083dbb47e028f2ecb97417fab968fc36ca8001"
-
-[[files]]
 file = "emojiful/cache/laughalot-1"
 hash = "3974369836d902d3b376638228e0203d05fe68d789dbb2815675df48bdc6f906"
 
 [[files]]
-file = "emojiful/cache/laughing-1"
-hash = "0f378a250fd0d1da727cf1a8c6208a571964f0b345e9bdf9ba3eb3e717ab5b55"
-
-[[files]]
 file = "emojiful/cache/laughingcat-1"
 hash = "8436c60e2d3093f8477c5b1eb57af88c497654e6f699b57c509a8e7c1e259f46"
-
-[[files]]
-file = "emojiful/cache/left_speech_bubble-1"
-hash = "f613a6a99f0d9be7407f265139e1def71331f685678eb53b6118ab6b5bc6c967"
 
 [[files]]
 file = "emojiful/cache/letsgo-1"
@@ -3602,28 +2730,12 @@ file = "emojiful/cache/letsgooo-1"
 hash = "9d6dd467c55e8febca3081fc8a35a9ad131069f0c0b2d58e2818d4ba4bc734b6"
 
 [[files]]
-file = "emojiful/cache/light_blue_heart-1"
-hash = "480c476f62c9d098a941462ce9a12153f732e620229798518545075ff7f14955"
-
-[[files]]
 file = "emojiful/cache/lo-1"
 hash = "a651d9f47825afcfa115212c37a689c373793eacdf9e0188f463fd843b3352cd"
 
 [[files]]
-file = "emojiful/cache/love_letter-1"
-hash = "24e14122afda7450cb1d11227ec78ff8405a6cedf17366ab9cd976b401b0b5c6"
-
-[[files]]
-file = "emojiful/cache/lul-1"
-hash = "992bccd401855d7f41e60a5bcc3c5789aadf9b6ef8cff642912e436ce9193221"
-
-[[files]]
 file = "emojiful/cache/lunajudge-1"
 hash = "1da071139b3dc485171c238d819af0a970705bef100cc0ea7bbb1b73abbb68ae"
-
-[[files]]
-file = "emojiful/cache/lying_face-1"
-hash = "531d571b91f12886498c6099e0e44497e1d1401429d13da19806e392ef9c8a1c"
 
 [[files]]
 file = "emojiful/cache/maaaan-1"
@@ -3638,76 +2750,20 @@ file = "emojiful/cache/madgeclap-1"
 hash = "0c2b97e86031c3d2e70bc272418fb44467cca5f63e74bfa9d19e038f3b2ec968"
 
 [[files]]
-file = "emojiful/cache/man_with_beard-1"
-hash = "9076ab71b6b46f84039ebdfdede16a13ccf8e29cdec83e418871146d1f65ff1d"
-
-[[files]]
-file = "emojiful/cache/mask-1"
-hash = "f89adbfbcf735200194c62ce130dfff1d6fec646567603371d38d803fa03c1ae"
-
-[[files]]
 file = "emojiful/cache/megamind-1"
 hash = "26144a493a55c0147d9988c38f1ce8605b3ac76a02c60ac93e0184473957ff1b"
-
-[[files]]
-file = "emojiful/cache/melting_face-1"
-hash = "24c70aaacc405e65aa0bc4864eae42d11b1ad0dc05c6a5129ebfe9ab8feef1bf"
-
-[[files]]
-file = "emojiful/cache/mending_heart-1"
-hash = "f911d6b6f05ebd3082ddbd59c5b6f7a43d7349b648aaaec5da5c877a226ded94"
-
-[[files]]
-file = "emojiful/cache/microbe-1"
-hash = "0d146bb3a46fd2ac66153a8eb39212a5db38c94b48e2f9b4f00f3355f0c5bbba"
 
 [[files]]
 file = "emojiful/cache/mmmhmm-1"
 hash = "ebf192658900ca7c866132b7fddbccf16663ccf09429c3c2da2122c6f07608a1"
 
 [[files]]
-file = "emojiful/cache/money_mouth_face-1"
-hash = "7fef3ace30996990287d7384339a638e1109ec475a2727ef3d2ed625eda22acc"
-
-[[files]]
-file = "emojiful/cache/monka_gun-1"
-hash = "d115404d19ee1f0edf8cc1855115c6992abfcbd1fab1b5bfdec6c395c2ad9437"
-
-[[files]]
 file = "emojiful/cache/monkah-1"
 hash = "b1413695afd0736a85852890318f4dbc0210ef95bebb5e84a824ee02f2416097"
 
 [[files]]
-file = "emojiful/cache/monkas-1"
-hash = "8e2655b1e8319fee81fab70afd54403ea9e1759f1ebc8209f9994005d17c0be3"
-
-[[files]]
-file = "emojiful/cache/monkey_face-1"
-hash = "c8e3a03076fb9ba80b2c096233b22ecb2875bc5347361118300a03516a4fedb9"
-
-[[files]]
 file = "emojiful/cache/muted-1"
 hash = "28641d5d69bd03dce09c6acfe7b1258ee588da42cf19b5c193e1fdf2f5311944"
-
-[[files]]
-file = "emojiful/cache/nauseated_face-1"
-hash = "5e6c1dd9ec41fecca6d780ced682c6d505fd260a6ec03e1f8c50e63270d57fdb"
-
-[[files]]
-file = "emojiful/cache/nerd_face-1"
-hash = "9ec92a2c91d722dbe9768e5803390f6b84dea5048df99ad4cbb225fb317d945f"
-
-[[files]]
-file = "emojiful/cache/neutral_face-1"
-hash = "8896a0f1ab34eb6daa5820644738b443b8672481a00b8c667a121229ac50d216"
-
-[[files]]
-file = "emojiful/cache/no_bell-1"
-hash = "0ececc0e39da75681a4dc98b5968d81cdede1cba2f51d2be0e474aa405e45e76"
-
-[[files]]
-file = "emojiful/cache/no_mouth-1"
-hash = "1bd87f04b14e84932e0906a902f74e7f9a86c8ef068bf5b7efabff5d58381c28"
 
 [[files]]
 file = "emojiful/cache/nodders-1"
@@ -3742,28 +2798,12 @@ file = "emojiful/cache/oh-1"
 hash = "e61f8bf04b2c40c643ad21a417b48e9bd148080c1d2b2a968203de21b3a65c5c"
 
 [[files]]
-file = "emojiful/cache/ohno-1"
-hash = "d824d5958cf4e5e42206ae2aaf8867e30e939ce994a216f048d0f67d0fc2bb81"
-
-[[files]]
 file = "emojiful/cache/okaga-1"
 hash = "c686588ddc624b147784abd2195d9f6c7b02f7ebfbec0c461b55b9eb419a0293"
 
 [[files]]
 file = "emojiful/cache/omegadancebutfast-1"
 hash = "3a43a7707db1f080582567612f6acc1b76bc717d23b05af52a64c1318d3392fa"
-
-[[files]]
-file = "emojiful/cache/oof-1"
-hash = "090f7ee111be5dc252232a84eff09c162a734b0873331dff451149c55248936a"
-
-[[files]]
-file = "emojiful/cache/open_mouth-1"
-hash = "727b2678c70f7eae9d3dd4466ec78dea6857ff3e201cd24b2c9d0585184cf4dd"
-
-[[files]]
-file = "emojiful/cache/orange_heart-1"
-hash = "2a095fbaec71991f7c010305c7c11869f300373d3c83c97070a9d40bf4a7902d"
 
 [[files]]
 file = "emojiful/cache/osakastare-1"
@@ -3774,44 +2814,16 @@ file = "emojiful/cache/pain-1"
 hash = "74b9fd42eb1268c0db32648466e1e666061cd67d21045eaeced3d032e32fad97"
 
 [[files]]
-file = "emojiful/cache/partly_sunny_rain-1"
-hash = "71a3bad550cc935493deae7b551c28ddb1c41590de82385a66f3b76c23bd34e9"
-
-[[files]]
-file = "emojiful/cache/partying_face-1"
-hash = "baab8f9132a847963160112dd39d8ef5bb8a9b7f108ee40242695c62888b0a7f"
-
-[[files]]
-file = "emojiful/cache/pea_pod-1"
-hash = "304326a67572de53a46eed499e87848bfa99012845ea9b4c4d484b74d9cb7fb8"
-
-[[files]]
-file = "emojiful/cache/peace_symbol-1"
-hash = "aac34e11c1018819fc794924bf579c02cbce871756fb0bd2a6ce16fc7ea47280"
-
-[[files]]
-file = "emojiful/cache/peach-1"
-hash = "d9765e8a7c8b5c8d877b040c4fc4ee57e631adefd9e5c2d3879e400aa899bf18"
-
-[[files]]
-file = "emojiful/cache/peacock-1"
-hash = "8d544ce1c8b496c415818988c61eb7bd6cea5253702b0d17fb001219738bfe85"
-
-[[files]]
-file = "emojiful/cache/peanuts-1"
-hash = "5e522caa27112ded0d4b97b04347b1537c07a4e365bfae439a0644a1b4847098"
-
-[[files]]
-file = "emojiful/cache/pear-1"
-hash = "bb751801c7808530effb8b7db42b347f1bff1e2d0a1932e27217a1a3de502ace"
-
-[[files]]
 file = "emojiful/cache/peepoDJ-1"
 hash = "f17be51b2254b3a88108c0b9266f12bed5648fa1f6d903e528d2ccfdbf81c018"
 
 [[files]]
+file = "emojiful/cache/peepoGiggles-1"
+hash = "f482ce5b188a4f0e0475f85abe1f663f5ec9ad0d9bf2a165b2f148fca74b0b5b"
+
+[[files]]
 file = "emojiful/cache/peepoHey-1"
-hash = "c3d1c0e5eaf4ce5d9a85f32dcd3d1a320b499db0d4594a8fbd70980c01452d8a"
+hash = "77bca05c3089abca74a2d47b2736c21ce65563b60a65b9ccd8851db45006186b"
 
 [[files]]
 file = "emojiful/cache/peepoaff-1"
@@ -3874,18 +2886,6 @@ file = "emojiful/cache/peepowhat-1"
 hash = "012ca06eae3072288972829dd50934a4997dfb1b4401fd0bc41d42d6ae2a3eb7"
 
 [[files]]
-file = "emojiful/cache/penguin-1"
-hash = "94e9507cca5d47ad9f8c36b75024110c12c894becf23b19cc132b64a7da3dc84"
-
-[[files]]
-file = "emojiful/cache/pensive-1"
-hash = "3f849d8c34b440f9b56018795345186dc3a221cce77c21b51907b88b3f1b3b61"
-
-[[files]]
-file = "emojiful/cache/peped-1"
-hash = "ba7ca6abc41cfde26653ff05452bef22b11ece5f21bc9ab06510cbdcee71ca67"
-
-[[files]]
 file = "emojiful/cache/pepega-1"
 hash = "ca4983bdc8f22fd739a3d463d5445b6e43bcfaa5085638595e83f6c0d021c8e4"
 
@@ -3906,28 +2906,8 @@ file = "emojiful/cache/pepobaila-1"
 hash = "92ef91bcb70e7f298e25a1b1cae778243945b7155cb2a59aacb8753c3975fdce"
 
 [[files]]
-file = "emojiful/cache/persevere-1"
-hash = "cbb9e9abb03bd0ddef89c311e99790f1f3eb4f217c8007c8c7dd6082266d96bb"
-
-[[files]]
-file = "emojiful/cache/picardfacepalm-1"
-hash = "87e081bbe6bf39a072ba6020ea7f429f1df5e02a64dc4ef3ccf72e1f9f3096ab"
-
-[[files]]
-file = "emojiful/cache/pink_heart-1"
-hash = "b6987ffe4c282e7b7e1bef8953ae842f48b7a40f1486ae21e7feee63b5be592b"
-
-[[files]]
-file = "emojiful/cache/pleading_face-1"
-hash = "696be39d4bce9707ab99874a86ca634ef756d3fb989a1d83816ae0c8924e2542"
-
-[[files]]
 file = "emojiful/cache/plink-1"
 hash = "243f54dc3a69dd447699707ccfc7348d317f34a46072eeea2ad6f22e212cc62c"
-
-[[files]]
-file = "emojiful/cache/pog-1"
-hash = "47bc320ebdd1042fe8b77e16db6d7ca307b5f7b64cea8aedaea9505e0e5690cd"
 
 [[files]]
 file = "emojiful/cache/poggers-1"
@@ -3942,120 +2922,24 @@ file = "emojiful/cache/pogspin-1"
 hash = "db56fa712789df5607ff3ded2d80d0875e78331878783139a181b87538b353d1"
 
 [[files]]
-file = "emojiful/cache/point_down-1"
-hash = "9eb6f20277ffd93be5b1a6d7684b1c9beb079a5fab84c39da2ab4f26215b13de"
-
-[[files]]
-file = "emojiful/cache/point_left-1"
-hash = "63ed4d15659fa27e212f7d927ce7f37397e173abb41c33eaa6afe75acd5738cf"
-
-[[files]]
-file = "emojiful/cache/point_right-1"
-hash = "67efd6a96f6a876da3c0efbb11a164e29fcfd8d087db2f5e3a01b9e45ea0217c"
-
-[[files]]
-file = "emojiful/cache/point_up-1"
-hash = "3a8b57bb8a6c44894890e18c37fa2061a5decff766465839df1dd017b9c30229"
-
-[[files]]
-file = "emojiful/cache/point_up_2-1"
-hash = "17aa4ad93468d5f6f218f4a834cebd7c38cb85184ac0047e44702e629bee74d4"
-
-[[files]]
 file = "emojiful/cache/pointandlaugh-1"
 hash = "45bb3a5ffa5d995583ef920167788f171ac03aae63332ae1d110d0fc9e50da4f"
-
-[[files]]
-file = "emojiful/cache/polar_bear-1"
-hash = "e9f14796c09973809a36ba01dadffa9bc58ceaf0a33f80c9e4a29c60ad4955ac"
 
 [[files]]
 file = "emojiful/cache/pop-1"
 hash = "d4305993166fa9ef4da76d547ff6bfefbb852aaa598b6ba320a9bb480a938c27"
 
 [[files]]
-file = "emojiful/cache/pouting_cat-1"
-hash = "7fa2f7d5011d5f0c84f34ee83e15bf83820462551ce261df4bc84cae8b5571d1"
-
-[[files]]
-file = "emojiful/cache/pray-1"
-hash = "056d1310a73b62023b02a38e1955cbf6d9ae48f8ce432c7e7f4be57b92238f99"
-
-[[files]]
-file = "emojiful/cache/prayer_beads-1"
-hash = "0e9ca3b0e37cd57b82fe52d2d792cf561c344a297a4afef48f7a7cc9c509f1ba"
-
-[[files]]
 file = "emojiful/cache/prayge-1"
 hash = "37b69f1009d4a40a4ed3eafb4feff06154e120dc1fc0682dfb1adfd88869dcef"
-
-[[files]]
-file = "emojiful/cache/pregnant_man-1"
-hash = "fa72fd5294a8da1d7e694d8d78c140f80de2b02edfe870749fd5bca8b1826031"
-
-[[files]]
-file = "emojiful/cache/pregnant_person-1"
-hash = "b884981f3a0c7d7355fbf9fe5769a57f3599286eebeff7031394890169eae70b"
-
-[[files]]
-file = "emojiful/cache/pregnant_woman-1"
-hash = "ffa5767c9a46d3a55d2c4d032f4c6cf39892c50053e9ba99fe0486b801ad2be0"
-
-[[files]]
-file = "emojiful/cache/pretzel-1"
-hash = "13e6532d71bbe941289ea0a8fcc2a826119b5de3f07d30b3a1bfda15a1c5715a"
-
-[[files]]
-file = "emojiful/cache/prince-1"
-hash = "f24e31c29439c0c1a67bb9605620290631e6b916e1395e7db184664709c5ac16"
-
-[[files]]
-file = "emojiful/cache/princess-1"
-hash = "d71f16fa59b079e15e1a976378025613a979b99c5827d815bba4e2b9ad5bd2e7"
-
-[[files]]
-file = "emojiful/cache/printer-1"
-hash = "e9312d1c0c770936fe02b5ffb706e5b718cafa554949a452adfc2b5cd59d01d2"
-
-[[files]]
-file = "emojiful/cache/purple_heart-1"
-hash = "86a5703608e2fe7d49db817656142430e2a1c0350653550c222e831a77218ff2"
 
 [[files]]
 file = "emojiful/cache/pussylip-1"
 hash = "8a858d212f027f2d28a44a3ea0fcb6bfba61731b459e828766ec24dd02682438"
 
 [[files]]
-file = "emojiful/cache/rage-1"
-hash = "6431d700d9a757acaf69b000d852e1e5185193622f156f93e0439aec5e515440"
-
-[[files]]
 file = "emojiful/cache/rawr-1"
 hash = "ca4d23cd12616c973f5008f09ad7ccbe1e8522f36e4cc7a0aaf6659c1125d696"
-
-[[files]]
-file = "emojiful/cache/relaxed-1"
-hash = "c5922db48c1eac14ff8a92fa19b9f45f4b29a9295d94e052fbf107721fbf6699"
-
-[[files]]
-file = "emojiful/cache/relieved-1"
-hash = "9555bc50880f551b948ef3641e23679610ccd4f5812cd925254989c62681fa0d"
-
-[[files]]
-file = "emojiful/cache/revolving_hearts-1"
-hash = "e8310c1111b2b8040699a6e1ba6334d24bde65299829a59f854b5234b9439813"
-
-[[files]]
-file = "emojiful/cache/right_anger_bubble-1"
-hash = "5e646ffafeebe518a627957c04a8629f3df0d718e921ce84f2fc2c38d0ba875b"
-
-[[files]]
-file = "emojiful/cache/robot_face-1"
-hash = "68c0bbd0f9badb9affe99f16d12d120a4f9701617a3873a1cf9f7d1b59c55da3"
-
-[[files]]
-file = "emojiful/cache/rolling_on_the_floor_laughing-1"
-hash = "2e842af2e5fe51cc1d908f167520a1a5b144f875f92b247eb71f9928e9ebdbd1"
 
 [[files]]
 file = "emojiful/cache/sad-1"
@@ -4082,212 +2966,28 @@ file = "emojiful/cache/sagaludando-1"
 hash = "9f7ba6399295a0cdce415212e169a101d4a48f728752f44403dcf2ece8f6cb21"
 
 [[files]]
-file = "emojiful/cache/saluting_face-1"
-hash = "13876da043d2138167d36270be394a1967f51f99e9d72b9e0261853d96d8f250"
-
-[[files]]
-file = "emojiful/cache/scream-1"
-hash = "480d7c854bf832382556599d352305736cea71743efaecdb1da963594a59ab79"
-
-[[files]]
-file = "emojiful/cache/scream_cat-1"
-hash = "81f3cab5c6fc3b5904cfe34dd59f5c1bf0cf7f389d3cc3be0149ead66eab4337"
-
-[[files]]
-file = "emojiful/cache/scyes-1"
-hash = "45376272000764058372d1de527353f88c823c0ba3b03c3252e09e1964967131"
-
-[[files]]
-file = "emojiful/cache/see_no_evil-1"
-hash = "b4208f800130f82bd55cbe41b909819beffd432e1604e239024cc013d5a3b21b"
-
-[[files]]
-file = "emojiful/cache/shaking_face-1"
-hash = "975890b5dc0d096419deb14134e365a5ddb8b82f9739feb69c65a2b5220abb57"
-
-[[files]]
-file = "emojiful/cache/shushing_face-1"
-hash = "538b7f5ac48fabb53498d8c0fc6353191ced04d45d8fd3413dc8a183f56e36cf"
-
-[[files]]
-file = "emojiful/cache/skull-1"
-hash = "b8ae916bd0a3dd58a1c57563ab9aab708658fc677aabc79320760f741166c469"
-
-[[files]]
-file = "emojiful/cache/skull_and_crossbones-1"
-hash = "28862a0b66f4cac796a6df5d2a31bfa1f8a932faa172350deab38123945212c8"
-
-[[files]]
-file = "emojiful/cache/sleeping-1"
-hash = "9fb5088f674db96c6dc0150b3d19e4eb05dcd09c257321a6552f07468f8f76a3"
-
-[[files]]
-file = "emojiful/cache/sleepy-1"
-hash = "d7d4a83118e3a8d953a884831fe047cd7d2075f5701ae000414ffdcd9f9e597f"
-
-[[files]]
-file = "emojiful/cache/slightly_frowning_face-1"
-hash = "b31f3751b1ab6bccae39e66f0bc8b183dfa8e36e5c6db1361dc23e44b40277fe"
-
-[[files]]
-file = "emojiful/cache/slightly_smiling_face-1"
-hash = "8cfc37b903f72fc0d96c4eea3805b87e4e059c03693efe6f9e674ce1fffa54b6"
-
-[[files]]
-file = "emojiful/cache/smarts-1"
-hash = "998bc4c78b7efdc3b42f453e7fe82fee12329e6731cc8b297aa199822abfc53d"
-
-[[files]]
-file = "emojiful/cache/smile-1"
-hash = "ff0aa2c4eae9b693930fd5bc55f7338d470cf71b79eaa4b09d9af7541aafc6d7"
-
-[[files]]
-file = "emojiful/cache/smile_cat-1"
-hash = "caf3bcd181e9f6559b5ab663b776fa512f773b50a296ee30a9d737f0650b5dc3"
-
-[[files]]
-file = "emojiful/cache/smiley-1"
-hash = "3b23b5cd105cdf562bb67171659d9c96e2bc65ac9ea481b84767262448f9b47b"
-
-[[files]]
-file = "emojiful/cache/smiley_cat-1"
-hash = "1d9b910318cefe31aa033ce00bdef6b8b5c127385d28f33e365bd9b105ded911"
-
-[[files]]
-file = "emojiful/cache/smiling_face_with_3_hearts-1"
-hash = "a12c7adb9f5ac740e585e4a207bf5ae8fc7fca5d09f600eb678d0d154d9925a3"
-
-[[files]]
-file = "emojiful/cache/smiling_face_with_tear-1"
-hash = "a2e05fa8c20ec59cb60fdec50157377dcf727fa19b7b25d157c345ae8e1d3e33"
-
-[[files]]
-file = "emojiful/cache/smiling_imp-1"
-hash = "7758b48e80db453f0906f312c5d94e08570fef52c0aa868d6dcd18f0346da106"
-
-[[files]]
-file = "emojiful/cache/smirk-1"
-hash = "6b0e83c970b57b802d740e13dc50348abbf903d1b6699ca69516a742f7c20648"
-
-[[files]]
-file = "emojiful/cache/smirk_cat-1"
-hash = "24f248856f4b3248f23bec6bb0dca439e4cd683190d90320ed8da3db743873a9"
-
-[[files]]
 file = "emojiful/cache/smoge-1"
 hash = "7394999ff6f2d2029fbbf2350f15a040e865861ea167c5ab9a58fab191ccdf2f"
-
-[[files]]
-file = "emojiful/cache/sneezing_face-1"
-hash = "906a9541e471b256d49142022b8bf325a934cfc79fc5fbfebbe1553903a6b259"
-
-[[files]]
-file = "emojiful/cache/sob-1"
-hash = "251555de1edee0e6c5e64f205028e4343fcb9f6857bfa5b9031aa9c63f51cb2d"
 
 [[files]]
 file = "emojiful/cache/socute-1"
 hash = "0c1b7dab81619f057b1921027ef610478e83af93e08e9f276ee87bd7b2f6315f"
 
 [[files]]
-file = "emojiful/cache/space_invader-1"
-hash = "e373051d107a299424589ad6bf3d402df9f16e3c0ddbb957d22b32113e8c07f0"
-
-[[files]]
-file = "emojiful/cache/sparkling_heart-1"
-hash = "d5a28c068de952914339e80d2976875b1a5ae9687b312affcd99c152f11bcb88"
-
-[[files]]
-file = "emojiful/cache/speak_no_evil-1"
-hash = "7736d86ecabf603cb4d2da5a930eb9c484113f4323e0cbdb626240ed951184fb"
-
-[[files]]
-file = "emojiful/cache/speech_balloon-1"
-hash = "61e133092645c0088443d923e0ccc7ed9348ad80141720363168215c573a9dc4"
-
-[[files]]
 file = "emojiful/cache/spongebobcry-1"
 hash = "2e640cf88d6b1cec9e8f1bace88416315765b387b9b91988b6a048fe614387df"
-
-[[files]]
-file = "emojiful/cache/squirr-1"
-hash = "ce2ab6db0b4dc40c666630c8b91f07e79d7e4a163d9d16da1d6d83511353aabe"
-
-[[files]]
-file = "emojiful/cache/star-struck-1"
-hash = "48d1fbb53822d48eb745e65a5174c20c31197e57e10ec474904fbb76726b427f"
 
 [[files]]
 file = "emojiful/cache/staree-1"
 hash = "4238cb332069293cafad96e973e54c067a2d4b7ec307f7c546fcdf627455a3b8"
 
 [[files]]
-file = "emojiful/cache/statue_of_liberty-1"
-hash = "0c3d02f03bcc91cf3e531ebd9df31ba1f09d63995465c07586c7affba54850ee"
-
-[[files]]
-file = "emojiful/cache/strawberry-1"
-hash = "d23343b8557243418ee22fceea378dd33f3bbde534f94c5aec60b781f1010605"
-
-[[files]]
-file = "emojiful/cache/stuck_out_tongue-1"
-hash = "7a1594b291aae9f0f05142f83c34f3cfea1ab881560d19b97da0da6a42bafef7"
-
-[[files]]
-file = "emojiful/cache/stuck_out_tongue_closed_eyes-1"
-hash = "74e94a146dc8b95f8fe59fdf024e4a17cd0109b1a045dcc12c79fae1deb480ef"
-
-[[files]]
-file = "emojiful/cache/stuck_out_tongue_winking_eye-1"
-hash = "bf94fed52173769bb90dfe8e5d508c0e245a546ea12b5a75c498a5ffc8948dcd"
-
-[[files]]
-file = "emojiful/cache/sunglasses-1"
-hash = "4507456343bef1ee08ae6079abb8b6a2531ca7fd31c635019c7410c2c0ac80e9"
-
-[[files]]
 file = "emojiful/cache/susy-1"
 hash = "23ceb1c709d536da2daf799daf1b698c46b91f10cc4fea42faa38ace46eaf9a5"
 
 [[files]]
-file = "emojiful/cache/sweat-1"
-hash = "a71e1f4a89fd5860254a1cca7c3c76afd578bcc14e7b4b6ad1e47b8957b4132a"
-
-[[files]]
-file = "emojiful/cache/sweat_drops-1"
-hash = "6f587fc4b592dcee7d999f416d755fd857efb6f255d5dcfa7d166dfc93cf5027"
-
-[[files]]
-file = "emojiful/cache/sweat_smile-1"
-hash = "6b67bf87c1ebc20e6067580a238fe43406c85a8a3ea8341e84ddb891295f3e21"
-
-[[files]]
-file = "emojiful/cache/teddy_bear-1"
-hash = "63a60517b102437ab1d8d2f792a1f6558238aeaf8f55d4424d6fcffe06b19643"
-
-[[files]]
-file = "emojiful/cache/test_tube-1"
-hash = "f0ab985731ac49a946cf8089a9fe930cd318f85860c2701a8bf57d7262b33cd0"
-
-[[files]]
-file = "emojiful/cache/thinking_face-1"
-hash = "bb56f94745045ad0b0f3ed82262899de0e470f2d6c88df3c11124aaff5e0c3e6"
-
-[[files]]
-file = "emojiful/cache/thonk-1"
-hash = "bff43537e6de2363ed354ab771c6710f9a89e5b5631981f2adf5def42398414f"
-
-[[files]]
-file = "emojiful/cache/thonkbutcool-1"
-hash = "bb77f2671c907ef42b5772e7fb9564e7b6284453808a814614f42419657049c2"
-
-[[files]]
-file = "emojiful/cache/thought_balloon-1"
-hash = "09e0aaf854502ce9d7909c25241e758f2af936344b79bee623342716a06aeb25"
-
-[[files]]
-file = "emojiful/cache/thraw-1"
-hash = "4232a4ad0941acf88df0d7638868c8e3d6f0729a8c6f9c5f0503b61b733e8ec9"
+file = "emojiful/cache/thumbsup-1"
+hash = "bc7147763c91721508e7525efac3ac3a48d9b05f3c42c805bdd630a2afc0efeb"
 
 [[files]]
 file = "emojiful/cache/timesavefornextrun-1"
@@ -4298,36 +2998,12 @@ file = "emojiful/cache/tired-1"
 hash = "ea45ae5ff215ffa340bb538af9141279a26959735c73a2c2c6f554186f51b0ab"
 
 [[files]]
-file = "emojiful/cache/tired_face-1"
-hash = "e2c90f016cf9b4c3dddca866fa9bd60c5f8ab3fc048b307e9e2f674804a41b6a"
-
-[[files]]
-file = "emojiful/cache/triumph-1"
-hash = "64ed77519376ec05c35535e8b8893ff95635dff3f522e3a0af46ef6940491c00"
-
-[[files]]
-file = "emojiful/cache/two_hearts-1"
-hash = "29058c580fed26f15982ce7c624abbe507acfe2e0a7706588007b393862a5fda"
-
-[[files]]
 file = "emojiful/cache/typingpeped-1"
 hash = "1b1ebb1d82746bd7fbf905e67d0d23d9130af7c6cc2218b0553e181897bcc9dc"
 
 [[files]]
 file = "emojiful/cache/uhhhhh-1"
 hash = "2e96054560340324ebdc5600ebde7f63aa8fbb9be7261dc0408d753738223793"
-
-[[files]]
-file = "emojiful/cache/unamused-1"
-hash = "abe9c8009aa3973a571c1fe900cc2cc8adce1095c460228bdd68b0c4b3068cbb"
-
-[[files]]
-file = "emojiful/cache/upside_down_face-1"
-hash = "9414761ea027fee20bd0858a41e648207ec68ac53fd68cfc99781e20799d4f85"
-
-[[files]]
-file = "emojiful/cache/weary-1"
-hash = "7838a697399990a19ae95f541230d7886d18b045bcde6cf0b96396f0603d5e8a"
 
 [[files]]
 file = "emojiful/cache/wgoah-1"
@@ -4342,44 +3018,12 @@ file = "emojiful/cache/what-1"
 hash = "9af9b6c88c0cceb72499cd1d4252df23ef5e47a5588eddf0887ceb04796709b5"
 
 [[files]]
-file = "emojiful/cache/white_frowning_face-1"
-hash = "20b358a4fe16b5b026a321545dcdbdbeda8d89eedfacfb1ccc463c0c675df37e"
-
-[[files]]
-file = "emojiful/cache/white_heart-1"
-hash = "b1db871ce4fed5417a85b1fa3993da3b77fa8f39f210e6c84e7e1b1a7c60df24"
-
-[[files]]
-file = "emojiful/cache/wink-1"
-hash = "1a7228a73f6b7e8f914a67102971d33e6440e8ac64cb84e549ed03d9982d6e2b"
-
-[[files]]
 file = "emojiful/cache/wokege-1"
 hash = "6cabcc0dcf6c6d7d47af28859ddc2e2fe49ab00ac4304276216aa740414b1fd6"
 
 [[files]]
-file = "emojiful/cache/woman_with_beard-1"
-hash = "b2e23b21bd1148d72bfb042f6d5a545a49fc91d671f6ba1ef814389a73dcc532"
-
-[[files]]
-file = "emojiful/cache/woozy_face-1"
-hash = "45efe9c4f82118d9f307b494bd30b6089cd1f7d6a1216a5f69d624dfa0eaea00"
-
-[[files]]
-file = "emojiful/cache/worried-1"
-hash = "40e6ca30bfde98180eba042e5965d8681af411ecee4175ff641e00d112ffb33c"
-
-[[files]]
-file = "emojiful/cache/yawning_face-1"
-hash = "89a28faadb690408ae9ef6fcc7513cebf415aed314932f2df86a555214d95787"
-
-[[files]]
 file = "emojiful/cache/yay-1"
 hash = "301259cd5305bc383c955282fa5427bcc1fb823c23cad3bfdc36577937686412"
-
-[[files]]
-file = "emojiful/cache/yellow_heart-1"
-hash = "14518387d969f771adef1ea4e3e3b0037057e3f33c3cdd8b1329c65cccbd40f4"
 
 [[files]]
 file = "emojiful/cache/yellowangry-1"
@@ -4392,26 +3036,6 @@ hash = "7a48c8d9bc297ea8f0bd83c5decd62a42693268cf16b4f706eb8f9530f1c9c47"
 [[files]]
 file = "emojiful/cache/yoge-1"
 hash = "3316445480c9e92ec1f87ced52735554c680f731056f52c46a09d582dd45a399"
-
-[[files]]
-file = "emojiful/cache/yum-1"
-hash = "27cca43a0cd285126ba4710a1700b6afc7681c062c26c9b86aef3acbc9869543"
-
-[[files]]
-file = "emojiful/cache/zany_face-1"
-hash = "97bff1843d1959256b9d1759e9ea6c4c9dbbcfefb861bbf3fd31612784a81794"
-
-[[files]]
-file = "emojiful/cache/zipper_mouth_face-1"
-hash = "109a76c73f9569913b1aa266a6df806d9e5f9dd7e91fb3516f28922f1937ca86"
-
-[[files]]
-file = "emojiful/cache/zoomeyes-1"
-hash = "e3160b2b6dec785fcd393fd5734e88de7f03252775c74b3f0103f91630c0d5af"
-
-[[files]]
-file = "emojiful/cache/zzz-1"
-hash = "21a642ea28afa996d031886b36c968b332fd308b9ddbc2a38ebe46f1451afe00"
 
 [[files]]
 file = "emojiful/emoji_images/aaaa.gif"
@@ -4686,6 +3310,10 @@ file = "emojiful/emoji_images/kekw.png"
 hash = "0cd41b27a3c0c3c6996a56904425ed14810d4b7d12456b48476775e4b099e030"
 
 [[files]]
+file = "emojiful/emoji_images/kirbyom.png"
+hash = "fc6c0fd3f7f17f079819fefd12829e16a43954c122db2926c1a9df305b447ba2"
+
+[[files]]
 file = "emojiful/emoji_images/kiss3.gif"
 hash = "8d2402c97ea83e022ae00caa34d31761d940588cba16ade4060d36e5609a5593"
 
@@ -4838,6 +3466,10 @@ file = "emojiful/emoji_images/peepog.png"
 hash = "4e6b4019166e787db893b67bb0439d4a64c47eedb60ae739b2562d19a1b23aaa"
 
 [[files]]
+file = "emojiful/emoji_images/peepogiggles.gif"
+hash = "f482ce5b188a4f0e0475f85abe1f663f5ec9ad0d9bf2a165b2f148fca74b0b5b"
+
+[[files]]
 file = "emojiful/emoji_images/peepohappy.png"
 hash = "f7a26cb6b078c448ace072dec8b7673f5ea8768e57f787a30200d52e541ac07d"
 
@@ -4980,6 +3612,10 @@ hash = "4238cb332069293cafad96e973e54c067a2d4b7ec307f7c546fcdf627455a3b8"
 [[files]]
 file = "emojiful/emoji_images/susy.gif"
 hash = "23ceb1c709d536da2daf799daf1b698c46b91f10cc4fea42faa38ace46eaf9a5"
+
+[[files]]
+file = "emojiful/emoji_images/thumbsup.png"
+hash = "bc7147763c91721508e7525efac3ac3a48d9b05f3c42c805bdd630a2afc0efeb"
 
 [[files]]
 file = "emojiful/emoji_images/timesavefornextrun.png"
