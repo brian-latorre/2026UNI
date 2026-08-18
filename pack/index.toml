@@ -2418,6 +2418,10 @@ file = "emojiful/cache/RAGEY-1"
 hash = "9caaff0d233191265a261a350487c29eda7f9a1fe0a9c267560a54d0dd7216e8"
 
 [[files]]
+file = "emojiful/cache/ThisIsFine-1"
+hash = "94d2bd3e1f548ef4e093e823f7cd80a3dcee1e4e7ab3cced436c29fed30c4a89"
+
+[[files]]
 file = "emojiful/cache/VIBE-1"
 hash = "6b7187dc97d04f7e5d113ce6b7c994e2fe75526ad8e1483782eb3d22ab525cda"
 
@@ -3612,6 +3616,10 @@ hash = "4238cb332069293cafad96e973e54c067a2d4b7ec307f7c546fcdf627455a3b8"
 [[files]]
 file = "emojiful/emoji_images/susy.gif"
 hash = "23ceb1c709d536da2daf799daf1b698c46b91f10cc4fea42faa38ace46eaf9a5"
+
+[[files]]
+file = "emojiful/emoji_images/thisisfine.png"
+hash = "94d2bd3e1f548ef4e093e823f7cd80a3dcee1e4e7ab3cced436c29fed30c4a89"
 
 [[files]]
 file = "emojiful/emoji_images/thumbsup.png"
