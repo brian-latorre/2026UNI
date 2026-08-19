@@ -2618,10 +2618,6 @@ file = "emojiful/cache/gatoeminem-1"
 hash = "2722bcb39ecb33ae6a428fddadb7ba070f3874bddd252c5f390f3ded0cdfafe2"
 
 [[files]]
-file = "emojiful/cache/gigachad-1"
-hash = "22f04ca42a71726b9258586c2cb1298fe313001ee2bf652e9bef5ac5a9c29d9b"
-
-[[files]]
 file = "emojiful/cache/gofuckyourself-1"
 hash = "e0230329cad99c08ef7e06a4cf67d4431ffb3023a8abb2e17f5675c00fb709eb"
 
@@ -2868,6 +2864,14 @@ hash = "8ee908fd629104be75c6c7cb6e0faa000592360c49d59a7d4f6436e28d3607d5"
 [[files]]
 file = "emojiful/cache/peepowhat-1"
 hash = "fce28ac0222eb3d9bd9dd3d1cec1f0a2a7502f763f7c5c8cd897a812fc5bbbb5"
+
+[[files]]
+file = "emojiful/cache/pepeMeltdown-1"
+hash = "63591dfe26f67816c626d2ae382e02fa786ae341ae43fe91e9d6e20fb90847a5"
+
+[[files]]
+file = "emojiful/cache/pepeMeltdown_4346-1"
+hash = "9dc9e7644263fee7691d36bc4f0b4748c0885e5e220e2230680d1330906aaba8"
 
 [[files]]
 file = "emojiful/cache/pepega-1"
@@ -3234,8 +3238,8 @@ file = "emojiful/emoji_images/gatoeminem.png"
 hash = "2722bcb39ecb33ae6a428fddadb7ba070f3874bddd252c5f390f3ded0cdfafe2"
 
 [[files]]
-file = "emojiful/emoji_images/gigachad.png"
-hash = "22f04ca42a71726b9258586c2cb1298fe313001ee2bf652e9bef5ac5a9c29d9b"
+file = "emojiful/emoji_images/gigachad.gif"
+hash = "fc0c8996885417713b3a696e541dcd53dc67487448d8843f4b9f55a72ceadedd"
 
 [[files]]
 file = "emojiful/emoji_images/gofuckyourself.png"
@@ -3496,6 +3500,14 @@ hash = "5358bb2b70f4b4781c1714b8243a46ad0af2ddda366b608e38334b7cf0b45be0"
 [[files]]
 file = "emojiful/emoji_images/pepeloser.png"
 hash = "bab5110133acf413f60e900454638b065bebf1c3e297c1213d74355d9ce9a4b9"
+
+[[files]]
+file = "emojiful/emoji_images/pepemeltdown.gif"
+hash = "63591dfe26f67816c626d2ae382e02fa786ae341ae43fe91e9d6e20fb90847a5"
+
+[[files]]
+file = "emojiful/emoji_images/pepemeltdown_4346.gif"
+hash = "9dc9e7644263fee7691d36bc4f0b4748c0885e5e220e2230680d1330906aaba8"
 
 [[files]]
 file = "emojiful/emoji_images/pepepoint.png"
