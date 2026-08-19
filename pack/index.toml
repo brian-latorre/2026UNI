@@ -2750,6 +2750,10 @@ file = "emojiful/cache/monkah-1"
 hash = "dc498bd486b121acc680bcca1ebc06fa93f71a464faac545042a6fd91d763003"
 
 [[files]]
+file = "emojiful/cache/nerd-1"
+hash = "a0783f82dea20f23143ab29fd32cad2d411245f6461c172f4f287863c64cc16a"
+
+[[files]]
 file = "emojiful/cache/nodders-1"
 hash = "e29ba09b7291de9ff4dfef0dcca7f08aa81f3f5de7292c2b9e0faf4c87dc8e71"
 
@@ -2820,6 +2824,10 @@ hash = "3f94b44eb6e3c5b7cb77cbb4e6dc2629da5d6f495f8fe2b8fd5ea55393e6aba2"
 [[files]]
 file = "emojiful/cache/peepog-1"
 hash = "5cab512b2ac9bbf9a4d2e732bc7409e9cdd8067d7a5717c284b0b0abef7496ce"
+
+[[files]]
+file = "emojiful/cache/peepogiggles-1"
+hash = "38cb7726f6c363e2b4f320306abb2abb5c3bd882b5bdb9d28ddd93de34009737"
 
 [[files]]
 file = "emojiful/cache/peepohappy-1"
