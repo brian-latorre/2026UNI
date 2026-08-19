@@ -252,7 +252,7 @@ try {
             "Accept" = "application/vnd.github.v3+json"
         }
         
-        $maxRetries = 60 # 60 * 5s = 5 minutos de timeout
+        $maxRetries = 180 # 180 * 5s = 15 minutos de timeout
         $retryCount = 0
         $workflowCompleted = $false
         $workflowSuccess = $false
