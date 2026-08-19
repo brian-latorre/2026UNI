@@ -57,6 +57,7 @@
 				experience_orb = true
 				tnt_minecart = true
 				slime = true
+				item_frame = true
 
 			[light_sources.settings.entities.born_in_chaos_v1]
 				baby_spider = true

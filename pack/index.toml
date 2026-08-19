@@ -703,7 +703,7 @@ hash = "7dd7dc266613f18011a9a5ba624e50c35374ad2b39ea379231c3c44e7b2261b3"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "9d1b1e49079dd7cefccacc75f21d95493d65e155b24e605e2daeeffc8a674519"
+hash = "39d0028c2e72186ef3431754d70e425179b4f2f4be5842522ee8b6bebdc66ad5"
 
 [[files]]
 file = "config/collective.json5"
@@ -870,7 +870,7 @@ hash = "e3bbedc636a78386ea099047dba9f70d2aad423e70b104914f99d3e74f6e0103"
 
 [[files]]
 file = "config/emojiful_usage.json"
-hash = "a3775376aa93c74caf85efb03b79fd49c59db5c02b8f0613927360b6fefec6b1"
+hash = "f0bed5dc9cfad5c2fbc3582bd5ee879c66e9b4a55ed0302d242beabcf90050d5"
 
 [[files]]
 file = "config/emotecraft.json"
@@ -922,7 +922,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "8883b8f5c952c85f8643761a931d1061eff2d04b64d9a71054aa2a3c9a286551"
+hash = "5f7b832944f0268fa7a5c40628ccdabd93b220c97abbb63957626ec6f776a530"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1478,7 +1478,7 @@ hash = "375d0b0d8e527e263544af72ca8688fe46a9747b803160cba63e14097a9d4f64"
 
 [[files]]
 file = "config/jei/world/server/UNI_2026_75a56078/lookupHistory.ini"
-hash = "89de9731de0425bd32d5f2c3fe4f5c0b5197e9ffc3aa3ad8208725ea2b7b6857"
+hash = "c08884d6b807710f749ffde9c60721b5126db35743c2d4168c3664da18f7c659"
 
 [[files]]
 file = "config/jeresources-common.toml"
@@ -1554,7 +1554,7 @@ hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
 [[files]]
 file = "config/mcreator_mem_fix.json"
-hash = "3da9efde7f78eefec244417e87dc27b0a378fe4b132dd21a6f7325152f98f651"
+hash = "de9b77c5c6fc0808e377a12f5cd3996ffa0b6522f8290a7ef3aebae7302595b3"
 
 [[files]]
 file = "config/mobplayeranimator/client.json5"
@@ -1614,7 +1614,7 @@ hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "721cea41ef82bfe8439a992938a7a74bb6e488411d34a743d32032ffcedb7fdf"
+hash = "bf42bd2d947cf98686cb15e7b97e2fcd1bfcc77ad240ebda936bfdaec65c6567"
 preserve = true
 
 [[files]]
@@ -1755,7 +1755,7 @@ hash = "6d329122279318bc4d91c27038ed6a7c712f55f32760cdb516c23c7744228b41"
 
 [[files]]
 file = "config/ryoamiclights.toml"
-hash = "e00f96dcf84fb582b0813344d970ec0272ca894e67db3ec99b216d015d985b85"
+hash = "839e473291388b2cecfbaa01ef0903b3a9e203f298280e8fb35488ed00025e5a"
 
 [[files]]
 file = "config/saturn-optimizations.toml"
@@ -1791,7 +1791,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "4b3e4368d8d9ec7d4e051c4b4cebefef6b5a26cb77dac04ea4c6f170234151fd"
+hash = "7ab5d1b05bae4046d6533d861c58f444528a9bf895731958b0a375c2312e051b"
 
 [[files]]
 file = "config/simplehats.json"
@@ -1819,7 +1819,7 @@ hash = "ac1a4e660c8a567b4c945962d063eeced1a0040615214ea4aebb947ff6af7d33"
 
 [[files]]
 file = "config/smartkeysync/client.json"
-hash = "0695b498460a06adf1fdc84072b0aa0fe9a663c07e566bfe5ee89c2c468277b1"
+hash = "e231210bd6ea0757780ddc68574b7f37d5e1be17bb4f78ffe486c7f10d967cd6"
 
 [[files]]
 file = "config/smartkeysync/master.json"
@@ -7687,7 +7687,7 @@ metafile = true
 
 [[files]]
 file = "mods/modifier-key-fix.pw.toml"
-hash = "995fa8c8d5d4942bad966c4ad7c29cfe1fdf93b3e71de8d64d4eccfc8de2db42"
+hash = "8d3a0af135b4af157bd4106a6ed47e93fdd6a5a7ded9382629987f843a8ce8d0"
 metafile = true
 
 [[files]]
