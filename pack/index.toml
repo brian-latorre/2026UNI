@@ -2406,10 +2406,6 @@ file = "dummy_trigger2.txt"
 hash = "e920fd95dc72c1df7101ea2ffc3081735d9226ccf97d3f0d4f978eabbb1fa2f8"
 
 [[files]]
-file = "emojiful/cache/NERD-1"
-hash = "93b3735563bc02790e23483c58b132f84ce8faf3838cb05c3f645de112e8e004"
-
-[[files]]
 file = "emojiful/cache/aaaa-1"
 hash = "3e8fc6a776ae173979d8fb6afb035bae43e8816bd20f98cc573d229035bb8871"
 
@@ -2682,7 +2678,7 @@ file = "emojiful/cache/kekw-1"
 hash = "ef191bb3cae5cde00a7805ac87908ef5967af4a3c92f4c4526252dd203f373de"
 
 [[files]]
-file = "emojiful/cache/kirbyñom-1"
+file = "emojiful/cache/kirbynom-1"
 hash = "c0ffeba76801439391a588badd9d0718e3494e104053339ba9330599cef60770"
 
 [[files]]
@@ -2800,10 +2796,6 @@ hash = "0e0dabba8ee11f02ebe9db3e19119c8eebd97041b5561f1fee5e54ed816384c9"
 [[files]]
 file = "emojiful/cache/pain-1"
 hash = "b3ca0d4d860a2efa4a450d531870192ad3b1f5c3d36419ae7d7239d27df1afaf"
-
-[[files]]
-file = "emojiful/cache/peepoGiggles-1"
-hash = "508fe0d002b0a13caa83b9baade88c8fbda3ea99097aaabae7ba84563a4c9eee"
 
 [[files]]
 file = "emojiful/cache/peepoaff-1"
@@ -3294,7 +3286,7 @@ file = "emojiful/emoji_images/kekw.png"
 hash = "ef191bb3cae5cde00a7805ac87908ef5967af4a3c92f4c4526252dd203f373de"
 
 [[files]]
-file = "emojiful/emoji_images/kirbyom.png"
+file = "emojiful/emoji_images/kirbynom.png"
 hash = "c0ffeba76801439391a588badd9d0718e3494e104053339ba9330599cef60770"
 
 [[files]]
@@ -3367,7 +3359,7 @@ hash = "dc498bd486b121acc680bcca1ebc06fa93f71a464faac545042a6fd91d763003"
 
 [[files]]
 file = "emojiful/emoji_images/nerd.gif"
-hash = "93b3735563bc02790e23483c58b132f84ce8faf3838cb05c3f645de112e8e004"
+hash = "a0783f82dea20f23143ab29fd32cad2d411245f6461c172f4f287863c64cc16a"
 
 [[files]]
 file = "emojiful/emoji_images/nodders.gif"
@@ -3443,7 +3435,7 @@ hash = "5cab512b2ac9bbf9a4d2e732bc7409e9cdd8067d7a5717c284b0b0abef7496ce"
 
 [[files]]
 file = "emojiful/emoji_images/peepogiggles.gif"
-hash = "508fe0d002b0a13caa83b9baade88c8fbda3ea99097aaabae7ba84563a4c9eee"
+hash = "38cb7726f6c363e2b4f320306abb2abb5c3bd882b5bdb9d28ddd93de34009737"
 
 [[files]]
 file = "emojiful/emoji_images/peepohappy.png"
