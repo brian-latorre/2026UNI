@@ -2406,6 +2406,10 @@ file = "dummy_trigger2.txt"
 hash = "e920fd95dc72c1df7101ea2ffc3081735d9226ccf97d3f0d4f978eabbb1fa2f8"
 
 [[files]]
+file = "emojiful/cache/GIGACHAD-1"
+hash = "fc0c8996885417713b3a696e541dcd53dc67487448d8843f4b9f55a72ceadedd"
+
+[[files]]
 file = "emojiful/cache/aaaa-1"
 hash = "1be9e31287ecdba0a11b0423b661430575db67c967fc0b1b605708770f7a8a90"
 
@@ -2522,10 +2526,6 @@ file = "emojiful/cache/catwtf-1"
 hash = "76328971b2eaffb1c88cb717aa10a2396d99ff07563e2dbfd818ef5683e2b271"
 
 [[files]]
-file = "emojiful/cache/cheerg2-1"
-hash = "02b812fe4a6fe1b4b2b775642bb7d0079f358639dd11cdb837bf5e75ec2196f4"
-
-[[files]]
 file = "emojiful/cache/cheergi-1"
 hash = "46ef515a35c34ce41fd37dfc7bd7a9137e73c02606281766a61cc155b37c4e23"
 
@@ -2560,10 +2560,6 @@ hash = "b848668712b82836234cdd950e078376cfeb980231b949db41f86501bcb602d7"
 [[files]]
 file = "emojiful/cache/cutecat-1"
 hash = "1bf3858005f70faa0dd70867d85535f174d59a8380f8feba29d33b5007da4e53"
-
-[[files]]
-file = "emojiful/cache/dancedoge3d-1"
-hash = "1b9b544bfdd4c772a24f9c78379ae47e6900d31231734ff338508b9cf1d1c591"
 
 [[files]]
 file = "emojiful/cache/deel-1"
@@ -2732,10 +2728,6 @@ hash = "9e1ff39e221b5bcaac3093ce48c1746747be2923d38faaf84a341746d1d433a5"
 [[files]]
 file = "emojiful/cache/madgeclap-1"
 hash = "2c382f30fc73e25c362c869b11cfbabd94a1ca6eab5511cbb1d0a7b0ed7f9212"
-
-[[files]]
-file = "emojiful/cache/megamind-1"
-hash = "4bfd5a7395f4bbc363023e2890b719c1f2d329c3fcae124edc87b62a75ba73d9"
 
 [[files]]
 file = "emojiful/cache/mmmhmm-1"
@@ -3142,10 +3134,6 @@ file = "emojiful/emoji_images/catwtf.gif"
 hash = "76328971b2eaffb1c88cb717aa10a2396d99ff07563e2dbfd818ef5683e2b271"
 
 [[files]]
-file = "emojiful/emoji_images/cheerg2.gif"
-hash = "02b812fe4a6fe1b4b2b775642bb7d0079f358639dd11cdb837bf5e75ec2196f4"
-
-[[files]]
 file = "emojiful/emoji_images/cheergi.gif"
 hash = "46ef515a35c34ce41fd37dfc7bd7a9137e73c02606281766a61cc155b37c4e23"
 
@@ -3180,10 +3168,6 @@ hash = "b848668712b82836234cdd950e078376cfeb980231b949db41f86501bcb602d7"
 [[files]]
 file = "emojiful/emoji_images/cutecat.png"
 hash = "1bf3858005f70faa0dd70867d85535f174d59a8380f8feba29d33b5007da4e53"
-
-[[files]]
-file = "emojiful/emoji_images/dancedoge3d.gif"
-hash = "1b9b544bfdd4c772a24f9c78379ae47e6900d31231734ff338508b9cf1d1c591"
 
 [[files]]
 file = "emojiful/emoji_images/deel.png"
@@ -3356,10 +3340,6 @@ hash = "9e1ff39e221b5bcaac3093ce48c1746747be2923d38faaf84a341746d1d433a5"
 [[files]]
 file = "emojiful/emoji_images/madgeclap.gif"
 hash = "2c382f30fc73e25c362c869b11cfbabd94a1ca6eab5511cbb1d0a7b0ed7f9212"
-
-[[files]]
-file = "emojiful/emoji_images/megamind.png"
-hash = "4bfd5a7395f4bbc363023e2890b719c1f2d329c3fcae124edc87b62a75ba73d9"
 
 [[files]]
 file = "emojiful/emoji_images/mmmhmm.gif"
