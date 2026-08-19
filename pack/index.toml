@@ -703,7 +703,7 @@ hash = "7dd7dc266613f18011a9a5ba624e50c35374ad2b39ea379231c3c44e7b2261b3"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "39d0028c2e72186ef3431754d70e425179b4f2f4be5842522ee8b6bebdc66ad5"
+hash = "9d1b1e49079dd7cefccacc75f21d95493d65e155b24e605e2daeeffc8a674519"
 
 [[files]]
 file = "config/collective.json5"
@@ -922,7 +922,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "5f7b832944f0268fa7a5c40628ccdabd93b220c97abbb63957626ec6f776a530"
+hash = "55215a542b7930b10d148379a0b5b8cb5dc9d6391776b52a2f04ff26ad8027bd"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1614,7 +1614,7 @@ hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "bf42bd2d947cf98686cb15e7b97e2fcd1bfcc77ad240ebda936bfdaec65c6567"
+hash = "b6a95b60e81139a919cdd81a055e2dfa9b11e32241e917b003f31b5c32f8d74f"
 preserve = true
 
 [[files]]
@@ -1675,7 +1675,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "49df785ce63047a292d123d635ba58c5abaa3e6bb7aaa7dde14ee1cfa4b59bba"
+hash = "5a6253e9e31bd6767c01da2b924e0bfa2306971ca915abbe72beca8b15ad8a87"
 
 [[files]]
 file = "config/presencefootsteps/updater.json"
@@ -1791,7 +1791,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "7ab5d1b05bae4046d6533d861c58f444528a9bf895731958b0a375c2312e051b"
+hash = "627177ac3d77555e3cc53717acc8e2ec4b708e0a4ca2db866dcc905ef28efcc4"
 
 [[files]]
 file = "config/simplehats.json"
@@ -1819,7 +1819,7 @@ hash = "ac1a4e660c8a567b4c945962d063eeced1a0040615214ea4aebb947ff6af7d33"
 
 [[files]]
 file = "config/smartkeysync/client.json"
-hash = "e231210bd6ea0757780ddc68574b7f37d5e1be17bb4f78ffe486c7f10d967cd6"
+hash = "50d0550d4e7ddbaec6cd1c6a131655aac5590ee867ed92574ac77efb6a7dde4a"
 
 [[files]]
 file = "config/smartkeysync/master.json"
