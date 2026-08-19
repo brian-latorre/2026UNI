@@ -1,0 +1,570 @@
+PineconeMC version: 11.0.3 (official)
+
+Launched instance in offline mode
+
+Minecraft folder is:
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/instances/2026UNI/.minecraft
+
+Java path is:
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/jre21/bin/javaw.exe
+Java is version 21.0.11, using 64 (amd64) architecture, from Eclipse Adoptium
+Java major version is incompatible. Things might break.
+
+Running Pre-Launch command: cmd.exe /c C:\Users\********\AppData\Roaming\.minecraft\2026UNI_Launcher\PineconeMC\instances\2026UNI/pre-launch.bat
+En C:\Users\********\AppData\Roaming\.minecraft\2026UNI_Launcher\PineconeMC\instances\2026UNI\enviar-logs.ps1: 344 
+CarÃ¡cter: 24
++             @{ name = "$e_Mods Mods Sospechosos"; value = "$suspectMo ...
++                        ~~~~~~~
+Token '$e_Mods' inesperado en la expresiÃ³n o la instrucciÃ³n.
+En C:\Users\********\AppData\Roaming\.minecraft\2026UNI_Launcher\PineconeMC\instances\2026UNI\enviar-logs.ps1: 344 
+CarÃ¡cter: 24
++             @{ name = "$e_Mods Mods Sospechosos"; value = "$suspectMo ...
++                        ~
+El literal de hash estaba incompleto.
+En C:\Users\********\AppData\Roaming\.minecraft\2026UNI_Launcher\PineconeMC\instances\2026UNI\enviar-logs.ps1: 344 
+CarÃ¡cter: 32
++             @{ name = "$e_Mods Mods Sospechosos"; value = "$suspectMo ...
++                                ~~~~
+Token 'Mods' inesperado en la expresiÃ³n o la instrucciÃ³n.
+En C:\Users\********\AppData\Roaming\.minecraft\2026UNI_Launcher\PineconeMC\instances\2026UNI\enviar-logs.ps1: 440 
+CarÃ¡cter: 48
++         StartTime = [datetime]::Now.ToString("o")
++                                                ~~
+Falta la cadena en el terminador: ".
+En C:\Users\********\AppData\Roaming\.minecraft\2026UNI_Launcher\PineconeMC\instances\2026UNI\enviar-logs.ps1: 447 
+CarÃ¡cter: 2
++ 
+Falta el parÃ©ntesis de cierre ')' en la subexpresiÃ³n.
+En C:\Users\********\AppData\Roaming\.minecraft\2026UNI_Launcher\PineconeMC\instances\2026UNI\enviar-logs.ps1: 447 
+CarÃ¡cter: 1
++ 
+El literal de hash estaba incompleto.
+En C:\Users\********\AppData\Roaming\.minecraft\2026UNI_Launcher\PineconeMC\instances\2026UNI\enviar-logs.ps1: 328 
+CarÃ¡cter: 15
++ if ($isCrash) {
++               ~
+Falta la llave de cierre "}" en el bloque de instrucciones o la definiciÃ³n de tipo.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+ 
+Current version is: v0.5.14
+New version is: v0.5.14
+Already up to date!
+Loading manifest file...
+Loading pack file...
+Loading MultiMC pack file...
+Loaded MultiMC config
+Checking local files...
+(1/1) Modpack is already up to date!
+Finished successfully!
+Process exited with code 0.
+Pre-Launch command ran successfully.
+
+
+Not enough RAM available to launch this instance
+
+OS: Windows 10 Version 22H2 | winnt | 10.0.19045
+CPU: AMD Ryzen 5 5600G with Radeon Graphics         
+RAM: 7607 MiB (available: 3677 MiB)
+GPU: AMD Radeon(TM) Graphics
+GPU: Microsoft Basic Render Driver
+
+Components:
+  1) Minecraft (net.minecraft) 1.20.1
+  2) Forge (net.minecraftforge) 47.4.18
+
+Launcher: standard
+Main class: io.github.zekerzhayard.forgewrapper.installer.Main
+
+Mods:
+  [✔] 
+  [🖿]  (folder)
+  [✔] [forge]ctov-3.4.14
+  [✔] [MC-1.20] Hide Key Binding v1.0.0.7 - 2025-3-31
+  [✔] accents-forge-1.20.1-1.1.0
+  [✔] accessories-neoforge-1.0.0-beta.48+1.20.1
+  [✔] ad_astra-forge-1.20.1-1.15.20
+  [✔] adorablehamsterpets-3.6.1-1.20.1+forge
+  [✔] AdvancementPlaques-1.20.1-forge-1.6.9
+  [✔] alexscaves-2.0.2
+  [✔] alexsmobs-1.22.9
+  [✔] alexs-mobs-tweaks-1.0.0
+  [✔] alltheleaks-1.1.1+1.20.1-forge
+  [✔] appleskin-forge-mc1.20.1-2.5.1
+  [✔] appliedenergistics2-forge-15.4.10
+  [✔] aquamirae-forge-1.20.1-6.2.0
+  [✔] architectury-9.2.14-forge
+  [✔] artifacts-forge-9.5.18
+  [✔] asynclogger-2.1.2+1.20.1-forge
+  [✔] AttributeFix-Forge-1.20.1-21.0.5
+  [✔] BadOptimizations-2.4.0-1.20.1
+  [✔] balm-forge-1.20.1-7.3.38-all
+  [✔] beautify-2.0.2
+  [✔] BeeFix-1.20-1.0.7
+  [✔] bendy-lib-forge-4.0.0
+  [✔] BetterF3-7.0.2-Forge-1.20.1
+  [✔] blue_skies-1.20.1-1.3.31
+  [✔] blueprint-1.20.1-7.1.4
+  [✔] bocchium-1.20.1-0.0.3
+  [✔] Bookshelf-Forge-1.20.1-20.2.15
+  [✔] born_in_chaos_[Forge]1.20.1_1.7.5
+  [✔] Botania-1.20.1-451-FORGE
+  [✔] BotanyPots-Forge-1.20.1-13.0.43
+  [✔] BotanyPotsTiers-Forge-1.20.1-6.0.2
+  [✔] botarium-forge-1.20.1-2.3.4
+  [✔] BrewinAndChewin-1.20.1-3.2.1
+  [✔] Butchersdelight beta 1.20.1 2.1.0
+  [✔] caelus-forge-3.2.0+1.20.1
+  [✔] carryon-forge-1.20.1-2.1.2.7
+  [✔] castle_in_the_sky-1.20.1-0.6.0
+  [✔] chained_friends-1.20.1-forge-1.0.0
+  [✔] chat_heads-0.15.3-forge-1.20
+  [✔] chatanimation-forge-1.3.0+mc1.20.1
+  [✔] chatsigninghider-fabric-1.20.1-1.0.5
+  [✔] chloride-FORGE-mc1.20.1-v1.7.7
+  [✔] chunkloaders-1.2.9-forge-mc1.20.1
+  [✔] cicada-lib-0.14.3+1.20.1
+  [✔] citadel-2.6.3-1.20.1
+  [✔] citresewn-1.20.1-5
+  [✔] clientcrafting-1.20.1-1.8
+  [✔] cloth-config-11.1.136-forge
+  [✔] Clumps-forge-1.20.1-12.0.0.4
+  [✔] cluttered-[Forge]-3.0.3-1.20.1
+  [✔] Cobblemon-forge-1.5.2+1.20.1
+  [✔] cobblemonrider-1.2.4
+  [✔] cobblemon-spawn-notification-1.5-forge-1.2.0
+  [✔] comforts-forge-6.4.0+1.20.1
+  [✔] Compat_FarmersDelight
+  [✔] configured-forge-1.20.1-2.2.3
+  [✔] connectivity-1.20.1-7.6
+  [✔] Connector-1.0.0-beta.48+1.20.1
+  [✔] ConnectorExtras-1.11.2+1.20.1-rea
+  [✔] Controlling-forge-1.20.1-12.0.2
+  [✔] copycats-3.0.7+mc.1.20.1-forge
+  [✔] Corgilib-Forge-1.20.1-4.0.3.4
+  [✔] corn_delight-1.1.9-1.20.1
+  [✔] coroutil-forge-1.20.1-1.3.7
+  [✔] crashexploitfixer-forge-1.1.0+1.20.1
+  [✔] create-1.20.1-6.0.8
+  [✔] create-structures-0.1.1-1.20.1-FORGE
+  [✔] CreativeCore_FORGE_v2.12.35_mc1.20.1
+  [✔] creeperoverhaul-3.0.2-forge
+  [✔] crittersandcompanions-forge-1.20.1-2.7.0
+  [✔] CullLessLeaves-Reforged-1.20.1-1.0.5
+  [✔] culturaldelights-0.16.5
+  [✔] cupboard-1.20.1-3.0
+  [✔] curios-forge-5.14.1+1.20.1
+  [✔] curiouslanterns-1.20.1-1.3.7
+  [✔] CutThrough-v8.0.2-1.20.1-Forge
+  [✔] Data_Anchor-forge-1.20.1-1.0.0.20
+  [✔] defaultoptions-forge-1.20.1-18.0.5
+  [✔] Delightful-1.20.1-3.7.8
+  [✔] delightfulcreators-1.2
+  [✔] deuf-1.20.1-1.3
+  [✔] DistantHorizons-3.2.0-b-1.20.1-fabric-forge
+  [✔] do_a_barrel_roll-forge-3.5.6+1.20.1
+  [✔] drippyloadingscreen_forge_3.1.2_MC_1.20.1
+  [✔] dtcobblemon-1.20.1-1.1.1-slim
+  [✔] dye_depot-forge-1.20.1-1.3.0
+  [✔] Dynamic Trees BWG-1.20.1-1.0.9
+  [✔] dynamic-fps-3.11.4+minecraft-1.20.0-forge
+  [✔] DynamicTrees-1.20.1-1.4.10
+  [✔] DynamicTreesAlexsMobs-1.20.1-1.0.0
+  [✔] DynamicTreesPlus-1.20.1-1.2.2
+  [✔] DynamicTreesQuark-1.20.1-2.5.3
+  [✔] DynamicTreesRU-1.20.1-1.0.1
+  [✔] DynamicTreesTinkersConstruct-1.20.1-1.5.0
+  [✔] elevatorid-1.20.1-1.9.1-forge
+  [✔] elytraslot-forge-6.4.4+1.20.1
+  [✔] embeddium-0.3.31+mc1.20.1
+  [✔] Emojiful-Forge-1.20.1-4.2.0
+  [✔] emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge
+  [✔] EmoteTweaks-4.0.3.37
+  [✔] EnchantmentDescriptions-Forge-1.20.1-17.1.21
+  [✔] ends_delight-2.5.1+forge.1.20.1
+  [✔] entity_model_features-3.2.4-1.20.1-forge
+  [✔] entity_texture_features_1.20.1-forge-7.1
+  [✔] entityculling-forge-1.9.5-mc1.20.1
+  [✔] exposure-forge-1.20.1-1.9.20
+  [✔] extrasounds-1.5.6+1.20.1-forge
+  [✔] fabric-api-0.92.6+1.11.14+1.20.1
+  [✔] fancy-entity-renderer-forge-1.20.1-0.4.6
+  [✔] fancymenu_forge_3.9.3_MC_1.20.1
+  [✔] FarmersDelight-1.20.1-1.2.11
+  [✔] farmersrespite-1.20.1-2.1.2
+  [✔] FastEvent-1.20.1-1.1.1
+  [✔] fast-ip-ping-v1.0.8-mc1.20.4-forge
+  [✔] FastItemFrames-v20.1.5-1.20.1-Forge
+  [✔] Fastquit-3.0.1+1.20.1forge
+  [✔] ferritecore-6.0.1-forge
+  [✔] fieldguide-forge-1.20.1-1.8.4
+  [✔] flerovium-forge-1.20.1-1.2.18-all
+  [✔] Forgematica-0.1.13-mc1.20.1
+  [✔] fragmentum-forge-1.20.1-1.1.4
+  [✔] FramedBlocks-9.4.3
+  [✔] freecam-forge-1.2.1+1.20
+  [✔] fusion-1.2.12-forge-mc1.20.1
+  [✔] fwa+1.20.1-forge-1.2.20
+  [✔] fzzy_config-0.7.6+1.20.1+forge
+  [✔] gallery-1.20.1-1.0.3
+  [✔] geckolib-forge-1.20.1-4.8.3
+  [✔] ghosts-forge-1.20.1-1.3.3
+  [✔] gnetum-2.4.6
+  [✔] golemoverhaul-forge-1.20.1-1.1.0
+  [✔] gpumemleakfix-1.20.1-1.8
+  [✔] grand-teleport-forge-1.20.1-forge-build300
+  [✔] guideme-20.1.14
+  [✔] Iceberg-1.20.1-forge-1.1.25
+  [✔] ImmediatelyFast-Forge-1.5.4+1.20.4
+  [✔] immersivedamageindicators-forge-1.0.0-1.20.1
+  [✔] immersivehotbar-1.1.2-forge-1.20.1
+  [✔] immersivemessages-forge-1.0.18-1.20.1
+  [✔] IMPR-Forge-3.24.1-1.20.1
+  [✔] inmis-2.7.2-1.20.1
+  [✔] inmisaddon-1.0.4
+  [✔] ironfurnaces-1.20.1-4.1.8
+  [✔] Ixeris-4.5.2+1.20.1-forge
+  [✔] Jade-1.20.1-Forge-11.13.2
+  [✔] JadeAddons-1.20.1-Forge-5.5.0
+  [✔] jeed-1.20-2.2.5
+  [✔] jei-1.20.1-forge-15.49.0.188
+  [✔] jumpoverfences-forge-1.20.1-1.3.1
+  [✔] justenoughbreeding-forge-1.20.1-3.0.1
+  [✔] JustEnoughResources-1.20.1-1.4.0.247
+  [✔] Kerria-1.3.2+1.20.1-forge
+  [✔] KeybindAtlas-v1.4.0-mc1.20.1-forge
+  [✔] konkrete_forge_1.8.0_MC_1.20-1.20.1
+  [✔] kotlinforforge-4.12.0-all
+  [✔] Krypton FNP-forge-1.20.1-0.2.28.2-1.20.1
+  [✔] L_Enders_Cataclysm-3.26-enchant-fix
+  [✔] labels-1.20-2.0.0
+  [✔] leaky-1.20.1-2.3
+  [✔] lemoned-1.0.1-1.20
+  [✔] letsdo-bakery-forge-2.0.6
+  [✔] letsdo-beachparty-forge-2.0.3
+  [✔] letsdo-brewery-forge-2.0.6
+  [✔] letsdo-candlelight-forge-2.0.5
+  [✔] letsdo-farm_and_charm-forge-1.0.14
+  [✔] letsdo-furniture-forge-1.0.4
+  [✔] letsdo-herbalbrews-forge-1.0.12
+  [✔] letsdo-vinery-forge-1.4.41
+  [✔] letsdo-wildernature-forge-1.0.6
+  [✔] lionfishapi-2.4
+  [✔] lithostitched-forge-1.20.1-1.4.11
+  [✔] MaFgLib-0.1.14-mc1.20.1
+  [✔] Mantle-1.20.1-1.11.104
+  [✔] MaxHealthFix-Forge-1.20.1-12.0.4
+  [✔] MCreatorMemFix-1.0.4
+  [✔] mcw-doors-1.1.5-mc1.20.1forge
+  [✔] mcw-mcwfences-1.2.1-mc1.20.1forge
+  [✔] mcw-mcwpaths-1.1.1-mc1.20.1forge
+  [✔] MEED-1.20.1-5.7
+  [✔] melody_forge_1.0.3_MC_1.20.1-1.20.4
+  [✔] miners_delight-1.20.1-1.2.3
+  [✔] mobplayeranimator-forge-1.20.1-1.3.3-all
+  [✔] modelfix-1.15
+  [✔] modernfix-forge-5.26.2+mc1.20.1
+  [✔] ModifierKeyFix-1.1.0
+  [✔] moonlight-1.20-2.16.34-forge
+  [✔] more_curios_slots-1.3
+  [✔] moredelight-25.07.28-1.20-forge
+  [✔] MossyLib-1.3.0+1.20.1+forge
+  [✔] MouseTweaks-forge-mc1.20.1-2.25.1
+  [✔] mowziesmobs-1.8.2
+  [✔] mysterious_mountain_lib-1.6.34-1.20.1
+  [✔] nethersdelight-1.20.1-4.0
+  [✔] nirvana-forge-1.2.5
+  [✔] NoChatReports-FORGE-1.20.1-v2.2.2
+  [✔] Not Enough Recipe Book-FORGE-0.4.1+1.20.1
+  [✔] obscure_api-18
+  [✔] ObsidianUI-forge-0.2.3+mc1.20.1
+  [✔] oceansdelight-1.0.2-1.20
+  [✔] OctoLib-FORGE-0.5.0.1+1.20.1
+  [✔] oculus-mc1.20.1-1.8.0
+  [✔] Oh-The-Biomes-Weve-Gone-Forge-1.8.0
+  [✔] Oh-The-Trees-Youll-Grow-forge-1.20.1-1.7.0
+  [✔] otyacraftengine-forge-mc1.20.1-3.7.1-1.20.1
+  [✔] panoramica_forge_1.2.1_MC_1.19-1.19.2
+  [✔] paperdoll-forge-1.4.0-mc1.20.1
+  [✔] Patchouli-1.20.1-85-FORGE
+  [✔] peruviansdelight-1.20.1-1.4.0
+  [✔] PickUpNotifier-v8.0.0-1.20.1-Forge
+  [✔] Ping-Wheel-1.12.1-forge-1.20.1
+  [✔] Placebo-1.20.1-8.6.3
+  [✔] player-animation-lib-forge-1.0.2-rc1+1.20
+  [✔] playtime-1.1
+  [✔] playtimefixer-1.0.0
+  [✔] polyeng-forge-0.1.1-1.20.1
+  [✔] polymorph-forge-0.49.10+1.20.1
+  [✔] polytone-1.20-3.5.26
+  [✔] portfolio-1.20.1-1.5.0-forge
+  [✔] Powah-5.0.11
+  [✔] primal-1.1.6+1.20.1
+  [✔] Prism-1.20.1-forge-1.0.5
+  [✔] punchy-2.6.2-forge-1.20.1
+  [✔] PuzzlesLib-v8.1.33-1.20.1-Forge
+  [✔] quantified api-omni-2.2.0
+  [✔] Quark-4.0-462
+  [✔] radiantgear-forge-2.2.0+1.20.1
+  [✔] radium-mc1.20.1-0.12.4+git.26c9d8e
+  [✔] reap-forge-1.20.1-1.1.2
+  [✔] rebindnarrator-forge-1.20.x-1.2.2
+  [✔] RegionsUnexploredForge-0.5.6+1.20.1
+  [✔] relics-1.20.1-0.8.0.13
+  [✔] RenderScale-forge-1.20.1-1.0
+  [✔] resourcefulconfig-forge-1.20.1-2.1.3
+  [✔] resourcefullib-forge-1.20.1-2.1.29
+  [✔] Resourcify (1.20.1-forge)-1.8.1
+  [✔] Ribbits-1.20.1-Forge-3.0.5
+  [✔] RyoamicLights-forge-0.2.3+mc1.20.1
+  [✔] saturn-mc1.20.1-0.1.3
+  [✔] ScalingHealth-1.20.1-8.0.2+9
+  [✔] scarecrowsterritory-1.1.11d-forge-mc1.20.4
+  [✔] screenshotgallery-forge-1.20.1-1.8
+  [✔] screenshot-to-clipboard-1.0.9-forge
+  [✔] seamlesssleep-forge-1.20.1-2.5.2
+  [✔] Searchables-forge-1.20.1-1.0.3
+  [✔] show-me-your-skin-1.9.0+1.20
+  [✔] silent-lib-1.20.1-8.0.0
+  [✔] simplehats-forge-1.20.1-0.4.0a
+  [✔] skinlayers3d-forge-1.11.1-mc1.20.1
+  [✔] sliceanddice-forge-3.6.0
+  [✔] smartkeysync-1.0.0
+  [✔] smoothgui-forge-1.20.1-1.1.1
+  [✔] sophisticatedbackpacks-1.20.1-3.24.31.1628
+  [✔] sophisticatedcore-1.20.1-1.3.16.1631
+  [✔] spark-1.10.53-forge
+  [✔] spiffyhud_forge_3.1.2_MC_1.20.1
+  [✔] spiffyxgnetum-1.0
+  [✔] Steam_Rails-1.7.2+forge-mc1.20.1
+  [✔] StorageDrawers-forge-1.20.1-12.14.3
+  [✔] StreamsReflowing-1.20.1-forge-2.12.6
+  [✔] structure_gel-1.20.1-2.16.2
+  [✔] SubtleEffects-forge-1.20.1-1.14.3
+  [✔] supermartijn642configlib-1.1.8-forge-mc1.20
+  [✔] supermartijn642corelib-1.1.21-forge-mc1.20.1
+  [✔] tameablebeasts-1.20.1-7.1.3
+  [✔] TConstruct-1.20.1-3.11.2.166
+  [✔] tempad-forge-1.20.1-2.3.4
+  [✔] tempadwithshaders-1.20.1-1.0.0
+  [✔] TerraBlender-forge-1.20.1-3.0.1.10
+  [✔] ToastControl-1.20.1-8.0.3
+  [✔] tombstone-1.20.1-9.0.9
+  [✔] torchmaster-20.1.9
+  [✔] trashslot-forge-1.20.1-15.1.3
+  [✔] TravelersTitles-1.20-Forge-4.0.2
+  [✔] tru.e-ending-v1.1.0c
+  [✔] txnilib-forge-1.0.24-1.20.1
+  [✔] VeggiesDelight-1.20.1-1.9.2
+  [✔] visual_keybinder-1.20.1 - 0.1.12
+  [✔] VisualWorkbench-v8.0.1-1.20.1-Forge
+  [✔] voicechat-forge-1.20.1-2.6.15
+  [✔] waterframes-FORGE-mc1.20.1-v2.2.0-beta.6
+  [✔] watermedia_binaries-3.0.0-rc.4
+  [✔] watermedia_platform_extension-3.0.0-beta.7
+  [✔] watermedia-3.0.0.18
+  [✔] watut_screen_blacklist-1.0.0
+  [✔] watut-forge-1.20.1-1.2.3
+  [✔] waystones-forge-1.20.1-14.1.20
+  [✔] xaerominimap-forge-1.20.1-25.3.10
+  [✔] xaeroworldmap-forge-1.20.1-1.40.11
+  [✔] yet_another_config_lib_v3-3.6.6+1.20.1-forge
+  [✔] YungsApi-1.20-Forge-4.0.6
+  [✔] YungsCaveBiomes-1.20.1-Forge-2.0.5
+  [✔] Zeta-1.0-31
+  [✔] zume-1.2.1
+
+Traits:
+  feature:is_quick_play_singleplayer
+  FirstThreadOnMacOS
+  feature:is_quick_play_multiplayer
+  XR:Initial
+
+Libraries:
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/com/github/oshi/oshi-core/6.2.2/oshi-core-6.2.2.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/com/google/code/gson/gson/2.10/gson-2.10.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/com/mojang/brigadier/1.1.8/brigadier-1.1.8.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/com/mojang/logging/1.1.1/logging-1.1.1.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/com/mojang/text2speech/1.17.9/text2speech-1.17.9.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/io/netty/netty-buffer/4.1.82.Final/netty-buffer-4.1.82.Final.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/io/netty/netty-codec/4.1.82.Final/netty-codec-4.1.82.Final.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/io/netty/netty-common/4.1.82.Final/netty-common-4.1.82.Final.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/io/netty/netty-handler/4.1.82.Final/netty-handler-4.1.82.Final.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/io/netty/netty-resolver/4.1.82.Final/netty-resolver-4.1.82.Final.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/io/netty/netty-transport-classes-epoll/4.1.82.Final/netty-transport-classes-epoll-4.1.82.Final.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/io/netty/netty-transport-native-unix-common/4.1.82.Final/netty-transport-native-unix-common-4.1.82.Final.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/io/netty/netty-transport/4.1.82.Final/netty-transport-4.1.82.Final.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/it/unimi/dsi/fastutil/8.5.9/fastutil-8.5.9.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.19.0/log4j-slf4j2-impl-2.19.0.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/org/slf4j/slf4j-api/2.0.1/slf4j-api-2.0.1.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/io/github/zekerzhayard/ForgeWrapper/prism-2026-08-01/ForgeWrapper-prism-2026-08-01.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/org/ow2/asm/asm/9.9.1/asm-9.9.1.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/org/ow2/asm/asm-commons/9.9.1/asm-commons-9.9.1.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/org/ow2/asm/asm-tree/9.9.1/asm-tree-9.9.1.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/org/ow2/asm/asm-util/9.9.1/asm-util-9.9.1.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/org/ow2/asm/asm-analysis/9.9.1/asm-analysis-9.9.1.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/net/minecraftforge/eventbus/6.2.33/eventbus-6.2.33.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/net/jodah/typetools/0.6.3/typetools-0.6.3.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/net/minecraftforge/fmlloader/1.20.1-47.4.18/fmlloader-1.20.1-47.4.18.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.18/fmlearlydisplay-1.20.1-47.4.18.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/by/ely/authlib/4.0.43-ely.5/authlib-4.0.43-ely.5.jar
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/libraries/com/mojang/minecraft/1.20.1/minecraft-1.20.1-client.jar
+
+Native libraries:
+
+Natives path:
+  C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/instances/2026UNI/natives
+
+Minecraft arguments:
+  --username  --version 1.20.1 --gameDir C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/instances/2026UNI/.minecraft --assetsDir C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/assets --assetIndex 5 --uuid  --accessToken  --userType  --versionType release --launchTarget forgeclient --fml.forgeVersion 47.4.18 --fml.mcVersion 1.20.1 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20230612.114412
+
+Window size: 854 x 480
+
+Java arguments:
+  -Duser.language=en -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms3072m -Xmx5120m
+
+Minecraft process ID: 6556
+
+
+JVM info: Eclipse Adoptium - 21.0.11 - 21.0.11+10-LTS
+java.net.preferIPv4Stack=true
+Current Time: 18/08/2026 13:07:35
+Created Temporary Directory: C:\Users\********\AppData\Local\Temp\forge_installer195864040789698502
+  Extracting: /data/client.lzma
+Building Processors
+===============================================================================
+  Cache: 
+    C:\Users\********\AppData\Roaming\.minecraft\2026UNI_Launcher\PineconeMC\libraries\de\oceanlabs\mcp\mcp_config\1.20.1-20230612.114412\mcp_config-1.20.1-20230612.114412-mappings.txt Validated: 5b05a5cc0c8ed6df427fb7671a703c1a008bbf92
+  Cache Hit!
+===============================================================================
+  Cache: 
+    C:\Users\********\AppData\Roaming\.minecraft\2026UNI_Launcher\PineconeMC\libraries\net\minecraft\client\1.20.1-20230612.114412\client-1.20.1-20230612.114412-mappings.txt Validated: 6c48521eed01fe2e8ecdadbd5ae348415f3c47da
+  Cache Hit!
+===============================================================================
+  Cache: 
+    C:\Users\********\AppData\Roaming\.minecraft\2026UNI_Launcher\PineconeMC\libraries\net\minecraft\client\1.20.1-20230612.114412\client-1.20.1-20230612.114412-mappings.txt Validated: 6c48521eed01fe2e8ecdadbd5ae348415f3c47da
+    C:\Users\********\AppData\Roaming\.minecraft\2026UNI_Launcher\PineconeMC\libraries\de\oceanlabs\mcp\mcp_config\1.20.1-20230612.114412\mcp_config-1.20.1-20230612.114412-mappings-merged.txt Validated: 3cfe626ce201d90a54486de5f3ce1b05ac04b9a1
+    C:\Users\********\AppData\Roaming\.minecraft\2026UNI_Launcher\PineconeMC\libraries\de\oceanlabs\mcp\mcp_config\1.20.1-20230612.114412\mcp_config-1.20.1-20230612.114412-mappings.txt Validated: 5b05a5cc0c8ed6df427fb7671a703c1a008bbf92
+  Cache Hit!
+===============================================================================
+  Cache: 
+    C:\Users\********\AppData\Roaming\.minecraft\2026UNI_Launcher\PineconeMC\libraries\net\minecraft\client\1.20.1-20230612.114412\client-1.20.1-20230612.114412-slim.jar Validated: de86b035d2da0f78940796bb95c39a932ed84834
+    C:\Users\********\AppData\Roaming\.minecraft\2026UNI_Launcher\PineconeMC\libraries\net\minecraft\client\1.20.1-20230612.114412\client-1.20.1-20230612.114412-extra.jar Validated: 8c5a95cbce940cfdb304376ae9fea47968d02587
+  Cache Hit!
+===============================================================================
+  Cache: 
+    C:\Users\********\AppData\Roaming\.minecraft\2026UNI_Launcher\PineconeMC\libraries\net\minecraft\client\1.20.1-20230612.114412\client-1.20.1-20230612.114412-srg.jar Validated: 3c8aa19b710a3a68f721210eb69b74594d13e218
+    C:\Users\********\AppData\Roaming\.minecraft\2026UNI_Launcher\PineconeMC\libraries\de\oceanlabs\mcp\mcp_config\1.20.1-20230612.114412\mcp_config-1.20.1-20230612.114412-mappings-merged.txt Validated: 3cfe626ce201d90a54486de5f3ce1b05ac04b9a1
+    C:\Users\********\AppData\Roaming\.minecraft\2026UNI_Launcher\PineconeMC\libraries\net\minecraft\client\1.20.1-20230612.114412\client-1.20.1-20230612.114412-slim.jar Validated: de86b035d2da0f78940796bb95c39a932ed84834
+  Cache Hit!
+===============================================================================
+  Cache: 
+    C:\Users\********\AppData\Roaming\.minecraft\2026UNI_Launcher\PineconeMC\libraries\net\minecraft\client\1.20.1-20230612.114412\client-1.20.1-20230612.114412-srg.jar Validated: 3c8aa19b710a3a68f721210eb69b74594d13e218
+    C:\Users\********\AppData\Roaming\.minecraft\2026UNI_Launcher\PineconeMC\libraries\net\minecraftforge\forge\1.20.1-47.4.18\forge-1.20.1-47.4.18-client.jar Validated: d8e1d9169ab0f6f3ff0ad41eccb3496f202d5484
+  Cache Hit!
+2026-08-18 13:07:37,732 main WARN Advanced terminal features are not available in this environment
+[13:07:37] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, zettxs, --version, 1.20.1, --gameDir, C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/instances/2026UNI/.minecraft, --assetsDir, C:/Users/********/AppData/Roaming/.minecraft/2026UNI_Launcher/PineconeMC/assets, --assetIndex, 5, --uuid, <PROFILE ID>, --accessToken, ????????, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.4.18, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]
+[13:07:37] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.11 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[13:07:42] [main/INFO] [ne.mi.fm.lo.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[13:07:42] [main/INFO] [AsyncLogger/]: Successfully configured async logger context with [wrapSysOutSysErr=false, filtering.enabled=false, filtering.global=false]
+[13:07:42] [main/ERROR] [ne.mi.fm.lo.ImmediateWindowHandler/]: Failed to call provider.initialize
+java.lang.NoClassDefFoundError: org/lwjgl/glfw/GLFW
+	at net.minecraftforge.fml.earlydisplay.DisplayWindow.initWindow(DisplayWindow.java:346) ~[fmlearlydisplay-1.20.1-47.4.18.jar:1.0] {}
+	at net.minecraftforge.fml.earlydisplay.DisplayWindow.start(DisplayWindow.java:291) ~[fmlearlydisplay-1.20.1-47.4.18.jar:1.0] {}
+	at net.minecraftforge.fml.earlydisplay.DisplayWindow.initialize(DisplayWindow.java:154) ~[fmlearlydisplay-1.20.1-47.4.18.jar:1.0] {}
+	at net.minecraftforge.fml.loading.ImmediateWindowHandler$Wrapper.initialize(ImmediateWindowHandler.java:198) ~[fmlloader-1.20.1-47.4.18.jar:1.0] {}
+	at net.minecraftforge.fml.loading.ImmediateWindowHandler.load(ImmediateWindowHandler.java:66) ~[fmlloader-1.20.1-47.4.18.jar:1.0] {}
+	at net.minecraftforge.fml.loading.ModDirTransformerDiscoverer.earlyInitialization(ModDirTransformerDiscoverer.java:44) ~[fmlloader-1.20.1-47.4.18.jar:1.0] {}
+	at cpw.mods.modlauncher.TransformationServicesHandler.lambda$discoverServices$18(TransformationServicesHandler.java:131) ~[modlauncher-10.0.9.jar:?] {}
+	at java.lang.Iterable.forEach(Unknown Source) ~[?:?] {}
+	at cpw.mods.modlauncher.TransformationServicesHandler.discoverServices(TransformationServicesHandler.java:131) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:87) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?] {}
+	at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67) ~[?:?] {}
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115) ~[?:?] {}
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) ~[?:?] {}
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70) ~[?:?] {}
+Caused by: java.lang.ClassNotFoundException: org.lwjgl.glfw.GLFW
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?] {}
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.10.jar:?] {}
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+	... 20 more
+Exception caught from launcher
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67)
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115)
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129)
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70)
+Caused by: java.lang.NoClassDefFoundError: org/lwjgl/glfw/GLFW
+	at MC-BOOTSTRAP/fmlearlydisplay@1.20.1-47.4.18/net.minecraftforge.fml.earlydisplay.DisplayWindow.initWindow(DisplayWindow.java:346)
+	at MC-BOOTSTRAP/fmlearlydisplay@1.20.1-47.4.18/net.minecraftforge.fml.earlydisplay.DisplayWindow.start(DisplayWindow.java:291)
+	at MC-BOOTSTRAP/fmlearlydisplay@1.20.1-47.4.18/net.minecraftforge.fml.earlydisplay.DisplayWindow.initialize(DisplayWindow.java:154)
+	at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.18/net.minecraftforge.fml.loading.ImmediateWindowHandler$Wrapper.initialize(ImmediateWindowHandler.java:198)
+	at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.18/net.minecraftforge.fml.loading.ImmediateWindowHandler.load(ImmediateWindowHandler.java:66)
+	at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.18/net.minecraftforge.fml.loading.ModDirTransformerDiscoverer.earlyInitialization(ModDirTransformerDiscoverer.java:44)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.TransformationServicesHandler.lambda$discoverServices$18(TransformationServicesHandler.java:131)
+	at java.base/java.lang.Iterable.forEach(Unknown Source)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.TransformationServicesHandler.discoverServices(TransformationServicesHandler.java:131)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.run(Launcher.java:87)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.main(Launcher.java:78)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+	at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: org.lwjgl.glfw.GLFW
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 20 more
+Exiting with ERROR
+Process exited with code 2.
+Clipboard copy at: 18 Aug 2026 13:08:20 -0500
+Clipboard copy at: 18 Aug 2026 13:08:21 -0500

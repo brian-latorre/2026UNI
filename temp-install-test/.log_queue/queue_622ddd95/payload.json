@@ -1,0 +1,40 @@
+{
+    "embeds":  [
+                   {
+                       "fields":  [
+                                      {
+                                          "inline":  false,
+                                          "name":  "ðŸ‘¤ Usuario",
+                                          "value":  "**Desconocido**"
+                                      },
+                                      {
+                                          "inline":  true,
+                                          "name":  "â±ï¸ Tiempo de Sesion",
+                                          "value":  "0.1 minutos"
+                                      },
+                                      {
+                                          "inline":  true,
+                                          "name":  "ðŸŽ® Tiempo Total",
+                                          "value":  "0.0 horas totales"
+                                      },
+                                      {
+                                          "inline":  true,
+                                          "name":  "ðŸ•’ Inicio",
+                                          "value":  "17/08/2026 17:36:41"
+                                      },
+                                      {
+                                          "inline":  true,
+                                          "name":  "ðŸ Fin",
+                                          "value":  "17/08/2026 17:36:41"
+                                      }
+                                  ],
+                       "description":  "El jugador ha cerrado el juego con normalidad.",
+                       "color":  65280,
+                       "timestamp":  "2026-08-17T22:36:41Z",
+                       "footer":  {
+                                      "text":  "Modpack 2026UNI - PineconeMC Launcher"
+                                  },
+                       "title":  "[LOG] Sesion de Juego Finalizada"
+                   }
+               ]
+}

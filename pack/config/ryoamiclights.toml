@@ -103,6 +103,7 @@
 				baby_skeleton_minion = true
 				staffof_magic_arrows_2_projectile = true
 				nightmare_stalker = true
+				glutton_fish = true
 
 			[light_sources.settings.entities.ad_astra]
 				sulfur_creeper = true
@@ -170,6 +171,14 @@
 				bison = true
 				cassowary = true
 				raccoon = true
+				owl = true
+				penguin = true
+				dog = true
+				squirrel = true
+				minisheep = true
+				flamingo = true
+				red_wolf = true
+				deer = true
 
 			[light_sources.settings.entities.golemoverhaul]
 				coal_golem = true
@@ -178,6 +187,7 @@
 
 			[light_sources.settings.entities.mowziesmobs]
 				ferrous_wroughtnaut = true
+				grottol = true
 
 			[light_sources.settings.entities.dynamictrees]
 				falling_tree = true
@@ -206,6 +216,8 @@
 				weevil = true
 				stag_beetle = true
 				jumping_spider = true
+				shima_enaga = true
+				red_panda = true
 
 			[light_sources.settings.entities.tconstruct]
 				terracube = true
@@ -225,6 +237,14 @@
 				tameable_beetle = true
 				ground_beetle = true
 				giant_grasshopper = true
+				tameable_penguin = true
+				crested_gecko = true
+				tameable_racoon = true
+				giant_roly_poly = true
+				argentavis = true
+				tameable_chikote = true
+				quetzalcoatlus = true
+				graptera = true
 
 			[light_sources.settings.entities.cataclysm]
 				koboleton = true
@@ -254,4 +274,7 @@
 
 			[light_sources.settings.entities.tombstone]
 				spectral_wolf = true
+
+			[light_sources.settings.entities.ribbits]
+				ribbit = true
 

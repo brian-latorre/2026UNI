@@ -1,4 +1,4 @@
-param (
+﻿param (
     [Parameter(Mandatory=$true)]
     [string]$mcDir,
     [switch]$startup
@@ -7,6 +7,15 @@ param (
 # Configuración y Constantes
 $encWebhook = "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTUzMDMxNzg3MjAyOTYzNDU5MS8zZFpqcEo0QlFHamN3bFhlQ1E3TU4zZHhwblB3YjFhblI3UzVQMzdvWnY1cGNHeXZOWHRUWnA2QktodXNxMVpXSF9Caw=="
 $webhookUrl = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($encWebhook))
+
+# Emojis codificados para evitar corrupción ANSI en PowerShell 5.1
+$e_Usuario = [char]::ConvertFromUtf32(0x1F464)
+$e_Tiempo  = [char]::ConvertFromUtf32(0x23F3)
+$e_Juego   = [char]::ConvertFromUtf32(0x1F4C8)
+$e_Inicio  = [char]::ConvertFromUtf32(0x25B6) + [char]::ConvertFromUtf32(0xFE0F)
+$e_Cierre  = [char]::ConvertFromUtf32(0x23F9) + [char]::ConvertFromUtf32(0xFE0F)
+$e_Motivo  = [char]::ConvertFromUtf32(0x1F4A5)
+$e_Mods    = [char]::ConvertFromUtf32(0x1F50D)
 
 $crashDir       = Join-Path -Path $mcDir -ChildPath "crash-reports"
 $logsDir        = Join-Path -Path $mcDir -ChildPath "logs"
@@ -117,10 +126,25 @@ function Send-DiscordWebhookPayload([string]$jsonPayloadPath, [array]$attachment
 
 function Sync-OfflineQueue {
     if (-not (Test-Path $queueDir)) { return }
-    $pendingItems = Get-ChildItem -Path $queueDir -Directory -ErrorAction SilentlyContinue
+    $pendingItems = Get-ChildItem -Path $queueDir -Directory -ErrorAction SilentlyContinue | Sort-Object CreationTime
+    $maxToSend = 2
+    $count = 0
     foreach ($item in $pendingItems) {
+        # Limpiar items de mas de 24 horas para no acumular reportes viejos desfasados
+        if ($item.CreationTime -lt [datetime]::Now.AddHours(-24)) {
+            Remove-Item -Path $item.FullName -Recurse -Force -ErrorAction SilentlyContinue
+            continue
+        }
+        if ($count -ge $maxToSend) { break }
         $payloadFile = Join-Path $item.FullName "payload.json"
         if (Test-Path $payloadFile) {
+            # Descartar reportes antiguos con formato u ortografia obsoleta
+            $rawPayload = Get-Content -Path $payloadFile -Raw -ErrorAction SilentlyContinue
+            if ($rawPayload -match "Fecha y Hora" -or $rawPayload -match "Ã" -or $rawPayload -match "ð") {
+                Remove-Item -Path $item.FullName -Recurse -Force -ErrorAction SilentlyContinue
+                continue
+            }
+
             $attachments = @()
             $fileIdx = 1
             Get-ChildItem -Path $item.FullName -File | Where-Object { $_.Name -ne "payload.json" } | ForEach-Object {
@@ -130,7 +154,10 @@ function Sync-OfflineQueue {
             $success = Send-DiscordWebhookPayload -jsonPayloadPath $payloadFile -attachments $attachments
             if ($success) {
                 Remove-Item -Path $item.FullName -Recurse -Force -ErrorAction SilentlyContinue
+                $count++
             }
+        } else {
+            Remove-Item -Path $item.FullName -Recurse -Force -ErrorAction SilentlyContinue
         }
     }
 }
@@ -201,6 +228,13 @@ $totalHoursStr = "$([math]::Round(($totalMinutes / 60), 1)) horas totales"
 # --- 5. EVALUACIÓN DE CRASH Y PREVENCIÓN DE DUPLICADOS ---
 $sentTracker = Get-SentTracker
 $sentHashes = @($sentTracker.sent_hashes)
+
+# Evitar re-enviar el mismo log si la hash de latest.log ya fue procesada previamente
+$latestLogHash = Get-FileSha256 $latestLog
+if ($latestLogHash -and ($sentHashes -contains $latestLogHash) -and -not $startup) {
+    if (Test-Path $lockFile) { Remove-Item -Path $lockFile -Force -ErrorAction SilentlyContinue }
+    exit 0
+}
 
 $isCrash = $false
 $crashReason = "Desconocida"
@@ -292,37 +326,41 @@ if ($crashReason.Length -gt 1000) { $crashReason = $crashReason.Substring(0, 100
 if ($suspectMods.Length -gt 1000) { $suspectMods = $suspectMods.Substring(0, 1000) + "..." }
 
 if ($isCrash) {
-    # Mención solo en crash
+    # Mencion solo en crash
     $payloadObj.content = "<@351472135606108175> **[CRASH DETECTADO]**"
     $embed = @{
         title = "[CRASH] Reporte de Cierre Inesperado"
         description = "Se ha detectado una interrupcion o fallo en el juego."
         color = 16711680 # Rojo
         fields = @(
-            @{ name = "👤 Usuario"; value = "**$username**"; inline = $false },
-            @{ name = "⏱️ Tiempo de Sesion"; value = "$sessionPlaytimeStr"; inline = $true },
-            @{ name = "🎮 Tiempo Total"; value = "$totalHoursStr"; inline = $true },
-            @{ name = "🕒 Inicio"; value = "$startTimeStr"; inline = $true },
-            @{ name = "🏁 Fin"; value = "$timeLocalStr"; inline = $true },
-            @{ name = "⚠️ Motivo (aprox)"; value = "$crashReason"; inline = $false },
-            @{ name = "🧩 Mods Sospechosos"; value = "$suspectMods"; inline = $false }
+            @{ name = "$e_Usuario Usuario"; value = "**$username**"; inline = $false },
+            @{ name = "$e_Tiempo Tiempo de Sesion"; value = "$sessionPlaytimeStr"; inline = $true },
+            @{ name = "$e_Juego Tiempo Total Jugado"; value = "$totalHoursStr"; inline = $true },
+            @{ name = [char]0x200B; value = [char]0x200B; inline = $true },
+            @{ name = "$e_Inicio Hora de Inicio"; value = "$startTimeStr"; inline = $true },
+            @{ name = "$e_Cierre Hora de Cierre"; value = "$timeLocalStr"; inline = $true },
+            @{ name = [char]0x200B; value = [char]0x200B; inline = $true },
+            @{ name = "$e_Motivo Motivo (aprox)"; value = "```$crashReason```"; inline = $false },
+            @{ name = "$e_Mods Mods Sospechosos"; value = "$suspectMods"; inline = $false }
         )
         footer = @{ text = "Modpack 2026UNI - PineconeMC Launcher" }
         timestamp = $timestampIso
     }
     $payloadObj.embeds = @($embed)
 } else {
-    # Cierre normal sin mención
+    # Cierre normal sin mencion
     $embed = @{
         title = "[LOG] Sesion de Juego Finalizada"
         description = "El jugador ha cerrado el juego con normalidad."
         color = 65280 # Verde
         fields = @(
-            @{ name = "👤 Usuario"; value = "**$username**"; inline = $false },
-            @{ name = "⏱️ Tiempo de Sesion"; value = "$sessionPlaytimeStr"; inline = $true },
-            @{ name = "🎮 Tiempo Total"; value = "$totalHoursStr"; inline = $true },
-            @{ name = "🕒 Inicio"; value = "$startTimeStr"; inline = $true },
-            @{ name = "🏁 Fin"; value = "$timeLocalStr"; inline = $true }
+            @{ name = "$e_Usuario Usuario"; value = "**$username**"; inline = $false },
+            @{ name = "$e_Tiempo Tiempo de Sesion"; value = "$sessionPlaytimeStr"; inline = $true },
+            @{ name = "$e_Juego Tiempo Total Jugado"; value = "$totalHoursStr"; inline = $true },
+            @{ name = [char]0x200B; value = [char]0x200B; inline = $true },
+            @{ name = "$e_Inicio Hora de Inicio"; value = "$startTimeStr"; inline = $true },
+            @{ name = "$e_Cierre Hora de Cierre"; value = "$timeLocalStr"; inline = $true },
+            @{ name = [char]0x200B; value = [char]0x200B; inline = $true }
         )
         footer = @{ text = "Modpack 2026UNI - PineconeMC Launcher" }
         timestamp = $timestampIso
@@ -375,9 +413,13 @@ $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
 $sentOk = Send-DiscordWebhookPayload -jsonPayloadPath $jsonPayloadPath -attachments $attachments
 
 if ($sentOk) {
-    # Guardar en tracker de hashes para evitar reenvíos
-    if ($crashFileHash) {
-        $sentTracker.sent_hashes += $crashFileHash
+    # Guardar en tracker de hashes para evitar reenvíos de la misma sesión o crash
+    $hashToSave = if ($crashFileHash) { $crashFileHash } else { $latestLogHash }
+    if ($hashToSave -and ($sentHashes -notcontains $hashToSave)) {
+        $sentTracker.sent_hashes += $hashToSave
+        if ($sentTracker.sent_hashes.Count -gt 50) {
+            $sentTracker.sent_hashes = $sentTracker.sent_hashes[-50..-1]
+        }
         Save-SentTracker $sentTracker
     }
 } else {
