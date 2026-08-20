@@ -412,16 +412,6 @@
       "modifier": "NONE",
       "forced": false
     },
-    "key.sophisticatedbackpacks.toggle_upgrade_2": {
-      "key": "key.keyboard.unknown",
-      "modifier": "NONE",
-      "forced": false
-    },
-    "key.sophisticatedbackpacks.toggle_upgrade_1": {
-      "key": "key.keyboard.unknown",
-      "modifier": "NONE",
-      "forced": false
-    },
     "key.sophisticatedbackpacks.toggle_upgrade_5": {
       "key": "key.keyboard.unknown",
       "modifier": "NONE",
@@ -433,6 +423,16 @@
       "forced": false
     },
     "key.sophisticatedbackpacks.toggle_upgrade_3": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE",
+      "forced": false
+    },
+    "key.sophisticatedbackpacks.toggle_upgrade_2": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE",
+      "forced": false
+    },
+    "key.sophisticatedbackpacks.toggle_upgrade_1": {
       "key": "key.keyboard.unknown",
       "modifier": "NONE",
       "forced": false
@@ -652,34 +652,9 @@
       "modifier": "NONE",
       "forced": false
     },
-    "key.jei.previousSearch": {
-      "key": "key.keyboard.up",
-      "modifier": "NONE",
-      "forced": false
-    },
-    "key.jei.bookmark": {
-      "key": "key.keyboard.a",
-      "modifier": "NONE",
-      "forced": false
-    },
-    "key.jei.showUses": {
-      "key": "key.keyboard.u",
-      "modifier": "NONE",
-      "forced": false
-    },
-    "key.jei.cheatOneItem": {
-      "key": "key.mouse.left",
-      "modifier": "NONE",
-      "forced": false
-    },
-    "key.jei.shareToChat": {
+    "key.jei.toggleOverlay": {
       "key": "key.keyboard.unknown",
       "modifier": "NONE",
-      "forced": false
-    },
-    "key.jei.toggleWildcardHideIngredient": {
-      "key": "key.mouse.right",
-      "modifier": "CONTROL",
       "forced": false
     },
     "key.jei.previousCategory": {
@@ -687,32 +662,12 @@
       "modifier": "SHIFT",
       "forced": false
     },
-    "key.jei.toggleHideIngredient": {
-      "key": "key.mouse.left",
-      "modifier": "CONTROL",
-      "forced": false
-    },
-    "key.jei.previousPage": {
+    "key.jei.toggleCheatMode": {
       "key": "key.keyboard.unknown",
       "modifier": "NONE",
       "forced": false
     },
-    "key.jei.quickMove": {
-      "key": "key.mouse.left",
-      "modifier": "SHIFT",
-      "forced": false
-    },
-    "key.jei.clearSearchBar": {
-      "key": "key.mouse.right",
-      "modifier": "NONE",
-      "forced": false
-    },
-    "key.jei.toggleOverlay": {
-      "key": "key.keyboard.unknown",
-      "modifier": "NONE",
-      "forced": false
-    },
-    "key.jei.showRecipe2": {
+    "key.jei.cheatOneItem": {
       "key": "key.mouse.left",
       "modifier": "NONE",
       "forced": false
@@ -722,18 +677,28 @@
       "modifier": "SHIFT",
       "forced": false
     },
-    "key.jei.toggleBookmarkOverlay": {
-      "key": "key.keyboard.unknown",
-      "modifier": "NONE",
-      "forced": false
-    },
-    "key.jei.showBookmarkTooltipFeatures": {
-      "key": "key.keyboard.left.control",
-      "modifier": "NONE",
-      "forced": false
-    },
-    "key.jei.showUses2": {
+    "key.jei.toggleWildcardHideIngredient": {
       "key": "key.mouse.right",
+      "modifier": "CONTROL",
+      "forced": false
+    },
+    "key.jei.quickMove": {
+      "key": "key.mouse.left",
+      "modifier": "SHIFT",
+      "forced": false
+    },
+    "key.jei.nextCategory": {
+      "key": "key.keyboard.page.down",
+      "modifier": "SHIFT",
+      "forced": false
+    },
+    "key.jei.transferRecipeBookmark": {
+      "key": "key.mouse.left",
+      "modifier": "SHIFT",
+      "forced": false
+    },
+    "key.jei.toggleEditMode": {
+      "key": "key.keyboard.unknown",
       "modifier": "NONE",
       "forced": false
     },
@@ -742,23 +707,13 @@
       "modifier": "CONTROL",
       "forced": false
     },
-    "key.jei.nextRecipePage": {
-      "key": "key.keyboard.page.down",
+    "key.jei.showUses2": {
+      "key": "key.mouse.right",
       "modifier": "NONE",
       "forced": false
     },
-    "key.jei.toggleCheatMode": {
-      "key": "key.keyboard.unknown",
-      "modifier": "NONE",
-      "forced": false
-    },
-    "key.jei.nextCategory": {
-      "key": "key.keyboard.page.down",
-      "modifier": "SHIFT",
-      "forced": false
-    },
-    "key.jei.recipeBack": {
-      "key": "key.keyboard.backspace",
+    "key.jei.previousSearch": {
+      "key": "key.keyboard.up",
       "modifier": "NONE",
       "forced": false
     },
@@ -767,18 +722,23 @@
       "modifier": "CONTROL",
       "forced": false
     },
+    "key.jei.focusSearch": {
+      "key": "key.keyboard.f",
+      "modifier": "CONTROL",
+      "forced": false
+    },
+    "key.jei.showBookmarkTooltipFeatures": {
+      "key": "key.keyboard.left.control",
+      "modifier": "NONE",
+      "forced": false
+    },
+    "key.jei.bookmark": {
+      "key": "key.keyboard.a",
+      "modifier": "NONE",
+      "forced": false
+    },
     "key.jei.cheatOneItem2": {
       "key": "key.mouse.right",
-      "modifier": "NONE",
-      "forced": false
-    },
-    "key.jei.previousRecipePage": {
-      "key": "key.keyboard.page.up",
-      "modifier": "NONE",
-      "forced": false
-    },
-    "key.jei.pauseRecipeCycling": {
-      "key": "key.keyboard.left.shift",
       "modifier": "NONE",
       "forced": false
     },
@@ -787,23 +747,13 @@
       "modifier": "NONE",
       "forced": false
     },
-    "key.jei.focusSearch": {
-      "key": "key.keyboard.f",
-      "modifier": "CONTROL",
-      "forced": false
-    },
-    "key.jei.nextPage": {
+    "key.jei.toggleBookmarkOverlay": {
       "key": "key.keyboard.unknown",
       "modifier": "NONE",
       "forced": false
     },
-    "key.jei.toggleEditMode": {
-      "key": "key.keyboard.unknown",
-      "modifier": "NONE",
-      "forced": false
-    },
-    "key.jei.showRecipe": {
-      "key": "key.keyboard.r",
+    "key.jei.nextRecipePage": {
+      "key": "key.keyboard.page.down",
       "modifier": "NONE",
       "forced": false
     },
@@ -812,18 +762,68 @@
       "modifier": "NONE",
       "forced": false
     },
-    "key.jei.copy.recipe.id": {
+    "key.jei.previousRecipePage": {
+      "key": "key.keyboard.page.up",
+      "modifier": "NONE",
+      "forced": false
+    },
+    "key.jei.shareToChat": {
       "key": "key.keyboard.unknown",
       "modifier": "NONE",
       "forced": false
     },
-    "key.jei.transferRecipeBookmark": {
-      "key": "key.mouse.left",
-      "modifier": "SHIFT",
+    "key.jei.clearSearchBar": {
+      "key": "key.mouse.right",
+      "modifier": "NONE",
+      "forced": false
+    },
+    "key.jei.showRecipe": {
+      "key": "key.keyboard.r",
+      "modifier": "NONE",
+      "forced": false
+    },
+    "key.jei.recipeBack": {
+      "key": "key.keyboard.backspace",
+      "modifier": "NONE",
+      "forced": false
+    },
+    "key.jei.showUses": {
+      "key": "key.keyboard.u",
+      "modifier": "NONE",
       "forced": false
     },
     "key.jei.nextSearch": {
       "key": "key.keyboard.down",
+      "modifier": "NONE",
+      "forced": false
+    },
+    "key.jei.pauseRecipeCycling": {
+      "key": "key.keyboard.left.shift",
+      "modifier": "NONE",
+      "forced": false
+    },
+    "key.jei.previousPage": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE",
+      "forced": false
+    },
+    "key.jei.nextPage": {
+      "key": "key.keyboard.unknown",
+      "modifier": "NONE",
+      "forced": false
+    },
+    "key.jei.showRecipe2": {
+      "key": "key.mouse.left",
+      "modifier": "NONE",
+      "forced": false
+    },
+    "key.jei.toggleHideIngredient": {
+      "key": "key.mouse.left",
+      "modifier": "CONTROL",
+      "forced": false
+    },
+    "key.jei.copy.recipe.id": {
+      "key": "key.keyboard.unknown",
       "modifier": "NONE",
       "forced": false
     },
@@ -1374,2765 +1374,6 @@
     }
   },
   "backups": [
-    {
-      "timestamp": 1787155518034,
-      "reason": "Sincronización a v3",
-      "keybinds": {
-        "key.attack": {
-          "key": "key.mouse.left",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.use": {
-          "key": "key.mouse.right",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.forward": {
-          "key": "key.keyboard.w",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.left": {
-          "key": "key.keyboard.a",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.back": {
-          "key": "key.keyboard.s",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.right": {
-          "key": "key.keyboard.d",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jump": {
-          "key": "key.keyboard.space",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sneak": {
-          "key": "key.keyboard.left.shift",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sprint": {
-          "key": "key.keyboard.left.control",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.drop": {
-          "key": "key.keyboard.q",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.inventory": {
-          "key": "key.keyboard.e",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.chat": {
-          "key": "key.keyboard.t",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.playerlist": {
-          "key": "key.keyboard.tab",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.pickItem": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.command": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.socialInteractions": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.screenshot": {
-          "key": "key.keyboard.f2",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.togglePerspective": {
-          "key": "key.keyboard.f5",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.smoothCamera": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.fullscreen": {
-          "key": "key.keyboard.f11",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.spectatorOutlines": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.swapOffhand": {
-          "key": "key.keyboard.f",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.saveToolbarActivator": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.loadToolbarActivator": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.advancements": {
-          "key": "key.keyboard.l",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.hotbar.1": {
-          "key": "key.keyboard.1",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.hotbar.2": {
-          "key": "key.keyboard.2",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.hotbar.3": {
-          "key": "key.keyboard.3",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.hotbar.4": {
-          "key": "key.keyboard.4",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.hotbar.5": {
-          "key": "key.keyboard.5",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.hotbar.6": {
-          "key": "key.keyboard.6",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.hotbar.7": {
-          "key": "key.keyboard.7",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.hotbar.8": {
-          "key": "key.keyboard.8",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.hotbar.9": {
-          "key": "key.keyboard.9",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.entityculling.toggle": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.paperdoll.toggle": {
-          "key": "key.keyboard.o",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.modernfix.config": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.exposure.camera_controls": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "info.structure_gel.building_tool.undo": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "info.structure_gel.building_tool.redo": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.structure_gel.open_building_tool_gui": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.botania_corporea_request": {
-          "key": "key.keyboard.i",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "iris.keybind.reload": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "iris.keybind.toggleShaders": {
-          "key": "key.keyboard.f10",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "iris.keybind.shaderPackSelection": {
-          "key": "key.keyboard.f9",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "tombstone.message.knowledge_of_death": {
-          "key": "key.keyboard.j",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "tombstone.message.config": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "tombstone.message.compendium": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "accessories.key.open_accessories_screen": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.dynamic_fps.toggle_forced": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.dynamic_fps.toggle_disabled": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.rebindnarrator.togglenarrator": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.fieldguide.open": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.fieldguide.scan": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.emotecraft.fastchoose": {
-          "key": "key.keyboard.b",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.emotecraft.stop": {
-          "key": "key.keyboard.b",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.push_to_talk": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.whisper": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.mute_microphone": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.disable_voice_chat": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.hide_icons": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.voice_chat": {
-          "key": "key.keyboard.v",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.voice_chat_settings": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.voice_chat_group": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.voice_chat_toggle_recording": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.voice_chat_adjust_volumes": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.punchy.open_main_menu": {
-          "key": "key.keyboard.f8",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.punchy.inspect": {
-          "key": "key.keyboard.h",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.ryoamiclights.dyn_light": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.ad_astra.toggle_suit_flight": {
-          "key": "key.keyboard.v",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.ad_astra.open_radio": {
-          "key": "key.keyboard.r",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.trashslot.toggle": {
-          "key": "key.keyboard.t",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.trashslot.toggle_lock": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.trashslot.delete": {
-          "key": "key.keyboard.delete",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.trashslot.delete_all": {
-          "key": "key.keyboard.delete",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.sophisticatedcore.sort": {
-          "key": "key.mouse.middle",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sophisticatedcore.transfer_to_storage": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sophisticatedcore.transfer_to_inventory": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "placebo.toggleTrails": {
-          "key": "key.keyboard.keypad.9",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "placebo.toggleWings": {
-          "key": "key.keyboard.keypad.8",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sophisticatedbackpacks.open_backpack": {
-          "key": "key.keyboard.grave.accent",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sophisticatedbackpacks.inventory_interaction": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sophisticatedbackpacks.tool_swap": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sophisticatedbackpacks.toggle_upgrade_1": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sophisticatedbackpacks.toggle_upgrade_2": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sophisticatedbackpacks.toggle_upgrade_3": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sophisticatedbackpacks.toggle_upgrade_4": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sophisticatedbackpacks.toggle_upgrade_5": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.carry.desc": {
-          "key": "key.keyboard.left.shift",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.tempad.shortcut": {
-          "key": "key.keyboard.b",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.tempad.favorite": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.cataclysm.ability": {
-          "key": "key.keyboard.x",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.cataclysm.helmet_ability": {
-          "key": "key.keyboard.x",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.cataclysm.chestplate_ability": {
-          "key": "key.keyboard.y",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.cataclysm.boots_ability": {
-          "key": "key.keyboard.x",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.showmeyourskin.open_settings": {
-          "key": "key.keyboard.equal",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.showmeyourskin.global_toggle": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.inmis.open_backpack": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "keyinfo.copycats.fill_copycat": {
-          "key": "key.keyboard.left.alt",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "chloride.zoom": {
-          "key": "key.keyboard.c",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.toastcontrol.clear": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.tconstruct.helmet_interact": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.tconstruct.leggings_interact": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.freecam.toggle": {
-          "key": "key.keyboard.f4",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.freecam.playerControl": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.freecam.tripodReset": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.freecam.configGui": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.cobblemonrider.Pokemon Mount": {
-          "key": "key.keyboard.left.alt",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.cobblemonrider.Pokemon Dismount": {
-          "key": "key.keyboard.world.2",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.ponder.ponder": {
-          "key": "key.keyboard.w",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "zume.zoom": {
-          "key": "key.keyboard.c",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "zume.zoom_in": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "zume.zoom_out": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.keybindatlas.open_keyboard": {
-          "key": "key.keyboard.k",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.do_a_barrel_roll.toggle_enabled": {
-          "key": "key.keyboard.minus",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.do_a_barrel_roll.toggle_thrust": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.do_a_barrel_roll.open_config": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.do_a_barrel_roll.pitch_up": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.do_a_barrel_roll.pitch_down": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.do_a_barrel_roll.yaw_left": {
-          "key": "key.keyboard.a",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.do_a_barrel_roll.yaw_right": {
-          "key": "key.keyboard.d",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.do_a_barrel_roll.roll_left": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.do_a_barrel_roll.roll_right": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.do_a_barrel_roll.thrust_forward": {
-          "key": "key.keyboard.w",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.do_a_barrel_roll.thrust_backward": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.curios.open.desc": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.cobblemon.hideparty": {
-          "key": "key.keyboard.o",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.cobblemon.summary": {
-          "key": "key.keyboard.semicolon",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.cobblemon.downshiftparty": {
-          "key": "key.keyboard.down",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.cobblemon.upshiftparty": {
-          "key": "key.keyboard.up",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.cobblemon.throwpartypokemon": {
-          "key": "key.keyboard.r",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.showUses2": {
-          "key": "key.mouse.right",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.showBookmarkTooltipFeatures": {
-          "key": "key.keyboard.left.control",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.previousPage": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.pauseRecipeCycling": {
-          "key": "key.keyboard.left.shift",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.recipeBack": {
-          "key": "key.keyboard.backspace",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.closeRecipeGui": {
-          "key": "key.keyboard.escape",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.copy.recipe.id": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.toggleOverlay": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.previousRecipePage": {
-          "key": "key.keyboard.page.up",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.nextSearch": {
-          "key": "key.keyboard.down",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.toggleCheatMode": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.cheatItemStack2": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.maxTransferRecipeBookmark": {
-          "key": "key.mouse.left",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.jei.clearSearchBar": {
-          "key": "key.mouse.right",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.toggleCheatModeConfigButton": {
-          "key": "key.mouse.left",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.jei.nextPage": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.cheatOneItem2": {
-          "key": "key.mouse.right",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.nextCategory": {
-          "key": "key.keyboard.page.down",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.jei.toggleWildcardHideIngredient": {
-          "key": "key.mouse.right",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.jei.bookmark": {
-          "key": "key.keyboard.a",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.previousSearch": {
-          "key": "key.keyboard.up",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.quickMove": {
-          "key": "key.mouse.left",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.jei.cheatItemStack": {
-          "key": "key.mouse.left",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.jei.transferRecipeBookmark": {
-          "key": "key.mouse.left",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.jei.toggleEditMode": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.shareToChat": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.nextRecipePage": {
-          "key": "key.keyboard.page.down",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.showRecipe": {
-          "key": "key.keyboard.r",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.showUses": {
-          "key": "key.keyboard.u",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.showRecipe2": {
-          "key": "key.mouse.left",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.toggleBookmarkOverlay": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.previousCategory": {
-          "key": "key.keyboard.page.up",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.jei.toggleHideIngredient": {
-          "key": "key.mouse.left",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.jei.cheatOneItem": {
-          "key": "key.mouse.left",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.focusSearch": {
-          "key": "key.keyboard.f",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "gui.xaero_minimap_settings": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_minimap_server_profiles": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_zoom_in": {
-          "key": "key.keyboard.right.bracket",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_zoom_out": {
-          "key": "key.keyboard.slash",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_new_waypoint": {
-          "key": "key.keyboard.n",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "gui.xaero_waypoints_key": {
-          "key": "key.keyboard.n",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_enlarge_map": {
-          "key": "key.keyboard.f",
-          "modifier": "ALT",
-          "forced": false
-        },
-        "gui.xaero_toggle_map": {
-          "key": "key.keyboard.p",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_toggle_waypoints": {
-          "key": "key.keyboard.u",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_toggle_map_waypoints": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_toggle_slime": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_toggle_grid": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_instant_waypoint": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_switch_waypoint_set": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_display_all_sets": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_toggle_light_overlay": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_toggle_entity_radar": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_reverse_entity_radar": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_toggle_manual_cave_mode": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_alternative_list_players": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_toggle_tracked_players_on_map": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_toggle_tracked_players_in_world": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_toggle_pac_chunk_claims": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gnetum.config.keyMapping": {
-          "key": "key.keyboard.end",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_open_map": {
-          "key": "key.keyboard.m",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_open_settings": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_world_map_server_settings": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_map_zoom_in": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_map_zoom_out": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_quick_confirm": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_toggle_dimension": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.relics.ability_list": {
-          "key": "key.keyboard.left.alt",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.relics.research_relic": {
-          "key": "key.keyboard.left.shift",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "Take Panorama Screenshot": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "railways.keyinfo.bogey_menu": {
-          "key": "key.keyboard.left.alt",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "railways.keyinfo.cycle_menu": {
-          "key": "key.keyboard.left.alt",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "artifacts.key.helium_flamingo.activate": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "artifacts.key.night_vision_goggles.toggle": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "artifacts.key.universal_attractor.toggle": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.golemoverhaul.netherite_golem_summon": {
-          "key": "key.keyboard.r",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.adorablehamsterpets.throw_hamster": {
-          "key": "key.keyboard.g",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.adorablehamsterpets.toggle_supporter_crown": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.adorablehamsterpets.dismount_hamster": {
-          "key": "key.keyboard.n",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.adorablehamsterpets.pet_hamster": {
-          "key": "key.keyboard.h",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.adorablehamsterpets.force_mount_hamster.disabled": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.adorablehamsterpets.ride_hamster.disabled": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.adorablehamsterpets.genetics_visualization.variance_up": {
-          "key": "key.keyboard.right",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.adorablehamsterpets.genetics_visualization.variance_down": {
-          "key": "key.keyboard.left",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.adorablehamsterpets.genetics_visualization.mutation_rate_up": {
-          "key": "key.keyboard.up",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.adorablehamsterpets.genetics_visualization.mutation_rate_down": {
-          "key": "key.keyboard.down",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.adorablehamsterpets.toggle_performance_mode": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "chunkloaders.keys.open_screen": {
-          "key": "key.keyboard.comma",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.pingwheel.ping_location": {
-          "key": "key.mouse.middle",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.pingwheel.open_settings": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "create.keyinfo.toolmenu": {
-          "key": "key.keyboard.left.alt",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "create.keyinfo.toolbelt": {
-          "key": "key.keyboard.left.alt",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "create.keyinfo.rotate_menu": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "framedblocks.key.update_cull": {
-          "key": "key.keyboard.f9",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "framedblocks.key.wipe_cache": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.configured.open_mod_list": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.guideme.guide": {
-          "key": "key.keyboard.g",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.special_ability": {
-          "key": "key.keyboard.g",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.raws_visual_keybinder.open_screen": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.raws_visual_keybinder.switch_to_preset_1": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.raws_visual_keybinder.switch_to_preset_2": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.raws_visual_keybinder.switch_to_preset_3": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.raws_visual_keybinder.switch_to_preset_4": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.raws_visual_keybinder.switch_to_preset_5": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jade.config": {
-          "key": "key.keyboard.keypad.0",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jade.show_overlay": {
-          "key": "key.keyboard.keypad.1",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jade.toggle_liquid": {
-          "key": "key.keyboard.keypad.2",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jade.show_recipes": {
-          "key": "key.keyboard.keypad.3",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jade.show_uses": {
-          "key": "key.keyboard.keypad.4",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jade.narrate": {
-          "key": "key.keyboard.keypad.5",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jade.show_details": {
-          "key": "key.keyboard.left.shift",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.ae2.portable_item_cell": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.ae2.portable_fluid_cell": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.ae2.wireless_terminal": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.autorun": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.back": {
-          "key": "key.mouse.4",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.camera_mode": {
-          "key": "key.keyboard.f12",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.transfer_insert": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.transfer_extract": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.shift_lock": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.emote.no": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.emote.yes": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.emote.wave": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.emote.salute": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.emote.cheer": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.emote.clap": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.emote.think": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.emote.point": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.emote.shrug": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.emote.headbang": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.emote.weep": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.emote.facepalm": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.patreon_emote.dance": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.patreon_emote.tpose": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.patreon_emote.dab": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.patreon_emote.jet": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.patreon_emote.exorcist": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.patreon_emote.zombie": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.change_hotbar": {
-          "key": "key.keyboard.z",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.sort_player": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.sort_container": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.lock_rotation": {
-          "key": "key.keyboard.k",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "quark.keybind.narrator_readout": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.narrator_full_readout": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.variant_selector": {
-          "key": "key.keyboard.r",
-          "modifier": "NONE",
-          "forced": false
-        }
-      },
-      "shielded": []
-    },
-    {
-      "timestamp": 1787169850144,
-      "reason": "Sincronización a v3",
-      "keybinds": {
-        "key.attack": {
-          "key": "key.mouse.left",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.use": {
-          "key": "key.mouse.right",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.forward": {
-          "key": "key.keyboard.w",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.left": {
-          "key": "key.keyboard.a",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.back": {
-          "key": "key.keyboard.s",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.right": {
-          "key": "key.keyboard.d",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jump": {
-          "key": "key.keyboard.space",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sneak": {
-          "key": "key.keyboard.left.shift",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sprint": {
-          "key": "key.keyboard.left.control",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.drop": {
-          "key": "key.keyboard.q",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.inventory": {
-          "key": "key.keyboard.e",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.chat": {
-          "key": "key.keyboard.t",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.playerlist": {
-          "key": "key.keyboard.tab",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.pickItem": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.command": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.socialInteractions": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.screenshot": {
-          "key": "key.keyboard.f2",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.togglePerspective": {
-          "key": "key.keyboard.f5",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.smoothCamera": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.fullscreen": {
-          "key": "key.keyboard.f11",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.spectatorOutlines": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.swapOffhand": {
-          "key": "key.keyboard.f",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.saveToolbarActivator": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.loadToolbarActivator": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.advancements": {
-          "key": "key.keyboard.l",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.hotbar.1": {
-          "key": "key.keyboard.1",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.hotbar.2": {
-          "key": "key.keyboard.2",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.hotbar.3": {
-          "key": "key.keyboard.3",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.hotbar.4": {
-          "key": "key.keyboard.4",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.hotbar.5": {
-          "key": "key.keyboard.5",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.hotbar.6": {
-          "key": "key.keyboard.6",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.hotbar.7": {
-          "key": "key.keyboard.7",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.hotbar.8": {
-          "key": "key.keyboard.8",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.hotbar.9": {
-          "key": "key.keyboard.9",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.entityculling.toggle": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.modernfix.config": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.exposure.camera_controls": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "info.structure_gel.building_tool.undo": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "info.structure_gel.building_tool.redo": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.structure_gel.open_building_tool_gui": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.botania_corporea_request": {
-          "key": "key.keyboard.i",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "iris.keybind.reload": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "iris.keybind.toggleShaders": {
-          "key": "key.keyboard.f10",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "iris.keybind.shaderPackSelection": {
-          "key": "key.keyboard.f9",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "tombstone.message.knowledge_of_death": {
-          "key": "key.keyboard.j",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "tombstone.message.config": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "tombstone.message.compendium": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "accessories.key.open_accessories_screen": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.dynamic_fps.toggle_forced": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.dynamic_fps.toggle_disabled": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.rebindnarrator.togglenarrator": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.fieldguide.open": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.fieldguide.scan": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.emotecraft.fastchoose": {
-          "key": "key.keyboard.b",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.emotecraft.stop": {
-          "key": "key.keyboard.b",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.push_to_talk": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.whisper": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.mute_microphone": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.disable_voice_chat": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.hide_icons": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.voice_chat": {
-          "key": "key.keyboard.v",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.voice_chat_settings": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.voice_chat_group": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.voice_chat_toggle_recording": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.voice_chat_adjust_volumes": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.punchy.open_main_menu": {
-          "key": "key.keyboard.f8",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.punchy.inspect": {
-          "key": "key.keyboard.h",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.ryoamiclights.dyn_light": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.ad_astra.toggle_suit_flight": {
-          "key": "key.keyboard.v",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.ad_astra.open_radio": {
-          "key": "key.keyboard.r",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.trashslot.toggle": {
-          "key": "key.keyboard.t",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.trashslot.toggle_lock": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.trashslot.delete": {
-          "key": "key.keyboard.delete",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.trashslot.delete_all": {
-          "key": "key.keyboard.delete",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.sophisticatedcore.sort": {
-          "key": "key.mouse.middle",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sophisticatedcore.transfer_to_storage": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sophisticatedcore.transfer_to_inventory": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "placebo.toggleTrails": {
-          "key": "key.keyboard.keypad.9",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "placebo.toggleWings": {
-          "key": "key.keyboard.keypad.8",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sophisticatedbackpacks.open_backpack": {
-          "key": "key.keyboard.grave.accent",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sophisticatedbackpacks.inventory_interaction": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sophisticatedbackpacks.tool_swap": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sophisticatedbackpacks.toggle_upgrade_1": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sophisticatedbackpacks.toggle_upgrade_2": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sophisticatedbackpacks.toggle_upgrade_3": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sophisticatedbackpacks.toggle_upgrade_4": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.sophisticatedbackpacks.toggle_upgrade_5": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.carry.desc": {
-          "key": "key.keyboard.left.shift",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.tempad.shortcut": {
-          "key": "key.keyboard.b",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.tempad.favorite": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.cataclysm.ability": {
-          "key": "key.keyboard.x",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.cataclysm.helmet_ability": {
-          "key": "key.keyboard.x",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.cataclysm.chestplate_ability": {
-          "key": "key.keyboard.y",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.cataclysm.boots_ability": {
-          "key": "key.keyboard.x",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.showmeyourskin.open_settings": {
-          "key": "key.keyboard.equal",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.showmeyourskin.global_toggle": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.inmis.open_backpack": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "keyinfo.copycats.fill_copycat": {
-          "key": "key.keyboard.left.alt",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "chloride.zoom": {
-          "key": "key.keyboard.c",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.toastcontrol.clear": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.tconstruct.helmet_interact": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.tconstruct.leggings_interact": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.freecam.toggle": {
-          "key": "key.keyboard.f4",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.freecam.playerControl": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.freecam.tripodReset": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.freecam.configGui": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.cobblemonrider.Pokemon Mount": {
-          "key": "key.keyboard.left.alt",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.cobblemonrider.Pokemon Dismount": {
-          "key": "key.keyboard.world.2",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.ponder.ponder": {
-          "key": "key.keyboard.w",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "zume.zoom": {
-          "key": "key.keyboard.c",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "zume.zoom_in": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "zume.zoom_out": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.keybindatlas.open_keyboard": {
-          "key": "key.keyboard.k",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.do_a_barrel_roll.toggle_enabled": {
-          "key": "key.keyboard.minus",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.do_a_barrel_roll.toggle_thrust": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.do_a_barrel_roll.open_config": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.do_a_barrel_roll.pitch_up": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.do_a_barrel_roll.pitch_down": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.do_a_barrel_roll.yaw_left": {
-          "key": "key.keyboard.a",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.do_a_barrel_roll.yaw_right": {
-          "key": "key.keyboard.d",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.do_a_barrel_roll.roll_left": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.do_a_barrel_roll.roll_right": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.do_a_barrel_roll.thrust_forward": {
-          "key": "key.keyboard.w",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.do_a_barrel_roll.thrust_backward": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.curios.open.desc": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.cobblemon.hideparty": {
-          "key": "key.keyboard.o",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.cobblemon.summary": {
-          "key": "key.keyboard.semicolon",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.cobblemon.downshiftparty": {
-          "key": "key.keyboard.down",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.cobblemon.upshiftparty": {
-          "key": "key.keyboard.up",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.cobblemon.throwpartypokemon": {
-          "key": "key.keyboard.r",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.transferRecipeBookmark": {
-          "key": "key.mouse.left",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.jei.showRecipe2": {
-          "key": "key.mouse.left",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.cheatItemStack": {
-          "key": "key.mouse.left",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.jei.cheatItemStack2": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.toggleBookmarkOverlay": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.showUses2": {
-          "key": "key.mouse.right",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.recipeBack": {
-          "key": "key.keyboard.backspace",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.nextRecipePage": {
-          "key": "key.keyboard.page.down",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.toggleOverlay": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.showUses": {
-          "key": "key.keyboard.u",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.previousCategory": {
-          "key": "key.keyboard.page.up",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.jei.nextPage": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.maxTransferRecipeBookmark": {
-          "key": "key.mouse.left",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.jei.closeRecipeGui": {
-          "key": "key.keyboard.escape",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.pauseRecipeCycling": {
-          "key": "key.keyboard.left.shift",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.bookmark": {
-          "key": "key.keyboard.a",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.toggleHideIngredient": {
-          "key": "key.mouse.left",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.jei.nextCategory": {
-          "key": "key.keyboard.page.down",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.jei.quickMove": {
-          "key": "key.mouse.left",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.jei.toggleEditMode": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.clearSearchBar": {
-          "key": "key.mouse.right",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.focusSearch": {
-          "key": "key.keyboard.f",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.jei.toggleCheatModeConfigButton": {
-          "key": "key.mouse.left",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.jei.previousRecipePage": {
-          "key": "key.keyboard.page.up",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.cheatOneItem2": {
-          "key": "key.mouse.right",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.previousPage": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.nextSearch": {
-          "key": "key.keyboard.down",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.cheatOneItem": {
-          "key": "key.mouse.left",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.copy.recipe.id": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.showBookmarkTooltipFeatures": {
-          "key": "key.keyboard.left.control",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.toggleWildcardHideIngredient": {
-          "key": "key.mouse.right",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.jei.previousSearch": {
-          "key": "key.keyboard.up",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.shareToChat": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.toggleCheatMode": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jei.showRecipe": {
-          "key": "key.keyboard.r",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_minimap_settings": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_minimap_server_profiles": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_zoom_in": {
-          "key": "key.keyboard.right.bracket",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_zoom_out": {
-          "key": "key.keyboard.slash",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_new_waypoint": {
-          "key": "key.keyboard.n",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "gui.xaero_waypoints_key": {
-          "key": "key.keyboard.n",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_enlarge_map": {
-          "key": "key.keyboard.f",
-          "modifier": "ALT",
-          "forced": false
-        },
-        "gui.xaero_toggle_map": {
-          "key": "key.keyboard.p",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_toggle_waypoints": {
-          "key": "key.keyboard.u",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_toggle_map_waypoints": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_toggle_slime": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_toggle_grid": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_instant_waypoint": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_switch_waypoint_set": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_display_all_sets": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_toggle_light_overlay": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_toggle_entity_radar": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_reverse_entity_radar": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_toggle_manual_cave_mode": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_alternative_list_players": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_toggle_tracked_players_on_map": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_toggle_tracked_players_in_world": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_toggle_pac_chunk_claims": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gnetum.config.keyMapping": {
-          "key": "key.keyboard.end",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_open_map": {
-          "key": "key.keyboard.m",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_open_settings": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_world_map_server_settings": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_map_zoom_in": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_map_zoom_out": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_quick_confirm": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "gui.xaero_toggle_dimension": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.relics.ability_list": {
-          "key": "key.keyboard.left.alt",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.relics.research_relic": {
-          "key": "key.keyboard.left.shift",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "Take Panorama Screenshot": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "railways.keyinfo.bogey_menu": {
-          "key": "key.keyboard.left.alt",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "railways.keyinfo.cycle_menu": {
-          "key": "key.keyboard.left.alt",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "artifacts.key.helium_flamingo.activate": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "artifacts.key.night_vision_goggles.toggle": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "artifacts.key.universal_attractor.toggle": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.golemoverhaul.netherite_golem_summon": {
-          "key": "key.keyboard.r",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.adorablehamsterpets.throw_hamster": {
-          "key": "key.keyboard.g",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.adorablehamsterpets.toggle_supporter_crown": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.adorablehamsterpets.dismount_hamster": {
-          "key": "key.keyboard.n",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "key.adorablehamsterpets.pet_hamster": {
-          "key": "key.keyboard.h",
-          "modifier": "CONTROL",
-          "forced": false
-        },
-        "key.adorablehamsterpets.force_mount_hamster.disabled": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.adorablehamsterpets.ride_hamster.disabled": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.adorablehamsterpets.genetics_visualization.variance_up": {
-          "key": "key.keyboard.right",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.adorablehamsterpets.genetics_visualization.variance_down": {
-          "key": "key.keyboard.left",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.adorablehamsterpets.genetics_visualization.mutation_rate_up": {
-          "key": "key.keyboard.up",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.adorablehamsterpets.genetics_visualization.mutation_rate_down": {
-          "key": "key.keyboard.down",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.adorablehamsterpets.toggle_performance_mode": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "chunkloaders.keys.open_screen": {
-          "key": "key.keyboard.comma",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.pingwheel.ping_location": {
-          "key": "key.mouse.middle",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.pingwheel.open_settings": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "create.keyinfo.toolmenu": {
-          "key": "key.keyboard.left.alt",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "create.keyinfo.toolbelt": {
-          "key": "key.keyboard.left.alt",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "create.keyinfo.rotate_menu": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "framedblocks.key.update_cull": {
-          "key": "key.keyboard.f9",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "framedblocks.key.wipe_cache": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.configured.open_mod_list": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.guideme.guide": {
-          "key": "key.keyboard.g",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.special_ability": {
-          "key": "key.keyboard.g",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.raws_visual_keybinder.open_screen": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.raws_visual_keybinder.switch_to_preset_1": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.raws_visual_keybinder.switch_to_preset_2": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.raws_visual_keybinder.switch_to_preset_3": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.raws_visual_keybinder.switch_to_preset_4": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.raws_visual_keybinder.switch_to_preset_5": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jade.config": {
-          "key": "key.keyboard.keypad.0",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jade.show_overlay": {
-          "key": "key.keyboard.keypad.1",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jade.toggle_liquid": {
-          "key": "key.keyboard.keypad.2",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jade.show_recipes": {
-          "key": "key.keyboard.keypad.3",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jade.show_uses": {
-          "key": "key.keyboard.keypad.4",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jade.narrate": {
-          "key": "key.keyboard.keypad.5",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.jade.show_details": {
-          "key": "key.keyboard.left.shift",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.ae2.portable_item_cell": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.ae2.portable_fluid_cell": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "key.ae2.wireless_terminal": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.autorun": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.back": {
-          "key": "key.mouse.4",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.camera_mode": {
-          "key": "key.keyboard.f12",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.transfer_insert": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.transfer_extract": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.shift_lock": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.emote.no": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.emote.yes": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.emote.wave": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.emote.salute": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.emote.cheer": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.emote.clap": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.emote.think": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.emote.point": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.emote.shrug": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.emote.headbang": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.emote.weep": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.emote.facepalm": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.patreon_emote.dance": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.patreon_emote.tpose": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.patreon_emote.dab": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.patreon_emote.jet": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.patreon_emote.exorcist": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.patreon_emote.zombie": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.change_hotbar": {
-          "key": "key.keyboard.z",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.sort_player": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.sort_container": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.lock_rotation": {
-          "key": "key.keyboard.k",
-          "modifier": "SHIFT",
-          "forced": false
-        },
-        "quark.keybind.narrator_readout": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.narrator_full_readout": {
-          "key": "key.keyboard.unknown",
-          "modifier": "NONE",
-          "forced": false
-        },
-        "quark.keybind.variant_selector": {
-          "key": "key.keyboard.r",
-          "modifier": "NONE",
-          "forced": false
-        }
-      },
-      "shielded": []
-    },
     {
       "timestamp": 1787171540087,
       "reason": "Sincronización a v3",
@@ -4959,6 +2200,2760 @@
         },
         "key.jei.nextSearch": {
           "key": "key.keyboard.down",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_minimap_settings": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_minimap_server_profiles": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_zoom_in": {
+          "key": "key.keyboard.right.bracket",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_zoom_out": {
+          "key": "key.keyboard.slash",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_new_waypoint": {
+          "key": "key.keyboard.n",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "gui.xaero_waypoints_key": {
+          "key": "key.keyboard.n",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_enlarge_map": {
+          "key": "key.keyboard.f",
+          "modifier": "ALT",
+          "forced": false
+        },
+        "gui.xaero_toggle_map": {
+          "key": "key.keyboard.p",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_toggle_waypoints": {
+          "key": "key.keyboard.u",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_toggle_map_waypoints": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_toggle_slime": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_toggle_grid": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_instant_waypoint": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_switch_waypoint_set": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_display_all_sets": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_toggle_light_overlay": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_toggle_entity_radar": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_reverse_entity_radar": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_toggle_manual_cave_mode": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_alternative_list_players": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_toggle_tracked_players_on_map": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_toggle_tracked_players_in_world": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_toggle_pac_chunk_claims": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gnetum.config.keyMapping": {
+          "key": "key.keyboard.end",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_open_map": {
+          "key": "key.keyboard.m",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_open_settings": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_world_map_server_settings": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_map_zoom_in": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_map_zoom_out": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_quick_confirm": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_toggle_dimension": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.relics.ability_list": {
+          "key": "key.keyboard.left.alt",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.relics.research_relic": {
+          "key": "key.keyboard.left.shift",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "Take Panorama Screenshot": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "railways.keyinfo.bogey_menu": {
+          "key": "key.keyboard.left.alt",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "railways.keyinfo.cycle_menu": {
+          "key": "key.keyboard.left.alt",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "artifacts.key.helium_flamingo.activate": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "artifacts.key.night_vision_goggles.toggle": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "artifacts.key.universal_attractor.toggle": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.golemoverhaul.netherite_golem_summon": {
+          "key": "key.keyboard.r",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.adorablehamsterpets.throw_hamster": {
+          "key": "key.keyboard.g",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.adorablehamsterpets.toggle_supporter_crown": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.adorablehamsterpets.dismount_hamster": {
+          "key": "key.keyboard.n",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.adorablehamsterpets.pet_hamster": {
+          "key": "key.keyboard.h",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.adorablehamsterpets.force_mount_hamster.disabled": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.adorablehamsterpets.ride_hamster.disabled": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.adorablehamsterpets.genetics_visualization.variance_up": {
+          "key": "key.keyboard.right",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.adorablehamsterpets.genetics_visualization.variance_down": {
+          "key": "key.keyboard.left",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.adorablehamsterpets.genetics_visualization.mutation_rate_up": {
+          "key": "key.keyboard.up",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.adorablehamsterpets.genetics_visualization.mutation_rate_down": {
+          "key": "key.keyboard.down",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.adorablehamsterpets.toggle_performance_mode": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "chunkloaders.keys.open_screen": {
+          "key": "key.keyboard.comma",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.pingwheel.ping_location": {
+          "key": "key.mouse.middle",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.pingwheel.open_settings": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "create.keyinfo.toolmenu": {
+          "key": "key.keyboard.left.alt",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "create.keyinfo.toolbelt": {
+          "key": "key.keyboard.left.alt",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "create.keyinfo.rotate_menu": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "framedblocks.key.update_cull": {
+          "key": "key.keyboard.f9",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "framedblocks.key.wipe_cache": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.configured.open_mod_list": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.guideme.guide": {
+          "key": "key.keyboard.g",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.special_ability": {
+          "key": "key.keyboard.g",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.raws_visual_keybinder.open_screen": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.raws_visual_keybinder.switch_to_preset_1": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.raws_visual_keybinder.switch_to_preset_2": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.raws_visual_keybinder.switch_to_preset_3": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.raws_visual_keybinder.switch_to_preset_4": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.raws_visual_keybinder.switch_to_preset_5": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jade.config": {
+          "key": "key.keyboard.keypad.0",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jade.show_overlay": {
+          "key": "key.keyboard.keypad.1",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jade.toggle_liquid": {
+          "key": "key.keyboard.keypad.2",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jade.show_recipes": {
+          "key": "key.keyboard.keypad.3",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jade.show_uses": {
+          "key": "key.keyboard.keypad.4",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jade.narrate": {
+          "key": "key.keyboard.keypad.5",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jade.show_details": {
+          "key": "key.keyboard.left.shift",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.ae2.portable_item_cell": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.ae2.portable_fluid_cell": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.ae2.wireless_terminal": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.autorun": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.back": {
+          "key": "key.mouse.4",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.camera_mode": {
+          "key": "key.keyboard.f12",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.transfer_insert": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.transfer_extract": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.shift_lock": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.emote.no": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.emote.yes": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.emote.wave": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.emote.salute": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.emote.cheer": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.emote.clap": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.emote.think": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.emote.point": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.emote.shrug": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.emote.headbang": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.emote.weep": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.emote.facepalm": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.patreon_emote.dance": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.patreon_emote.tpose": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.patreon_emote.dab": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.patreon_emote.jet": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.patreon_emote.exorcist": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.patreon_emote.zombie": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.change_hotbar": {
+          "key": "key.keyboard.z",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.sort_player": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.sort_container": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.lock_rotation": {
+          "key": "key.keyboard.k",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "quark.keybind.narrator_readout": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.narrator_full_readout": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.variant_selector": {
+          "key": "key.keyboard.r",
+          "modifier": "NONE",
+          "forced": false
+        }
+      },
+      "shielded": []
+    },
+    {
+      "timestamp": 1787172501905,
+      "reason": "Sincronización a v3",
+      "keybinds": {
+        "key.attack": {
+          "key": "key.mouse.left",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.use": {
+          "key": "key.mouse.right",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.forward": {
+          "key": "key.keyboard.w",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.left": {
+          "key": "key.keyboard.a",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.back": {
+          "key": "key.keyboard.s",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.right": {
+          "key": "key.keyboard.d",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jump": {
+          "key": "key.keyboard.space",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sneak": {
+          "key": "key.keyboard.left.shift",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sprint": {
+          "key": "key.keyboard.left.control",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.drop": {
+          "key": "key.keyboard.q",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.inventory": {
+          "key": "key.keyboard.e",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.chat": {
+          "key": "key.keyboard.t",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.playerlist": {
+          "key": "key.keyboard.tab",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.pickItem": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.command": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.socialInteractions": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.screenshot": {
+          "key": "key.keyboard.f2",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.togglePerspective": {
+          "key": "key.keyboard.f5",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.smoothCamera": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.fullscreen": {
+          "key": "key.keyboard.f11",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.spectatorOutlines": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.swapOffhand": {
+          "key": "key.keyboard.f",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.saveToolbarActivator": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.loadToolbarActivator": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.advancements": {
+          "key": "key.keyboard.l",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.hotbar.1": {
+          "key": "key.keyboard.1",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.hotbar.2": {
+          "key": "key.keyboard.2",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.hotbar.3": {
+          "key": "key.keyboard.3",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.hotbar.4": {
+          "key": "key.keyboard.4",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.hotbar.5": {
+          "key": "key.keyboard.5",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.hotbar.6": {
+          "key": "key.keyboard.6",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.hotbar.7": {
+          "key": "key.keyboard.7",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.hotbar.8": {
+          "key": "key.keyboard.8",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.hotbar.9": {
+          "key": "key.keyboard.9",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.entityculling.toggle": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.modernfix.config": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.exposure.camera_controls": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "info.structure_gel.building_tool.undo": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "info.structure_gel.building_tool.redo": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.structure_gel.open_building_tool_gui": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.botania_corporea_request": {
+          "key": "key.keyboard.i",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "iris.keybind.reload": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "iris.keybind.toggleShaders": {
+          "key": "key.keyboard.f10",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "iris.keybind.shaderPackSelection": {
+          "key": "key.keyboard.f9",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "tombstone.message.knowledge_of_death": {
+          "key": "key.keyboard.j",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "tombstone.message.config": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "tombstone.message.compendium": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "accessories.key.open_accessories_screen": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.dynamic_fps.toggle_forced": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.dynamic_fps.toggle_disabled": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.rebindnarrator.togglenarrator": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.fieldguide.open": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.fieldguide.scan": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.emotecraft.fastchoose": {
+          "key": "key.keyboard.b",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.emotecraft.stop": {
+          "key": "key.keyboard.b",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.push_to_talk": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.whisper": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.mute_microphone": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.disable_voice_chat": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.hide_icons": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.voice_chat": {
+          "key": "key.keyboard.v",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.voice_chat_settings": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.voice_chat_group": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.voice_chat_toggle_recording": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.voice_chat_adjust_volumes": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.punchy.open_main_menu": {
+          "key": "key.keyboard.f8",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.punchy.inspect": {
+          "key": "key.keyboard.h",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.ryoamiclights.dyn_light": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.ad_astra.toggle_suit_flight": {
+          "key": "key.keyboard.v",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.ad_astra.open_radio": {
+          "key": "key.keyboard.r",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.trashslot.toggle": {
+          "key": "key.keyboard.t",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.trashslot.toggle_lock": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.trashslot.delete": {
+          "key": "key.keyboard.delete",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.trashslot.delete_all": {
+          "key": "key.keyboard.delete",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.sophisticatedcore.sort": {
+          "key": "key.mouse.middle",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sophisticatedcore.transfer_to_storage": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sophisticatedcore.transfer_to_inventory": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "placebo.toggleTrails": {
+          "key": "key.keyboard.keypad.9",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "placebo.toggleWings": {
+          "key": "key.keyboard.keypad.8",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sophisticatedbackpacks.open_backpack": {
+          "key": "key.keyboard.grave.accent",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sophisticatedbackpacks.inventory_interaction": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sophisticatedbackpacks.tool_swap": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sophisticatedbackpacks.toggle_upgrade_1": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sophisticatedbackpacks.toggle_upgrade_2": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sophisticatedbackpacks.toggle_upgrade_3": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sophisticatedbackpacks.toggle_upgrade_4": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sophisticatedbackpacks.toggle_upgrade_5": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.carry.desc": {
+          "key": "key.keyboard.left.shift",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.tempad.shortcut": {
+          "key": "key.keyboard.b",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.tempad.favorite": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.cataclysm.ability": {
+          "key": "key.keyboard.x",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.cataclysm.helmet_ability": {
+          "key": "key.keyboard.x",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.cataclysm.chestplate_ability": {
+          "key": "key.keyboard.y",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.cataclysm.boots_ability": {
+          "key": "key.keyboard.x",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.showmeyourskin.open_settings": {
+          "key": "key.keyboard.equal",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.showmeyourskin.global_toggle": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.inmis.open_backpack": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "keyinfo.copycats.fill_copycat": {
+          "key": "key.keyboard.left.alt",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "chloride.zoom": {
+          "key": "key.keyboard.c",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.toastcontrol.clear": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.tconstruct.helmet_interact": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.tconstruct.leggings_interact": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.freecam.toggle": {
+          "key": "key.keyboard.f4",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.freecam.playerControl": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.freecam.tripodReset": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.freecam.configGui": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.cobblemonrider.Pokemon Mount": {
+          "key": "key.keyboard.left.alt",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.cobblemonrider.Pokemon Dismount": {
+          "key": "key.keyboard.world.2",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.ponder.ponder": {
+          "key": "key.keyboard.w",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "zume.zoom": {
+          "key": "key.keyboard.c",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "zume.zoom_in": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "zume.zoom_out": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.keybindatlas.open_keyboard": {
+          "key": "key.keyboard.k",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.do_a_barrel_roll.toggle_enabled": {
+          "key": "key.keyboard.minus",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.do_a_barrel_roll.toggle_thrust": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.do_a_barrel_roll.open_config": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.do_a_barrel_roll.pitch_up": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.do_a_barrel_roll.pitch_down": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.do_a_barrel_roll.yaw_left": {
+          "key": "key.keyboard.a",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.do_a_barrel_roll.yaw_right": {
+          "key": "key.keyboard.d",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.do_a_barrel_roll.roll_left": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.do_a_barrel_roll.roll_right": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.do_a_barrel_roll.thrust_forward": {
+          "key": "key.keyboard.w",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.do_a_barrel_roll.thrust_backward": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.curios.open.desc": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.cobblemon.hideparty": {
+          "key": "key.keyboard.o",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.cobblemon.summary": {
+          "key": "key.keyboard.semicolon",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.cobblemon.downshiftparty": {
+          "key": "key.keyboard.down",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.cobblemon.upshiftparty": {
+          "key": "key.keyboard.up",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.cobblemon.throwpartypokemon": {
+          "key": "key.keyboard.r",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.pauseRecipeCycling": {
+          "key": "key.keyboard.left.shift",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.cheatItemStack": {
+          "key": "key.mouse.left",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.jei.showRecipe2": {
+          "key": "key.mouse.left",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.cheatItemStack2": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.nextCategory": {
+          "key": "key.keyboard.page.down",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.jei.toggleOverlay": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.toggleBookmarkOverlay": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.shareToChat": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.cheatOneItem2": {
+          "key": "key.mouse.right",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.nextSearch": {
+          "key": "key.keyboard.down",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.showBookmarkTooltipFeatures": {
+          "key": "key.keyboard.left.control",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.clearSearchBar": {
+          "key": "key.mouse.right",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.maxTransferRecipeBookmark": {
+          "key": "key.mouse.left",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.jei.toggleCheatModeConfigButton": {
+          "key": "key.mouse.left",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.jei.focusSearch": {
+          "key": "key.keyboard.f",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.jei.previousCategory": {
+          "key": "key.keyboard.page.up",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.jei.nextPage": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.previousSearch": {
+          "key": "key.keyboard.up",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.previousPage": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.bookmark": {
+          "key": "key.keyboard.a",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.showUses": {
+          "key": "key.keyboard.u",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.quickMove": {
+          "key": "key.mouse.left",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.jei.showRecipe": {
+          "key": "key.keyboard.r",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.toggleWildcardHideIngredient": {
+          "key": "key.mouse.right",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.jei.toggleCheatMode": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.previousRecipePage": {
+          "key": "key.keyboard.page.up",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.closeRecipeGui": {
+          "key": "key.keyboard.escape",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.showUses2": {
+          "key": "key.mouse.right",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.toggleEditMode": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.copy.recipe.id": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.toggleHideIngredient": {
+          "key": "key.mouse.left",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.jei.transferRecipeBookmark": {
+          "key": "key.mouse.left",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.jei.nextRecipePage": {
+          "key": "key.keyboard.page.down",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.cheatOneItem": {
+          "key": "key.mouse.left",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.recipeBack": {
+          "key": "key.keyboard.backspace",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_minimap_settings": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_minimap_server_profiles": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_zoom_in": {
+          "key": "key.keyboard.right.bracket",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_zoom_out": {
+          "key": "key.keyboard.slash",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_new_waypoint": {
+          "key": "key.keyboard.n",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "gui.xaero_waypoints_key": {
+          "key": "key.keyboard.n",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_enlarge_map": {
+          "key": "key.keyboard.f",
+          "modifier": "ALT",
+          "forced": false
+        },
+        "gui.xaero_toggle_map": {
+          "key": "key.keyboard.p",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_toggle_waypoints": {
+          "key": "key.keyboard.u",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_toggle_map_waypoints": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_toggle_slime": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_toggle_grid": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_instant_waypoint": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_switch_waypoint_set": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_display_all_sets": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_toggle_light_overlay": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_toggle_entity_radar": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_reverse_entity_radar": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_toggle_manual_cave_mode": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_alternative_list_players": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_toggle_tracked_players_on_map": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_toggle_tracked_players_in_world": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_toggle_pac_chunk_claims": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gnetum.config.keyMapping": {
+          "key": "key.keyboard.end",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_open_map": {
+          "key": "key.keyboard.m",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_open_settings": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_world_map_server_settings": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_map_zoom_in": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_map_zoom_out": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_quick_confirm": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "gui.xaero_toggle_dimension": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.relics.ability_list": {
+          "key": "key.keyboard.left.alt",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.relics.research_relic": {
+          "key": "key.keyboard.left.shift",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "Take Panorama Screenshot": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "railways.keyinfo.bogey_menu": {
+          "key": "key.keyboard.left.alt",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "railways.keyinfo.cycle_menu": {
+          "key": "key.keyboard.left.alt",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "artifacts.key.helium_flamingo.activate": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "artifacts.key.night_vision_goggles.toggle": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "artifacts.key.universal_attractor.toggle": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.golemoverhaul.netherite_golem_summon": {
+          "key": "key.keyboard.r",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.adorablehamsterpets.throw_hamster": {
+          "key": "key.keyboard.g",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.adorablehamsterpets.toggle_supporter_crown": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.adorablehamsterpets.dismount_hamster": {
+          "key": "key.keyboard.n",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.adorablehamsterpets.pet_hamster": {
+          "key": "key.keyboard.h",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.adorablehamsterpets.force_mount_hamster.disabled": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.adorablehamsterpets.ride_hamster.disabled": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.adorablehamsterpets.genetics_visualization.variance_up": {
+          "key": "key.keyboard.right",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.adorablehamsterpets.genetics_visualization.variance_down": {
+          "key": "key.keyboard.left",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.adorablehamsterpets.genetics_visualization.mutation_rate_up": {
+          "key": "key.keyboard.up",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.adorablehamsterpets.genetics_visualization.mutation_rate_down": {
+          "key": "key.keyboard.down",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.adorablehamsterpets.toggle_performance_mode": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "chunkloaders.keys.open_screen": {
+          "key": "key.keyboard.comma",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.pingwheel.ping_location": {
+          "key": "key.mouse.middle",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.pingwheel.open_settings": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "create.keyinfo.toolmenu": {
+          "key": "key.keyboard.left.alt",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "create.keyinfo.toolbelt": {
+          "key": "key.keyboard.left.alt",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "create.keyinfo.rotate_menu": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "framedblocks.key.update_cull": {
+          "key": "key.keyboard.f9",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "framedblocks.key.wipe_cache": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.configured.open_mod_list": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.guideme.guide": {
+          "key": "key.keyboard.g",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.special_ability": {
+          "key": "key.keyboard.g",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.raws_visual_keybinder.open_screen": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.raws_visual_keybinder.switch_to_preset_1": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.raws_visual_keybinder.switch_to_preset_2": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.raws_visual_keybinder.switch_to_preset_3": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.raws_visual_keybinder.switch_to_preset_4": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.raws_visual_keybinder.switch_to_preset_5": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jade.config": {
+          "key": "key.keyboard.keypad.0",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jade.show_overlay": {
+          "key": "key.keyboard.keypad.1",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jade.toggle_liquid": {
+          "key": "key.keyboard.keypad.2",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jade.show_recipes": {
+          "key": "key.keyboard.keypad.3",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jade.show_uses": {
+          "key": "key.keyboard.keypad.4",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jade.narrate": {
+          "key": "key.keyboard.keypad.5",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jade.show_details": {
+          "key": "key.keyboard.left.shift",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.ae2.portable_item_cell": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.ae2.portable_fluid_cell": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.ae2.wireless_terminal": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.autorun": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.back": {
+          "key": "key.mouse.4",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.camera_mode": {
+          "key": "key.keyboard.f12",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.transfer_insert": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.transfer_extract": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.shift_lock": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.emote.no": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.emote.yes": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.emote.wave": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.emote.salute": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.emote.cheer": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.emote.clap": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.emote.think": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.emote.point": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.emote.shrug": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.emote.headbang": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.emote.weep": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.emote.facepalm": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.patreon_emote.dance": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.patreon_emote.tpose": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.patreon_emote.dab": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.patreon_emote.jet": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.patreon_emote.exorcist": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.patreon_emote.zombie": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.change_hotbar": {
+          "key": "key.keyboard.z",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.sort_player": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.sort_container": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.lock_rotation": {
+          "key": "key.keyboard.k",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "quark.keybind.narrator_readout": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.narrator_full_readout": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "quark.keybind.variant_selector": {
+          "key": "key.keyboard.r",
+          "modifier": "NONE",
+          "forced": false
+        }
+      },
+      "shielded": []
+    },
+    {
+      "timestamp": 1787186477225,
+      "reason": "Sincronización a v3",
+      "keybinds": {
+        "key.attack": {
+          "key": "key.mouse.left",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.use": {
+          "key": "key.mouse.right",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.forward": {
+          "key": "key.keyboard.w",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.left": {
+          "key": "key.keyboard.a",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.back": {
+          "key": "key.keyboard.s",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.right": {
+          "key": "key.keyboard.d",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jump": {
+          "key": "key.keyboard.space",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sneak": {
+          "key": "key.keyboard.left.shift",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sprint": {
+          "key": "key.keyboard.left.control",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.drop": {
+          "key": "key.keyboard.q",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.inventory": {
+          "key": "key.keyboard.e",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.chat": {
+          "key": "key.keyboard.t",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.playerlist": {
+          "key": "key.keyboard.tab",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.pickItem": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.command": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.socialInteractions": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.screenshot": {
+          "key": "key.keyboard.f2",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.togglePerspective": {
+          "key": "key.keyboard.f5",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.smoothCamera": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.fullscreen": {
+          "key": "key.keyboard.f11",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.spectatorOutlines": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.swapOffhand": {
+          "key": "key.keyboard.f",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.saveToolbarActivator": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.loadToolbarActivator": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.advancements": {
+          "key": "key.keyboard.l",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.hotbar.1": {
+          "key": "key.keyboard.1",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.hotbar.2": {
+          "key": "key.keyboard.2",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.hotbar.3": {
+          "key": "key.keyboard.3",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.hotbar.4": {
+          "key": "key.keyboard.4",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.hotbar.5": {
+          "key": "key.keyboard.5",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.hotbar.6": {
+          "key": "key.keyboard.6",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.hotbar.7": {
+          "key": "key.keyboard.7",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.hotbar.8": {
+          "key": "key.keyboard.8",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.hotbar.9": {
+          "key": "key.keyboard.9",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.entityculling.toggle": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.modernfix.config": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.exposure.camera_controls": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "info.structure_gel.building_tool.undo": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "info.structure_gel.building_tool.redo": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.structure_gel.open_building_tool_gui": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.botania_corporea_request": {
+          "key": "key.keyboard.i",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "iris.keybind.reload": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "iris.keybind.toggleShaders": {
+          "key": "key.keyboard.f10",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "iris.keybind.shaderPackSelection": {
+          "key": "key.keyboard.f9",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "tombstone.message.knowledge_of_death": {
+          "key": "key.keyboard.j",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "tombstone.message.config": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "tombstone.message.compendium": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "accessories.key.open_accessories_screen": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.dynamic_fps.toggle_forced": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.dynamic_fps.toggle_disabled": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.rebindnarrator.togglenarrator": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.fieldguide.open": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.fieldguide.scan": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.emotecraft.fastchoose": {
+          "key": "key.keyboard.b",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.emotecraft.stop": {
+          "key": "key.keyboard.b",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.push_to_talk": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.whisper": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.mute_microphone": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.disable_voice_chat": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.hide_icons": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.voice_chat": {
+          "key": "key.keyboard.v",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.voice_chat_settings": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.voice_chat_group": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.voice_chat_toggle_recording": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.voice_chat_adjust_volumes": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.punchy.open_main_menu": {
+          "key": "key.keyboard.f8",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.punchy.inspect": {
+          "key": "key.keyboard.h",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.ryoamiclights.dyn_light": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.ad_astra.toggle_suit_flight": {
+          "key": "key.keyboard.v",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.ad_astra.open_radio": {
+          "key": "key.keyboard.r",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.trashslot.toggle": {
+          "key": "key.keyboard.t",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.trashslot.toggle_lock": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.trashslot.delete": {
+          "key": "key.keyboard.delete",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.trashslot.delete_all": {
+          "key": "key.keyboard.delete",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.sophisticatedcore.sort": {
+          "key": "key.mouse.middle",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sophisticatedcore.transfer_to_storage": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sophisticatedcore.transfer_to_inventory": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "placebo.toggleTrails": {
+          "key": "key.keyboard.keypad.9",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "placebo.toggleWings": {
+          "key": "key.keyboard.keypad.8",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sophisticatedbackpacks.open_backpack": {
+          "key": "key.keyboard.grave.accent",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sophisticatedbackpacks.inventory_interaction": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sophisticatedbackpacks.tool_swap": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sophisticatedbackpacks.toggle_upgrade_5": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sophisticatedbackpacks.toggle_upgrade_4": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sophisticatedbackpacks.toggle_upgrade_3": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sophisticatedbackpacks.toggle_upgrade_2": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.sophisticatedbackpacks.toggle_upgrade_1": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.carry.desc": {
+          "key": "key.keyboard.left.shift",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.tempad.shortcut": {
+          "key": "key.keyboard.b",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.tempad.favorite": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.cataclysm.ability": {
+          "key": "key.keyboard.x",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.cataclysm.helmet_ability": {
+          "key": "key.keyboard.x",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.cataclysm.chestplate_ability": {
+          "key": "key.keyboard.y",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.cataclysm.boots_ability": {
+          "key": "key.keyboard.x",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.showmeyourskin.open_settings": {
+          "key": "key.keyboard.equal",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.showmeyourskin.global_toggle": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.inmis.open_backpack": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "keyinfo.copycats.fill_copycat": {
+          "key": "key.keyboard.left.alt",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "chloride.zoom": {
+          "key": "key.keyboard.c",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.toastcontrol.clear": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.tconstruct.helmet_interact": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.tconstruct.leggings_interact": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.freecam.toggle": {
+          "key": "key.keyboard.f4",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.freecam.playerControl": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.freecam.tripodReset": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.freecam.configGui": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.cobblemonrider.Pokemon Mount": {
+          "key": "key.keyboard.left.alt",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.cobblemonrider.Pokemon Dismount": {
+          "key": "key.keyboard.world.2",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.ponder.ponder": {
+          "key": "key.keyboard.w",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "zume.zoom": {
+          "key": "key.keyboard.c",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "zume.zoom_in": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "zume.zoom_out": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.keybindatlas.open_keyboard": {
+          "key": "key.keyboard.k",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.do_a_barrel_roll.toggle_enabled": {
+          "key": "key.keyboard.minus",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.do_a_barrel_roll.toggle_thrust": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.do_a_barrel_roll.open_config": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.do_a_barrel_roll.pitch_up": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.do_a_barrel_roll.pitch_down": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.do_a_barrel_roll.yaw_left": {
+          "key": "key.keyboard.a",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.do_a_barrel_roll.yaw_right": {
+          "key": "key.keyboard.d",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.do_a_barrel_roll.roll_left": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.do_a_barrel_roll.roll_right": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.do_a_barrel_roll.thrust_forward": {
+          "key": "key.keyboard.w",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.do_a_barrel_roll.thrust_backward": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.curios.open.desc": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.cobblemon.hideparty": {
+          "key": "key.keyboard.o",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.cobblemon.summary": {
+          "key": "key.keyboard.semicolon",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.cobblemon.downshiftparty": {
+          "key": "key.keyboard.down",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.cobblemon.upshiftparty": {
+          "key": "key.keyboard.up",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.cobblemon.throwpartypokemon": {
+          "key": "key.keyboard.r",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.toggleOverlay": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.previousCategory": {
+          "key": "key.keyboard.page.up",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.jei.toggleCheatMode": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.cheatOneItem": {
+          "key": "key.mouse.left",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.cheatItemStack": {
+          "key": "key.mouse.left",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.jei.toggleWildcardHideIngredient": {
+          "key": "key.mouse.right",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.jei.quickMove": {
+          "key": "key.mouse.left",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.jei.nextCategory": {
+          "key": "key.keyboard.page.down",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.jei.transferRecipeBookmark": {
+          "key": "key.mouse.left",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.jei.toggleEditMode": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.maxTransferRecipeBookmark": {
+          "key": "key.mouse.left",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.jei.showUses2": {
+          "key": "key.mouse.right",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.previousSearch": {
+          "key": "key.keyboard.up",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.toggleCheatModeConfigButton": {
+          "key": "key.mouse.left",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.jei.focusSearch": {
+          "key": "key.keyboard.f",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.jei.showBookmarkTooltipFeatures": {
+          "key": "key.keyboard.left.control",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.bookmark": {
+          "key": "key.keyboard.a",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.cheatOneItem2": {
+          "key": "key.mouse.right",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.closeRecipeGui": {
+          "key": "key.keyboard.escape",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.toggleBookmarkOverlay": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.nextRecipePage": {
+          "key": "key.keyboard.page.down",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.cheatItemStack2": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.previousRecipePage": {
+          "key": "key.keyboard.page.up",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.shareToChat": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.clearSearchBar": {
+          "key": "key.mouse.right",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.showRecipe": {
+          "key": "key.keyboard.r",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.recipeBack": {
+          "key": "key.keyboard.backspace",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.showUses": {
+          "key": "key.keyboard.u",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.nextSearch": {
+          "key": "key.keyboard.down",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.pauseRecipeCycling": {
+          "key": "key.keyboard.left.shift",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.previousPage": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.nextPage": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.showRecipe2": {
+          "key": "key.mouse.left",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.toggleHideIngredient": {
+          "key": "key.mouse.left",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.jei.copy.recipe.id": {
+          "key": "key.keyboard.unknown",
           "modifier": "NONE",
           "forced": false
         },

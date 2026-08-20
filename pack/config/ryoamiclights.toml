@@ -105,6 +105,7 @@
 				staffof_magic_arrows_2_projectile = true
 				nightmare_stalker = true
 				glutton_fish = true
+				missioner = true
 
 			[light_sources.settings.entities.ad_astra]
 				sulfur_creeper = true

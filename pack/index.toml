@@ -870,7 +870,7 @@ hash = "e3bbedc636a78386ea099047dba9f70d2aad423e70b104914f99d3e74f6e0103"
 
 [[files]]
 file = "config/emojiful_usage.json"
-hash = "f0bed5dc9cfad5c2fbc3582bd5ee879c66e9b4a55ed0302d242beabcf90050d5"
+hash = "d62b3a4b124e5cb142441103dc82a1005ef44d85d42a2af7543137189f30127a"
 
 [[files]]
 file = "config/emotecraft.json"
@@ -922,7 +922,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "55215a542b7930b10d148379a0b5b8cb5dc9d6391776b52a2f04ff26ad8027bd"
+hash = "3adcbfd2ba8ade297562da357c75b79ecb99452f12462ed2a4bbb156842baa94"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1614,7 +1614,7 @@ hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "b6a95b60e81139a919cdd81a055e2dfa9b11e32241e917b003f31b5c32f8d74f"
+hash = "2e8d990ec3439e45baea11c9c8d7f57a5a1d6cf4b27ed2a32280a9884134f197"
 preserve = true
 
 [[files]]
@@ -1675,7 +1675,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "5a6253e9e31bd6767c01da2b924e0bfa2306971ca915abbe72beca8b15ad8a87"
+hash = "d0841745b1c206f25128bcd7271d363a39958201d90edc4528203df8244e0c71"
 
 [[files]]
 file = "config/presencefootsteps/updater.json"
@@ -1755,7 +1755,7 @@ hash = "6d329122279318bc4d91c27038ed6a7c712f55f32760cdb516c23c7744228b41"
 
 [[files]]
 file = "config/ryoamiclights.toml"
-hash = "839e473291388b2cecfbaa01ef0903b3a9e203f298280e8fb35488ed00025e5a"
+hash = "b1391024bb8aa78c6301a5324077d1f87bb53244e05f6bf700d348cf17075a26"
 
 [[files]]
 file = "config/saturn-optimizations.toml"
@@ -1791,7 +1791,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "627177ac3d77555e3cc53717acc8e2ec4b708e0a4ca2db866dcc905ef28efcc4"
+hash = "f00e462961b7208aeeab6ce1dd16a16d1ef6f9b18cbadd63ab9ea1637823c332"
 
 [[files]]
 file = "config/simplehats.json"
@@ -1819,7 +1819,7 @@ hash = "ac1a4e660c8a567b4c945962d063eeced1a0040615214ea4aebb947ff6af7d33"
 
 [[files]]
 file = "config/smartkeysync/client.json"
-hash = "50d0550d4e7ddbaec6cd1c6a131655aac5590ee867ed92574ac77efb6a7dde4a"
+hash = "3d64bc7ad7864fa502123f0cc5e1647696fab910736916a0b8bca94c7e693c49"
 
 [[files]]
 file = "config/smartkeysync/master.json"
@@ -6755,7 +6755,7 @@ hash = "6db2897ba1a15afb51ae14050bdde39e91f2236b178c1162f2fdd657ec38960b"
 
 [[files]]
 file = "fancymenu_data/last_world.fmdata"
-hash = "d7e920b58dfe8f2b220df80ef0e6ed8724c6882973ed581be36e054ac676e367"
+hash = "80f420829c2b9450c03767f22bc65ccebd0e0409c507130a996faac96ec31083"
 
 [[files]]
 file = "mods/.gitkeep"
