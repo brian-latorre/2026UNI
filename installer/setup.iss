@@ -27,7 +27,7 @@ DisableProgramGroupPage=yes
 
 ; Salida
 OutputDir=Output
-OutputBaseFilename=2026UNI-Setup
+OutputBaseFilename=pineconemc
 Compression=lzma2/ultra64
 SolidCompression=yes
 LZMANumBlockThreads=4
