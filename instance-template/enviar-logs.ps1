@@ -480,18 +480,37 @@ $pingStatus = Get-Ping
 $bootTime = Get-BootTime
 $gameGpu = Get-GameGPU
 
-$versionFile = Join-Path $mcDir "config\2026UNI\version.txt"
+$packToml = Join-Path $mcDir "pack.toml"
+$packwizJson = Join-Path $mcDir "packwiz.json"
 $verObj = "Versión Desconocida | Packwiz Sync Indefinido"
 
-if (Test-Path $versionFile) {
+if (Test-Path $packToml) {
     try {
-        $localVer = (Get-Content $versionFile -TotalCount 1).Trim()
-        $verObj = "v$localVer | Packwiz Local"
+        $content = Get-Content $packToml -Raw
+        if ($content -match '(?m)^version\s*=\s*"([^"]+)"') {
+            $localVer = $matches[1]
+            $verObj = "v$localVer | Packwiz Local"
+        } else {
+            $verObj = "vLegacy | Sin version en pack.toml"
+        }
     } catch {
-        $verObj = "vLegacy | Error leyendo version.txt"
+        $verObj = "vLegacy | Error leyendo pack.toml"
+    }
+} elseif (Test-Path $packwizJson) {
+    # Fallback por si packwiz-installer usa packwiz.json en vez de pack.toml
+    try {
+        $content = Get-Content $packwizJson -Raw
+        if ($content -match '"version":\s*"([^"]+)"') {
+            $localVer = $matches[1]
+            $verObj = "v$localVer | Packwiz State"
+        } else {
+            $verObj = "vLegacy | Sin version en packwiz"
+        }
+    } catch {
+        $verObj = "vLegacy | Error leyendo packwiz"
     }
 } else {
-    $verObj = "vLegacy | Sin version.txt"
+    $verObj = "vLegacy | Sin pack.toml local"
 }
 
 # --- 8. CONSTRUCCIÓN DEL PAYLOAD ---

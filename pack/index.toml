@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/2026UNI/version.txt"
-hash = "eca06fdd26e513a7b8510c86602285041a916de5491de13373d94fe0d7e04737"
+hash = "b6150cfd60718dd0816591cf9a6c7f3db4461d05c125ceb14d75d095aaad882a"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -7454,7 +7454,7 @@ metafile = true
 
 [[files]]
 file = "mods/fragmentum.pw.toml"
-hash = "4f27e9288c015d33a43af4273378d3660aeae322689e6ebe978d207d021a3ec8"
+hash = "3955c2da35b0b763e7589b1a8b3736c7aa08789c4478cb74c51c78d4f48b4c47"
 metafile = true
 
 [[files]]
