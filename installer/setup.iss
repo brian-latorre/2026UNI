@@ -27,7 +27,7 @@ DisableProgramGroupPage=yes
 
 ; Salida
 OutputDir=Output
-OutputBaseFilename=pineconemc
+OutputBaseFilename=2026UNI
 Compression=lzma2/ultra64
 SolidCompression=yes
 LZMANumBlockThreads=4
@@ -257,9 +257,7 @@ begin
     CfgContent := CfgContent + 'IgnoreJavaCompatibility=true' + #13#10;
     CfgContent := CfgContent + 'JavaPath=' + JavaPath + #13#10;
     CfgContent := CfgContent + #13#10;
-    CfgContent := CfgContent + 'OverrideMemory=true' + #13#10;
-    CfgContent := CfgContent + 'MinMemAlloc=3072' + #13#10;
-    CfgContent := CfgContent + 'MaxMemAlloc=5120' + #13#10;
+    CfgContent := CfgContent + 'OverrideMemory=false' + #13#10;
     CfgContent := CfgContent + 'LowMemWarning=false' + #13#10;
     CfgContent := CfgContent + #13#10;
     CfgContent := CfgContent + 'OverrideJavaArgs=true' + #13#10;
