@@ -2434,6 +2434,10 @@ file = "emojiful/cache/GIGACHAD-1"
 hash = "fc0c8996885417713b3a696e541dcd53dc67487448d8843f4b9f55a72ceadedd"
 
 [[files]]
+file = "emojiful/cache/YuumiJAM-1"
+hash = "3adeeb79acdf4a6b01bf3a0451587d682b7c0640d9d88c27f19b9e48e5702cd3"
+
+[[files]]
 file = "emojiful/cache/YuumiTroll-1"
 hash = "a00f20157684097be5979f8ed80787165049eec9471ce786638affdb1c6e0359"
 
@@ -3158,6 +3162,14 @@ file = "emojiful/emoji_images/catwtf.gif"
 hash = "76328971b2eaffb1c88cb717aa10a2396d99ff07563e2dbfd818ef5683e2b271"
 
 [[files]]
+file = "emojiful/emoji_images/caught.png"
+hash = "c2c1c2b40cc5b5ae6d2e440dac806fa4c0d892dc104665054b40711e6fd88c99"
+
+[[files]]
+file = "emojiful/emoji_images/chatting.gif"
+hash = "29db7450246e01328598251364d7434f6fdbcf06b2dcefcffaab3f45aa46ee38"
+
+[[files]]
 file = "emojiful/emoji_images/cheergi.gif"
 hash = "46ef515a35c34ce41fd37dfc7bd7a9137e73c02606281766a61cc155b37c4e23"
 
@@ -3242,6 +3254,10 @@ file = "emojiful/emoji_images/flirt.png"
 hash = "e06dbf95d9d920d7ae210d85c46f76f0d86e985deee44b1f1470c57dfa581215"
 
 [[files]]
+file = "emojiful/emoji_images/frenn.png"
+hash = "311e151229b816f8429d1896c9b3ac258d142f73d5bcc79cd79eb601663dfdf4"
+
+[[files]]
 file = "emojiful/emoji_images/gatoeminem.png"
 hash = "2722bcb39ecb33ae6a428fddadb7ba070f3874bddd252c5f390f3ded0cdfafe2"
 
@@ -3292,10 +3308,6 @@ hash = "64011dd6e5be1184295d46718e4319e6f61606d7ea1b6f8c4a00d961cadb73f3"
 [[files]]
 file = "emojiful/emoji_images/jammies.gif"
 hash = "c6a8764160760cbca07fbccdb42987b9c7c855a97e00479a6d5961f6334abd30"
-
-[[files]]
-file = "emojiful/emoji_images/joe_waiting.png"
-hash = "6a0f3a1702db37000eb81ed5f295c8d4ff699b27492993ba7366bfc5568544b2"
 
 [[files]]
 file = "emojiful/emoji_images/joycat.gif"
@@ -3459,7 +3471,7 @@ hash = "9e26215af512fd84969eeb08e16d8b4cf99e9469ed9c92bf085165e977c3f2e8"
 
 [[files]]
 file = "emojiful/emoji_images/peepohey.gif"
-hash = "44dc6ae59899a1a19b430ca13ad4192191b779858a5927a31df135427016db35"
+hash = "33cbecc3f48257e9479fd43ef0ee30f13120fe820342adc4570f4e337ba7c58f"
 
 [[files]]
 file = "emojiful/emoji_images/peepojuice.gif"
@@ -3508,10 +3520,6 @@ hash = "bab5110133acf413f60e900454638b065bebf1c3e297c1213d74355d9ce9a4b9"
 [[files]]
 file = "emojiful/emoji_images/pepemeltdown.gif"
 hash = "63591dfe26f67816c626d2ae382e02fa786ae341ae43fe91e9d6e20fb90847a5"
-
-[[files]]
-file = "emojiful/emoji_images/pepemeltdown_4346.gif"
-hash = "9dc9e7644263fee7691d36bc4f0b4748c0885e5e220e2230680d1330906aaba8"
 
 [[files]]
 file = "emojiful/emoji_images/pepepoint.png"
@@ -3642,12 +3650,20 @@ file = "emojiful/emoji_images/yellowangry.png"
 hash = "f766cfb2445e52c98782a6cb16b9f1c2e4166e9a703792234f8ac367cfa99e90"
 
 [[files]]
-file = "emojiful/emoji_images/yellowface.png"
-hash = "5475fb99285fa165212b83b808a247b15ff137074112e6c046d362e1f439a1c0"
-
-[[files]]
 file = "emojiful/emoji_images/yoge.png"
 hash = "831f290ecc2741d96f91737be68f8085fcf3b382bca40f614ca07e1ca595872a"
+
+[[files]]
+file = "emojiful/emoji_images/yuumijam.gif"
+hash = "3adeeb79acdf4a6b01bf3a0451587d682b7c0640d9d88c27f19b9e48e5702cd3"
+
+[[files]]
+file = "emojiful/emoji_images/yuumitroll.gif"
+hash = "a00f20157684097be5979f8ed80787165049eec9471ce786638affdb1c6e0359"
+
+[[files]]
+file = "emojiful/emoji_images/yuumiyay.png"
+hash = "7cb109c6cb1e34d47317af74e854803a0b158d57ff68fa428ae6f6cd4896bf5a"
 
 [[files]]
 file = "emotes/Back On 74.emotecraft"
