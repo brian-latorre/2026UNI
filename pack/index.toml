@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/2026UNI/version.txt"
-hash = "df2c82e1b599f199a91a4ead6cbc5b44e5453983b2ebf7b969497d3cabfa1300"
+hash = "eca06fdd26e513a7b8510c86602285041a916de5491de13373d94fe0d7e04737"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -873,8 +873,12 @@ file = "config/emojiful-client.toml"
 hash = "e3bbedc636a78386ea099047dba9f70d2aad423e70b104914f99d3e74f6e0103"
 
 [[files]]
+file = "config/emojiful_favorites.json"
+hash = "ec723e97e1b28b86fcf784fdec214163ce8e0b5e9a19899f752f314405a7bd72"
+
+[[files]]
 file = "config/emojiful_usage.json"
-hash = "d62b3a4b124e5cb142441103dc82a1005ef44d85d42a2af7543137189f30127a"
+hash = "d06a33f63c3898c53675014801d190b93875e1ae6a833e40f3a0d1d7ba3ddf41"
 
 [[files]]
 file = "config/emotecraft.json"
@@ -926,7 +930,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "3adcbfd2ba8ade297562da357c75b79ecb99452f12462ed2a4bbb156842baa94"
+hash = "f5c22492347d9787b83331ff30705464c62f3a58c0bb0305a6c9204095339f4e"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1622,7 +1626,7 @@ hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "2e8d990ec3439e45baea11c9c8d7f57a5a1d6cf4b27ed2a32280a9884134f197"
+hash = "09b66a8b5aec5feee9bd395a6519d8127c6904708ced7a93a800a1115d1b8eab"
 preserve = true
 
 [[files]]
@@ -1683,7 +1687,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "d0841745b1c206f25128bcd7271d363a39958201d90edc4528203df8244e0c71"
+hash = "5a6253e9e31bd6767c01da2b924e0bfa2306971ca915abbe72beca8b15ad8a87"
 
 [[files]]
 file = "config/presencefootsteps/updater.json"
@@ -1763,7 +1767,7 @@ hash = "6d329122279318bc4d91c27038ed6a7c712f55f32760cdb516c23c7744228b41"
 
 [[files]]
 file = "config/ryoamiclights.toml"
-hash = "b1391024bb8aa78c6301a5324077d1f87bb53244e05f6bf700d348cf17075a26"
+hash = "be15ca12f62ba85259971c783ff3ea49374bbafcc0595c6d22b04d9747f8fb2c"
 
 [[files]]
 file = "config/saturn-optimizations.toml"
@@ -1799,7 +1803,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "f00e462961b7208aeeab6ce1dd16a16d1ef6f9b18cbadd63ab9ea1637823c332"
+hash = "3cfc7da83570d79ca068ba7cfc6e1bffb4b520b88ae0f206960b4b15d6395649"
 
 [[files]]
 file = "config/simplehats.json"
@@ -1827,7 +1831,7 @@ hash = "ac1a4e660c8a567b4c945962d063eeced1a0040615214ea4aebb947ff6af7d33"
 
 [[files]]
 file = "config/smartkeysync/client.json"
-hash = "3d64bc7ad7864fa502123f0cc5e1647696fab910736916a0b8bca94c7e693c49"
+hash = "e9dec195348b7120010b33f07927ce54d369ad4e56116984080799aee1127ac0"
 
 [[files]]
 file = "config/smartkeysync/master.json"
@@ -1903,7 +1907,7 @@ hash = "e42ed583bb9541c6b7241248b238b71c25db5ba691d5e62ce40e1675932a674a"
 
 [[files]]
 file = "config/streamsreflowing-client.toml"
-hash = "87b133a212682f78274b464ccfefa6234cfd39de1b1d4737a10ef30ea9d66843"
+hash = "00947927b55057964dff74779af806b16b7892df08feabd80d2c53ed1c2bff28"
 
 [[files]]
 file = "config/streamsreflowing-common.toml"
@@ -2091,7 +2095,7 @@ hash = "f1de61720b395692d013c134a8d3b197c80861c073393740cea10a1b2c07c0ac"
 
 [[files]]
 file = "config/subtle_effects/environment.toml"
-hash = "34905acdc7147b4a00c53b06161b4d45d5b2bdf1ab88bd41a66729d2647c0039"
+hash = "b77dafed5fd71bd397ef69449c0aeda236664fd0eed8ab8030a9d305fa2c6a25"
 
 [[files]]
 file = "config/subtle_effects/general.toml"
@@ -2422,6 +2426,10 @@ file = "dummy_trigger2.txt"
 hash = "e920fd95dc72c1df7101ea2ffc3081735d9226ccf97d3f0d4f978eabbb1fa2f8"
 
 [[files]]
+file = "emojiful/cache/+1-1"
+hash = "27f44e845ff80f9c36cebcf23f7ec9fc1a083e41c33046068aa7a64dfbfe0d2b"
+
+[[files]]
 file = "emojiful/cache/CAUGHT-1"
 hash = "c2c1c2b40cc5b5ae6d2e440dac806fa4c0d892dc104665054b40711e6fd88c99"
 
@@ -2470,8 +2478,20 @@ file = "emojiful/cache/applecatrun-1"
 hash = "3c10c0f0204c7cfd3063057d1f0ebcf4d0b2cbe189d4429428c9ae71dfacfef5"
 
 [[files]]
+file = "emojiful/cache/atm-1"
+hash = "6986d8ba4d67cc34fb0472d809c9a02391b8557b5ca2ffe873652789d863c0f9"
+
+[[files]]
 file = "emojiful/cache/bedge-1"
 hash = "9c9c0936cc8d15a0fd2bc9de48ce49f099959c245a39957fefe22b8c3b0c4b56"
+
+[[files]]
+file = "emojiful/cache/black_heart-1"
+hash = "70fc62b7e11d64f2b1c0a0f55989a999d8e8b8add686df9889676e70f0d34346"
+
+[[files]]
+file = "emojiful/cache/blobcatcaged-1"
+hash = "3c07c082aadecbba2d7608902975e2a9ff20bd6bbaebb726bb2984d13bd2ed60"
 
 [[files]]
 file = "emojiful/cache/blushup-1"
@@ -2562,6 +2582,10 @@ file = "emojiful/cache/catwtf-1"
 hash = "76328971b2eaffb1c88cb717aa10a2396d99ff07563e2dbfd818ef5683e2b271"
 
 [[files]]
+file = "emojiful/cache/checkered_flag-1"
+hash = "6fed93bf779fabf2f74bfff37ffe9cee0793ee0e231983dcd23b89169d7d23c6"
+
+[[files]]
 file = "emojiful/cache/cheergi-1"
 hash = "46ef515a35c34ce41fd37dfc7bd7a9137e73c02606281766a61cc155b37c4e23"
 
@@ -2626,12 +2650,24 @@ file = "emojiful/cache/earlpet-1"
 hash = "8494630ea078507a19475ab9cd7ad6946392ed74e71be99dac91d3ed52f87041"
 
 [[files]]
+file = "emojiful/cache/earth_africa-1"
+hash = "dec0b8d2343bca15e494f9a244d0b2eaf9f84235461efd10dba4e6fa2048e564"
+
+[[files]]
 file = "emojiful/cache/eatcat-1"
 hash = "8b7a144f8e2a544324b26df5cb5a8ec7f80bc9ffc36103f53ef16cc5487d25dd"
 
 [[files]]
+file = "emojiful/cache/eyeglasses-1"
+hash = "7ebc690ca33b6077b06100bcf4224eac24cc750090b27e2781b16ede27e2c36b"
+
+[[files]]
 file = "emojiful/cache/ez-1"
 hash = "9449b68fe1498dd63afa33ed870ea0f9f1af430259841198bbcb5da78168553c"
+
+[[files]]
+file = "emojiful/cache/feelsbadman-1"
+hash = "79f4a2087860fb9d803c57e729f6701242fb1f654907fa0e877e0e30bc53ea2f"
 
 [[files]]
 file = "emojiful/cache/feelswowman-1"
@@ -2656,6 +2692,14 @@ hash = "2722bcb39ecb33ae6a428fddadb7ba070f3874bddd252c5f390f3ded0cdfafe2"
 [[files]]
 file = "emojiful/cache/gofuckyourself-1"
 hash = "e0230329cad99c08ef7e06a4cf67d4431ffb3023a8abb2e17f5675c00fb709eb"
+
+[[files]]
+file = "emojiful/cache/grapes-1"
+hash = "b20cb1685a5ee5bd719fbcaad0fca89ca493036f68839877882861bb73acf9fb"
+
+[[files]]
+file = "emojiful/cache/grinning-1"
+hash = "50e4ca63df31b9a0427ee28602501a992c594120f6ed8914c32e51b0c32ce1ce"
 
 [[files]]
 file = "emojiful/cache/guuh-1"
@@ -2692,6 +2736,10 @@ hash = "603e58aa4cfbc8b3bec9fb2968a02dfe4d2d888279911943a54ef33f0b4dabf6"
 [[files]]
 file = "emojiful/cache/innocentyellow-1"
 hash = "64011dd6e5be1184295d46718e4319e6f61606d7ea1b6f8c4a00d961cadb73f3"
+
+[[files]]
+file = "emojiful/cache/jack_o_lantern-1"
+hash = "f52253eeec86b4ae1837f7a4f111637e354fbd7d8400bdbd1f74dc26e97459f4"
 
 [[files]]
 file = "emojiful/cache/jammies-1"
@@ -2772,6 +2820,10 @@ hash = "28fd93002be03e16cd3c8e0caa70962a2a0bc354ad6d52ab3ab9336a1f220239"
 [[files]]
 file = "emojiful/cache/monkah-1"
 hash = "e0c7b724d2df760fa79e12ce2877979f0525b9660e0df8d0ab6216dd70d33c16"
+
+[[files]]
+file = "emojiful/cache/monkey_face-1"
+hash = "c8e3a03076fb9ba80b2c096233b22ecb2875bc5347361118300a03516a4fedb9"
 
 [[files]]
 file = "emojiful/cache/nerd-1"
@@ -2950,6 +3002,10 @@ file = "emojiful/cache/prayge-1"
 hash = "2871e55dc148786a512823661172abb62217fcbd220c31f714cd7fc679f0e5c6"
 
 [[files]]
+file = "emojiful/cache/pussylip-1"
+hash = "bd122646431f846f6a6862aedbe3091f4f2d053094f63fc90edec46c38a69ebf"
+
+[[files]]
 file = "emojiful/cache/rawr-1"
 hash = "c9c1256de002034c8c0359113f200ac925bfed3a48b226c3400d79e0aa42643c"
 
@@ -2978,6 +3034,14 @@ file = "emojiful/cache/sagaludando-1"
 hash = "d1815e27c8cd51cb20eea167516a45f6679a24a8d31f1f86394add65a584020a"
 
 [[files]]
+file = "emojiful/cache/skull-1"
+hash = "b8ae916bd0a3dd58a1c57563ab9aab708658fc677aabc79320760f741166c469"
+
+[[files]]
+file = "emojiful/cache/slightly_frowning_face-1"
+hash = "b31f3751b1ab6bccae39e66f0bc8b183dfa8e36e5c6db1361dc23e44b40277fe"
+
+[[files]]
 file = "emojiful/cache/smoge-1"
 hash = "41ee0e568975fbd0fafc64b9c2bb071a882d474ff69dba691291a9274c3b73ad"
 
@@ -2996,6 +3060,10 @@ hash = "dab6fb778fd6a88328df4476122841e0d8c4b0e05a2bf78e051a1c741a3feaa2"
 [[files]]
 file = "emojiful/cache/susy-1"
 hash = "e1d11c247adc392d86ccec6ef2b22f9d1d64f3e8f23e396bdbe04b5c4804ed5a"
+
+[[files]]
+file = "emojiful/cache/thonk-1"
+hash = "bff43537e6de2363ed354ab771c6710f9a89e5b5631981f2adf5def42398414f"
 
 [[files]]
 file = "emojiful/cache/thumbsup-1"
@@ -3024,6 +3092,10 @@ hash = "a5b77e9da4d81647af40924e323f6927a2e3bf20adcc66667c0d17e85f0fbeba"
 [[files]]
 file = "emojiful/cache/what-1"
 hash = "49808f62401367b1ce92f26468b518279c6be3245f77f6ec7148a1fa93463178"
+
+[[files]]
+file = "emojiful/cache/wink-1"
+hash = "1a7228a73f6b7e8f914a67102971d33e6440e8ac64cb84e549ed03d9982d6e2b"
 
 [[files]]
 file = "emojiful/cache/wokege-1"
@@ -3162,14 +3234,6 @@ file = "emojiful/emoji_images/catwtf.gif"
 hash = "76328971b2eaffb1c88cb717aa10a2396d99ff07563e2dbfd818ef5683e2b271"
 
 [[files]]
-file = "emojiful/emoji_images/caught.png"
-hash = "c2c1c2b40cc5b5ae6d2e440dac806fa4c0d892dc104665054b40711e6fd88c99"
-
-[[files]]
-file = "emojiful/emoji_images/chatting.gif"
-hash = "29db7450246e01328598251364d7434f6fdbcf06b2dcefcffaab3f45aa46ee38"
-
-[[files]]
 file = "emojiful/emoji_images/cheergi.gif"
 hash = "46ef515a35c34ce41fd37dfc7bd7a9137e73c02606281766a61cc155b37c4e23"
 
@@ -3254,10 +3318,6 @@ file = "emojiful/emoji_images/flirt.png"
 hash = "e06dbf95d9d920d7ae210d85c46f76f0d86e985deee44b1f1470c57dfa581215"
 
 [[files]]
-file = "emojiful/emoji_images/frenn.png"
-hash = "311e151229b816f8429d1896c9b3ac258d142f73d5bcc79cd79eb601663dfdf4"
-
-[[files]]
 file = "emojiful/emoji_images/gatoeminem.png"
 hash = "2722bcb39ecb33ae6a428fddadb7ba070f3874bddd252c5f390f3ded0cdfafe2"
 
@@ -3308,6 +3368,10 @@ hash = "64011dd6e5be1184295d46718e4319e6f61606d7ea1b6f8c4a00d961cadb73f3"
 [[files]]
 file = "emojiful/emoji_images/jammies.gif"
 hash = "c6a8764160760cbca07fbccdb42987b9c7c855a97e00479a6d5961f6334abd30"
+
+[[files]]
+file = "emojiful/emoji_images/joe_waiting.png"
+hash = "6a0f3a1702db37000eb81ed5f295c8d4ff699b27492993ba7366bfc5568544b2"
 
 [[files]]
 file = "emojiful/emoji_images/joycat.gif"
@@ -3471,7 +3535,7 @@ hash = "9e26215af512fd84969eeb08e16d8b4cf99e9469ed9c92bf085165e977c3f2e8"
 
 [[files]]
 file = "emojiful/emoji_images/peepohey.gif"
-hash = "33cbecc3f48257e9479fd43ef0ee30f13120fe820342adc4570f4e337ba7c58f"
+hash = "44dc6ae59899a1a19b430ca13ad4192191b779858a5927a31df135427016db35"
 
 [[files]]
 file = "emojiful/emoji_images/peepojuice.gif"
@@ -3520,6 +3584,10 @@ hash = "bab5110133acf413f60e900454638b065bebf1c3e297c1213d74355d9ce9a4b9"
 [[files]]
 file = "emojiful/emoji_images/pepemeltdown.gif"
 hash = "63591dfe26f67816c626d2ae382e02fa786ae341ae43fe91e9d6e20fb90847a5"
+
+[[files]]
+file = "emojiful/emoji_images/pepemeltdown_4346.gif"
+hash = "9dc9e7644263fee7691d36bc4f0b4748c0885e5e220e2230680d1330906aaba8"
 
 [[files]]
 file = "emojiful/emoji_images/pepepoint.png"
@@ -3650,20 +3718,12 @@ file = "emojiful/emoji_images/yellowangry.png"
 hash = "f766cfb2445e52c98782a6cb16b9f1c2e4166e9a703792234f8ac367cfa99e90"
 
 [[files]]
+file = "emojiful/emoji_images/yellowface.png"
+hash = "5475fb99285fa165212b83b808a247b15ff137074112e6c046d362e1f439a1c0"
+
+[[files]]
 file = "emojiful/emoji_images/yoge.png"
 hash = "831f290ecc2741d96f91737be68f8085fcf3b382bca40f614ca07e1ca595872a"
-
-[[files]]
-file = "emojiful/emoji_images/yuumijam.gif"
-hash = "3adeeb79acdf4a6b01bf3a0451587d682b7c0640d9d88c27f19b9e48e5702cd3"
-
-[[files]]
-file = "emojiful/emoji_images/yuumitroll.gif"
-hash = "a00f20157684097be5979f8ed80787165049eec9471ce786638affdb1c6e0359"
-
-[[files]]
-file = "emojiful/emoji_images/yuumiyay.png"
-hash = "7cb109c6cb1e34d47317af74e854803a0b158d57ff68fa428ae6f6cd4896bf5a"
 
 [[files]]
 file = "emotes/Back On 74.emotecraft"
@@ -6810,8 +6870,8 @@ file = "mods/Compat_FarmersDelight.jar"
 hash = "0a4cb953e7da508f2031d03c40c20eacd8ef2c9227e8eaba67610fef50245443"
 
 [[files]]
-file = "mods/Emojiful-Forge-1.20.1-4.2.0-custom.jar"
-hash = "64087cb95544f8d3b1a6817ce2dbe011896bfdbe43ce52616bba007a3c1c7ccd"
+file = "mods/Emojiful-Forge-1.20.1-4.3.0.jar"
+hash = "12bdecb054e6472c06c97018254eac5d31a48e10374d4af47d3ce8e7618d0686"
 
 [[files]]
 file = "mods/KeybindAtlas-v1.4.0-mc1.20.1-forge.jar"
@@ -7394,7 +7454,7 @@ metafile = true
 
 [[files]]
 file = "mods/fragmentum.pw.toml"
-hash = "3955c2da35b0b763e7589b1a8b3736c7aa08789c4478cb74c51c78d4f48b4c47"
+hash = "4f27e9288c015d33a43af4273378d3660aeae322689e6ebe978d207d021a3ec8"
 metafile = true
 
 [[files]]

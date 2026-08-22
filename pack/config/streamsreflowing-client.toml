@@ -4,7 +4,7 @@
 #Rides the Ambient volume slider in your sound settings.
 #  0 = silent.  1 = normal (default).  Above 1 is louder.
 #Range: 0.0 ~ 2.0
-waterAmbience = 1.0
+waterAmbience = 0.2
 #
 #Ambient particles on the directional stream fluid: clumps of bubbles riding the current, plus
 #splashes where water spills/cascades. Purely visual and CLIENT-side; particles cost some

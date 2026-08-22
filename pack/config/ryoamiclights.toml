@@ -106,6 +106,7 @@
 				nightmare_stalker = true
 				glutton_fish = true
 				missioner = true
+				lifestealer = true
 
 			[light_sources.settings.entities.ad_astra]
 				sulfur_creeper = true

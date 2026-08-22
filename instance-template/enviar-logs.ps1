@@ -98,6 +98,18 @@ function Add-PlaytimeMinutes([double]$minutes) {
     return $tracker.total_minutes
 }
 
+function Format-Playtime([double]$mins) {
+    $d = [math]::Floor($mins / 1440)
+    $h = [math]::Floor(($mins % 1440) / 60)
+    $m = [math]::Floor($mins % 60)
+    $p = @()
+    if ($d -gt 0) { $p += "$d d" }
+    if ($h -gt 0) { $p += "$h h" }
+    if ($m -gt 0) { $p += "$m min" }
+    if ($p.Count -eq 0) { $p += "< 1 min" }
+    return $p -join " "
+}
+
 function Sanitize-Text([string]$text) {
     if ([string]::IsNullOrEmpty($text)) { return "" }
     $text = $text -replace '`', "'"
@@ -140,13 +152,18 @@ function Send-Webhook([string]$jsonPayloadPath, [array]$attachments, [string]$te
 }
 
 function Get-HardwareMetrics {
+    param([double]$MinFreeRAM = $null)
     $ramTotal = 0; $ramFree = 0; $diskFree = 0; $diskTotal = 0; $gpuName = "Desconocida"; $osName = "Desconocido"
     try {
         $os = Get-CimInstance Win32_OperatingSystem -ErrorAction SilentlyContinue
         if ($os) {
             $osName = $os.Caption
             $ramTotal = [math]::Round($os.TotalVisibleMemorySize / 1024, 1) # MB
-            $ramFree = [math]::Round($os.FreePhysicalMemory / 1024, 1) # MB
+            if ($null -ne $MinFreeRAM -and $MinFreeRAM -gt 0) {
+                $ramFree = $MinFreeRAM
+            } else {
+                $ramFree = [math]::Round($os.FreePhysicalMemory / 1024, 1) # MB
+            }
         }
         $drive = [System.IO.DriveInfo]::new([System.IO.Path]::GetPathRoot($mcDir))
         $diskFree = [math]::Round($drive.AvailableFreeSpace / 1GB, 1) # GB
@@ -218,11 +235,20 @@ function Get-BootTime {
         $firstLine = (Get-Content $latestLog -TotalCount 1)
         if ($firstLine -match "\[(.*?)\]") {
             $startBoot = [datetime]::ParseExact($matches[1], "ddMMMyyyy HH:mm:ss.fff", [cultureinfo]::InvariantCulture)
-            $glLine = Select-String -Path $latestLog -Pattern "GL info:" -List -ErrorAction SilentlyContinue
-            if ($glLine) {
-                if ($glLine.Line -match "\[(.*?)\]") {
+            
+            # Buscamos cuando inicia el SoundEngine, que ocurre exactamente cuando el juego termina de cargar el menú principal.
+            $soundLine = Select-String -Path $latestLog -Pattern "Sound engine started" -List -ErrorAction SilentlyContinue
+            if ($soundLine) {
+                if ($soundLine.Line -match "\[(.*?)\]") {
                     $endBoot = [datetime]::ParseExact($matches[1], "ddMMMyyyy HH:mm:ss.fff", [cultureinfo]::InvariantCulture)
-                    return "$([math]::Round(($endBoot - $startBoot).TotalSeconds, 1)) Segundos"
+                    $totalSecs = ($endBoot - $startBoot).TotalSeconds
+                    if ($totalSecs -ge 60) {
+                        $mins = [math]::Floor($totalSecs / 60)
+                        $secs = [math]::Round($totalSecs % 60, 0)
+                        return "$mins min $secs s"
+                    } else {
+                        return "$([math]::Round($totalSecs, 1)) Segundos"
+                    }
                 }
             }
         }
@@ -299,6 +325,7 @@ if ($watchdog) {
         StartTimeTicks = [datetime]::UtcNow.Ticks
         Username  = $username
         WatchdogPID = $PID
+        MinFreeRAM = $null
     }
     $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
     [System.IO.File]::WriteAllText($lockFile, ($newLockObj | ConvertTo-Json), $utf8NoBom)
@@ -306,6 +333,19 @@ if ($watchdog) {
     # LOOP DE WATCHDOG (Cada 15 segundos verificamos si Java sigue vivo)
     while ($true) {
         Start-Sleep -Seconds 15
+        
+        # Monitoreo de RAM en tiempo real durante la partida
+        try {
+            $os = Get-CimInstance Win32_OperatingSystem -ErrorAction SilentlyContinue
+            if ($os) {
+                $currFree = [math]::Round($os.FreePhysicalMemory / 1024, 1)
+                if ($null -eq $newLockObj.MinFreeRAM -or $currFree -lt $newLockObj.MinFreeRAM) {
+                    $newLockObj.MinFreeRAM = $currFree
+                    [System.IO.File]::WriteAllText($lockFile, ($newLockObj | ConvertTo-Json -Depth 2), $utf8NoBom)
+                }
+            }
+        } catch {}
+
         if ($javaProc) {
             $procCheck = Get-Process -Id $javaProc.ProcessId -ErrorAction SilentlyContinue
             if (-not $procCheck) { break } # Se cerró Java
@@ -347,9 +387,9 @@ $now = [datetime]::Now
 $sessionSpan = $now - $sessionStartTime
 $sessionMinutes = [math]::Max(0.1, [math]::Round($sessionSpan.TotalMinutes, 1))
 
-if ($sessionMinutes -lt 60) { $sessionPlaytimeStr = "$sessionMinutes minutos" } else { $sessionPlaytimeStr = "$([math]::Round($sessionSpan.TotalHours, 1)) horas" }
+$sessionPlaytimeStr = Format-Playtime -mins $sessionMinutes
 $totalMinutes = Add-PlaytimeMinutes $sessionMinutes
-$totalHoursStr = "$([math]::Round(($totalMinutes / 60), 1)) hrs totales"
+$totalHoursStr = (Format-Playtime -mins $totalMinutes) + " totales"
 
 $sentTracker = Get-SentTracker
 $sentHashes = @($sentTracker.sent_hashes)
@@ -434,7 +474,8 @@ if (-not $isCrash -and (Test-Path $latestLog)) {
 }
 
 # --- 7. RECOLECCIÓN DE MÉTRICAS EXTRA (RAM, DISCO, PING, VER) ---
-$hw = Get-HardwareMetrics
+$minRamValue = if ($sessionInfo -and $null -ne $sessionInfo.MinFreeRAM) { $sessionInfo.MinFreeRAM } else { $null }
+$hw = Get-HardwareMetrics -MinFreeRAM $minRamValue
 $pingStatus = Get-Ping
 $bootTime = Get-BootTime
 $gameGpu = Get-GameGPU
