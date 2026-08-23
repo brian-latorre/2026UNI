@@ -480,37 +480,23 @@ $pingStatus = Get-Ping
 $bootTime = Get-BootTime
 $gameGpu = Get-GameGPU
 
-$packToml = Join-Path $mcDir "pack.toml"
-$packwizJson = Join-Path $mcDir "packwiz.json"
+$versionJsonFile = Join-Path $mcDir "config\2026UNI\version.json"
 $verObj = "Versión Desconocida | Packwiz Sync Indefinido"
 
-if (Test-Path $packToml) {
+if (Test-Path $versionJsonFile) {
     try {
-        $content = Get-Content $packToml -Raw
-        if ($content -match '(?m)^version\s*=\s*"([^"]+)"') {
-            $localVer = $matches[1]
-            $verObj = "v$localVer | Packwiz Local"
+        $json = Get-Content $versionJsonFile -Raw | ConvertFrom-Json
+        if ($null -ne $json.version) {
+            $localVer = $json.version
+            $verObj = "v$localVer | Packwiz JSON"
         } else {
-            $verObj = "vLegacy | Sin version en pack.toml"
+            $verObj = "vLegacy | Error leyendo version en JSON"
         }
     } catch {
-        $verObj = "vLegacy | Error leyendo pack.toml"
-    }
-} elseif (Test-Path $packwizJson) {
-    # Fallback por si packwiz-installer usa packwiz.json en vez de pack.toml
-    try {
-        $content = Get-Content $packwizJson -Raw
-        if ($content -match '"version":\s*"([^"]+)"') {
-            $localVer = $matches[1]
-            $verObj = "v$localVer | Packwiz State"
-        } else {
-            $verObj = "vLegacy | Sin version en packwiz"
-        }
-    } catch {
-        $verObj = "vLegacy | Error leyendo packwiz"
+        $verObj = "vLegacy | Error parseando version.json"
     }
 } else {
-    $verObj = "vLegacy | Sin pack.toml local"
+    $verObj = "vLegacy | Sin version.json local"
 }
 
 # --- 8. CONSTRUCCIÓN DEL PAYLOAD ---
@@ -542,7 +528,6 @@ $fields += @{ name = "$e_Usuario Usuario"; value = "**$username**"; inline = $fa
 
 # 2. Tiempos
 $fields += @{ name = "$e_Tiempo Tiempo de Sesi$($o_ac)n"; value = "$sessionPlaytimeStr"; inline = $true }
-$fields += @{ name = "$e_Juego Tiempo Total Jugado"; value = "$totalHoursStr"; inline = $true }
 $fields += @{ name = $phantom; value = $phantom; inline = $true }
 
 $fields += @{ name = "$e_Inicio Hora de Inicio"; value = "$horaInicioStr"; inline = $true }

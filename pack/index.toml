@@ -1,8 +1,8 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/2026UNI/version.txt"
-hash = "b6150cfd60718dd0816591cf9a6c7f3db4461d05c125ceb14d75d095aaad882a"
+file = "config/2026UNI/version.json"
+hash = "e4efc7cdc3847f20382c250cf9e2ca0d306bd46ea418376da7afd32c335c9203"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -6871,7 +6871,7 @@ hash = "0a4cb953e7da508f2031d03c40c20eacd8ef2c9227e8eaba67610fef50245443"
 
 [[files]]
 file = "mods/Emojiful-Forge-1.20.1-4.3.0.jar"
-hash = "12bdecb054e6472c06c97018254eac5d31a48e10374d4af47d3ce8e7618d0686"
+hash = "cec6b00a428a1e4fd1ec16ff310579ad02ef5bbf6fdb08c7a955855f4bffe9d6"
 
 [[files]]
 file = "mods/KeybindAtlas-v1.4.0-mc1.20.1-forge.jar"
@@ -7454,7 +7454,7 @@ metafile = true
 
 [[files]]
 file = "mods/fragmentum.pw.toml"
-hash = "3955c2da35b0b763e7589b1a8b3736c7aa08789c4478cb74c51c78d4f48b4c47"
+hash = "4f27e9288c015d33a43af4273378d3660aeae322689e6ebe978d207d021a3ec8"
 metafile = true
 
 [[files]]

@@ -135,6 +135,22 @@ try {
         [System.IO.File]::WriteAllText($packTomlPath, $packTomlContent, $utf8NoBom)
         Write-Success "Archivo pack.toml actualizado con la versión: $packVersion"
         Write-Host ""
+        
+        # Auto-generar version.json para lectura local en el cliente (Packwiz sí sincroniza .json)
+        $repoRoot = Split-Path $PSScriptRoot -Parent
+        $versionDir = Join-Path $repoRoot "pack\config\2026UNI"
+        if (-not (Test-Path $versionDir)) { New-Item -Path $versionDir -ItemType Directory -Force | Out-Null }
+        $versionFilePath = Join-Path $versionDir "version.json"
+        
+        $jsonContent = @{ version = $packVersion } | ConvertTo-Json
+        [System.IO.File]::WriteAllText($versionFilePath, $jsonContent, $utf8NoBom)
+        
+        # Refrescar packwiz para incluir version.json en index.toml
+        Set-Location (Join-Path $repoRoot "pack")
+        & (Join-Path $repoRoot "tools\packwiz.exe") refresh | Out-Null
+        Set-Location $repoRoot
+        Write-Success "Archivo version.json generado y sincronizado para el cliente."
+        Write-Host ""
     }
     
     # Hacer commit
