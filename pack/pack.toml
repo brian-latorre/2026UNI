@@ -1,11 +1,11 @@
 name = ""
-version = "1.9.4"
+version = "1.9.6"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "a506bbb90c9935db5dc724c949115525cf8df864f771ebaae400aa4223f16930"
+hash = "7bd4ca621bd8b2c1f04ed76c5d361b63fa5680f77140ddc781e8f27b603c0fcf"
 
 [versions]
 forge = "47.4.18"
