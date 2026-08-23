@@ -527,8 +527,8 @@ $fields = @()
 $fields += @{ name = "$e_Usuario Usuario"; value = "**$username**"; inline = $false }
 
 # 2. Tiempos
-$fields += @{ name = "$e_Tiempo Tiempo de Sesi$($o_ac)n"; value = "$sessionPlaytimeStr"; inline = $true }
-$fields += @{ name = $phantom; value = $phantom; inline = $true }
+$fields += @{ name = "$e_Tiempo Tiempo de Sesi$($o_ac)n"; value = "$sessionPlaytimeStr"; inline = $false }
+
 
 $fields += @{ name = "$e_Inicio Hora de Inicio"; value = "$horaInicioStr"; inline = $true }
 $fields += @{ name = "$e_Cierre Hora de Cierre"; value = "$horaCierreStr"; inline = $true }
