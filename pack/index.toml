@@ -2438,6 +2438,10 @@ file = "emojiful/cache/GIGACHAD-1"
 hash = "fc0c8996885417713b3a696e541dcd53dc67487448d8843f4b9f55a72ceadedd"
 
 [[files]]
+file = "emojiful/cache/Scared-1"
+hash = "b2593df28669c25a860d16c5ee9fbf74749bda0401cbc72d5ec57aed4cf05f6b"
+
+[[files]]
 file = "emojiful/cache/YuumiJAM-1"
 hash = "3adeeb79acdf4a6b01bf3a0451587d682b7c0640d9d88c27f19b9e48e5702cd3"
 
@@ -3596,6 +3600,10 @@ hash = "dfc61f76fd77f298bdfa01d49b084c96a5fe7496649e7c7629f5efc630c0278a"
 [[files]]
 file = "emojiful/emoji_images/sagaludando.gif"
 hash = "d1815e27c8cd51cb20eea167516a45f6679a24a8d31f1f86394add65a584020a"
+
+[[files]]
+file = "emojiful/emoji_images/scared.gif"
+hash = "b2593df28669c25a860d16c5ee9fbf74749bda0401cbc72d5ec57aed4cf05f6b"
 
 [[files]]
 file = "emojiful/emoji_images/scubachud.gif"
