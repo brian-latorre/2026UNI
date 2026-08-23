@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "b11332c45595676174898a7a47713614dafd3eddd3aae94477deb6fdc7b376b8"
+hash = "57ea47a9fe324391ed19ae5219ae0d909c26edcef5c5bd1319e681af8993ebcb"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -2984,10 +2984,6 @@ hash = "dfc61f76fd77f298bdfa01d49b084c96a5fe7496649e7c7629f5efc630c0278a"
 [[files]]
 file = "emojiful/cache/sagaludando-1"
 hash = "d1815e27c8cd51cb20eea167516a45f6679a24a8d31f1f86394add65a584020a"
-
-[[files]]
-file = "emojiful/cache/scubachud-1"
-hash = "ca0b9b14f84678477a59f97549c86b9914448b7f34fe6a27e5a60198339e899b"
 
 [[files]]
 file = "emojiful/cache/smoge-1"
@@ -6810,8 +6806,8 @@ file = "mods/Compat_FarmersDelight.jar"
 hash = "0a4cb953e7da508f2031d03c40c20eacd8ef2c9227e8eaba67610fef50245443"
 
 [[files]]
-file = "mods/Emojiful-Forge-1.20.1-4.3.1.jar"
-hash = "abd31956e86ced0b2ac9c0fcb45b21254987e2c1e09aab245e5eb32ee4e357ce"
+file = "mods/Emojiful-Forge-1.20.1-4.3.2.jar"
+hash = "ff4647a889a5c2e28e09c2da84bf31def9d1e3060bb70b2da1b9ed92ee5dc5dc"
 
 [[files]]
 file = "mods/KeybindAtlas-v1.4.0-mc1.20.1-forge.jar"
@@ -7394,7 +7390,7 @@ metafile = true
 
 [[files]]
 file = "mods/fragmentum.pw.toml"
-hash = "3955c2da35b0b763e7589b1a8b3736c7aa08789c4478cb74c51c78d4f48b4c47"
+hash = "4f27e9288c015d33a43af4273378d3660aeae322689e6ebe978d207d021a3ec8"
 metafile = true
 
 [[files]]
