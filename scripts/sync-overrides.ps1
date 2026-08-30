@@ -60,22 +60,18 @@ Write-Host ""
 $SyncFolders = @(
     "config",
     "defaultconfigs",
-    "moonlight-global-datapacks",
-    "patchouli_books",
-    "showdown",
     "emojiful",
     "emotes",
-    "otyacraftengine",
     "fancymenu_data",
-    "trees",
-    "server-resource-packs",
+    "otyacraftengine",
     "resourcepacks",
     "shaderpacks"
 )
 
 # === Archivos individuales a sincronizar ===
 $SyncFiles = @(
-    "patchouli_data.json"
+    "options.txt",
+    "servers.dat"
 )
 
 # === Carpetas a EXCLUIR siempre (dentro de las carpetas sincronizadas) ===
@@ -93,8 +89,11 @@ $ExcludeFiles = @(
     "*.tmp",
     ".DS_Store",
     "Thumbs.db",
-    "desktop.ini",
-    "smartkeysync-client.json"
+    "desktop.ini", 
+    "oculus.properties",
+    "embeddium-options.json",
+    "voicechat-client.toml",
+    "client.json"
 )
 
 # === Proceso de sincronización ===

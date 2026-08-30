@@ -69,11 +69,11 @@ $indexPath = Join-Path $PackDir "index.toml"
 if (Test-Path $indexPath) {
     $indexContent = Get-Content $indexPath -Raw
     
-    $preservePatterns = @(
+        $preservePatterns = @(
         'file = "options\.txt"',
         'file = "config/DistantHorizons\.toml"',
-        'file = "config/oculus\.properties"',
-        'file = "shaderpacks/.*?\.txt"'
+        'file = "shaderpacks/.*?\.txt"',
+        'file = "config/dynamic_fps\.json"'
     )
     
     foreach ($pattern in $preservePatterns) {
