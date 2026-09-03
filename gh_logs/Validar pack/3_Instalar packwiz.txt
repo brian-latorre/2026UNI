@@ -1,0 +1,30 @@
+﻿2026-09-03T23:12:18.6937609Z ##[group]Run # Descargar packwiz
+2026-09-03T23:12:18.6937980Z [36;1m# Descargar packwiz[0m
+2026-09-03T23:12:18.6938574Z [36;1mPACKWIZ_VERSION=$(curl -s https://api.github.com/repos/packwiz/packwiz/releases/latest | grep tag_name | cut -d'"' -f4)[0m
+2026-09-03T23:12:18.6939055Z [36;1mecho "Instalando packwiz $PACKWIZ_VERSION..."[0m
+2026-09-03T23:12:18.6939329Z [36;1m[0m
+2026-09-03T23:12:18.6939574Z [36;1m# Intentar descargar el binario de Linux[0m
+2026-09-03T23:12:18.6940055Z [36;1mDOWNLOAD_URL="https://github.com/packwiz/packwiz/releases/download/${PACKWIZ_VERSION}/packwiz_${PACKWIZ_VERSION#v}_linux_amd64.tar.gz"[0m
+2026-09-03T23:12:18.6940544Z [36;1m[0m
+2026-09-03T23:12:18.6940798Z [36;1mcurl -sL "$DOWNLOAD_URL" -o packwiz.tar.gz 2>/dev/null[0m
+2026-09-03T23:12:18.6941382Z [36;1m[0m
+2026-09-03T23:12:18.6941666Z [36;1mif [ -f packwiz.tar.gz ] && file packwiz.tar.gz | grep -q "gzip"; then[0m
+2026-09-03T23:12:18.6941990Z [36;1m  tar xzf packwiz.tar.gz[0m
+2026-09-03T23:12:18.6942260Z [36;1m  chmod +x packwiz[0m
+2026-09-03T23:12:18.6942586Z [36;1m  sudo mv packwiz /usr/local/bin/[0m
+2026-09-03T23:12:18.6942850Z [36;1melse[0m
+2026-09-03T23:12:18.6943066Z [36;1m  # Fallback: instalar via Go[0m
+2026-09-03T23:12:18.6943337Z [36;1m  echo "Binario no disponible, instalando via Go..."[0m
+2026-09-03T23:12:18.6943683Z [36;1m  go install github.com/packwiz/packwiz@latest[0m
+2026-09-03T23:12:18.6943992Z [36;1m  echo "$(go env GOPATH)/bin" >> $GITHUB_PATH[0m
+2026-09-03T23:12:18.6944285Z [36;1mfi[0m
+2026-09-03T23:12:18.6967545Z shell: /usr/bin/bash -e {0}
+2026-09-03T23:12:18.6967941Z ##[endgroup]
+2026-09-03T23:12:18.8695542Z Instalando packwiz ...
+2026-09-03T23:12:19.0597608Z Binario no disponible, instalando via Go...
+2026-09-03T23:12:20.3045679Z go: downloading github.com/packwiz/packwiz v0.0.0-20260902165313-9066bf845f7e
+2026-09-03T23:12:20.5091136Z go: github.com/packwiz/packwiz@latest (in github.com/packwiz/packwiz@v0.0.0-20260902165313-9066bf845f7e):
+2026-09-03T23:12:20.5094133Z 	The go.mod file for the module providing named packages contains one or
+2026-09-03T23:12:20.5094652Z 	more replace directives. It must not contain directives that would cause
+2026-09-03T23:12:20.5095254Z 	it to be interpreted differently than if it were the main module.
+2026-09-03T23:12:20.5104891Z ##[error]Process completed with exit code 1.

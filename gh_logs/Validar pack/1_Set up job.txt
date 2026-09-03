@@ -1,0 +1,31 @@
+﻿2026-09-03T23:11:57.0169846Z Current runner version: '2.337.0'
+2026-09-03T23:11:57.0186143Z ##[group]Runner Image Provisioner
+2026-09-03T23:11:57.0186812Z Hosted Compute Agent
+2026-09-03T23:11:57.0187252Z Version: 20260828.587
+2026-09-03T23:11:57.0187688Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+2026-09-03T23:11:57.0188200Z Build Date: 2026-08-28T16:44:25Z
+2026-09-03T23:11:57.0188675Z Worker ID: {9dcbbbba-091c-4660-8e9d-a9f349702135}
+2026-09-03T23:11:57.0189158Z Azure Region: centralus
+2026-09-03T23:11:57.0189536Z ##[endgroup]
+2026-09-03T23:11:57.0190424Z ##[group]Operating System
+2026-09-03T23:11:57.0190846Z Ubuntu
+2026-09-03T23:11:57.0191393Z 24.04.4
+2026-09-03T23:11:57.0191810Z LTS
+2026-09-03T23:11:57.0192237Z ##[endgroup]
+2026-09-03T23:11:57.0192630Z ##[group]Runner Image
+2026-09-03T23:11:57.0193044Z Image: ubuntu-24.04
+2026-09-03T23:11:57.0193420Z Version: 20260831.293.1
+2026-09-03T23:11:57.0194129Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260831.293/images/ubuntu/Ubuntu2404-Readme.md
+2026-09-03T23:11:57.0195305Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260831.293
+2026-09-03T23:11:57.0195958Z ##[endgroup]
+2026-09-03T23:11:57.0196749Z ##[group]GITHUB_TOKEN Permissions
+2026-09-03T23:11:57.0198387Z Contents: read
+2026-09-03T23:11:57.0198793Z Metadata: read
+2026-09-03T23:11:57.0199188Z Pages: write
+2026-09-03T23:11:57.0199544Z ##[endgroup]
+2026-09-03T23:11:57.0201412Z Secret source: Actions
+2026-09-03T23:11:57.0202171Z Prepare workflow directory
+2026-09-03T23:11:57.0449240Z Prepare all required actions
+2026-09-03T23:11:57.0483295Z Getting action download info
+2026-09-03T23:11:57.2541527Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-09-03T23:11:57.4322432Z Complete job name: Validar pack
