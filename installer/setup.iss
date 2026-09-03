@@ -162,6 +162,14 @@ Name: "{userdesktop}\Reparar 2026UNI"; \
     Comment: "Herramienta para solucionar crasheos de 2026UNI"; \
     Tasks: desktopicon
 
+; Configurador en escritorio
+Name: "{userdesktop}\Configurar 2026UNI"; \
+    Filename: "{app}\PineconeMC\instances\2026UNI\.minecraft\Configurador Grafico.bat"; \
+    IconFilename: "{app}\icon-round.ico"; \
+    WorkingDir: "{app}\PineconeMC\instances\2026UNI\.minecraft"; \
+    Comment: "Configurador Grafico, Perfiles y RAM"; \
+    Tasks: desktopicon
+
 ; Acceso directo en menÃº inicio
 Name: "{group}\2026UNI"; \
     Filename: "{app}\PineconeMC\elyprismlauncher.exe"; \

@@ -65,16 +65,13 @@ $SyncFolders = @(
     "fancymenu_data",
     "otyacraftengine",
     "resourcepacks",
-    "shaderpacks",
-    "scripts",
-    "presets_graficos"
+    "shaderpacks"
 )
 
 # === Archivos individuales a sincronizar ===
 $SyncFiles = @(
     "options.txt",
-    "servers.dat",
-    "Configurador Grafico.bat"
+    "servers.dat"
 )
 
 # === Carpetas a EXCLUIR siempre (dentro de las carpetas sincronizadas) ===
@@ -120,20 +117,15 @@ foreach ($folder in $SyncFolders) {
         Write-Warn "[DRY]  $folder/ - $itemCount archivos"
     }
     else {
-        # Para presets_graficos NO excluimos los JSON/Properties ya que ah s los necesitamos
-        $currentExcludeFiles = $ExcludeFiles
-        if ($folder -eq "presets_graficos") {
-            $currentExcludeFiles = $ExcludeFiles | Where-Object { $_ -notin @("oculus.properties", "embeddium-options.json") }
-        }
-
         $robocopyArgs = @(
             $sourcePath,
             $destPath,
             "/E", "/NFL", "/NDL", "/NJH", "/NJS", "/NC", "/NS", "/NP",
             "/XD"
-        ) + $ExcludeDirs + "/XF" + $currentExcludeFiles
+        ) + $ExcludeDirs + "/XF" + $ExcludeFiles
         
         Write-Info "Copiando $folder/ ($itemCount archivos)..."
+        # Eliminar destino si existe para hacer copia limpia
         if (Test-Path $destPath) {
             Remove-Item $destPath -Recurse -Force
         }

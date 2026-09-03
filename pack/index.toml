@@ -1,8 +1,12 @@
 hash-format = "sha256"
 
 [[files]]
+file = "Configurador Grafico.bat"
+hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
+
+[[files]]
 file = "config/2026UNI/version.json"
-hash = "2780061e2859a2997a4612dc7eab92ee05709ec5d6164887f1075af5ae9b59c4"
+hash = "188d2a3b341960469b977d8fc7f54b7f72144c7586cb20d75a4d2b4faa48210f"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -7388,7 +7392,7 @@ metafile = true
 
 [[files]]
 file = "mods/fragmentum.pw.toml"
-hash = "3955c2da35b0b763e7589b1a8b3736c7aa08789c4478cb74c51c78d4f48b4c47"
+hash = "4f27e9288c015d33a43af4273378d3660aeae322689e6ebe978d207d021a3ec8"
 metafile = true
 
 [[files]]
@@ -7531,8 +7535,9 @@ hash = "881c2141c0584ae38f73c2adba9d3db51b6bd1f82ff841575a2baa5560af175f"
 metafile = true
 
 [[files]]
-file = "mods/jumpoverfences-forge-1.20.1-1.3.1.jar"
-hash = "8f1df33bc3febfc9e614f3409ef834b7dccc0877e1adadc8659b421def891931"
+file = "mods/jump-over-fences-forge.pw.toml"
+hash = "119fd9ee2836e0b871393f28739b58cbad7c741e9c5fdb9747867f627a2710a8"
+metafile = true
 
 [[files]]
 file = "mods/just-enough-effect-descriptions-jeed.pw.toml"
@@ -8097,11 +8102,6 @@ hash = "b6a895f1b93c2e70488e8b0ae289ef03257bf25d91e5d92211bfaedd54889dde"
 metafile = true
 
 [[files]]
-file = "mods/tameable-beasts.pw.toml"
-hash = "1659e63206e31a4df58c9b51c94f7f6606307272a76ad0c4641c02dba80a3960"
-metafile = true
-
-[[files]]
 file = "mods/tempad-with-shaders.pw.toml"
 hash = "4a3d95bd32838aafe8c57a7fe28dca9976576a7ba8089a3ba2a1eff9b950c6c6"
 metafile = true
@@ -8247,6 +8247,30 @@ hash = "a1798745b19afc1bd05913c0a25438d5c5e9dc8e2ff39e3c1ac73a5850b5cf5b"
 [[files]]
 file = "patchouli_data.json"
 hash = "027b547041584db94be3541b948914e6b6604bee96304e161142a8d43e6523f3"
+
+[[files]]
+file = "presets_graficos/Lite/embeddium-options.json"
+hash = "fd6d25f4e941db66fb0ded4e9a810cca9a22bfb4b3f6342bc62ebcd1970f21c5"
+
+[[files]]
+file = "presets_graficos/Lite/oculus.properties"
+hash = "67c0dd7220648a59e8469c3c49942ac2dcfdc2076edd20c082392d032ac6d37f"
+
+[[files]]
+file = "presets_graficos/Lite/options.txt"
+hash = "e9725a21988b2e482966764557c9b638db78e1d8908623597626b857c3deb20d"
+
+[[files]]
+file = "presets_graficos/Normal/embeddium-options.json"
+hash = "22143330318b63f8bbc8fb12e7c0c67ce4a13e100166cc15dfbf52b4e08747d4"
+
+[[files]]
+file = "presets_graficos/Normal/oculus.properties"
+hash = "2866f13fd4c76501ff5e8a8cb1c22f4ba03b0966978e2bf9df6a168a0a87839a"
+
+[[files]]
+file = "presets_graficos/Normal/options.txt"
+hash = "79b2ad0c7f0419f86301f82ca083954bc1bd44466122e34cddd835c528738b89"
 
 [[files]]
 file = "resourcepacks/2026UNI Translations.zip"
@@ -8551,6 +8575,42 @@ hash = "308e1456d091021b294fd6ebd2ac3758829fad9f1380869265e6585d21181bf2"
 [[files]]
 file = "resourcepacks/crops-3d(2).zip"
 hash = "d63df002bd227c00ee11b8b5f64b751b152b3e0f883a135c2496564703bf67c5"
+
+[[files]]
+file = "scripts/GUI-Configurador.ps1"
+hash = "31552bee9960cc1294a121cc1b68d1fd522bdc9731bc12298674a5af72e3071f"
+
+[[files]]
+file = "scripts/assets/icon.ico"
+hash = "3f35eff5efe462e9f6c8f640cdd1d24dfefbcd1e5d345f19f088f8625df0e9e0"
+
+[[files]]
+file = "scripts/auto-import-mods.py"
+hash = "c2155d70421bcde7130bd1e82f1d725cfcab2cc938c84459cd7f3ac286428bb2"
+
+[[files]]
+file = "scripts/modules/Graficos.Restaurador.ps1"
+hash = "808f975808c8c64d0adcfcf131f185c3acb36f27df802958c619e328792e3cd0"
+
+[[files]]
+file = "scripts/modules/JVM.Manager.ps1"
+hash = "0ceb25fbb130978ddd6a0d1792dab4cc54131a17cefd75d9c10866c40ea26362"
+
+[[files]]
+file = "scripts/modules/Perfil.Manager.ps1"
+hash = "0320236b1d1b85db5c1b67995aafb88fbc639a65bf5145c9c415b7d25849f1f7"
+
+[[files]]
+file = "scripts/modules/UI.Theme.ps1"
+hash = "ab84a6bf729d7f004d4f42233df534cef306748a255a06cd2972129a9267582e"
+
+[[files]]
+file = "scripts/modules/Utils.Logging.ps1"
+hash = "b3f7ec9aa67ecc7f9c46a43cef77dca9449674aa71eb48757e86fa620faee6c8"
+
+[[files]]
+file = "scripts/options.txt"
+hash = "79b2ad0c7f0419f86301f82ca083954bc1bd44466122e34cddd835c528738b89"
 
 [[files]]
 file = "servers.dat"
