@@ -34,25 +34,13 @@ jobs:
 
       - name: Instalar packwiz
         run: |
-          # Descargar packwiz
-          PACKWIZ_VERSION=$(curl -s https://api.github.com/repos/packwiz/packwiz/releases/latest | grep tag_name | cut -d'"' -f4)
-          echo "Instalando packwiz $PACKWIZ_VERSION..."
-          
-          # Intentar descargar el binario de Linux
-          DOWNLOAD_URL="https://github.com/packwiz/packwiz/releases/download/${PACKWIZ_VERSION}/packwiz_${PACKWIZ_VERSION#v}_linux_amd64.tar.gz"
-          
-          curl -sL "$DOWNLOAD_URL" -o packwiz.tar.gz 2>/dev/null
-          
-          if [ -f packwiz.tar.gz ] && file packwiz.tar.gz | grep -q "gzip"; then
-            tar xzf packwiz.tar.gz
-            chmod +x packwiz
-            sudo mv packwiz /usr/local/bin/
-          else
-            # Fallback: instalar via Go
-            echo "Binario no disponible, instalando via Go..."
-            go install github.com/packwiz/packwiz@latest
-            echo "$(go env GOPATH)/bin" >> $GITHUB_PATH
-          fi
+          echo "Compilando packwiz desde el codigo fuente (workaround para error de directiva replace)..."
+          git clone https://github.com/packwiz/packwiz.git
+          cd packwiz
+          go build -o packwiz
+          sudo mv packwiz /usr/local/bin/
+          cd ..
+          rm -rf packwiz
 
       - name: Validar pack
         working-directory: pack
