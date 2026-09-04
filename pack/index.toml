@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "fc82044f5037c79b97ff9eb2db1373fe3efe7862d86ba75e6428b3ac928fd576"
+hash = "944c9cd999b46ef4a4fe4585e466a5b423bc0621e7cc9584889001194d27ec3e"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -6923,6 +6923,11 @@ hash = "8341be7376192fe2cbffa3af36060ab8684adb2862efe478d697810cdd979e95"
 metafile = true
 
 [[files]]
+file = "mods/betterlooting.pw.toml"
+hash = "5acb766ccbede6603d50a6eb1c14eb158d7357f8b88696dcfd510590e3e8a941"
+metafile = true
+
+[[files]]
 file = "mods/blue-skies.pw.toml"
 hash = "6836b52a7002d343072a72dcb1f3370ff8ecdda43ea6499cb0f1b1892b5fe7a3"
 metafile = true
@@ -7366,6 +7371,11 @@ hash = "762feb655296c90ce3a718e4e5ad71a339946b8fa6d59af349617dd393627436"
 metafile = true
 
 [[files]]
+file = "mods/find-me.pw.toml"
+hash = "22ebcf5603615bec9861e80edde13535edf2bce8fa6d1625135b3c5d7316f958"
+metafile = true
+
+[[files]]
 file = "mods/fix-gpu-memory-leak.pw.toml"
 hash = "f28641be841e3892525f5d098c19e5f3ea73dc862216649438754dce9754ed44"
 metafile = true
@@ -7392,7 +7402,7 @@ metafile = true
 
 [[files]]
 file = "mods/fragmentum.pw.toml"
-hash = "4f27e9288c015d33a43af4273378d3660aeae322689e6ebe978d207d021a3ec8"
+hash = "3955c2da35b0b763e7589b1a8b3736c7aa08789c4478cb74c51c78d4f48b4c47"
 metafile = true
 
 [[files]]
