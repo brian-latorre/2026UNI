@@ -117,6 +117,7 @@ try {
             "$env:APPDATA\.minecraft\2026UNI\mods"
         }
         
+        $repoRoot = Split-Path $PSScriptRoot -Parent
         $targetPackDir = if ($p -eq "Lite") { Join-Path $repoRoot "pack-lite" } else { Join-Path $repoRoot "pack" }
         
         $success = Show-Spinner -Text "Analizando mods en $p (puede demorar)" -Command "python" -Arguments @("`"$pyScript`"", "`"$sourceModsDir`"", "`"$targetPackDir`"")
