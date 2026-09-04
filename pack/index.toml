@@ -5,10 +5,6 @@ file = "Configurador Grafico.bat"
 hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
-file = "config/2026UNI/version.json"
-hash = "c733721ad77d57b457c58ab989bfe7bb2dc368a3dc33a876900e97e7c0fe24e8"
-
-[[files]]
 file = "config/ButchersDelight.json"
 hash = "dac636a55a374673220275d7260ba223e910c24e4cc1d47a6c3ecb2a805a7843"
 
@@ -550,6 +546,10 @@ file = "config/appleskin-client.toml"
 hash = "b477c8c493b28366a6b282f29f46c9415e3a4a2a23fff6e09331644c435dfd48"
 
 [[files]]
+file = "config/apricityui-client.toml"
+hash = "e18bf2841ee02ec0c9318796a91cfb2b6b93d113ff2472f8a434c5914e4fe012"
+
+[[files]]
 file = "config/artifacts/client.json5"
 hash = "dfae4a12bf924a5e12380032ff257ec535c6b003fef539a3893adb05c0a69c56"
 
@@ -580,6 +580,14 @@ hash = "6a6ccd51b77c9fad53449f783d1f12d2c46f424bdd6bfba0c8f98d5211dd6237"
 [[files]]
 file = "config/beachparty.toml"
 hash = "5c808677268b0abe456c152cdac2be0f664e31a52b47b43c1a504048c42df7ec"
+
+[[files]]
+file = "config/better_looting.toml"
+hash = "56f7bc9771f10d0f8474e2e73918c4ea46b625503266ba6011c80b9530a8f52c"
+
+[[files]]
+file = "config/better_looting/skins/README.txt"
+hash = "1bd19e4cede5557553c11e809451c5c90797c28fcaa3c531b6b858d755c8ff14"
 
 [[files]]
 file = "config/bettercombat/client.json5"
@@ -933,7 +941,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "e78180b948fa9155a4572f03fcfaa1e1e883c8b377116a0d064bbffe10e76af9"
+hash = "ae7a941289f0983bafecd070689e334bf774998befdb408a46d9aaaa4dce15a5"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1204,6 +1212,10 @@ file = "config/fieldguide-server.json"
 hash = "1138c72a928c6102862d83c07612ac0617b18a4d69cde677ec7f1391d543ada5"
 
 [[files]]
+file = "config/find_me-common.toml"
+hash = "c2cd471c2ee382d852c1d7a31c6d49cee3cac20e34fde069b341a2f4b17d4f1e"
+
+[[files]]
 file = "config/firstperson.json"
 hash = "6d9d8a3708ccf453fb710f4e10591cedd4d1767acde97c7da7bbc2cd2c4d4101"
 
@@ -1449,7 +1461,7 @@ hash = "3ca754fefc49ea02e5203353bc3390e520e6717dd8b148aa07042f0b48a78621"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "a9da0fd3edd514b2fc4e4580ed507d626b0173cb5d6e75aa2234339dcd9cbb1e"
+hash = "b9bf00fa1ea0740b49cce2cefd36cae0eb53108e91f72d82aad02362d637f529"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1573,7 +1585,7 @@ hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
 [[files]]
 file = "config/mcreator_mem_fix.json"
-hash = "7e8e95845ac724c1e6db46892ae6aa49c233fae1170a76659327af3dbc17a0db"
+hash = "f66ab0a68af16f2799c30cb615be070b8d45747686260a2ebd7b8ff3d3d183db"
 
 [[files]]
 file = "config/mobplayeranimator/client.json5"
@@ -1633,7 +1645,7 @@ hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "2866f13fd4c76501ff5e8a8cb1c22f4ba03b0966978e2bf9df6a168a0a87839a"
+hash = "6a5d78caf0e732a554e247a41ddc12b0f77109b5931296041b95088a7d56cfac"
 preserve = true
 
 [[files]]
@@ -1694,7 +1706,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "5a6253e9e31bd6767c01da2b924e0bfa2306971ca915abbe72beca8b15ad8a87"
+hash = "49df785ce63047a292d123d635ba58c5abaa3e6bb7aaa7dde14ee1cfa4b59bba"
 
 [[files]]
 file = "config/presencefootsteps/updater.json"
@@ -1810,7 +1822,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "3b404d59ab17eef069a9b18dd2f89cdaccbe68e2ab41c9446ad527f4a6231ed1"
+hash = "1823cf845e2903e4abf56efe4918f04b995aed8c1fb12b680b3d51ab48e92f61"
 
 [[files]]
 file = "config/simplehats.json"
@@ -7416,6 +7428,10 @@ hash = "62ef7e92478035b77e996189984e4749b2d876ed0a389977a2670a28f105bfd2"
 metafile = true
 
 [[files]]
+file = "mods/fragmentum-forge-1.20.1-1.1.4.jar"
+hash = "1d1e1461155f5a0de514f03e7fa2e7d4b0d1bd1833b0608706fe4cf38aec5178"
+
+[[files]]
 file = "mods/fragmentum.pw.toml"
 hash = "4f27e9288c015d33a43af4273378d3660aeae322689e6ebe978d207d021a3ec8"
 metafile = true
@@ -8262,7 +8278,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "79b2ad0c7f0419f86301f82ca083954bc1bd44466122e34cddd835c528738b89"
+hash = "035fc70de75b93fa859a03d3fe746354c09b33209d09320a102acda20e52bffa"
 preserve = true
 
 [[files]]

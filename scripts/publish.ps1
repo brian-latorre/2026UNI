@@ -101,14 +101,27 @@ try {
     }
     Write-Host ""
     
-    # PASO 2: Auto-import de mods (Python) — solo para el pack Normal
+    # PASO 2: Auto-import de mods (Python)
     Write-Step 2 5 "Auto-detectando nuevos mods..."
     Write-Info "Explicacion: Esto compara los .jar locales que tengas en la carpeta 'mods'"
     Write-Info "contra CurseForge y Modrinth para agregarlos a la lista de auto-actualizacion."
     $pyScript = Join-Path $PSScriptRoot "auto-import-mods.py"
     $env:PYTHONIOENCODING="utf-8"
-    $success = Show-Spinner -Text "Analizando mods (puede demorar)" -Command "python" -Arguments @("`"$pyScript`"")
-    if (-not $success) { throw "Fallo al importar mods (Python fallo)." }
+    
+    foreach ($p in $perfilesASincronizar) {
+        Write-Info "Importando mods para el perfil: $p"
+        
+        $sourceModsDir = if ($p -eq "Lite") {
+            "$env:APPDATA\.minecraft\2026UNI_Lite\mods"
+        } else {
+            "$env:APPDATA\.minecraft\2026UNI\mods"
+        }
+        
+        $targetPackDir = if ($p -eq "Lite") { Join-Path $repoRoot "pack-lite" } else { Join-Path $repoRoot "pack" }
+        
+        $success = Show-Spinner -Text "Analizando mods en $p (puede demorar)" -Command "python" -Arguments @("`"$pyScript`"", "`"$sourceModsDir`"", "`"$targetPackDir`"")
+        if (-not $success) { throw "Fallo al importar mods para $p (Python fallo)." }
+    }
     Write-Host ""
     
     # PASO 3: Build & Validacion del pack (uno o ambos según perfil)

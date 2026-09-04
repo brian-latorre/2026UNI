@@ -1,0 +1,13 @@
+name = "Saint's Dragons"
+filename = "saintsdragons-0.9.52+forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "12f0b4c418d1462f7961d570b9c569ef7991ff93"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8797961
+project-id = 1358098

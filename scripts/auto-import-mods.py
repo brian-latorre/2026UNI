@@ -89,18 +89,25 @@ def get_expected_jar_name(pw_toml_path):
     return filename[:-8] + ".jar" if filename.endswith(".pw.toml") else filename
 
 def main():
-    appdata = os.environ.get('APPDATA')
-    source_mods_dir = os.path.join(appdata, ".minecraft", "2026UNI", "mods")
-    
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    project_root = os.path.abspath(os.path.join(script_dir, ".."))
-    pack_dir = os.path.join(project_root, "pack")
+    if len(sys.argv) >= 3:
+        source_mods_dir = sys.argv[1]
+        pack_dir = sys.argv[2]
+        project_root = os.path.abspath(os.path.join(pack_dir, ".."))
+        script_dir = os.path.join(project_root, "scripts")
+    else:
+        appdata = os.environ.get('APPDATA')
+        source_mods_dir = os.path.join(appdata, ".minecraft", "2026UNI", "mods")
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        project_root = os.path.abspath(os.path.join(script_dir, ".."))
+        pack_dir = os.path.join(project_root, "pack")
+        
     pack_mods_dir = os.path.join(pack_dir, "mods")
     
     os.makedirs(pack_mods_dir, exist_ok=True)
     logger = setup_logger(project_root)
     
-    packwiz_exe = os.path.abspath(os.path.join(script_dir, "..", "tools", "packwiz.exe"))
+    packwiz_exe = os.path.abspath(os.path.join(project_root, "tools", "packwiz.exe"))
+
     
     if not os.path.exists(source_mods_dir):
         logger.error(f"No se encontró la carpeta mods origen: {source_mods_dir}")
