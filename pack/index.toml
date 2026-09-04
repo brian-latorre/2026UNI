@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "944c9cd999b46ef4a4fe4585e466a5b423bc0621e7cc9584889001194d27ec3e"
+hash = "c733721ad77d57b457c58ab989bfe7bb2dc368a3dc33a876900e97e7c0fe24e8"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -867,6 +867,11 @@ file = "config/embeddium-mixins.properties"
 hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
+file = "config/embeddium-options.json"
+hash = "22143330318b63f8bbc8fb12e7c0c67ce4a13e100166cc15dfbf52b4e08747d4"
+preserve = true
+
+[[files]]
 file = "config/emojiful-client.toml"
 hash = "e3bbedc636a78386ea099047dba9f70d2aad423e70b104914f99d3e74f6e0103"
 
@@ -1625,6 +1630,11 @@ hash = "2cf603cb5a49de1bf3b45f5bd0704c88eaacb8733b9315dd0b0f18e595425828"
 [[files]]
 file = "config/notenoughcrashes.json"
 hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
+
+[[files]]
+file = "config/oculus.properties"
+hash = "2866f13fd4c76501ff5e8a8cb1c22f4ba03b0966978e2bf9df6a168a0a87839a"
+preserve = true
 
 [[files]]
 file = "config/otyacraftengine/client.toml"
@@ -6873,6 +6883,11 @@ hash = "0f4c2198603cd84a14dc6741729d0b0dcf509574776e620c36c3e7180082db32"
 metafile = true
 
 [[files]]
+file = "mods/apricityui.pw.toml"
+hash = "bc0ae6137d7bbfa6b41ffdb177ee060ada8ca320d2021b37c7b372e539764fc3"
+metafile = true
+
+[[files]]
 file = "mods/aquamirae.pw.toml"
 hash = "df2c01b6c92e513d5bc7642e3432483c66c164eb907c8f69efa9c6ad7bd19aad"
 metafile = true
@@ -7402,7 +7417,7 @@ metafile = true
 
 [[files]]
 file = "mods/fragmentum.pw.toml"
-hash = "3955c2da35b0b763e7589b1a8b3736c7aa08789c4478cb74c51c78d4f48b4c47"
+hash = "4f27e9288c015d33a43af4273378d3660aeae322689e6ebe978d207d021a3ec8"
 metafile = true
 
 [[files]]
@@ -8601,6 +8616,14 @@ hash = "3f35eff5efe462e9f6c8f640cdd1d24dfefbcd1e5d345f19f088f8625df0e9e0"
 [[files]]
 file = "scripts/auto-import-mods.py"
 hash = "c2155d70421bcde7130bd1e82f1d725cfcab2cc938c84459cd7f3ac286428bb2"
+
+[[files]]
+file = "scripts/config/embeddium-options.json"
+hash = "22143330318b63f8bbc8fb12e7c0c67ce4a13e100166cc15dfbf52b4e08747d4"
+
+[[files]]
+file = "scripts/config/oculus.properties"
+hash = "2866f13fd4c76501ff5e8a8cb1c22f4ba03b0966978e2bf9df6a168a0a87839a"
 
 [[files]]
 file = "scripts/modules/Graficos.Restaurador.ps1"

@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "944c9cd999b46ef4a4fe4585e466a5b423bc0621e7cc9584889001194d27ec3e"
+hash = "c733721ad77d57b457c58ab989bfe7bb2dc368a3dc33a876900e97e7c0fe24e8"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -867,6 +867,11 @@ file = "config/embeddium-mixins.properties"
 hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
+file = "config/embeddium-options.json"
+hash = "fd6d25f4e941db66fb0ded4e9a810cca9a22bfb4b3f6342bc62ebcd1970f21c5"
+preserve = true
+
+[[files]]
 file = "config/emojiful-client.toml"
 hash = "e3bbedc636a78386ea099047dba9f70d2aad423e70b104914f99d3e74f6e0103"
 
@@ -1625,6 +1630,11 @@ hash = "2cf603cb5a49de1bf3b45f5bd0704c88eaacb8733b9315dd0b0f18e595425828"
 [[files]]
 file = "config/notenoughcrashes.json"
 hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
+
+[[files]]
+file = "config/oculus.properties"
+hash = "67c0dd7220648a59e8469c3c49942ac2dcfdc2076edd20c082392d032ac6d37f"
+preserve = true
 
 [[files]]
 file = "config/otyacraftengine/client.toml"

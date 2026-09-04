@@ -71,8 +71,6 @@ if (Test-Path $indexPath) {
     
         $preservePatterns = @(
         'file = "options\.txt"',
-        'file = "config/embeddium-options\.json"',
-        'file = "config/oculus\.properties"',
         'file = "config/DistantHorizons\.toml"',
         'file = "shaderpacks/.*?\.txt"',
         'file = "config/dynamic_fps\.json"'
