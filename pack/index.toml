@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "23f0a20fdf86244e405e03c6a28111ad23358bb2800985ff317d3cc5d055fa36"
+hash = "70d7a89e76b7da466d3a6febaccb42b47698b33bb2366df3bc31617a437f6717"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -8679,7 +8679,7 @@ hash = "808f975808c8c64d0adcfcf131f185c3acb36f27df802958c619e328792e3cd0"
 
 [[files]]
 file = "scripts/modules/JVM.Manager.ps1"
-hash = "0ceb25fbb130978ddd6a0d1792dab4cc54131a17cefd75d9c10866c40ea26362"
+hash = "3835f8c8d262e4ffd9fd5fb5b4366cf78b3a48d9070a4fa088aca89c67827568"
 
 [[files]]
 file = "scripts/modules/Perfil.Manager.ps1"
