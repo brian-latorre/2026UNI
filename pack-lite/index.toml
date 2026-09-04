@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "8dae2728cee703d51c27d3a1e148fe009b1c372de5db71d333db35bae492a901"
+hash = "23f0a20fdf86244e405e03c6a28111ad23358bb2800985ff317d3cc5d055fa36"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -6789,8 +6789,28 @@ file = "mods/ApricityUI-forge-1.20.1-1.2.4-hotfix.jar"
 hash = "4cf6d63ec68f9f85ca74a70986706a8bc4b3891c02e2a5675e61594e7e569100"
 
 [[files]]
+file = "mods/BeeFix-1.20-1.0.7.jar"
+hash = "5fa50cfbd0ee3d0472ba8e9162d40e9556ea930a6bbcf93de2ab751365b58566"
+
+[[files]]
+file = "mods/Butchersdelight beta 1.20.1 2.1.0.jar"
+hash = "7086e03c670252c65e0a36d0127c4a9569fec0c1d3d2191ad5c1184d62cc0b6d"
+
+[[files]]
+file = "mods/Compat_FarmersDelight.jar"
+hash = "0a4cb953e7da508f2031d03c40c20eacd8ef2c9227e8eaba67610fef50245443"
+
+[[files]]
 file = "mods/Emojiful-Forge-1.20.1-4.3.2.jar"
 hash = "ff4647a889a5c2e28e09c2da84bf31def9d1e3060bb70b2da1b9ed92ee5dc5dc"
+
+[[files]]
+file = "mods/KeybindAtlas-v1.4.0-mc1.20.1-forge.jar"
+hash = "a102f472b75dedb38e570708b3484b795bba0a6d6bc5983a27304f71b41cef41"
+
+[[files]]
+file = "mods/MossyLib-1.3.0+1.20.1+forge.jar"
+hash = "524f6c554eafac1dc8284759d8d5b845d3d6284078d1a070ef87c59ed1bad9d1"
 
 [[files]]
 file = "mods/accents.pw.toml"
@@ -6808,9 +6828,8 @@ hash = "da42d2a6e6e3f7bd10df625ab23d6ba8a50ecb3545c1c3c6bda4f826caa5d51b"
 metafile = true
 
 [[files]]
-file = "mods/adorable-hamster-pets.pw.toml"
-hash = "17ba772223cc939eb3082a667c8061185c0dbd098092b7b8a7c739764a7e4262"
-metafile = true
+file = "mods/adorablehamsterpets-3.6.1-1.20.1+forge.jar"
+hash = "96e057684ba78bab2bccfe904cb997f5342ffb9f1475e581b4003949079291b2"
 
 [[files]]
 file = "mods/alexs-caves.pw.toml"
@@ -6883,11 +6902,6 @@ hash = "18e6f7ed5bd54b7daf15e5ece630d5a52ee3aabc79482297bbfbaacfc3048d47"
 metafile = true
 
 [[files]]
-file = "mods/bee-fix.pw.toml"
-hash = "4595467e59cc811c7334cb33a4abc569cd2637dbc1d5ae68de6ed1f367a57d3f"
-metafile = true
-
-[[files]]
 file = "mods/bendy-lib.pw.toml"
 hash = "0c04ed6d72d3f59b20bb30aa960f7f62609c83292d505b73cc864c527e7052a7"
 metafile = true
@@ -6950,11 +6964,6 @@ metafile = true
 [[files]]
 file = "mods/brewin-and-chewin.pw.toml"
 hash = "dc45e2a3431d818f9bb2b7217a62e62ec8f455ca37b9f4f35947d2c442bad42b"
-metafile = true
-
-[[files]]
-file = "mods/butchers-delight.pw.toml"
-hash = "159896d791b8879e561fce55ca2b3e7fc9377b3a3484a831ac9a0e2a560dae9e"
 metafile = true
 
 [[files]]
@@ -7070,11 +7079,6 @@ metafile = true
 [[files]]
 file = "mods/copycats.pw.toml"
 hash = "4101243ecfad34970b81cf6c99f458b67fe848d11870112bc9bab3b16af985eb"
-metafile = true
-
-[[files]]
-file = "mods/corail-tombstone.pw.toml"
-hash = "136205914a8e3370ac4ab6d4f1a14d755921c176964867fef8d4ca945e32515f"
 metafile = true
 
 [[files]]
@@ -7282,9 +7286,8 @@ hash = "48d621f055c242082a47a9df3770b38000889b9e2b0e0d14c014ad1ae35968c4"
 metafile = true
 
 [[files]]
-file = "mods/entityculling.pw.toml"
-hash = "35ef939dd24fc39919a5a50c86e28468e1b3a178cdf61e8197dad72601f25ba5"
-metafile = true
+file = "mods/entityculling-forge-1.9.5-mc1.20.1.jar"
+hash = "8f80f3953fc988d8c6b4a88035441cad631fea87a413267526b64543890c02b0"
 
 [[files]]
 file = "mods/exposure.pw.toml"
@@ -7304,11 +7307,6 @@ metafile = true
 [[files]]
 file = "mods/fancymenu.pw.toml"
 hash = "a8d8e4a67c9c8ec746337fe59edf463c7345d418100882b5fa5f1cc7f3247988"
-metafile = true
-
-[[files]]
-file = "mods/farmers-delight-compat.pw.toml"
-hash = "ea523861ae5b2feebd37d9cff583c355240edfa436ddf148513021d686701598"
 metafile = true
 
 [[files]]
@@ -7491,9 +7489,8 @@ hash = "3b5d812cb326288def7f87a06dddbc4ba987cea771d1708a3680f8201865c0be"
 metafile = true
 
 [[files]]
-file = "mods/inmisaddon.pw.toml"
-hash = "ccea3ee507e1aec9e9bb73850c5ec02c6d767d4d2ceb18b5a8c895141e156a57"
-metafile = true
+file = "mods/inmisaddon-1.0.4.jar"
+hash = "79556ac878ebc154ae4ffd314d8661ed4885065eb3182996bf8f58662c0f2f39"
 
 [[files]]
 file = "mods/integratedplaytime.pw.toml"
@@ -7548,11 +7545,6 @@ metafile = true
 [[files]]
 file = "mods/kerria.pw.toml"
 hash = "4d1a335ab4a4425c8ecaa0318dc6cc753c0eb5312643f940e7ff5c478d0e03f1"
-metafile = true
-
-[[files]]
-file = "mods/keybind-atlas.pw.toml"
-hash = "bcd046bc81bd353451b68396c65d1270cab90e35205bc2442a142177fdb0d324"
 metafile = true
 
 [[files]]
@@ -7728,11 +7720,6 @@ metafile = true
 [[files]]
 file = "mods/more-delight-forge.pw.toml"
 hash = "8d8aeaa4488cfd9bd37992e51e78c0bb23f1871c65c63d413e8e36788abee6f5"
-metafile = true
-
-[[files]]
-file = "mods/mossylib.pw.toml"
-hash = "df7b17a70750bf0221f071c00eb30e0cb05da0289b9532509311af921a30bc10"
 metafile = true
 
 [[files]]
@@ -8117,6 +8104,10 @@ metafile = true
 file = "mods/toast-control.pw.toml"
 hash = "1195cdfa90ac4ef4d5ebed8dbca1df990cf58b0a0fe3b9b965ccefa0cfd5a2e3"
 metafile = true
+
+[[files]]
+file = "mods/tombstone-1.20.1-9.0.9.jar"
+hash = "a335131063ae7231c21d902d77f1e43c018807b6a02c733daa4b9a479a32906e"
 
 [[files]]
 file = "mods/torchmaster.pw.toml"

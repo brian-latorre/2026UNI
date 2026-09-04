@@ -53,7 +53,16 @@ Write-Host ""
 Write-Info "Resolviendo restricciones de CurseForge..."
 $fixScript = Join-Path $PSScriptRoot "fix-blocked-mods.ps1"
 if (Test-Path $fixScript) {
-    & powershell.exe -ExecutionPolicy Bypass -File $fixScript
+    # Determinar instancia origen basado en el PackDir
+    $packName = Split-Path $PackDir -Leaf
+    $sourceModsDir = if ($packName -eq "pack-lite") {
+        "$env:APPDATA\.minecraft\2026UNI_Lite\mods"
+    } else {
+        "$env:APPDATA\.minecraft\2026UNI\mods"
+    }
+    
+    $targetModsDir = Join-Path $PackDir "mods"
+    & powershell.exe -ExecutionPolicy Bypass -File $fixScript -PackModsDir $targetModsDir -SourceModsDir $sourceModsDir
 }
 
 # === Refresh ===

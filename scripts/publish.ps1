@@ -213,84 +213,86 @@ try {
     # CONTROL DE ARCHIVOS PESADOS (>95MB) ANTES DE GIT ADD
     # -----------------------------------------------------------------
     $heavyUploadedMods = @()
-    $modsPath = Join-Path $repoRoot "pack\mods"
-    if (Test-Path $modsPath) {
-        $largeJars = Get-ChildItem -Path $modsPath -Filter "*.jar" | Where-Object { $_.Length -gt 95MB }
+    foreach ($p in $perfilesASincronizar) {
+        $targetPackDir = if ($p -eq "Lite") { Join-Path $repoRoot "pack-lite" } else { Join-Path $repoRoot "pack" }
+        $modsPath = Join-Path $targetPackDir "mods"
         
-        foreach ($jar in $largeJars) {
-            Write-Warn "Mod muy pesado detectado: $($jar.Name) ($([math]::Round($jar.Length / 1MB, 2)) MB)"
-            if ($githubToken -and $githubRepo) {
-                Write-Step 4 5 "Subiendo $($jar.Name) a GitHub Releases..."
-                $releaseTag = "mods-pesados"
-                $releaseUrl = "https://api.github.com/repos/$githubRepo/releases/tags/$releaseTag"
-                $headers = @{
-                    "Authorization" = "token $githubToken"
-                    "Accept" = "application/vnd.github.v3+json"
-                }
-                
-                # Check if release exists
-                $release = $null
-                try {
-                    $release = Invoke-RestMethod -Uri $releaseUrl -Headers $headers -ErrorAction Stop
-                } catch {
-                    # Create release if not found
-                    $createUrl = "https://api.github.com/repos/$githubRepo/releases"
-                    $body = @{
-                        tag_name = $releaseTag
-                        name = "Heavy Mods Storage"
-                        body = "Almacenamiento automático de mods >95MB."
-                    } | ConvertTo-Json
+        if (Test-Path $modsPath) {
+            $largeJars = Get-ChildItem -Path $modsPath -Filter "*.jar" | Where-Object { $_.Length -gt 95MB }
+            
+            foreach ($jar in $largeJars) {
+                Write-Warn "Mod muy pesado detectado en $p: $($jar.Name) ($([math]::Round($jar.Length / 1MB, 2)) MB)"
+                if ($githubToken -and $githubRepo) {
+                    Write-Step 4 5 "Subiendo $($jar.Name) a GitHub Releases..."
+                    $releaseTag = "mods-pesados"
+                    $releaseUrl = "https://api.github.com/repos/$githubRepo/releases/tags/$releaseTag"
+                    $headers = @{
+                        "Authorization" = "token $githubToken"
+                        "Accept" = "application/vnd.github.v3+json"
+                    }
+                    
                     try {
-                        $release = Invoke-RestMethod -Uri $createUrl -Method Post -Headers $headers -Body $body -ContentType "application/json" -ErrorAction Stop
+                        $release = Invoke-RestMethod -Uri $releaseUrl -Headers $headers -ErrorAction Stop
                     } catch {
-                        throw "Error creando el release en GitHub: $_"
+                        Write-Info "El release no existe, creandolo..."
+                        $createUrl = "https://api.github.com/repos/$githubRepo/releases"
+                        $body = @{
+                            tag_name = $releaseTag
+                            name = "Mods Pesados"
+                            body = "Almacenamiento automatico de mods >95MB."
+                        } | ConvertTo-Json
+                        try {
+                            $release = Invoke-RestMethod -Uri $createUrl -Method Post -Headers $headers -Body $body -ContentType "application/json" -ErrorAction Stop
+                        } catch {
+                            throw "Error creando el release en GitHub: $_"
+                        }
                     }
-                }
-                
-                $uploadUrl = $release.upload_url -replace '\{.*\}$', ''
-                $uploadUrl = "$uploadUrl?name=$($jar.Name)"
-                
-                Write-Info "Subiendo archivo (puede demorar dependiendo de tu conexión)..."
-                $uploadHeaders = @{
-                    "Authorization" = "token $githubToken"
-                    "Accept" = "application/vnd.github.v3+json"
-                    "Content-Type" = "application/java-archive"
-                }
-                
-                try {
-                    Invoke-RestMethod -Uri $uploadUrl -Method Post -Headers $uploadHeaders -InFile $jar.FullName -TimeoutSec 1200 -ErrorAction Stop | Out-Null
-                } catch {
-                    if ($_.Exception.Message -match "already_exists") {
-                        Write-Info "El archivo ya existe en GitHub Releases, enlazando directamente..."
-                    } else {
-                        throw "Error subiendo el asset: $_"
+                    
+                    $uploadUrl = $release.upload_url -replace '\{.*\}$', ''
+                    $uploadUrl = "$uploadUrl?name=$($jar.Name)"
+                    
+                    Write-Info "Subiendo archivo (puede demorar dependiendo de tu conexion)..."
+                    $uploadHeaders = @{
+                        "Authorization" = "token $githubToken"
+                        "Accept" = "application/vnd.github.v3+json"
+                        "Content-Type" = "application/java-archive"
                     }
+                    
+                    try {
+                        Invoke-RestMethod -Uri $uploadUrl -Method Post -Headers $uploadHeaders -InFile $jar.FullName -TimeoutSec 1200 -ErrorAction Stop | Out-Null
+                    } catch {
+                        if ($_.Exception.Message -match "already_exists") {
+                            Write-Info "El archivo ya existe en GitHub Releases, enlazando directamente..."
+                        } else {
+                            throw "Error subiendo el asset: $_"
+                        }
+                    }
+                    
+                    $assetUrl = "https://github.com/$githubRepo/releases/download/$releaseTag/$($jar.Name)"
+                    Write-Success "Subida exitosa."
+                    
+                    Write-Info "Vinculando URL con Packwiz en $p..."
+                    $packwizExe = Join-Path $repoRoot "tools\packwiz.exe"
+                    $modName = $jar.Name -replace '\.jar$', ''
+                    
+                    Set-Location $targetPackDir
+                    $pwArgs = @("url", "add", $modName, $assetUrl)
+                    $pwResult = & $packwizExe $pwArgs
+                    if ($LASTEXITCODE -ne 0) { throw "Error al vincular el mod pesado con packwiz en $p" }
+                    
+                    Remove-Item $jar.FullName -Force
+                    $heavyUploadedMods += $jar.Name
+                    Set-Location $repoRoot
+                } else {
+                    throw "Falta GITHUB_TOKEN o GITHUB_REPO en .env. El mod $($jar.Name) es de >95MB y rompera Git si no se elimina."
                 }
-                
-                $assetUrl = "https://github.com/$githubRepo/releases/download/$releaseTag/$($jar.Name)"
-                Write-Success "Subida exitosa."
-                
-                Write-Info "Vinculando URL con Packwiz..."
-                $packwizExe = Join-Path $repoRoot "tools\packwiz.exe"
-                $modName = $jar.Name -replace '\.jar$', ''
-                
-                Set-Location (Join-Path $repoRoot "pack")
-                $pwArgs = @("url", "add", $modName, $assetUrl)
-                $pwResult = & $packwizExe $pwArgs
-                if ($LASTEXITCODE -ne 0) { throw "Error al vincular el mod pesado con packwiz" }
-                
-                Remove-Item $jar.FullName -Force
-                $heavyUploadedMods += $jar.Name
-                Set-Location $repoRoot
-            } else {
-                throw "Falta GITHUB_TOKEN o GITHUB_REPO en .env. El mod $($jar.Name) es de >95MB y rompera Git si no se elimina."
             }
-        }
-        
-        if ($largeJars.Count -gt 0) {
-            Set-Location (Join-Path $repoRoot "pack")
-            & (Join-Path $repoRoot "tools\packwiz.exe") refresh | Out-Null
-            Set-Location $repoRoot
+            
+            if ($largeJars.Count -gt 0) {
+                Set-Location $targetPackDir
+                & (Join-Path $repoRoot "tools\packwiz.exe") refresh | Out-Null
+                Set-Location $repoRoot
+            }
         }
     }
     # -----------------------------------------------------------------
@@ -428,3 +430,4 @@ try {
     Write-Host ""
     throw $_
 }
+
