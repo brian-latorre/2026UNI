@@ -5,6 +5,10 @@ file = "Configurador Grafico.bat"
 hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
+file = "config/2026UNI/version.json"
+hash = "944c9cd999b46ef4a4fe4585e466a5b423bc0621e7cc9584889001194d27ec3e"
+
+[[files]]
 file = "config/ButchersDelight.json"
 hash = "dac636a55a374673220275d7260ba223e910c24e4cc1d47a6c3ecb2a805a7843"
 

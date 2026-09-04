@@ -116,8 +116,6 @@ $ExcludeFiles = @(
     ".DS_Store",
     "Thumbs.db",
     "desktop.ini", 
-    "oculus.properties",
-    "embeddium-options.json",
     "voicechat-client.toml",
     "client.json"
 )
@@ -145,9 +143,6 @@ foreach ($folder in $SyncFolders) {
     else {
         # Para presets_graficos NO excluimos los JSON/Properties ya que ah s los necesitamos
         $currentExcludeFiles = $ExcludeFiles
-        if ($folder -eq "presets_graficos") {
-            $currentExcludeFiles = $ExcludeFiles | Where-Object { $_ -notin @("oculus.properties", "embeddium-options.json") }
-        }
 
         $robocopyArgs = @(
             $sourcePath,
