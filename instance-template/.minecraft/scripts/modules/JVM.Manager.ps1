@@ -114,11 +114,29 @@ function Set-RAM {
         $mb = $GB * 1024
         
         $content = Get-Content $cfg
-        $newContent = $content | ForEach-Object {
-            $_ -replace "^MaxMemAlloc=\d+", "MaxMemAlloc=$mb" `
-               -replace "^MinMemAlloc=\d+", "MinMemAlloc=$mb"
+        
+        # 1. Forzar OverrideMemory=true
+        if ($content -match "(?m)^OverrideMemory=.*") {
+            $content = $content -replace "(?m)^OverrideMemory=.*", "OverrideMemory=true"
+        } else {
+            $content += "OverrideMemory=true"
         }
-        Set-Content -Path $cfg -Value $newContent -Force
+        
+        # 2. Asignar MaxMemAlloc
+        if ($content -match "(?m)^MaxMemAlloc=.*") {
+            $content = $content -replace "(?m)^MaxMemAlloc=.*", "MaxMemAlloc=$mb"
+        } else {
+            $content += "MaxMemAlloc=$mb"
+        }
+        
+        # 3. Asignar MinMemAlloc
+        if ($content -match "(?m)^MinMemAlloc=.*") {
+            $content = $content -replace "(?m)^MinMemAlloc=.*", "MinMemAlloc=$mb"
+        } else {
+            $content += "MinMemAlloc=$mb"
+        }
+
+        Set-Content -Path $cfg -Value $content -Force
         Write-Log -Mensaje "RAM asignada a $GB GB ($mb MB)" -Nivel INFO
         return $true
     } catch {
