@@ -101,43 +101,67 @@ function Get-RAMRecomendada {
     }
 }
 
+function Find-PrismCfg {
+    $current = $PSScriptRoot
+    for ($i = 0; $i -lt 6; $i++) {
+        $check1 = Join-Path $current "elyprismlauncher.cfg"
+        $check2 = Join-Path $current "prismlauncher.cfg"
+        if (Test-Path $check1) { return $check1 }
+        if (Test-Path $check2) { return $check2 }
+        $current = Split-Path $current -Parent
+        if (-not $current) { break }
+    }
+
+    $fallback = "$env:APPDATA\.minecraft\2026UNI_Launcher\PineconeMC\elyprismlauncher.cfg"
+    if (Test-Path $fallback) { return $fallback }
+    return $null
+}
+
 function Set-RAM {
     param (
         [Parameter(Mandatory=$true)]
         [int]$GB
     )
     try {
-        $cfg = Find-InstanceCfg
-        if (-not $cfg -or -not (Test-Path $cfg)) { return $false }
-
-        Backup-Antes -Ruta $cfg
         $mb = $GB * 1024
         
-        $content = Get-Content $cfg
-        
-        # 1. Forzar OverrideMemory=true
-        if ($content -match "(?m)^OverrideMemory=.*") {
-            $content = $content -replace "(?m)^OverrideMemory=.*", "OverrideMemory=true"
-        } else {
-            $content += "OverrideMemory=true"
-        }
-        
-        # 2. Asignar MaxMemAlloc
-        if ($content -match "(?m)^MaxMemAlloc=.*") {
-            $content = $content -replace "(?m)^MaxMemAlloc=.*", "MaxMemAlloc=$mb"
-        } else {
-            $content += "MaxMemAlloc=$mb"
-        }
-        
-        # 3. Asignar MinMemAlloc
-        if ($content -match "(?m)^MinMemAlloc=.*") {
-            $content = $content -replace "(?m)^MinMemAlloc=.*", "MinMemAlloc=$mb"
-        } else {
-            $content += "MinMemAlloc=$mb"
+        # 1. Asegurar que la instancia delegue la memoria al launcher global (OverrideMemory=false)
+        $instCfg = Find-InstanceCfg
+        if ($instCfg -and (Test-Path $instCfg)) {
+            $content = Get-Content $instCfg
+            if ($content -match "(?m)^OverrideMemory=.*") {
+                $content = $content -replace "(?m)^OverrideMemory=.*", "OverrideMemory=false"
+            } else {
+                $content += "OverrideMemory=false"
+            }
+            Set-Content -Path $instCfg -Value $content -Force
         }
 
-        Set-Content -Path $cfg -Value $content -Force
-        Write-Log -Mensaje "RAM asignada a $GB GB ($mb MB)" -Nivel INFO
+        # 2. Asignar la memoria en el archivo Global del Launcher
+        $prismCfg = Find-PrismCfg
+        if (-not $prismCfg -or -not (Test-Path $prismCfg)) {
+            Write-Log -Mensaje "No se encontró el archivo global del launcher (elyprismlauncher.cfg)." -Nivel ERROR
+            return $false
+        }
+
+        Backup-Antes -Ruta $prismCfg
+        
+        $prismContent = Get-Content $prismCfg
+        
+        if ($prismContent -match "(?m)^MaxMemAlloc=.*") {
+            $prismContent = $prismContent -replace "(?m)^MaxMemAlloc=.*", "MaxMemAlloc=$mb"
+        } else {
+            $prismContent += "MaxMemAlloc=$mb"
+        }
+        
+        if ($prismContent -match "(?m)^MinMemAlloc=.*") {
+            $prismContent = $prismContent -replace "(?m)^MinMemAlloc=.*", "MinMemAlloc=$mb"
+        } else {
+            $prismContent += "MinMemAlloc=$mb"
+        }
+
+        Set-Content -Path $prismCfg -Value $prismContent -Force
+        Write-Log -Mensaje "RAM Global de Pinecone asignada a $GB GB ($mb MB)" -Nivel INFO
         return $true
     } catch {
         Write-Log -Mensaje "Error al asignar RAM: $($_.Exception.Message)" -Nivel ERROR
