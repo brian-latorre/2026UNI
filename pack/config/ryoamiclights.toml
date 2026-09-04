@@ -281,3 +281,13 @@
 			[light_sources.settings.entities.ribbits]
 				ribbit = true
 
+			[light_sources.settings.entities.alexscaves]
+				tremorsaurus = true
+				subterranodon = true
+
+			[light_sources.settings.entities.saintsdragons]
+				winged = true
+				raevyx = true
+				cindervane = true
+				stegonaut = true
+

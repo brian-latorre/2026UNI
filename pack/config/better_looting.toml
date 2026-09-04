@@ -1,12 +1,12 @@
 
 #视觉与 UI 设置 (Visual & UI Settings)
 [Visual]
-	xOffset = 0.0
-	yOffset = 0.0
+	xOffset = -4.666667
+	yOffset = -1.6699703
 	uiScale = 0.75
-	panelWidth = 120
-	visibleRows = 4.5
-	globalAlpha = 0.9
+	panelWidth = 172
+	visibleRows = 5.835976
+	globalAlpha = 0.7244186
 	#是否显示快捷栏过滤指示器
 	showHotbarIndicator = true
 	#自定义悬浮窗标题 (留空则隐藏)

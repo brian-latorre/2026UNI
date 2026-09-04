@@ -5,6 +5,10 @@ file = "Configurador Grafico.bat"
 hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
+file = "config/2026UNI/version.json"
+hash = "e42bf0501836d605dd49d574e359d4c51ed972b871382a3d39bdb27bdc809cfc"
+
+[[files]]
 file = "config/ButchersDelight.json"
 hash = "dac636a55a374673220275d7260ba223e910c24e4cc1d47a6c3ecb2a805a7843"
 
@@ -567,7 +571,7 @@ hash = "dee286337f4d870b63bb0a4c8d9add6385b363f1edd04209e6a74ff9fd7d9d6e"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "a5f57d321b1618bb7526f84a1d92d168350e7a5e9b039d56532c5890a7065a36"
+hash = "53fb1c32a639242d90914e6dffb3c9958b81d354534f222f623f6dda8321eb9f"
 
 [[files]]
 file = "config/badoptimizations.txt"
@@ -583,7 +587,7 @@ hash = "5c808677268b0abe456c152cdac2be0f664e31a52b47b43c1a504048c42df7ec"
 
 [[files]]
 file = "config/better_looting.toml"
-hash = "56f7bc9771f10d0f8474e2e73918c4ea46b625503266ba6011c80b9530a8f52c"
+hash = "0e0bfc98e4f88d676124b790ebb6472a59453dcbd772e6359f830d8048631a9c"
 
 [[files]]
 file = "config/better_looting/skins/README.txt"
@@ -619,7 +623,7 @@ hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
 
 [[files]]
 file = "config/biomeswevegone/world_generation.json"
-hash = "5ab08dae537d43aef3f217e3a7a17608d39f1be082960fe4abd545d0697a72dc"
+hash = "50b760ffbc0d9d309063b8a59249498455584732d46e4e8b45bf45bdfa148678"
 
 [[files]]
 file = "config/blue_skies-client.toml"
@@ -715,7 +719,7 @@ hash = "7dd7dc266613f18011a9a5ba624e50c35374ad2b39ea379231c3c44e7b2261b3"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "39d0028c2e72186ef3431754d70e425179b4f2f4be5842522ee8b6bebdc66ad5"
+hash = "9d1b1e49079dd7cefccacc75f21d95493d65e155b24e605e2daeeffc8a674519"
 
 [[files]]
 file = "config/collective.json5"
@@ -941,7 +945,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "ae7a941289f0983bafecd070689e334bf774998befdb408a46d9aaaa4dce15a5"
+hash = "719a2b13420784cbce8ebcdc46519e643ef79d3914fc35434a5970adebea3772"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1441,11 +1445,11 @@ hash = "8a9c0403b385ca106d0c0b541ea2f2128bf39e3f9b05b342b176ca11834857a4"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "3b60f76214680c6082469647562730a9040dbdb8c7625eea69b5641c9546f912"
+hash = "fb17eeb7ed90e988e4e2cbb43a4a9c6f3faa452c75c84110c6f69eaa29b5691a"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "f9034dc07cc3d084b56517c8a65e8d4dff1f1d3a805274bc21e21485e033ea83"
+hash = "d6ccca436ab667143b6a352a26ffc22af2335f45e041e1dfe0faa15ea9d88e5f"
 
 [[files]]
 file = "config/jeed-client.toml"
@@ -1461,7 +1465,7 @@ hash = "3ca754fefc49ea02e5203353bc3390e520e6717dd8b148aa07042f0b48a78621"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "b9bf00fa1ea0740b49cce2cefd36cae0eb53108e91f72d82aad02362d637f529"
+hash = "e5bf48fae011b4a880170de3c7cf09b6fc2e20de1bfd53489981749517be31cf"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1485,11 +1489,11 @@ hash = "64eadca7fa07c15de7fd549c4cc4782bf8678d8a49d1626b0805e337d604ccb7"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "270ac719d4e27e1f8fa98b7b0db14a2642ab604821bb52a346d508d115915a17"
+hash = "975e561cd61c76d63be3fb12448b502f0414db96005c54bc7d70253874f47645"
 
 [[files]]
 file = "config/jei/world/local/Mundo nuevo/lookupHistory.ini"
-hash = "1864b1738d5c6cccbde097a7ad1578aa91f51ada926f16306d084ed6c969d348"
+hash = "fd27896a40ffe5d596ece1cba95d8f5be3a856a2ad74c44d991574f2680a499e"
 
 [[files]]
 file = "config/jei/world/local/Mundo_nuevo/bookmarks.ini"
@@ -1585,7 +1589,7 @@ hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
 [[files]]
 file = "config/mcreator_mem_fix.json"
-hash = "f66ab0a68af16f2799c30cb615be070b8d45747686260a2ebd7b8ff3d3d183db"
+hash = "c6b3ec44d974e48399feea6a36b8844f6e48289d661f8e329adb56f31ab81306"
 
 [[files]]
 file = "config/mobplayeranimator/client.json5"
@@ -1645,7 +1649,7 @@ hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "6a5d78caf0e732a554e247a41ddc12b0f77109b5931296041b95088a7d56cfac"
+hash = "c273e4197a2cca31ef774a4b40339ef59978af51826902265a311889480c8cea"
 preserve = true
 
 [[files]]
@@ -1786,7 +1790,31 @@ hash = "6d329122279318bc4d91c27038ed6a7c712f55f32760cdb516c23c7744228b41"
 
 [[files]]
 file = "config/ryoamiclights.toml"
-hash = "be15ca12f62ba85259971c783ff3ea49374bbafcc0595c6d22b04d9747f8fb2c"
+hash = "618311464bb4afe06b518f1e4bb80196fcb823dc622b0adc7cd401c5ffd54bac"
+
+[[files]]
+file = "config/saintsdragons/client/clientcommon.toml"
+hash = "8ff421cdf8804c3e75c412622408e7158a15e3920e2389cbe75750c5a25b52d9"
+
+[[files]]
+file = "config/saintsdragons/client/dragon_rider_camera/camera_tuning.json"
+hash = "7ff3114bf5ff6ef98b287370434a56781969bed1dc44ccd6872bf07b3c78d867"
+
+[[files]]
+file = "config/saintsdragons/server/attributes.toml"
+hash = "3a578c09626d7bf59c713d6c4fe820a0051b8faeff1794ee618e8d0c1db10193"
+
+[[files]]
+file = "config/saintsdragons/server/servercommon.toml"
+hash = "970a23af97ca806bae1e867e3a0ebc0b1fbe2fdb825e148b36af5fb3d5227100"
+
+[[files]]
+file = "config/saintsdragons/server/spawning.toml"
+hash = "f6a72fd3f907e15912bb0dd28117c11a700768bb6dfa36410b812d6c5db967c7"
+
+[[files]]
+file = "config/saintsdragons/server/tools_and_armor.toml"
+hash = "b49e913a3a8fe5c14bdbf951359affe7968f88db468bba586cf13e8131744218"
 
 [[files]]
 file = "config/saturn-optimizations.toml"
@@ -1822,7 +1850,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "1823cf845e2903e4abf56efe4918f04b995aed8c1fb12b680b3d51ab48e92f61"
+hash = "0e2dbf870fa95b3a7809a2ce15650c569896ace597f09b1624ed9745097ffe70"
 
 [[files]]
 file = "config/simplehats.json"
@@ -1850,7 +1878,7 @@ hash = "ac1a4e660c8a567b4c945962d063eeced1a0040615214ea4aebb947ff6af7d33"
 
 [[files]]
 file = "config/smartkeysync/master.json"
-hash = "9f82cd8070d798313ab26238edaace7dca686fa43c1f3a5323ffed3fab35686b"
+hash = "08c43c451d356e2e15d8cb14c7dad362ab5eb1596f28cfda24702f015a5403e3"
 
 [[files]]
 file = "config/smoothboot.json"
@@ -2366,7 +2394,7 @@ hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "config/xaero/minimap/profiles/changes.cfg"
-hash = "10056c0ac25fa3ee666b563bd15fd3c815b3f52de522736fe92a4b60d6bfd843"
+hash = "c2e8f9a62d12713215fd695af9a2afe5f3e57fd25fbf5bf761bb9e449c2b0429"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
@@ -2374,7 +2402,7 @@ hash = "e614d9367c183f482bafc627bbd9f99e791568d137f026961a105a68c1bacc1e"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/changes.cfg.json"
-hash = "3cf96c4d33ebaabf09e376cb905141933f0419244274ff624b7d8e124efe0501"
+hash = "43e7f027fdd8e7d71a7c5b356f14afc8712f8badffcd1765778c4d2c0f19dc15"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
@@ -8000,6 +8028,10 @@ hash = "eb3e0a0e6ce67ec6164900d16a1ad9a6b72b5a3dcae42ef66a5ba2b75f8ececc"
 metafile = true
 
 [[files]]
+file = "mods/saintsdragons-0.9.52+forge-1.20.1.jar"
+hash = "bb29b07c16fac7372acef036d175e94ac5957d2867cdb07a909f9e2f1a51d4d1"
+
+[[files]]
 file = "mods/saturn.pw.toml"
 hash = "f9be8361c39f91dce80420324ac45290a990e8178b83df6bdaa8d69f2c7aa8d4"
 metafile = true
@@ -8278,7 +8310,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "035fc70de75b93fa859a03d3fe746354c09b33209d09320a102acda20e52bffa"
+hash = "3a62ba474618dd22f0d209b4196fbaf5889fc5a0b8ccb06c88615d9f29828a1f"
 preserve = true
 
 [[files]]

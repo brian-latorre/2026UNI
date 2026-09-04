@@ -52,8 +52,8 @@
           "protection": true,
           "settingOverrides": {
             "displayed": true,
-            "names": 2.0,
             "heightLimit": 2050.0,
+            "names": 2.0,
             "color": 15.0,
             "icons": 2.0,
             "iconScale": 1.2000000000000002
