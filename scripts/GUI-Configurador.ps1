@@ -62,14 +62,10 @@ try {
             
             <CheckBox x:Name="ChkZGC" Content="Usar ZGC (recolector de basura de baja latencia)" Foreground="#CCCCCC" Cursor="Hand" IsChecked="True" Margin="0,0,0,15" />
             
-            <Grid Margin="0,0,0,15">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="Auto" />
-                </Grid.ColumnDefinitions>
-                <Slider x:Name="SliderRAM" Minimum="4" Maximum="10" Value="7" IsSnapToTickEnabled="True" TickFrequency="1" TickPlacement="BottomRight" Cursor="Hand" Grid.Column="0" Margin="0,0,10,0"/>
-                <TextBlock x:Name="TxtRAMInfo" Text="Calculando..." Foreground="#888888" FontSize="12" Grid.Column="1" VerticalAlignment="Center" />
-            </Grid>
+            <StackPanel Margin="0,0,0,15">
+                <Slider x:Name="SliderRAM" Minimum="4" Maximum="10" Value="7" IsSnapToTickEnabled="True" TickFrequency="1" TickPlacement="BottomRight" Cursor="Hand" Margin="0,0,0,5"/>
+                <TextBlock x:Name="TxtRAMInfo" Text="Calculando..." Foreground="#888888" FontSize="12" HorizontalAlignment="Center" />
+            </StackPanel>
             
             <Button x:Name="BtnAplicarRAM" Content="Aplicar RAM" Background="#222222" Foreground="#CCCCCC" Height="38" Margin="0,0,0,20" />
             
@@ -148,7 +144,7 @@ try {
         $msg = "$val GB seleccionados"
         if ($chkZGC.IsChecked -eq $true -and $val -lt 6) {
             $txtRAMInfo.Foreground = "#FFAA00" # Warning color
-            $txtRAMInfo.Text = "⚠️ $msg (ZGC recomienda 6+ GB)"
+            $txtRAMInfo.Text = " $msg (ZGC recomienda 6+ GB)"
         } else {
             $txtRAMInfo.Foreground = "#888888"
             $txtRAMInfo.Text = $msg
