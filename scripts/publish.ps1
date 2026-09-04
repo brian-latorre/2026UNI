@@ -163,18 +163,31 @@ try {
         
         # Auto-generar version.json para lectura local en el cliente (Packwiz sí sincroniza .json)
         $repoRoot = Split-Path $PSScriptRoot -Parent
-        $versionDir = Join-Path $repoRoot "pack\config\2026UNI"
-        if (-not (Test-Path $versionDir)) { New-Item -Path $versionDir -ItemType Directory -Force | Out-Null }
-        $versionFilePath = Join-Path $versionDir "version.json"
-        
         $jsonContent = @{ version = $packVersion } | ConvertTo-Json
-        [System.IO.File]::WriteAllText($versionFilePath, $jsonContent, $utf8NoBom)
+
+        $dirs = @(
+            (Join-Path $repoRoot "pack\config\2026UNI"),
+            (Join-Path $repoRoot "pack-lite\config\2026UNI"),
+            (Join-Path $repoRoot "instance-template\.minecraft\config\2026UNI")
+        )
+
+        foreach ($dir in $dirs) {
+            if (-not (Test-Path $dir)) { New-Item -Path $dir -ItemType Directory -Force | Out-Null }
+            $vFile = Join-Path $dir "version.json"
+            [System.IO.File]::WriteAllText($vFile, $jsonContent, $utf8NoBom)
+        }
         
-        # Refrescar packwiz para incluir version.json en index.toml
+        # Refrescar packwiz en pack y pack-lite para incluir version.json en los index.toml
         Set-Location (Join-Path $repoRoot "pack")
         & (Join-Path $repoRoot "tools\packwiz.exe") refresh | Out-Null
+
+        if (Test-Path (Join-Path $repoRoot "pack-lite")) {
+            Set-Location (Join-Path $repoRoot "pack-lite")
+            & (Join-Path $repoRoot "tools\packwiz.exe") refresh | Out-Null
+        }
+
         Set-Location $repoRoot
-        Write-Success "Archivo version.json generado y sincronizado para el cliente."
+        Write-Success "Archivo version.json generado y sincronizado para todos los packs."
         Write-Host ""
     }
     
