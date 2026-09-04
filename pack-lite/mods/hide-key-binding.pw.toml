@@ -1,0 +1,13 @@
+name = "Hide Key Binding"
+filename = "[MC-1.20] Hide Key Binding v1.0.0.7 - 2025-3-31.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fd66a11fce780e0f970b0b9f170e7570eb51b128"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6371298
+project-id = 1148744

@@ -1,0 +1,47 @@
+volume = 0.6056338028169014
+maxPlayCont = 8
+spatial = true
+sampleRate = 44100
+enableCache = false
+globalCache = true
+autoProxy = true
+useYoutubeDownloader = true
+hideDisplaySprite = false
+hideDecorativeAntenna = false
+ConnectionTimeout = 10000
+ReadTimeout = 30000
+DownloadRetryCount = 3
+DownloadRetryDelayMS = 1000
+relayServerURL = "https://raw.githubusercontent.com/TeamFelnull/IamMusicPlayer/master/relay_server.json"
+lavaPlayerNativesURL = "https://raw.githubusercontent.com/Mod-Sauce/lavanatives/refs/heads/main/lavaplayer/natives_link.json"
+hashBaseUrl = "https://raw.githubusercontent.com/Mod-Sauce/lavanatives/refs/heads/main/lavaplayer"
+IMPRFolder = "iammusicplayerrenewed"
+lavaNativesFolder = "lavaplayer_natives"
+maxWaitTime = 10000
+retryTime = 3000
+dropItemRing = true
+showMusicLines = false
+showSpeakerRange = false
+soundPhysicsRemasteredIntegration = true
+configVersion = "3"
+enableMusicInfoHUD = true
+hudX = 10
+hudY = 10
+
+[proxy]
+type = "DIRECT"
+host = ""
+port = 0
+
+[netMusicConfig]
+enableNetease = true
+withTransName = true
+neteaseCookie = ""
+
+[bilibiliConfig]
+enableBilibili = true
+bilibiliCookie = ""
+
+[QQMusicConfig]
+enableQQMusic = true
+QQMusicCookie = ""

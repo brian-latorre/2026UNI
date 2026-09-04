@@ -1,0 +1,8 @@
+name = "watermedia-binaries"
+filename = "watermedia_binaries-3.0.0-rc.4.jar"
+side = "both"
+
+[download]
+url = "https://github.com/brian-latorre/2026UNI/releases/download/WATERMEDIA-FIX/watermedia_binaries-3.0.0-rc.4.jar"
+hash-format = "sha256"
+hash = "dd7c25e2e95b00b3311acaad1bccb83aed8c6a7778c7e2cc67aaf8ad8ef61fd1"

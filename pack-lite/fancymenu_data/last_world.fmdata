@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/brian/AppData/Roaming/.minecraft/2026UNI_Lite/saves/Mundo nuevo
+}
+

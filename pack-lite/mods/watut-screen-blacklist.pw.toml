@@ -1,0 +1,13 @@
+name = "Watut Screen Blacklist"
+filename = "watut_screen_blacklist-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6268f043c082d443e3ae67ee45fe7e57d299b0bc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7264053
+project-id = 1392298

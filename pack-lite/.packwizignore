@@ -1,0 +1,25 @@
+# Ignorar caches específicos de mods
+otyacraftengine/url_texture_cache/
+config/voicechat/username_cache.json
+showdown/sim/cobblemon-cache.json
+
+# Ignorar archivos OS genéricos
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignorar otras posibles carpetas de caché
+.cache/
+
+# Ignorar config personal del jugador para SmartKeySync
+config/smartkeysync-client.json
+
+# Ignorar configuracion de renderscale
+config/renderscale.json5
+
+config/QuantifiedAPI/cache/
+
+scripts/*.bak*
+scripts/*.ps1
+!scripts/GUI-Configurador.ps1
+!scripts/modules/

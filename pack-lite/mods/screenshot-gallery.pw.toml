@@ -1,0 +1,13 @@
+name = "Screenshot Gallery"
+filename = "screenshotgallery-forge-1.20.1-1.8.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/IhVCYgCW/versions/lmJhbjnt/screenshotgallery-forge-1.20.1-1.8.jar"
+hash-format = "sha512"
+hash = "2691c4b172a10f8323fd8b78ecf1edd74a82b63ab3f338dbad7caf508b112fbc96adff9c61955ba30b3eb706578787d2cbbcb3ee93d786f57c1bbf03512a66d0"
+
+[update]
+[update.modrinth]
+mod-id = "IhVCYgCW"
+version = "lmJhbjnt"

@@ -1,0 +1,13 @@
+name = "[Let's Do] WilderNature"
+filename = "letsdo-wildernature-forge-1.0.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "815dee091892877bfdbb11b330ea2a304937b779"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6854817
+project-id = 1071657

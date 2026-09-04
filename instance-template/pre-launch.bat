@@ -1,13 +1,23 @@
 @echo off
 chcp 65001 >nul
+setlocal enabledelayedexpansion
 
 set "MC_DIR=%INST_MC_DIR%"
 if "%MC_DIR:~-1%"=="\" set "MC_DIR=%MC_DIR:~0,-1%"
 
-:: 1. Actualizar mods con Packwiz (Prioridad 1)
-"%INST_JAVA%" -jar "%INST_MC_DIR%\packwiz-installer-bootstrap.jar" -g https://brian-latorre.github.io/2026UNI/pack.toml
+:: 1. Determinar perfil activo (Normal o Lite) y apuntar a su pack de Packwiz
+set "PACKWIZ_URL=https://brian-latorre.github.io/2026UNI/pack/pack.toml"
+if exist "%MC_DIR%\perfil.txt" (
+    set /p PERFIL_ACTIVO=<"%MC_DIR%\perfil.txt"
+    if /i "!PERFIL_ACTIVO!"=="Lite" (
+        set "PACKWIZ_URL=https://brian-latorre.github.io/2026UNI/pack-lite/pack.toml"
+    )
+)
 
-:: 2. Verificar Opt-Out de Telemetria
+:: 2. Actualizar mods con Packwiz segun el perfil activo
+"%INST_JAVA%" -jar "%INST_MC_DIR%\packwiz-installer-bootstrap.jar" -g !PACKWIZ_URL!
+
+:: 3. Verificar Opt-Out de Telemetria
 if exist "%MC_DIR%\.no_telemetry" (
     echo [Telemetria] Desactivada por el usuario. Saltando monitoreo.
     exit /b 0

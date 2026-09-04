@@ -1,0 +1,13 @@
+name = "Smooth Gui"
+filename = "smoothgui-forge-1.20.1-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1e9aee72bd97f856a1c5256e19995d6c45defdb3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7324337
+project-id = 956789

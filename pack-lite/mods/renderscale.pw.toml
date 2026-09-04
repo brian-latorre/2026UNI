@@ -1,0 +1,13 @@
+name = "RenderScale"
+filename = "RenderScale-forge-1.20.1-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "818391dd2b5ac89f5af7d16a8634df7f85837580"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6056532
+project-id = 1172416

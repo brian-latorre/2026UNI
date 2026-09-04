@@ -1,0 +1,13 @@
+name = "Chained to Your Friends"
+filename = "chained_friends-1.20.1-forge-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d59fb23d2647d929d225386801443d3cfe562852"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6848806
+project-id = 1320997

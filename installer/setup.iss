@@ -291,6 +291,7 @@ begin
     PrismContent := PrismContent + 'GarbageCollectorPreset=None' + #13#10;
     PrismContent := PrismContent + 'UseOptimizedJvmArgs=false' + #13#10;
     PrismContent := PrismContent + 'LowMemWarning=false' + #13#10;
+    PrismContent := PrismContent + 'UserAskedAboutAutomaticJavaDownload=true' + #13#10;
 
     // Siempre sobreescribir para garantizar que no queden configuraciones rotas
     SaveStringToFile(PrismCfgPath, PrismContent, False);

@@ -1,0 +1,8 @@
+#The default difficulty selected for newly created worlds.
+#Allowed Values: PEACEFUL, EASY, NORMAL, HARD
+defaultDifficulty = "NORMAL"
+#Set to true if the difficulty for new world's should be locked to the specific default. This cannot be unlocked by players without external tools! Probably a bad idea. I don't recommend. Why am I adding this option?
+lockDifficulty = false
+#Resource pack IDs to have enabled by default on the first run.
+defaultResourcePacks = ["builtin/dye_depot", "mod/punchy:punchy", "vanilla", "mod_resources", "fabric", "generated/fragmentum_layer", "file/Enchantment Outlines 1.19-1.20.zip", "primal_modern_spawn_eggs", "file/Fusion Connected Glass v1.0.1 for Minecraft 1.20-1.21.8.zip", "vinery:bushy_leaves", "file/FreshAnimations_v1.10.4.zip", "file/FA+Player-EmoteCraft-JustExpressions", "file/Better+Lanterns+v1.2(mc-1.20.1).zip", "file/3D Sugar Cane.zip", "file/crops-3d(2).zip", "file/Icon Xaero's 1.22.zip", "file/Xaero's Extended Mob Icons v1.6.zip", "file/E19 Cobblemon Minimap Icons.zip", "file/Icon - Xaero X FA - v2.4 (1.20.x).zip", "file/UD - Hotbar add-on 1.16-1.20.1.zip", "file/Botania Spanish Translation.zip", "Moonlight Mods Dynamic Assets", "file/2026UNI Translations"]
+

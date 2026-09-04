@@ -1,0 +1,32 @@
+[
+  {
+    "mob": [
+      "minecraft:zombie",
+      "minecraft:skeleton",
+      "minecraft:creeper",
+      "minecraft:spider",
+      "born_in_chaos_v1:baby_skeleton",
+      "born_in_chaos_v1:baby_spider",
+      "born_in_chaos_v1:barrel_zombie",
+      "born_in_chaos_v1:bone_imp",
+      "born_in_chaos_v1:door_knight",
+      "born_in_chaos_v1:phantom_creeper",
+      "born_in_chaos_v1:skeleton_demoman",
+      "born_in_chaos_v1:spirit_guide",
+      "born_in_chaos_v1:zombie_clown",
+      "born_in_chaos_v1:zombie_fisherman",
+      "born_in_chaos_v1:bonescaller",
+      "born_in_chaos_v1:decaying_zombie"
+    ],
+    "persecond": 0.45,
+    "attempts": 11,
+    "amount": {
+      "minimum": 22,
+      "maximum": 75
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": 62
+    }
+  }
+]

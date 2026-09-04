@@ -2,7 +2,7 @@
 # 2026UNI — Publicar pack a GitHub Pages
 # ============================================
 # Se dispara en cada push a main que toque archivos del pack.
-# Publica el contenido de pack/ como sitio estático en GitHub Pages.
+# Publica el contenido de pack/ y pack-lite/ como sitio estático en GitHub Pages.
 
 name: Publicar Pack
 
@@ -42,17 +42,29 @@ jobs:
           cd ..
           rm -rf packwiz
 
-      - name: Validar pack
+      - name: Validar pack Normal
         working-directory: pack
         run: |
-          echo "=== Validando pack.toml ==="
+          echo "=== Validando pack Normal (pack.toml) ==="
           cat pack.toml
           echo ""
-          echo "=== Refrescando index ==="
+          echo "=== Refrescando index Normal ==="
           packwiz refresh
           echo ""
           echo "=== Verificando que no hay cambios sin commitear ==="
-          git diff --exit-code pack/ || echo "⚠️ index.toml necesita refresh — considera hacer commit del index actualizado"
+          git diff --exit-code pack/ || echo "⚠ index.toml necesita refresh — considera hacer commit del index actualizado"
+
+      - name: Validar pack Lite
+        working-directory: pack-lite
+        run: |
+          echo "=== Validando pack Lite (pack.toml) ==="
+          cat pack.toml
+          echo ""
+          echo "=== Refrescando index Lite ==="
+          packwiz refresh
+          echo ""
+          echo "=== Verificando que no hay cambios sin commitear ==="
+          git diff --exit-code pack-lite/ || echo "⚠ index.toml del Lite necesita refresh"
 
   deploy:
     name: Publicar a GitHub Pages
@@ -68,11 +80,11 @@ jobs:
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Subir artefacto de Pages
+      - name: Subir artefacto de Pages (pack/ y pack-lite/)
         uses: actions/upload-pages-artifact@v3
         with:
-          # Publicar solo el contenido de pack/
-          path: 'pack'
+          # La raíz del repo expone /pack/ y /pack-lite/ como rutas accesibles
+          path: '.'
 
       - name: Desplegar a GitHub Pages
         id: deployment

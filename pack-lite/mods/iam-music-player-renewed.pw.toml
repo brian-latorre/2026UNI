@@ -1,0 +1,13 @@
+name = "Iam Music Player Renewed"
+filename = "IMPR-Forge-3.24.1-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1XSEiZPP/versions/cc4b2Fd2/IMPR-Forge-3.24.1-1.20.1.jar"
+hash-format = "sha512"
+hash = "ef95de057882c7b1f7c8f03d76770ff7bc7aa8d4936e59a5a0b4703c2d0403abc71386cd7a1df8a5ad4a1c58e10552f0fdad434fb123af3f3d3a77d0cd2b6178"
+
+[update]
+[update.modrinth]
+mod-id = "1XSEiZPP"
+version = "cc4b2Fd2"

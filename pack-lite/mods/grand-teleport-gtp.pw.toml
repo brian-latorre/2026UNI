@@ -1,0 +1,13 @@
+name = "Grand Teleport (GTP)"
+filename = "grand-teleport-forge-1.20.1-forge-build300.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d72ac817bba002c830b8aa413a9ec8065c28eed3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8367233
+project-id = 1594445

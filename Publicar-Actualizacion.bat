@@ -1,8 +1,8 @@
 @echo off
 chcp 65001 >nul
-title 2026UNI - Publicar Actualizacion
+title 2026UNI - Publicar Actualizacion (Normal + Lite)
 
-powershell.exe -ExecutionPolicy Bypass -File ".\scripts\publish.ps1"
+powershell.exe -ExecutionPolicy Bypass -File ".\scripts\publish.ps1" -Perfil All
 
 if %errorlevel% neq 0 (
     echo.
