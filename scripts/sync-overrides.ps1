@@ -189,10 +189,94 @@ foreach ($file in $SyncFiles) {
     $totalItems++
 }
 
-# === Reporte ===
+# === Reporte de carpetas/archivos ===
 Write-Host ""
 Write-Success "Sincronizados: $totalItems"
 Write-Info "Saltados:      $skippedItems"
+
+# === Sincronización inteligente de mods (JARs sueltos) ===
+# Packwiz gestiona la mayoría de mods vía .pw.toml (metadatos que apuntan a Modrinth/CurseForge).
+# Pero algunos mods son JARs sueltos (propios, forks, o no disponibles en plataformas).
+# Este paso sincroniza SOLO esos JARs sueltos desde la instancia al pack.
+Write-Host ""
+Write-Info "Sincronizando mods (JARs sueltos)..."
+
+$sourceModsDir = Join-Path $SourceInstance "mods"
+$destModsDir = Join-Path $PackDir "mods"
+
+if (Test-Path $sourceModsDir) {
+    if (-not (Test-Path $destModsDir)) {
+        New-Item -ItemType Directory -Path $destModsDir -Force | Out-Null
+    }
+
+    # Obtener los nombres de archivos JAR que ya están gestionados por .pw.toml
+    # (el campo 'filename' dentro de cada .pw.toml indica qué JAR descarga Packwiz)
+    $managedJars = @()
+    Get-ChildItem $destModsDir -Filter "*.pw.toml" -ErrorAction SilentlyContinue | ForEach-Object {
+        $content = Get-Content $_.FullName -Raw
+        if ($content -match 'filename\s*=\s*"([^"]+)"') {
+            $managedJars += $matches[1]
+        }
+    }
+
+    # Obtener JARs de la instancia origen
+    $sourceJars = Get-ChildItem $sourceModsDir -Filter "*.jar" -ErrorAction SilentlyContinue
+
+    # --- Copiar JARs nuevos que NO tienen .pw.toml ---
+    $copiedCount = 0
+    foreach ($jar in $sourceJars) {
+        if ($jar.Name -in $managedJars) {
+            # Este JAR ya está gestionado por un .pw.toml, Packwiz lo descarga automáticamente
+            continue
+        }
+
+        $destJar = Join-Path $destModsDir $jar.Name
+        $needsCopy = $false
+
+        if (-not (Test-Path $destJar)) {
+            $needsCopy = $true
+        } else {
+            # Copiar si cambió el tamaño (nueva versión del mismo nombre)
+            $destSize = (Get-Item $destJar).Length
+            if ($jar.Length -ne $destSize) {
+                $needsCopy = $true
+            }
+        }
+
+        if ($needsCopy) {
+            if ($DryRun) {
+                Write-Warn "[DRY]  mods/$($jar.Name)"
+            } else {
+                Copy-Item $jar.FullName $destJar -Force
+                Write-Success "  [+] $($jar.Name)"
+                $copiedCount++
+            }
+        }
+    }
+
+    # --- Limpiar JARs huérfanos del pack (ya no existen en la instancia) ---
+    $removedCount = 0
+    $sourceJarNames = $sourceJars | ForEach-Object { $_.Name }
+    Get-ChildItem $destModsDir -Filter "*.jar" -ErrorAction SilentlyContinue | ForEach-Object {
+        if ($_.Name -notin $sourceJarNames) {
+            if ($DryRun) {
+                Write-Warn "[DRY]  Eliminaria mods/$($_.Name)"
+            } else {
+                Remove-Item $_.FullName -Force
+                Write-Warn "  [-] $($_.Name) (eliminado, ya no está en la instancia)"
+                $removedCount++
+            }
+        }
+    }
+
+    if ($copiedCount -eq 0 -and $removedCount -eq 0) {
+        Write-Info "Mods JARs sueltos: sin cambios"
+    } else {
+        Write-Success "Mods JARs: $copiedCount copiados, $removedCount eliminados"
+    }
+} else {
+    Write-Info "[SKIP] mods/ - no existe en la instancia"
+}
 
 # === Advertencias ===
 # Verificar carpetas opcionales que podrían existir
