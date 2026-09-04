@@ -221,7 +221,7 @@ try {
             $largeJars = Get-ChildItem -Path $modsPath -Filter "*.jar" | Where-Object { $_.Length -gt 95MB }
             
             foreach ($jar in $largeJars) {
-                Write-Warn "Mod muy pesado detectado en $p: $($jar.Name) ($([math]::Round($jar.Length / 1MB, 2)) MB)"
+                Write-Warn "Mod muy pesado detectado en ${p}: $($jar.Name) ($([math]::Round($jar.Length / 1MB, 2)) MB)"
                 if ($githubToken -and $githubRepo) {
                     Write-Step 4 5 "Subiendo $($jar.Name) a GitHub Releases..."
                     $releaseTag = "mods-pesados"
