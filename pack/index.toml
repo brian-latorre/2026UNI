@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "188d2a3b341960469b977d8fc7f54b7f72144c7586cb20d75a4d2b4faa48210f"
+hash = "fc82044f5037c79b97ff9eb2db1373fe3efe7862d86ba75e6428b3ac928fd576"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -7392,7 +7392,7 @@ metafile = true
 
 [[files]]
 file = "mods/fragmentum.pw.toml"
-hash = "3955c2da35b0b763e7589b1a8b3736c7aa08789c4478cb74c51c78d4f48b4c47"
+hash = "4f27e9288c015d33a43af4273378d3660aeae322689e6ebe978d207d021a3ec8"
 metafile = true
 
 [[files]]
@@ -8567,6 +8567,10 @@ hash = "e033ecb5d98d2567fb89a95375da4e6f8803275321b8c12dc2f7ed14f15985f9"
 [[files]]
 file = "resourcepacks/Unique Dark - Lite - 1.20.1.zip"
 hash = "e2340c2f39baf415824bf032fa4f633e0464c15d0a1368a65c478d174a7fbf38"
+
+[[files]]
+file = "resourcepacks/White Block Selection Outline.zip"
+hash = "add0e2c0bf7be79cdb5e9ae29a520f18617df81591e403f90318c9cd8f684de3"
 
 [[files]]
 file = "resourcepacks/Xaero's Extended Mob Icons v1.6.zip"
