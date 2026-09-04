@@ -265,7 +265,7 @@ begin
     CfgContent := CfgContent + 'IgnoreJavaCompatibility=true' + #13#10;
     CfgContent := CfgContent + 'JavaPath=' + JavaPath + #13#10;
     CfgContent := CfgContent + #13#10;
-    CfgContent := CfgContent + 'OverrideMemory=false' + #13#10;
+    CfgContent := CfgContent + 'OverrideMemory=true' + #13#10;
     CfgContent := CfgContent + 'LowMemWarning=false' + #13#10;
     CfgContent := CfgContent + #13#10;
     CfgContent := CfgContent + 'OverrideJavaArgs=true' + #13#10;
@@ -273,6 +273,7 @@ begin
     CfgContent := CfgContent + 'UseOptimizedJvmArgs=false' + #13#10;
     CfgContent := CfgContent + 'JvmArgs=-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true' + #13#10;
 
+    // Guardar instance.cfg en la ruta final
     SaveStringToFile(InstanceCfgPath, CfgContent, False);
 
     // ========================================
@@ -281,6 +282,7 @@ begin
     PrismCfgPath := ExpandConstant('{app}\PineconeMC\elyprismlauncher.cfg');
     
     PrismContent := '[General]' + #13#10;
+    PrismContent := PrismContent + 'ConfigVersion=1.3' + #13#10;
     PrismContent := PrismContent + 'ApplicationTheme=system' + #13#10;
     PrismContent := PrismContent + 'HasDoneInitialSetup=true' + #13#10;
     PrismContent := PrismContent + 'JavaPath=' + JavaPath + #13#10;
