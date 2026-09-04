@@ -285,6 +285,7 @@ begin
     PrismContent := PrismContent + 'ConfigVersion=1.3' + #13#10;
     PrismContent := PrismContent + 'ApplicationTheme=system' + #13#10;
     PrismContent := PrismContent + 'HasDoneInitialSetup=true' + #13#10;
+    PrismContent := PrismContent + 'IgnoreJavaWizard=true' + #13#10;
     PrismContent := PrismContent + 'JavaPath=' + JavaPath + #13#10;
     PrismContent := PrismContent + 'Language=es_ES' + #13#10;
     PrismContent := PrismContent + 'MaxMemAlloc=5120' + #13#10;
