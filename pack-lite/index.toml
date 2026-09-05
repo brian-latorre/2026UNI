@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "61b1d2cbf8287b7a4cfcf68fd210c2f320a9c40dda1d840f8aaf060077d94af5"
+hash = "07fda89e303207fbfad647ea9dd10a8fce6b566577c5cac7abf69f22de09b705"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -8170,6 +8170,10 @@ metafile = true
 file = "mods/tinkers-construct.pw.toml"
 hash = "74a64acbd2275c16e47fb17e74bcd431779674cefa1f54f67f15b4d9b955aec7"
 metafile = true
+
+[[files]]
+file = "mods/tiny_takeover_backport-forge-1.20.1-1.3.1.jar"
+hash = "4098207a1a1fedc6c2692ee95c49bb54a9280e6a9bd6cb1c6b411abccb8aed32"
 
 [[files]]
 file = "mods/toast-control.pw.toml"

@@ -1,11 +1,11 @@
 name = "2026UNI Lite"
-version = "1.13.0"
+version = "1.13.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "fc81dd955282b8a100d2430971fca89e01493ac92343a68ee5c39c4fee812aec"
+hash = "dbbf5eaa58a6387c355799350f2f9d9671d3608e2966049ac54d369ddaeff40a"
 
 [versions]
 forge = "47.4.18"
