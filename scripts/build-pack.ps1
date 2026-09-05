@@ -84,7 +84,9 @@ if (Test-Path $indexPath) {
         'file = "config/oculus\.properties"',
         'file = "config/DistantHorizons\.toml"',
         'file = "shaderpacks/.*?\.txt"',
-        'file = "config/dynamic_fps\.json"'
+        'file = "config/dynamic_fps\.json"',
+        'file = "config/forgematica\.json"',
+        'file = "config/forgematica/.*?"'
     )
     
     foreach ($pattern in $preservePatterns) {
