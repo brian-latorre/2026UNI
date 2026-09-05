@@ -316,7 +316,8 @@ if ($watchdog) {
     $javaProc = Get-CimInstance Win32_Process -Filter "Name='javaw.exe'" -ErrorAction SilentlyContinue | Where-Object { $_.CommandLine -match "2026UNI" -or $_.CommandLine -match "PineconeMC" }
     # Intentar leer usuario del latest.log
     if (Test-Path $latestLog) {
-        $matchInfo = Select-String -Path $latestLog -Pattern "Setting user:\s+([a-zA-Z0-9_]+)" -List -ErrorAction SilentlyContinue
+        $matchInfo = Select-String -Path $latestLog -Pattern "--username,\s+([a-zA-Z0-9_]+)" -List -ErrorAction SilentlyContinue
+        if (-not $matchInfo) { $matchInfo = Select-String -Path $latestLog -Pattern "Setting user:\s+([a-zA-Z0-9_]+)" -List -ErrorAction SilentlyContinue }
         if ($matchInfo) { $username = $matchInfo.Matches[0].Groups[1].Value }
     }
 
@@ -379,7 +380,8 @@ if ($sessionInfo -and $sessionInfo.StartTimeTicks) {
 }
 $username = if ($sessionInfo -and $sessionInfo.Username) { $sessionInfo.Username } else { "Desconocido" }
 if ($username -eq "Desconocido" -and (Test-Path $latestLog)) {
-    $matchInfo = Select-String -Path $latestLog -Pattern "Setting user:\s+([a-zA-Z0-9_]+)" -List -ErrorAction SilentlyContinue
+    $matchInfo = Select-String -Path $latestLog -Pattern "--username,\s+([a-zA-Z0-9_]+)" -List -ErrorAction SilentlyContinue
+    if (-not $matchInfo) { $matchInfo = Select-String -Path $latestLog -Pattern "Setting user:\s+([a-zA-Z0-9_]+)" -List -ErrorAction SilentlyContinue }
     if ($matchInfo) { $username = $matchInfo.Matches[0].Groups[1].Value }
 }
 
@@ -661,3 +663,5 @@ if (Test-Path $tempDir) { Remove-Item -Path $tempDir -Recurse -Force -ErrorActio
 if (Test-Path $lockFile) { Remove-Item -Path $lockFile -Force -ErrorAction SilentlyContinue }
 
 exit 0
+
+
