@@ -109,6 +109,10 @@
     "lightroom": true,
     "photograph_frame": true
   },
+  "item-descriptions": {
+    "block_descriptions": true,
+    "entity_descriptions": true
+  },
   "delightful": {
     "crop_progress": true,
     "pie_icons": true,
