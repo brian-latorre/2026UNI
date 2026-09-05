@@ -79,8 +79,8 @@ if (Test-Path $indexPath) {
     $indexContent = Get-Content $indexPath -Raw
     
         $preservePatterns = @(
-        'file = "options\.txt"',
-        'file = "config/embeddium-options\.json"',
+        #'file = "options\.txt"',
+        #'file = "config/embeddium-options\.json"',
         'file = "config/oculus\.properties"',
         'file = "config/DistantHorizons\.toml"',
         'file = "shaderpacks/.*?\.txt"',
