@@ -537,7 +537,7 @@ $fields += @{ name = "$e_Cierre Hora de Cierre"; value = "$horaCierreStr"; inlin
 $fields += @{ name = $phantom; value = $phantom; inline = $true }
 
 # Leer perfil activo
-$perfilTxt = Join-Path $mcDir "scripts\perfil.txt"
+$perfilTxt = Join-Path $mcDir "perfil.txt"
 $perfilName = "Normal"
 if (Test-Path $perfilTxt) {
     $perfilName = (Get-Content $perfilTxt).Trim()
