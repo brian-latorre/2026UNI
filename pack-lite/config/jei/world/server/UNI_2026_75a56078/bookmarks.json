@@ -16,5 +16,6 @@
   {"type":"item_stack","value":"{Count:1b,id:\"powah:solar_panel_hardened\"}"},
   {"type":"item_stack","value":"{Count:1b,id:\"powah:steel_energized\"}"},
   {"type":"item_stack","value":"{Count:1b,id:\"powah:capacitor_hardened\"}"},
-  {"type":"item_stack","value":"{Count:1b,id:\"minecraft:arrow\"}"}
+  {"type":"item_stack","value":"{Count:1b,id:\"minecraft:arrow\"}"},
+  {"type":"recipe","value":"minecraft:crafting#farmersdelight:organic_compost_from_tree_bark#item_stack\u0026farmersdelight:organic_compost"}
 ]

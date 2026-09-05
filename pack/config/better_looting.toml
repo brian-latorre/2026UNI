@@ -1,18 +1,18 @@
 
 #视觉与 UI 设置 (Visual & UI Settings)
 [Visual]
-	xOffset = -4.666667
-	yOffset = -1.6699703
+	xOffset = -19.0
+	yOffset = 13.359762
 	uiScale = 0.75
-	panelWidth = 172
-	visibleRows = 5.835976
-	globalAlpha = 0.7244186
+	panelWidth = 156
+	visibleRows = 6.077194
+	globalAlpha = 0.9
 	#是否显示快捷栏过滤指示器
-	showHotbarIndicator = true
+	showHotbarIndicator = false
 	#自定义悬浮窗标题 (留空则隐藏)
 	customOverlayTitle = "Loot Detected"
 	#新物品标签文本 (留空则隐藏, 默认 NEW)
-	newLabelText = "NEW"
+	newLabelText = ""
 	#物品栏左侧掉落物列表面板宽度 (默认 100)
 	inventoryListWidth = 100
 	#物品栏掉落列表相对默认贴合位置的额外 X 偏移
@@ -52,8 +52,8 @@
 [Interaction]
 	#动画速度: SLOW(慢) / MEDIUM(中,默认) / FAST(快) / OFF(关闭)
 	animationSpeed = "MEDIUM"
-	activationMode = "ALWAYS"
-	scrollMode = "ALWAYS"
+	activationMode = "LOOK_DOWN"
+	scrollMode = "KEY_BIND"
 
 #判定参数设置 (Scanning Parameters)
 [Scanning]

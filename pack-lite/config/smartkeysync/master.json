@@ -1,6 +1,6 @@
 {
   "base_version": 1,
-  "latest_version": 3,
+  "latest_version": 6,
   "base_keys": {
     "key.attack": {
       "key": "key.mouse.left",
@@ -1376,6 +1376,229 @@
         },
         "key.presencefootsteps.toggle": {
           "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        }
+      }
+    },
+    {
+      "version": 4,
+      "description": "FindMe y BetterLooting",
+      "changes": {
+        "key.ryoamiclights.dyn_light": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.saintsdragons.toggle_dragon_ui": {
+          "key": "key.keyboard.f4",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.saintsdragons.ascend": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.saintsdragons.descend": {
+          "key": "key.keyboard.left.alt",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.saintsdragons.accelerate": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.saintsdragons.ability_tertiary": {
+          "key": "key.keyboard.g",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.saintsdragons.ability_primary": {
+          "key": "key.keyboard.r",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.saintsdragons.ability_secondary": {
+          "key": "key.keyboard.h",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.saintsdragons.toggle_melee": {
+          "key": "key.keyboard.x",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.saintsdragons.flex": {
+          "key": "key.keyboard.4",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.saintsdragons.toggle_ability_debug": {
+          "key": "key.keyboard.f7",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.apricityui.release_mouse": {
+          "key": "key.keyboard.left.alt",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.apricityui.reload": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.apricityui.dev_tools": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.apricityui.resource_manager": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.quickMove": {
+          "key": "key.mouse.left",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.jei.showBookmarkTooltipFeatures": {
+          "key": "key.keyboard.left.control",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.pauseRecipeCycling": {
+          "key": "key.keyboard.left.shift",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.jei.shareToChat": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.better_looting.toggle_filter": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.better_looting.pickup": {
+          "key": "key.keyboard.f",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.better_looting.pickup_alt": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.better_looting.pickup_all_modifier": {
+          "key": "key.keyboard.left.shift",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.better_looting.open_config": {
+          "key": "key.keyboard.f",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.better_looting.toggle_auto": {
+          "key": "key.keyboard.f",
+          "modifier": "ALT",
+          "forced": false
+        },
+        "key.better_looting.show_overlay": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.better_looting.scroll_up": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.better_looting.scroll_down": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.better_looting.scroll_modifier": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.better_looting.open_filter_panel": {
+          "key": "key.keyboard.left.alt",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "framedblocks.key.update_cull": {
+          "key": "key.keyboard.f9",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "framedblocks.key.wipe_cache": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.find_me.mount": {
+          "key": "key.keyboard.r",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.find_me.companion": {
+          "key": "key.keyboard.y",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.find_me.command": {
+          "key": "key.keyboard.f6",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.find_me.manage": {
+          "key": "key.keyboard.l",
+          "modifier": "CONTROL",
+          "forced": false
+        },
+        "key.find_me.gui_inspector": {
+          "key": "key.keyboard.f7",
+          "modifier": "NONE",
+          "forced": false
+        }
+      }
+    },
+    {
+      "version": 5,
+      "description": "FindMe R -\u003e Y",
+      "changes": {
+        "key.find_me.mount": {
+          "key": "key.keyboard.y",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.find_me.companion": {
+          "key": "key.keyboard.i",
+          "modifier": "NONE",
+          "forced": false
+        }
+      }
+    },
+    {
+      "version": 6,
+      "description": "Better Looting",
+      "changes": {
+        "key.better_looting.open_config": {
+          "key": "key.keyboard.f",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.better_looting.scroll_modifier": {
+          "key": "key.keyboard.left.control",
           "modifier": "NONE",
           "forced": false
         }

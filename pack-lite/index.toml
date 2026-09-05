@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "70d7a89e76b7da466d3a6febaccb42b47698b33bb2366df3bc31617a437f6717"
+hash = "38568910b70eeb8941b40241e8bc4eaa481659e96a5ad1924992b66e3448e87a"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -550,6 +550,10 @@ file = "config/appleskin-client.toml"
 hash = "b477c8c493b28366a6b282f29f46c9415e3a4a2a23fff6e09331644c435dfd48"
 
 [[files]]
+file = "config/apricityui-client.toml"
+hash = "e18bf2841ee02ec0c9318796a91cfb2b6b93d113ff2472f8a434c5914e4fe012"
+
+[[files]]
 file = "config/artifacts/client.json5"
 hash = "dfae4a12bf924a5e12380032ff257ec535c6b003fef539a3893adb05c0a69c56"
 
@@ -567,7 +571,7 @@ hash = "dee286337f4d870b63bb0a4c8d9add6385b363f1edd04209e6a74ff9fd7d9d6e"
 
 [[files]]
 file = "config/attributefix.json"
-hash = "a5f57d321b1618bb7526f84a1d92d168350e7a5e9b039d56532c5890a7065a36"
+hash = "53fb1c32a639242d90914e6dffb3c9958b81d354534f222f623f6dda8321eb9f"
 
 [[files]]
 file = "config/badoptimizations.txt"
@@ -580,6 +584,14 @@ hash = "6a6ccd51b77c9fad53449f783d1f12d2c46f424bdd6bfba0c8f98d5211dd6237"
 [[files]]
 file = "config/beachparty.toml"
 hash = "5c808677268b0abe456c152cdac2be0f664e31a52b47b43c1a504048c42df7ec"
+
+[[files]]
+file = "config/better_looting.toml"
+hash = "bf91c919d232d93b182cc37a51bb5e95d8fbba59e634d52c40127ede8fb62efe"
+
+[[files]]
+file = "config/better_looting/skins/README.txt"
+hash = "1bd19e4cede5557553c11e809451c5c90797c28fcaa3c531b6b858d755c8ff14"
 
 [[files]]
 file = "config/bettercombat/client.json5"
@@ -707,7 +719,7 @@ hash = "7dd7dc266613f18011a9a5ba624e50c35374ad2b39ea379231c3c44e7b2261b3"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "39d0028c2e72186ef3431754d70e425179b4f2f4be5842522ee8b6bebdc66ad5"
+hash = "9d1b1e49079dd7cefccacc75f21d95493d65e155b24e605e2daeeffc8a674519"
 
 [[files]]
 file = "config/collective.json5"
@@ -881,7 +893,7 @@ hash = "ec723e97e1b28b86fcf784fdec214163ce8e0b5e9a19899f752f314405a7bd72"
 
 [[files]]
 file = "config/emojiful_usage.json"
-hash = "d06a33f63c3898c53675014801d190b93875e1ae6a833e40f3a0d1d7ba3ddf41"
+hash = "75549fa26eba449a463fa4aaac80be84f1bd90c32e621cca00d87a3b95bb6fbf"
 
 [[files]]
 file = "config/emotecraft.json"
@@ -933,7 +945,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "2b225921b7ee5dcf59b638a145720f26cfc20dabb0ad8e78cc8f5ea2e620a56b"
+hash = "6b5f6932e49e7077cfb0ba0c1e0050223a761fcde4a60fb729e2ba5f3cdbe0f0"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1204,6 +1216,10 @@ file = "config/fieldguide-server.json"
 hash = "1138c72a928c6102862d83c07612ac0617b18a4d69cde677ec7f1391d543ada5"
 
 [[files]]
+file = "config/find_me-common.toml"
+hash = "c2cd471c2ee382d852c1d7a31c6d49cee3cac20e34fde069b341a2f4b17d4f1e"
+
+[[files]]
 file = "config/firstperson.json"
 hash = "6d9d8a3708ccf453fb710f4e10591cedd4d1767acde97c7da7bbc2cd2c4d4101"
 
@@ -1226,30 +1242,37 @@ hash = "0b1b3c45343435184c9dde3149b38afcdb97953e287686ecda54385f53ebcddc"
 [[files]]
 file = "config/forgematica.json"
 hash = "2388e5c1b6c79576dccd983367faa6e4e4b68388c618c8d342c0a9695fe73ab0"
+preserve = true
 
 [[files]]
 file = "config/forgematica/forgematica_mundo_nuevo.json"
 hash = "12174fd2e7b7105aa4aa98a486df7baa470fd770ff30a731cf314c4fd571701a"
+preserve = true
 
 [[files]]
 file = "config/forgematica/forgematica_mundo_nuevo_dim_minecraft_overworld.json"
 hash = "4a6809e2e3fd89774626b695a48533eaeee73131af4f27333f09af1807eae2bf"
+preserve = true
 
 [[files]]
 file = "config/forgematica/forgematica_mundo_nuevo_dim_minecraft_the_nether.json"
 hash = "4a6809e2e3fd89774626b695a48533eaeee73131af4f27333f09af1807eae2bf"
+preserve = true
 
 [[files]]
 file = "config/forgematica/forgematica_wriggly-jm.gl.joinmc.link.json"
 hash = "c5084e511824ed9f2f38764243b970bd4c7d1047c5fa450b4f4e1c6a2cf9622e"
+preserve = true
 
 [[files]]
 file = "config/forgematica/forgematica_wriggly-jm.gl.joinmc.link_dim_minecraft_overworld.json"
 hash = "5be534bd47918d628d825a62a5ad071e0ac06d2c1abf33672aa46855be71ce97"
+preserve = true
 
 [[files]]
 file = "config/forgematica/forgematica_wriggly-jm.gl.joinmc.link_dim_minecraft_the_nether.json"
 hash = "5be534bd47918d628d825a62a5ad071e0ac06d2c1abf33672aa46855be71ce97"
+preserve = true
 
 [[files]]
 file = "config/forgeskyboxes-config.json"
@@ -1429,11 +1452,11 @@ hash = "8a9c0403b385ca106d0c0b541ea2f2128bf39e3f9b05b342b176ca11834857a4"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "3b60f76214680c6082469647562730a9040dbdb8c7625eea69b5641c9546f912"
+hash = "fb17eeb7ed90e988e4e2cbb43a4a9c6f3faa452c75c84110c6f69eaa29b5691a"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "f9034dc07cc3d084b56517c8a65e8d4dff1f1d3a805274bc21e21485e033ea83"
+hash = "d6ccca436ab667143b6a352a26ffc22af2335f45e041e1dfe0faa15ea9d88e5f"
 
 [[files]]
 file = "config/jeed-client.toml"
@@ -1449,7 +1472,7 @@ hash = "3ca754fefc49ea02e5203353bc3390e520e6717dd8b148aa07042f0b48a78621"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "a9da0fd3edd514b2fc4e4580ed507d626b0173cb5d6e75aa2234339dcd9cbb1e"
+hash = "e5bf48fae011b4a880170de3c7cf09b6fc2e20de1bfd53489981749517be31cf"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1473,7 +1496,7 @@ hash = "64eadca7fa07c15de7fd549c4cc4782bf8678d8a49d1626b0805e337d604ccb7"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "270ac719d4e27e1f8fa98b7b0db14a2642ab604821bb52a346d508d115915a17"
+hash = "975e561cd61c76d63be3fb12448b502f0414db96005c54bc7d70253874f47645"
 
 [[files]]
 file = "config/jei/world/local/Mundo nuevo/lookupHistory.ini"
@@ -1493,11 +1516,11 @@ hash = "2d7ca5c4ebfcc2f770b6e3b0baa73a12c41e24ff13c478090443f8d8c47155f3"
 
 [[files]]
 file = "config/jei/world/server/UNI_2026_75a56078/bookmarks.json"
-hash = "375d0b0d8e527e263544af72ca8688fe46a9747b803160cba63e14097a9d4f64"
+hash = "ec1d2b32df09412b19ef48db05f60e02de5627936eeafba9cfd624c58252387b"
 
 [[files]]
 file = "config/jei/world/server/UNI_2026_75a56078/lookupHistory.ini"
-hash = "c08884d6b807710f749ffde9c60721b5126db35743c2d4168c3664da18f7c659"
+hash = "49aef7d68212c09a8f0478e55daa61f8c0d9b60c4487f16d6e0517eede6b215d"
 
 [[files]]
 file = "config/jeresources-common.toml"
@@ -1573,7 +1596,7 @@ hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
 [[files]]
 file = "config/mcreator_mem_fix.json"
-hash = "66aa4eb94e61fd937b3dbe2bc2c55d48308ff7a14e1a9fd114a79f46751deae4"
+hash = "e751a42cfb821543b36a650b10dedc030e848d325d14718396130eb0a0da2a99"
 
 [[files]]
 file = "config/mobplayeranimator/client.json5"
@@ -1694,7 +1717,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "84736c56c9bd3d07273279b128bd9eb11a825b7ec1a7ea1e2f1b64d607e030d3"
+hash = "d0841745b1c206f25128bcd7271d363a39958201d90edc4528203df8244e0c71"
 
 [[files]]
 file = "config/presencefootsteps/updater.json"
@@ -1774,7 +1797,31 @@ hash = "6d329122279318bc4d91c27038ed6a7c712f55f32760cdb516c23c7744228b41"
 
 [[files]]
 file = "config/ryoamiclights.toml"
-hash = "be15ca12f62ba85259971c783ff3ea49374bbafcc0595c6d22b04d9747f8fb2c"
+hash = "e55fc69e30a0ca4e3777e9ad0c998c5c24436c53504cbe325b539a32b99fc1e6"
+
+[[files]]
+file = "config/saintsdragons/client/clientcommon.toml"
+hash = "8ff421cdf8804c3e75c412622408e7158a15e3920e2389cbe75750c5a25b52d9"
+
+[[files]]
+file = "config/saintsdragons/client/dragon_rider_camera/camera_tuning.json"
+hash = "7ff3114bf5ff6ef98b287370434a56781969bed1dc44ccd6872bf07b3c78d867"
+
+[[files]]
+file = "config/saintsdragons/server/attributes.toml"
+hash = "3a578c09626d7bf59c713d6c4fe820a0051b8faeff1794ee618e8d0c1db10193"
+
+[[files]]
+file = "config/saintsdragons/server/servercommon.toml"
+hash = "970a23af97ca806bae1e867e3a0ebc0b1fbe2fdb825e148b36af5fb3d5227100"
+
+[[files]]
+file = "config/saintsdragons/server/spawning.toml"
+hash = "f6a72fd3f907e15912bb0dd28117c11a700768bb6dfa36410b812d6c5db967c7"
+
+[[files]]
+file = "config/saintsdragons/server/tools_and_armor.toml"
+hash = "b49e913a3a8fe5c14bdbf951359affe7968f88db468bba586cf13e8131744218"
 
 [[files]]
 file = "config/saturn-optimizations.toml"
@@ -1810,7 +1857,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "000a7278b69a76ba1002a849079132b018eee08383e6a32c3ea6b8134fd967dd"
+hash = "396fcebedca95913d42b04e91768de5c3e096d8caf2296f2ce798162bc8c3d1e"
 
 [[files]]
 file = "config/simplehats.json"
@@ -1838,7 +1885,7 @@ hash = "ac1a4e660c8a567b4c945962d063eeced1a0040615214ea4aebb947ff6af7d33"
 
 [[files]]
 file = "config/smartkeysync/master.json"
-hash = "9f82cd8070d798313ab26238edaace7dca686fa43c1f3a5323ffed3fab35686b"
+hash = "d7edb48a3350cb1a65f7858d91b9c0e97249985c217616489f88ac50b1e4ba44"
 
 [[files]]
 file = "config/smoothboot.json"
@@ -2090,7 +2137,7 @@ hash = "888d2904bd7dd577f72d901603912a440540eba21212b004cf6abe41f1cde23b"
 
 [[files]]
 file = "config/subtle_effects/blocks.toml"
-hash = "0ee1efbbd94b6bcd0e89fbea90c29947fb7039004741af951bf40594f8649e3d"
+hash = "309ca867bb07c469b0db297d4542c0f59b028a48b8c7ac31ce8a816a5d971e65"
 
 [[files]]
 file = "config/subtle_effects/entities.toml"
@@ -2274,7 +2321,7 @@ hash = "35d612c19bcb7d97e8f20f8e31a52b0013ec364e3456cd51c139b98ca7c7684e"
 
 [[files]]
 file = "config/voicechat/voicechat-client.properties"
-hash = "f34bec0a231e6ffda396bc269c4d5205ce2f2459c1d07c3fc84ede30eaac44fb"
+hash = "aac6c199888a73d6364ca7d4409ca867e3ce5d8c4178b0b932992cd2e7b12da0"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
@@ -2354,7 +2401,7 @@ hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "config/xaero/minimap/profiles/changes.cfg"
-hash = "10056c0ac25fa3ee666b563bd15fd3c815b3f52de522736fe92a4b60d6bfd843"
+hash = "c2e8f9a62d12713215fd695af9a2afe5f3e57fd25fbf5bf761bb9e449c2b0429"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
@@ -2362,7 +2409,7 @@ hash = "e614d9367c183f482bafc627bbd9f99e791568d137f026961a105a68c1bacc1e"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/changes.cfg.json"
-hash = "3cf96c4d33ebaabf09e376cb905141933f0419244274ff624b7d8e124efe0501"
+hash = "d10377d93e3b43431c50816855458a4a48413184e72c3d8ab7fc9bdee60bbde4"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
@@ -2382,7 +2429,7 @@ hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
 
 [[files]]
 file = "config/xaero/world-map/client.cfg"
-hash = "44f7e98163680991f71a4f5f0380f9974b530fd5cc7fe47a97d836a3a544cd75"
+hash = "2aa007125d804d10a473ff54f7cbbc1d3314f3db58a013c165de5b9834419e5e"
 
 [[files]]
 file = "config/xaero/world-map/common.cfg"
@@ -8220,7 +8267,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "e9725a21988b2e482966764557c9b638db78e1d8908623597626b857c3deb20d"
+hash = "2ce8df413853d37abf0e273b586815cb89cd4ebcb4bef547bf12827cb2530b56"
 preserve = true
 
 [[files]]
@@ -8532,6 +8579,10 @@ file = "resourcepacks/Unique Dark - Lite - 1.20.1.zip"
 hash = "e2340c2f39baf415824bf032fa4f633e0464c15d0a1368a65c478d174a7fbf38"
 
 [[files]]
+file = "resourcepacks/White Block Selection Outline.zip"
+hash = "add0e2c0bf7be79cdb5e9ae29a520f18617df81591e403f90318c9cd8f684de3"
+
+[[files]]
 file = "resourcepacks/Xaero's Extended Mob Icons v1.6.zip"
 hash = "308e1456d091021b294fd6ebd2ac3758829fad9f1380869265e6585d21181bf2"
 
@@ -8546,6 +8597,10 @@ hash = "3f35eff5efe462e9f6c8f640cdd1d24dfefbcd1e5d345f19f088f8625df0e9e0"
 [[files]]
 file = "scripts/auto-import-mods.py"
 hash = "c2155d70421bcde7130bd1e82f1d725cfcab2cc938c84459cd7f3ac286428bb2"
+
+[[files]]
+file = "scripts/enviar-logs.bat"
+hash = "90436d8baa1987ee4a1c674e6fb30e1143e2392403ade0473a80cb74b701f757"
 
 [[files]]
 file = "scripts/modules/Graficos.Restaurador.ps1"
@@ -8570,6 +8625,10 @@ hash = "b3f7ec9aa67ecc7f9c46a43cef77dca9449674aa71eb48757e86fa620faee6c8"
 [[files]]
 file = "scripts/options.txt"
 hash = "79b2ad0c7f0419f86301f82ca083954bc1bd44466122e34cddd835c528738b89"
+
+[[files]]
+file = "scripts/pre-launch.bat"
+hash = "b82b363789dcec6c8d1bd8c781d8ed3b80c4216f7e8e4fef3988113b85339d7a"
 
 [[files]]
 file = "servers.dat"

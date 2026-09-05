@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "70d7a89e76b7da466d3a6febaccb42b47698b33bb2366df3bc31617a437f6717"
+hash = "38568910b70eeb8941b40241e8bc4eaa481659e96a5ad1924992b66e3448e87a"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -587,7 +587,7 @@ hash = "5c808677268b0abe456c152cdac2be0f664e31a52b47b43c1a504048c42df7ec"
 
 [[files]]
 file = "config/better_looting.toml"
-hash = "0e0bfc98e4f88d676124b790ebb6472a59453dcbd772e6359f830d8048631a9c"
+hash = "bf91c919d232d93b182cc37a51bb5e95d8fbba59e634d52c40127ede8fb62efe"
 
 [[files]]
 file = "config/better_looting/skins/README.txt"
@@ -1229,7 +1229,7 @@ hash = "f8f7b6978ff358427c0e3ca886513abe22cbb782bdda63b1634fa6d304098ca6"
 
 [[files]]
 file = "config/flywheel-client.toml"
-hash = "a1f5418ea2735fe080ad97efa9718712496e309bf0e7e859c47b1dd56e751149"
+hash = "1ec7db007340922806f292dc68a62c66288acaeb4e9ebe1ad7df233d0225e9ac"
 
 [[files]]
 file = "config/fml.toml"
@@ -1242,30 +1242,37 @@ hash = "0b1b3c45343435184c9dde3149b38afcdb97953e287686ecda54385f53ebcddc"
 [[files]]
 file = "config/forgematica.json"
 hash = "2388e5c1b6c79576dccd983367faa6e4e4b68388c618c8d342c0a9695fe73ab0"
+preserve = true
 
 [[files]]
 file = "config/forgematica/forgematica_mundo_nuevo.json"
 hash = "12174fd2e7b7105aa4aa98a486df7baa470fd770ff30a731cf314c4fd571701a"
+preserve = true
 
 [[files]]
 file = "config/forgematica/forgematica_mundo_nuevo_dim_minecraft_overworld.json"
 hash = "4a6809e2e3fd89774626b695a48533eaeee73131af4f27333f09af1807eae2bf"
+preserve = true
 
 [[files]]
 file = "config/forgematica/forgematica_mundo_nuevo_dim_minecraft_the_nether.json"
 hash = "4a6809e2e3fd89774626b695a48533eaeee73131af4f27333f09af1807eae2bf"
+preserve = true
 
 [[files]]
 file = "config/forgematica/forgematica_wriggly-jm.gl.joinmc.link.json"
 hash = "c5084e511824ed9f2f38764243b970bd4c7d1047c5fa450b4f4e1c6a2cf9622e"
+preserve = true
 
 [[files]]
 file = "config/forgematica/forgematica_wriggly-jm.gl.joinmc.link_dim_minecraft_overworld.json"
 hash = "5be534bd47918d628d825a62a5ad071e0ac06d2c1abf33672aa46855be71ce97"
+preserve = true
 
 [[files]]
 file = "config/forgematica/forgematica_wriggly-jm.gl.joinmc.link_dim_minecraft_the_nether.json"
 hash = "5be534bd47918d628d825a62a5ad071e0ac06d2c1abf33672aa46855be71ce97"
+preserve = true
 
 [[files]]
 file = "config/forgeskyboxes-config.json"
@@ -1878,7 +1885,7 @@ hash = "ac1a4e660c8a567b4c945962d063eeced1a0040615214ea4aebb947ff6af7d33"
 
 [[files]]
 file = "config/smartkeysync/master.json"
-hash = "08c43c451d356e2e15d8cb14c7dad362ab5eb1596f28cfda24702f015a5403e3"
+hash = "d7edb48a3350cb1a65f7858d91b9c0e97249985c217616489f88ac50b1e4ba44"
 
 [[files]]
 file = "config/smoothboot.json"
@@ -8674,6 +8681,10 @@ file = "scripts/config/oculus.properties"
 hash = "2866f13fd4c76501ff5e8a8cb1c22f4ba03b0966978e2bf9df6a168a0a87839a"
 
 [[files]]
+file = "scripts/enviar-logs.bat"
+hash = "90436d8baa1987ee4a1c674e6fb30e1143e2392403ade0473a80cb74b701f757"
+
+[[files]]
 file = "scripts/modules/Graficos.Restaurador.ps1"
 hash = "808f975808c8c64d0adcfcf131f185c3acb36f27df802958c619e328792e3cd0"
 
@@ -8696,6 +8707,10 @@ hash = "b3f7ec9aa67ecc7f9c46a43cef77dca9449674aa71eb48757e86fa620faee6c8"
 [[files]]
 file = "scripts/options.txt"
 hash = "79b2ad0c7f0419f86301f82ca083954bc1bd44466122e34cddd835c528738b89"
+
+[[files]]
+file = "scripts/pre-launch.bat"
+hash = "b82b363789dcec6c8d1bd8c781d8ed3b80c4216f7e8e4fef3988113b85339d7a"
 
 [[files]]
 file = "servers.dat"

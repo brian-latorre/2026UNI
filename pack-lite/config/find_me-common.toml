@@ -1,0 +1,6 @@
+
+#[Dialogue] Editable summon, rescue, storage, and warning subtitle lines. Entries use first line|second line. Either side may be spoken by the player or creature. A blank first line such as |reply makes only the second line appear.
+[dialogue]
+	#[Dialogue] All dialogue overrides in one list. Format: context=first line|second line. Repeat a context for multiple pairs; context= disables it.
+	dialogueOverrides = []
+

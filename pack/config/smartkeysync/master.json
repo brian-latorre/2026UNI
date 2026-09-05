@@ -1,6 +1,6 @@
 {
   "base_version": 1,
-  "latest_version": 5,
+  "latest_version": 6,
   "base_keys": {
     "key.attack": {
       "key": "key.mouse.left",
@@ -1583,6 +1583,22 @@
         },
         "key.find_me.companion": {
           "key": "key.keyboard.i",
+          "modifier": "NONE",
+          "forced": false
+        }
+      }
+    },
+    {
+      "version": 6,
+      "description": "Better Looting",
+      "changes": {
+        "key.better_looting.open_config": {
+          "key": "key.keyboard.f",
+          "modifier": "SHIFT",
+          "forced": false
+        },
+        "key.better_looting.scroll_modifier": {
+          "key": "key.keyboard.left.control",
           "modifier": "NONE",
           "forced": false
         }
