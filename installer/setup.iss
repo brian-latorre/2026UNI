@@ -92,21 +92,6 @@ Source: "..\instance-template\mmc-pack.json"; \
     DestDir: "{app}\PineconeMC\instances\2026UNI"; \
     Flags: ignoreversion
 
-; --- Instance template: enviar-logs.ps1 ---
-Source: "..\instance-template\enviar-logs.ps1"; \
-    DestDir: "{app}\PineconeMC\instances\2026UNI"; \
-    Flags: ignoreversion
-
-; --- Instance template: enviar-logs.bat ---
-Source: "..\instance-template\enviar-logs.bat"; \
-    DestDir: "{app}\PineconeMC\instances\2026UNI"; \
-    Flags: ignoreversion
-
-; --- Instance template: pre-launch.bat ---
-Source: "..\instance-template\pre-launch.bat"; \
-    DestDir: "{app}\PineconeMC\instances\2026UNI"; \
-    Flags: ignoreversion
-
 ; --- Instance template: .minecraft contents ---
 Source: "..\instance-template\.minecraft\*"; \
     DestDir: "{app}\PineconeMC\instances\2026UNI\.minecraft"; \
@@ -258,8 +243,8 @@ begin
     CfgContent := CfgContent + 'notes=Modpack privado del servidor 2026UNI.\nMinecraft 1.20.1 + Forge 47.4.16\n\nLas actualizaciones se descargan autom\u00e1ticamente al darle Play.' + #13#10;
     CfgContent := CfgContent + #13#10;
     CfgContent := CfgContent + 'OverrideCommands=true' + #13#10;
-    CfgContent := CfgContent + 'PreLaunchCommand=cmd.exe /c "$INST_DIR/pre-launch.bat"' + #13#10;
-    CfgContent := CfgContent + 'PostExitCommand=cmd.exe /c "$INST_DIR/enviar-logs.bat"' + #13#10;
+    CfgContent := CfgContent + 'PreLaunchCommand=cmd.exe /c "$INST_MC_DIR/scripts/pre-launch.bat"' + #13#10;
+    CfgContent := CfgContent + 'PostExitCommand=cmd.exe /c "$INST_MC_DIR/scripts/enviar-logs.bat"' + #13#10;
     CfgContent := CfgContent + #13#10;
     CfgContent := CfgContent + 'OverrideJavaLocation=true' + #13#10;
     CfgContent := CfgContent + 'IgnoreJavaCompatibility=true' + #13#10;
@@ -300,3 +285,7 @@ begin
     SaveStringToFile(PrismCfgPath, PrismContent, False);
   end;
 end;
+
+
+
+
