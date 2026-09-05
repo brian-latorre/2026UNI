@@ -250,7 +250,7 @@ begin
     CfgContent := CfgContent + 'IgnoreJavaCompatibility=true' + #13#10;
     CfgContent := CfgContent + 'JavaPath=' + JavaPath + #13#10;
     CfgContent := CfgContent + #13#10;
-    CfgContent := CfgContent + 'OverrideMemory=true' + #13#10;
+    CfgContent := CfgContent + 'OverrideMemory=false' + #13#10;
     CfgContent := CfgContent + 'LowMemWarning=false' + #13#10;
     CfgContent := CfgContent + #13#10;
     CfgContent := CfgContent + 'OverrideJavaArgs=true' + #13#10;
@@ -285,6 +285,7 @@ begin
     SaveStringToFile(PrismCfgPath, PrismContent, False);
   end;
 end;
+
 
 
 
