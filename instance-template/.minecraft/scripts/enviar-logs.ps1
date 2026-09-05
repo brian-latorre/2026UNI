@@ -534,8 +534,15 @@ $fields += @{ name = "$e_Inicio Hora de Inicio"; value = "$horaInicioStr"; inlin
 $fields += @{ name = "$e_Cierre Hora de Cierre"; value = "$horaCierreStr"; inline = $true }
 $fields += @{ name = $phantom; value = $phantom; inline = $true }
 
+# Leer perfil activo
+$perfilTxt = Join-Path $mcDir "scripts\perfil.txt"
+$perfilName = "Normal"
+if (Test-Path $perfilTxt) {
+    $perfilName = (Get-Content $perfilTxt).Trim()
+}
+
 # 3. Datos Básicos
-$fields += @{ name = "$e_Modpack Modpack"; value = "$verObj"; inline = $true }
+$fields += @{ name = "$e_Modpack Modpack"; value = "$verObj ($perfilName)"; inline = $true }
 $fields += @{ name = "$e_Exit Exit Code"; value = "$exitCode"; inline = $true }
 $fields += @{ name = $phantom; value = $phantom; inline = $true }
 
