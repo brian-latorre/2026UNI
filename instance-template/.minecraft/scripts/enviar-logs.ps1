@@ -543,6 +543,15 @@ if (Test-Path $perfilTxt) {
     $perfilName = (Get-Content $perfilTxt).Trim()
 }
 
+# Leer GC activo (ZGC o G1GC)
+$instCfgPath = Join-Path $mcDir "..\instance.cfg"
+$gcName = "Desconocido"
+if (Test-Path $instCfgPath) {
+    $instContent = Get-Content $instCfgPath
+    if ($instContent -match "-XX:\+UseZGC") { $gcName = "ZGC" }
+    elseif ($instContent -match "-XX:\+UseG1GC") { $gcName = "G1GC" }
+}
+
 # 3. Datos Básicos
 $fields += @{ name = "$e_Modpack Modpack"; value = "$verObj ($perfilName)"; inline = $true }
 $fields += @{ name = "$e_Exit Exit Code"; value = "$exitCode"; inline = $true }
@@ -552,7 +561,7 @@ $fields += @{ name = $phantom; value = $phantom; inline = $true }
 $fields += @{ name = "$e_SO SO y Hardware"; value = "$($hw.OS)"; inline = $false }
 $fields += @{ name = "$e_GPU_PC Gr$($a_ac)ficos (PC)"; value = "$($hw.GPU)"; inline = $false }
 $fields += @{ name = "$e_GPU_Juego Gr$($a_ac)ficos (Juego)"; value = "$gameGpu"; inline = $false }
-$fields += @{ name = "$e_RAM RAM (Triple)"; value = "Libre: $([math]::Round($hw.RAMFree/1024, 1)) GB | Asignada: $($hw.RAMAssigned) | Total: $([math]::Round($hw.RAMTotal/1024, 1)) GB"; inline = $false }
+$fields += @{ name = "$e_RAM RAM (Triple)"; value = "Libre: $([math]::Round($hw.RAMFree/1024, 1)) GB | Asignada: $($hw.RAMAssigned) | Total: $([math]::Round($hw.RAMTotal/1024, 1)) GB | GC: $gcName"; inline = $false }
 
 # 5. Disco, Boot, Ping
 $fields += @{ name = "$e_Disco Disco"; value = "$([math]::Round($hw.DiskTotal - $hw.DiskFree, 1)) GB / $($hw.DiskTotal) GB ($($hw.DiskFree) GB Libres)"; inline = $true }
