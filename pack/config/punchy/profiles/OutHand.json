@@ -1,0 +1,16 @@
+{
+  "globalArm": {
+    "right": {
+      "scale": 0.8846591,
+      "offX": -0.30303025,
+      "offY": 0.090909004,
+      "offZ": -1.0833333,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "pivotX": 0.0,
+      "pivotY": 0.0,
+      "pivotZ": 0.0
+    }
+  }
+}

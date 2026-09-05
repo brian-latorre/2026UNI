@@ -1,0 +1,13 @@
+name = "Blessfulled: Damage Indicators+"
+filename = "blessfulled-0.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a8a3ad55d993eea95ba4b4edbe0a7dafce897b39"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6624691
+project-id = 1182590

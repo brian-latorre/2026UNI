@@ -1,0 +1,13 @@
+name = "Even More Instruments!"
+filename = "evenmoreinstruments-1.20-1.20.1-6.1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "520f230fe89f76855e9e9fb932c037d96fc53ca6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6414975
+project-id = 898118

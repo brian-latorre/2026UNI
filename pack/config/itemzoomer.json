@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "appearAnimation": "SCALE",
+  "idleAnimation": "PULSE",
+  "appearDelayMs": 149,
+  "itemSizePercent": 100,
+  "showItemInfo": true,
+  "infoDelaySeconds": 0,
+  "favoritesOverlap": "ABOVE"
+}

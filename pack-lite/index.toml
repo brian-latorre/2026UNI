@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "38568910b70eeb8941b40241e8bc4eaa481659e96a5ad1924992b66e3448e87a"
+hash = "61b1d2cbf8287b7a4cfcf68fd210c2f320a9c40dda1d840f8aaf060077d94af5"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -6860,6 +6860,14 @@ file = "mods/MossyLib-1.3.0+1.20.1+forge.jar"
 hash = "524f6c554eafac1dc8284759d8d5b845d3d6284078d1a070ef87c59ed1bad9d1"
 
 [[files]]
+file = "mods/OpenLoader-Forge-1.20.1-19.0.5.jar"
+hash = "56da03448ce1c63cb0f41e99ae38c5857d663886f9249c234f18b7c0de44b151"
+
+[[files]]
+file = "mods/ShoulderSurfing-Forge-1.20.1-5.0.11.jar"
+hash = "b26103fb6dda529c89990966fde9af6bba8a7f96c5366f5851f2ae0049864f05"
+
+[[files]]
 file = "mods/SubtleEffects-forge-1.20.1-1.14.3.jar"
 hash = "db8fdce99a45acbd70207a2d1a0901713d3e8001699508c460ab04e93e8db92c"
 
@@ -6966,6 +6974,10 @@ metafile = true
 file = "mods/betterlooting.pw.toml"
 hash = "5acb766ccbede6603d50a6eb1c14eb158d7357f8b88696dcfd510590e3e8a941"
 metafile = true
+
+[[files]]
+file = "mods/blessfulled-0.6.jar"
+hash = "71a663edffc12b4dc6dc5fb5d0d7224ff1fe52e1c9f9f4fa952f0ebae192a366"
 
 [[files]]
 file = "mods/blue-skies.pw.toml"
@@ -7327,18 +7339,20 @@ hash = "63a9fdacf232df08a520fb1f25d2d1e878551fef4d18722c075e04d6291f5ed1"
 metafile = true
 
 [[files]]
-file = "mods/entity-model-features.pw.toml"
-hash = "5a8b971146de3aa8dc7e4b862a12c69e787189ca8252db119253efdcc99220fe"
-metafile = true
+file = "mods/entity_model_features-3.3.5-1.20.1-forge.jar"
+hash = "16cadaef8e571c86ae3d7e63e1704d9c6a7bdafa466ea485f8f1b3d139c7dcb3"
 
 [[files]]
-file = "mods/entity-texture-features-fabric.pw.toml"
-hash = "48d621f055c242082a47a9df3770b38000889b9e2b0e0d14c014ad1ae35968c4"
-metafile = true
+file = "mods/entity_texture_features-7.2.1-1.20.1-forge.jar"
+hash = "5b1b7d22af62e337b9a12cbec4402ce25e23d8f010b6593a6815ca5b7fb8cc4d"
 
 [[files]]
 file = "mods/entityculling-forge-1.9.5-mc1.20.1.jar"
 hash = "8f80f3953fc988d8c6b4a88035441cad631fea87a413267526b64543890c02b0"
+
+[[files]]
+file = "mods/evenmoreinstruments-1.20-1.20.1-6.1.4.jar"
+hash = "6833072416a8834978a2c28c33bae9b86966dbb139e4a0363ed612383b1f3885"
 
 [[files]]
 file = "mods/exposure.pw.toml"
@@ -7475,6 +7489,10 @@ hash = "30fe947e95d8da536ea4ad3c959f07cc504dd739ea530f7f4187ac08f4afcbc0"
 metafile = true
 
 [[files]]
+file = "mods/genshinstrument-1.20-1.20.1-5.0.jar"
+hash = "b026fa16597144ae68867c4dd8f6fbe030f884088ab34b3fcf67f4e3d9d8db61"
+
+[[files]]
 file = "mods/ghost.pw.toml"
 hash = "f2ad38911b75cda96c8d09b40572342f35dade8a96509ab58804f1f508146ea4"
 metafile = true
@@ -7520,16 +7538,6 @@ hash = "2621dfb5b3ad17a3adf927cc92a3bc6b0dd982c32f0265f920b29a61b34d182e"
 metafile = true
 
 [[files]]
-file = "mods/immersive-damage-indicators.pw.toml"
-hash = "3b73b6f893ef033cfc5126b0ed41c6d7410cdb634c272bc100286d8bc6f646f9"
-metafile = true
-
-[[files]]
-file = "mods/immersive-messages-api.pw.toml"
-hash = "3a86d8e0df14494e70d9bcc6389498f6b76faf65cd24ae3a81dc5edcaf964390"
-metafile = true
-
-[[files]]
 file = "mods/in-control.pw.toml"
 hash = "66e31f260f763f9643e4efd3af083fb2b9810c49cbc221cec82caf82ec19222a"
 metafile = true
@@ -7552,6 +7560,14 @@ metafile = true
 file = "mods/iron-furnaces.pw.toml"
 hash = "8a29668768e271e497991b609c4783da72c80f583e554f88a8751ec1d2fcc1d5"
 metafile = true
+
+[[files]]
+file = "mods/item-descriptions-2.5.4+1.20.1-forge.jar"
+hash = "00d12cd171330751cf23c39d4588c8b8d137c02c8fb022afd8341938ebef174d"
+
+[[files]]
+file = "mods/itemzoomer-forge-2.2.2-1.20.1.jar"
+hash = "72b92d97cc39392f6ee56e3332b19996721897989d3777f8db5a8a37e49886e8"
 
 [[files]]
 file = "mods/ixeris.pw.toml"
@@ -7906,6 +7922,10 @@ metafile = true
 file = "mods/project-871698.pw.toml"
 hash = "bbc21d2cf34d36cd4d4a6dcb56b1e58cc5d0190a54c3c4115db7fa0852b5a2e9"
 metafile = true
+
+[[files]]
+file = "mods/projectvibrantjourneys-1.20.1-6.3.0.jar"
+hash = "f081331036634e09a974b6026725dbfca22aceabe98f15a44ae3c02ffb026e99"
 
 [[files]]
 file = "mods/punchy.pw.toml"
@@ -8351,8 +8371,16 @@ file = "resourcepacks/2026UNI Translations/pack.mcmeta"
 hash = "9e6d9ca18a90e721aaa6a9ac0cbaadfd08246868cf6df54db98245e428e09e4f"
 
 [[files]]
+file = "resourcepacks/Artifacts 3D.zip"
+hash = "04e184843222118e8e4627a17641d2d43577cd4bbaca298eb86d44da289b8775"
+
+[[files]]
 file = "resourcepacks/Botania Spanish Translation.zip"
 hash = "e88fe5a0d7bdca3c7dd851e197f4dc9daefa79a71b414bbb04ffc6a074106087"
+
+[[files]]
+file = "resourcepacks/Cozy Xaero Minimap Frame - 0.0.2.zip"
+hash = "40428840a65a3f03378a64ffe8b57680161618eeffe4b15e8bf3ca7e10ff3f44"
 
 [[files]]
 file = "resourcepacks/E19 Cobblemon Minimap Icons.zip"
@@ -8555,6 +8583,10 @@ file = "resourcepacks/FA_Player_v1.1_Compatibility_Pack.zip"
 hash = "eb7b5f37d98108c728e1e9b5d8bc13840773c458bd2c0d13b30587af326c1fcc"
 
 [[files]]
+file = "resourcepacks/Fancy_Beds-v4.2.zip"
+hash = "a3fc397bd86e97077fb741812c071af2d172b57576c18bfafeec0bbb237ebbad"
+
+[[files]]
 file = "resourcepacks/Fusion Connected Glass v1.0.1 for Minecraft 1.20-1.21.8.zip"
 hash = "4abf82c1c0f10cd55942312f9a0ada0955afa2d3a94b98ce0ddcb7f4e4e87781"
 
@@ -8565,6 +8597,10 @@ hash = "bae6f54e79208f1ed912c5a3e08ee879355cbc001852b017387b6ad79a7e4cdc"
 [[files]]
 file = "resourcepacks/Icon Xaero's 1.22.zip"
 hash = "8f55e1bd5943f30e7ca895d1f4a01f3b417ecd4aeefec02e642c6d824bdbb65e"
+
+[[files]]
+file = "resourcepacks/Low Shield.zip"
+hash = "9bc38e711b71c85063f40d3004dcd1640b2bd211996b5d34537c7c287e24100f"
 
 [[files]]
 file = "resourcepacks/Quark Programmer Art.zip"
@@ -8585,6 +8621,10 @@ hash = "add0e2c0bf7be79cdb5e9ae29a520f18617df81591e403f90318c9cd8f684de3"
 [[files]]
 file = "resourcepacks/Xaero's Extended Mob Icons v1.6.zip"
 hash = "308e1456d091021b294fd6ebd2ac3758829fad9f1380869265e6585d21181bf2"
+
+[[files]]
+file = "resourcepacks/§6§lPunchy - Shubba Totem §7.zip"
+hash = "1fff09ffb22a8190712071190ef1cf2aa1316712596657339f2af0dcfe349c64"
 
 [[files]]
 file = "scripts/GUI-Configurador.ps1"

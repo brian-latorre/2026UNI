@@ -1,0 +1,13 @@
+name = "Item Zoomer"
+filename = "itemzoomer-forge-2.2.2-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "069a1d8b73b377b3408e8c9ec2e8daeee58391a8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8481326
+project-id = 1233458

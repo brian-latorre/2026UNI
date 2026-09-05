@@ -232,6 +232,7 @@
 				shark = true
 				snake = true
 				bear = true
+				deer = true
 
 			[light_sources.settings.entities.peruviansdelight]
 				atun = true
@@ -267,6 +268,7 @@
 			[light_sources.settings.entities.ghosts]
 				kodama = true
 				small_ghost = true
+				ghost = true
 
 			[light_sources.settings.entities.exposure]
 				photograph_frame = true
@@ -290,4 +292,7 @@
 				raevyx = true
 				cindervane = true
 				stegonaut = true
+				moop = true
+				ivy_oleander = true
+				arrow_of_venom = true
 
