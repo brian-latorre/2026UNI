@@ -1,5 +1,17 @@
 [
   {
+    "biomeName": "terralith:wintry_forest",
+    "chance": 15
+  },
+  {
+    "biomeName": "terralith:rocky_shrublands",
+    "chance": 5
+  },
+  {
+    "biomeName": "terralith:bryce_canyon",
+    "chance": 5
+  },
+  {
     "biomeName": "terralith:lush_valley",
     "chance": 10
   },
@@ -54,17 +66,5 @@
   {
     "biomeName": "terralith:skylands_winter",
     "chance": 10
-  },
-  {
-    "biomeName": "terralith:wintry_forest",
-    "chance": 15
-  },
-  {
-    "biomeName": "terralith:rocky_shrublands",
-    "chance": 5
-  },
-  {
-    "biomeName": "terralith:bryce_canyon",
-    "chance": 5
   }
 ]

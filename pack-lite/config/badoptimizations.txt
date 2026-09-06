@@ -39,7 +39,7 @@ enable_sky_angle_caching_in_worldrenderer: true
 # If your entity-adding mod crashes with this mod, it's probably this option's fault.
 enable_entity_renderer_caching: true
 # Whether block entity renderers should be stored in BlockEntityType instead of a HashMap.
-enable_block_entity_renderer_caching: true
+enable_block_entity_renderer_caching: false
 # Whether entity flags should be cached instead of calling DataTracker.
 # Also removes the unnecessary thread lock in DataTracker.
 # Unneeded with Lithium. Has no effect in Minecraft 1.20.5+.

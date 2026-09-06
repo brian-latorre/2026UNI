@@ -8,7 +8,7 @@
 	"Show Damage Counter" = true
 	#Size multiplier for the hit particle popups.
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Size Multiplier" = 1.0
+	"Size Multiplier" = 0.5
 	#The decimal format for the popup damage text.
 	#e.g.: [0.000] will result in numbers like 7.325 while just [0] keeps it as whole numbers.
 	"Damage Decimal Format" = "0.00"

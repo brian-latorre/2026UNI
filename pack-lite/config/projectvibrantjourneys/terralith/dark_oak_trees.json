@@ -1,5 +1,17 @@
 [
   {
+    "biomeName": "terralith:lavender_forest",
+    "chance": 15
+  },
+  {
+    "biomeName": "terralith:snowy_maple_forest",
+    "chance": 5
+  },
+  {
+    "biomeName": "terralith:skylands_autumn",
+    "chance": 3
+  },
+  {
     "biomeName": "terralith:sakura_valley",
     "chance": 10
   },
@@ -29,18 +41,6 @@
   },
   {
     "biomeName": "terralith:mirage_isles",
-    "chance": 3
-  },
-  {
-    "biomeName": "terralith:lavender_forest",
-    "chance": 15
-  },
-  {
-    "biomeName": "terralith:snowy_maple_forest",
-    "chance": 5
-  },
-  {
-    "biomeName": "terralith:skylands_autumn",
     "chance": 3
   }
 ]

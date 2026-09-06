@@ -1,0 +1,41 @@
+{
+  "radarX": 10,
+  "radarY": -1,
+  "sounds": {
+    "born_in_chaos_v1:vortex_hurt21": {
+      "volume": 0.47826087,
+      "muted": false,
+      "favorite": false
+    },
+    "born_in_chaos_v1:vortex_hurt11": {
+      "volume": 0.4710145,
+      "muted": false,
+      "favorite": false
+    },
+    "born_in_chaos_v1:vortex_death1": {
+      "volume": 0.442029,
+      "muted": false,
+      "favorite": false
+    },
+    "born_in_chaos_v1:vortex_hurt1": {
+      "volume": 0.442029,
+      "muted": false,
+      "favorite": false
+    },
+    "born_in_chaos_v1:vortex_idle2": {
+      "volume": 0.5289855,
+      "muted": false,
+      "favorite": false
+    },
+    "born_in_chaos_v1:vortex_idle1": {
+      "volume": 0.23913044,
+      "muted": false,
+      "favorite": true
+    },
+    "born_in_chaos_v1:vortex_hurt2": {
+      "volume": 0.42028984,
+      "muted": false,
+      "favorite": false
+    }
+  }
+}

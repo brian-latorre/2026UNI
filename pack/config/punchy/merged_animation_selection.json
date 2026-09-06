@@ -168,19 +168,6 @@
     },
     {
       "kind": "itemSpecific",
-      "definition": "minecraft:emptyHand",
-      "animations": {
-        "hand_in": "pack:file/§5untitled §6punchies §fv1.1.zip",
-        "hand_out": "pack:file/§5untitled §6punchies §fv1.1.zip",
-        "mining": "pack:file/§5untitled §6punchies §fv1.1.zip",
-        "useitem": "pack:file/§5untitled §6punchies §fv1.1.zip",
-        "inspect": "pack:file/§5untitled §6punchies §fv1.1.zip",
-        "attack": "pack:file/§5untitled §6punchies §fv1.1.zip",
-        "interaction": "pack:file/§5untitled §6punchies §fv1.1.zip"
-      }
-    },
-    {
-      "kind": "itemSpecific",
       "definition": "minecraft:wind_charge",
       "animations": {
         "useitem": "pack:file/hyperpunchy-v2.5+.zip",

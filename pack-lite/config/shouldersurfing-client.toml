@@ -29,13 +29,13 @@
 	[camera.offset]
 		#Third person camera x-offset.
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-		offset_x = -0.75
+		offset_x = -1.7249999999999976
 		#Third person camera y-offset.
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 		offset_y = 0.0
 		#Third person camera z-offset.
 		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-		offset_z = 4.0
+		offset_z = 4.100000000000001
 		#Whether to dynamically adjust camera offsets depending on space constraints.
 		dynamic_offsets = true
 		#Size of the offset adjustment per step.

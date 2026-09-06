@@ -58,11 +58,6 @@
 				tnt_minecart = true
 				slime = true
 				item_frame = true
-				allay = true
-				leash_knot = true
-				glow_item_frame = true
-				minecart = true
-				cave_spider = true
 
 			[light_sources.settings.entities.born_in_chaos_v1]
 				baby_spider = true
@@ -192,7 +187,6 @@
 				coal_golem = true
 				barrel_golem = true
 				hay_golem = true
-				honey_golem = true
 
 			[light_sources.settings.entities.mowziesmobs]
 				ferrous_wroughtnaut = true
@@ -238,6 +232,7 @@
 				shark = true
 				snake = true
 				bear = true
+				deer = true
 
 			[light_sources.settings.entities.peruviansdelight]
 				atun = true
@@ -269,16 +264,14 @@
 			[light_sources.settings.entities.create]
 				stationary_contraption = true
 				carriage_contraption = true
-				gantry_contraption = true
-				contraption = true
 
 			[light_sources.settings.entities.ghosts]
 				kodama = true
 				small_ghost = true
+				ghost = true
 
 			[light_sources.settings.entities.exposure]
 				photograph_frame = true
-				glass_photograph_frame = true
 
 			[light_sources.settings.entities.vinery]
 				wandering_winemaker = true
@@ -290,9 +283,16 @@
 			[light_sources.settings.entities.ribbits]
 				ribbit = true
 
-			[light_sources.settings.entities.relics]
-				spore = true
+			[light_sources.settings.entities.alexscaves]
+				tremorsaurus = true
+				subterranodon = true
 
 			[light_sources.settings.entities.saintsdragons]
+				winged = true
+				raevyx = true
+				cindervane = true
+				stegonaut = true
 				moop = true
+				ivy_oleander = true
+				arrow_of_venom = true
 

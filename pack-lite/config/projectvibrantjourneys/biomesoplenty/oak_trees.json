@@ -1,5 +1,21 @@
 [
   {
+    "biomeName": "biomesoplenty:lavender_field",
+    "chance": 1
+  },
+  {
+    "biomeName": "biomesoplenty:maple_woods",
+    "chance": 20
+  },
+  {
+    "biomeName": "biomesoplenty:bamboo_grove",
+    "chance": 10
+  },
+  {
+    "biomeName": "biomesoplenty:orchard",
+    "chance": 5
+  },
+  {
     "biomeName": "biomesoplenty:fungal_jungle",
     "chance": 5
   },
@@ -45,22 +61,6 @@
   },
   {
     "biomeName": "biomesoplenty:wetland",
-    "chance": 5
-  },
-  {
-    "biomeName": "biomesoplenty:lavender_field",
-    "chance": 1
-  },
-  {
-    "biomeName": "biomesoplenty:maple_woods",
-    "chance": 20
-  },
-  {
-    "biomeName": "biomesoplenty:bamboo_grove",
-    "chance": 10
-  },
-  {
-    "biomeName": "biomesoplenty:orchard",
     "chance": 5
   }
 ]

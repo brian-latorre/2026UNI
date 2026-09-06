@@ -1,5 +1,13 @@
 [
   {
+    "biomeName": "terralith:hot_shrublands",
+    "chance": 3
+  },
+  {
+    "biomeName": "terralith:arid_highlands",
+    "chance": 3
+  },
+  {
     "biomeName": "terralith:amethyst_canyon",
     "chance": 15
   },
@@ -34,13 +42,5 @@
   {
     "biomeName": "terralith:moonlight_grove",
     "chance": 5
-  },
-  {
-    "biomeName": "terralith:hot_shrublands",
-    "chance": 3
-  },
-  {
-    "biomeName": "terralith:arid_highlands",
-    "chance": 3
   }
 ]

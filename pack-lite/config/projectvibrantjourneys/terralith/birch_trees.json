@@ -1,5 +1,29 @@
 [
   {
+    "biomeName": "terralith:alpine_highlands",
+    "chance": 5
+  },
+  {
+    "biomeName": "terralith:temperate_highlands",
+    "chance": 10
+  },
+  {
+    "biomeName": "terralith:lavender_valley",
+    "chance": 10
+  },
+  {
+    "biomeName": "terralith:yellowstone",
+    "chance": 5
+  },
+  {
+    "biomeName": "terralith:lavender_forest",
+    "chance": 10
+  },
+  {
+    "biomeName": "terralith:orchid_swamp",
+    "chance": 10
+  },
+  {
     "biomeName": "terralith:skylands_autumn",
     "chance": 5
   },
@@ -38,29 +62,5 @@
   {
     "biomeName": "terralith:sakura_valley",
     "chance": 5
-  },
-  {
-    "biomeName": "terralith:alpine_highlands",
-    "chance": 5
-  },
-  {
-    "biomeName": "terralith:temperate_highlands",
-    "chance": 10
-  },
-  {
-    "biomeName": "terralith:lavender_valley",
-    "chance": 10
-  },
-  {
-    "biomeName": "terralith:yellowstone",
-    "chance": 5
-  },
-  {
-    "biomeName": "terralith:lavender_forest",
-    "chance": 10
-  },
-  {
-    "biomeName": "terralith:orchid_swamp",
-    "chance": 10
   }
 ]

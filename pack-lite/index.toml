@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "4710eecdd9a4875c9538f22e7b755fd45d0b00f1f46a88cc50e0e36964428149"
+hash = "13ab6567cbd1984fd81bec43ce8e1659b38d134f38fa8c775bb9ca6f39952733"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -74,8 +74,16 @@ file = "config/Obscuria/obscure-api-client.toml"
 hash = "90b60c01677fe0899e1b1fbf0deb8aba975f3540a0abb979a1c9aa7760930fe2"
 
 [[files]]
+file = "config/Obscuria/obscure_tooltips-client.toml"
+hash = "e046845737179e207688839c0362b31f1d9a7783df0ff9636f042af6e6abaf4a"
+
+[[files]]
 file = "config/QuantifiedAPI/quantified_config.json"
 hash = "a55f0cbd89551094691fb72c4f0a8e7bb39a3764dd7d36d2f5ed4c65123375f1"
+
+[[files]]
+file = "config/ReactiveMusic.json5"
+hash = "deaf6e9038f91ddff251d223cf153819620aea51ead401b3bcf0656a742c6f98"
 
 [[files]]
 file = "config/YungsCaveBiomes-forge-1_20_1.toml"
@@ -546,6 +554,10 @@ file = "config/alltheleaks.json"
 hash = "ed68f0c0b35f9ebbb3d3f93a4913e314b04bfdeab480fc7683bd6ae392cd2e0e"
 
 [[files]]
+file = "config/ambientsounds-client.json"
+hash = "c98f572839ace55b0792042fa4b984311e7d876abdaccfc8a4694f5bebad766c"
+
+[[files]]
 file = "config/appleskin-client.toml"
 hash = "b477c8c493b28366a6b282f29f46c9415e3a4a2a23fff6e09331644c435dfd48"
 
@@ -575,7 +587,7 @@ hash = "53fb1c32a639242d90914e6dffb3c9958b81d354534f222f623f6dda8321eb9f"
 
 [[files]]
 file = "config/badoptimizations.txt"
-hash = "e25d2c3affa5bb8f8e24156b0c80f65f2f4a5d898418d4d10ce005052d1659c6"
+hash = "14a0d739584fee04bc85a3a8db1016160d768b83a9e2813f0b50b3ff5c368908"
 
 [[files]]
 file = "config/bakery.toml"
@@ -623,11 +635,11 @@ hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
 
 [[files]]
 file = "config/biomeswevegone/world_generation.json"
-hash = "50b760ffbc0d9d309063b8a59249498455584732d46e4e8b45bf45bdfa148678"
+hash = "5ab08dae537d43aef3f217e3a7a17608d39f1be082960fe4abd545d0697a72dc"
 
 [[files]]
 file = "config/blessfulled-client.toml"
-hash = "ba5ae5d8206e870a6fd1a184045dfe52e7353bf26608981d2e5615ead33b6116"
+hash = "4d1df63251a76b6f20cb0808d5d057c3be646329d5e4ab84cc3f9b5cd8798623"
 
 [[files]]
 file = "config/blue_skies-client.toml"
@@ -644,6 +656,10 @@ hash = "8fbb7db508c2d5b5d7031e2143f5a4ec2f1656cabdee5b8165e3571160584fea"
 [[files]]
 file = "config/blueprint-common.toml"
 hash = "468c5e98de57915c1fbc04f24934723184bfaff4d08f666ed8a8b4bdce894a25"
+
+[[files]]
+file = "config/blur.json"
+hash = "4f00cdded1bf482bead1736c909f042d3bd7d0b295eb60444cd3eb035b54f101"
 
 [[files]]
 file = "config/bocchium-client.toml"
@@ -668,6 +684,10 @@ hash = "0aa704651b261b27ffa35c8b16adbf0edc74d34f51004bb157f2618c0f1154fb"
 [[files]]
 file = "config/brewinandchewin-common.toml"
 hash = "8ebeb27f31aa49b530e2689679ca8096887847d7e4d93a87d9d50143f5957f77"
+
+[[files]]
+file = "config/cameraoverhaul.toml"
+hash = "196509ebc58f7989c5059063e15056656cce9aa3bfcf0a894bc25db3a6765d9a"
 
 [[files]]
 file = "config/cardinal-components-api.properties"
@@ -703,7 +723,7 @@ hash = "de5bb1061dcd48c3378f6849658940a465c3e094e5d6c342c5f73ea984da2a8b"
 
 [[files]]
 file = "config/chloride-client.json"
-hash = "d129841659800e13e4468988431c13d7a313425252e3b1d50905dd52eccc3594"
+hash = "e63d54a062fae680364448a47c7002dbe0ea644dcc7a61c18fe9134f76af6aec"
 
 [[files]]
 file = "config/chunkloaders-common.toml"
@@ -723,7 +743,7 @@ hash = "7dd7dc266613f18011a9a5ba624e50c35374ad2b39ea379231c3c44e7b2261b3"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "39d0028c2e72186ef3431754d70e425179b4f2f4be5842522ee8b6bebdc66ad5"
+hash = "9d1b1e49079dd7cefccacc75f21d95493d65e155b24e605e2daeeffc8a674519"
 
 [[files]]
 file = "config/collective.json5"
@@ -771,7 +791,7 @@ hash = "54c7b1fba22c8afed20420d6946c1a57bc2368f1b8fa153252dc72cf6f158ca8"
 
 [[files]]
 file = "config/create-client.toml"
-hash = "ec32c79175ea54781e750588c8182341e0c249d429d9c636b3c6d57f59e177bf"
+hash = "7c40bc004ba478b13d0c99c2b644e50cf3a1d2d60d9b40df15822da8d8ad710c"
 
 [[files]]
 file = "config/create-common.toml"
@@ -876,7 +896,7 @@ hash = "85f58a7390cc79c6652492f957278689ccc6ce03b251290432ec89295e759b08"
 
 [[files]]
 file = "config/embeddium-fingerprint.json"
-hash = "7cb5622b85322e463a64a713e507ed1e782e3decc0fd0caf45e071215fe0b488"
+hash = "8269f2e141ea85ed4399f69ebda08892d2b3dae5fe2c8148d0165e0cae55a98f"
 
 [[files]]
 file = "config/embeddium-mixins.properties"
@@ -884,7 +904,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "1f087d40c587425508fef8a40fef0f158a26c2417b1adb30eb02bb5ec2bbfeca"
+hash = "8161ef36922a7ccd0e17c7f3755c73680f5705f926836951baae5a787096aa35"
 preserve = true
 
 [[files]]
@@ -897,7 +917,7 @@ hash = "ec723e97e1b28b86fcf784fdec214163ce8e0b5e9a19899f752f314405a7bd72"
 
 [[files]]
 file = "config/emojiful_usage.json"
-hash = "75549fa26eba449a463fa4aaac80be84f1bd90c32e621cca00d87a3b95bb6fbf"
+hash = "d06a33f63c3898c53675014801d190b93875e1ae6a833e40f3a0d1d7ba3ddf41"
 
 [[files]]
 file = "config/emotecraft.json"
@@ -918,6 +938,10 @@ hash = "f4fc0c0f40bac8b5243141374a6df6eabc993ecd989559ffe8b9fd908bf46982"
 [[files]]
 file = "config/entity_model_features.json"
 hash = "d6ff2922e9d2752d80821be3c02abf3bba0ba5e4efd57399553dfd87b9f9561f"
+
+[[files]]
+file = "config/entity_sound_features.json"
+hash = "20c00e0c6271d6162c7a9ea668a04cf8bca538f40d0daf28638a7d0210020501"
 
 [[files]]
 file = "config/entity_texture_features.json"
@@ -953,7 +977,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "e20bdd1fdd96f405ae22ebe74f6db5e4ddd1b64f7429018df74e7505ec2ae632"
+hash = "a0d48bc60a6d64ad0465d2758eedf5ec0d14601189e4751d5429fecf326a753b"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1097,7 +1121,7 @@ hash = "45fa986673239aed094ceab1d7a157bf03d480320cf296d2c76a5ac822b4e7a7"
 
 [[files]]
 file = "config/fancymenu/customization/pause_screen_layout.txt"
-hash = "1215c9a6d67bbbd20c22851a16bdd1beebcb4af595d8b86e33857bf9a8abf792"
+hash = "6ee56ec621b11b05c4d2b43c0c8a7259c138a0a71165ebdc004f62e2613857a8"
 
 [[files]]
 file = "config/fancymenu/fonts/Cinzel-VariableFont_wght.ttf"
@@ -1360,7 +1384,7 @@ hash = "3b1be325f6464e0488624c0d068b3a8c7828677173fad037049f5a75c7b98e46"
 
 [[files]]
 file = "config/immediatelyfast.json"
-hash = "f2b7f219198f0a911d04b09f545f2c1256e8d114951443924878dc10963e16aa"
+hash = "2855f4c1f0d4aa33a2bd1ae4e40f4bf17471d13759adbd6e2c0fceb2e8268d9b"
 
 [[files]]
 file = "config/immersive-hotbar.json5"
@@ -1373,6 +1397,10 @@ hash = "21d98671d2cc41d2c1384b542d088642e23e2ec7f4f408b36ad6fb98bd246d53"
 [[files]]
 file = "config/immersivemessages-client.toml"
 hash = "5aeddb9e9ddb66b263e353eeaef3e14fb759e31d33b389937e5778010f4ac2be"
+
+[[files]]
+file = "config/immersiveui.yaml"
+hash = "534f2120968484ac5a3a13aa0cb16eedf8c938bcf8476b657074a6e6ddd75328"
 
 [[files]]
 file = "config/incontrol/README.md"
@@ -1439,6 +1467,1758 @@ file = "config/instrument_configs.toml"
 hash = "c078e4cba8c376a6491a832453313e15d62430020635443605ad3dc8866ce390"
 
 [[files]]
+file = "config/inventory-interactions/cache/accents/base_textures.cached"
+hash = "42de8a9c99344f96663d2c3448a3df1ba4fa406c020620dadf95a08f09e7afee"
+
+[[files]]
+file = "config/inventory-interactions/cache/ad_astra/base_textures.cached"
+hash = "e5a5d368e5ca972b71b25aad6acbe7c9e0d3b061191d9d7c9fccabca58feb144"
+
+[[files]]
+file = "config/inventory-interactions/cache/adorablehamsterpets/base_textures.cached"
+hash = "3f8bc6f32472c2d5079deb9d98cbe50a894b705e9182367ab41b71c13b5426b4"
+
+[[files]]
+file = "config/inventory-interactions/cache/ae2/base_textures.cached"
+hash = "3f7c944f7cea7bc712003112deeecaaa5878316ca4413f69006c5e7639942ac9"
+
+[[files]]
+file = "config/inventory-interactions/cache/alexscaves/base_textures.cached"
+hash = "81025b6d6686d95d393cead70154fca2c1e27e54045d8f1021611ce75c686b96"
+
+[[files]]
+file = "config/inventory-interactions/cache/alexsmobs/base_textures.cached"
+hash = "6886a6aeba580d6da8674d9d21145cfcef7ef5061ea66b7cbd0e980a209c5ada"
+
+[[files]]
+file = "config/inventory-interactions/cache/aquamirae/base_textures.cached"
+hash = "31cf32145f85d22b30e9a4c622d3176111e63de54b15277df418d308c1a0725c"
+
+[[files]]
+file = "config/inventory-interactions/cache/artifacts/base_textures.cached"
+hash = "4063df97f4d9365cf8cf763463e5f7207915539004a20aa07869b65a3f309ea7"
+
+[[files]]
+file = "config/inventory-interactions/cache/bakery/base_textures.cached"
+hash = "a809dc916cfcd8d2e02f42938eee76993b33c50c609ead89c69b4a467a414827"
+
+[[files]]
+file = "config/inventory-interactions/cache/beachparty/base_textures.cached"
+hash = "89ec867050e9e32ab212043642fce66fb39035ba94d6e7cd96a57390f750461e"
+
+[[files]]
+file = "config/inventory-interactions/cache/beautify/base_textures.cached"
+hash = "0ecfbd7584d91d4c454ba8eebd78adcfbf015943264429a591435d65c66542b5"
+
+[[files]]
+file = "config/inventory-interactions/cache/biomeswevegone/base_textures.cached"
+hash = "97feb8f17e633d07ab6a1cc5a1f4c474939bcee8f22491c64e21ae0c5ef4b2fc"
+
+[[files]]
+file = "config/inventory-interactions/cache/blue_skies/base_textures.cached"
+hash = "cd8f8ca2364122121268429ab50ace75f1f319358a0d8f3a552deea4d5df3c46"
+
+[[files]]
+file = "config/inventory-interactions/cache/born_in_chaos_v1/base_textures.cached"
+hash = "cf11bc6c5f0089c76187539ae1f5ee15ec5cd81fe2c4eb24b7b0e5e8df6210bc"
+
+[[files]]
+file = "config/inventory-interactions/cache/botania/base_textures.cached"
+hash = "0d6cf11e2eaa689c8e77c92f77bb914ab209c1c6c60fa6db592f7f4010bda9e6"
+
+[[files]]
+file = "config/inventory-interactions/cache/botanypots/base_textures.cached"
+hash = "ef8d798a521825dfe601ee752d0dc8cf7ce9e320ae76c0b9db48e2e629ab1b4d"
+
+[[files]]
+file = "config/inventory-interactions/cache/botanypotstiers/base_textures.cached"
+hash = "05b476c9628ca7cacb5770090b7d70271c048cdfd75d04ecb5caac8abf828be4"
+
+[[files]]
+file = "config/inventory-interactions/cache/brewery/base_textures.cached"
+hash = "4c130928b7cf4e0fb622d142674f8fb323c248251bd21b0da62d8ce015d4b948"
+
+[[files]]
+file = "config/inventory-interactions/cache/brewinandchewin/base_textures.cached"
+hash = "e8a428d9fd8900c1313a322cc7ecff2b437a2927fb32afd3ed9a92a90900d010"
+
+[[files]]
+file = "config/inventory-interactions/cache/butchersdelight/base_textures.cached"
+hash = "57990d8e8715501a681e8f096f04b76ced31b787c5b176f54a292d694ce82254"
+
+[[files]]
+file = "config/inventory-interactions/cache/candlelight/base_textures.cached"
+hash = "1c728883966cd8bedf4948d50ae46e585e6463e91997d037000a236fbde09b14"
+
+[[files]]
+file = "config/inventory-interactions/cache/castle_in_the_sky/base_textures.cached"
+hash = "5da41b9ab12e9e44c0c21da1c7285361ddb19309939c5faab1e7823d71ccfa22"
+
+[[files]]
+file = "config/inventory-interactions/cache/cataclysm/base_textures.cached"
+hash = "4cdc26f99e62519c6a08e96919278ec310debb0fde81728fffd77e8f101b0060"
+
+[[files]]
+file = "config/inventory-interactions/cache/chained_friends/base_textures.cached"
+hash = "0845fc1429cc26bdc2e7203b273377f905b360570ff0c79f2edcbd558f64af21"
+
+[[files]]
+file = "config/inventory-interactions/cache/chunkloaders/base_textures.cached"
+hash = "9fb8ac2cca6b72981a73330a5a13e65cd5f455e9a82c1657fa07910cc9b4406c"
+
+[[files]]
+file = "config/inventory-interactions/cache/citadel/base_textures.cached"
+hash = "6bcb2703d36167bd9782b7a9d8b80d15c9ced155eb050e15e0e75504830ec423"
+
+[[files]]
+file = "config/inventory-interactions/cache/cluttered/base_textures.cached"
+hash = "e34c55a999d1bb65802a65ded4ca86d64c4a8a3427f9fa1974f286fd2aad3a32"
+
+[[files]]
+file = "config/inventory-interactions/cache/cobblemon/base_textures.cached"
+hash = "478fe05597d0e8fc1a359accbd722c47a315c08a301146f78abd318294e8fb63"
+
+[[files]]
+file = "config/inventory-interactions/cache/comforts/base_textures.cached"
+hash = "c5a27ceb5ac542ed3df1b760a5f71b8628ad72de88ee947acef8e377204f3c05"
+
+[[files]]
+file = "config/inventory-interactions/cache/copycats/base_textures.cached"
+hash = "359e3a6df50b36ca4d1c90cfac612548e23831e766f9549394d0b95874f9bc09"
+
+[[files]]
+file = "config/inventory-interactions/cache/corn_delight/base_textures.cached"
+hash = "eb694f6a0a0a0e28c334bbbede06f58a4c8f4d6bff4ef691949649c9a9336cf4"
+
+[[files]]
+file = "config/inventory-interactions/cache/create/base_textures.cached"
+hash = "defc9dc7821f196b06e65a1877bd3afe3fa418718548b79daf6a077d4d32a28d"
+
+[[files]]
+file = "config/inventory-interactions/cache/createaddition/base_textures.cached"
+hash = "24781e162c430949918718473d3b9523387af2883404a71c35798b06c9e3d0b6"
+
+[[files]]
+file = "config/inventory-interactions/cache/creeperoverhaul/base_textures.cached"
+hash = "10d958f170d4264dbb67c9dd19e7dc7c8b70fa03951954fcc4ae547d6b301250"
+
+[[files]]
+file = "config/inventory-interactions/cache/crittersandcompanions/base_textures.cached"
+hash = "10517e538b9f63a65e4b6f373e26455ee5e340c304e9a9fc9cbb0ec5713e58c0"
+
+[[files]]
+file = "config/inventory-interactions/cache/culturaldelights/base_textures.cached"
+hash = "8d66d7fdfc8d2b4fadd625cf621d2c7ddacb0e4e9fb1c1f90b7de2d0cd0f5da3"
+
+[[files]]
+file = "config/inventory-interactions/cache/delightful/base_textures.cached"
+hash = "42dd176bef8b51fcb370cf9b9594ef94cf5fb8cc36b5dfa6900c6eaebb31116f"
+
+[[files]]
+file = "config/inventory-interactions/cache/delightfulcreators/base_textures.cached"
+hash = "2b3feedad41eb2362eb9e3dfe24e4a69dd92a676534f07b7340809216a52fd43"
+
+[[files]]
+file = "config/inventory-interactions/cache/dtalexsmobs/base_textures.cached"
+hash = "c21325e1f41cc76a9883c3fbd9f102ea9ae2958e3ab06220e03042bd433aca13"
+
+[[files]]
+file = "config/inventory-interactions/cache/dtbwg/base_textures.cached"
+hash = "4cb8811b66dd4b280467eed737060c7d9049f9b0c0f1aae336d125b87ce8f4ce"
+
+[[files]]
+file = "config/inventory-interactions/cache/dtcobblemon/base_textures.cached"
+hash = "f1c5db645c9e2f044062081397622372f8cda6ef32f277d23bcd353dd5f10e9f"
+
+[[files]]
+file = "config/inventory-interactions/cache/dtquark/base_textures.cached"
+hash = "12559afee3cdf63b9c0a0fd119285135eb3fcb7a092cb8ecc9431c4a3d5d1523"
+
+[[files]]
+file = "config/inventory-interactions/cache/dtru/base_textures.cached"
+hash = "88291244314faa8e308cf5f190e442265c7cf2cdd7bf38cb22a0704467c796b8"
+
+[[files]]
+file = "config/inventory-interactions/cache/dttconstruct/base_textures.cached"
+hash = "be7e2a4b3e1f339e2fc20ca5d93e5fb303cb16e74b5e47dfc117ed8ac5a29afd"
+
+[[files]]
+file = "config/inventory-interactions/cache/dye_depot/base_textures.cached"
+hash = "64531dde1d8e331c2aca666a6204eb01d75bd2b65b2c6daef81528fed4808cd2"
+
+[[files]]
+file = "config/inventory-interactions/cache/dynamictrees/base_textures.cached"
+hash = "b7a19840d953233ea9e017848d8338720490564d501c9e84c7826b694c35ae4e"
+
+[[files]]
+file = "config/inventory-interactions/cache/dynamictreesplus/base_textures.cached"
+hash = "9cfebbb36813c1bd04cb8379fabff247dc65c82fbe98a73c5ba72447d8dfb580"
+
+[[files]]
+file = "config/inventory-interactions/cache/elevatorid/base_textures.cached"
+hash = "2879dc4e8a403293153e58cf36e16a80977f6c7846f3f09fd9b11c7dc70bf078"
+
+[[files]]
+file = "config/inventory-interactions/cache/ends_delight/base_textures.cached"
+hash = "87edb1bd85ec376a3c51b85248162ce64dd086f7358f2645437934ed9175911b"
+
+[[files]]
+file = "config/inventory-interactions/cache/evenmoreinstruments/base_textures.cached"
+hash = "6b83db291349adc999f28f9b2b77170d90ee50e75b6810dd1c34e8de2682e18b"
+
+[[files]]
+file = "config/inventory-interactions/cache/exposure/base_textures.cached"
+hash = "cb77f68f321b4b8d5e36f2f2782bfff525233f8638d8d01c2de2a06107329894"
+
+[[files]]
+file = "config/inventory-interactions/cache/farm_and_charm/base_textures.cached"
+hash = "a039492f2259ce9756fb7dc837395d0a8d580e2eb57e26d6a2d2c6382e8d726f"
+
+[[files]]
+file = "config/inventory-interactions/cache/farmersdelight/base_textures.cached"
+hash = "0285d13bf2e093a71fd18638957d0bcaca83cab19cd2789355fed447a971c9a1"
+
+[[files]]
+file = "config/inventory-interactions/cache/farmersrespite/base_textures.cached"
+hash = "acb98f064925e9d70a6d2ea6e1c4f11c5772e4c3950fd8a0bba37a630c2c2d22"
+
+[[files]]
+file = "config/inventory-interactions/cache/fieldguide/base_textures.cached"
+hash = "8347b4f874e1e3387ed11373b87ccee3683d02a81d67569804778a3526993703"
+
+[[files]]
+file = "config/inventory-interactions/cache/find_me/base_textures.cached"
+hash = "cf34ec13fce2e3b757dd289c480ea4e4d5714623eb9ed33f03d729a3d8d0b5d6"
+
+[[files]]
+file = "config/inventory-interactions/cache/framedblocks/base_textures.cached"
+hash = "7fb5399d9d0fd96a90a76e689f7f19e4e6cb8a0591ee73b15e603e10e991d159"
+
+[[files]]
+file = "config/inventory-interactions/cache/furniture/base_textures.cached"
+hash = "afb68a6fffa465ecebff6e326194e15484644a607d9b41499dc0bfa1bd73b75c"
+
+[[files]]
+file = "config/inventory-interactions/cache/genshinstrument/base_textures.cached"
+hash = "1451cdbf54af90c9d236162cfd3d8f83d49bfb84917eb1c51cf9176576de9a00"
+
+[[files]]
+file = "config/inventory-interactions/cache/ghosts/base_textures.cached"
+hash = "97d5faf94e4f966dca176fe95f6c81f365f0bb22518df14c8b83a9b311564659"
+
+[[files]]
+file = "config/inventory-interactions/cache/golemoverhaul/base_textures.cached"
+hash = "05fa09af18c994eb2428002a1beeccace53c3f28dbbca23411f2e55d070182de"
+
+[[files]]
+file = "config/inventory-interactions/cache/guideme/base_textures.cached"
+hash = "f8a200c9d72b9010ec423b7758250da926d2f92ba47b96b6f5efde25822340c2"
+
+[[files]]
+file = "config/inventory-interactions/cache/herbalbrews/base_textures.cached"
+hash = "eaf54818d0db9f4f5c3951c2fe7175f672473b348e5d70f855ec483dc3ee6980"
+
+[[files]]
+file = "config/inventory-interactions/cache/iammusicplayer/base_textures.cached"
+hash = "cccf127c9c27b4f2b6e73679942b5cceaa157926d361e7a42e63969a03026e5f"
+
+[[files]]
+file = "config/inventory-interactions/cache/inmis/base_textures.cached"
+hash = "6c411d1db06a98273d9eeea74fb873e39d7e4b9c04340e0ea1977e16e1bb5e67"
+
+[[files]]
+file = "config/inventory-interactions/cache/ironfurnaces/base_textures.cached"
+hash = "68258f72f5b42ba6b71c2f648880148aadb616eab979b14898a608463c0699a7"
+
+[[files]]
+file = "config/inventory-interactions/cache/labels/base_textures.cached"
+hash = "3d9a1084c93b47fe63c2994dd55f092ab1a5227f2e9e85f856f67f92a078b0c4"
+
+[[files]]
+file = "config/inventory-interactions/cache/lemoned/base_textures.cached"
+hash = "d94fe1e57b4326f58168cdbed1996dc241d56b61db75aa11fb83bbbbdb921a1f"
+
+[[files]]
+file = "config/inventory-interactions/cache/mcwdoors/base_textures.cached"
+hash = "632bac410b0e7ea88a48c6cc442c4005275135765c556fdb1c791facb5e52c7b"
+
+[[files]]
+file = "config/inventory-interactions/cache/mcwfences/base_textures.cached"
+hash = "4c873c3b622d52070bdabbccf862e192694d78ef2ac1be9920e882c01df37cd6"
+
+[[files]]
+file = "config/inventory-interactions/cache/mcwpaths/base_textures.cached"
+hash = "d9bd710c965f9cb78dea471700401ac8e00b4469757fda12dc48f013b93715e8"
+
+[[files]]
+file = "config/inventory-interactions/cache/miners_delight/base_textures.cached"
+hash = "0ee4990b79c74298bdf93700a98f537fd4463360c74aa8c369b30d780e346507"
+
+[[files]]
+file = "config/inventory-interactions/cache/moonlight/base_textures.cached"
+hash = "87e599033ac388e1cb00e00040cac269aa002a4196c9618f815f902373d028b2"
+
+[[files]]
+file = "config/inventory-interactions/cache/more_curios_slots/base_textures.cached"
+hash = "38b11017b6bc4404708448410965af54b21fcc8e25ac16731edb59a9c91f629d"
+
+[[files]]
+file = "config/inventory-interactions/cache/moredelight/base_textures.cached"
+hash = "ddb050cea3728b0f8da7eac7bf30f86a4a35368eacbd442fb848ce337c960c3d"
+
+[[files]]
+file = "config/inventory-interactions/cache/mowziesmobs/base_textures.cached"
+hash = "7b429c625b319e64c951b7b60c04e958740374632b400ad72eb5817176cb8d5a"
+
+[[files]]
+file = "config/inventory-interactions/cache/nethersdelight/base_textures.cached"
+hash = "e2d75c0a1b34cccd7aef8de8ef3b3273de13568e75a49502049c6d9f2ce5b453"
+
+[[files]]
+file = "config/inventory-interactions/cache/obscure_api/base_textures.cached"
+hash = "c934752fe963139c48eb49f218a501964534fa129ba71e4ac9f4956848c4c922"
+
+[[files]]
+file = "config/inventory-interactions/cache/oceansdelight/base_textures.cached"
+hash = "1c984f9fa518c4702a6dbad9f981ec18bfc3ad214be8a7c63f452c8491d41b82"
+
+[[files]]
+file = "config/inventory-interactions/cache/patchouli/base_textures.cached"
+hash = "1d8ceebce5c34174011073e10fe57798c29aafd9d3e7696b1712d4e48f93e7a7"
+
+[[files]]
+file = "config/inventory-interactions/cache/peruviansdelight/base_textures.cached"
+hash = "dee3ce3a5dca6d68d3d44a1447ff30449d57db1fb9e4caf7043760c7a508a111"
+
+[[files]]
+file = "config/inventory-interactions/cache/powah/base_textures.cached"
+hash = "ca420846f15104af95107941071244884edf3b6999550e758d376996da1ffbd7"
+
+[[files]]
+file = "config/inventory-interactions/cache/primal/base_textures.cached"
+hash = "945bc66dfe9c7553bebf05289602285d1daed002c8560ac78793aa521d8fef53"
+
+[[files]]
+file = "config/inventory-interactions/cache/projectvibrantjourneys/base_textures.cached"
+hash = "ca06f7632e3a89555800b5c1693ffbae2c7a03ed1ac45a1cf2a4695c41ff568c"
+
+[[files]]
+file = "config/inventory-interactions/cache/punchy_puppies/base_textures.cached"
+hash = "fb16a4f3ad8f0179eb808522fdabf63ad8fab134603e2005987adafb550efb5a"
+
+[[files]]
+file = "config/inventory-interactions/cache/quark/base_textures.cached"
+hash = "f565fb92b8c16f67722965e83a7a969f8199fa2088eafe35768f320c9e704b45"
+
+[[files]]
+file = "config/inventory-interactions/cache/railways/base_textures.cached"
+hash = "8194f0862cc02b8b64608d69b4eccd381e468610d477745bddb21f339c7967f0"
+
+[[files]]
+file = "config/inventory-interactions/cache/regions_unexplored/base_textures.cached"
+hash = "04f749244f56f25dda5278f2c21d09f095c3e3073097dcab1f17ca4fca50255d"
+
+[[files]]
+file = "config/inventory-interactions/cache/relics/base_textures.cached"
+hash = "c9e2307d38dcf1d7adf2b7010a95d29a7bd07ff78d19860a76ded445a1d418b4"
+
+[[files]]
+file = "config/inventory-interactions/cache/ribbits/base_textures.cached"
+hash = "61fa6fb375de93966c3d32dd66d11848c3ec42dc7ab3be8ef0c0c503be87be9d"
+
+[[files]]
+file = "config/inventory-interactions/cache/saintsdragons/base_textures.cached"
+hash = "801db5df3a719382ca2e4d44c3c873cc3a441c3fc1403804a857aaa13b7900cb"
+
+[[files]]
+file = "config/inventory-interactions/cache/scalinghealth/base_textures.cached"
+hash = "e40f0fd55ac240216355f12133f71b4b31b7716b0e8b73b04295684a5e5f3578"
+
+[[files]]
+file = "config/inventory-interactions/cache/scarecrowsterritory/base_textures.cached"
+hash = "f21d39b2ae191edbf9562e81a27b2b594efed95f363fedf259734f2eb46a8b64"
+
+[[files]]
+file = "config/inventory-interactions/cache/seamlesssleep/base_textures.cached"
+hash = "687741058da815265e614f4342a4fb8dccf314724733dc5970966f876b22f536"
+
+[[files]]
+file = "config/inventory-interactions/cache/simplehats/base_textures.cached"
+hash = "7a1586f8b54502eee3fc8a85f867eb69f8b977ce7a2621f78d70a593c89ae2a5"
+
+[[files]]
+file = "config/inventory-interactions/cache/sliceanddice/base_textures.cached"
+hash = "84fbaf6a4d7f915399cf539bd7f79fdc7ee8466fc95330a2cb67e9280c068c29"
+
+[[files]]
+file = "config/inventory-interactions/cache/sophisticatedbackpacks/base_textures.cached"
+hash = "94cdd3a14c012d8e401daa1dc5565dcd0de57c9d440d686f9fa55e89be12d07f"
+
+[[files]]
+file = "config/inventory-interactions/cache/storagedrawers/base_textures.cached"
+hash = "7b946373152e4cdda0a1bb70a9e6552baf45db0a81fb6cd3613468564be684d1"
+
+[[files]]
+file = "config/inventory-interactions/cache/structure_gel/base_textures.cached"
+hash = "b6af7a45e9fe0e47215a1f96efde2e4325e2749ec2a64cab039c9e91307a6a0e"
+
+[[files]]
+file = "config/inventory-interactions/cache/tconstruct/base_textures.cached"
+hash = "f63c5b0034b2ea42f5bb2a743be8d80be5c443d8b36020085c9212d041e0aef4"
+
+[[files]]
+file = "config/inventory-interactions/cache/tempad/base_textures.cached"
+hash = "d42529574fad6ee3252f4c18340df85c34ab79990bcfb24a4b2f491c81cd2b8a"
+
+[[files]]
+file = "config/inventory-interactions/cache/tombstone/base_textures.cached"
+hash = "dff0241f36fbf9593802c9fdef7a319aeefe4ff2a4fd523f162eec351dbbd3b4"
+
+[[files]]
+file = "config/inventory-interactions/cache/torchmaster/base_textures.cached"
+hash = "0b93e4262bdff6c7e6d52db34ba7f9ebd797a3145b23126e72f7a2b68ee10a2f"
+
+[[files]]
+file = "config/inventory-interactions/cache/veggiesdelight/base_textures.cached"
+hash = "b7ae7c71bfb4632cdcb72d7abc6ab620cc4342179501bc6942e08d998545fbb9"
+
+[[files]]
+file = "config/inventory-interactions/cache/vinery/base_textures.cached"
+hash = "7d9591c1b7a6606b43b8f62ef1f4da27fa915bcdf8f284f9ea1fc4875e9a8d4b"
+
+[[files]]
+file = "config/inventory-interactions/cache/waterframes/base_textures.cached"
+hash = "01cba2f7a6dd66d44bce2635d17ae4532fcf7e3d3ca7dced4016c28e4edc9d31"
+
+[[files]]
+file = "config/inventory-interactions/cache/waystones/base_textures.cached"
+hash = "9cbf01fbc57bf0055f250d41628720926ff26567b907fcdccf82d351fd155888"
+
+[[files]]
+file = "config/inventory-interactions/cache/wildernature/base_textures.cached"
+hash = "d6b50549f9f6ebb4fb5af4069c0e14dfe504a35ddeebd3c6cc5b24a6fd4cc330"
+
+[[files]]
+file = "config/inventory-interactions/cache/yungscavebiomes/base_textures.cached"
+hash = "5494713c690ae7960d2d7d2f76e28f538801a02bc2145b38b4b5587cc95b1546"
+
+[[files]]
+file = "config/inventory-particles/cache/accents/atlas.png"
+hash = "4c2b50b702eb49c4312f51401636fbdf0d5744bb89daac013dc57ab5739a49b0"
+
+[[files]]
+file = "config/inventory-particles/cache/accents/regions.txt"
+hash = "586225d1329b0a86465d78e18656021a835df521ac8fa3bdd12a8cabf911b33e"
+
+[[files]]
+file = "config/inventory-particles/cache/accents/spawn_areas.cached"
+hash = "01f8343bdfe25cd951c3dbd2db1dbef356c6770ea448f4166611b427d86e8d8a"
+
+[[files]]
+file = "config/inventory-particles/cache/ad_astra/atlas.png"
+hash = "3a1038a8b634bd58d287afe0a7b4235cb31653bf41f179219cb7542cc1629a4b"
+
+[[files]]
+file = "config/inventory-particles/cache/ad_astra/regions.txt"
+hash = "cbae4aed4da0c5ff0cf09f5c85dbd9e7a0fcc19db5427125401fdb99a97ee439"
+
+[[files]]
+file = "config/inventory-particles/cache/ad_astra/spawn_areas.cached"
+hash = "e2be5dc528f27a1f3f1d53f7e7455ad441959ec1c79085fc593e690c79788b8b"
+
+[[files]]
+file = "config/inventory-particles/cache/adorablehamsterpets/atlas.png"
+hash = "780fc914f9b23f6f99b5e321ad1495ac811850edf89e891a0b64642856be9822"
+
+[[files]]
+file = "config/inventory-particles/cache/adorablehamsterpets/regions.txt"
+hash = "5a3f4006dc13df33a01c2ad30da5577d529ac5d3da105996bf56a77301652387"
+
+[[files]]
+file = "config/inventory-particles/cache/adorablehamsterpets/spawn_areas.cached"
+hash = "494f9ba5111c0ba2900debacf229b70fd844d58b7a884f9abe5666d6bed0da84"
+
+[[files]]
+file = "config/inventory-particles/cache/ae2/atlas.png"
+hash = "753eb6f625d4c43d76d705512c907e534018f188dfd89f7970f8a8ddf9068549"
+
+[[files]]
+file = "config/inventory-particles/cache/ae2/regions.txt"
+hash = "4e2a73bacaf805b4fe767ae3a46dcfbcaff68d5ced80e9d79663d26be4edb6fe"
+
+[[files]]
+file = "config/inventory-particles/cache/ae2/spawn_areas.cached"
+hash = "9acb5ff88d2f6312f7ca06b3125b73a3494c5feefdfde86b45f00970f784fbca"
+
+[[files]]
+file = "config/inventory-particles/cache/alexscaves/atlas.png"
+hash = "09aaca5624d8dace67733453cd8afa939b7a03b0b9b0b9ad2b139c50be338e23"
+
+[[files]]
+file = "config/inventory-particles/cache/alexscaves/regions.txt"
+hash = "92069de6b3ba353945b93d4f07c2b436c9ecfb7568e28b41452902b4b629c2c8"
+
+[[files]]
+file = "config/inventory-particles/cache/alexscaves/spawn_areas.cached"
+hash = "cb9ec6c10954374ad7d3181b020888d10262b92d79de6b1ae01677d3c2b76fc8"
+
+[[files]]
+file = "config/inventory-particles/cache/alexsmobs/atlas.png"
+hash = "997744b0fdb5f9cafd3f9ca80a7489d5236ea27bbafe7d2e3bf5f24145518775"
+
+[[files]]
+file = "config/inventory-particles/cache/alexsmobs/regions.txt"
+hash = "3299646dde0cced1d38ebad96cc37908c7081d4f94c56042a162401e2ee591e6"
+
+[[files]]
+file = "config/inventory-particles/cache/alexsmobs/spawn_areas.cached"
+hash = "4efce2e6e45e20980e2e2c8b2fe506faf4f6053e3a937822f392aebe12ad391e"
+
+[[files]]
+file = "config/inventory-particles/cache/aquamirae/atlas.png"
+hash = "d0055fd4494788882ff372c3b5d78525c1279bec26abd3db2e08e70d60b75ac1"
+
+[[files]]
+file = "config/inventory-particles/cache/aquamirae/regions.txt"
+hash = "bb829df10fadf9eab4427476751fd42841e9c35aa01c1a89f3e4c9799f685370"
+
+[[files]]
+file = "config/inventory-particles/cache/aquamirae/spawn_areas.cached"
+hash = "e3094429def3b6cbec6f20453627c9553122cf76acc7bac431ffffde9341b984"
+
+[[files]]
+file = "config/inventory-particles/cache/artifacts/atlas.png"
+hash = "028f0f9c01ebfa545242d6e5e52fd007f45cff842892c1b7bdfee0a28e4856ff"
+
+[[files]]
+file = "config/inventory-particles/cache/artifacts/regions.txt"
+hash = "7dfb752b6b2e1a761a4c01476c037305b93c6b839a5359a259c4f2e0a69f3222"
+
+[[files]]
+file = "config/inventory-particles/cache/artifacts/spawn_areas.cached"
+hash = "a268323ae358b4047adc7113942831b29c0b66d25ffdd43c5d30a301fd9a93d3"
+
+[[files]]
+file = "config/inventory-particles/cache/bakery/atlas.png"
+hash = "59109500fd7f0d704d431dc535133da9730670e1e1e9b615d611522a42dd9b93"
+
+[[files]]
+file = "config/inventory-particles/cache/bakery/regions.txt"
+hash = "00a9d3b5557a6e1606ccc31f5d140a942c615773d6a2fbd02418b867aa4ead23"
+
+[[files]]
+file = "config/inventory-particles/cache/bakery/spawn_areas.cached"
+hash = "fd3054ffd9b264a6b8fc473dc6992dce8d65d3ead083ab7f7cb270fcd7aa82ef"
+
+[[files]]
+file = "config/inventory-particles/cache/beachparty/atlas.png"
+hash = "5b8f520e7f8341901d9a044e0fcfbc300d1ebe3f447b4f635e3f72d888cc4d28"
+
+[[files]]
+file = "config/inventory-particles/cache/beachparty/regions.txt"
+hash = "b3bd86d82ea9983dba3466e34107b57c7f35b093b735feea26aa06c37ee1c132"
+
+[[files]]
+file = "config/inventory-particles/cache/beachparty/spawn_areas.cached"
+hash = "d95d5532956ce1cab00fe02e127a25b58e81c4f2c1a0f3dd35cb6e66dbe67e42"
+
+[[files]]
+file = "config/inventory-particles/cache/beautify/atlas.png"
+hash = "417f433404cfd335589b9f512cd3e5724788477965ecc334080ff27433454454"
+
+[[files]]
+file = "config/inventory-particles/cache/beautify/regions.txt"
+hash = "b1e92fc1ad67e4afe603adf69407a703562977848c62e8b37c97b09619c4e601"
+
+[[files]]
+file = "config/inventory-particles/cache/beautify/spawn_areas.cached"
+hash = "a79e66d8b112b3bb623602bf1d3c8a8a47549ad071d5e91c7f13dcb869b43c62"
+
+[[files]]
+file = "config/inventory-particles/cache/biomeswevegone/atlas.png"
+hash = "567350f3892dd5ff492edcdfb9f6ce8a0aebd5893dbe02169c5f7b6db7a53054"
+
+[[files]]
+file = "config/inventory-particles/cache/biomeswevegone/regions.txt"
+hash = "7175385faee702a1758384e931bffc50201248a204322935ce2a4cb3a9ca414f"
+
+[[files]]
+file = "config/inventory-particles/cache/biomeswevegone/spawn_areas.cached"
+hash = "64f2fed0782705d1d8c3336aa1c84545044f16a9751c6ca06105633f15170f8a"
+
+[[files]]
+file = "config/inventory-particles/cache/blue_skies/atlas.png"
+hash = "28d6c01511b025d7fea110869e6c01e347c623a145e79f6e9e43c4f8c418170a"
+
+[[files]]
+file = "config/inventory-particles/cache/blue_skies/regions.txt"
+hash = "d594707c214c2b7c0429b37bcfbaca55e49ea4793913fce7d7f9856dd66bb4f4"
+
+[[files]]
+file = "config/inventory-particles/cache/blue_skies/spawn_areas.cached"
+hash = "4e293d8d8439ba944c794837d55b9a143cda8fe2298926a05c63b4fc83d2f797"
+
+[[files]]
+file = "config/inventory-particles/cache/born_in_chaos_v1/atlas.png"
+hash = "d186261dd6bd4df6adfdf735fc217701c7ab450b12ac12d2e51f873a381765db"
+
+[[files]]
+file = "config/inventory-particles/cache/born_in_chaos_v1/regions.txt"
+hash = "dafaac7f2acca176e445bccbe3cbc5cbfbc4bca3423ac07f1740555623e536ed"
+
+[[files]]
+file = "config/inventory-particles/cache/born_in_chaos_v1/spawn_areas.cached"
+hash = "bd9fd86cbd782193899e6b139177ae7ab7ab6b1ba417bf54d6047f142c160c20"
+
+[[files]]
+file = "config/inventory-particles/cache/botania/atlas.png"
+hash = "a047e973c28065df3cbef35eaa48c2d8af1636af94a3da33642f8870940435b2"
+
+[[files]]
+file = "config/inventory-particles/cache/botania/regions.txt"
+hash = "a729235760eaca28360ec316cafa87921659eef6427756a28546350567552f71"
+
+[[files]]
+file = "config/inventory-particles/cache/botania/spawn_areas.cached"
+hash = "e365eb3aa1571e6331fdc713b72d59525e2e1e96c9b32bd9887f8442404c61ee"
+
+[[files]]
+file = "config/inventory-particles/cache/botanypots/atlas.png"
+hash = "3853eb687aac2dc82d6dff5234631c73b8bb2342b7160b922cc11ee11a7b2056"
+
+[[files]]
+file = "config/inventory-particles/cache/botanypots/regions.txt"
+hash = "c6a0a475beb883a19a75365fbd7e26cd2bd669fb29f61e8a01d12bbdce468c90"
+
+[[files]]
+file = "config/inventory-particles/cache/botanypots/spawn_areas.cached"
+hash = "45c1e88c43fa1b277377b3a45747fb3a7cf4ae5ce565a676dba164f50d843951"
+
+[[files]]
+file = "config/inventory-particles/cache/botanypotstiers/atlas.png"
+hash = "553a97f2996db04f6cdda0162971e127a0a8252493d3bd967b97c24c6eca6a3b"
+
+[[files]]
+file = "config/inventory-particles/cache/botanypotstiers/regions.txt"
+hash = "1e8b590732a45281bb72f97ec6b9f339a9e1da03ce0ab3136a5065b5382ef700"
+
+[[files]]
+file = "config/inventory-particles/cache/botanypotstiers/spawn_areas.cached"
+hash = "1339c4660213318cdffa48a04d335af65053b719f0d9a37459630ff6bb19b5f7"
+
+[[files]]
+file = "config/inventory-particles/cache/brewery/atlas.png"
+hash = "fc5ed10598d9c12d6baf584809ac98a04929679ea83c825a702036e47b61ab05"
+
+[[files]]
+file = "config/inventory-particles/cache/brewery/regions.txt"
+hash = "bb2d7ff5efb920c02c1b75a219eeaf549170701c1664883c3f1a033d75d6168e"
+
+[[files]]
+file = "config/inventory-particles/cache/brewery/spawn_areas.cached"
+hash = "55ec1998d971a777dd42fd3606abb6661772348caefd0f01a1098da9244ae2c1"
+
+[[files]]
+file = "config/inventory-particles/cache/brewinandchewin/atlas.png"
+hash = "d4ba3dd8616a4c1dbe8dda0864cdd81b75c2036543c3ef73c7c0840a89068939"
+
+[[files]]
+file = "config/inventory-particles/cache/brewinandchewin/regions.txt"
+hash = "2cedac085dbcc5e421bf6227c86dc7cda7e3d37d3455f9a6c443094c5ad2e73b"
+
+[[files]]
+file = "config/inventory-particles/cache/brewinandchewin/spawn_areas.cached"
+hash = "5a9f52bb19cc47bc3f65f09c0554657caee36f94e64e9c8bfc6c2ee34d96e5b4"
+
+[[files]]
+file = "config/inventory-particles/cache/butchersdelight/atlas.png"
+hash = "623be47d07d3ad0bf7572079414a7df91c6f6e87ce80672e934c24deafc5228a"
+
+[[files]]
+file = "config/inventory-particles/cache/butchersdelight/regions.txt"
+hash = "9ee0f1b17e226f4a2a5f7d19fca05548006cf434a7d27b8130126b74a1bb17d7"
+
+[[files]]
+file = "config/inventory-particles/cache/butchersdelight/spawn_areas.cached"
+hash = "6f8e38781a0d72ffbbe870c6a8c8a8bfc32f4383ad6bee63f2b96151cd0b11ac"
+
+[[files]]
+file = "config/inventory-particles/cache/candlelight/atlas.png"
+hash = "55d46ef4e6d15c451b366cdacd9be863cc1e7544c09966fc10990459587dac1b"
+
+[[files]]
+file = "config/inventory-particles/cache/candlelight/regions.txt"
+hash = "c0f5ce9456e0f602d8287ad1b65734c25baaf72c360ea0ddc51c38cf479a00f8"
+
+[[files]]
+file = "config/inventory-particles/cache/candlelight/spawn_areas.cached"
+hash = "f8fe83939f776c9952554c6c4b04ad43a9abe83445d8c0ba55dbb912cb90957b"
+
+[[files]]
+file = "config/inventory-particles/cache/castle_in_the_sky/atlas.png"
+hash = "80e2bd3e9cbb7ce0468f893e74a55c5a652b636b32a97c8b830c27ff41587ea2"
+
+[[files]]
+file = "config/inventory-particles/cache/castle_in_the_sky/regions.txt"
+hash = "cbb98f64c6233252b37085f4ed6ded22560191b5da500a7db5ce6127c7fa6b3d"
+
+[[files]]
+file = "config/inventory-particles/cache/castle_in_the_sky/spawn_areas.cached"
+hash = "338b612fc9d91ace4382f0cdf317cc2a6048512c7117b2e6b2dad5ab9499c2a5"
+
+[[files]]
+file = "config/inventory-particles/cache/cataclysm/atlas.png"
+hash = "d41d5b912c3848872209c3fa39bb09912320d486a819dff7ccb940c3c71ed301"
+
+[[files]]
+file = "config/inventory-particles/cache/cataclysm/regions.txt"
+hash = "78cca525c9da8ced8d6e76277f86e3d3848add7ad6a4fcb310b789a37e714cd3"
+
+[[files]]
+file = "config/inventory-particles/cache/cataclysm/spawn_areas.cached"
+hash = "c023c1f648e0f5c2d5a9bc680a7675b912c99e6c78f888c53266a4425dc93560"
+
+[[files]]
+file = "config/inventory-particles/cache/chained_friends/atlas.png"
+hash = "d70ab51d4246acc96e6be3a01ec056f1ae7a2ea94dd13bb3b1dbd314183efd5c"
+
+[[files]]
+file = "config/inventory-particles/cache/chained_friends/regions.txt"
+hash = "bb82272e76f15586175f59d147f31f0b0a7c1ca9a1a8a0f7398aae008cfcf9e2"
+
+[[files]]
+file = "config/inventory-particles/cache/chained_friends/spawn_areas.cached"
+hash = "b4525662b15106aa0eb7b1603262553294efdbb8ef50e9f456c452290f468f1b"
+
+[[files]]
+file = "config/inventory-particles/cache/chunkloaders/atlas.png"
+hash = "9db01e5fb3777d2b786690e04bf32b42c4d6076b6ab836b6439840338101dd44"
+
+[[files]]
+file = "config/inventory-particles/cache/chunkloaders/regions.txt"
+hash = "3f7c0363fd169bd9b80d017b7c9924708099d789c035d63663ddc5b7511bf8fb"
+
+[[files]]
+file = "config/inventory-particles/cache/chunkloaders/spawn_areas.cached"
+hash = "600002e64524c27eb5aa2e5ff91b942e4c366ff39477331c29f15bae6b18a77f"
+
+[[files]]
+file = "config/inventory-particles/cache/citadel/atlas.png"
+hash = "1ea4c2c425f84d8b3a085cfcbe12cf601d0ee33bc075042132f90e3d848fd520"
+
+[[files]]
+file = "config/inventory-particles/cache/citadel/regions.txt"
+hash = "595219b49e46b1c8065803608b18193551c4a9ff4da6fbd66913ca313a7934ec"
+
+[[files]]
+file = "config/inventory-particles/cache/citadel/spawn_areas.cached"
+hash = "30ce91fe81fa284cdb492ee521bc627e567c6a48111544b6dfa2b401e1820ca1"
+
+[[files]]
+file = "config/inventory-particles/cache/cluttered/atlas.png"
+hash = "e48365ddc0e35072f0e2025d639242f1165efeaef544d2683f4039b15bd6796e"
+
+[[files]]
+file = "config/inventory-particles/cache/cluttered/regions.txt"
+hash = "93572bc3e2b14af9b43fc1ff915cfb34595aa85a53ab5732b1f795ff40fa73a1"
+
+[[files]]
+file = "config/inventory-particles/cache/cluttered/spawn_areas.cached"
+hash = "92d56b999a339494574b884291b468cc9930e89846d56769793785e43a4f2ac8"
+
+[[files]]
+file = "config/inventory-particles/cache/cobblemon/atlas.png"
+hash = "30de8137565915aeb108e07ce5c88f5cceb7a19d4e26e57a1f09dc9978bf7932"
+
+[[files]]
+file = "config/inventory-particles/cache/cobblemon/regions.txt"
+hash = "9c6ff942b108f473c8f36eb43a8724c9aaa51731afbf8bfef57d42b4f28de8a9"
+
+[[files]]
+file = "config/inventory-particles/cache/cobblemon/spawn_areas.cached"
+hash = "19e423289bc5edf2688027afa61c74c97c9bcbfc8ba1f492a925299d9d066089"
+
+[[files]]
+file = "config/inventory-particles/cache/comforts/atlas.png"
+hash = "d6d4c51c97937df43544c1347db6228a49dfa5c89da716b4fc244e7980a52622"
+
+[[files]]
+file = "config/inventory-particles/cache/comforts/regions.txt"
+hash = "c1ca049ba9482c29a2621b5db4327e27f25fe53f32d0c6e435830cf1e3047487"
+
+[[files]]
+file = "config/inventory-particles/cache/comforts/spawn_areas.cached"
+hash = "ed400f7098063a42cf382489e20625da8a814b86bc48c10bc90ebf4f6f6d1268"
+
+[[files]]
+file = "config/inventory-particles/cache/copycats/atlas.png"
+hash = "2f44820026d5846f4d495c5eaf457b4b088db69b7f36511e9d2ffa3edfc5577e"
+
+[[files]]
+file = "config/inventory-particles/cache/copycats/regions.txt"
+hash = "a44e1a52e22eb64988a52ace45f22f48bf310bc0fcddbbc7acae6105052a3c67"
+
+[[files]]
+file = "config/inventory-particles/cache/copycats/spawn_areas.cached"
+hash = "53aae58345e2f258131ae18b0cc1d0e5d806d2108b579ae14a5a1e9690c9f86c"
+
+[[files]]
+file = "config/inventory-particles/cache/corn_delight/atlas.png"
+hash = "f7c774f42d36c343187780c93d07e9edc1f0ef1d433542eb13d63461af84e906"
+
+[[files]]
+file = "config/inventory-particles/cache/corn_delight/regions.txt"
+hash = "af5dd4222c381f2b68cc52eebaaebf11f80e97630b9c1ce14a48fa479bb35ab6"
+
+[[files]]
+file = "config/inventory-particles/cache/corn_delight/spawn_areas.cached"
+hash = "65a49463994e5876a3f76a7547ec7bda448762fce4ae46a374159474c7f2eb5d"
+
+[[files]]
+file = "config/inventory-particles/cache/create/atlas.png"
+hash = "5e49555b957384740def17bd445bd082b46ccac74328552cd1d51f255e5853a6"
+
+[[files]]
+file = "config/inventory-particles/cache/create/regions.txt"
+hash = "1af260ae4c78e91a50ba229258f099652ae4b76929ddd5cae4aeb3f7d6e401f8"
+
+[[files]]
+file = "config/inventory-particles/cache/create/spawn_areas.cached"
+hash = "e82d3d3ca9a89242c6c324d0a0cff315dc506f88033fc958b68fe083a1de71e0"
+
+[[files]]
+file = "config/inventory-particles/cache/createaddition/atlas.png"
+hash = "cd0dddcdd7df2bddbba96cfe905d0157d5ff1034620d94ae14605e3343a87102"
+
+[[files]]
+file = "config/inventory-particles/cache/createaddition/regions.txt"
+hash = "bec5bfc605005a89138353c63f1928577d579bad99e4c5d6eccf3b3b4fea1d6d"
+
+[[files]]
+file = "config/inventory-particles/cache/createaddition/spawn_areas.cached"
+hash = "7ffeb56af59b3a427dd3e89804a013d32e1c9d904b440309a2cb4f59f91af0de"
+
+[[files]]
+file = "config/inventory-particles/cache/creeperoverhaul/atlas.png"
+hash = "8844170bbafa7f1a6941bd2f0e9bed1cfa2c9396f976737b41f5bbb7da6f99be"
+
+[[files]]
+file = "config/inventory-particles/cache/creeperoverhaul/regions.txt"
+hash = "1818cff284372c9a1831d92fd94633085865fb172e3419f593ac0734433d233d"
+
+[[files]]
+file = "config/inventory-particles/cache/creeperoverhaul/spawn_areas.cached"
+hash = "653857a123b58a9b08328b026fe605b1625692c4abd7a2caa50d39d33cfbb946"
+
+[[files]]
+file = "config/inventory-particles/cache/crittersandcompanions/atlas.png"
+hash = "cbf7703e08a68cce65bbf16259dc5953b391e9e3529d262ee119d025eec0a567"
+
+[[files]]
+file = "config/inventory-particles/cache/crittersandcompanions/regions.txt"
+hash = "4dcb37c956d794e2f95438733e365ca97249f3c3f74bcc1b51457e448a9b8a81"
+
+[[files]]
+file = "config/inventory-particles/cache/crittersandcompanions/spawn_areas.cached"
+hash = "8e2bc1430a6b9fe6e4469df96cf620b6f7aaa88a2e067731d33b8fdd690eea13"
+
+[[files]]
+file = "config/inventory-particles/cache/culturaldelights/atlas.png"
+hash = "df9d4dc3454c7eba3eed7736c2c9e277e3464ec27aea6659bbb42101c7369183"
+
+[[files]]
+file = "config/inventory-particles/cache/culturaldelights/regions.txt"
+hash = "8c277ccb2aaee13e13cc8cafc903dfb05b9f9bb52d6bce09a0c35c39ddb1ad35"
+
+[[files]]
+file = "config/inventory-particles/cache/culturaldelights/spawn_areas.cached"
+hash = "7735032ee6bd24f82232ada024a663a816d40834565839a415f7ae3ddefa51e1"
+
+[[files]]
+file = "config/inventory-particles/cache/delightful/atlas.png"
+hash = "c2cc0bee3c0c2d1d993bf8eff4bd94b84912a9effd6f700b81bc16cad2dc070f"
+
+[[files]]
+file = "config/inventory-particles/cache/delightful/regions.txt"
+hash = "783aba521f5c691f2243dc95ad0ed262089d4e4deae549c9b15d2068ad5aaf9e"
+
+[[files]]
+file = "config/inventory-particles/cache/delightful/spawn_areas.cached"
+hash = "97e279c199a84efd265a8c2265f648623981c71cb4df0684aaf5575d3a7ba9ab"
+
+[[files]]
+file = "config/inventory-particles/cache/delightfulcreators/atlas.png"
+hash = "dc367b00f1d24586a8f0229fe4bd503d34b317392c6b651f70b67ae0e1beb72f"
+
+[[files]]
+file = "config/inventory-particles/cache/delightfulcreators/regions.txt"
+hash = "a59ebb44065eb87dbbdffa1c33ebd5625b2d0f53a1d95b998d1cb72ae1cd2c06"
+
+[[files]]
+file = "config/inventory-particles/cache/delightfulcreators/spawn_areas.cached"
+hash = "25d23bdecfea8fa40a9b8d1f99fa97a7a0554b74876d0f8db28c292c38600939"
+
+[[files]]
+file = "config/inventory-particles/cache/dtalexsmobs/atlas.png"
+hash = "7ecd8835356b05b6f7e8dfae46ec8e7ec0175fa62131a5f4056b0131b2012140"
+
+[[files]]
+file = "config/inventory-particles/cache/dtalexsmobs/regions.txt"
+hash = "e6d2ccb9d69dbc318bc3fad9eba3c1a3bd774792bfa2aafd01259f7ab5e44cdb"
+
+[[files]]
+file = "config/inventory-particles/cache/dtalexsmobs/spawn_areas.cached"
+hash = "cd5efcc07366b338fd3557fdba2be1d284d7bbe8e0889219de566f60373c3f93"
+
+[[files]]
+file = "config/inventory-particles/cache/dtbwg/atlas.png"
+hash = "f558525213408c98a1d809852368e7ff73d571ebaf8cbb35f9c5d42af4184f10"
+
+[[files]]
+file = "config/inventory-particles/cache/dtbwg/regions.txt"
+hash = "e3cd2215815cfd4f3dc7088eab53e2749036593c01afb5b4cca43d0cb8702b55"
+
+[[files]]
+file = "config/inventory-particles/cache/dtbwg/spawn_areas.cached"
+hash = "c2010be546d2e8ff37132b1b56f20a72443113421910d7d3aff8d42b5ba57527"
+
+[[files]]
+file = "config/inventory-particles/cache/dtcobblemon/atlas.png"
+hash = "480fd3ef38330f9cfcb2f2493ed98ef8db18c1a44ff19be4a228a8ee20059d73"
+
+[[files]]
+file = "config/inventory-particles/cache/dtcobblemon/regions.txt"
+hash = "989b908c4f65627437d6cb58ed1b43e44cb02402cf910d7ffb0ec64249a90cc5"
+
+[[files]]
+file = "config/inventory-particles/cache/dtcobblemon/spawn_areas.cached"
+hash = "e20d9b2d0cbd3d6ee4ec9d56c94afee7a229956a47d499e26251cce66069bf3d"
+
+[[files]]
+file = "config/inventory-particles/cache/dtquark/atlas.png"
+hash = "0f1cacb2bb1aea11e34de573b0c4a952504efc6edb1c166a3d1f506792f3eb2c"
+
+[[files]]
+file = "config/inventory-particles/cache/dtquark/regions.txt"
+hash = "feaf72d4ed0e5fa18ded1824e83bd4448c412d5ef389663887132068d210d1e0"
+
+[[files]]
+file = "config/inventory-particles/cache/dtquark/spawn_areas.cached"
+hash = "59d748b69531675616721ef92148fdab5b454d17fac52bec1bd42447022c6707"
+
+[[files]]
+file = "config/inventory-particles/cache/dtru/atlas.png"
+hash = "9b575fc0273efd74643548d010f3f8acaeaa3bc440291bca7ea9730336727949"
+
+[[files]]
+file = "config/inventory-particles/cache/dtru/regions.txt"
+hash = "dc5cdbc3f13718bf9c9f0563afb783f7e2bd4af3986dadb1ee6a9eef2024c477"
+
+[[files]]
+file = "config/inventory-particles/cache/dtru/spawn_areas.cached"
+hash = "f06a0d4dafa1b85aaf106aa4d173c3848086c3aad7567f924abf6eb2c3ebb361"
+
+[[files]]
+file = "config/inventory-particles/cache/dttconstruct/atlas.png"
+hash = "93f5ecf90677e7001571bd60128fc43f5609b5d9ce9e720f1f7ad0ad56b0d5ab"
+
+[[files]]
+file = "config/inventory-particles/cache/dttconstruct/regions.txt"
+hash = "57785ff801dc743428472069899afb700991e0198063b0590a119589b798f7ae"
+
+[[files]]
+file = "config/inventory-particles/cache/dttconstruct/spawn_areas.cached"
+hash = "48b18560c384300f249613270155172bd892397b2fdae63624db190e173bd41b"
+
+[[files]]
+file = "config/inventory-particles/cache/dye_depot/atlas.png"
+hash = "a49166338affc377416746267432f9a7717d00ab3660cc765a4dcca1e7c13705"
+
+[[files]]
+file = "config/inventory-particles/cache/dye_depot/regions.txt"
+hash = "599285f122b2b3d590010645a2adde308aecebffe18081a114c78070f968f0b9"
+
+[[files]]
+file = "config/inventory-particles/cache/dye_depot/spawn_areas.cached"
+hash = "75d71219c685c247324d9b79ff58e27f77fa02c21c91219edf739406482e4315"
+
+[[files]]
+file = "config/inventory-particles/cache/dynamictrees/atlas.png"
+hash = "e36356fafcc4d59a7e31908372fe0086cf1e06342f167e0c7f92d52f3a29396b"
+
+[[files]]
+file = "config/inventory-particles/cache/dynamictrees/regions.txt"
+hash = "299c4e650825dd2427d2e7c56a2ea85632a59e2dcd453464e78de4f84e0755ed"
+
+[[files]]
+file = "config/inventory-particles/cache/dynamictrees/spawn_areas.cached"
+hash = "6768edcdf3fd1210b6422b06f86a9d000fb549c2af397f4d7a26cc2636ff1ad6"
+
+[[files]]
+file = "config/inventory-particles/cache/dynamictreesplus/atlas.png"
+hash = "d698ad1c43139844b8896735d83107b4c3466cad8b7d7c3d559ad3d7a8428abc"
+
+[[files]]
+file = "config/inventory-particles/cache/dynamictreesplus/regions.txt"
+hash = "d3bf982845abf774fea7b478164287e8e7ef38ba27ca3b0bbfada0157d4a2536"
+
+[[files]]
+file = "config/inventory-particles/cache/dynamictreesplus/spawn_areas.cached"
+hash = "c3f621453e2d25cb82ed934843f68baf5f5d7abfcbc64d147ec170a220b76210"
+
+[[files]]
+file = "config/inventory-particles/cache/elevatorid/atlas.png"
+hash = "543bc7c37b0354a485279c3da734f33e63cfb0b985c98adf15ba6bfedd596dde"
+
+[[files]]
+file = "config/inventory-particles/cache/elevatorid/regions.txt"
+hash = "35e26665ccefa0cbab1bef4827df52dbd895e2da26783fd143ffb1132c209ff6"
+
+[[files]]
+file = "config/inventory-particles/cache/elevatorid/spawn_areas.cached"
+hash = "7c5bea11c0f498080f9270ab14006d331de90ceb1549195b13e91361bd82d988"
+
+[[files]]
+file = "config/inventory-particles/cache/ends_delight/atlas.png"
+hash = "f8efaf35166ade016c1c448fa752261fc085b76e0722a4029377ba64f816676b"
+
+[[files]]
+file = "config/inventory-particles/cache/ends_delight/regions.txt"
+hash = "41cbb6e5db1660b1174a2e52c989f0acf93f4b0f27e45e1b89f8cb23cca6da72"
+
+[[files]]
+file = "config/inventory-particles/cache/ends_delight/spawn_areas.cached"
+hash = "7bd72a78979294581f41f34ef69761450a1fa6748f5c19a369a5a5f1f951ec98"
+
+[[files]]
+file = "config/inventory-particles/cache/evenmoreinstruments/atlas.png"
+hash = "cd077e4498e4f1de55a09c35c43d0c861d1f6aa5e18463c6a6784b70a4328164"
+
+[[files]]
+file = "config/inventory-particles/cache/evenmoreinstruments/regions.txt"
+hash = "5460280ce7f2fcb7c57a2eb9f0c7868883765d509185c75d82aae6e4721b698b"
+
+[[files]]
+file = "config/inventory-particles/cache/evenmoreinstruments/spawn_areas.cached"
+hash = "01bf05ffa1c3b5997bd153f01fa67b26c3cc6dde4a5215116f4700f30a8af129"
+
+[[files]]
+file = "config/inventory-particles/cache/exposure/atlas.png"
+hash = "cbd14b7fe96aa36c49f7bb3c0505228bd524d7b1287b485c10db0d304759ac94"
+
+[[files]]
+file = "config/inventory-particles/cache/exposure/regions.txt"
+hash = "f7610a00c58bc8c2de1ff6cac9e7c1c16af6d54c463c8895292c64c2e8c76839"
+
+[[files]]
+file = "config/inventory-particles/cache/exposure/spawn_areas.cached"
+hash = "16b68900d423e52fcfc2fcdf2daeeeb6f52406724c324544ed7faac356b29501"
+
+[[files]]
+file = "config/inventory-particles/cache/farm_and_charm/atlas.png"
+hash = "1e4c605838ec98448c8f89fc665d8ae9d7a04401f86d5da9cc340fb16ade133a"
+
+[[files]]
+file = "config/inventory-particles/cache/farm_and_charm/regions.txt"
+hash = "6736967efcb89e62cb34b754d62abb4da7572eb432aee1be0dc7f4286bd0667e"
+
+[[files]]
+file = "config/inventory-particles/cache/farm_and_charm/spawn_areas.cached"
+hash = "2987e1d3e5dae57255a0695d148782775bd8243610cc9bc27de54dc6b4d026fb"
+
+[[files]]
+file = "config/inventory-particles/cache/farmersdelight/atlas.png"
+hash = "2db4017a0488dfa2a25f2c07c38624ca338c0fc02642389438cfcd14731ff8ed"
+
+[[files]]
+file = "config/inventory-particles/cache/farmersdelight/regions.txt"
+hash = "bc777f2afee46607550e1387cf0afe928894c8ef553b656d4b6d92d052ea6a44"
+
+[[files]]
+file = "config/inventory-particles/cache/farmersdelight/spawn_areas.cached"
+hash = "923c8235a01d28178eac147ef3e5ef8d833c456eb69b7c5dd9d6aa2bf925ce2d"
+
+[[files]]
+file = "config/inventory-particles/cache/farmersrespite/atlas.png"
+hash = "76a2b6ca324a45d57993b90a9417bf76c446969528a9995d7ad05339e69bd86d"
+
+[[files]]
+file = "config/inventory-particles/cache/farmersrespite/regions.txt"
+hash = "80195ccff4615fe7b69caa8e3c040d4fbe98f233c6214f4fb3bad467ef964a28"
+
+[[files]]
+file = "config/inventory-particles/cache/farmersrespite/spawn_areas.cached"
+hash = "15a4bd3b9b3d34cfe9202c68938a27f24c6411a94bbdd1cc2b19dda6eefe00c7"
+
+[[files]]
+file = "config/inventory-particles/cache/fieldguide/atlas.png"
+hash = "f03e19a74fec6cb9c3a2294182c85c4aef4e4a1eb40140fdbe72d7afdffdba85"
+
+[[files]]
+file = "config/inventory-particles/cache/fieldguide/regions.txt"
+hash = "003915f952eaf413d44b8bd2fd6fe99c4ac00b2803d9005054004d4c0df754eb"
+
+[[files]]
+file = "config/inventory-particles/cache/fieldguide/spawn_areas.cached"
+hash = "955f4b871587f00f0cf42f118065979affcf9e1a0fd00aa63c627c79318467fe"
+
+[[files]]
+file = "config/inventory-particles/cache/find_me/atlas.png"
+hash = "5227e365e2bd44f294aa5408d343fe48aabd144aec75507d803533d5ef8115f3"
+
+[[files]]
+file = "config/inventory-particles/cache/find_me/regions.txt"
+hash = "ef094beee059d4a389dfab2eaeb39cc6e99688bf521ab5fc803b2c41883ad5c1"
+
+[[files]]
+file = "config/inventory-particles/cache/find_me/spawn_areas.cached"
+hash = "1e2e1f79d8fe7e0699115abb9a4d59a3bb1c9df8b1893881814ee7de7627ce25"
+
+[[files]]
+file = "config/inventory-particles/cache/framedblocks/atlas.png"
+hash = "efa72be4614d2df4ffe811becd9537639e9960312a2b9e4f1f6670dd1470ac8b"
+
+[[files]]
+file = "config/inventory-particles/cache/framedblocks/regions.txt"
+hash = "cd2a80e912e9c3cc5df1554287ad2f81d863a79eaab37d63900ab712493a6426"
+
+[[files]]
+file = "config/inventory-particles/cache/framedblocks/spawn_areas.cached"
+hash = "6325e4b6dc6d92b0c714afd1695b7cb4b453a6b9e8e8240d26ccdf4cccc9cf68"
+
+[[files]]
+file = "config/inventory-particles/cache/furniture/atlas.png"
+hash = "e028eb81afa2fd16f677cb26346a7d0ca3e9217b124fe823bb7e1357e2a6116e"
+
+[[files]]
+file = "config/inventory-particles/cache/furniture/regions.txt"
+hash = "474a15b7786202167a1e8025ebf1d43b92ee6bb1bd12692c7feb9d91aaf3c069"
+
+[[files]]
+file = "config/inventory-particles/cache/furniture/spawn_areas.cached"
+hash = "1532bf12cdbec0d2e765033dcd6d8f2be3719fd8978766643f643879bf67cec2"
+
+[[files]]
+file = "config/inventory-particles/cache/genshinstrument/atlas.png"
+hash = "33b09afd5d34d5f7b5ccf533c1b4a29da9744986b55ed557c348b99f497891d2"
+
+[[files]]
+file = "config/inventory-particles/cache/genshinstrument/regions.txt"
+hash = "e2926a9353193c55a32d839451a2b0f5bd5bdc4fde5e8936fe2222fd7757bbac"
+
+[[files]]
+file = "config/inventory-particles/cache/genshinstrument/spawn_areas.cached"
+hash = "9fcb5d6a19e54ffb30f30ef3b6bcf27cbd597d965ee19be9370ee8837d1f8398"
+
+[[files]]
+file = "config/inventory-particles/cache/ghosts/atlas.png"
+hash = "715c224e9ec40da4e1976a9eb777e098e64d2a8b50fdb8407183eeafe4315a26"
+
+[[files]]
+file = "config/inventory-particles/cache/ghosts/regions.txt"
+hash = "ddc73822f14461153849e80370c412b5e857c1ef17a0e5d9eed7ebe557b6f026"
+
+[[files]]
+file = "config/inventory-particles/cache/ghosts/spawn_areas.cached"
+hash = "163060ee6fd321e349504d072025758ea0deb7788f24f30fcbb8ae2387da3002"
+
+[[files]]
+file = "config/inventory-particles/cache/golemoverhaul/atlas.png"
+hash = "8c54255de36242426afa53e007d797d8124c71095e61c36d209f0880f038b04f"
+
+[[files]]
+file = "config/inventory-particles/cache/golemoverhaul/regions.txt"
+hash = "ba222ccecfbe1a59c00d12e044c93839812adbe7518f8cfadea30f58b9ecf665"
+
+[[files]]
+file = "config/inventory-particles/cache/golemoverhaul/spawn_areas.cached"
+hash = "c9f48933a01fe9e139bebeedf06e1bfcaaff4852a48b597a456265f0f5cfcc6b"
+
+[[files]]
+file = "config/inventory-particles/cache/guideme/atlas.png"
+hash = "52f93e9e855748fe54a0771fcfb8f520af47cc5e2a1ce31df5bd8cfe4c5d8d5c"
+
+[[files]]
+file = "config/inventory-particles/cache/guideme/regions.txt"
+hash = "e3eef45e262d758b61ef1473ee5581e5f2f10ff757f0d71ca26bec1dadd4f61d"
+
+[[files]]
+file = "config/inventory-particles/cache/guideme/spawn_areas.cached"
+hash = "fdadde22ec0cee60844064ea728f0f505e5522ea8f41f6704c5e9f0d33865200"
+
+[[files]]
+file = "config/inventory-particles/cache/herbalbrews/atlas.png"
+hash = "1f6e2d33a8df089c5a10d02583a9a0107f227c6902f4f4399873e852ae6c2599"
+
+[[files]]
+file = "config/inventory-particles/cache/herbalbrews/regions.txt"
+hash = "2e4e03628afd6f63c3f280f09d583314a837f128ecc4e0fb1357127f68a5d4f4"
+
+[[files]]
+file = "config/inventory-particles/cache/herbalbrews/spawn_areas.cached"
+hash = "7e55379d4e9b2bfd22965f019f71125a1201b066dae7649930b113d6b87b9a3c"
+
+[[files]]
+file = "config/inventory-particles/cache/iammusicplayer/atlas.png"
+hash = "d5776bca75dc33708fa6a4ab9fe755dcee7c9c3cf144579c51316f87084ac761"
+
+[[files]]
+file = "config/inventory-particles/cache/iammusicplayer/regions.txt"
+hash = "687a7d57b22756f44bcf2750fb8d53f1640b2fd5abe9f293c195b51c04f4a98d"
+
+[[files]]
+file = "config/inventory-particles/cache/iammusicplayer/spawn_areas.cached"
+hash = "22a6d5f37c8c1d166398f48047cc15c9f727b31873452225c155efc621b1605e"
+
+[[files]]
+file = "config/inventory-particles/cache/inmis/atlas.png"
+hash = "4235e4fa6fb22dc63fcc103e421a499dee7642a5d8108e0615dff850cb70ff83"
+
+[[files]]
+file = "config/inventory-particles/cache/inmis/regions.txt"
+hash = "c5589e4823fbbc463f579ab584bce7d2eb0f0a4c3c1a4ba3525c5c7786c07f27"
+
+[[files]]
+file = "config/inventory-particles/cache/inmis/spawn_areas.cached"
+hash = "3cd4437c94c65082ea07455cb830fed529596fdf05e130076b99dc65133b3361"
+
+[[files]]
+file = "config/inventory-particles/cache/ironfurnaces/atlas.png"
+hash = "f1c4534a35aeb46e170518094c840a82d05ddfaf81647ab00c11f821626a3587"
+
+[[files]]
+file = "config/inventory-particles/cache/ironfurnaces/regions.txt"
+hash = "a2ccda1b612861fffcbeea52e9eb9087542e7396cd1fc8dd07d0ec423786a39c"
+
+[[files]]
+file = "config/inventory-particles/cache/ironfurnaces/spawn_areas.cached"
+hash = "f2cafc3956f011b667ccdcc4588446a4bb5cb0c19945e8970b812ca758ba7b64"
+
+[[files]]
+file = "config/inventory-particles/cache/labels/atlas.png"
+hash = "9bbe65eaea70ff01ab7bf09e7cf6c47517891a0c8faf4bda9b3dcf1f7006e250"
+
+[[files]]
+file = "config/inventory-particles/cache/labels/regions.txt"
+hash = "a0974775958a43dfdd0bdde561e45914463e96ddc81520dad9890e61f700afab"
+
+[[files]]
+file = "config/inventory-particles/cache/labels/spawn_areas.cached"
+hash = "793775a99754c08e7de88f9ef5be3f7b9c729e2f3457b34ade80680960d8c66b"
+
+[[files]]
+file = "config/inventory-particles/cache/lemoned/atlas.png"
+hash = "4abbc10f16e179c9426d07df88b71d2e0dc13af9beebde775f49685b097fdf0e"
+
+[[files]]
+file = "config/inventory-particles/cache/lemoned/regions.txt"
+hash = "2d8fb71faf51ad360682bec388cc275b4bf498c309c35a1acd785382e5248b25"
+
+[[files]]
+file = "config/inventory-particles/cache/lemoned/spawn_areas.cached"
+hash = "7e0bd4e831e6b94309a414631062fa2ae49ffc858e013aeab6c2d320fbe52abf"
+
+[[files]]
+file = "config/inventory-particles/cache/mcwdoors/atlas.png"
+hash = "586697d376fcf438aaf95fb906d43e8300c3f6add9ba68d16179b364244d7da0"
+
+[[files]]
+file = "config/inventory-particles/cache/mcwdoors/regions.txt"
+hash = "41b0f8edf6e2764d418ff4c1dfcae3d1b2c66b0d536e4ffce61f1ed44444f1c5"
+
+[[files]]
+file = "config/inventory-particles/cache/mcwdoors/spawn_areas.cached"
+hash = "177f8bddd42967a63c49bdae208bca6a00978c50bb02b857d38378bd942b0f5a"
+
+[[files]]
+file = "config/inventory-particles/cache/mcwfences/atlas.png"
+hash = "a4b71143812f6f22283ac66c2332c6d59caae522ebcbb5188c2412a7ef8c8630"
+
+[[files]]
+file = "config/inventory-particles/cache/mcwfences/regions.txt"
+hash = "a3c1b9dda6a6f0cc553956d3a05c672e38efd0c94861daefeb5d80febbe646f4"
+
+[[files]]
+file = "config/inventory-particles/cache/mcwfences/spawn_areas.cached"
+hash = "edc463fbc5241e722e67ed5d2291f744928ca8b57424e8c8852b5ef87260abf0"
+
+[[files]]
+file = "config/inventory-particles/cache/mcwpaths/atlas.png"
+hash = "cad5764ab07eb5ada2833d4e1f7b96f97f4b7c24ccd2e6bfcc22ccd57fe474a0"
+
+[[files]]
+file = "config/inventory-particles/cache/mcwpaths/regions.txt"
+hash = "54cdf1eedc576f8661d194b7fdd6516b9e4626624a5e7d6a4ab329ebbacbb109"
+
+[[files]]
+file = "config/inventory-particles/cache/mcwpaths/spawn_areas.cached"
+hash = "d232bfd63858fc4a74eda74b9dba476fdf3492ab983edda23828be2fbb768fe1"
+
+[[files]]
+file = "config/inventory-particles/cache/miners_delight/atlas.png"
+hash = "29ac61d210d52ff477a04dfd76a60a4cb332be411e5bbdce5e1170c750ccdaf1"
+
+[[files]]
+file = "config/inventory-particles/cache/miners_delight/regions.txt"
+hash = "4d4806bc6d27570038956648236520143949f9c2b0dc236253608fd9e7b435b9"
+
+[[files]]
+file = "config/inventory-particles/cache/miners_delight/spawn_areas.cached"
+hash = "e3456e443b39e8f9c4640dd18509e45eb6555139eafddbf74261e310a469d7e9"
+
+[[files]]
+file = "config/inventory-particles/cache/moonlight/atlas.png"
+hash = "258ba65f401d0b3621f5f376e0ac452457a800a878b8c07608ad8e21c13fe9e2"
+
+[[files]]
+file = "config/inventory-particles/cache/moonlight/regions.txt"
+hash = "cf88fda4622207712f25f2b141789bf68decda717968d0df1783fddc97973450"
+
+[[files]]
+file = "config/inventory-particles/cache/moonlight/spawn_areas.cached"
+hash = "3410999959be9f989241bddf560b67c3b551241a8c7b66bc5c456db137453ac9"
+
+[[files]]
+file = "config/inventory-particles/cache/more_curios_slots/atlas.png"
+hash = "7f8f136eed5ad003e52101f3bf8b2d8ad6c497ce25f3b92fdc206cf2fc94ef7e"
+
+[[files]]
+file = "config/inventory-particles/cache/more_curios_slots/regions.txt"
+hash = "462ee6ef112426db31e0965a95b195c0cfc363261fc80c757e1afcf296ba8325"
+
+[[files]]
+file = "config/inventory-particles/cache/more_curios_slots/spawn_areas.cached"
+hash = "329c65d249b18564bbfb72305929eb576db3feaea2ff728ee8497a1886202558"
+
+[[files]]
+file = "config/inventory-particles/cache/moredelight/atlas.png"
+hash = "87d8cbc1ba8ef127c96994b7a9c682a5d4377d290ffce028cf9d3d57011685e8"
+
+[[files]]
+file = "config/inventory-particles/cache/moredelight/regions.txt"
+hash = "f086841066b78d86774981cf19a88f925bf90329c07d3084443d678ad9e955c3"
+
+[[files]]
+file = "config/inventory-particles/cache/moredelight/spawn_areas.cached"
+hash = "327fc11770a97614f7a25667e01231afacfee1fa9511f26b59ab65ab65ee79c5"
+
+[[files]]
+file = "config/inventory-particles/cache/mowziesmobs/atlas.png"
+hash = "3968c8ecae62ece1853ba7fe0896374be6754428cc84fbf877b4baca8644846d"
+
+[[files]]
+file = "config/inventory-particles/cache/mowziesmobs/regions.txt"
+hash = "1001594c9e1af5dbaff55b76ea382dfb28ff779d2cebae566f56617c72bc4bf4"
+
+[[files]]
+file = "config/inventory-particles/cache/mowziesmobs/spawn_areas.cached"
+hash = "a23daa9b309131e532558125a071a499b5569d951472c879c8cd3b44955650b0"
+
+[[files]]
+file = "config/inventory-particles/cache/nethersdelight/atlas.png"
+hash = "08e235a0611df78fbb882a40df413ab084db18bb063d6c51a91a6f316df11039"
+
+[[files]]
+file = "config/inventory-particles/cache/nethersdelight/regions.txt"
+hash = "ec4881d18824bf4418d2deb2f951b4154c5e9bfb1c67337df7cc14ae4a8462c5"
+
+[[files]]
+file = "config/inventory-particles/cache/nethersdelight/spawn_areas.cached"
+hash = "9e45c42196631baeac938202aed129a008e7eebaafa077a899a8a4186461e6a0"
+
+[[files]]
+file = "config/inventory-particles/cache/obscure_api/atlas.png"
+hash = "a0f2a45964dfcb07e770bddf76769ed44b8ad668151a9b82dd01c6b12b3a46ab"
+
+[[files]]
+file = "config/inventory-particles/cache/obscure_api/regions.txt"
+hash = "c2c67f7628c64b2de1fb6bf76e0005667165ac75134ccdafb85fb16a6cb41946"
+
+[[files]]
+file = "config/inventory-particles/cache/obscure_api/spawn_areas.cached"
+hash = "37b337b41671222dedd9ff1566d3005f48c71b8437b17d75e94feb981174cfec"
+
+[[files]]
+file = "config/inventory-particles/cache/oceansdelight/atlas.png"
+hash = "07c287282296bfa9f854cdb24e2ad042b726b3c134b9572aef60f534d577c7fd"
+
+[[files]]
+file = "config/inventory-particles/cache/oceansdelight/regions.txt"
+hash = "2788962e31b8fe0650b15d8ce8c48043fd62921009d73ab80fc5669c132edac7"
+
+[[files]]
+file = "config/inventory-particles/cache/oceansdelight/spawn_areas.cached"
+hash = "04443f5206e196ec5f551a1bd6a13916f7a3ba225ba08a8ea0cca22f31d9e730"
+
+[[files]]
+file = "config/inventory-particles/cache/patchouli/atlas.png"
+hash = "08eb776346e7bbf0f60d79449c1ed02f71d1cee58d7b0c00bcdb25dc02bbc3bb"
+
+[[files]]
+file = "config/inventory-particles/cache/patchouli/regions.txt"
+hash = "6c977cd9d23f6494fa0369a350a9373afee328176e227dc77ed45684bd0148d0"
+
+[[files]]
+file = "config/inventory-particles/cache/patchouli/spawn_areas.cached"
+hash = "9024749a2f627617061d7491e50a0c5ddc8aafc0e8793060e7b53e0b03f1b2b3"
+
+[[files]]
+file = "config/inventory-particles/cache/peruviansdelight/atlas.png"
+hash = "1efd1dc68e45e95ebe881fad0ff889dbb6594bdc93a97a202162082ff4722282"
+
+[[files]]
+file = "config/inventory-particles/cache/peruviansdelight/regions.txt"
+hash = "39a636b2a1646175fe2b55340fd8989617b9d5c65d00d7ecd83267d922ff20e4"
+
+[[files]]
+file = "config/inventory-particles/cache/peruviansdelight/spawn_areas.cached"
+hash = "bd567cf18fc1745deae2ed054e809bf5fa7ca5a5f75108db551a39adfc7690eb"
+
+[[files]]
+file = "config/inventory-particles/cache/powah/atlas.png"
+hash = "16aeb1cd0dd3342ee76337fbce332890c319371426bad59839f1df0f7f88bb3b"
+
+[[files]]
+file = "config/inventory-particles/cache/powah/regions.txt"
+hash = "fb954ef30be5f9d1c3c6c6237c35f67970011409bfdc553f8d361ded79961ba1"
+
+[[files]]
+file = "config/inventory-particles/cache/powah/spawn_areas.cached"
+hash = "4e68ab7750b46a3526c764cca520caf530e315552a6bceeaca3fcff4c242fa24"
+
+[[files]]
+file = "config/inventory-particles/cache/primal/atlas.png"
+hash = "bd22dd45b9e7ba34793f4b064460285eb51cd007c4f48f2ac721b2fcf06d8c09"
+
+[[files]]
+file = "config/inventory-particles/cache/primal/regions.txt"
+hash = "feecdcea6806a36d38d96a8de56724e5589eeac25293b136b17bcb49b8aa0630"
+
+[[files]]
+file = "config/inventory-particles/cache/primal/spawn_areas.cached"
+hash = "3fcb7d3f778da38461ca0b2c21b4a2fef8547f9173d3e72d64736fac5362e9b9"
+
+[[files]]
+file = "config/inventory-particles/cache/projectvibrantjourneys/atlas.png"
+hash = "fa77f880329b49e39c793d2952770af99aa1ec8069daddf54b0bffb1961b0576"
+
+[[files]]
+file = "config/inventory-particles/cache/projectvibrantjourneys/regions.txt"
+hash = "99fd76bd20c3d1f730b6590adb7dff8be1e55ffafb19fcb40e0cd56fd7767e7d"
+
+[[files]]
+file = "config/inventory-particles/cache/projectvibrantjourneys/spawn_areas.cached"
+hash = "6355da72831744ebb4d960959e871e03b712d43d81c82d53f6d6f6638bffe113"
+
+[[files]]
+file = "config/inventory-particles/cache/punchy_puppies/atlas.png"
+hash = "37b060b8be5daaa6164fbcc24e36ccd666f64ae4ed7fafa208c81459a85b39d5"
+
+[[files]]
+file = "config/inventory-particles/cache/punchy_puppies/regions.txt"
+hash = "53267e35a338638223f59deffe7b38af266117ba0ebce862b49f090b5a8ac579"
+
+[[files]]
+file = "config/inventory-particles/cache/punchy_puppies/spawn_areas.cached"
+hash = "096cbe25e1ef422750af4fb8868ad43d1d4f707301e6971e34fbaba307775b9a"
+
+[[files]]
+file = "config/inventory-particles/cache/quark/atlas.png"
+hash = "9766c8c81bdc7b32652fc1f9aede0f4baed5e770165989ed98763ad43655c0bb"
+
+[[files]]
+file = "config/inventory-particles/cache/quark/regions.txt"
+hash = "fa33523904d1cef82751688e43079c684c9aebabe13eb8aaf9afa87e084d4d1b"
+
+[[files]]
+file = "config/inventory-particles/cache/quark/spawn_areas.cached"
+hash = "95416eafa2082ff1a7046c6e1c52adde5c84e7934fa82a88d44b637f9d06a878"
+
+[[files]]
+file = "config/inventory-particles/cache/railways/atlas.png"
+hash = "2c70fa583c78db3663d91d68dcf45cfc1f5e2272478acb8da9597e0ebf2473b2"
+
+[[files]]
+file = "config/inventory-particles/cache/railways/regions.txt"
+hash = "27962db50364436080a56824de48470ee29ddfc226e9a61ccba075cc9f3b6209"
+
+[[files]]
+file = "config/inventory-particles/cache/railways/spawn_areas.cached"
+hash = "db4ba8625797af954b7fe5dbf4e1700abc8a24bec713fdbf5fef42b02a2211b9"
+
+[[files]]
+file = "config/inventory-particles/cache/regions_unexplored/atlas.png"
+hash = "05c5e4b301700d7131fd2456b14fa960a1fe2cbda6ac377ce615985f7cbea82d"
+
+[[files]]
+file = "config/inventory-particles/cache/regions_unexplored/regions.txt"
+hash = "a78562b26937f15b8595940280bd1ca40a19ef28d21e62fe47bea3eaabe24a0c"
+
+[[files]]
+file = "config/inventory-particles/cache/regions_unexplored/spawn_areas.cached"
+hash = "cee3210e9988b5a3273986bc6b97660bc1135cc3ef0a4da9271bba0e9087d7df"
+
+[[files]]
+file = "config/inventory-particles/cache/relics/atlas.png"
+hash = "442b75c472f7dc155c040462073100303385470b05d5d4e191baf4cd4c1acbd2"
+
+[[files]]
+file = "config/inventory-particles/cache/relics/regions.txt"
+hash = "0efb02ad6b3758bffd70fb803e5de17dd1041202a2d3496763345231d6c9aead"
+
+[[files]]
+file = "config/inventory-particles/cache/relics/spawn_areas.cached"
+hash = "4191c1133ea3d49338ea0d024a59503a92990d67d2949a33f0d33c3fbd7916d2"
+
+[[files]]
+file = "config/inventory-particles/cache/ribbits/atlas.png"
+hash = "1c154cb3c230ab792b6326928957862c7ec36e18e75a1f4e214c4d66d215c14d"
+
+[[files]]
+file = "config/inventory-particles/cache/ribbits/regions.txt"
+hash = "b405b02b075715ea3d9906c990ded1f22e4f397f64f4055164b222f15414a1d9"
+
+[[files]]
+file = "config/inventory-particles/cache/ribbits/spawn_areas.cached"
+hash = "c7ae14fd80703cab6cb1703bcfdc46aa9d01d1d492f5129d1a0c37cce3f89921"
+
+[[files]]
+file = "config/inventory-particles/cache/saintsdragons/atlas.png"
+hash = "c642dafe10dc7f91a624569659b8c9881b1ca12ebd92571a0954643578f182ed"
+
+[[files]]
+file = "config/inventory-particles/cache/saintsdragons/regions.txt"
+hash = "4a17a0b068bd9704891495d5a14d2c2eabb121bb8e9b0790597e1568e875ff22"
+
+[[files]]
+file = "config/inventory-particles/cache/saintsdragons/spawn_areas.cached"
+hash = "bb0165c7c984880f11ccca8837fb850fcd8cd75b9746c2dd75d0dd9a88f531fb"
+
+[[files]]
+file = "config/inventory-particles/cache/scalinghealth/atlas.png"
+hash = "08caad18799c4aaabac16f3447976cd83cc344b6ead7d0d9ce80d8dbd69d5878"
+
+[[files]]
+file = "config/inventory-particles/cache/scalinghealth/regions.txt"
+hash = "d01f826228f3474a58d1936ce35415f00b33b4a05c42d040e2c41e38ac30578d"
+
+[[files]]
+file = "config/inventory-particles/cache/scalinghealth/spawn_areas.cached"
+hash = "4ce7bc0d8fac0847c2270ad20d6927074e79f1c5bcabc89e20600f616c330634"
+
+[[files]]
+file = "config/inventory-particles/cache/scarecrowsterritory/atlas.png"
+hash = "a0a85dc5328a5465d826635a2fd6529fd0ebe310ef3d59e9c99e8268565bf3bf"
+
+[[files]]
+file = "config/inventory-particles/cache/scarecrowsterritory/regions.txt"
+hash = "ea83f45179f4dfdc4dd7270919c417ee31317d999df5201048b3c3f36c4a7f37"
+
+[[files]]
+file = "config/inventory-particles/cache/scarecrowsterritory/spawn_areas.cached"
+hash = "e8013e6473e9c7b10d3c96c6d13d24b7c68fa06e15027d8245af5dd622498a4a"
+
+[[files]]
+file = "config/inventory-particles/cache/seamlesssleep/atlas.png"
+hash = "258ba65f401d0b3621f5f376e0ac452457a800a878b8c07608ad8e21c13fe9e2"
+
+[[files]]
+file = "config/inventory-particles/cache/seamlesssleep/regions.txt"
+hash = "d84d6bd03638d3d867a9f4de084e6c0c6c7ab56ced6719ba2763b257486c1ce8"
+
+[[files]]
+file = "config/inventory-particles/cache/seamlesssleep/spawn_areas.cached"
+hash = "d3769948bb264955d38391c1750822583c15b05846c300d69d86057839d2e2a1"
+
+[[files]]
+file = "config/inventory-particles/cache/simplehats/atlas.png"
+hash = "714f33a5a6bbd465dcfac80390e45d36cef504b4e1ae9151de5cffd3f1679b13"
+
+[[files]]
+file = "config/inventory-particles/cache/simplehats/regions.txt"
+hash = "40292f1281fda4fbd27d3b46b48dd1d1941f0a049c666fdf697b0f6435c900bc"
+
+[[files]]
+file = "config/inventory-particles/cache/simplehats/spawn_areas.cached"
+hash = "90acbd6287a20eb73325a5a289035432593146d6ad77e8d6304cb7546fdf1eb9"
+
+[[files]]
+file = "config/inventory-particles/cache/sliceanddice/atlas.png"
+hash = "f801289c93a5f77a7e157c136ae397850916164cdd139704d49f49426daec560"
+
+[[files]]
+file = "config/inventory-particles/cache/sliceanddice/regions.txt"
+hash = "1d1a32b24496a497c98341ab9251d60e00bdaa6d0a6d49b9629a44b8698d5774"
+
+[[files]]
+file = "config/inventory-particles/cache/sliceanddice/spawn_areas.cached"
+hash = "5167b3bfdbff8878ae277b80543818ef744330b4b51fe1b3eb9fe352e2a09d36"
+
+[[files]]
+file = "config/inventory-particles/cache/sophisticatedbackpacks/atlas.png"
+hash = "0d35929e06da2e0d3820174085e62801bd32a4abadc291e4bb001e5790a7e808"
+
+[[files]]
+file = "config/inventory-particles/cache/sophisticatedbackpacks/regions.txt"
+hash = "2031eed97f7618f68ac48d271f19d3e7ade863777f73b25f4d351671ed2529ce"
+
+[[files]]
+file = "config/inventory-particles/cache/sophisticatedbackpacks/spawn_areas.cached"
+hash = "9660cfd85c2d488b1d595986c1380b32be3f75a51b0081a5b01138edf04bee36"
+
+[[files]]
+file = "config/inventory-particles/cache/storagedrawers/atlas.png"
+hash = "6647d0f9ee7b6cc1daa294cc571a4f02a9ab26831ed3aeed8cc025e86635a317"
+
+[[files]]
+file = "config/inventory-particles/cache/storagedrawers/regions.txt"
+hash = "97bb7b9056d384ea331c6dfd4ff6f7a78208a3acb1485236409686ec71a93ff8"
+
+[[files]]
+file = "config/inventory-particles/cache/storagedrawers/spawn_areas.cached"
+hash = "54df9441d23fe6aaf03a6235b348676eac4ab350f875de9274d6adf3b6038a76"
+
+[[files]]
+file = "config/inventory-particles/cache/structure_gel/atlas.png"
+hash = "d227c340a0be42bce8b1759972a3ab531b4d37ada87b64d0058f4871af370326"
+
+[[files]]
+file = "config/inventory-particles/cache/structure_gel/regions.txt"
+hash = "1706e2a6a454993a2c0c963043f68514bfd73fa67b6e161356e3251fb65eeb40"
+
+[[files]]
+file = "config/inventory-particles/cache/structure_gel/spawn_areas.cached"
+hash = "e40db01498068f9eabcf4e07cb9df2701b681e39c81e7c97473008299c715e60"
+
+[[files]]
+file = "config/inventory-particles/cache/tconstruct/atlas.png"
+hash = "55b48b5edb10bd3abe028c60aef7240b8481c084f0c61e2852631893a67eaa08"
+
+[[files]]
+file = "config/inventory-particles/cache/tconstruct/regions.txt"
+hash = "5383223e10561632d78405088e72f204bbdba537e40385fb10251002a368ca36"
+
+[[files]]
+file = "config/inventory-particles/cache/tconstruct/spawn_areas.cached"
+hash = "9ea84bdab4dd40d1de2072b12c0277b06e238d9c61ebcebd20527b5aeee72714"
+
+[[files]]
+file = "config/inventory-particles/cache/tempad/atlas.png"
+hash = "d8637b7347ed4c609d9724145b5518fbc0baa036c3ce43749797a1265ed5241a"
+
+[[files]]
+file = "config/inventory-particles/cache/tempad/regions.txt"
+hash = "3e786a8acb41612e8ea29fb83696194e17f052e80c4888beef20918c07d4d81e"
+
+[[files]]
+file = "config/inventory-particles/cache/tempad/spawn_areas.cached"
+hash = "ad2b63034932e7de5e3d732bd38999c5910648019d53c8149e0d830b22ff04f2"
+
+[[files]]
+file = "config/inventory-particles/cache/tombstone/atlas.png"
+hash = "b13e3c30b382b9d4701ba2d810cf0c569a988ef7739ddb94a78c25b806d729ca"
+
+[[files]]
+file = "config/inventory-particles/cache/tombstone/regions.txt"
+hash = "c99c3494018049daac8f816f64395298ca8a91a0f2cea6e9cd1ff14afe3c4e96"
+
+[[files]]
+file = "config/inventory-particles/cache/tombstone/spawn_areas.cached"
+hash = "21f9620279bc9ab9d83f8165c0ce298182752574c573cd9ecf7033cd5be248e1"
+
+[[files]]
+file = "config/inventory-particles/cache/torchmaster/atlas.png"
+hash = "0c1194032a26d070854a7d9fb9fdf23589b076755105db6fd355aec9b965b722"
+
+[[files]]
+file = "config/inventory-particles/cache/torchmaster/regions.txt"
+hash = "064d96352fab7695e2cc20bd118f6eec03ec82f9a2464e1234c4fb82700bda58"
+
+[[files]]
+file = "config/inventory-particles/cache/torchmaster/spawn_areas.cached"
+hash = "ee02be63ebf4ca0a5c2dd8a3443983c4d278cd26089d29d9908607d89a68795a"
+
+[[files]]
+file = "config/inventory-particles/cache/veggiesdelight/atlas.png"
+hash = "48fef30e69d04347d66f033e12da10092efe63a277bdc025f9954c85d33f41ae"
+
+[[files]]
+file = "config/inventory-particles/cache/veggiesdelight/regions.txt"
+hash = "847ee71d3e6b255806aedef91d497e8895b866529b747f6995569b18879ab21c"
+
+[[files]]
+file = "config/inventory-particles/cache/veggiesdelight/spawn_areas.cached"
+hash = "33a8fc348f1e20297271c132976a1485decb42d0be5349cbdc8e0e9703f34bfd"
+
+[[files]]
+file = "config/inventory-particles/cache/vinery/atlas.png"
+hash = "1e19f69e2ec635a4027e613f2d840530b62850fe64b0684708b566966b459a2e"
+
+[[files]]
+file = "config/inventory-particles/cache/vinery/regions.txt"
+hash = "c14d10dbdaae93b931f870f4486386a32e0b58e7de7d2f5c6d805a84465c660d"
+
+[[files]]
+file = "config/inventory-particles/cache/vinery/spawn_areas.cached"
+hash = "035e41218b3fc259d5f0c66fea71e80eef7c801102bfc722e4ee7327f0c215a9"
+
+[[files]]
+file = "config/inventory-particles/cache/waterframes/atlas.png"
+hash = "ebe25de6a7762a05459c2e9a8096e420d55eb82dd3e4fa0ab41dfb52bc79a4fd"
+
+[[files]]
+file = "config/inventory-particles/cache/waterframes/regions.txt"
+hash = "b3ead57dc56dcfbf7ae4528ed2349c09b16bbf12a4eebd5081211efd91e03a4b"
+
+[[files]]
+file = "config/inventory-particles/cache/waterframes/spawn_areas.cached"
+hash = "9fb5f9ba5f4b5a6af0f87373a2f06b3a8775486c33769f4f5072c66894fbb7b5"
+
+[[files]]
+file = "config/inventory-particles/cache/waystones/atlas.png"
+hash = "dc69dff33f6643c2315b6f0ec544fd343f471038ad384e766f72e3355cf2857b"
+
+[[files]]
+file = "config/inventory-particles/cache/waystones/regions.txt"
+hash = "4cd77051c441738e6d19f60c66619f095d1e16a92200ceabb1bbd666afab546d"
+
+[[files]]
+file = "config/inventory-particles/cache/waystones/spawn_areas.cached"
+hash = "a5a2398eb126d839d43a68cca9012ba0b6201ed26f493ab87a129eaa2934d767"
+
+[[files]]
+file = "config/inventory-particles/cache/wildernature/atlas.png"
+hash = "e3ca9687382956b18be2d61c89269137bd4bd1a18cd235aa7bf92fc213d43e62"
+
+[[files]]
+file = "config/inventory-particles/cache/wildernature/regions.txt"
+hash = "fa1236483e547ad42b36cad276994b90b6089befee2c6527a3f02763b99ae646"
+
+[[files]]
+file = "config/inventory-particles/cache/wildernature/spawn_areas.cached"
+hash = "d44d439322afa90c79ef5be4042f777aee093a014041857f0b95457e5a9f4ecd"
+
+[[files]]
+file = "config/inventory-particles/cache/yungscavebiomes/atlas.png"
+hash = "39448f960e29129544c1f90bbd9ef0b28050507a751bd43b18f178f1421f0a11"
+
+[[files]]
+file = "config/inventory-particles/cache/yungscavebiomes/regions.txt"
+hash = "42527bcc7567d83c7ceae323d34dbf08950501866ad5ad903d48d817b530ccae"
+
+[[files]]
+file = "config/inventory-particles/cache/yungscavebiomes/spawn_areas.cached"
+hash = "71b13a13782101aa6987c51d69021b06b4aa9ce88b90d57635ac1691e2892a64"
+
+[[files]]
+file = "config/inventory_interactions.json5"
+hash = "bbbb5ea226170096ee3ef5fa3cf2f61401d9b686dd61540b007d68aefd6cd156"
+
+[[files]]
+file = "config/inventory_particles.json5"
+hash = "fbd08cbb8fbc7606ccbec8ab7e084678ee433051c5329dad365a50cc0ba506c3"
+
+[[files]]
 file = "config/ironfurnaces-client.toml"
 hash = "247d43b063cc64be1c0075db509a67f3c185dcf66c0b013fda4453685d295ebe"
 
@@ -1455,8 +3235,12 @@ file = "config/item_descriptions.toml"
 hash = "84abf3673de0d997b9c83509de1ed74143be23127154b2be7fb433ba942609a7"
 
 [[files]]
+file = "config/itemborders-common.toml"
+hash = "892ede9976b284638218d5ebbfad7ae5fddfcc537e9edfacafb7b5a331c9872f"
+
+[[files]]
 file = "config/itemzoomer.json"
-hash = "75dd19077459965cda659cbc67fb3a4dd5f58f94df92c540409ca174c7feb507"
+hash = "a28e019c1db6610e91429903bb7b0ea38d2c23d95ff6c1603ee381e8bb98e1bc"
 
 [[files]]
 file = "config/ixeris.toml"
@@ -1524,7 +3308,7 @@ hash = "975e561cd61c76d63be3fb12448b502f0414db96005c54bc7d70253874f47645"
 
 [[files]]
 file = "config/jei/world/local/Mundo nuevo/lookupHistory.ini"
-hash = "1864b1738d5c6cccbde097a7ad1578aa91f51ada926f16306d084ed6c969d348"
+hash = "707a32f0efc118cd816f3fabf2d28a3a271b36f68bc8e94cee0735e92c8c9570"
 
 [[files]]
 file = "config/jei/world/local/Mundo_nuevo/bookmarks.ini"
@@ -1540,11 +3324,11 @@ hash = "2d7ca5c4ebfcc2f770b6e3b0baa73a12c41e24ff13c478090443f8d8c47155f3"
 
 [[files]]
 file = "config/jei/world/server/UNI_2026_75a56078/bookmarks.json"
-hash = "ec1d2b32df09412b19ef48db05f60e02de5627936eeafba9cfd624c58252387b"
+hash = "375d0b0d8e527e263544af72ca8688fe46a9747b803160cba63e14097a9d4f64"
 
 [[files]]
 file = "config/jei/world/server/UNI_2026_75a56078/lookupHistory.ini"
-hash = "49aef7d68212c09a8f0478e55daa61f8c0d9b60c4487f16d6e0517eede6b215d"
+hash = "c08884d6b807710f749ffde9c60721b5126db35743c2d4168c3664da18f7c659"
 
 [[files]]
 file = "config/jeresources-common.toml"
@@ -1623,6 +3407,14 @@ file = "config/mcreator_mem_fix.json"
 hash = "64316d58a019dc2715e6a4532626b6192d5b3f7fe74e86b673cac597353dbda4"
 
 [[files]]
+file = "config/midnightlib.json"
+hash = "b14c45c6447f9ee5474d70784a2ef96731abbeca1e92485b7599e76e9dce1444"
+
+[[files]]
+file = "config/minecraft-cursor.json"
+hash = "e198b7152e6d8934a5ab9a751f47dc00d976f0c367e59cee4ed54a08860732c0"
+
+[[files]]
 file = "config/mobplayeranimator/client.json5"
 hash = "2717e96df4a5d1829f34ba414c46d9c1be1b066fd8f14d24ae99889a5deb2e57"
 
@@ -1680,7 +3472,7 @@ hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "42234c540a783b8d9ac2a8dc0fc1b8e22af7ff90c7a6a7e471968426da90058f"
+hash = "9acf3bc91a10907d320ee900a2b0e3c10c32c4fc391c846d12df85b6eefd7c65"
 preserve = true
 
 [[files]]
@@ -1745,7 +3537,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "d0841745b1c206f25128bcd7271d363a39958201d90edc4528203df8244e0c71"
+hash = "49df785ce63047a292d123d635ba58c5abaa3e6bb7aaa7dde14ee1cfa4b59bba"
 
 [[files]]
 file = "config/presencefootsteps/updater.json"
@@ -1785,11 +3577,11 @@ hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
 
 [[files]]
 file = "config/projectvibrantjourneys/biomesoplenty/oak_trees.json"
-hash = "7ee9a4e2560113f672b3206b05f8e01f437ba7272e228a8a6c2f7c5980537cd5"
+hash = "6d061b9c897b8fb56768e23a0386953325bfd028e8a54234769efee16fd7c3c7"
 
 [[files]]
 file = "config/projectvibrantjourneys/biomesoplenty/spruce_trees.json"
-hash = "c6afb03a7d0a38de66c6a802be779bb205422adfd7edfff4a0ba4e24a9b595db"
+hash = "19c6f0259b91af5cad839670bd53c7cdd5a26ed1c696cb4eb2164e309476dc7f"
 
 [[files]]
 file = "config/projectvibrantjourneys/byg/acacia_trees.json"
@@ -1809,19 +3601,19 @@ hash = "3e8db1a77d727fad1392d1d6674df67240e9eb45bc2040b669a408138dde1976"
 
 [[files]]
 file = "config/projectvibrantjourneys/byg/oak_trees.json"
-hash = "0f9324b11c54ebafe3ff7bdeb315a1e4f676fc29d2b25fa742c479978dcc935e"
+hash = "94106755bfc095949bf3b96eda5e0bbef6df39ef55cd14b19b02a893d827c4e4"
 
 [[files]]
 file = "config/projectvibrantjourneys/byg/spruce_trees.json"
-hash = "a02d28289b8788b2de732d0f72db42b006cbc9f913c7ae30a6bdd151995b049c"
+hash = "b09b3cce606419a1ca8a96c3699fdc72e041309e86f889d1ab8567030aad3792"
 
 [[files]]
 file = "config/projectvibrantjourneys/minecraft/acacia_trees.json"
-hash = "e99671dc3cde6577a86e46da369a851919d2fc14578e549f96b7c14340bcf811"
+hash = "72d3ffd391e5346f496e2668dd32f7be3e4c7bcb289139b1ca0040c4cd74b51e"
 
 [[files]]
 file = "config/projectvibrantjourneys/minecraft/birch_trees.json"
-hash = "294264448ddc27a31095e3ca631df93db83f7838ede14ce083945fcfe03805de"
+hash = "ae2272222fe1031fe70f626eff7df4e33c90f3384088f0518aa973c927e91abb"
 
 [[files]]
 file = "config/projectvibrantjourneys/minecraft/cherry_trees.json"
@@ -1833,7 +3625,7 @@ hash = "49090b7b84dc979857863852c9dd4481fd8722a7bed874f7683d635de3993e48"
 
 [[files]]
 file = "config/projectvibrantjourneys/minecraft/jungle_trees.json"
-hash = "a00de783db9157c0152f475dd4d4cc1761eabefe70311189c6e25c71879f3698"
+hash = "e125ff939608df2923e8608dced3ae9ec1399d3bf93627191119b5965505ce71"
 
 [[files]]
 file = "config/projectvibrantjourneys/minecraft/mangrove_trees.json"
@@ -1841,7 +3633,7 @@ hash = "939ded909bfb6209e21c2c9aa71421e9428fe6461f9b698c39da7be5f99bdb5b"
 
 [[files]]
 file = "config/projectvibrantjourneys/minecraft/oak_trees.json"
-hash = "ceb5cc7e11d698cc4eaec6e80708bd967847784ec8947bc6f69f91db182b0167"
+hash = "54c57670ef0677c4aff41b1f71cdbb113f8477f310cfd96d6c4d9e2d4080165e"
 
 [[files]]
 file = "config/projectvibrantjourneys/minecraft/spruce_trees.json"
@@ -1865,7 +3657,7 @@ hash = "ad244d30da3220b58ff9f03408e9600f2caf9b15884b64decd01b7f2af15ea94"
 
 [[files]]
 file = "config/projectvibrantjourneys/pioneer/oak_trees.json"
-hash = "3528046a427d09daa53147dd9a89e3278ac913d8f3f65601acd0e79ebb215d71"
+hash = "6fd16567483852b9b07222078c60de194fcf541a76321bcb5910a9bfe0850be8"
 
 [[files]]
 file = "config/projectvibrantjourneys/pioneer/spruce_trees.json"
@@ -1873,39 +3665,55 @@ hash = "6bf78b39483c1a000cb1ea0a62258935ff5a7607af3f863886a3d5aef5b9294c"
 
 [[files]]
 file = "config/projectvibrantjourneys/terralith/acacia_trees.json"
-hash = "36968418e182d883910b9847948ef066142a45c3ea48cb46c319cc76cf96cdaf"
+hash = "42256eef94de3634a1d3cc98bf026b79d50b33fde81280c3f6a53a9d502b0b5a"
 
 [[files]]
 file = "config/projectvibrantjourneys/terralith/birch_trees.json"
-hash = "b26ebb3cd9e2db2bdaab7dc4cc5b8019c8365aca172b74ff5799ae8408b48196"
+hash = "5549b992141912d161474c78cb57ba41196773f4b9a139bddb385c96b1439b13"
 
 [[files]]
 file = "config/projectvibrantjourneys/terralith/dark_oak_trees.json"
-hash = "a10c0923c0d1f0356226074350a2b905b0cc469cbee2892887955a3ae05bebb2"
+hash = "6c608903121a3c59f373daba622674805cfe0bd539d632794a3f0332a41ca091"
 
 [[files]]
 file = "config/projectvibrantjourneys/terralith/jungle_trees.json"
-hash = "623f7f1c53e94f96d5dc89aaa0e587fb6bcd6e2e41b4816dde00bde63c9aa7a4"
+hash = "b093cb0e8cc339df4d362e273bd96d49c6e0d67aa46e322309414d2b5a5393ff"
 
 [[files]]
 file = "config/projectvibrantjourneys/terralith/oak_trees.json"
-hash = "d277d19143c294bbce47186993d7e20025fad24bef8978b6986a1803db9f625a"
+hash = "75713e97f056f8ab2c0bc98fdbbfe970b4ea055375c28bcafc4019bf364d41ce"
 
 [[files]]
 file = "config/projectvibrantjourneys/terralith/spruce_trees.json"
-hash = "1b15ffa8f9969ffcd1f643a7989ad6c4fef25b5c00b4cd2e5a330c95de6c0877"
+hash = "b66b83f88641c70f922764c367c9d625412b7614297170ff58f07ba987cd3fcc"
 
 [[files]]
 file = "config/punchy/merged_animation_selection.json"
 hash = "77d9559a19f69d73f952177d2047760a9e55be219fee015658effaaa8783eb46"
 
 [[files]]
+file = "config/punchy/profiles/.active_profile"
+hash = "1f1077e27437b5f62ae56883a2d67384f22a2e8bbcaba39b00a6078cf84b3c5e"
+
+[[files]]
+file = "config/punchy/profiles/NormalHand.json"
+hash = "448f568e6fd4505fec83beda916c1fb355aa867b495e352bc3d1d141aa42f292"
+
+[[files]]
+file = "config/punchy/profiles/OutHand.json"
+hash = "c0cd00012d48b84caebda6b750958193d797a54e07295396313871650c198b81"
+
+[[files]]
 file = "config/punchy/punchy_config.json"
 hash = "d6bc98423c88e8a4f9b98c795f3f8f69951daa85d1d091060ddd9df947d7bdae"
 
 [[files]]
+file = "config/punchy/punchy_tuning.json"
+hash = "afc3d20c1b532a2b6be4ec71f3ce5cde9bd152097fd265bcac195ebddbf7ce7b"
+
+[[files]]
 file = "config/quark-common.toml"
-hash = "031b5ce14a68d3a29d1088f664fba1a6542d4570961d5a011c393355d9523e02"
+hash = "5e549a8372d3655425cf7bb3f076467275764b18e998c7225bbcc1598bf0de14"
 
 [[files]]
 file = "config/railways-client.toml"
@@ -1953,11 +3761,11 @@ hash = "671ee75b5333f98d3a9b92fcfcc79c7df7a6b4c0e5cda025a7b449ab79562b2b"
 
 [[files]]
 file = "config/rsls.properties"
-hash = "6d329122279318bc4d91c27038ed6a7c712f55f32760cdb516c23c7744228b41"
+hash = "6aabca854e0ba78b67b3e31a6332ddc4a9adefe3cc305ddd59f739b38d995660"
 
 [[files]]
 file = "config/ryoamiclights.toml"
-hash = "e55fc69e30a0ca4e3777e9ad0c998c5c24436c53504cbe325b539a32b99fc1e6"
+hash = "d14890fd472bfccf4f548f55073e42b0492cd99d0246b51da714f36b6cc47af0"
 
 [[files]]
 file = "config/saintsdragons/client/clientcommon.toml"
@@ -2013,7 +3821,7 @@ hash = "66a869ec46bfec4b7b5681ae4ddac824c68e7b5ab16ee95a2cccab809c56fbe3"
 
 [[files]]
 file = "config/shouldersurfing-client.toml"
-hash = "56e02f7a8761e64c6a2af7c5b64532d39e1f615fdace71a6585237b684f9fa85"
+hash = "faa5fec837b2557ae0b607ab0177d17de369a9088b71033393bd3c70dcfc07ee"
 
 [[files]]
 file = "config/showmeyourskin-server.json"
@@ -2021,7 +3829,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "0b027f6f2872c157a76acdeed4c93c154b350887e848cf3518e978d3ad7f2faf"
+hash = "95526d245cdae577f3fabd26a35ee2f6af9cc0f696b4bf90455b18135ad689b8"
 
 [[files]]
 file = "config/simplehats.json"
@@ -2060,6 +3868,10 @@ file = "config/smoothgui.json"
 hash = "8a7a7774bd7e590beef25c25944044c769a45e5a110cb8975a54b2558e1d4534"
 
 [[files]]
+file = "config/smoothswapping.json"
+hash = "3edb7a3cca0e7c3ec09f642516aba923bd8eba7ca414289a4103912fd24a7e66"
+
+[[files]]
 file = "config/sodiumdynamiclights-client.toml"
 hash = "21d25844814f6a7d0427981fee2b6d96cb985330d97a2c4bbc504d0c2a802a14"
 
@@ -2085,11 +3897,15 @@ hash = "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a"
 
 [[files]]
 file = "config/sound_physics_remastered/sound_rates.properties"
-hash = "6004a9b770d2a5fda438e5d825c07def5d702640be355e72fab596dfc7639e3f"
+hash = "00ac4130c249d84c422829efdfb7b64d6d0ffdf5161710462b1baf6b8c542002"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
 hash = "ab2f766cdb8a66855172ec817974f9bea91bcc6f7ec7b1a869f965f5e99e2b6d"
+
+[[files]]
+file = "config/soundcontrol.json"
+hash = "8dc585ed736a4899ff49ed1975f2d41da939dc3cd22013745bbc5e012e3f6d8b"
 
 [[files]]
 file = "config/spark/activity.json"
@@ -2301,7 +4117,7 @@ hash = "888d2904bd7dd577f72d901603912a440540eba21212b004cf6abe41f1cde23b"
 
 [[files]]
 file = "config/subtle_effects/blocks.toml"
-hash = "309ca867bb07c469b0db297d4542c0f59b028a48b8c7ac31ce8a816a5d971e65"
+hash = "0ee1efbbd94b6bcd0e89fbea90c29947fb7039004741af951bf40594f8649e3d"
 
 [[files]]
 file = "config/subtle_effects/entities.toml"
@@ -2429,7 +4245,7 @@ hash = "6c0060c7301372bbc414f86a139b383e34fb620f0621badd71bb19efc3f26767"
 
 [[files]]
 file = "config/trashslot-common.toml"
-hash = "1d6b82176609c3cb8ed00a29dcb22f53c78e813975842ce9bdc0eb263ebb175b"
+hash = "21493e0c7d7e821cdd69f2e58647eb22f39a0f5dd6045db3bb65a9250bc0cbd7"
 
 [[files]]
 file = "config/travelerstitles-forge-1_20.toml"
@@ -2489,11 +4305,15 @@ hash = "35d612c19bcb7d97e8f20f8e31a52b0013ec364e3456cd51c139b98ca7c7684e"
 
 [[files]]
 file = "config/voicechat/voicechat-client.properties"
-hash = "aac6c199888a73d6364ca7d4409ca867e3ce5d8c4178b0b932992cd2e7b12da0"
+hash = "f34bec0a231e6ffda396bc269c4d5205ce2f2459c1d07c3fc84ede30eaac44fb"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
 hash = "aa8c8e804426760531e335268fc174782a9e8d4d740b6dd014711ede2e14a1d4"
+
+[[files]]
+file = "config/waterdripsound.json"
+hash = "6c19f3678260f19ee94795be0ccf28ec0f1a9c9aa5cb6dc07090d99f2505c71c"
 
 [[files]]
 file = "config/waterframes-client.toml"
@@ -2534,6 +4354,10 @@ hash = "4cf1d13d8827bcdce75acadb1f3ea24732fd6fa6575ec8a261a37b21c481674d"
 [[files]]
 file = "config/wildernature.toml"
 hash = "2f1c3aeac460af8e63a2e0e60bf99ae39f687f3a4efc4b26f6ec20ef10057433"
+
+[[files]]
+file = "config/windy-config.json"
+hash = "b0a9620eb61c344a858051eee8e0a89830dda32d52444a924da009c2b2ca5faa"
 
 [[files]]
 file = "config/xaero/lib/client.cfg"
@@ -2577,7 +4401,7 @@ hash = "e614d9367c183f482bafc627bbd9f99e791568d137f026961a105a68c1bacc1e"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/changes.cfg.json"
-hash = "d10377d93e3b43431c50816855458a4a48413184e72c3d8ab7fc9bdee60bbde4"
+hash = "205d3830278b838cedaffb9c19c4d60031a7ce82a472be362b3b69da0ff1adda"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
@@ -2597,7 +4421,7 @@ hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
 
 [[files]]
 file = "config/xaero/world-map/client.cfg"
-hash = "2aa007125d804d10a473ff54f7cbbc1d3314f3db58a013c165de5b9834419e5e"
+hash = "44f7e98163680991f71a4f5f0380f9974b530fd5cc7fe47a97d836a3a544cd75"
 
 [[files]]
 file = "config/xaero/world-map/common.cfg"
@@ -8459,8 +10283,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "b29fadcb8be144ea621560cb2f4114a8571628cb9d0f9c13c1bdabb51f9a998f"
-preserve = true
+hash = "d5e9933b2aff677f0c54cab391ac607cdaaf107d9fa14a5fc5a46bd47da798d1"
 
 [[files]]
 file = "otyacraftengine/url_textures_index.json"

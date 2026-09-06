@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "4710eecdd9a4875c9538f22e7b755fd45d0b00f1f46a88cc50e0e36964428149"
+hash = "13ab6567cbd1984fd81bec43ce8e1659b38d134f38fa8c775bb9ca6f39952733"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -587,7 +587,7 @@ hash = "53fb1c32a639242d90914e6dffb3c9958b81d354534f222f623f6dda8321eb9f"
 
 [[files]]
 file = "config/badoptimizations.txt"
-hash = "e25d2c3affa5bb8f8e24156b0c80f65f2f4a5d898418d4d10ce005052d1659c6"
+hash = "14a0d739584fee04bc85a3a8db1016160d768b83a9e2813f0b50b3ff5c368908"
 
 [[files]]
 file = "config/bakery.toml"
@@ -743,7 +743,7 @@ hash = "7dd7dc266613f18011a9a5ba624e50c35374ad2b39ea379231c3c44e7b2261b3"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "9d1b1e49079dd7cefccacc75f21d95493d65e155b24e605e2daeeffc8a674519"
+hash = "39d0028c2e72186ef3431754d70e425179b4f2f4be5842522ee8b6bebdc66ad5"
 
 [[files]]
 file = "config/collective.json5"
@@ -977,7 +977,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "dad7e0eb982f565b8efd4308baf79dcf6093ec9b6ac866f3a5fa3caac48bda55"
+hash = "7a73ce8ab406d5fa2c2c91e56de5047749aa0970df25f8320e4759886dfa1216"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1900,7 +1900,7 @@ hash = "5494713c690ae7960d2d7d2f76e28f538801a02bc2145b38b4b5587cc95b1546"
 
 [[files]]
 file = "config/inventory-particles/cache/accents/atlas.png"
-hash = "e968cd097d731147139a83f72dbe0fa1d0d07309cc9a1a447fa96c17463c8b88"
+hash = "4c2b50b702eb49c4312f51401636fbdf0d5744bb89daac013dc57ab5739a49b0"
 
 [[files]]
 file = "config/inventory-particles/cache/accents/regions.txt"
@@ -1924,7 +1924,7 @@ hash = "e2be5dc528f27a1f3f1d53f7e7455ad441959ec1c79085fc593e690c79788b8b"
 
 [[files]]
 file = "config/inventory-particles/cache/adorablehamsterpets/atlas.png"
-hash = "73f87ab37d991c1b9297537bf7e31d61f3fd87bfc4601eee21d0628d9bcd41a2"
+hash = "780fc914f9b23f6f99b5e321ad1495ac811850edf89e891a0b64642856be9822"
 
 [[files]]
 file = "config/inventory-particles/cache/adorablehamsterpets/regions.txt"
@@ -1948,7 +1948,7 @@ hash = "9acb5ff88d2f6312f7ca06b3125b73a3494c5feefdfde86b45f00970f784fbca"
 
 [[files]]
 file = "config/inventory-particles/cache/alexscaves/atlas.png"
-hash = "0278a50ef5a5ad207f9d5624c8d97f0c2e5a992637ebf70cb08842884f859c5e"
+hash = "09aaca5624d8dace67733453cd8afa939b7a03b0b9b0b9ad2b139c50be338e23"
 
 [[files]]
 file = "config/inventory-particles/cache/alexscaves/regions.txt"
@@ -1960,7 +1960,7 @@ hash = "cb9ec6c10954374ad7d3181b020888d10262b92d79de6b1ae01677d3c2b76fc8"
 
 [[files]]
 file = "config/inventory-particles/cache/alexsmobs/atlas.png"
-hash = "304a0d0b4ee2807ff81efa36011479402fc9f1af377de61b7baf141bc3930de1"
+hash = "997744b0fdb5f9cafd3f9ca80a7489d5236ea27bbafe7d2e3bf5f24145518775"
 
 [[files]]
 file = "config/inventory-particles/cache/alexsmobs/regions.txt"
@@ -1972,7 +1972,7 @@ hash = "4efce2e6e45e20980e2e2c8b2fe506faf4f6053e3a937822f392aebe12ad391e"
 
 [[files]]
 file = "config/inventory-particles/cache/aquamirae/atlas.png"
-hash = "c498c46ab414ae84ae83b037853029093d81a0596dd66129bc9870825bc832f4"
+hash = "d0055fd4494788882ff372c3b5d78525c1279bec26abd3db2e08e70d60b75ac1"
 
 [[files]]
 file = "config/inventory-particles/cache/aquamirae/regions.txt"
@@ -1984,7 +1984,7 @@ hash = "e3094429def3b6cbec6f20453627c9553122cf76acc7bac431ffffde9341b984"
 
 [[files]]
 file = "config/inventory-particles/cache/artifacts/atlas.png"
-hash = "de906b313e1ccc3925ebb05a5d27fc3cac28811be1e65f5b5ae93847172a3626"
+hash = "028f0f9c01ebfa545242d6e5e52fd007f45cff842892c1b7bdfee0a28e4856ff"
 
 [[files]]
 file = "config/inventory-particles/cache/artifacts/regions.txt"
@@ -1996,7 +1996,7 @@ hash = "a268323ae358b4047adc7113942831b29c0b66d25ffdd43c5d30a301fd9a93d3"
 
 [[files]]
 file = "config/inventory-particles/cache/bakery/atlas.png"
-hash = "0e4c8fcf0e7d5d14726943ce1eb17794d50bc0bf467960f9edd0f63289f2bfd0"
+hash = "59109500fd7f0d704d431dc535133da9730670e1e1e9b615d611522a42dd9b93"
 
 [[files]]
 file = "config/inventory-particles/cache/bakery/regions.txt"
@@ -2008,7 +2008,7 @@ hash = "fd3054ffd9b264a6b8fc473dc6992dce8d65d3ead083ab7f7cb270fcd7aa82ef"
 
 [[files]]
 file = "config/inventory-particles/cache/beachparty/atlas.png"
-hash = "73d65ee03edbf2dd589e13c5f95bf88f382e75b5536e2429d641c0c719fc4d55"
+hash = "5b8f520e7f8341901d9a044e0fcfbc300d1ebe3f447b4f635e3f72d888cc4d28"
 
 [[files]]
 file = "config/inventory-particles/cache/beachparty/regions.txt"
@@ -2020,7 +2020,7 @@ hash = "d95d5532956ce1cab00fe02e127a25b58e81c4f2c1a0f3dd35cb6e66dbe67e42"
 
 [[files]]
 file = "config/inventory-particles/cache/beautify/atlas.png"
-hash = "f10c8fdd801737a5cdc0e4e7470d5aaa96b250626f144586e12bc175e2da479f"
+hash = "417f433404cfd335589b9f512cd3e5724788477965ecc334080ff27433454454"
 
 [[files]]
 file = "config/inventory-particles/cache/beautify/regions.txt"
@@ -2032,7 +2032,7 @@ hash = "a79e66d8b112b3bb623602bf1d3c8a8a47549ad071d5e91c7f13dcb869b43c62"
 
 [[files]]
 file = "config/inventory-particles/cache/biomeswevegone/atlas.png"
-hash = "387380a5a6ed595e4fccf32d92ae310b27265f8899455b2754dbf9a65dfd7c7a"
+hash = "567350f3892dd5ff492edcdfb9f6ce8a0aebd5893dbe02169c5f7b6db7a53054"
 
 [[files]]
 file = "config/inventory-particles/cache/biomeswevegone/regions.txt"
@@ -2068,7 +2068,7 @@ hash = "bd9fd86cbd782193899e6b139177ae7ab7ab6b1ba417bf54d6047f142c160c20"
 
 [[files]]
 file = "config/inventory-particles/cache/botania/atlas.png"
-hash = "1d14f25732c39d6de3a9535a8c7afbc621353d36ea7468a0ab129f9037a31813"
+hash = "a047e973c28065df3cbef35eaa48c2d8af1636af94a3da33642f8870940435b2"
 
 [[files]]
 file = "config/inventory-particles/cache/botania/regions.txt"
@@ -2080,7 +2080,7 @@ hash = "e365eb3aa1571e6331fdc713b72d59525e2e1e96c9b32bd9887f8442404c61ee"
 
 [[files]]
 file = "config/inventory-particles/cache/botanypots/atlas.png"
-hash = "f0c281b06d79361d0f434982ceaaf32b99e35fed17fc86bfbd4c37192685f0dc"
+hash = "3853eb687aac2dc82d6dff5234631c73b8bb2342b7160b922cc11ee11a7b2056"
 
 [[files]]
 file = "config/inventory-particles/cache/botanypots/regions.txt"
@@ -2104,7 +2104,7 @@ hash = "1339c4660213318cdffa48a04d335af65053b719f0d9a37459630ff6bb19b5f7"
 
 [[files]]
 file = "config/inventory-particles/cache/brewery/atlas.png"
-hash = "1f058b01e6a7263c10e99bf505888a973b935ea342fa14577d437dbf96e0d09f"
+hash = "fc5ed10598d9c12d6baf584809ac98a04929679ea83c825a702036e47b61ab05"
 
 [[files]]
 file = "config/inventory-particles/cache/brewery/regions.txt"
@@ -2116,7 +2116,7 @@ hash = "55ec1998d971a777dd42fd3606abb6661772348caefd0f01a1098da9244ae2c1"
 
 [[files]]
 file = "config/inventory-particles/cache/brewinandchewin/atlas.png"
-hash = "f04b5edc3c34dcb08abd9a7e51890cb237c45145714e1e8f5233e220d952e153"
+hash = "d4ba3dd8616a4c1dbe8dda0864cdd81b75c2036543c3ef73c7c0840a89068939"
 
 [[files]]
 file = "config/inventory-particles/cache/brewinandchewin/regions.txt"
@@ -2128,7 +2128,7 @@ hash = "5a9f52bb19cc47bc3f65f09c0554657caee36f94e64e9c8bfc6c2ee34d96e5b4"
 
 [[files]]
 file = "config/inventory-particles/cache/butchersdelight/atlas.png"
-hash = "0d615e3a34cb6de94c39c04953fe09c7b468597e5957aefc277f600662ba07c1"
+hash = "623be47d07d3ad0bf7572079414a7df91c6f6e87ce80672e934c24deafc5228a"
 
 [[files]]
 file = "config/inventory-particles/cache/butchersdelight/regions.txt"
@@ -2140,7 +2140,7 @@ hash = "6f8e38781a0d72ffbbe870c6a8c8a8bfc32f4383ad6bee63f2b96151cd0b11ac"
 
 [[files]]
 file = "config/inventory-particles/cache/candlelight/atlas.png"
-hash = "515445c58d092d92a393573ce242c140de7317c1447154a17598a0ae4fc1fbbb"
+hash = "55d46ef4e6d15c451b366cdacd9be863cc1e7544c09966fc10990459587dac1b"
 
 [[files]]
 file = "config/inventory-particles/cache/candlelight/regions.txt"
@@ -2236,7 +2236,7 @@ hash = "19e423289bc5edf2688027afa61c74c97c9bcbfc8ba1f492a925299d9d066089"
 
 [[files]]
 file = "config/inventory-particles/cache/comforts/atlas.png"
-hash = "61b4fce07b83d921e4b6e0b2cfa3e977025af2728cc69914a890c667f68ff3ed"
+hash = "d6d4c51c97937df43544c1347db6228a49dfa5c89da716b4fc244e7980a52622"
 
 [[files]]
 file = "config/inventory-particles/cache/comforts/regions.txt"
@@ -2248,7 +2248,7 @@ hash = "ed400f7098063a42cf382489e20625da8a814b86bc48c10bc90ebf4f6f6d1268"
 
 [[files]]
 file = "config/inventory-particles/cache/copycats/atlas.png"
-hash = "f58793d09175d5af0e5a2eca8c9ea8c2aa1791e38c3de3db9225ef138f08ace6"
+hash = "2f44820026d5846f4d495c5eaf457b4b088db69b7f36511e9d2ffa3edfc5577e"
 
 [[files]]
 file = "config/inventory-particles/cache/copycats/regions.txt"
@@ -2284,7 +2284,7 @@ hash = "e82d3d3ca9a89242c6c324d0a0cff315dc506f88033fc958b68fe083a1de71e0"
 
 [[files]]
 file = "config/inventory-particles/cache/createaddition/atlas.png"
-hash = "10a03e56018fc6d3e70bd07a1ced32b553b94b06b3ff780c4a1a4aadfb45c7d9"
+hash = "cd0dddcdd7df2bddbba96cfe905d0157d5ff1034620d94ae14605e3343a87102"
 
 [[files]]
 file = "config/inventory-particles/cache/createaddition/regions.txt"
@@ -2308,7 +2308,7 @@ hash = "653857a123b58a9b08328b026fe605b1625692c4abd7a2caa50d39d33cfbb946"
 
 [[files]]
 file = "config/inventory-particles/cache/crittersandcompanions/atlas.png"
-hash = "55da7845ac92360058fabe0497db992f0f81943365ff65e840d24c55ad6b7ad8"
+hash = "cbf7703e08a68cce65bbf16259dc5953b391e9e3529d262ee119d025eec0a567"
 
 [[files]]
 file = "config/inventory-particles/cache/crittersandcompanions/regions.txt"
@@ -2320,7 +2320,7 @@ hash = "8e2bc1430a6b9fe6e4469df96cf620b6f7aaa88a2e067731d33b8fdd690eea13"
 
 [[files]]
 file = "config/inventory-particles/cache/culturaldelights/atlas.png"
-hash = "5a36e17c788d33681c0b23253c3daf1154942916afb9e7d039bd33d1f0e876b9"
+hash = "df9d4dc3454c7eba3eed7736c2c9e277e3464ec27aea6659bbb42101c7369183"
 
 [[files]]
 file = "config/inventory-particles/cache/culturaldelights/regions.txt"
@@ -2332,7 +2332,7 @@ hash = "7735032ee6bd24f82232ada024a663a816d40834565839a415f7ae3ddefa51e1"
 
 [[files]]
 file = "config/inventory-particles/cache/delightful/atlas.png"
-hash = "29ae40151904b570bfb80d7eb22f813386a281872faeb03cf6f82d36852b0878"
+hash = "c2cc0bee3c0c2d1d993bf8eff4bd94b84912a9effd6f700b81bc16cad2dc070f"
 
 [[files]]
 file = "config/inventory-particles/cache/delightful/regions.txt"
@@ -2344,7 +2344,7 @@ hash = "97e279c199a84efd265a8c2265f648623981c71cb4df0684aaf5575d3a7ba9ab"
 
 [[files]]
 file = "config/inventory-particles/cache/delightfulcreators/atlas.png"
-hash = "14de770eead50cb54435a0a690aa5ec7b1fb4bc40e778a41ad7c2819ba8d2787"
+hash = "dc367b00f1d24586a8f0229fe4bd503d34b317392c6b651f70b67ae0e1beb72f"
 
 [[files]]
 file = "config/inventory-particles/cache/delightfulcreators/regions.txt"
@@ -2368,7 +2368,7 @@ hash = "cd5efcc07366b338fd3557fdba2be1d284d7bbe8e0889219de566f60373c3f93"
 
 [[files]]
 file = "config/inventory-particles/cache/dtbwg/atlas.png"
-hash = "e0145c1742aed171ac4a58d5e28d8f63a1229722524c520019b3bba3869ae982"
+hash = "f558525213408c98a1d809852368e7ff73d571ebaf8cbb35f9c5d42af4184f10"
 
 [[files]]
 file = "config/inventory-particles/cache/dtbwg/regions.txt"
@@ -2404,7 +2404,7 @@ hash = "59d748b69531675616721ef92148fdab5b454d17fac52bec1bd42447022c6707"
 
 [[files]]
 file = "config/inventory-particles/cache/dtru/atlas.png"
-hash = "2c8d3755ad481af349853969d6b48aa9ec4d7e112693eb86c8f5e2e50fe58033"
+hash = "9b575fc0273efd74643548d010f3f8acaeaa3bc440291bca7ea9730336727949"
 
 [[files]]
 file = "config/inventory-particles/cache/dtru/regions.txt"
@@ -2428,7 +2428,7 @@ hash = "48b18560c384300f249613270155172bd892397b2fdae63624db190e173bd41b"
 
 [[files]]
 file = "config/inventory-particles/cache/dye_depot/atlas.png"
-hash = "724541accccd0f506db747bccc53b46ade5c92d9a8a2330f7d18f9d5e8612727"
+hash = "a49166338affc377416746267432f9a7717d00ab3660cc765a4dcca1e7c13705"
 
 [[files]]
 file = "config/inventory-particles/cache/dye_depot/regions.txt"
@@ -2464,7 +2464,7 @@ hash = "c3f621453e2d25cb82ed934843f68baf5f5d7abfcbc64d147ec170a220b76210"
 
 [[files]]
 file = "config/inventory-particles/cache/elevatorid/atlas.png"
-hash = "6b1c6a31fc336f9fe3f9891451111a285462d037f787877b394821aea292ad6b"
+hash = "543bc7c37b0354a485279c3da734f33e63cfb0b985c98adf15ba6bfedd596dde"
 
 [[files]]
 file = "config/inventory-particles/cache/elevatorid/regions.txt"
@@ -2476,7 +2476,7 @@ hash = "7c5bea11c0f498080f9270ab14006d331de90ceb1549195b13e91361bd82d988"
 
 [[files]]
 file = "config/inventory-particles/cache/ends_delight/atlas.png"
-hash = "c64d951acb446805ebef787aadd2a838b3ede8fabc7b8f22dede31e6e276ddb7"
+hash = "f8efaf35166ade016c1c448fa752261fc085b76e0722a4029377ba64f816676b"
 
 [[files]]
 file = "config/inventory-particles/cache/ends_delight/regions.txt"
@@ -2512,7 +2512,7 @@ hash = "16b68900d423e52fcfc2fcdf2daeeeb6f52406724c324544ed7faac356b29501"
 
 [[files]]
 file = "config/inventory-particles/cache/farm_and_charm/atlas.png"
-hash = "0268dd1a44a4bb1c2a30f02a4542a09dedcb8e3db2600215ff84c4a30d19e7d1"
+hash = "1e4c605838ec98448c8f89fc665d8ae9d7a04401f86d5da9cc340fb16ade133a"
 
 [[files]]
 file = "config/inventory-particles/cache/farm_and_charm/regions.txt"
@@ -2524,7 +2524,7 @@ hash = "2987e1d3e5dae57255a0695d148782775bd8243610cc9bc27de54dc6b4d026fb"
 
 [[files]]
 file = "config/inventory-particles/cache/farmersdelight/atlas.png"
-hash = "d0029709f19385225995e676226da327b871561da64e929a8c4009b195fd21b3"
+hash = "2db4017a0488dfa2a25f2c07c38624ca338c0fc02642389438cfcd14731ff8ed"
 
 [[files]]
 file = "config/inventory-particles/cache/farmersdelight/regions.txt"
@@ -2536,7 +2536,7 @@ hash = "923c8235a01d28178eac147ef3e5ef8d833c456eb69b7c5dd9d6aa2bf925ce2d"
 
 [[files]]
 file = "config/inventory-particles/cache/farmersrespite/atlas.png"
-hash = "b4d510fe9210bc334ddca9b6ff2ecd55e8f25c7213f8a3e50c70bed6ff2a2dba"
+hash = "76a2b6ca324a45d57993b90a9417bf76c446969528a9995d7ad05339e69bd86d"
 
 [[files]]
 file = "config/inventory-particles/cache/farmersrespite/regions.txt"
@@ -2572,7 +2572,7 @@ hash = "1e2e1f79d8fe7e0699115abb9a4d59a3bb1c9df8b1893881814ee7de7627ce25"
 
 [[files]]
 file = "config/inventory-particles/cache/framedblocks/atlas.png"
-hash = "3951ac15a58fa99ebc8ceda41f82ee102587b8f71e4ba2a9acb09bd8e40efe05"
+hash = "efa72be4614d2df4ffe811becd9537639e9960312a2b9e4f1f6670dd1470ac8b"
 
 [[files]]
 file = "config/inventory-particles/cache/framedblocks/regions.txt"
@@ -2584,7 +2584,7 @@ hash = "6325e4b6dc6d92b0c714afd1695b7cb4b453a6b9e8e8240d26ccdf4cccc9cf68"
 
 [[files]]
 file = "config/inventory-particles/cache/furniture/atlas.png"
-hash = "cce93de49a6be1c0bddc6103b5be70c024899ce2440883cdbb5bfa5bd4b76b5f"
+hash = "e028eb81afa2fd16f677cb26346a7d0ca3e9217b124fe823bb7e1357e2a6116e"
 
 [[files]]
 file = "config/inventory-particles/cache/furniture/regions.txt"
@@ -2644,7 +2644,7 @@ hash = "fdadde22ec0cee60844064ea728f0f505e5522ea8f41f6704c5e9f0d33865200"
 
 [[files]]
 file = "config/inventory-particles/cache/herbalbrews/atlas.png"
-hash = "40b98ccac5a9600a0a2579b16bc4f076a5b8befd27a47d995506ef001d3d342b"
+hash = "1f6e2d33a8df089c5a10d02583a9a0107f227c6902f4f4399873e852ae6c2599"
 
 [[files]]
 file = "config/inventory-particles/cache/herbalbrews/regions.txt"
@@ -2680,7 +2680,7 @@ hash = "3cd4437c94c65082ea07455cb830fed529596fdf05e130076b99dc65133b3361"
 
 [[files]]
 file = "config/inventory-particles/cache/ironfurnaces/atlas.png"
-hash = "41044d617d6fa3925ef3e6369184bc8286f3eb2f83acb2aa6be4d5a495c396ac"
+hash = "f1c4534a35aeb46e170518094c840a82d05ddfaf81647ab00c11f821626a3587"
 
 [[files]]
 file = "config/inventory-particles/cache/ironfurnaces/regions.txt"
@@ -2728,7 +2728,7 @@ hash = "177f8bddd42967a63c49bdae208bca6a00978c50bb02b857d38378bd942b0f5a"
 
 [[files]]
 file = "config/inventory-particles/cache/mcwfences/atlas.png"
-hash = "b334118179fab43059ee1e8a0712733d75fb62a9991a931b30de1acd8de86eae"
+hash = "a4b71143812f6f22283ac66c2332c6d59caae522ebcbb5188c2412a7ef8c8630"
 
 [[files]]
 file = "config/inventory-particles/cache/mcwfences/regions.txt"
@@ -2740,7 +2740,7 @@ hash = "edc463fbc5241e722e67ed5d2291f744928ca8b57424e8c8852b5ef87260abf0"
 
 [[files]]
 file = "config/inventory-particles/cache/mcwpaths/atlas.png"
-hash = "6a7df1e1e618996fc39447bb6b91c562ea027ed1b45c30bc3b4a981b1f602bc5"
+hash = "cad5764ab07eb5ada2833d4e1f7b96f97f4b7c24ccd2e6bfcc22ccd57fe474a0"
 
 [[files]]
 file = "config/inventory-particles/cache/mcwpaths/regions.txt"
@@ -2752,7 +2752,7 @@ hash = "d232bfd63858fc4a74eda74b9dba476fdf3492ab983edda23828be2fbb768fe1"
 
 [[files]]
 file = "config/inventory-particles/cache/miners_delight/atlas.png"
-hash = "976c7aad961019803451e93013e0b36f1b3d256e46495d11e77eef9231cb63a4"
+hash = "29ac61d210d52ff477a04dfd76a60a4cb332be411e5bbdce5e1170c750ccdaf1"
 
 [[files]]
 file = "config/inventory-particles/cache/miners_delight/regions.txt"
@@ -2788,7 +2788,7 @@ hash = "329c65d249b18564bbfb72305929eb576db3feaea2ff728ee8497a1886202558"
 
 [[files]]
 file = "config/inventory-particles/cache/moredelight/atlas.png"
-hash = "ac924d26d9b61ff6bc014ae118a272c1962e3d872a0040c05387b131dd172451"
+hash = "87d8cbc1ba8ef127c96994b7a9c682a5d4377d290ffce028cf9d3d57011685e8"
 
 [[files]]
 file = "config/inventory-particles/cache/moredelight/regions.txt"
@@ -2800,7 +2800,7 @@ hash = "327fc11770a97614f7a25667e01231afacfee1fa9511f26b59ab65ab65ee79c5"
 
 [[files]]
 file = "config/inventory-particles/cache/mowziesmobs/atlas.png"
-hash = "c0ef246d787bbe87f84f1df89faa7603ca79d1360de42628240ce6b8742e0b5c"
+hash = "3968c8ecae62ece1853ba7fe0896374be6754428cc84fbf877b4baca8644846d"
 
 [[files]]
 file = "config/inventory-particles/cache/mowziesmobs/regions.txt"
@@ -2812,7 +2812,7 @@ hash = "a23daa9b309131e532558125a071a499b5569d951472c879c8cd3b44955650b0"
 
 [[files]]
 file = "config/inventory-particles/cache/nethersdelight/atlas.png"
-hash = "e754e274bc65e08bb8ebedd3f8401c27cb50afdf81db21acc6626c304a836dc3"
+hash = "08e235a0611df78fbb882a40df413ab084db18bb063d6c51a91a6f316df11039"
 
 [[files]]
 file = "config/inventory-particles/cache/nethersdelight/regions.txt"
@@ -2860,7 +2860,7 @@ hash = "9024749a2f627617061d7491e50a0c5ddc8aafc0e8793060e7b53e0b03f1b2b3"
 
 [[files]]
 file = "config/inventory-particles/cache/peruviansdelight/atlas.png"
-hash = "621a54c08b2a7848dee525124f80e4f08fc7ce389800ba5a88e8c41e8dac4dc6"
+hash = "1efd1dc68e45e95ebe881fad0ff889dbb6594bdc93a97a202162082ff4722282"
 
 [[files]]
 file = "config/inventory-particles/cache/peruviansdelight/regions.txt"
@@ -2872,7 +2872,7 @@ hash = "bd567cf18fc1745deae2ed054e809bf5fa7ca5a5f75108db551a39adfc7690eb"
 
 [[files]]
 file = "config/inventory-particles/cache/powah/atlas.png"
-hash = "f89d6bba6f57949ee245642e4c8d042cb52f99977b46cd5d924ef936733b51d1"
+hash = "16aeb1cd0dd3342ee76337fbce332890c319371426bad59839f1df0f7f88bb3b"
 
 [[files]]
 file = "config/inventory-particles/cache/powah/regions.txt"
@@ -2884,7 +2884,7 @@ hash = "4e68ab7750b46a3526c764cca520caf530e315552a6bceeaca3fcff4c242fa24"
 
 [[files]]
 file = "config/inventory-particles/cache/primal/atlas.png"
-hash = "2cbaa6e2aa2918a71bfa98f8b1883e1d2d44a9dc6323252051f144f1c87bc42c"
+hash = "bd22dd45b9e7ba34793f4b064460285eb51cd007c4f48f2ac721b2fcf06d8c09"
 
 [[files]]
 file = "config/inventory-particles/cache/primal/regions.txt"
@@ -2896,7 +2896,7 @@ hash = "3fcb7d3f778da38461ca0b2c21b4a2fef8547f9173d3e72d64736fac5362e9b9"
 
 [[files]]
 file = "config/inventory-particles/cache/projectvibrantjourneys/atlas.png"
-hash = "8fd76396ee44b3ebd684bdb0f3d3daa92bf7ae4e112dae9165dea70ed20eaf23"
+hash = "fa77f880329b49e39c793d2952770af99aa1ec8069daddf54b0bffb1961b0576"
 
 [[files]]
 file = "config/inventory-particles/cache/projectvibrantjourneys/regions.txt"
@@ -2920,7 +2920,7 @@ hash = "096cbe25e1ef422750af4fb8868ad43d1d4f707301e6971e34fbaba307775b9a"
 
 [[files]]
 file = "config/inventory-particles/cache/quark/atlas.png"
-hash = "26f43a8359d098b5281a5ad51badb968ed53c8322aa9609378b766b6c337f652"
+hash = "9766c8c81bdc7b32652fc1f9aede0f4baed5e770165989ed98763ad43655c0bb"
 
 [[files]]
 file = "config/inventory-particles/cache/quark/regions.txt"
@@ -2944,7 +2944,7 @@ hash = "db4ba8625797af954b7fe5dbf4e1700abc8a24bec713fdbf5fef42b02a2211b9"
 
 [[files]]
 file = "config/inventory-particles/cache/regions_unexplored/atlas.png"
-hash = "7cade999731716926c95cf19e1f6834c95aa8be09a520b45c65c781fcba124dc"
+hash = "05c5e4b301700d7131fd2456b14fa960a1fe2cbda6ac377ce615985f7cbea82d"
 
 [[files]]
 file = "config/inventory-particles/cache/regions_unexplored/regions.txt"
@@ -2956,7 +2956,7 @@ hash = "cee3210e9988b5a3273986bc6b97660bc1135cc3ef0a4da9271bba0e9087d7df"
 
 [[files]]
 file = "config/inventory-particles/cache/relics/atlas.png"
-hash = "ecc2328d00aedd79ee7b21396d29cc568591bd104376cb7d69ab0270ab19e454"
+hash = "442b75c472f7dc155c040462073100303385470b05d5d4e191baf4cd4c1acbd2"
 
 [[files]]
 file = "config/inventory-particles/cache/relics/regions.txt"
@@ -2980,7 +2980,7 @@ hash = "c7ae14fd80703cab6cb1703bcfdc46aa9d01d1d492f5129d1a0c37cce3f89921"
 
 [[files]]
 file = "config/inventory-particles/cache/saintsdragons/atlas.png"
-hash = "c66910a67d690c506ce1df3387aae60b8737aee16bf4879bcce4b8fdb86785b9"
+hash = "c642dafe10dc7f91a624569659b8c9881b1ca12ebd92571a0954643578f182ed"
 
 [[files]]
 file = "config/inventory-particles/cache/saintsdragons/regions.txt"
@@ -3004,7 +3004,7 @@ hash = "4ce7bc0d8fac0847c2270ad20d6927074e79f1c5bcabc89e20600f616c330634"
 
 [[files]]
 file = "config/inventory-particles/cache/scarecrowsterritory/atlas.png"
-hash = "55a2d1a94bad098d7d9140ba2f0615eff89b88092b350d30f5838963654e4bd8"
+hash = "a0a85dc5328a5465d826635a2fd6529fd0ebe310ef3d59e9c99e8268565bf3bf"
 
 [[files]]
 file = "config/inventory-particles/cache/scarecrowsterritory/regions.txt"
@@ -3028,7 +3028,7 @@ hash = "d3769948bb264955d38391c1750822583c15b05846c300d69d86057839d2e2a1"
 
 [[files]]
 file = "config/inventory-particles/cache/simplehats/atlas.png"
-hash = "e0cb7175da0ded517637d73a2be82dd3806e4e46858782b2a6d68efdaad4ff08"
+hash = "714f33a5a6bbd465dcfac80390e45d36cef504b4e1ae9151de5cffd3f1679b13"
 
 [[files]]
 file = "config/inventory-particles/cache/simplehats/regions.txt"
@@ -3052,7 +3052,7 @@ hash = "5167b3bfdbff8878ae277b80543818ef744330b4b51fe1b3eb9fe352e2a09d36"
 
 [[files]]
 file = "config/inventory-particles/cache/sophisticatedbackpacks/atlas.png"
-hash = "9a96d87346ac98b8728df2f59a468c3013817f8924b5d0d3ad862a7c30f70f80"
+hash = "0d35929e06da2e0d3820174085e62801bd32a4abadc291e4bb001e5790a7e808"
 
 [[files]]
 file = "config/inventory-particles/cache/sophisticatedbackpacks/regions.txt"
@@ -3088,7 +3088,7 @@ hash = "e40db01498068f9eabcf4e07cb9df2701b681e39c81e7c97473008299c715e60"
 
 [[files]]
 file = "config/inventory-particles/cache/tconstruct/atlas.png"
-hash = "8162e3370f31189329cd25f51614632d69e4287f9d4ca79ef9212501831311ba"
+hash = "55b48b5edb10bd3abe028c60aef7240b8481c084f0c61e2852631893a67eaa08"
 
 [[files]]
 file = "config/inventory-particles/cache/tconstruct/regions.txt"
@@ -3112,7 +3112,7 @@ hash = "ad2b63034932e7de5e3d732bd38999c5910648019d53c8149e0d830b22ff04f2"
 
 [[files]]
 file = "config/inventory-particles/cache/tombstone/atlas.png"
-hash = "8bb8034cab26ddb893bdd6ffd0dfce2e60b6487e37e35ed37ac7346f7705fc61"
+hash = "b13e3c30b382b9d4701ba2d810cf0c569a988ef7739ddb94a78c25b806d729ca"
 
 [[files]]
 file = "config/inventory-particles/cache/tombstone/regions.txt"
@@ -3136,7 +3136,7 @@ hash = "ee02be63ebf4ca0a5c2dd8a3443983c4d278cd26089d29d9908607d89a68795a"
 
 [[files]]
 file = "config/inventory-particles/cache/veggiesdelight/atlas.png"
-hash = "834601fd8b6f6191efbe37cebbeef5be9fef90e2c460fecec87f948ca0568cef"
+hash = "48fef30e69d04347d66f033e12da10092efe63a277bdc025f9954c85d33f41ae"
 
 [[files]]
 file = "config/inventory-particles/cache/veggiesdelight/regions.txt"
@@ -3172,7 +3172,7 @@ hash = "9fb5f9ba5f4b5a6af0f87373a2f06b3a8775486c33769f4f5072c66894fbb7b5"
 
 [[files]]
 file = "config/inventory-particles/cache/waystones/atlas.png"
-hash = "7d901e808731828d663e6ff49f9a17a1efcf0ed9f24db394e4979a3ac9ddc61f"
+hash = "dc69dff33f6643c2315b6f0ec544fd343f471038ad384e766f72e3355cf2857b"
 
 [[files]]
 file = "config/inventory-particles/cache/waystones/regions.txt"
@@ -3184,7 +3184,7 @@ hash = "a5a2398eb126d839d43a68cca9012ba0b6201ed26f493ab87a129eaa2934d767"
 
 [[files]]
 file = "config/inventory-particles/cache/wildernature/atlas.png"
-hash = "97ea57ec1ae855183197aefbfea5f3b8c4f368f0ef7f1acb196e6810e9455897"
+hash = "e3ca9687382956b18be2d61c89269137bd4bd1a18cd235aa7bf92fc213d43e62"
 
 [[files]]
 file = "config/inventory-particles/cache/wildernature/regions.txt"
@@ -3196,7 +3196,7 @@ hash = "d44d439322afa90c79ef5be4042f777aee093a014041857f0b95457e5a9f4ecd"
 
 [[files]]
 file = "config/inventory-particles/cache/yungscavebiomes/atlas.png"
-hash = "a3368cb34288d921ae81fb873298608ad6af2308160ae15a8d913d3a4d77d3cc"
+hash = "39448f960e29129544c1f90bbd9ef0b28050507a751bd43b18f178f1421f0a11"
 
 [[files]]
 file = "config/inventory-particles/cache/yungscavebiomes/regions.txt"
@@ -3304,7 +3304,7 @@ hash = "975e561cd61c76d63be3fb12448b502f0414db96005c54bc7d70253874f47645"
 
 [[files]]
 file = "config/jei/world/local/Mundo nuevo/lookupHistory.ini"
-hash = "6e81f5aa8840cde73c6967fa19eb5424873f25b75a3695b097e80792bb6a895e"
+hash = "707a32f0efc118cd816f3fabf2d28a3a271b36f68bc8e94cee0735e92c8c9570"
 
 [[files]]
 file = "config/jei/world/local/Mundo_nuevo/bookmarks.ini"
@@ -3400,7 +3400,7 @@ hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
 [[files]]
 file = "config/mcreator_mem_fix.json"
-hash = "54da3eff628d951d779eeb736a8b025492ec0cff22a9f186b95b6cc4c94a662c"
+hash = "9d52dc59c5a13aa4b7a35d22feda1413f2873b10e5b37a7407474d08c9c13a61"
 
 [[files]]
 file = "config/midnightlib.json"
@@ -3468,7 +3468,7 @@ hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "f0bd2ad1476a39d309f06e4842ea1dfa48e331ee82d2185bde4473e5c036cd78"
+hash = "2318bb6c99c56ccb1fed4888f006f4d7dd7fc9bc75592d54eb25436c97ebc1c6"
 preserve = true
 
 [[files]]
@@ -3533,7 +3533,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "7ba135f66cb7ed1d7decfa7478be82e0f6b3f0498a25909ed3dd50f7462d71e3"
+hash = "84736c56c9bd3d07273279b128bd9eb11a825b7ec1a7ea1e2f1b64d607e030d3"
 
 [[files]]
 file = "config/presencefootsteps/updater.json"
@@ -3685,7 +3685,7 @@ hash = "b66b83f88641c70f922764c367c9d625412b7614297170ff58f07ba987cd3fcc"
 
 [[files]]
 file = "config/punchy/merged_animation_selection.json"
-hash = "8b00f5c27bc5f87b91195ae2022d35d62d67d095d80184024efd2911f46a9f6f"
+hash = "74b0e1380af5bb275f8ad6c67798807fde16ab5b2e05c4490e94aa0a3ab54eb6"
 
 [[files]]
 file = "config/punchy/profiles/.active_profile"
@@ -3757,7 +3757,7 @@ hash = "671ee75b5333f98d3a9b92fcfcc79c7df7a6b4c0e5cda025a7b449ab79562b2b"
 
 [[files]]
 file = "config/rsls.properties"
-hash = "a8666e24b2af5df2e7cd2196f4fbe5b4ff149c139498234fb34cb19eedd331e9"
+hash = "6aabca854e0ba78b67b3e31a6332ddc4a9adefe3cc305ddd59f739b38d995660"
 
 [[files]]
 file = "config/ryoamiclights.toml"
@@ -3825,7 +3825,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "f468f63f64e9a350b4fd4e54f236cb71e507f0db52d3514f28e80659a05764bf"
+hash = "d0366f8c6cd9ea1f47d9d293ac559ed45c2a0067903ffece91abd6b0488bcb18"
 
 [[files]]
 file = "config/simplehats.json"
@@ -8829,7 +8829,7 @@ hash = "6db2897ba1a15afb51ae14050bdde39e91f2236b178c1162f2fdd657ec38960b"
 
 [[files]]
 file = "fancymenu_data/last_world.fmdata"
-hash = "d7e920b58dfe8f2b220df80ef0e6ed8724c6882973ed581be36e054ac676e367"
+hash = "80f420829c2b9450c03767f22bc65ccebd0e0409c507130a996faac96ec31083"
 
 [[files]]
 file = "mods/.gitkeep"
@@ -10432,8 +10432,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "5a747ee6733c8972b632855810400dbb790ab85c4612a4cb01f617ba51449a8f"
-preserve = true
+hash = "29d7373d40293d8b0f5430c9cc84960b13bf0c432773835e82466dd690270668"
 
 [[files]]
 file = "otyacraftengine/url_textures_index.json"
