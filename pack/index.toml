@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "1afc25a128555653d4ccaf5e10f81bd46a5f104769373e185ce9c37d9b7be3b1"
+hash = "27628e94b08c6ad5f15f05ff57267af8982a7ed477b52b64eac1bb9429c637a7"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -9666,6 +9666,10 @@ hash = "5cc92eb0e58c2afbfd625d727d80da1d1c84500ec962bb22f5be28b864f18551"
 metafile = true
 
 [[files]]
+file = "mods/happy_ghast-3.0.0-forge-1.20.1.jar"
+hash = "e7c15f9874b5e36448c0c9c1b811908da13c5efd923ed4fd79b3bd35aea51095"
+
+[[files]]
 file = "mods/hide-key-binding.pw.toml"
 hash = "fee02da4acdbd973b73c5645c26188a8b3550ce6f177c55de1886c6a29c0cb26"
 metafile = true
@@ -11016,7 +11020,7 @@ hash = "79b2ad0c7f0419f86301f82ca083954bc1bd44466122e34cddd835c528738b89"
 
 [[files]]
 file = "scripts/pre-launch.bat"
-hash = "b82b363789dcec6c8d1bd8c781d8ed3b80c4216f7e8e4fef3988113b85339d7a"
+hash = "8b1781ebbc6f0c5ec57c227c72015d71f08d40b6e57d86cc2ac6822f573614b8"
 
 [[files]]
 file = "servers.dat"

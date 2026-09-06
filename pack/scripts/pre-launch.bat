@@ -14,6 +14,13 @@ if exist "%MC_DIR%\perfil.txt" (
     )
 )
 
+:: 1.5 Limpieza proactiva de mods problemáticos/huérfanos antes de actualizar
+:: El autor de MEED cambió el Mod ID, dejando la versión vieja huérfana.
+if exist "%MC_DIR%\mods\*moderately_enough_effect_desc*.jar" (
+    echo [Guardian] Limpiando mods huerfanos detectados...
+    del "%MC_DIR%\mods\*moderately_enough_effect_desc*.jar" /q 2>nul
+)
+
 :: 2. Actualizar mods con Packwiz segun el perfil activo
 "%INST_JAVA%" -jar "%INST_MC_DIR%\packwiz-installer-bootstrap.jar" -g !PACKWIZ_URL!
 
