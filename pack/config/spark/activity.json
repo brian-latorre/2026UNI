@@ -5,6 +5,19 @@
       "name": "Briii_",
       "uniqueId": "e22352be-30cf-3abf-bf26-0abec80643c8"
     },
+    "time": 1788687099952,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/gL6QUsUKRu"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Briii_",
+      "uniqueId": "e22352be-30cf-3abf-bf26-0abec80643c8"
+    },
     "time": 1786297681035,
     "type": "Profiler",
     "data": {

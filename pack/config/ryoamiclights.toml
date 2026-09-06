@@ -66,6 +66,9 @@
 				pillager = true
 				evoker = true
 				turtle = true
+				vindicator = true
+				parrot = true
+				guardian = true
 
 			[light_sources.settings.entities.born_in_chaos_v1]
 				baby_spider = true
@@ -116,6 +119,7 @@
 				missioner = true
 				lifestealer = true
 				firelight_not_despawn = true
+				krampus_henchman = true
 
 			[light_sources.settings.entities.ad_astra]
 				sulfur_creeper = true
@@ -129,6 +133,9 @@
 				ocean_creeper = true
 				beach_creeper = true
 				desert_creeper = true
+				badlands_creeper = true
+				bamboo_creeper = true
+				jungle_creeper = true
 
 			[light_sources.settings.entities.artifacts]
 				mimic = true
@@ -176,6 +183,19 @@
 				orca = true
 				seagull = true
 				bald_eagle = true
+				comb_jelly = true
+				frilled_shark = true
+				blobfish = true
+				komodo_dragon = true
+				toucan = true
+				kangaroo = true
+				capuchin_monkey = true
+				gorilla = true
+				hummingbird = true
+				rattlesnake = true
+				tiger = true
+				rocky_roller = true
+				hammerhead_shark = true
 
 			[light_sources.settings.entities.wildernature]
 				hedgehog = true
@@ -199,10 +219,15 @@
 				barrel_golem = true
 				hay_golem = true
 				honey_golem = true
+				terracotta_golem = true
+				slime_golem = true
 
 			[light_sources.settings.entities.mowziesmobs]
 				ferrous_wroughtnaut = true
 				grottol = true
+				foliaath = true
+				elokosa_follower_howler = true
+				elokosa_howler = true
 
 			[light_sources.settings.entities.dynamictrees]
 				falling_tree = true
@@ -236,6 +261,7 @@
 
 			[light_sources.settings.entities.tconstruct]
 				terracube = true
+				sky_slime = true
 
 			[light_sources.settings.entities.adorablehamsterpets]
 				hamster = true
@@ -266,6 +292,13 @@
 				koboleton = true
 				modern_remnant = true
 				cursed_sandstorm = true
+				amethyst_crab = true
+				deepling_brute = true
+				coral_golem = true
+				deepling_warlock = true
+				deepling = true
+				lionfish = true
+				deepling_angler = true
 
 			[light_sources.settings.entities.yungscavebiomes]
 				sand_snapper = true
@@ -309,4 +342,12 @@
 				arrow_of_venom = true
 				volitans = true
 				atroxiia = true
+				mossback = true
+
+			[light_sources.settings.entities.aquamirae]
+				maw = true
+				tortured_soul = true
+				pillagers_patrol = true
+				golden_moth = true
+				anglerfish = true
 

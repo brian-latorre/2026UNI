@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "fd17b9a0c9e49fb26a2460fdfe7d6773cd50b9b2a1260b1af68948ecbb281b69"
+hash = "1afc25a128555653d4ccaf5e10f81bd46a5f104769373e185ce9c37d9b7be3b1"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -8844,6 +8844,10 @@ file = "mods/Emojiful-Forge-1.20.1-4.3.2.jar"
 hash = "ff4647a889a5c2e28e09c2da84bf31def9d1e3060bb70b2da1b9ed92ee5dc5dc"
 
 [[files]]
+file = "mods/JustEnoughProfessions-forge-1.20.1-3.0.1.jar"
+hash = "85b644b2f6cbcc3a73d240229065692717713e3d2cd2b60cb0c8eea9946f0535"
+
+[[files]]
 file = "mods/KeybindAtlas-v1.4.0-mc1.20.1-forge.jar"
 hash = "a102f472b75dedb38e570708b3484b795bba0a6d6bc5983a27304f71b41cef41"
 
@@ -9580,9 +9584,16 @@ hash = "8f359d190506a6f824763b8e7c390d9e22204ef11e3ffa5ef980000d17e2c2b6"
 metafile = true
 
 [[files]]
-file = "mods/jei.pw.toml"
-hash = "881c2141c0584ae38f73c2adba9d3db51b6bd1f82ff841575a2baa5560af175f"
-metafile = true
+file = "mods/jearchaeology-1.20.1-1.0.5.jar"
+hash = "a12db479e464a58e0e47fc466b2326a55e0e3a22efd7f9b540f9c9e86838b49b"
+
+[[files]]
+file = "mods/jei-1.20.1-forge-15.56.0.205.jar"
+hash = "6b251e60a4719c874da89d750af97aa6498f6f4475e3ae79cb1288c7bf0cb65c"
+
+[[files]]
+file = "mods/jepp-1.20-1.1.2.jar"
+hash = "ea5dd6e2e40d73ae69776944fed93e4e2d5a48028d384d9f94494f814d108050"
 
 [[files]]
 file = "mods/jump-over-fences-forge.pw.toml"
@@ -9735,6 +9746,10 @@ hash = "b8d31c17869b49ccbd8cc7180d265c16d73642dcc0dc1059f635235749629eb4"
 metafile = true
 
 [[files]]
+file = "mods/meed-1.20.1-8.0.6.jar"
+hash = "6faf83d3b519db3e8c5806ce7a09040143b8a1babdc51ef7ed899c879f8a27d2"
+
+[[files]]
 file = "mods/melody.pw.toml"
 hash = "0b9cc190139b0eb2d5f0153f05717ed53edd499ad2a3eeee99ea75d22fd0ef1c"
 metafile = true
@@ -9757,11 +9772,6 @@ metafile = true
 [[files]]
 file = "mods/model-gap-fix.pw.toml"
 hash = "cd3140db1982e4e1b17c60b71e436fc92c22b1a6ce189e6b8197d1275487679c"
-metafile = true
-
-[[files]]
-file = "mods/moderately-enough-effect-descriptions-meed.pw.toml"
-hash = "1cdfc9e83896c8f5e8eaf99846dfd7a0e621ef6a8856f745ec731d79e5337468"
 metafile = true
 
 [[files]]

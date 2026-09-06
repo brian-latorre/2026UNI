@@ -5,7 +5,8 @@
     "ai.arcblroth.projectInception.client.InceptionInterfaceScreen",
     "net.optifine.gui.GuiChatOF",
     "io.github.darkkronicle.advancedchatcore.chat.AdvancedChatScreen",
-    "net.coderbot.iris.gui.screen.ShaderPackScreen"
+    "net.coderbot.iris.gui.screen.ShaderPackScreen",
+    "net.irisshaders.iris.gui.screen.ShaderPackScreen"
   ],
   "fadeTimeMillis": 200,
   "fadeOutTimeMillis": 200,

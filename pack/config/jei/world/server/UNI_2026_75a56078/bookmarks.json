@@ -16,5 +16,6 @@
   {"type":"item_stack","value":"{Count:1b,id:\"powah:solar_panel_hardened\"}"},
   {"type":"item_stack","value":"{Count:1b,id:\"powah:steel_energized\"}"},
   {"type":"item_stack","value":"{Count:1b,id:\"powah:capacitor_hardened\"}"},
-  {"type":"item_stack","value":"{Count:1b,id:\"minecraft:arrow\"}"}
+  {"type":"item_stack","value":"{Count:1b,id:\"minecraft:arrow\"}"},
+  {"type":"recipe","value":"minecraft:brewing#minecraft:minecraft.potion.awkward.to.minecraft.potion.poison.effect.minecraft.poison..Duration..900#item_stack\u0026minecraft:potion:poison;effect.minecraft.poison, Duration: 900"}
 ]
