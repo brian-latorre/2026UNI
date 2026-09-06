@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "27628e94b08c6ad5f15f05ff57267af8982a7ed477b52b64eac1bb9429c637a7"
+hash = "0afc773c3f16fd10bde17474875bfecba1a5842c9bff832394b6285412999482"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -11020,7 +11020,7 @@ hash = "79b2ad0c7f0419f86301f82ca083954bc1bd44466122e34cddd835c528738b89"
 
 [[files]]
 file = "scripts/pre-launch.bat"
-hash = "8b1781ebbc6f0c5ec57c227c72015d71f08d40b6e57d86cc2ac6822f573614b8"
+hash = "b82b363789dcec6c8d1bd8c781d8ed3b80c4216f7e8e4fef3988113b85339d7a"
 
 [[files]]
 file = "servers.dat"
