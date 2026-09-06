@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "13ab6567cbd1984fd81bec43ce8e1659b38d134f38fa8c775bb9ca6f39952733"
+hash = "ff6ff16a60f265056ff1383f904103fc469eab12f06813d7d2b7462573a49d34"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -9471,9 +9471,8 @@ hash = "5bd0506bc0be25116b234f2b5af9447f60d82ae1cb6c5be4e12d8841f6c2501c"
 metafile = true
 
 [[files]]
-file = "mods/field-guide.pw.toml"
-hash = "762feb655296c90ce3a718e4e5ad71a339946b8fa6d59af349617dd393627436"
-metafile = true
+file = "mods/fieldguide-forge-1.20.1-1.16.1.jar"
+hash = "bb042f5f1ce9caea70f3cb7656ff9371755066a8e4ed8753b66fa58733fb8284"
 
 [[files]]
 file = "mods/find-me.pw.toml"
