@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "9cbd66b3b7edc63d7dbb42c1824fca44cf47aafe1094ecdba4099aa0c8bf1bc7"
+hash = "fd17b9a0c9e49fb26a2460fdfe7d6773cd50b9b2a1260b1af68948ecbb281b69"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -8933,6 +8933,10 @@ hash = "73c8f00ddae69b929cfdc313b808ce547e610b8336dbe54660b62d258c5e3a01"
 metafile = true
 
 [[files]]
+file = "mods/amendments-1.20-2.2.6.jar"
+hash = "46c7e1276bc77a0843267a6aeee381af61f16bedc7949447fff49eeb7aeb7917"
+
+[[files]]
 file = "mods/amt.pw.toml"
 hash = "030704abd7bdef7c0a6aba9633ecfbd58932e0fda5f1f06a4627f5a112edc86d"
 metafile = true
@@ -9549,7 +9553,7 @@ hash = "30fe947e95d8da536ea4ad3c959f07cc504dd739ea530f7f4187ac08f4afcbc0"
 metafile = true
 
 [[files]]
-file = "mods/genshinstrument-1.20-1.20.1-5.0 (1).jar"
+file = "mods/genshinstrument-1.20-1.20.1-5.0.jar"
 hash = "b026fa16597144ae68867c4dd8f6fbe030f884088ab34b3fcf67f4e3d9d8db61"
 
 [[files]]
@@ -10281,6 +10285,10 @@ metafile = true
 file = "mods/supermartijn642s-core-lib.pw.toml"
 hash = "b6a895f1b93c2e70488e8b0ae289ef03257bf25d91e5d92211bfaedd54889dde"
 metafile = true
+
+[[files]]
+file = "mods/supplementaries-1.20-3.1.43-forge.jar"
+hash = "6132fc23a2fe1da0ca57439b35526ee9a1a8d898397ff8e61b2d08fb951cdf6a"
 
 [[files]]
 file = "mods/tempad-with-shaders.pw.toml"
