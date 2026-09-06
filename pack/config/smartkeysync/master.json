@@ -1,6 +1,6 @@
 {
   "base_version": 1,
-  "latest_version": 6,
+  "latest_version": 7,
   "base_keys": {
     "key.attack": {
       "key": "key.mouse.left",
@@ -1599,6 +1599,147 @@
         },
         "key.better_looting.scroll_modifier": {
           "key": "key.keyboard.left.control",
+          "modifier": "NONE",
+          "forced": false
+        }
+      }
+    },
+    {
+      "version": 7,
+      "description": "FootSteps",
+      "changes": {
+        "key.shouldersurfing.adjust_camera_left": {
+          "key": "key.keyboard.left",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.shouldersurfing.adjust_camera_right": {
+          "key": "key.keyboard.right",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.shouldersurfing.adjust_camera_in": {
+          "key": "key.keyboard.up",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.shouldersurfing.adjust_camera_out": {
+          "key": "key.keyboard.down",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.shouldersurfing.adjust_camera_up": {
+          "key": "key.keyboard.page.up",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.shouldersurfing.adjust_camera_down": {
+          "key": "key.keyboard.page.down",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.shouldersurfing.swap_shoulder": {
+          "key": "key.keyboard.u",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.shouldersurfing.toggle_first_person": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.shouldersurfing.toggle_third_person_front": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.shouldersurfing.toggle_third_person_back": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.shouldersurfing.free_look": {
+          "key": "key.keyboard.left.alt",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.shouldersurfing.toggle_camera_coupling": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.shouldersurfing.toggle_x_offset_presets": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.shouldersurfing.toggle_y_offset_presets": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.shouldersurfing.toggle_z_offset_presets": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.shouldersurfing.enter_first_person": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.shouldersurfing.enter_third_person_front": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.shouldersurfing.enter_third_person_back": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.shouldersurfing.enter_shoulder_surfing": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.soundcontrol.open": {
+          "key": "key.keyboard.v",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.soundcontrol.toggle_overlay": {
+          "key": "key.keyboard.y",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.presencefootsteps.settings": {
+          "key": "key.keyboard.unknown",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "key.itemzoomer.toggle_zoom": {
+          "key": "key.keyboard.z",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "genshinstrument.keymaps.transpose_up_modifier": {
+          "key": "key.keyboard.left.shift",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "genshinstrument.keymaps.transpose_down_modifier": {
+          "key": "key.keyboard.left.alt",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "evenmoreinstruments.keymaps.instrument_type_modifier": {
+          "key": "key.keyboard.right.alt",
+          "modifier": "NONE",
+          "forced": false
+        },
+        "evenmoreinstruments.keymaps.record": {
+          "key": "key.keyboard.grave.accent",
           "modifier": "NONE",
           "forced": false
         }

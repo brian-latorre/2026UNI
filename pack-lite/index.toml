@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "ff6ff16a60f265056ff1383f904103fc469eab12f06813d7d2b7462573a49d34"
+hash = "9cbd66b3b7edc63d7dbb42c1824fca44cf47aafe1094ecdba4099aa0c8bf1bc7"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -743,7 +743,7 @@ hash = "7dd7dc266613f18011a9a5ba624e50c35374ad2b39ea379231c3c44e7b2261b3"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "9d1b1e49079dd7cefccacc75f21d95493d65e155b24e605e2daeeffc8a674519"
+hash = "39d0028c2e72186ef3431754d70e425179b4f2f4be5842522ee8b6bebdc66ad5"
 
 [[files]]
 file = "config/collective.json5"
@@ -977,7 +977,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "a0d48bc60a6d64ad0465d2758eedf5ec0d14601189e4751d5429fecf326a753b"
+hash = "741acc50b84489a1f4f43daff9c15d8f750475276932697532d261c85273407f"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -3404,7 +3404,7 @@ hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
 [[files]]
 file = "config/mcreator_mem_fix.json"
-hash = "64316d58a019dc2715e6a4532626b6192d5b3f7fe74e86b673cac597353dbda4"
+hash = "ac2aa403da549ffadcaea667005cc399993f26bf971132a5fda8f2cac5a9ce73"
 
 [[files]]
 file = "config/midnightlib.json"
@@ -3472,7 +3472,7 @@ hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "9acf3bc91a10907d320ee900a2b0e3c10c32c4fc391c846d12df85b6eefd7c65"
+hash = "7338dcd13b7c2bd277d290993d805cdcb59ab3f28c437cb9376bbe3d364e8183"
 preserve = true
 
 [[files]]
@@ -3537,7 +3537,7 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 
 [[files]]
 file = "config/powah.json5"
-hash = "49df785ce63047a292d123d635ba58c5abaa3e6bb7aaa7dde14ee1cfa4b59bba"
+hash = "7ba135f66cb7ed1d7decfa7478be82e0f6b3f0498a25909ed3dd50f7462d71e3"
 
 [[files]]
 file = "config/presencefootsteps/updater.json"
@@ -3829,7 +3829,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "95526d245cdae577f3fabd26a35ee2f6af9cc0f696b4bf90455b18135ad689b8"
+hash = "c2fbd6d4f12cc4e4f157652522ab8120516c772cd4cf0e44ec5a2fa04987c2d4"
 
 [[files]]
 file = "config/simplehats.json"
@@ -8817,7 +8817,7 @@ hash = "6db2897ba1a15afb51ae14050bdde39e91f2236b178c1162f2fdd657ec38960b"
 
 [[files]]
 file = "fancymenu_data/last_world.fmdata"
-hash = "71dc5ab50f213200f1aae86ed73266916d0b0c3e3e49ffe1758f84b28c53c845"
+hash = "d7e920b58dfe8f2b220df80ef0e6ed8724c6882973ed581be36e054ac676e367"
 
 [[files]]
 file = "mods/.gitkeep"
@@ -9860,11 +9860,6 @@ hash = "55e15a64012f6c24ef40ab9d76e99a8d4417253d71d25a98ad492b0d11a897f7"
 metafile = true
 
 [[files]]
-file = "mods/pick-up-notifier.pw.toml"
-hash = "0fd5b27087ffe34d22dbdbdec6cae53f0a58b839ab8e4c423a5255f2b406e27b"
-metafile = true
-
-[[files]]
 file = "mods/ping-wheel.pw.toml"
 hash = "6d01bc9f8f0b705c9d8a8020849393145648602dd2bfb2dbc28b36d965a16a5a"
 metafile = true
@@ -10167,6 +10162,10 @@ hash = "74a64acbd2275c16e47fb17e74bcd431779674cefa1f54f67f15b4d9b955aec7"
 metafile = true
 
 [[files]]
+file = "mods/tiny_takeover_backport-forge-1.20.1-1.3.1.jar"
+hash = "4098207a1a1fedc6c2692ee95c49bb54a9280e6a9bd6cb1c6b411abccb8aed32"
+
+[[files]]
 file = "mods/toast-control.pw.toml"
 hash = "1195cdfa90ac4ef4d5ebed8dbca1df990cf58b0a0fe3b9b965ccefa0cfd5a2e3"
 metafile = true
@@ -10282,7 +10281,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "d5e9933b2aff677f0c54cab391ac607cdaaf107d9fa14a5fc5a46bd47da798d1"
+hash = "1b49484511a0a8a180197546f5c6893e1423458a1ad657bee6e6d3287368fec9"
 
 [[files]]
 file = "otyacraftengine/url_textures_index.json"
@@ -10411,6 +10410,10 @@ hash = "add0e2c0bf7be79cdb5e9ae29a520f18617df81591e403f90318c9cd8f684de3"
 [[files]]
 file = "resourcepacks/Xaero's Extended Mob Icons v1.6.zip"
 hash = "308e1456d091021b294fd6ebd2ac3758829fad9f1380869265e6585d21181bf2"
+
+[[files]]
+file = "resourcepacks/mod-descriptions-v12.0.zip"
+hash = "92f332b28a208b03c82625ee2d777b1fe76f319b83db6baa11f4a0336e3b12f5"
 
 [[files]]
 file = "resourcepacks/§6§lPunchy - Shubba Totem §7.zip"

@@ -1,7 +1,7 @@
 type = last_world
 
 last_world {
-  is_server = false
-  world = C:/Users/brian/AppData/Roaming/.minecraft/2026UNI/saves/Mundo nuevo
+  is_server = true
+  world = wriggly-jm.gl.joinmc.link:25565
 }
 

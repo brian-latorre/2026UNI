@@ -58,6 +58,14 @@
 				tnt_minecart = true
 				slime = true
 				item_frame = true
+				allay = true
+				leash_knot = true
+				donkey = true
+				cave_spider = true
+				ravager = true
+				pillager = true
+				evoker = true
+				turtle = true
 
 			[light_sources.settings.entities.born_in_chaos_v1]
 				baby_spider = true
@@ -107,6 +115,7 @@
 				glutton_fish = true
 				missioner = true
 				lifestealer = true
+				firelight_not_despawn = true
 
 			[light_sources.settings.entities.ad_astra]
 				sulfur_creeper = true
@@ -165,6 +174,8 @@
 				rhinoceros = true
 				leafcutter_ant = true
 				orca = true
+				seagull = true
+				bald_eagle = true
 
 			[light_sources.settings.entities.wildernature]
 				hedgehog = true
@@ -187,6 +198,7 @@
 				coal_golem = true
 				barrel_golem = true
 				hay_golem = true
+				honey_golem = true
 
 			[light_sources.settings.entities.mowziesmobs]
 				ferrous_wroughtnaut = true
@@ -295,4 +307,6 @@
 				moop = true
 				ivy_oleander = true
 				arrow_of_venom = true
+				volitans = true
+				atroxiia = true
 
