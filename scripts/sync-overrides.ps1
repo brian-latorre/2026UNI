@@ -78,6 +78,25 @@ Write-Info "'shaderpacks', etc.) desde tu instalacion real de Minecraft hacia la
 Write-Info "Esto asegura que al actualizar, los jugadores reciban los mismos menus y ajustes que tu."
 Write-Host ""
 
+# === Autoguardar plantillas en presets_graficos ===
+# Actualiza automáticamente la plantilla del perfil activo en el Cliente Madre con tu configuración actual
+$presetDir = Join-Path $SourceInstance "presets_graficos\$Perfil"
+if (-not (Test-Path $presetDir)) { New-Item -ItemType Directory -Path $presetDir -Force | Out-Null }
+
+$presetFiles = @(
+    @{ Src = "options.txt"; Dest = "options.txt" },
+    @{ Src = "config\embeddium-options.json"; Dest = "embeddium-options.json" },
+    @{ Src = "config\oculus.properties"; Dest = "oculus.properties" }
+)
+foreach ($pf in $presetFiles) {
+    $srcFile = Join-Path $SourceInstance $pf.Src
+    $destFile = Join-Path $presetDir $pf.Dest
+    if (Test-Path $srcFile) {
+        Copy-Item $srcFile $destFile -Force
+    }
+}
+Write-Success "Plantillas en presets_graficos/$Perfil actualizadas localmente."
+
 # === Carpetas a sincronizar ===
 # Estas carpetas se copian COMPLETAS desde la instancia al pack
 $SyncFolders = @(

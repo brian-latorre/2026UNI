@@ -17,6 +17,23 @@ function Set-Perfil {
         $presetsBase = "$PSScriptRoot\..\..\presets_graficos\$Nombre"
         $perfilTxt = "$PSScriptRoot\..\..\perfil.txt"
 
+        # Limpieza de cambio de perfil (solo para instancias gestionadas por el Launcher, no para el Entorno de Desarrollo)
+        if ($clienteBase -match "PineconeMC") {
+            Write-Log -Mensaje "Limpiando instancia para transicion limpia de perfil (evita mezcla de Fancymenu)..." -Nivel INFO
+            $foldersToClean = @("config", "mods", "fancymenu_data", "emojiful", "otyacraftengine", "defaultconfigs")
+            foreach ($folder in $foldersToClean) {
+                $fPath = Join-Path $clienteBase $folder
+                if (Test-Path $fPath) {
+                    Remove-Item $fPath -Recurse -Force -ErrorAction SilentlyContinue
+                }
+            }
+            $packwizJson = Join-Path $clienteBase "packwiz.json"
+            if (Test-Path $packwizJson) {
+                Remove-Item $packwizJson -Force -ErrorAction SilentlyContinue
+            }
+            Write-Log -Mensaje "Limpieza completada. Las plantillas se restauraran ahora." -Nivel INFO
+        }
+
         $targets = @(
             @{ Src = "$presetsBase\embeddium-options.json"; Dest = "$clienteBase\config\embeddium-options.json" },
             @{ Src = "$presetsBase\oculus.properties"; Dest = "$clienteBase\config\oculus.properties" },

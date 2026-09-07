@@ -153,10 +153,31 @@ try {
     
     Update-TxtRAMInfo
 
+    # Función para actualizar colores de los botones
+    function Update-ProfileButtons {
+        $perfilActivo = Get-PerfilActivo
+        $bc = New-Object System.Windows.Media.BrushConverter
+        if ($perfilActivo -eq "Normal") {
+            $btnNormal.Background = $bc.ConvertFromString("#BF1515")
+            $btnNormal.Foreground = $bc.ConvertFromString("White")
+            $btnLite.Background = $bc.ConvertFromString("#222222")
+            $btnLite.Foreground = $bc.ConvertFromString("#CCCCCC")
+        } else {
+            $btnNormal.Background = $bc.ConvertFromString("#222222")
+            $btnNormal.Foreground = $bc.ConvertFromString("#CCCCCC")
+            $btnLite.Background = $bc.ConvertFromString("#BF1515")
+            $btnLite.Foreground = $bc.ConvertFromString("White")
+        }
+    }
+
+    # Inicialización visual de perfiles
+    Update-ProfileButtons
+
     # Wiring de eventos
     $btnNormal.Add_Click({
         if (Set-Perfil -Nombre "Normal") {
-            [System.Windows.MessageBox]::Show("Perfil Normal aplicado.", "Éxito", 'OK', 'Information')
+            Update-ProfileButtons
+            [System.Windows.MessageBox]::Show("Perfil Normal aplicado.", "Exito", 'OK', 'Information')
         } else {
             [System.Windows.MessageBox]::Show("Error al aplicar perfil Normal.", "Error", 'OK', 'Error')
         }
@@ -164,7 +185,8 @@ try {
 
     $btnLite.Add_Click({
         if (Set-Perfil -Nombre "Lite") {
-            [System.Windows.MessageBox]::Show("Perfil Lite aplicado.", "Éxito", 'OK', 'Information')
+            Update-ProfileButtons
+            [System.Windows.MessageBox]::Show("Perfil Lite aplicado.", "Exito", 'OK', 'Information')
         } else {
             [System.Windows.MessageBox]::Show("Error al aplicar perfil Lite.", "Error", 'OK', 'Error')
         }
