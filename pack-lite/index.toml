@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "0afc773c3f16fd10bde17474875bfecba1a5842c9bff832394b6285412999482"
+hash = "03a8f9528ea665e9d02e531a4b392f0a9356c8f84ff6e5249dd5be09a856bfce"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -558,6 +558,14 @@ file = "config/ambientsounds-client.json"
 hash = "c98f572839ace55b0792042fa4b984311e7d876abdaccfc8a4694f5bebad766c"
 
 [[files]]
+file = "config/amendments-client.toml"
+hash = "d3da91b22bb5164c828ea6f1e9827949f04fecb593537a8e90e0e6526d141ada"
+
+[[files]]
+file = "config/amendments-common.toml"
+hash = "2dac5377a382ad04053e701ca633c51884c5e47e89e7b7488106f08ff3f3a959"
+
+[[files]]
 file = "config/appleskin-client.toml"
 hash = "b477c8c493b28366a6b282f29f46c9415e3a4a2a23fff6e09331644c435dfd48"
 
@@ -635,7 +643,7 @@ hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
 
 [[files]]
 file = "config/biomeswevegone/world_generation.json"
-hash = "5ab08dae537d43aef3f217e3a7a17608d39f1be082960fe4abd545d0697a72dc"
+hash = "50b760ffbc0d9d309063b8a59249498455584732d46e4e8b45bf45bdfa148678"
 
 [[files]]
 file = "config/blessfulled-client.toml"
@@ -743,7 +751,7 @@ hash = "7dd7dc266613f18011a9a5ba624e50c35374ad2b39ea379231c3c44e7b2261b3"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "39d0028c2e72186ef3431754d70e425179b4f2f4be5842522ee8b6bebdc66ad5"
+hash = "9d1b1e49079dd7cefccacc75f21d95493d65e155b24e605e2daeeffc8a674519"
 
 [[files]]
 file = "config/collective.json5"
@@ -977,7 +985,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "741acc50b84489a1f4f43daff9c15d8f750475276932697532d261c85273407f"
+hash = "62c4e7dfad4ce2e4cbb0231221a710a6d381ae05537665c6bf3b7b8e4768cc64"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1113,7 +1121,7 @@ hash = "e1f7ac719661bd2da00232afeb33c78ec424a2cb3c1fce6439d538568139dc46"
 
 [[files]]
 file = "config/fancymenu/customization/mainmenu.txt"
-hash = "cd584e19f993eb76ca4e29b2605a4411d8b867d9cd00d7a4388ea24fc4d4edbb"
+hash = "a72cbe5d1d59d84cbabb0fa2b8e9b427f3c8cbf1066bb488d417bba0fb181deb"
 
 [[files]]
 file = "config/fancymenu/customization/menucarga.txt"
@@ -3260,11 +3268,15 @@ hash = "8a9c0403b385ca106d0c0b541ea2f2128bf39e3f9b05b342b176ca11834857a4"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "1e722fc154f3d3616ef401e6fa4ff111b0133604088df0969c3699a5ab4d89c8"
+hash = "6fe12cba7b9938642c10e097da19b417257b266754ed0a8fbffb6f2486cddf04"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "6c2d27979f6ab7d39fa0dea864d371349289fb761c95a3f494fd603b2bde25cc"
+hash = "db7f742db6e9ad920e856265883a4ed3eaefdeae6a8e7434c1234c2821f658a9"
+
+[[files]]
+file = "config/jearchaeology-common.toml"
+hash = "78d2710249a6e256f422c208b80378db2d1d1afef5bf5d2b052dc5396a8bf7f0"
 
 [[files]]
 file = "config/jeed-client.toml"
@@ -3404,7 +3416,7 @@ hash = "fb2b6378aac5723f9bcb0fe195fefc42f675f59467c98ae65df13bd872949e95"
 
 [[files]]
 file = "config/mcreator_mem_fix.json"
-hash = "ac2aa403da549ffadcaea667005cc399993f26bf971132a5fda8f2cac5a9ce73"
+hash = "6739b488b2efb92bfa2b4711d7507a4680f363e68483e625665e0cdf01b246b8"
 
 [[files]]
 file = "config/midnightlib.json"
@@ -3472,7 +3484,7 @@ hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "7338dcd13b7c2bd277d290993d805cdcb59ab3f28c437cb9376bbe3d364e8183"
+hash = "feb0b6fde8d3260d9062e7f3eb024e4f347b89f0f54c136086cc4cbeb3581927"
 preserve = true
 
 [[files]]
@@ -3829,7 +3841,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "c2fbd6d4f12cc4e4f157652522ab8120516c772cd4cf0e44ec5a2fa04987c2d4"
+hash = "6c7584e217a34db4a95dc4509dbc65e9d0a88e872cb1f31a1aa0d02b253f68b3"
 
 [[files]]
 file = "config/simplehats.json"
@@ -4134,6 +4146,14 @@ hash = "2c16825abdfad0922232814dbdc9110a85abb26fbc9df4238b86b6a0bf09ce6b"
 [[files]]
 file = "config/subtle_effects/items.toml"
 hash = "3dfa90bb57bcdc017a84d57c16acbb4228a0cb217443bb83cf2be9276f26455e"
+
+[[files]]
+file = "config/supplementaries-client.toml"
+hash = "b65c12c50c56a81dd0efe387056cbd9cf9fb4e0c1b652cae8b3f18be13f79d77"
+
+[[files]]
+file = "config/supplementaries-common.toml"
+hash = "f420f9bf14c85731504206a9b521e03018840d41bc6da8190de655e74f825283"
 
 [[files]]
 file = "config/tameable-beasts-common.toml"
@@ -8813,7 +8833,7 @@ hash = "2adb3a142cadeb3221650a226daffcb5ea125281c02ec5d389f4c052b56ed202"
 
 [[files]]
 file = "fancymenu_data/buddy/buddy_save_ZGUyNGY3MDEtMDQ2Zi00OGMyLThiNjEtMWI4M2E5YzBmNTg3LTE3Nzk5MTA4OTI5Nzc.json"
-hash = "6db2897ba1a15afb51ae14050bdde39e91f2236b178c1162f2fdd657ec38960b"
+hash = "8b61dbf8ec831c65184dd645829ca6d62478c8bbbf61a6e689d08290a2945a75"
 
 [[files]]
 file = "fancymenu_data/last_world.fmdata"
@@ -10303,7 +10323,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "1b49484511a0a8a180197546f5c6893e1423458a1ad657bee6e6d3287368fec9"
+hash = "d7f160b0dfa0f6b746c15350ed139544b7730c90b7aed9051dca82cb099ff429"
 
 [[files]]
 file = "otyacraftengine/url_textures_index.json"
