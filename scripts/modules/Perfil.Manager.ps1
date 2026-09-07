@@ -19,12 +19,27 @@ function Set-Perfil {
 
         # Limpieza de cambio de perfil (solo para instancias gestionadas por el Launcher, no para el Entorno de Desarrollo)
         if ($clienteBase -match "PineconeMC") {
-            Write-Log -Mensaje "Limpiando instancia para transicion limpia de perfil (evita mezcla de Fancymenu)..." -Nivel INFO
-            $foldersToClean = @("config", "mods", "fancymenu_data", "emojiful", "otyacraftengine", "defaultconfigs")
+            Write-Log -Mensaje "Limpiando instancia para transicion limpia de perfil..." -Nivel INFO
+            $foldersToClean = @("config", "mods", "emojiful", "defaultconfigs")
             foreach ($folder in $foldersToClean) {
                 $fPath = Join-Path $clienteBase $folder
                 if (Test-Path $fPath) {
+                    $smartKeyBackup = $null
+                    $smartKeyClient = Join-Path $fPath "smartkeysync\client.json"
+
+                    if ($folder -eq "config" -and (Test-Path $smartKeyClient)) {
+                        $smartKeyBackup = Join-Path ([System.IO.Path]::GetTempPath()) "smartkeysync_client_switch_$([System.Guid]::NewGuid().ToString('N')).json"
+                        Copy-Item -Path $smartKeyClient -Destination $smartKeyBackup -Force
+                    }
+
                     Remove-Item $fPath -Recurse -Force -ErrorAction SilentlyContinue
+
+                    if ($smartKeyBackup -and (Test-Path $smartKeyBackup)) {
+                        $destDir = Split-Path $smartKeyClient
+                        if (-not (Test-Path $destDir)) { New-Item -ItemType Directory -Force -Path $destDir | Out-Null }
+                        Copy-Item -Path $smartKeyBackup -Destination $smartKeyClient -Force
+                        Remove-Item -Path $smartKeyBackup -Force -ErrorAction SilentlyContinue
+                    }
                 }
             }
             $packwizJson = Join-Path $clienteBase "packwiz.json"

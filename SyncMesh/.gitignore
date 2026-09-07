@@ -1,0 +1,16 @@
+# Entornos Virtuales
+.venv/
+venv/
+env/
+
+# Caché de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Variables de Entorno (Seguridad Crítica)
+.env
+
+# Archivos de SO
+.DS_Store
+Thumbs.db

@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "937732df6d02905c9d7a9be5778059025b174fbca8b24007a524256c89c8f4bc"
+hash = "5ab0147bf6337020bd4a1d417ada220ad20327d2e66e790b362f9c5395732270"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -8836,10 +8836,6 @@ file = "fancymenu_data/buddy/buddy_save_ZGUyNGY3MDEtMDQ2Zi00OGMyLThiNjEtMWI4M2E5
 hash = "8b61dbf8ec831c65184dd645829ca6d62478c8bbbf61a6e689d08290a2945a75"
 
 [[files]]
-file = "fancymenu_data/last_world.fmdata"
-hash = "d7e920b58dfe8f2b220df80ef0e6ed8724c6882973ed581be36e054ac676e367"
-
-[[files]]
 file = "mods/.gitkeep"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
@@ -10331,15 +10327,15 @@ hash = "a1798745b19afc1bd05913c0a25438d5c5e9dc8e2ff39e3c1ac73a5850b5cf5b"
 
 [[files]]
 file = "presets_graficos/Lite/embeddium-options.json"
-hash = "fd6d25f4e941db66fb0ded4e9a810cca9a22bfb4b3f6342bc62ebcd1970f21c5"
+hash = "8161ef36922a7ccd0e17c7f3755c73680f5705f926836951baae5a787096aa35"
 
 [[files]]
 file = "presets_graficos/Lite/oculus.properties"
-hash = "67c0dd7220648a59e8469c3c49942ac2dcfdc2076edd20c082392d032ac6d37f"
+hash = "feb0b6fde8d3260d9062e7f3eb024e4f347b89f0f54c136086cc4cbeb3581927"
 
 [[files]]
 file = "presets_graficos/Lite/options.txt"
-hash = "e9725a21988b2e482966764557c9b638db78e1d8908623597626b857c3deb20d"
+hash = "d7f160b0dfa0f6b746c15350ed139544b7730c90b7aed9051dca82cb099ff429"
 
 [[files]]
 file = "presets_graficos/Normal/embeddium-options.json"

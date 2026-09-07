@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "937732df6d02905c9d7a9be5778059025b174fbca8b24007a524256c89c8f4bc"
+hash = "5ab0147bf6337020bd4a1d417ada220ad20327d2e66e790b362f9c5395732270"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -8923,10 +8923,6 @@ file = "fancymenu_data/buddy/buddy_save_ZGUyNGY3MDEtMDQ2Zi00OGMyLThiNjEtMWI4M2E5
 hash = "6db2897ba1a15afb51ae14050bdde39e91f2236b178c1162f2fdd657ec38960b"
 
 [[files]]
-file = "fancymenu_data/last_world.fmdata"
-hash = "80f420829c2b9450c03767f22bc65ccebd0e0409c507130a996faac96ec31083"
-
-[[files]]
 file = "mods/.gitkeep"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
@@ -10567,15 +10563,15 @@ hash = "e9725a21988b2e482966764557c9b638db78e1d8908623597626b857c3deb20d"
 
 [[files]]
 file = "presets_graficos/Normal/embeddium-options.json"
-hash = "22143330318b63f8bbc8fb12e7c0c67ce4a13e100166cc15dfbf52b4e08747d4"
+hash = "fb857b8602ec48cb5da0f73d39725a2fa0ff66b339a706c7d9a35cf3055f314a"
 
 [[files]]
 file = "presets_graficos/Normal/oculus.properties"
-hash = "2866f13fd4c76501ff5e8a8cb1c22f4ba03b0966978e2bf9df6a168a0a87839a"
+hash = "4212f7f7f1b8ad59dff460bc6323eea43b1d69dba3b63a5629a1c808e0e9387d"
 
 [[files]]
 file = "presets_graficos/Normal/options.txt"
-hash = "79b2ad0c7f0419f86301f82ca083954bc1bd44466122e34cddd835c528738b89"
+hash = "287f7d92b81732e5b52e7d1e8c2bc55fc9a93cbdcc694d8e82a8c5e78a188adc"
 
 [[files]]
 file = "resourcepacks/2026UNI Translations.zip"
@@ -10987,7 +10983,7 @@ hash = "83c8e22aa0e4be57d9e35e30839659e06dbeda7476136f35ae678938a2f11abe"
 
 [[files]]
 file = "scripts/GUI-Configurador.ps1"
-hash = "31552bee9960cc1294a121cc1b68d1fd522bdc9731bc12298674a5af72e3071f"
+hash = "931d89bd1af370269018c8ea483b9eb05db2f86f7a9b3f3b31be74883d844d3b"
 
 [[files]]
 file = "scripts/assets/icon.ico"
@@ -11011,7 +11007,7 @@ hash = "90436d8baa1987ee4a1c674e6fb30e1143e2392403ade0473a80cb74b701f757"
 
 [[files]]
 file = "scripts/modules/Graficos.Restaurador.ps1"
-hash = "808f975808c8c64d0adcfcf131f185c3acb36f27df802958c619e328792e3cd0"
+hash = "e365dcedf0bcb95f6aaea08217ece504c03105b1734712aa96d5f061b8ba145f"
 
 [[files]]
 file = "scripts/modules/JVM.Manager.ps1"
@@ -11019,7 +11015,7 @@ hash = "3835f8c8d262e4ffd9fd5fb5b4366cf78b3a48d9070a4fa088aca89c67827568"
 
 [[files]]
 file = "scripts/modules/Perfil.Manager.ps1"
-hash = "0320236b1d1b85db5c1b67995aafb88fbc639a65bf5145c9c415b7d25849f1f7"
+hash = "b8666429da4be1b8f147008e7bef7593a380ec3f918ee7cecc87c4d3c112fc15"
 
 [[files]]
 file = "scripts/modules/UI.Theme.ps1"

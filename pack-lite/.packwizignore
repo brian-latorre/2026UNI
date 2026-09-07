@@ -2,6 +2,8 @@
 otyacraftengine/url_texture_cache/
 config/voicechat/username_cache.json
 showdown/sim/cobblemon-cache.json
+fancymenu_data/last_world.fmdata
+fancymenu_data/fancymenu_temp/
 
 # Ignorar archivos OS genéricos
 .DS_Store
@@ -13,6 +15,7 @@ desktop.ini
 
 # Ignorar config personal del jugador para SmartKeySync
 config/smartkeysync-client.json
+config/smartkeysync/client.json
 
 # Ignorar configuracion de renderscale
 config/renderscale.json5
