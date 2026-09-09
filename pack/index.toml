@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "5ab0147bf6337020bd4a1d417ada220ad20327d2e66e790b362f9c5395732270"
+hash = "9668e3be7c8e3441a37e0dc94c4a2ae4d10064934fa31b36e1df049452b458b0"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -5823,7 +5823,7 @@ file = "emotes/Gojo Walk.emotecraft"
 hash = "07181a5f897c3fe0b17ab0ec6bb6d007a2948f130dc8eb5f14a96a4bdcb5989b"
 
 [[files]]
-file = "emotes/Just Dance (Ð¢Ð°Ð½ÐµÑ†).emotecraft"
+file = "emotes/Just Dance (Танец).emotecraft"
 hash = "2707addc0b97bc0515575cc2e4bcf4173528baa8599df9a98414ad5b276da811"
 
 [[files]]
@@ -8783,7 +8783,7 @@ file = "emotes/Sans.emotecraft"
 hash = "b139451361a5b9a58bcf6e3b4faa5f3939fdd8e8b5056cc18011e9d7536fdc10"
 
 [[files]]
-file = "emotes/Stading here(ÑƒÐ´Ð°Ñ€Ñ‹)2.0.emotecraft"
+file = "emotes/Stading here(удары)2.0.emotecraft"
 hash = "df8a4e23f6eac072542d683b1c91095c4b3fe5bd119a1e56ca8984e1b5500b2e"
 
 [[files]]
@@ -8815,35 +8815,35 @@ file = "emotes/get griddy.emotecraft"
 hash = "c5a5d349ded5c6df81991b65dbed6de33ab706402254299b780fc7089de7bf03"
 
 [[files]]
-file = "emotes/Ð‘ÐµÐ³.emotecraft"
+file = "emotes/Бег.emotecraft"
 hash = "7529e7238d5011433571b041277abde1327bf4591e6977f890959083f6aba09e"
 
 [[files]]
-file = "emotes/Ð—ÐµÐ²Ð½ÑƒÑ‚ÑŒ.emotecraft"
+file = "emotes/Зевнуть.emotecraft"
 hash = "ee0906dd78013aabf8638b339f2ce8455a916989c283c85f254edda49a788bf6"
 
 [[files]]
-file = "emotes/Ð˜ÑÐ¿ÑƒÐ³Ð°Ñ‚ÑŒÑÑ.emotecraft"
+file = "emotes/Испугаться.emotecraft"
 hash = "6b7441fd89b9062da8300cfff1ac8459c1d7379de19f4833abed4c122f125457"
 
 [[files]]
-file = "emotes/ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¸ - Categories.zip"
+file = "emotes/Категории - Categories.zip"
 hash = "d28c34a37d4222530da53a7a5e9697867e13440ff93e6f0e95b4a008654c139a"
 
 [[files]]
-file = "emotes/Ð›ÐµÐ²Ð¸Ñ‚Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð² Ð½ÐµÐ±Ðµ.emotecraft"
+file = "emotes/Левитировать в небе.emotecraft"
 hash = "a949b1058d67b4e0b0a2de76c4daa63a73e3aea525b4856bd0c4b10b25ed9ee7"
 
 [[files]]
-file = "emotes/Ð Ð°ÑÐ¿Ð°ÑÑ‚ÑŒÑÑ Ð½Ð° Ñ‡Ð°ÑÑ‚Ð¸.emotecraft"
+file = "emotes/Распасться на части.emotecraft"
 hash = "f247a6a7f913071d6038bd5a3ecb2e4299d8b78a953fdc54a91ab688266d103c"
 
 [[files]]
-file = "emotes/Ð¢Ð²Ñ‘Ñ€Ðº (Ð¢Ð°Ð½ÐµÑ†).emotecraft"
+file = "emotes/Твёрк (Танец).emotecraft"
 hash = "fcde40c457cd2b57f35a9f85454e619d5fef4e4543ae0a7ce1e7d792213ad36d"
 
 [[files]]
-file = "emotes/å†²å‡».emotecraft"
+file = "emotes/冲击.emotecraft"
 hash = "d98776794fa5a1affa6de0704ebdbe9404da057cd09c83dfc35ec8a1f7d9dd7b"
 
 [[files]]
@@ -9572,11 +9572,6 @@ metafile = true
 [[files]]
 file = "mods/fieldguide-forge-1.20.1-1.16.1.jar"
 hash = "bb042f5f1ce9caea70f3cb7656ff9371755066a8e4ed8753b66fa58733fb8284"
-
-[[files]]
-file = "mods/find-me.pw.toml"
-hash = "22ebcf5603615bec9861e80edde13535edf2bce8fa6d1625135b3c5d7316f958"
-metafile = true
 
 [[files]]
 file = "mods/fix-gpu-memory-leak.pw.toml"
@@ -10906,7 +10901,7 @@ file = "resourcepacks/Icon Xaero's 1.22.zip"
 hash = "8f55e1bd5943f30e7ca895d1f4a01f3b417ecd4aeefec02e642c6d824bdbb65e"
 
 [[files]]
-file = "resourcepacks/ImmersiveÂ§0_Â§fInterfacesÂ§0 Addon.zip"
+file = "resourcepacks/Immersive§0_§fInterfaces§0 Addon.zip"
 hash = "e564189bf03ab5b34b6073a139e131970351d5311cf018b63305fc062413784f"
 
 [[files]]
@@ -10958,27 +10953,27 @@ file = "resourcepacks/refined torches 2.1.zip"
 hash = "825afca97394c797746c8dcefb9aa94a1cc4db5da03df175348fe07941289990"
 
 [[files]]
-file = "resourcepacks/Â§5Untitled Â§6Punchies Â§fv1.1.zip"
+file = "resourcepacks/§5Untitled §6Punchies §fv1.1.zip"
 hash = "a575257e808b970389dbdf51bbdc35f7db566fa8c9813f191749214653714f00"
 
 [[files]]
-file = "resourcepacks/Â§6Immersive_Interfaces_Modded.zip"
+file = "resourcepacks/§6Immersive_Interfaces_Modded.zip"
 hash = "44f41617c9c2fe4004fd96f3399f566b1947c868e6b0cae2f2ef1591856646b0"
 
 [[files]]
-file = "resourcepacks/Â§6ImmersiveÂ§8_Â§6InterfacesÂ§8.zip"
+file = "resourcepacks/§6Immersive§8_§6Interfaces§8.zip"
 hash = "91e8303b22d921074619252b9b66b9fc2127c97aa7a6d487f39056900c091547"
 
 [[files]]
-file = "resourcepacks/Â§6ImmersiveÂ§8_Â§6InterfacesÂ§8_Â§6JEIÂ§8.zip"
+file = "resourcepacks/§6Immersive§8_§6Interfaces§8_§6JEI§8.zip"
 hash = "2348a8a686b60e18b67aa32cc8e1ea7e2ef273988be129fc04006ede7e46f86d"
 
 [[files]]
-file = "resourcepacks/Â§6Â§lCC Click Sound Â§eÂ§l1.21.1.zip"
+file = "resourcepacks/§6§lCC Click Sound §e§l1.21.1.zip"
 hash = "0baae77e740353ae3f350283c7a7c9d7d9b31720afa5d45817a2b897517efd82"
 
 [[files]]
-file = "resourcepacks/ðŸ¦‡BetterBATSðŸ¦‡.zip"
+file = "resourcepacks/🦇BetterBATS🦇.zip"
 hash = "83c8e22aa0e4be57d9e35e30839659e06dbeda7476136f35ae678938a2f11abe"
 
 [[files]]
@@ -11043,7 +11038,6 @@ hash = "27c2c0637f6b2a7315b70e2cb522563f13f6478fa3511db7193bebc98f270e9c"
 
 [[files]]
 file = "shaderpacks/01 - LegendaryAtmosphere_v2.5.zip.txt"
-preserve = true
 hash = "77b2f99a6296b37132deea7582c286802206fce39c4e42623130fd81401d2cab"
 preserve = true
 
@@ -11057,7 +11051,6 @@ hash = "0d537b5d877957674354c5e5737b48394999f0a338d80b3dff01f80da0b151a3"
 
 [[files]]
 file = "shaderpacks/03 - Aurora Fantasy.5.2.zip.txt"
-preserve = true
 hash = "265357ee4c76877c3e1e54860e56bb4676634404d19165e9c5573ea34bc30ee4"
 preserve = true
 
@@ -11071,17 +11064,15 @@ hash = "433e1edd5d1193ccf4f59c9202a00896820777e73ac10b109b8ee307847fc775"
 
 [[files]]
 file = "shaderpacks/05 - MakeUp-UltraFast-9.5a.zip.txt"
-preserve = true
 hash = "bcd954f920e00c3d0be40e7f98eab7d13fb2f1aedcd37e20178b6b429ff123c1"
 preserve = true
 
 [[files]]
-file = "shaderpacks/06 - Â§lE-LITE shaders 5.0.1.zip"
+file = "shaderpacks/06 - §lE-LITE shaders 5.0.1.zip"
 hash = "810bcf3035e4c13a60a29a541140580758737bd739994f0230e80c3df077a6e8"
 
 [[files]]
-file = "shaderpacks/06 - Â§lE-LITE shaders 5.0.1.zip.txt"
-preserve = true
+file = "shaderpacks/06 - §lE-LITE shaders 5.0.1.zip.txt"
 hash = "2c9d024328f6f215a1b6663c5a39dc0aab0b7d1f40ecda50702d00a96c28df74"
 
 [[files]]
@@ -11098,7 +11089,6 @@ hash = "65a522ad2fc1606d28f6e221ba316ede38abd6ddf2af5f8e9eb4437cebf11676"
 
 [[files]]
 file = "shaderpacks/09 - Mellow Shader v3.1.1.zip.txt"
-preserve = true
 hash = "91b7b74bba91c8bdb3cc65a192a9a5d9470fbe20f55fbee481f1c75829eca05e"
 preserve = true
 
@@ -11108,7 +11098,6 @@ hash = "5f8ac68392c87a85fbbc102ca4f01b23064272823eb46c73dd2254fa88a77c9a"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.6.1.txt"
-preserve = true
 hash = "1bc2beb5207f1dedc403cb6029aff19ebb956bd71ba600120fc96babe9e777fa"
 preserve = true
 
@@ -11122,7 +11111,6 @@ hash = "c1cd481ac7ec81b6cb82f162b235509568f6f1ab9e416ccfedaee15e79e1a795"
 
 [[files]]
 file = "shaderpacks/superDuperVanilla.zip.txt"
-preserve = true
 hash = "485dde2ba4da94b9892b8698ea352c8d11782e584b4e17314f52cee74c43295b"
 preserve = true
 

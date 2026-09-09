@@ -35,16 +35,18 @@ def inject_preserve_directive(index_path: str | Path) -> None:
         return
 
     with open(index_file, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
+        text = f.read()
 
+    # Limpiar directivas existentes para evitar duplicados al inyectar (falla packwiz)
+    text = re.sub(r'(?m)^preserve\s*=\s*true\s*\r?\n', '', text)
+    
+    lines = text.splitlines(keepends=True)
     new_lines = []
     in_target_file_block = False
-    file_block_processed = False
 
     for line in lines:
         if line.strip() == "[[files]]":
             in_target_file_block = False
-            file_block_processed = False
             new_lines.append(line)
             continue
             
@@ -56,14 +58,11 @@ def inject_preserve_directive(index_path: str | Path) -> None:
             new_lines.append(line)
             continue
             
-        if in_target_file_block and not file_block_processed:
+        if in_target_file_block:
             if "hash = " in line or "metafile =" in line:
                 new_lines.append('preserve = true\n')
-                file_block_processed = True
+                in_target_file_block = False # Inyectado, no hacerlo de nuevo en el mismo bloque
                 
-        if in_target_file_block and "preserve = true" in line:
-            file_block_processed = True 
-            
         new_lines.append(line)
 
     with open(index_file, 'w', encoding='utf-8') as f:
