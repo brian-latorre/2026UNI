@@ -3,153 +3,232 @@ from pathlib import Path
 import sys
 import os
 
-# Importación de la lógica de análisis del modpack
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from core.packwiz_parser import PRESERVED_FILES
-
-def get_overrides():
-    return [{"filename": f, "path": f, "preserve": True} for f in PRESERVED_FILES]
+from core.packwiz_parser import get_overrides_tree
+from core.config_manager import update_file_status
 
 class OverridesView(ft.Container):
-    """
-    Vista principal para gestionar los overrides de Packwiz.
-    Permite visualizar qué archivos se conservarán (preserve = true) durante las actualizaciones.
-    """
     def __init__(self):
         super().__init__()
         self.expand = True
         self.padding = 20
+        self.pack_dir_normal = r"C:\Dev\Desarrollo con Inteligencia Artificial\Entorno - Servidor 2026UNI\Instalador 2026UNI\pack"
+        self.pack_dir_lite = r"C:\Dev\Desarrollo con Inteligencia Artificial\Entorno - Servidor 2026UNI\Instalador 2026UNI\pack-lite"
+        self.current_pack_dir = self.pack_dir_normal
         
-        # Componentes del encabezado
-        self.title = ft.Text("Modpack Overrides", size=28, weight=ft.FontWeight.BOLD, color=ft.Colors.WHITE)
-        self.subtitle = ft.Text(
-            "Gestiona y visualiza los archivos marcados con 'preserve = true' en la configuración de Packwiz.",
-            color=ft.Colors.WHITE54,
-            size=14
-        )
+        self.tree_data = {} # Caché del árbol
         
-        self.refresh_btn = ft.ElevatedButton(
-            "Recargar Datos",
-            icon=ft.Icons.REFRESH,
-            on_click=self.load_data,
-            style=ft.ButtonStyle(
-                shape=ft.RoundedRectangleBorder(radius=8),
-                padding=ft.Padding(left=20, top=15, right=20, bottom=15)
-            )
-        )
-        
-        # Tabla de datos
-        self.data_table = ft.DataTable(
-            expand=True,
-            columns=[
-                ft.DataColumn(ft.Text("Estado")),
-                ft.DataColumn(ft.Text("Archivo")),
-                ft.DataColumn(ft.Text("Ruta Relativa")),
-                ft.DataColumn(ft.Text("Acciones")),
+        # Filtros
+        self.pack_selector = ft.Dropdown(
+            options=[
+                ft.dropdown.Option("normal", "Perfil Madre (pack)"),
+                ft.dropdown.Option("lite", "Perfil Lite (pack-lite)")
             ],
-            rows=[]
+            value="normal",
+            width=200,
+            height=40,
+            on_select=self.on_pack_change,
+            border_color="#30363D",
+            text_size=14
         )
         
-        # Estructura del Layout
-        border_style = ft.Border(
-            top=ft.BorderSide(1, "#30363D"), 
-            right=ft.BorderSide(1, "#30363D"), 
-            bottom=ft.BorderSide(1, "#30363D"), 
-            left=ft.BorderSide(1, "#30363D")
+        self.search_input = ft.TextField(
+            hint_text="Buscar archivo o carpeta...", 
+            prefix_icon=ft.Icons.SEARCH, 
+            height=40,
+            expand=True,
+            on_change=self.on_filter_change,
+            border_color="#30363D",
+            text_size=14
         )
+        
+        self.filter_color = ft.Dropdown(
+            options=[
+                ft.dropdown.Option("all", "Todos los colores"),
+                ft.dropdown.Option("green", "Verdes (Forzados)"),
+                ft.dropdown.Option("yellow", "Amarillos (Preservados)"),
+                ft.dropdown.Option("red", "Rojos (Ignorados)"),
+            ],
+            value="all",
+            width=200,
+            height=40,
+            on_select=self.on_filter_change,
+            border_color="#30363D",
+            text_size=14
+        )
+        
+        # Contenedor del árbol
+        self.tree_container = ft.ListView(expand=True, spacing=2)
 
         self.content = ft.Column(
             expand=True,
             controls=[
-                ft.Row(
-                    [
-                        ft.Column([self.title, self.subtitle], expand=True),
-                        self.refresh_btn
-                    ], 
-                    alignment=ft.MainAxisAlignment.SPACE_BETWEEN,
-                    vertical_alignment=ft.CrossAxisAlignment.CENTER
-                ),
-                ft.Divider(height=30, color="#30363D"),
+                ft.Row([
+                    ft.Column([
+                        ft.Text("Overrides del Cliente Madre", size=24, weight=ft.FontWeight.BOLD),
+                        ft.Text("Verde: Forza sync | Amarillo: Preserve=True | Rojo: Ignorado", color=ft.Colors.WHITE54, size=12)
+                    ], expand=True),
+                    ft.ElevatedButton("Escanear", icon=ft.Icons.REFRESH, on_click=self.load_data)
+                ], alignment=ft.MainAxisAlignment.SPACE_BETWEEN),
+                ft.Divider(height=10, color="transparent"),
+                ft.Row([self.pack_selector, self.search_input, self.filter_color], spacing=10),
+                ft.Divider(height=10, color="#30363D"),
                 ft.Container(
                     expand=True,
-                    border=border_style,
-                    border_radius=12,
-                    padding=0,
+                    border=ft.Border(*[ft.BorderSide(1, "#30363D")]*4),
+                    border_radius=10,
+                    padding=10,
                     clip_behavior=ft.ClipBehavior.HARD_EDGE,
-                    content=ft.ListView(
-                        expand=True,
-                        controls=[self.data_table]
-                    )
+                    content=self.tree_container
                 )
             ]
         )
         
     def did_mount(self):
-        self.load_data(None)
+        self.page.run_task(self.load_data_async)
         
     def load_data(self, e):
-        """Obtiene la lista de overrides desde core.packwiz_parser y repuebla la tabla."""
-        overrides = get_overrides()
-        self.data_table.rows.clear()
-        
-        if not overrides:
-            self.data_table.rows.append(
-                ft.DataRow(
-                    cells=[
-                        ft.DataCell(ft.Icon(ft.Icons.INFO, color=ft.Colors.BLUE)),
-                        ft.DataCell(ft.Text("No se encontraron overrides.")),
-                        ft.DataCell(ft.Text("-")),
-                        ft.DataCell(ft.Text("-")),
-                    ]
-                )
-            )
+        self.page.run_task(self.load_data_async)
+
+    def on_pack_change(self, e):
+        if self.pack_selector.value == "lite":
+            self.current_pack_dir = self.pack_dir_lite
         else:
-            for item in overrides:
-                is_preserved = item.get("preserve", False)
-                filename = item.get("filename", "Desconocido")
-                filepath = item.get("path", "Ruta desconocida")
-                
-                # Lógica visual para identificar el estado 'preserve'
-                status_icon = ft.Icon(
-                    icon=ft.Icons.LOCK if is_preserved else ft.Icons.LOCK_OPEN,
-                    color=ft.Colors.GREEN_500 if is_preserved else ft.Colors.GREY_400,
-                    tooltip="Preservado (No se sobrescribe)" if is_preserved else "No Preservado (Se sobrescribe)"
-                )
-                
-                # Botones de acción interactivos
-                actions_row = ft.Row(
-                    spacing=5,
-                    controls=[
-                        ft.IconButton(
-                            icon=ft.Icons.EDIT_DOCUMENT,
-                            icon_color=ft.Colors.BLUE_400,
-                            tooltip="Editar configuración del archivo",
-                            on_click=lambda e, f=item: self.handle_edit(f)
-                        ),
-                        ft.IconButton(
-                            icon=ft.Icons.DELETE_OUTLINE,
-                            icon_color=ft.Colors.RED_400,
-                            tooltip="Remover override",
-                            on_click=lambda e, f=item: self.handle_delete(f)
-                        )
-                    ]
-                )
-                
-                # Fila de datos
-                row = ft.DataRow(
-                    cells=[
-                        ft.DataCell(status_icon),
-                        ft.DataCell(ft.Text(filename, weight=ft.FontWeight.W_500)),
-                        ft.DataCell(ft.Text(filepath, color=ft.Colors.WHITE54)),
-                        ft.DataCell(actions_row),
-                    ]
-                )
-                self.data_table.rows.append(row)
-        
-        self.update()
+            self.current_pack_dir = self.pack_dir_normal
+        self.page.run_task(self.load_data_async)
+
+    async def load_data_async(self):
+        try:
+            self.tree_container.controls.clear()
+            self.tree_container.controls.append(ft.ProgressRing())
+            self.update()
             
-    def handle_edit(self, item):
-        print(f"Editar override: {item}")
+            self.tree_data = get_overrides_tree(self.current_pack_dir)
+            self.render_tree()
+        except Exception as e:
+            self.tree_container.controls.clear()
+            self.tree_container.controls.append(ft.Text(f"Error cargando: {e}", color="red"))
+            self.update()
+
+    def on_filter_change(self, e):
+        self.render_tree()
         
-    def handle_delete(self, item):
-        print(f"Eliminar override: {item}")
+    def render_tree(self):
+        try:
+            self.tree_container.controls.clear()
+            search_query = self.search_input.value.lower() if self.search_input.value else ""
+            color_filter = self.filter_color.value
+            
+            ui_nodes, _ = self.build_tree_ui(self.tree_data, search_query, color_filter)
+            
+            if not ui_nodes:
+                self.tree_container.controls.append(ft.Text("No hay resultados.", color=ft.Colors.WHITE54))
+            else:
+                self.tree_container.controls.extend(ui_nodes)
+                
+            self.update()
+        except Exception as e:
+            self.tree_container.controls.clear()
+            self.tree_container.controls.append(ft.Text(f"Error renderizando: {e}", color="red"))
+            self.update()
+        
+    def change_file_state(self, filepath: str, new_state: str):
+        # Actualiza persistencia
+        update_file_status(filepath, new_state)
+        # Recargar para recalcular
+        self.page.run_task(self.load_data_async)
+
+    def build_tree_ui(self, tree_data, search_query, color_filter):
+        """Construye el UI recursivamente. Retorna (lista_controles, color_heredado)."""
+        controls = []
+        folder_colors = {"green": 0, "yellow": 0, "red": 0}
+        
+        # Ordenar: carpetas primero, luego archivos, ambos alfabéticamente
+        sorted_items = sorted(
+            tree_data.items(), 
+            key=lambda x: (0 if x[1]["_type"] == "dir" else 1, x[0].lower())
+        )
+        
+        for name, node in sorted_items:
+            if node["_type"] == "dir":
+                children_ui, child_colors = self.build_tree_ui(node["children"], search_query, color_filter)
+                
+                # Sumar colores de hijos
+                for c in folder_colors: folder_colors[c] += child_colors[c]
+                
+                if not children_ui: continue # Ocultar carpetas vacías o filtradas
+                
+                # Determinar color de la carpeta
+                folder_color = ft.Colors.BLUE_300
+                if child_colors["yellow"] > 0: folder_color = ft.Colors.YELLOW_400
+                elif child_colors["red"] > 0 and child_colors["green"] == 0: folder_color = ft.Colors.RED_400
+                elif child_colors["green"] > 0: folder_color = ft.Colors.GREEN_400
+                
+                exp_tile = ft.ExpansionTile(
+                    title=ft.Text(name, weight=ft.FontWeight.BOLD),
+                    leading=ft.Icon(ft.Icons.FOLDER, color=folder_color),
+                    controls=children_ui,
+                    expanded=False, # Por defecto cerradas
+                    text_color=ft.Colors.WHITE,
+                    icon_color=ft.Colors.WHITE54,
+                    collapsed_text_color=ft.Colors.WHITE,
+                    collapsed_icon_color=ft.Colors.WHITE54,
+                )
+                controls.append(exp_tile)
+            else:
+                status = node["status"]
+                path = node["path"]
+                
+                folder_colors[status] += 1
+                
+                # Filtros
+                if color_filter != "all" and status != color_filter:
+                    continue
+                if search_query and search_query not in name.lower() and search_query not in path.lower():
+                    continue
+                
+                if status == "green":
+                    icon_color = ft.Colors.GREEN_400
+                    icon = ft.Icons.SYNC
+                    tooltip = "Fuerza Sincronización"
+                elif status == "yellow":
+                    icon_color = ft.Colors.YELLOW_400
+                    icon = ft.Icons.LOCK
+                    tooltip = "Preservado (No sobrescribe)"
+                else:
+                    icon_color = ft.Colors.RED_400
+                    icon = ft.Icons.SYNC_DISABLED
+                    tooltip = "No Sincronizado (Ignorado)"
+                    
+                # Menú para cambiar el estado
+                popup_menu = ft.PopupMenuButton(
+                    icon=ft.Icons.MORE_VERT,
+                    tooltip="Cambiar Estado",
+                    items=[
+                        ft.PopupMenuItem(
+                            content=ft.Text("Forzar Sync (Verde)"), 
+                            icon=ft.Icons.SYNC, 
+                            on_click=lambda e, p=path: self.change_file_state(p, "green")
+                        ),
+                        ft.PopupMenuItem(
+                            content=ft.Text("Preservar (Amarillo)"), 
+                            icon=ft.Icons.LOCK, 
+                            on_click=lambda e, p=path: self.change_file_state(p, "yellow")
+                        ),
+                        ft.PopupMenuItem(
+                            content=ft.Text("Ignorar (Rojo)"), 
+                            icon=ft.Icons.SYNC_DISABLED, 
+                            on_click=lambda e, p=path: self.change_file_state(p, "red")
+                        ),
+                    ]
+                )
+                    
+                list_tile = ft.ListTile(
+                    title=ft.Text(name, size=14),
+                    subtitle=ft.Text(path, size=11, color=ft.Colors.WHITE54),
+                    leading=ft.Icon(icon, color=icon_color, tooltip=tooltip),
+                    trailing=popup_menu
+                )
+                controls.append(list_tile)
+                
+        return controls, folder_colors

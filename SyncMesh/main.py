@@ -41,9 +41,16 @@ def main(page: ft.Page):
 
         from views import DashboardView, OverridesView, ModsManagerView, PublishView
 
+        # Función de enrutamiento programático
+        def navigate_to(index: int):
+            nav_rail.selected_index = index
+            nav_rail.update()
+            content_area.content = views_dict.get(index, views_dict[0])
+            content_area.update()
+
         # Diccionario de vistas reales
         views_dict = {
-            0: DashboardView(),
+            0: DashboardView(on_navigate=navigate_to),
             1: OverridesView(),
             2: ModsManagerView(),
             3: PublishView()
@@ -57,12 +64,11 @@ def main(page: ft.Page):
 
         def on_nav_change(e):
             selected_index = e.control.selected_index
-            content_area.content = views_dict.get(selected_index, views_dict[0])
-            content_area.update()
+            navigate_to(selected_index)
 
         # Menú de Navegación Lateral (Dashboard, Sincronización, Mods, Publicar)
         nav_rail = ft.NavigationRail(
-            selected_index=0,
+            selected_index=1,
             label_type=ft.NavigationRailLabelType.ALL, 
             min_width=100,
             min_extended_width=200,

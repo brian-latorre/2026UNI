@@ -76,16 +76,25 @@ class ModrinthAPI:
         headers = {"User-Agent": USER_AGENT}
         return _safe_request(url, headers)
 
+    @classmethod
+    async def get_mod_async(cls, project_id: str) -> Optional[Dict[str, Any]]:
+        import asyncio
+        return await asyncio.to_thread(cls.get_mod, project_id)
+
 class CurseForgeAPI:
     BASE_URL = "https://api.curseforge.com/v1"
     
     @classmethod
     def get_mod(cls, mod_id: str) -> Optional[Dict[str, Any]]:
         url = f"{cls.BASE_URL}/mods/{mod_id}"
-        # La API Key se inyecta estrictamente aquí en los headers. NO se envía en la URL.
         headers = {
             "Accept": "application/json",
             "x-api-key": CURSEFORGE_API_KEY,
             "User-Agent": USER_AGENT
         }
         return _safe_request(url, headers)
+
+    @classmethod
+    async def get_mod_async(cls, mod_id: str) -> Optional[Dict[str, Any]]:
+        import asyncio
+        return await asyncio.to_thread(cls.get_mod, mod_id)
