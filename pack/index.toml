@@ -11082,7 +11082,7 @@ hash = "79b2ad0c7f0419f86301f82ca083954bc1bd44466122e34cddd835c528738b89"
 
 [[files]]
 file = "scripts/pre-launch.bat"
-hash = "e9c61f5709aced842f73b0b1d96c239ebfeadaf008a6a35fb4f78dd4a8d14ae0"
+hash = "b1a92613bca28739abd38b89d8ff8c1cccd9885c1d55bb588f573c6055f31f10"
 
 [[files]]
 file = "servers.dat"
