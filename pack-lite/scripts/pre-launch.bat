@@ -18,9 +18,6 @@ if exist "%MC_DIR%\perfil.txt" (
 cd /d "%MC_DIR%"
 "%INST_JAVA%" -jar "packwiz-installer-bootstrap.jar" -g !PACKWIZ_URL!
 
-:: Parche temporal: Limpiar mods huerfanos que Packwiz no rastreo por el bug anterior
-if exist "%MC_DIR%\mods\findme-*.jar" del /q "%MC_DIR%\mods\findme-*.jar"
-
 :: 3. Verificar Opt-Out de Telemetria
 if exist "%MC_DIR%\.no_telemetry" (
     echo [Telemetria] Desactivada por el usuario. Saltando monitoreo.
