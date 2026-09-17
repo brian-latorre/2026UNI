@@ -6,7 +6,7 @@ import datetime
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from core.packwiz_parser import get_overrides_tree
-from core.metrics import get_instance_last_played, count_instance_mods
+from core.metrics import get_instance_last_played, count_instance_mods, get_instance_mods
 from core.services import check_services_status, toggle_mod_manager, toggle_bot_guardian
 
 class DashboardView(ft.Container):
@@ -59,7 +59,7 @@ class DashboardView(ft.Container):
         # --- Construcción de UI ---
         
         # Tarjetas de Instancias
-        def create_instance_card(title, mods_count, is_active, compare_to=None):
+        def create_instance_card(title, instance_key, mods_count, is_active, compare_to=None):
             subtitle = f"{mods_count} mods cargados"
             if compare_to is not None:
                 diff = mods_count - compare_to
@@ -77,13 +77,15 @@ class DashboardView(ft.Container):
                 ]),
                 padding=15, bgcolor="#161B22", border_radius=10, expand=True,
                 border=ft.Border(*[ft.BorderSide(1, "#30363D")]*4),
-                on_click=lambda _: self.show_instance_details(title, mods_count, compare_to)
+                ink=True,
+                tooltip="Haz clic para ver los mods de esta instancia",
+                on_click=lambda _: self.show_instance_details(title, instance_key, mods_count, compare_to)
             )
 
         instances_row = ft.Row([
-            create_instance_card("2026UNI (Madre)", madre_mods, last_played=="madre", compare_to=pinecone_mods),
-            create_instance_card("2026UNI_Lite", lite_mods, last_played=="lite", compare_to=pinecone_mods),
-            create_instance_card("PineconeMC (Launcher)", pinecone_mods, last_played=="pinecone")
+            create_instance_card("2026UNI (Madre)", "madre", madre_mods, last_played=="madre", compare_to=pinecone_mods),
+            create_instance_card("2026UNI_Lite", "lite", lite_mods, last_played=="lite", compare_to=pinecone_mods),
+            create_instance_card("PineconeMC (Launcher)", "pinecone", pinecone_mods, last_played=="pinecone")
         ], spacing=15)
         
         # Tarjetas Clickables de Navegación
@@ -173,17 +175,58 @@ class DashboardView(ft.Container):
             on_click=lambda _: self.on_navigate(route_index) if self.on_navigate else None
         )
         
-    def show_instance_details(self, title, count, compare_to):
-        dlg = ft.AlertDialog(
-            title=ft.Text(f"Detalles: {title}"),
-            content=ft.Text(f"Esta instancia tiene {count} mods físicos (.jar) en la carpeta mods.\n" + 
-                            (f"Diferencia con PineconeMC: {count - compare_to}" if compare_to is not None else "") + 
-                            "\n\nPróximamente: Detección de mods pesados y de GitHub Pages."),
-            actions=[ft.TextButton("Cerrar", on_click=lambda e: self.close_dlg(dlg))]
-        )
-        self.page.dialog = dlg
-        dlg.open = True
-        self.page.update()
+    def show_instance_details(self, title, instance_key, count, compare_to):
+        try:
+            content_controls = [
+                ft.Text(f"Esta instancia tiene {count} mods físicos (.jar) en la carpeta mods.")
+            ]
+            
+            if compare_to is not None:
+                content_controls.append(ft.Text(f"Diferencia numérica con PineconeMC: {count - compare_to}"))
+                
+                # Fetch the actual sets
+                from core.metrics import get_instance_mods
+                this_mods = get_instance_mods(instance_key)
+                pinecone_mods = get_instance_mods("pinecone")
+                
+                extras = sorted(list(this_mods - pinecone_mods))
+                faltantes = sorted(list(pinecone_mods - this_mods))
+                
+                if extras:
+                    content_controls.append(ft.Text("\nMods extra (En esta instancia, NO en Pinecone):", weight=ft.FontWeight.BOLD, color=ft.Colors.GREEN_400))
+                    for m in extras:
+                        content_controls.append(ft.Text(f"+ {m}", size=12, color=ft.Colors.WHITE70))
+                        
+                if faltantes:
+                    content_controls.append(ft.Text("\nMods faltantes (En Pinecone, NO en esta instancia):", weight=ft.FontWeight.BOLD, color=ft.Colors.RED_400))
+                    for m in faltantes:
+                        content_controls.append(ft.Text(f"- {m}", size=12, color=ft.Colors.WHITE70))
+                        
+                if not extras and not faltantes:
+                    content_controls.append(ft.Text("\nLos mods físicos están 100% sincronizados con Pinecone!", color=ft.Colors.BLUE_300))
+                    
+            # Wrap content in a Column inside a Container with scrolling
+            content_col = ft.Column(content_controls, scroll=ft.ScrollMode.AUTO)
+            
+            dlg = ft.AlertDialog(
+                title=ft.Text(f"Detalles: {title}"),
+                content=ft.Container(content=content_col, width=500, height=350, padding=10),
+                actions=[ft.TextButton("Cerrar", on_click=lambda e: self.close_dlg(dlg))]
+            )
+            self.page.dialog = dlg
+            dlg.open = True
+            self.page.update()
+        except Exception as ex:
+            import traceback
+            err_str = traceback.format_exc()
+            err_dlg = ft.AlertDialog(
+                title=ft.Text("Error al abrir detalles"),
+                content=ft.Text(f"Ocurri un error:\n{err_str}"),
+                actions=[ft.TextButton("Cerrar", on_click=lambda e: self.close_dlg(err_dlg))]
+            )
+            self.page.dialog = err_dlg
+            err_dlg.open = True
+            self.page.update()
         
     def close_dlg(self, dlg):
         dlg.open = False

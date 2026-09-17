@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "768a2221afeeaeabccde46fe912f66492f61fb6c35358cd63e03e7d8087dd6ed"
+hash = "7792e42b4ecdb3b88d79001291f8608fb0ddf35c8e83bc4900a4dde3450224cb"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -9430,6 +9430,10 @@ file = "mods/fieldguide-forge-1.20.1-1.16.1.jar"
 hash = "bb042f5f1ce9caea70f3cb7656ff9371755066a8e4ed8753b66fa58733fb8284"
 
 [[files]]
+file = "mods/findme-1.20.1-forge-1.3.3.jar"
+hash = "9b36003826cec6ac9d8ed98df7edc0c4e53fe71e2a39dd4d2f51616b9102e40a"
+
+[[files]]
 file = "mods/fix-gpu-memory-leak.pw.toml"
 hash = "f28641be841e3892525f5d098c19e5f3ea73dc862216649438754dce9754ed44"
 metafile = true
@@ -10494,7 +10498,7 @@ hash = "79b2ad0c7f0419f86301f82ca083954bc1bd44466122e34cddd835c528738b89"
 
 [[files]]
 file = "scripts/pre-launch.bat"
-hash = "e9c61f5709aced842f73b0b1d96c239ebfeadaf008a6a35fb4f78dd4a8d14ae0"
+hash = "b82b363789dcec6c8d1bd8c781d8ed3b80c4216f7e8e4fef3988113b85339d7a"
 
 [[files]]
 file = "servers.dat"

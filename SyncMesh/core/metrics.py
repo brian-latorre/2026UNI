@@ -30,3 +30,12 @@ def count_instance_mods(instance_name: str) -> int:
     if not mods_dir.exists(): return 0
     
     return len([f for f in mods_dir.glob("*.jar")])
+
+def get_instance_mods(instance_name: str) -> set:
+    """Devuelve un conjunto (set) con los nombres de los archivos .jar en la carpeta mods."""
+    path = INSTANCES.get(instance_name)
+    if not path: return set()
+    mods_dir = Path(path) / "mods"
+    if not mods_dir.exists(): return set()
+    
+    return {f.name for f in mods_dir.glob("*.jar")}

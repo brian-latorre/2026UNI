@@ -15,8 +15,7 @@ if exist "%MC_DIR%\perfil.txt" (
 )
 
 :: 2. Actualizar mods con Packwiz segun el perfil activo
-cd /d "%MC_DIR%"
-"%INST_JAVA%" -jar "packwiz-installer-bootstrap.jar" -g !PACKWIZ_URL!
+"%INST_JAVA%" -jar "%INST_MC_DIR%\packwiz-installer-bootstrap.jar" -g !PACKWIZ_URL!
 
 :: 3. Verificar Opt-Out de Telemetria
 if exist "%MC_DIR%\.no_telemetry" (
