@@ -1,8 +1,6 @@
 param (
     [string]$CommitMessage,
-    [string]$Version,
-    [ValidateSet("All","Normal","Lite")]
-    [string]$Perfil = "All"
+    [string]$Version
 )
 
 $PSScriptRoot = Split-Path -Parent -Path $MyInvocation.MyCommand.Definition
@@ -88,20 +86,14 @@ try {
 
     $startTime = [System.Diagnostics.Stopwatch]::StartNew()
     
-    # PASO 1: Sincronizar overrides (según perfil)
+    # PASO 1: Sincronizar overrides
     Write-Step 1 5 "Sincronizando overrides locales..."
     $syncScript = Join-Path $PSScriptRoot "sync-overrides.ps1"
-
-    $perfilesASincronizar = if ($Perfil -eq "All") { @("Normal","Lite") } else { @($Perfil) }
-
-    foreach ($p in $perfilesASincronizar) {
-        Write-Info "Sincronizando perfil: $p"
-        & powershell.exe -ExecutionPolicy Bypass -File $syncScript -Perfil $p
-        if ($LASTEXITCODE -ne 0) { throw "Fallo al sincronizar overrides del perfil $p." }
-    }
+    & powershell.exe -ExecutionPolicy Bypass -File $syncScript
+    if ($LASTEXITCODE -ne 0) { throw "Fallo al sincronizar overrides." }
     Write-Host ""
     
-    # PASO 2: Auto-import de mods (Python) — solo para el pack Normal
+    # PASO 2: Auto-import de mods (Python)
     Write-Step 2 5 "Auto-detectando nuevos mods..."
     Write-Info "Explicacion: Esto compara los .jar locales que tengas en la carpeta 'mods'"
     Write-Info "contra CurseForge y Modrinth para agregarlos a la lista de auto-actualizacion."
@@ -111,30 +103,13 @@ try {
     if (-not $success) { throw "Fallo al importar mods (Python fallo)." }
     Write-Host ""
     
-    # PASO 3: Build & Validacion del pack (uno o ambos según perfil)
+    # PASO 3: Build & Validacion del pack
     Write-Step 3 5 "Construyendo y validando el pack..."
     Write-Info "Explicacion: Esto regenera el indice (index.toml) para que el launcher sepa exactamente"
     Write-Info "que archivos descargar. Luego valida que las versiones de Minecraft coincidan."
     $buildScript = Join-Path $PSScriptRoot "build-pack.ps1"
-    $repoRoot = Split-Path $PSScriptRoot -Parent
-
-    foreach ($p in $perfilesASincronizar) {
-        $targetPackDir = if ($p -eq "Lite") { Join-Path $repoRoot "pack-lite" } else { Join-Path $repoRoot "pack" }
-        Write-Info "Construyendo pack: $p ($targetPackDir)"
-        & powershell.exe -ExecutionPolicy Bypass -File $buildScript -PackDir $targetPackDir
-        if ($LASTEXITCODE -ne 0) { throw "Fallo al construir el pack $p." }
-
-        # Sincronizar la version en el pack-lite/pack.toml también
-        if ($p -eq "Lite") {
-            $liteTomlPath = Join-Path $targetPackDir "pack.toml"
-            if (Test-Path $liteTomlPath) {
-                $liteContent = Get-Content $liteTomlPath -Raw
-                $liteContent = $liteContent -replace '(?m)^version\s*=\s*"[^"]+"', "version = `"$packVersion`""
-                $utf8NoBom = New-Object System.Text.UTF8Encoding $False
-                [System.IO.File]::WriteAllText($liteTomlPath, $liteContent, $utf8NoBom)
-            }
-        }
-    }
+    & powershell.exe -ExecutionPolicy Bypass -File $buildScript
+    if ($LASTEXITCODE -ne 0) { throw "Fallo al construir el pack." }
     Write-Host ""
     
     # PASO 4: Git Push

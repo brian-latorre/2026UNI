@@ -13,7 +13,7 @@ $mutexName = "Global\Configurador2026UNI"
 $mutex = [System.Threading.Mutex]::new($false, $mutexName)
 if (-not $mutex.WaitOne(0)) {
     [System.Windows.MessageBox]::Show(
-        "El Configurador ya está abierto.",
+        "El Configurador ya esta abierto.",
         "Configurador 2026UNI",
         'OK', 'Information'
     )
@@ -62,14 +62,10 @@ try {
             
             <CheckBox x:Name="ChkZGC" Content="Usar ZGC (recolector de basura de baja latencia)" Foreground="#CCCCCC" Cursor="Hand" IsChecked="True" Margin="0,0,0,15" />
             
-            <Grid Margin="0,0,0,15">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="Auto" />
-                </Grid.ColumnDefinitions>
-                <Slider x:Name="SliderRAM" Minimum="4" Maximum="10" Value="7" IsSnapToTickEnabled="True" TickFrequency="1" TickPlacement="BottomRight" Cursor="Hand" Grid.Column="0" Margin="0,0,10,0"/>
-                <TextBlock x:Name="TxtRAMInfo" Text="Calculando..." Foreground="#888888" FontSize="12" Grid.Column="1" VerticalAlignment="Center" />
-            </Grid>
+            <StackPanel Margin="0,0,0,15">
+                <Slider x:Name="SliderRAM" Minimum="4" Maximum="10" Value="7" IsSnapToTickEnabled="True" TickFrequency="1" TickPlacement="BottomRight" Cursor="Hand" Margin="0,0,0,5"/>
+                <TextBlock x:Name="TxtRAMInfo" Text="Calculando..." Foreground="#888888" FontSize="12" HorizontalAlignment="Center" />
+            </StackPanel>
             
             <Button x:Name="BtnAplicarRAM" Content="Aplicar RAM" Background="#222222" Foreground="#CCCCCC" Height="38" Margin="0,0,0,20" />
             
@@ -77,10 +73,10 @@ try {
             
             <Expander x:Name="ExpanderAvanzado" Header="Herramientas avanzadas" Foreground="#888888" Cursor="Hand" Margin="0,0,0,20">
                 <StackPanel Margin="0,10,0,0">
-                    <Button x:Name="BtnRestoreAll" Content="Restaurar TODO (graficos)" Background="#1A1A1A" Foreground="#AAAAAA" Height="30" Margin="0,0,0,5" />
+                    <Button x:Name="BtnRestoreAll" Content="Restaurador General" Background="#1A1A1A" Foreground="#AAAAAA" Height="30" Margin="0,0,0,5" />
                     <Button x:Name="BtnFixEmbeddium" Content="Reparar Embeddium" Background="#1A1A1A" Foreground="#AAAAAA" Height="30" Margin="0,0,0,5" />
                     <Button x:Name="BtnFixOculus" Content="Reparar Oculus/Shaders" Background="#1A1A1A" Foreground="#AAAAAA" Height="30" Margin="0,0,0,5" />
-                    <Button x:Name="BtnFixOptions" Content="Reparar Controles (options.txt)" Background="#1A1A1A" Foreground="#AAAAAA" Height="30" />
+                    <Button x:Name="BtnFixOptionsTxt" Content="Reparar options.txt" Background="#1A1A1A" Foreground="#AAAAAA" Height="30" />
                 </StackPanel>
             </Expander>
             
@@ -112,7 +108,7 @@ try {
     $btnRestoreAll = $window.FindName("BtnRestoreAll")
     $btnFixEmbeddium = $window.FindName("BtnFixEmbeddium")
     $btnFixOculus = $window.FindName("BtnFixOculus")
-    $btnFixOptions = $window.FindName("BtnFixOptions")
+    $btnFixOptionsTxt = $window.FindName("BtnFixOptionsTxt")
     $btnSalir = $window.FindName("BtnSalir")
 
     # Inicialización de estado de RAM y GC
@@ -148,7 +144,7 @@ try {
         $msg = "$val GB seleccionados"
         if ($chkZGC.IsChecked -eq $true -and $val -lt 6) {
             $txtRAMInfo.Foreground = "#FFAA00" # Warning color
-            $txtRAMInfo.Text = "⚠️ $msg (ZGC recomienda 6+ GB)"
+            $txtRAMInfo.Text = " $msg (ZGC recomienda 6+ GB)"
         } else {
             $txtRAMInfo.Foreground = "#888888"
             $txtRAMInfo.Text = $msg
@@ -157,10 +153,31 @@ try {
     
     Update-TxtRAMInfo
 
+    # Función para actualizar colores de los botones
+    function Update-ProfileButtons {
+        $perfilActivo = Get-PerfilActivo
+        $bc = New-Object System.Windows.Media.BrushConverter
+        if ($perfilActivo -eq "Normal") {
+            $btnNormal.Background = $bc.ConvertFromString("#BF1515")
+            $btnNormal.Foreground = $bc.ConvertFromString("White")
+            $btnLite.Background = $bc.ConvertFromString("#222222")
+            $btnLite.Foreground = $bc.ConvertFromString("#CCCCCC")
+        } else {
+            $btnNormal.Background = $bc.ConvertFromString("#222222")
+            $btnNormal.Foreground = $bc.ConvertFromString("#CCCCCC")
+            $btnLite.Background = $bc.ConvertFromString("#BF1515")
+            $btnLite.Foreground = $bc.ConvertFromString("White")
+        }
+    }
+
+    # Inicialización visual de perfiles
+    Update-ProfileButtons
+
     # Wiring de eventos
     $btnNormal.Add_Click({
         if (Set-Perfil -Nombre "Normal") {
-            [System.Windows.MessageBox]::Show("Perfil Normal aplicado.", "Éxito", 'OK', 'Information')
+            Update-ProfileButtons
+            [System.Windows.MessageBox]::Show("Perfil Normal aplicado.", "Exito", 'OK', 'Information')
         } else {
             [System.Windows.MessageBox]::Show("Error al aplicar perfil Normal.", "Error", 'OK', 'Error')
         }
@@ -168,7 +185,8 @@ try {
 
     $btnLite.Add_Click({
         if (Set-Perfil -Nombre "Lite") {
-            [System.Windows.MessageBox]::Show("Perfil Lite aplicado.", "Éxito", 'OK', 'Information')
+            Update-ProfileButtons
+            [System.Windows.MessageBox]::Show("Perfil Lite aplicado.", "Exito", 'OK', 'Information')
         } else {
             [System.Windows.MessageBox]::Show("Error al aplicar perfil Lite.", "Error", 'OK', 'Error')
         }
@@ -189,23 +207,69 @@ try {
 
     $btnAplicarRAM.Add_Click({
         if (Set-RAM -GB $sliderRAM.Value) {
-            [System.Windows.MessageBox]::Show("RAM aplicada correctamente.", "Éxito", 'OK', 'Information')
+            [System.Windows.MessageBox]::Show("RAM aplicada correctamente.", "Exito", 'OK', 'Information')
         } else {
             [System.Windows.MessageBox]::Show("Error al aplicar RAM.", "Error", 'OK', 'Error')
         }
     })
 
     $btnRestoreAll.Add_Click({
-        if (Restore-TodosLosGraficos) { [System.Windows.MessageBox]::Show("Todos los gráficos restaurados.", "Éxito", 'OK', 'Information') }
+        $msg = "Esta herramienta realizara una restauracion general de las configuraciones del modpack.`n`n" +
+               "Se restableceran a su estado oficial del servidor:`n" +
+               "- config (configuraciones de mods)`n" +
+               "- mods (limpieza automatica de mods no oficiales o conflictivos)`n" +
+               "- options.txt (volumen, FOV, brillo, graficos basicos y orden de texturas)`n" +
+               "- emojiful (restablecer emojis)`n`n" +
+               "Garantias de seguridad:`n" +
+               "* NO se eliminaran tus mundos ni capturas de pantalla.`n" +
+               "* NO se eliminaran tus paquetes de recursos (.zip) descargados.`n" +
+               "* SmartKeySync: Se conservaran intactos tus atajos de teclado y candados (client.json).`n`n" +
+               "Deseas continuar con la restauracion general?"
+
+        $result = [System.Windows.MessageBox]::Show(
+            $msg,
+            "Confirmacion - Restaurador General",
+            'YesNo', 'Warning'
+        )
+        if ($result -eq 'Yes') {
+            if (Restore-TodosLosGraficos) {
+                [System.Windows.MessageBox]::Show("Todas las configuraciones fueron restauradas exitosamente.", "Exito", 'OK', 'Information')
+            } else {
+                [System.Windows.MessageBox]::Show("La restauracion finalizo con advertencias. Revisa los registros.", "Advertencia", 'OK', 'Warning')
+            }
+        }
     })
     $btnFixEmbeddium.Add_Click({
-        if (Restore-Embeddium) { [System.Windows.MessageBox]::Show("Embeddium restaurado.", "Éxito", 'OK', 'Information') }
+        if (Restore-Embeddium) { [System.Windows.MessageBox]::Show("Embeddium restaurado.", "Exito", 'OK', 'Information') }
     })
     $btnFixOculus.Add_Click({
-        if (Restore-Oculus) { [System.Windows.MessageBox]::Show("Oculus restaurado.", "Éxito", 'OK', 'Information') }
+        if (Restore-Oculus) { [System.Windows.MessageBox]::Show("Oculus restaurado.", "Exito", 'OK', 'Information') }
     })
-    $btnFixOptions.Add_Click({
-        if (Restore-OptionsTxt) { [System.Windows.MessageBox]::Show("Controles (options.txt) restaurados.", "Éxito", 'OK', 'Information') }
+    $btnFixOptionsTxt.Add_Click({
+        $msg = "Esta herramienta restaurara el archivo options.txt a la plantilla oficial del perfil activo.`n`n" +
+               "Elementos que se restableceran:`n" +
+               "- Volumen maestro, musica, criaturas, bloques, clima y categorias de audio`n" +
+               "- Campo de vision (FOV) y nivel de brillo (gamma)`n" +
+               "- Sensibilidad del mouse y opciones de accesibilidad (distorsion de efectos, subtitulos)`n" +
+               "- Graficos basicos (distancia de renderizado, nubes, balanceo de camara, limite de FPS)`n" +
+               "- Asignacion y jerarquia de paquetes de recursos predeterminados del servidor`n`n" +
+               "Garantias de seguridad:`n" +
+               "* NO se borrara ningun archivo de paquetes de recursos (.zip) en la carpeta resourcepacks.`n" +
+               "* NO se perderan tus atajos de teclado: SmartKeySync restaura el mapeo oficial y protege las teclas aseguradas con candado.`n`n" +
+               "Deseas restaurar options.txt ahora?"
+
+        $result = [System.Windows.MessageBox]::Show(
+            $msg,
+            "Confirmacion - Reparar options.txt",
+            'YesNo', 'Question'
+        )
+        if ($result -eq 'Yes') {
+            if (Restore-OptionsTxt) {
+                [System.Windows.MessageBox]::Show("El archivo options.txt ha sido restaurado exitosamente.", "Exito", 'OK', 'Information')
+            } else {
+                [System.Windows.MessageBox]::Show("No se pudo restaurar options.txt. Verifica que exista la plantilla en presets_graficos.", "Error", 'OK', 'Error')
+            }
+        }
     })
 
     $btnSalir.Add_Click({
@@ -214,9 +278,9 @@ try {
 
     $window.ShowDialog() | Out-Null
 } catch {
-    Write-Log -Mensaje "Error crítico: $($_.Exception.Message)" -Nivel ERROR
+    Write-Log -Mensaje "Error critico: $($_.Exception.Message)" -Nivel ERROR
     [System.Windows.MessageBox]::Show(
-        "Ocurrió un error inesperado. Revisa logs/ para más detalles.",
+        "Ocurrio un error inesperado. Revisa logs/ para mas detalles.",
         "Error - Configurador 2026UNI",
         'OK', 'Error'
     )

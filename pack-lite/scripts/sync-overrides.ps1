@@ -1,31 +1,24 @@
 <#
 .SYNOPSIS
-    Sincroniza las carpetas del pack desde tu instancia real de Minecraft a pack/ o pack-lite/.
+    Sincroniza las carpetas del pack desde tu instancia real de Minecraft a pack/.
 .DESCRIPTION
     Copia las carpetas y archivos que deben sincronizarse (config, resourcepacks,
-    shaderpacks, options.txt, etc.) desde tu instancia Cliente Madre al directorio
-    pack/ o pack-lite/ del proyecto para que packwiz las distribuya.
-
-    -Perfil Normal  → 2026UNI        → pack/
-    -Perfil Lite    → 2026UNI_Lite   → pack-lite/
+    shaderpacks, options.txt, etc.) desde tu instancia 2026UNI real al directorio
+    pack/ del proyecto para que packwiz las distribuya.
 
     NO copia: logs, saves, screenshots, waypoints, datos de caché, ni datos personales.
 .NOTES
     Ejecutar desde la raíz del proyecto o desde scripts/.
-    Después de sincronizar, corre: packwiz refresh (desde la carpeta de destino)
+    Después de sincronizar, corre: packwiz refresh (desde pack/)
 #>
 
 [CmdletBinding()]
 param(
-    # Perfil a sincronizar: Normal (default) o Lite
-    [ValidateSet("Normal","Lite")]
-    [string]$Perfil = "Normal",
-
-    # Ruta a la instancia real de Minecraft (auto-detecta según -Perfil si no se especifica)
-    [string]$SourceInstance = "",
+    # Ruta a la instancia real de Minecraft (auto-detecta si no se especifica)
+    [string]$SourceInstance = "$env:APPDATA\.minecraft\2026UNI",
     
-    # Ruta al directorio pack del proyecto (auto-detecta según -Perfil si no se especifica)
-    [string]$PackDir = "",
+    # Ruta al directorio pack/ del proyecto
+    [string]$PackDir = "$PSScriptRoot\..\pack",
     
     # Si está activo, muestra qué haría sin copiar nada
     [switch]$DryRun
@@ -37,22 +30,6 @@ $ErrorActionPreference = "Stop"
 $helpersPath = Join-Path $PSScriptRoot "console-helpers.ps1"
 if (Test-Path $helpersPath) { . $helpersPath }
 
-# === Auto-detectar rutas según el perfil ===
-if ($SourceInstance -eq "") {
-    $SourceInstance = if ($Perfil -eq "Lite") {
-        "$env:APPDATA\.minecraft\2026UNI_Lite"
-    } else {
-        "$env:APPDATA\.minecraft\2026UNI"
-    }
-}
-if ($PackDir -eq "") {
-    $PackDir = if ($Perfil -eq "Lite") {
-        "$PSScriptRoot\..\pack-lite"
-    } else {
-        "$PSScriptRoot\..\pack"
-    }
-}
-
 # === Validaciones ===
 if (-not (Test-Path $SourceInstance)) {
     Write-ErrorMsg "No se encontró la instancia en: $SourceInstance"
@@ -62,7 +39,7 @@ if (-not (Test-Path $SourceInstance)) {
 
 $PackDir = Resolve-Path $PackDir -ErrorAction SilentlyContinue
 if (-not $PackDir) {
-    $PackDir = if ($Perfil -eq "Lite") { "$PSScriptRoot\..\pack-lite" } else { "$PSScriptRoot\..\pack" }
+    $PackDir = "$PSScriptRoot\..\pack"
     if (-not (Test-Path $PackDir)) {
         New-Item -ItemType Directory -Path $PackDir -Force | Out-Null
     }
@@ -88,16 +65,13 @@ $SyncFolders = @(
     "fancymenu_data",
     "otyacraftengine",
     "resourcepacks",
-    "shaderpacks",
-    "scripts",
-    "presets_graficos"
+    "shaderpacks"
 )
 
 # === Archivos individuales a sincronizar ===
 $SyncFiles = @(
     "options.txt",
-    "servers.dat",
-    "Configurador Grafico.bat"
+    "servers.dat"
 )
 
 # === Carpetas a EXCLUIR siempre (dentro de las carpetas sincronizadas) ===
@@ -143,20 +117,15 @@ foreach ($folder in $SyncFolders) {
         Write-Warn "[DRY]  $folder/ - $itemCount archivos"
     }
     else {
-        # Para presets_graficos NO excluimos los JSON/Properties ya que ah s los necesitamos
-        $currentExcludeFiles = $ExcludeFiles
-        if ($folder -eq "presets_graficos") {
-            $currentExcludeFiles = $ExcludeFiles | Where-Object { $_ -notin @("oculus.properties", "embeddium-options.json") }
-        }
-
         $robocopyArgs = @(
             $sourcePath,
             $destPath,
             "/E", "/NFL", "/NDL", "/NJH", "/NJS", "/NC", "/NS", "/NP",
             "/XD"
-        ) + $ExcludeDirs + "/XF" + $currentExcludeFiles
+        ) + $ExcludeDirs + "/XF" + $ExcludeFiles
         
         Write-Info "Copiando $folder/ ($itemCount archivos)..."
+        # Eliminar destino si existe para hacer copia limpia
         if (Test-Path $destPath) {
             Remove-Item $destPath -Recurse -Force
         }

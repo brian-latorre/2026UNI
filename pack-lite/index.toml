@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "7792e42b4ecdb3b88d79001291f8608fb0ddf35c8e83bc4900a4dde3450224cb"
+hash = "787d5f23e20f97a90acd80e1b5b29cb75817d9f7ae770255b48cc2f06648765d"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -10458,7 +10458,7 @@ hash = "1fff09ffb22a8190712071190ef1cf2aa1316712596657339f2af0dcfe349c64"
 
 [[files]]
 file = "scripts/GUI-Configurador.ps1"
-hash = "31552bee9960cc1294a121cc1b68d1fd522bdc9731bc12298674a5af72e3071f"
+hash = "931d89bd1af370269018c8ea483b9eb05db2f86f7a9b3f3b31be74883d844d3b"
 
 [[files]]
 file = "scripts/assets/icon.ico"
@@ -10469,12 +10469,20 @@ file = "scripts/auto-import-mods.py"
 hash = "c2155d70421bcde7130bd1e82f1d725cfcab2cc938c84459cd7f3ac286428bb2"
 
 [[files]]
+file = "scripts/config/embeddium-options.json"
+hash = "22143330318b63f8bbc8fb12e7c0c67ce4a13e100166cc15dfbf52b4e08747d4"
+
+[[files]]
+file = "scripts/config/oculus.properties"
+hash = "2866f13fd4c76501ff5e8a8cb1c22f4ba03b0966978e2bf9df6a168a0a87839a"
+
+[[files]]
 file = "scripts/enviar-logs.bat"
 hash = "90436d8baa1987ee4a1c674e6fb30e1143e2392403ade0473a80cb74b701f757"
 
 [[files]]
 file = "scripts/modules/Graficos.Restaurador.ps1"
-hash = "808f975808c8c64d0adcfcf131f185c3acb36f27df802958c619e328792e3cd0"
+hash = "e365dcedf0bcb95f6aaea08217ece504c03105b1734712aa96d5f061b8ba145f"
 
 [[files]]
 file = "scripts/modules/JVM.Manager.ps1"
@@ -10482,7 +10490,7 @@ hash = "3835f8c8d262e4ffd9fd5fb5b4366cf78b3a48d9070a4fa088aca89c67827568"
 
 [[files]]
 file = "scripts/modules/Perfil.Manager.ps1"
-hash = "0320236b1d1b85db5c1b67995aafb88fbc639a65bf5145c9c415b7d25849f1f7"
+hash = "b8666429da4be1b8f147008e7bef7593a380ec3f918ee7cecc87c4d3c112fc15"
 
 [[files]]
 file = "scripts/modules/UI.Theme.ps1"
