@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "787d5f23e20f97a90acd80e1b5b29cb75817d9f7ae770255b48cc2f06648765d"
+hash = "0082738a0193e463d1074f8155ae7a1eb554d1b950c4bdb10f8fb2d507fa9aac"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -8963,8 +8963,8 @@ file = "mods/Drip Sounds-0.5.2+1.20.4-Forge.jar"
 hash = "974689e190b1be0ee1e7c02778f5e2392dc80416beee923acde46d8ed51936f8"
 
 [[files]]
-file = "mods/Emojiful-Forge-1.20.1-4.3.2.jar"
-hash = "ff4647a889a5c2e28e09c2da84bf31def9d1e3060bb70b2da1b9ed92ee5dc5dc"
+file = "mods/Emojiful-Forge-1.20.1-4.3.3.jar"
+hash = "dd1a7edcc1ed3b7dc385787a319fff7dd9d93fc22a396842d78014acbc575051"
 
 [[files]]
 file = "mods/InventoryInteractions-2.0.0+1.20.1+forge.jar"

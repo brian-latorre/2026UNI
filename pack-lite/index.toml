@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "787d5f23e20f97a90acd80e1b5b29cb75817d9f7ae770255b48cc2f06648765d"
+hash = "0082738a0193e463d1074f8155ae7a1eb554d1b950c4bdb10f8fb2d507fa9aac"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -103,7 +103,7 @@ hash = "52e9c20de34fd2fd4c0410697538922c8a63591da58117c40c88c681e08f7264"
 
 [[files]]
 file = "config/adorablehamsterpets/announcements.json"
-hash = "639ee4d682a312cbd15de248341c38b9956ab81156af2d9bdf45e3cf4ddcbb52"
+hash = "ea55c225f8ecc54bd828cccb5c87ecab49598c21db59762bf4223b36d66b0d0b"
 
 [[files]]
 file = "config/adorablehamsterpets/items.toml"
@@ -119,7 +119,7 @@ hash = "bd4c563fc46fb718847146a1ef8d70d4a30c0de294c88446379ecfc9d0efe2fe"
 
 [[files]]
 file = "config/adorablehamsterpets/manifest.cache.json"
-hash = "ab104656558174fa0ee885535a9fd6c0c53ad6329611c9f479540f048ed8eecd"
+hash = "a31e90a7fd4d9ae18b731afb91d213b6540afd4fd7028e29e5a6f11753839256"
 
 [[files]]
 file = "config/adorablehamsterpets/perks.cache.json"
@@ -643,7 +643,7 @@ hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
 
 [[files]]
 file = "config/biomeswevegone/world_generation.json"
-hash = "50b760ffbc0d9d309063b8a59249498455584732d46e4e8b45bf45bdfa148678"
+hash = "5ab08dae537d43aef3f217e3a7a17608d39f1be082960fe4abd545d0697a72dc"
 
 [[files]]
 file = "config/blessfulled-client.toml"
@@ -751,7 +751,7 @@ hash = "7dd7dc266613f18011a9a5ba624e50c35374ad2b39ea379231c3c44e7b2261b3"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "9d1b1e49079dd7cefccacc75f21d95493d65e155b24e605e2daeeffc8a674519"
+hash = "39d0028c2e72186ef3431754d70e425179b4f2f4be5842522ee8b6bebdc66ad5"
 
 [[files]]
 file = "config/collective.json5"
@@ -985,7 +985,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "62c4e7dfad4ce2e4cbb0231221a710a6d381ae05537665c6bf3b7b8e4768cc64"
+hash = "8a59a3a394a13c78a8a2b9ef91eacf9b1937c762cfe8aac84a1a314efea62981"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -1121,7 +1121,7 @@ hash = "e1f7ac719661bd2da00232afeb33c78ec424a2cb3c1fce6439d538568139dc46"
 
 [[files]]
 file = "config/fancymenu/customization/mainmenu.txt"
-hash = "a72cbe5d1d59d84cbabb0fa2b8e9b427f3c8cbf1066bb488d417bba0fb181deb"
+hash = "6964daae6becac86b5af1b0f7fc90d60f37d7f9eb148f3043a5af8e3d81e5cdc"
 
 [[files]]
 file = "config/fancymenu/customization/menucarga.txt"
@@ -3484,7 +3484,7 @@ hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "feb0b6fde8d3260d9062e7f3eb024e4f347b89f0f54c136086cc4cbeb3581927"
+hash = "d0672e6424c58cd1de7b917b6bc62ce793109459eb2e6db6ca212dedeb9a2f65"
 preserve = true
 
 [[files]]
@@ -3841,7 +3841,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "6c7584e217a34db4a95dc4509dbc65e9d0a88e872cb1f31a1aa0d02b253f68b3"
+hash = "96500437c57f98f97cb7a78bd85156cf9302ca821999cd1ba7a0db37a32bcc82"
 
 [[files]]
 file = "config/simplehats.json"
@@ -8833,7 +8833,7 @@ hash = "2adb3a142cadeb3221650a226daffcb5ea125281c02ec5d389f4c052b56ed202"
 
 [[files]]
 file = "fancymenu_data/buddy/buddy_save_ZGUyNGY3MDEtMDQ2Zi00OGMyLThiNjEtMWI4M2E5YzBmNTg3LTE3Nzk5MTA4OTI5Nzc.json"
-hash = "8b61dbf8ec831c65184dd645829ca6d62478c8bbbf61a6e689d08290a2945a75"
+hash = "6db2897ba1a15afb51ae14050bdde39e91f2236b178c1162f2fdd657ec38960b"
 
 [[files]]
 file = "mods/.gitkeep"
@@ -8856,8 +8856,8 @@ file = "mods/Compat_FarmersDelight.jar"
 hash = "0a4cb953e7da508f2031d03c40c20eacd8ef2c9227e8eaba67610fef50245443"
 
 [[files]]
-file = "mods/Emojiful-Forge-1.20.1-4.3.2.jar"
-hash = "ff4647a889a5c2e28e09c2da84bf31def9d1e3060bb70b2da1b9ed92ee5dc5dc"
+file = "mods/Emojiful-Forge-1.20.1-4.3.3.jar"
+hash = "dd1a7edcc1ed3b7dc385787a319fff7dd9d93fc22a396842d78014acbc575051"
 
 [[files]]
 file = "mods/JustEnoughProfessions-forge-1.20.1-3.0.1.jar"
@@ -10318,7 +10318,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "d7f160b0dfa0f6b746c15350ed139544b7730c90b7aed9051dca82cb099ff429"
+hash = "d23a7c7d79aa3a86bc3e18fc88dee26356029679323f4b454ed16b8a9869ce90"
 
 [[files]]
 file = "otyacraftengine/url_textures_index.json"
@@ -10330,11 +10330,11 @@ hash = "8161ef36922a7ccd0e17c7f3755c73680f5705f926836951baae5a787096aa35"
 
 [[files]]
 file = "presets_graficos/Lite/oculus.properties"
-hash = "feb0b6fde8d3260d9062e7f3eb024e4f347b89f0f54c136086cc4cbeb3581927"
+hash = "d0672e6424c58cd1de7b917b6bc62ce793109459eb2e6db6ca212dedeb9a2f65"
 
 [[files]]
 file = "presets_graficos/Lite/options.txt"
-hash = "d7f160b0dfa0f6b746c15350ed139544b7730c90b7aed9051dca82cb099ff429"
+hash = "d23a7c7d79aa3a86bc3e18fc88dee26356029679323f4b454ed16b8a9869ce90"
 
 [[files]]
 file = "presets_graficos/Normal/embeddium-options.json"
