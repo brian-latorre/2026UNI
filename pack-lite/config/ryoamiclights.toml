@@ -58,6 +58,9 @@
 				tnt_minecart = true
 				slime = true
 				item_frame = true
+				furnace_minecart = true
+				cave_spider = true
+				leash_knot = true
 
 			[light_sources.settings.entities.born_in_chaos_v1]
 				baby_spider = true
@@ -120,6 +123,7 @@
 				ocean_creeper = true
 				beach_creeper = true
 				desert_creeper = true
+				bamboo_creeper = true
 
 			[light_sources.settings.entities.artifacts]
 				mimic = true
@@ -187,6 +191,7 @@
 				coal_golem = true
 				barrel_golem = true
 				hay_golem = true
+				slime_golem = true
 
 			[light_sources.settings.entities.mowziesmobs]
 				ferrous_wroughtnaut = true
@@ -264,6 +269,7 @@
 			[light_sources.settings.entities.create]
 				stationary_contraption = true
 				carriage_contraption = true
+				contraption = true
 
 			[light_sources.settings.entities.ghosts]
 				kodama = true

@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "0082738a0193e463d1074f8155ae7a1eb554d1b950c4bdb10f8fb2d507fa9aac"
+hash = "5f0ef5cb34d00d52d548d05e5f5d60e89134550e9b00ef661a055bfd51b12a02"
 
 [[files]]
 file = "config/ButchersDelight.json"
@@ -123,7 +123,7 @@ hash = "a31e90a7fd4d9ae18b731afb91d213b6540afd4fd7028e29e5a6f11753839256"
 
 [[files]]
 file = "config/adorablehamsterpets/perks.cache.json"
-hash = "d353e7741d14175819adf203f7c9c67d1943f7d2484515e09d97e24109014be6"
+hash = "dc089a7c5be0123db7e349725a46bbf7b58978f1aea269850d23b78d4f681987"
 
 [[files]]
 file = "config/adorablehamsterpets/root.toml"
@@ -607,7 +607,7 @@ hash = "5c808677268b0abe456c152cdac2be0f664e31a52b47b43c1a504048c42df7ec"
 
 [[files]]
 file = "config/better_looting.toml"
-hash = "bf91c919d232d93b182cc37a51bb5e95d8fbba59e634d52c40127ede8fb62efe"
+hash = "9f5f0ea950f42b12da789f5878df777d9615c6e21e6017e0eab24edc6920c3d7"
 
 [[files]]
 file = "config/better_looting/skins/README.txt"
@@ -912,7 +912,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "8161ef36922a7ccd0e17c7f3755c73680f5705f926836951baae5a787096aa35"
+hash = "fb857b8602ec48cb5da0f73d39725a2fa0ff66b339a706c7d9a35cf3055f314a"
 preserve = true
 
 [[files]]
@@ -985,7 +985,7 @@ hash = "25f630dad1a4e9cb57fa4709900f3636dd7f652beec232143599d317fb34a364"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "8a59a3a394a13c78a8a2b9ef91eacf9b1937c762cfe8aac84a1a314efea62981"
+hash = "6376cb2a039b061e22be67f0d6f27b94e81d80156608a6302346bc2956cde2f8"
 
 [[files]]
 file = "config/fancymenu/assets/3d3574d190ac34e8ae0eedac91a707946a07da75a40b62.65169923.png"
@@ -3292,7 +3292,7 @@ hash = "3ca754fefc49ea02e5203353bc3390e520e6717dd8b148aa07042f0b48a78621"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "a82f3c7000875d87820a8b37bd1f21169ae4a1fb348940ff83cfef06f62a5486"
+hash = "182938a9f7491d3bf5349978abab25e784aa7433838bfbf494f9fe990cf3bbf3"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -3300,7 +3300,7 @@ hash = "08a28c18a24eced00d5ea31438e7d2a595657cc5cd66e3dba53a1daf3a498021"
 
 [[files]]
 file = "config/jei/jei-client.ini"
-hash = "87a76dc4ca765111589e1bea6972fae76fb483431b5b24c3ede1651a2b4caa33"
+hash = "ccbda75ca47d17f0bc16a19bf29544f4f47ef2b3176ce53e40ed1254c34751a5"
 
 [[files]]
 file = "config/jei/jei-colors.ini"
@@ -3316,7 +3316,7 @@ hash = "64eadca7fa07c15de7fd549c4cc4782bf8678d8a49d1626b0805e337d604ccb7"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "975e561cd61c76d63be3fb12448b502f0414db96005c54bc7d70253874f47645"
+hash = "d9d7e671c117f8f0595ed6bbb68c84d11bae14263c1ce2406c044bd400068e78"
 
 [[files]]
 file = "config/jei/world/local/Mundo nuevo/lookupHistory.ini"
@@ -3340,7 +3340,7 @@ hash = "375d0b0d8e527e263544af72ca8688fe46a9747b803160cba63e14097a9d4f64"
 
 [[files]]
 file = "config/jei/world/server/UNI_2026_75a56078/lookupHistory.ini"
-hash = "c08884d6b807710f749ffde9c60721b5126db35743c2d4168c3664da18f7c659"
+hash = "e77de1b1bb4fd4246641a29846ba55a633fa9e46feaf022a62566b11a23ea971"
 
 [[files]]
 file = "config/jeresources-common.toml"
@@ -3484,7 +3484,7 @@ hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "d0672e6424c58cd1de7b917b6bc62ce793109459eb2e6db6ca212dedeb9a2f65"
+hash = "46f8494ffd5d3a1206c2e31a54249ab3863d21e29ac12cc54620259ddff3abb6"
 preserve = true
 
 [[files]]
@@ -3701,7 +3701,7 @@ hash = "b66b83f88641c70f922764c367c9d625412b7614297170ff58f07ba987cd3fcc"
 
 [[files]]
 file = "config/punchy/merged_animation_selection.json"
-hash = "77d9559a19f69d73f952177d2047760a9e55be219fee015658effaaa8783eb46"
+hash = "be22c8354a36fda7b75c34d3b8485eb55b884286ad0913ce6930e04174ff7a45"
 
 [[files]]
 file = "config/punchy/profiles/.active_profile"
@@ -3777,7 +3777,7 @@ hash = "6aabca854e0ba78b67b3e31a6332ddc4a9adefe3cc305ddd59f739b38d995660"
 
 [[files]]
 file = "config/ryoamiclights.toml"
-hash = "d14890fd472bfccf4f548f55073e42b0492cd99d0246b51da714f36b6cc47af0"
+hash = "ff5dcb8b05633d2a25a4ccf388002f69befa7d374ec243bb33bbfdcffb7ed60f"
 
 [[files]]
 file = "config/saintsdragons/client/clientcommon.toml"
@@ -3841,7 +3841,7 @@ hash = "483f1a0209c8509c1505b15bed44108ee57e8b233152dafa1be0311c686d941a"
 
 [[files]]
 file = "config/showmeyourskin.json"
-hash = "96500437c57f98f97cb7a78bd85156cf9302ca821999cd1ba7a0db37a32bcc82"
+hash = "c34ae599f33d4f3321df90129ed8a9acebde35f618b353a963cc4a2060c90aeb"
 
 [[files]]
 file = "config/simplehats.json"
@@ -3869,7 +3869,7 @@ hash = "ac1a4e660c8a567b4c945962d063eeced1a0040615214ea4aebb947ff6af7d33"
 
 [[files]]
 file = "config/smartkeysync/master.json"
-hash = "d7edb48a3350cb1a65f7858d91b9c0e97249985c217616489f88ac50b1e4ba44"
+hash = "74c70d63513d00a358e65c13b0528af25c55d949206a0432e445a85f8b1fe98c"
 
 [[files]]
 file = "config/smoothboot.json"
@@ -4141,7 +4141,7 @@ hash = "b77dafed5fd71bd397ef69449c0aeda236664fd0eed8ab8030a9d305fa2c6a25"
 
 [[files]]
 file = "config/subtle_effects/general.toml"
-hash = "2c16825abdfad0922232814dbdc9110a85abb26fbc9df4238b86b6a0bf09ce6b"
+hash = "8ce90b8b0aa79d981d9005f1ef2b744ae74f35e27147bef94de128e8866b3c20"
 
 [[files]]
 file = "config/subtle_effects/items.toml"
@@ -4413,7 +4413,7 @@ hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "config/xaero/minimap/profiles/changes.cfg"
-hash = "c2e8f9a62d12713215fd695af9a2afe5f3e57fd25fbf5bf761bb9e449c2b0429"
+hash = "10056c0ac25fa3ee666b563bd15fd3c815b3f52de522736fe92a4b60d6bfd843"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
@@ -4421,7 +4421,7 @@ hash = "e614d9367c183f482bafc627bbd9f99e791568d137f026961a105a68c1bacc1e"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/changes.cfg.json"
-hash = "205d3830278b838cedaffb9c19c4d60031a7ce82a472be362b3b69da0ff1adda"
+hash = "89bf05e8cb9c07f60321d23d8bde85c478266c8926fc6c2d0e3009efbe06e00e"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
@@ -10318,7 +10318,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "d23a7c7d79aa3a86bc3e18fc88dee26356029679323f4b454ed16b8a9869ce90"
+hash = "651d846b185ac7f3ee6505266eccf6ac56dab648c009c34ca5da4177b00cbd1e"
 
 [[files]]
 file = "otyacraftengine/url_textures_index.json"
@@ -10326,15 +10326,15 @@ hash = "a1798745b19afc1bd05913c0a25438d5c5e9dc8e2ff39e3c1ac73a5850b5cf5b"
 
 [[files]]
 file = "presets_graficos/Lite/embeddium-options.json"
-hash = "8161ef36922a7ccd0e17c7f3755c73680f5705f926836951baae5a787096aa35"
+hash = "fb857b8602ec48cb5da0f73d39725a2fa0ff66b339a706c7d9a35cf3055f314a"
 
 [[files]]
 file = "presets_graficos/Lite/oculus.properties"
-hash = "d0672e6424c58cd1de7b917b6bc62ce793109459eb2e6db6ca212dedeb9a2f65"
+hash = "46f8494ffd5d3a1206c2e31a54249ab3863d21e29ac12cc54620259ddff3abb6"
 
 [[files]]
 file = "presets_graficos/Lite/options.txt"
-hash = "d23a7c7d79aa3a86bc3e18fc88dee26356029679323f4b454ed16b8a9869ce90"
+hash = "651d846b185ac7f3ee6505266eccf6ac56dab648c009c34ca5da4177b00cbd1e"
 
 [[files]]
 file = "presets_graficos/Normal/embeddium-options.json"
@@ -10421,6 +10421,10 @@ file = "resourcepacks/Fancy_Beds-v4.2.zip"
 hash = "a3fc397bd86e97077fb741812c071af2d172b57576c18bfafeec0bbb237ebbad"
 
 [[files]]
+file = "resourcepacks/HyperPunchy-v2.5+.zip"
+hash = "2b611e5a470538d2bfb3d161868f2a1a528ad20cdaf6cb817dc70af0c2fdc83d"
+
+[[files]]
 file = "resourcepacks/Icon - Xaero X FA - v2.4 (1.20.x).zip"
 hash = "bae6f54e79208f1ed912c5a3e08ee879355cbc001852b017387b6ad79a7e4cdc"
 
@@ -10451,6 +10455,10 @@ hash = "308e1456d091021b294fd6ebd2ac3758829fad9f1380869265e6585d21181bf2"
 [[files]]
 file = "resourcepacks/mod-descriptions-v12.0.zip"
 hash = "92f332b28a208b03c82625ee2d777b1fe76f319b83db6baa11f4a0336e3b12f5"
+
+[[files]]
+file = "resourcepacks/§5Untitled §6Punchies §fv1.1.zip"
+hash = "a575257e808b970389dbdf51bbdc35f7db566fa8c9813f191749214653714f00"
 
 [[files]]
 file = "resourcepacks/§6§lPunchy - Shubba Totem §7.zip"

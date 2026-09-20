@@ -6,7 +6,7 @@ hash = "2b8df91dbbaffcea08de3f1bd19eb13340a1a9ba9bedcf67aa16c925b408730f"
 
 [[files]]
 file = "config/2026UNI/version.json"
-hash = "0082738a0193e463d1074f8155ae7a1eb554d1b950c4bdb10f8fb2d507fa9aac"
+hash = "5f0ef5cb34d00d52d548d05e5f5d60e89134550e9b00ef661a055bfd51b12a02"
 
 [[files]]
 file = "config/ButchersDelight.json"
